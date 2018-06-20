@@ -1,0 +1,22 @@
+state={	
+	id=936
+	name="STATE_936"
+	manpower = 31874
+	state_category = rural
+
+	history={
+		owner = MON
+		victory_points = {
+			7885 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = MON
+	}
+
+	provinces={
+		1743 1868 4792 4873 7823 7885 10575 10578 10647 10708 12533 12557 12629 12665
+	}
+}

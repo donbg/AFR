@@ -1,0 +1,341 @@
+﻿capital = 341
+
+oob = "TUR_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	# Situational
+	TUR_sick_man_of_europe
+	TUR_opda_idea
+	# Laws
+	civilian_economy
+	export_focus
+	volunteer_only
+	normal_popularity
+	# Ministers
+	TUR_Prens_Sabahaddin_Efendi_hog_sli
+	TUR_Osman_Kemal_Bey_for_sli
+	TUR_Resad_Muhlis_Bey_eco_sli
+	TUR_Agaoglu_Ahmed_Pasa_sec_sli
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	tech_recon = 1
+	gw_artillery = 1
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 3
+		}
+		libertarian_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 3
+		}
+		social_liberal = {
+			popularity = 42
+		}
+		market_liberal = {
+			popularity = 1
+		}
+		social_conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 22
+		}
+		paternal_autocrat = {
+			popularity = 5
+		}
+		national_populist = {
+			popularity = 10
+		}
+		valkist = {
+			popularity = 2
+		}
+	}
+	
+	ruling_party = social_liberal
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 20
+
+set_stability = 0.45
+set_war_support = 0.30
+
+country_event = { id = tur.1 days = 1 } #intro event
+
+create_country_leader = {
+	name = "Şefik Hüsnü Bey"
+	desc = "POLITICS_ŞEFİK_HÜSNÜ_DESC"
+	picture = "Picture_TUR_Sefik_Husnu.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nâzım Hikmet Bey"
+	desc = "POLITICS_NAZIM_HİKMET_DESC"
+	picture = "Portrait_Turkey_Nazim_Hikmet.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Reşad Fuad Bey"
+	desc = "POLITICS_REŞAD_FUAD_DESC"
+	picture = "Picture_Turkey_Resat_Fuat.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abdülmecid II"
+	desc = "POLITICS_ABDULMECID_DESC"
+	picture = "Portrait_Turkey_Abdulmecid.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ali Adnan Bey"
+	desc = "POLITICS_ADNAN_MENDERES_DESC"
+	picture = "Portrait_Turkey_Ali_Adnan.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Mehmed Cavid Bey"
+	desc = "POLITICS_MEHMET_CAVID_DESC"
+	picture = "Portrait_Turkey_Mehmed_Cavid.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Mustafa İsmet Paşa"
+	desc = "POLITICS_ISMET_INONU_DESC"
+	picture = "Portrait_Turkey_Ismet_Pasa.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abdülmecid II"
+	desc = "POLITICS_ABDULMECID_DESC"
+	picture = "Portrait_Turkey_Abdulmecid.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Hüseyin Nihâl Bey"
+	desc = "POLITICS_NIHAL_ATSIZ_DESC"
+	picture = "Portrait_Nihal_Atsiz.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		
+	}
+}
+
+## Field Marshals
+
+create_field_marshal = {
+	name = "Osman Fuad Efendi"
+	picture = "Portrait_Turkey_Osman_Fuad.tga"
+	id = 680
+	traits = {
+		politically_connected
+		war_hero
+		offensive_doctrine
+		inspirational_leader
+		cavalry_leader
+	}
+	skill = 4
+	attack_skill = 6
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 5
+}
+
+## Corps Commanders
+
+create_corps_commander = {
+	name = "İsmail Hakkı Paşa"
+	picture = "Portrait_Turkey_Ismail_Hakki.tga"
+	id = 5893
+	traits = {
+		war_hero
+		career_officer
+		winter_specialist
+		commando
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Kâzım Paşa"
+	picture = "Portrait_Turkey_Kazim_Karabekir.tga"
+	id = 8490
+	traits = {
+		trait_reckless
+		infantry_officer
+		winter_specialist
+		commando
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ömer Faruk Efendi"
+	picture = "Portrait_Turkey_Omer_Faruk.tga"
+	id = 550
+	traits = {
+		politically_connected
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ömer Fahrettin Paşa"
+	picture = "Portrait_Turkey_Omer_Fahrettin.tga"
+	id = 90172
+	traits = {
+		old_guard
+		war_hero
+		desert_fox
+		commando
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Mustafa Fevzi Paşa"
+	picture = "Portrait_Turkey_Mustafa_Fevzi.tga"
+	id = 679
+	traits = {
+		career_officer
+		skilled_staffer
+		expert_delegator
+	}
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mustafa İsmet Paşa"
+	picture = "Portrait_TUR_Mustafa_Ismet.tga"
+	id = 9471
+	traits = {
+		career_officer
+		infantry_officer
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+## Navy Leaders
+
+create_navy_leader = {
+	name = "Hüseyin Rauf Paşa"
+	picture = "Portrait_Turkey_Huseyin_Rauf.tga"
+	id = 1284
+	traits = {
+		superior_tactician
+	}
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "İbrahim Paşa"
+	picture = "Portrait_Turkey_Ibrahim_Aski.tga"
+	id = 674
+	traits = {
+		old_guard_navy
+		spotter
+	}
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Mahmud Muhtar Paşa"
+	picture = "Portrait_Turkey_Mahmud_Muhtar.tga"
+	id = 9841
+	traits = {
+		seawolf
+	}
+	skill = 1
+}

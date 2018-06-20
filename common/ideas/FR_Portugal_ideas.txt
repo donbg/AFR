@@ -1,0 +1,31 @@
+################
+#Portugal Ideas#
+################
+
+ideas = {
+
+	## Portugese Ideas ##
+
+	country = {
+
+		POR_naval_treaty = {
+		picture = generic_democratic_drift_bonus
+		equipment_bonus = {
+			capital_ship = {
+					instant = yes
+					build_cost_ic = 0.8
+				}
+			screen_ship = {
+					instant = yes
+					build_cost_ic = 0.8
+				}
+			}
+			research_bonus = {
+            		naval_equipment = -0.75
+        		}
+			modifier = {
+				conscription = 0.01
+			}
+		}
+	}
+}

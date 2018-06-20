@@ -1,0 +1,1083 @@
+#######################
+# United States Ideas #
+#######################
+
+ideas = {
+
+    country = {
+
+       USA_rifles_and_trucks = {
+            picture = generic_acquire_tanks
+                allowed = {
+                    always = no
+                }
+
+            equipment_bonus = {
+                infantry_equipment = {
+                build_cost_ic = -0.05 instant = yes
+                }
+            	motorized_equipment = {
+                build_cost_ic = -0.1 instant = yes
+           		}
+           	}
+        }
+
+        USA_defensive_warfare = {
+            picture = generic_wall_line
+            modifier = {
+                army_org_factor = 0.05
+                production_speed_coastal_bunker_factor = 0.1
+				production_speed_bunker_factor = 0.1
+            }
+        }
+
+        USA_federal_draft_idea = {
+            picture = generic_manpower_bonus
+            modifier = {
+                conscription = 0.025
+            }
+        }
+
+        USA_grand_strategy = {
+            picture = generic_infantry_bonus
+            modifier = {
+                max_planning = 0.2
+                planning_speed = 0.10
+            }
+        }
+
+        USA_tactical_superiority = {
+            picture = generic_infantry_bonus
+            modifier = {
+                planning_speed = 0.05
+                army_org_factor = 0.05
+            }
+        }
+
+        USA_1928_program = {
+            modifier = {
+                consumer_goods_factor = 0.1
+            }
+            equipment_bonus = {
+                capital_ship = {
+                    instant = yes
+                    build_cost_ic = -0.2
+                }
+                screen_ship = {
+                   instant = yes
+                   build_cost_ic = -0.2
+                }
+            }
+            picture = generic_navy_bonus
+        }
+
+        USA_bombers_en_masse = {
+            equipment_bonus = {
+                tac_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.15
+                }
+                strat_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.15
+                }
+            }
+            picture = generic_air_research
+        }
+
+        USA_unit_destruction = {
+            modifier = {
+                army_bonus_air_superiority_factor = 0.1
+                air_cas_efficiency = 0.1
+                air_superiority_detect_factor = 0.05
+            }
+            picture = generic_air_research
+        }
+
+        USA_endless_offensives = {
+            picture = generic_infantry_bonus
+            modifier = {
+                army_morale_factor = 0.1
+                offence = 0.10
+                defence = -0.10
+            }
+        }
+
+        USA_reorganized_logi = {
+            picture = generic_infantry_bonus
+            modifier = {
+                supply_consumption_factor = -0.1
+                out_of_supply_factor = -0.25
+            }
+        }
+
+        USA_diverse_training = {
+            picture = generic_infantry_bonus
+            modifier = {
+               attrition = -0.1
+            }
+        }
+
+        USA_failed_offensive = {
+
+            picture = generic_war_preparation
+
+            modifier = {
+                army_attack_factor = -0.25
+                army_morale_factor = -0.25
+            }
+        }
+
+        USA_malnourished_populace = {
+			picture = generic_production_bonus
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.25
+				training_time_factor = 0.2
+
+			}
+		}
+
+		USA_sick_man_america = {
+            picture = generic_wall_line
+            modifier = {
+                political_power_gain = -0.1
+                production_factory_max_efficiency_factor = -0.05
+                production_speed_buildings_factor = -0.05
+                consumer_goods_factor = 0.05
+            }
+        }
+
+        USA_national_recovery_act = {
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            modifier = {
+                political_power_gain = 0.1
+                consumer_goods_factor = -0.05
+            }
+            picture = generic_goods_red_bonus
+            removal_cost = -1
+        }
+
+        USA_public_sector_idea_1 = {
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            modifier = {
+                production_speed_buildings_factor= 0.1
+            }
+            picture = generic_goods_red_bonus
+            removal_cost = -1
+        }
+
+        USA_public_sector_idea_2 = {
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            modifier = {
+                political_power_gain = 0.1
+                production_speed_buildings_factor= 0.1
+                research_time_factor = -0.05
+            }
+            picture = generic_goods_red_bonus
+            removal_cost = -1
+        }
+
+        USA_public_sector_idea_3 = {
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            modifier = {
+                political_power_gain = 0.1
+                production_speed_buildings_factor= 0.15
+                research_time_factor = -0.05
+            }
+            picture = generic_goods_red_bonus
+            removal_cost = -1
+        }
+
+        USA_private_sector_idea_1 = {
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            modifier = {
+                consumer_goods_factor = -0.05
+            }
+            picture = generic_goods_red_bonus
+            removal_cost = -1
+        }
+
+        USA_private_sector_idea_2 = {
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            modifier = {
+                political_power_gain = 0.1
+                production_factory_max_efficiency_factor = 0.05
+                consumer_goods_factor = -0.05
+            }
+            picture = generic_goods_red_bonus
+            removal_cost = -1
+        }
+
+        USA_private_sector_idea_3 = {
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            modifier = {
+                political_power_gain = 0.1
+                production_factory_max_efficiency_factor = 0.05
+                consumer_goods_factor = -0.05
+                production_speed_buildings_factor= 0.05
+            }
+            picture = generic_goods_red_bonus
+            removal_cost = -1
+        }
+
+        USA_defend_the_interior = {
+            picture = generic_wall_line
+            modifier = {
+                production_speed_coastal_bunker_factor = 0.2
+                production_speed_bunker_factor = 0.2
+            }
+        }
+
+        USA_we_will_be_waiting = {
+            picture = generic_acquire_tanks
+            modifier = {
+                army_speed_factor = 0.1
+            }
+        }
+
+        USA_it_will_never_happen_here = {
+            picture = generic_acquire_tanks
+            modifier = {
+                army_core_defence_factor = 0.05
+                army_core_attack_factor = 0.05
+            }
+        }
+
+
+        #FUCKING DEPRESSION
+
+		USA_great_depression = {
+			picture = great_depression #generic_disjointed_gov
+			modifier = {
+				stability_factor = -0.2
+				consumer_goods_factor = 0.3
+                production_speed_buildings_factor = -0.40
+				production_factory_max_efficiency_factor = -0.2
+				political_power_gain = -0.2
+                conscription_factor = -0.5
+				research_time_factor = 0.1
+
+			}
+		}
+
+        USA_depression_long_1 = {
+            picture = great_depression
+            modifier = {
+                stability_factor = -0.15
+                consumer_goods_factor = 0.3
+                production_speed_buildings_factor = -0.40
+                production_factory_max_efficiency_factor = -0.19
+                political_power_gain = -0.2
+                conscription_factor = -0.5
+                research_time_factor = 0.1
+
+            }
+        }
+
+        USA_depression_long_2 = {
+            picture = great_depression
+            modifier = {
+                stability_factor = -0.15
+                consumer_goods_factor = 0.3
+                production_speed_buildings_factor = -0.40
+                production_factory_max_efficiency_factor = -0.09
+                political_power_gain = -0.2
+                conscription_factor = -0.5
+                research_time_factor = 0.1
+
+            }
+        }
+
+        USA_depression_fdr_1 = {
+            picture = great_depression
+            modifier = {
+                stability_factor = -0.15
+                consumer_goods_factor = 0.3
+                production_speed_buildings_factor = -0.39
+                production_factory_max_efficiency_factor = -0.2
+                political_power_gain = -0.2
+                conscription_factor = -0.5
+                research_time_factor = 0.1
+
+            }
+        }
+
+        USA_depression_fdr_2 = {
+            picture = great_depression
+            modifier = {
+                stability_factor = -0.15
+                consumer_goods_factor = 0.3
+                production_speed_buildings_factor = -0.19
+                production_factory_max_efficiency_factor = -0.2
+                political_power_gain = -0.2
+                conscription_factor = -0.5
+                research_time_factor = 0.1
+
+            }
+        }
+
+        USA_depression_landon_1 = {
+            picture = great_depression
+            modifier = {
+                stability_factor = -0.15
+                consumer_goods_factor = 0.29
+                production_speed_buildings_factor = -0.40
+                production_factory_max_efficiency_factor = -0.2
+                political_power_gain = -0.2
+                conscription_factor = -0.5
+                research_time_factor = 0.1
+
+            }
+        }
+
+        USA_depression_landon_2 = {
+            picture = great_depression
+            modifier = {
+                stability_factor = -0.15
+                consumer_goods_factor = 0.19
+                production_speed_buildings_factor = -0.40
+                production_factory_max_efficiency_factor = -0.2
+                political_power_gain = -0.2
+                conscription_factor = -0.5
+                research_time_factor = 0.1
+
+            }
+        }
+
+        USA_depression_garner_1 = {
+            picture = great_depression
+            modifier = {
+                stability_factor = -0.15
+                consumer_goods_factor = 0.3
+                production_speed_buildings_factor = -0.40
+                production_factory_max_efficiency_factor = -0.2
+                political_power_gain = -0.2
+                conscription_factor = -0.49
+                research_time_factor = 0.1
+
+            }
+        }
+
+        USA_depression_garner_2 = {
+            picture = great_depression
+            modifier = {
+                stability_factor = -0.15
+                consumer_goods_factor = 0.3
+                production_speed_buildings_factor = -0.40
+                production_factory_max_efficiency_factor = -0.2
+                political_power_gain = -0.2
+                conscription_factor = -0.29
+                research_time_factor = 0.1
+
+            }
+        }
+
+	}
+
+  #### HEADS OF GOVERNMENT ####
+
+  head_of_government = {
+
+    USA_Earl_Browder_hog = {
+      allowed = {original_tag = USA }
+      available = {
+        has_government = vanguardist
+        has_country_flag = can_replace_hog
+        NOT = {has_country_flag = Earl_Browder_dead}
+        NOT = {has_country_flag = Earl_Browder_fired}
+        NOT = {has_country_flag = ministers_cannot_be_replaced}
+      }
+      traits = {head_of_government vanguardist hog_flamboyant_tough_guy}
+      }
+
+    USA_Jack_Reed_hog = {
+      allowed = {original_tag = USA }
+      available = {
+          has_government = collectivist
+          has_country_flag = can_replace_hog
+          NOT = {has_country_flag = Jack_Reed_dead}
+          NOT = {has_country_flag = Jack_Reed_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+      }
+      traits = {head_of_government collectivist hog_political_protege}
+      }
+
+    USA_Norman_Thomas_hog = {
+        allowed = {original_tag = USA }
+        available = {
+            has_government = collectivist
+            has_country_flag = can_replace_hog
+            NOT = {has_country_flag = Norman_Thomas_dead}
+            NOT = {has_country_flag = Norman_Thomas_fired}
+            NOT = {has_country_flag = ministers_cannot_be_replaced}
+        }
+        traits = {head_of_government collectivist hog_happy_amateur}
+        }
+
+    USA_Eugene_Debs_hog = {
+        allowed = {original_tag = USA }
+        available = {
+            has_government = libertarian_socialist
+            has_country_flag = can_replace_hog
+            NOT = {has_country_flag = Eugene_Debs_dead}
+            NOT = {has_country_flag = Eugene_Debs_fired}
+            NOT = {has_country_flag = ministers_cannot_be_replaced}
+        }
+        traits = {head_of_government libertarian_socialist hog_determined_populist}
+        }
+
+      USA_Huey_Long_hog = {
+          allowed = {original_tag = USA }
+          available = {
+              has_government = social_democrat
+              has_country_flag = can_replace_hog
+              NOT = {has_country_flag = Huey_Long_dead}
+              NOT = {has_country_flag = Huey_Long_fired}
+              NOT = {has_country_flag = ministers_cannot_be_replaced}
+          }
+          traits = {head_of_government social_democrat hog_charismatic_charmer}
+          }
+
+        USA_Quentin_Roosevelt_hog = {
+            allowed = {original_tag = USA }
+            available = {
+                has_government = social_liberal
+                has_country_flag = can_replace_hog
+                NOT = {has_country_flag = Quentin_Roosevelt_dead}
+                NOT = {has_country_flag = Quentin_Roosevelt_fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government social_liberal hog_respected_war_hero}
+            }
+
+        USA_Henry_Wallace_hog = {
+            allowed = {original_tag = USA }
+            available = {
+              has_government = social_liberal
+              has_country_flag = can_replace_hog
+              NOT = {has_country_flag = Henry_Wallace_dead}
+              NOT = {has_country_flag = Henry_Wallace_fired}
+              NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government social_liberal hog_old_compromiser}
+            }
+
+        USA_Alf_Landon_hog = {
+          allowed = {original_tag = USA }
+          available = {
+            has_government = market_liberal
+            has_country_flag = can_replace_hog
+            NOT = {has_country_flag = Alf_Landon_dead}
+            NOT = {has_country_flag = Alf_Landon_fired}
+            NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government market_liberal hog_corporate_suit}
+            }
+
+        USA_Charles_Curtis_hog = {
+          allowed = {original_tag = USA }
+          available = {
+          has_government = market_liberal
+          has_country_flag = can_replace_hog
+          NOT = {has_country_flag = Charles_Curtis_dead}
+          NOT = {has_country_flag = Charles_Curtis_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          }
+          traits = {head_of_government market_liberal hog_naive_optimist}
+          }
+
+        USA_John_Nance_Garner_hog = {
+          allowed = {original_tag = USA }
+          available = {
+          has_government = social_conservative
+          has_country_flag = can_replace_hog
+          NOT = {has_country_flag = John_Nance_Garner_dead}
+          NOT = {has_country_flag = John_Nance_Garner_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          }
+          traits = {head_of_government social_conservative hog_silent_workhorse}
+          }
+
+      USA_Dwight_Eisenhower_hog = {
+        allowed = {original_tag = USA }
+        available = {
+        has_government = authoritarian_democrat
+        has_country_flag = can_replace_hog
+        NOT = {has_country_flag = Dwight_Eisenhower_dead}
+        NOT = {has_country_flag = Dwight_Eisenhower_fired}
+        NOT = {has_country_flag = ministers_cannot_be_replaced}
+        }
+        traits = {head_of_government authoritarian_democrat hog_old_general}
+        }
+
+      USA_Council_of_Patriots_hog = {
+        allowed = {original_tag = USA }
+        available = {
+        has_government = authoritarian_democrat
+        has_country_flag = can_replace_hog
+        NOT = {has_country_flag = Council_of_Patriots_dead}
+        NOT = {has_country_flag = Council_of_Patriots_fired}
+        NOT = {has_country_flag = Council_of_Patriots_disbanded}
+        NOT = {has_country_flag = ministers_cannot_be_replaced}
+        }
+        traits = {head_of_government authoritarian_democrat hog_underground_figurehead}
+        }
+
+      USA_Douglas_MacArthur_hog = {
+        allowed = {original_tag = USA }
+        available = {
+        has_government = paternal_autocrat
+        has_country_flag = can_replace_hog
+        NOT = {has_country_flag = Douglas_MacArthur_dead}
+        NOT = {has_country_flag = Douglas_MacArthur_fired}
+        NOT = {has_country_flag = ministers_cannot_be_replaced}
+        }
+        traits = {head_of_government paternal_autocrat hog_local_tyrant}
+        }
+
+      USA_Council_of_True_Patriots_hog = {
+        allowed = {original_tag = USA }
+        available = {
+        has_government = paternal_autocrat
+        has_country_flag = can_replace_hog
+        NOT = {has_country_flag = Council_of_True_Patriots_dead}
+        NOT = {has_country_flag = Council_of_True_Patriots_fired}
+        NOT = {has_country_flag = Council_of_True_Patriots_disbanded}
+        NOT = {has_country_flag = ministers_cannot_be_replaced}
+        }
+        traits = {head_of_government paternal_autocrat hog_undergrounder_figurehead}
+        }
+
+      USA_Virgil_Effinger_hog = {
+        allowed = {original_tag = USA }
+        available = {
+        has_government = national_populist
+        has_country_flag = can_replace_hog
+        NOT = {has_country_flag = Virgil_Effinger_dead}
+        NOT = {has_country_flag = Virgil_Effinger_fired}
+        NOT = {has_country_flag = ministers_cannot_be_replaced}
+        }
+        traits = {head_of_government national_populist hog_determined_populist}
+        }
+
+      USA_William_Dudley_Pelley_hog = {
+        allowed = {original_tag = USA }
+        available = {
+        has_government = valkist
+        has_country_flag = can_replace_hog
+        NOT = {has_country_flag = William_Dudley_Pelley_dead}
+        NOT = {has_country_flag = William_Dudley_Pelley_fired}
+        NOT = {has_country_flag = ministers_cannot_be_replaced}
+        }
+        traits = {head_of_government valkist hog_spiritual_leader}
+        }
+
+      }
+
+  foreign_minister = {
+
+  USA_Sandor_Goldberger_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = collectivist
+          NOT = {has_country_flag = Sandor_Goldberger_dead}
+          NOT = {has_country_flag = Sandor_Goldberger_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister collectivist for_radical_among_moderates}
+      cancel_if_invalid = no
+  }
+
+  USA_Pavel_Lazimir_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = libertarian_socialist
+          NOT = {has_country_flag = Pavel_Lazimir_dead}
+          NOT = {has_country_flag = Pavel_Lazimir_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister libertarian_socialist for_general_staffer}
+      cancel_if_invalid = no
+  }
+
+  USA_Joseph_E_Davies_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_democrat
+          NOT = {has_country_flag = Joseph_E_Davies_dead}
+          NOT = {has_country_flag = Joseph_E_Davies_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister social_democrat for_world_patrician}
+      cancel_if_invalid = no
+  }
+
+  USA_Harry_S_Truman_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_liberal
+          NOT = {has_country_flag = Harry_S_Truman_dead}
+          NOT = {has_country_flag = Harry_S_Truman_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister social_liberal for_ideological_crusader}
+      cancel_if_invalid = no
+  }
+
+  USA_Harry_Hopkins_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_liberal
+          NOT = {has_country_flag = Harry_Hopkins_dead}
+          NOT = {has_country_flag = Harry_Hopkins_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister social_liberal for_foreign_sympathizer}
+      cancel_if_invalid = no
+  }
+
+  USA_Alexander_Comstock_Kirk_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = market_liberal
+          NOT = {has_country_flag = Alexander_Comstock_Kirk_dead}
+          NOT = {has_country_flag = Alexander_Comstock_Kirk_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister market_liberal for_relations_expert}
+      cancel_if_invalid = no
+  }
+
+  USA_William_Averell_Harriman_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = market_liberal
+          NOT = {has_country_flag = William_Averell_Harriman_dead}
+          NOT = {has_country_flag = William_Averell_Harriman_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister market_liberal for_biased_intellectual}
+      cancel_if_invalid = no
+  }
+
+  USA_George_F_Kennan_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_conservative
+          NOT = {has_country_flag = George_F_Kennan_dead}
+          NOT = {has_country_flag = George_F_Kennan_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister social_conservative for_ideological_crusader}
+      cancel_if_invalid = no
+  }
+
+  USA_Frank_Buchman_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = authoritarian_democrat
+          NOT = {has_country_flag = Frank_Buchman_dead}
+          NOT = {has_country_flag = Frank_Buchman_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister authoritarian_democrat for_iron_fisted_brute}
+      cancel_if_invalid = no
+  }
+
+  USA_James_H_Craig_for = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = national_populist
+          NOT = {has_country_flag = James_H_Craig_dead}
+          NOT = {has_country_flag = James_H_Craig_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {foreign_minister national_populist for_biased_intellectual}
+      cancel_if_invalid = no
+  }
+
+  }
+
+  economy_minister = {
+
+  USA_Edward_Hastings_Chamberlin_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = collectivist
+          NOT = {has_country_flag = Edward_Hastings_Chamberlin_dead}
+          NOT = {has_country_flag = Edward_Hastings_Chamberlin_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister collectivist eco_devoted_monopoly_buster}
+      cancel_if_invalid = no
+  }
+
+  USA_Benjamin_Tucker_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = libertarian_socialist
+          NOT = {has_country_flag = Benjamin_Tucker_dead}
+          NOT = {has_country_flag = Benjamin_Tucker_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister libertarian_socialist eco_reformer}
+      cancel_if_invalid = no
+  }
+
+  USA_Francis_Townsend_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_democrat
+          NOT = {has_country_flag = Francis_Townsend_dead}
+          NOT = {has_country_flag = Francis_Townsend_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister social_democrat eco_mixed_economy}
+      cancel_if_invalid = no
+  }
+
+  USA_Edith_Abbott_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_democrat
+          NOT = {has_country_flag = Edith_Abbott_dead}
+          NOT = {has_country_flag = Edith_Abbott_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister social_democrat eco_balanced_budget_economy}
+      cancel_if_invalid = no
+  }
+
+  USA_Rexford_Tugwell_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_liberal
+          NOT = {has_country_flag = Rexford_Tugwell_dead}
+          NOT = {has_country_flag = Rexford_Tugwell_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister social_liberal eco_theoretical_scientist}
+      cancel_if_invalid = no
+  }
+
+  USA_Harry_Hopkins_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_liberal
+          NOT = {has_country_flag = Harry_Hopkins_dead}
+          NOT = {has_country_flag = Harry_Hopkins_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister social_liberal eco_construction_magnate}
+      cancel_if_invalid = no
+  }
+
+  USA_Robert_A_Taft_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = market_liberal
+          NOT = {has_country_flag = Robert_A_Taft_dead}
+          NOT = {has_country_flag = Robert_A_Taft_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister market_liberal eco_mixed_economy}
+      cancel_if_invalid = no
+  }
+
+  USA_John_Maurice_Clark_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = market_liberal
+          NOT = {has_country_flag = John_Maurice_Clark_dead}
+          NOT = {has_country_flag = John_Maurice_Clark_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister market_liberal eco_keynesian_economy}
+      cancel_if_invalid = no
+  }
+
+  USA_Milton_Friedman_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = market_liberal
+          NOT = {has_country_flag = Milton_Friedman_dead}
+          NOT = {has_country_flag = Milton_Friedman_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister market_liberal eco_laissez_faire_capitalist}
+      cancel_if_invalid = no
+  }
+
+  USA_Howard_Eldred_Kirshner_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_conservative
+          NOT = {has_country_flag = Howard_Eldred_Kirshner_dead}
+          NOT = {has_country_flag = Howard_Eldred_Kirshner_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      #traits = {economy_minister social_conservative eco_tariffs_and_taxes}
+      cancel_if_invalid = no
+  }
+
+  USA_Roger_W_Babson_eco = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = authoritarian_democrat
+          NOT = {has_country_flag = Roger_W_Babson_dead}
+          NOT = {has_country_flag = Roger_W_Babson_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = eco_cannot_be_replaced}
+      }
+      traits = {economy_minister authoritarian_democrat eco_national_liberal}
+      cancel_if_invalid = no
+  }
+
+
+
+  }
+
+  #### SECURITY MINISTERS ####
+
+  security_minister = {
+
+  USA_Harry_S_Truman_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_liberal
+          NOT = {has_country_flag = Harry_S_Truman_dead}
+          NOT = {has_country_flag = Harry_S_Truman_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = for_cannot_be_replaced}
+      }
+      traits = {security_minister social_liberal sec_health_and_safety}
+      cancel_if_invalid = no
+  }
+
+  USA_Seymour_Stedman_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = collectivist
+          NOT = {has_country_flag = Seymour_Stedman_dead}
+          NOT = {has_country_flag = Seymour_Stedman_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister collectivist sec_crime_fighter}
+      cancel_if_invalid = no
+  }
+
+  USA_Frederick_Steiwer_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_democrat
+          NOT = {has_country_flag = Frederick_Steiwer_dead}
+          NOT = {has_country_flag = Frederick_Steiwer_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister social_democrat sec_health_and_safety}
+      cancel_if_invalid = no
+  }
+
+  USA_Frank_Knox_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_liberal
+          NOT = {has_country_flag = Frank_Knox_dead}
+          NOT = {has_country_flag = Frank_Knox_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister social_liberal sec_driven_recruiter}
+      cancel_if_invalid = no
+  }
+
+  USA_Henry_A_Arnold_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = market_liberal
+          NOT = {has_country_flag = Henry_A_Arnold_dead}
+          NOT = {has_country_flag = Henry_A_Arnold_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister market_liberal sec_health_and_safety}
+      cancel_if_invalid = no
+  }
+
+  USA_Hamilton_Fish_III_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = market_liberal
+          NOT = {has_country_flag = Hamilton_Fish_III_dead}
+          NOT = {has_country_flag = Hamilton_Fish_III_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister market_liberal sec_crime_fighter}
+      cancel_if_invalid = no
+  }
+
+  USA_William_Harrison_Standley_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = social_conservative
+          NOT = {has_country_flag = William_Harrison_Standley_dead}
+          NOT = {has_country_flag = William_Harrison_Standley_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister social_conservative sec_man_of_the_people}
+      cancel_if_invalid = no
+  }
+
+  USA_Henry_Stimson_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = authoritarian_democrat
+          NOT = {has_country_flag = Henry_Stimson_dead}
+          NOT = {has_country_flag = Henry_Stimson_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister authoritarian_democrat sec_prince_of_terror}
+      cancel_if_invalid = no
+  }
+
+  USA_Harry_F_Byrd_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = paternal_autocrat
+          NOT = {has_country_flag = Harry_F_Byrd_dead}
+          NOT = {has_country_flag = Harry_F_Byrd_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister paternal_autocrat sec_man_of_the_people}
+      cancel_if_invalid = no
+  }
+
+  USA_Gerhard_Wilhelm_Kunze_sec = {
+      allowed = {original_tag = USA}
+      available = {
+          has_government = national_populist
+          NOT = {has_country_flag = Gerhard_Wilhelm_Kunze_dead}
+          NOT = {has_country_flag = Gerhard_Wilhelm_Kunze_fired}
+          NOT = {has_country_flag = ministers_cannot_be_replaced}
+          NOT = {has_country_flag = sec_cannot_be_replaced}
+      }
+      traits = {security_minister national_populist sec_driven_recruiter}
+      cancel_if_invalid = no
+  }
+
+  }
+
+  #### INTEL MINISTERS ####
+
+  head_of_intel = {
+              USA_Arthur_Goldberg_int = {
+                  allowed = {original_tag = USA}
+                  available = {
+                      has_government = social_democrat
+                      #NOT = {has_country_flag = Arthur_Goldberg_dead}
+                      #NOT = {has_country_flag = Arthur_Goldberg_fired}
+                      NOT = {has_country_flag = ministers_cannot_be_replaced}
+                      NOT = {has_country_flag = int_cannot_be_replaced}
+                  }
+                  traits = {head_of_intel social_democrat int_industrial_specialist}
+                  cancel_if_invalid = no
+              }
+      }
+
+  head_of_intel = {
+              USA_CG_Roberts_int = {
+                  allowed = {original_tag = USA}
+                  available = {
+                      has_government = social_liberal
+                      #NOT = {has_country_flag = CG_Roberts_dead}
+                      #NOT = {has_country_flag = CG_Roberts_fired}
+                      NOT = {has_country_flag = ministers_cannot_be_replaced}
+                      NOT = {has_country_flag = int_cannot_be_replaced}
+                  }
+                  traits = {head_of_intel social_liberal int_technical_specialist}
+                  cancel_if_invalid = no
+              }
+      }
+
+      head_of_intel = {
+                  USA_James_Forrestal_int = {
+                      allowed = {original_tag = USA}
+                      available = {
+                          has_government = market_liberal
+                          #NOT = {has_country_flag = James_Forrestal__dead}
+                          #NOT = {has_country_flag = James_Forrestal__fired}
+                          NOT = {has_country_flag = ministers_cannot_be_replaced}
+                          NOT = {has_country_flag = int_cannot_be_replaced}
+                      }
+                      traits = {head_of_intel market_liberal int_political_specialist}
+                      cancel_if_invalid = no
+                  }
+          }
+
+      head_of_intel = {
+                  USA_William_J_Donovan_int = {
+                      allowed = {original_tag = USA}
+                      available = {
+                          has_government = market_liberal
+                          #NOT = {has_country_flag = William_J_Donovan_dead}
+                          #NOT = {has_country_flag = William_J_Donovan_fired}
+                          NOT = {has_country_flag = ministers_cannot_be_replaced}
+                          NOT = {has_country_flag = int_cannot_be_replaced}
+                      }
+                      traits = {head_of_intel market_liberal int_political_specialist}
+                      cancel_if_invalid = no
+                  }
+          }
+
+  head_of_intel = {
+              USA_Herbert_Yardley_int = {
+                  allowed = {original_tag = USA}
+                  available = {
+                      has_government = social_conservative
+                      #NOT = {has_country_flag = Herbert_Yardley_dead}
+                      #NOT = {has_country_flag = Herbert_Yardley_fired}
+                      NOT = {has_country_flag = ministers_cannot_be_replaced}
+                      NOT = {has_country_flag = int_cannot_be_replaced}
+                  }
+                  traits = {head_of_intel social_conservative int_dismal_enigma}
+                  cancel_if_invalid = no
+              }
+      }
+
+
+
+}

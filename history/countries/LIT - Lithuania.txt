@@ -1,0 +1,117 @@
+﻿capital = 11
+
+oob = "LIT"
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+	GEN_Oscar_Jensen_hog_pau
+	GEN_Lucas_Friberg_for_pau
+	GEN_William_Ostberg_eco_pau
+	GEN_Mats_Holmgren_sec_pau
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+}
+
+set_convoys = 20
+set_stability = 0.1
+set_war_support = 0.1
+
+set_country_flag = sphered
+set_country_flag = sphere_1_by_POL
+set_country_flag = sphere_2_by_POL
+set_country_flag = sphere_3_by_POL
+add_ideas = sphered_idea_8
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 16
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 4
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 8
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 5
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 49
+		}
+		national_populist = {
+			popularity = 18
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1926.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
+
+#create_country_leader = {
+#	name = "Antanas Smetona"
+#	desc = "POLITICS_ANTANAS_SMETONA_DESC"
+#	picture = "GFX_Portrait_lithuania_antanas_smetona"
+#	expire = "1965.1.1"
+#	ideology = paternal_autocrat_subtype
+#	traits = {
+#		#
+#	}
+#}
+
+create_country_leader = {
+	name = "Stanisław Narutowicz"
+	desc = "POLITICS_PROTECTORATE_DESC"
+	picture = "Portrait_Lithuania_Stanislaw_Narutowicz.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Antanas Snieckus"
+	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Augustinas Voldemaras"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}

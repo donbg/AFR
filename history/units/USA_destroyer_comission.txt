@@ -1,0 +1,48 @@
+#Small Squadron of Destroyers that the U.S.A gets from "Comission new Destroyers". Buff as needed.
+units = {
+	
+	navy = {					
+		name = "Destroyer Flotilla"				
+		base = 788
+		location = 788 # Norfolk
+		# 13th Destroyer Division				
+		ship = { name = "USS Clemson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Chandler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Southard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Huey" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Long" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 14th Destroyer Division				
+		ship = { name = "USS Little" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Gregory" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Stringham" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Colhoun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 17th Destroyer Division				
+		ship = { name = "USS Goldsborough" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS McFarland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Reuben James" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Hopkins" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Belknap" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 18th Destroyer Division				
+	#	ship = { name = "USS Osmond Ingram" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Bancroft" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Gillis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Greene" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 21st Destroyer Division				
+	#	ship = { name = "USS McKean" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Dorsey" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Boggs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Hamilton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Elliot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 30th Destroyer Division				
+	#	ship = { name = "USS MacLeish" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Sturtevant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Overton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Bainbridge" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 31st Destroyer Division				
+	#	ship = { name = "USS Broome" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Simpson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS McCormick" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	#	ship = { name = "USS Truxtun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}			
+
+}

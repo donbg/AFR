@@ -1,0 +1,23 @@
+state={
+	id=72
+	name="STATE_72"
+	manpower = 152000
+	
+	state_category = rural
+	
+	history={
+		owner = SLO
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = SLO
+		add_core_of = POL
+
+
+	}
+
+	provinces={
+		9551
+	}
+}

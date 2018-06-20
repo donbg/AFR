@@ -1,0 +1,130 @@
+
+guiTypes = {
+	containerWindowType = {
+		name = "statistics_container"
+		position = { x = 900 y = 4 }
+		
+		iconType ={
+			name ="score_total_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="score_total_icon"
+			spriteType = "GFX_score_total"
+			position = { x= 7 y = 6 }
+		}
+		
+		instantTextBoxType = {
+			name ="score_total_text"
+			position = { x= 15 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?score_@ROOT]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SCORE_TOTAL_TOOLTIP"
+			pdx_tooltip_delayed = "SCORE_TOTAL_TOOLTIP_DELAYED"
+		}
+	}
+	containerWindowType = {
+			name = "statistics_container_expanded"
+			position = { x = 900 y = 4 }
+			size = { width=68 height=100 }
+
+			fade_time = 300
+			fade_type = linear
+			moveable = no
+			click_to_front = yes
+
+			iconType ={
+			name ="industrial_score_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=24 }
+		}
+		
+		iconType = {
+			name ="industrial_score_icon"
+			spriteType = "GFX_industrial_score"
+			position = { x= 7 y = 30 }
+		}
+		
+		instantTextBoxType = {
+			name ="industrial_score_text"
+			position = { x= 15 y = 28 }
+			font = "hoi_18mbs"
+			text = "[?industrial_score_@ROOT]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "INDUSTRIAL_SCORE_TOOLTIP"
+			pdx_tooltip_delayed = "INDUSTRIAL_SCORE_TOOLTIP_DELAYED"
+		}
+		
+		iconType ={
+			name ="military_score_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=48 }
+		}
+		
+		iconType = {
+			name ="military_score_icon"
+			spriteType = "GFX_military_score"
+			position = { x= 7 y = 54 }
+		}
+		
+		instantTextBoxType = {
+			name ="military_score_text"
+			position = { x= 15 y = 52 }
+			font = "hoi_18mbs"
+			text = "[?military_score_@ROOT]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "MILITARY_SCORE_TOOLTIP"
+			pdx_tooltip_delayed = "MILITARY_SCORE_TOOLTIP_DELAYED"
+		}
+		
+		iconType ={
+			name ="prestige_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=72 }
+		}
+		
+		iconType = {
+			name ="prestige_icon"
+			spriteType = "GFX_prestige"
+			position = { x= 7 y = 78 }
+		}
+		
+		instantTextBoxType = {
+			name ="prestige_text"
+			position = { x= 15 y = 76 }
+			font = "hoi_18mbs"
+			text = "[?prestige_@ROOT]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "PRESTIGE_TOOLTIP"
+			pdx_tooltip_delayed = "PRESTIGE_TOOLTIP_DELAYED"
+		}
+	}
+	containerWindowType = {
+			name = "statistics_button_container"
+			position = { x = 900 y = 4 }
+
+			buttonType = {
+				name = "statistics_button" 
+				position = {x=70 y=4}	
+				spriteType = "GFX_expand_button"
+		}
+	}

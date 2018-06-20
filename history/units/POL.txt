@@ -1,0 +1,299 @@
+﻿division_template = {
+	name = "Dywizja Piechoty"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Brygada Kawalerii" 
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }     
+	}
+}
+division_template = {
+	name = "Brygada Zmotoryzowana" 			#Motorised
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+division_template = {
+	name = "Brygada Pancerna"	
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	###Warsaw###	
+	division= {	
+		name = "1 Dywizja Pancerna"
+		location = 3544
+		division_template = "Brygada Pancerna"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "1 Dywizja Piechoty"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "2 Dywizja Piechoty"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "1 Brygada Kawalerii"
+		location = 11492
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "2 Brygada Kawalerii"
+		location = 11492
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.3
+
+	}
+		###Wilno###
+	division= {	
+		name = "3 Dywizja Piechoty"
+		location = 3320
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "4 Dywizja Piechoty"
+		location = 3320
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "5 Dywizja Piechoty"
+		location = 3320
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "6 Dywizja Piechoty"
+		location = 3320
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3 Brygada Kawalerii"
+		location = 406
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "4 Brygada Kawalerii"
+		location = 406
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "7 Brygada Kawalerii"
+		location = 406
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.2
+
+	}
+		###Polesie###
+	division= {	
+		name = "7 Dywizja Piechoty"
+		location = 3392
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "8 Dywizja Piechoty"
+		location = 3392
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "5 Brygada Kawalerii"
+		location = 3392
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.2
+
+	}
+		###Krakow###
+	division= {	
+		name = "9 Dywizja Piechoty"
+		location = 9427
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "10 Dywizja Piechoty"
+		location = 9427
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "11 Dywizja Piechoty"
+		location = 9427
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "12 Dywizja Piechoty"
+		location = 9427
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "13 Dywizja Piechoty"
+		location = 6522
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "14 Dywizja Piechoty"
+		location = 6522
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "6 Brygada Kawalerii"
+		location = 6522
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.2
+	}
+		###Lwow###
+	division= {	
+		name = "15 Dywizja Piechoty"
+		location = 11479
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "16 Dywizja Piechoty"
+		location = 11479
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "17 Dywizja Piechoty"
+		location = 11479
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "18 Dywizja Piechoty"
+		location = 11479
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+
+	}
+		###Poznan###
+	division= {	
+		name = "1 Brygada Pancerna"
+		location = 17
+		division_template = "Brygada Pancerna"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "2 Brygada Zmotoryzowana"
+		location = 17
+		division_template = "Brygada Zmotoryzowana"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "3 Brygada Zmotoryzowana"
+		location = 17
+		division_template = "Brygada Zmotoryzowana"
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "4 Brygada Zmotoryzowana"
+		location = 17
+		division_template = "Brygada Zmotoryzowana"
+		start_experience_factor = 0.3
+
+	}
+
+
+
+}
+
+##### Wojska Lotnicze i Obrony Powietrzne #####
+air_wings = {
+	10 = { 
+		fighter_equipment_0 =  {
+			owner = "POL" 
+			amount = 108
+		}
+		
+	}
+	86 = { 
+		fighter_equipment_0 =  {
+			owner = "POL" 
+			amount = 54
+		}
+		CAS_equipment_1 =  {
+			owner = "POL" 
+			amount = 22
+		}
+	}
+}

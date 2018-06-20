@@ -1,0 +1,30 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		rubber=652.0
+		steel=25.0
+		tungsten=237.0
+		aluminium=19.0
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+
+		}
+		#add_core_of = MAL
+
+	}
+
+	provinces={
+		1348 1392 7399 10227 12255 12271 
+	}
+	manpower=322000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

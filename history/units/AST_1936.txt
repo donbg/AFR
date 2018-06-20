@@ -1,0 +1,155 @@
+﻿division_template = {
+	name = "Infantry Division"	# Divisions were reserves assigned to various military districts
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"  
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Australian Army Reserve"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	##### Australian Army #####
+	division= {	
+		name = "1st Australian Cavalry Division"
+		location = 10278 # Madras
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2nd Australian Cavalry Division"
+		location = 12910 # Adelaide
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1st Australian Infantry Division"
+		location = 12406 # Sydney
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "2nd Australian Infantry Division"
+		location = 10278 # Madras
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "3rd Australian Infantry Division"
+		location = 7798 # Melbourne
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "4th Australian Infantry Division"
+		location = 7564 # Brisbane
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "5th Australian Infantry Division"
+		location = 1652 # Perth
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+
+
+	##### Naval OOB #####
+	navy = {				
+		name = "Australian Fleet"			
+		base = 12406
+		location = 12406 # Sydney
+		ship = { name = "HMAS Australia" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Canberra" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST version_name = "Canberra Class" } }	}
+		ship = { name = "HMAS Melbourne" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST version_name = "Canberra Class" } } }
+		ship = { name = "HMAS Sydney" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
+		ship = { name = "HMAS Adelaide" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
+		ship = { name = "HMAS Hobart" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
+		ship = { name = "HMAS Brisbane" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
+		# Scrap Iron Flotilla
+		ship = { name = "HMAS Stuart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Vampire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Vendetta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Voyager" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Waterhen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Anzac" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Galipoli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Stingray" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Maryborough" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		ship = { name = "HMAS Darwin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+	}				
+}
+
+air_wings = {
+	### Royal Australian Air Force (RAAF)
+	285 = {
+		# RAAF CAS Squadron
+		CAS_equipment_1 =  {
+			owner = "AST" 
+			amount = 24
+		}
+		# RAAF fighter squadron
+		fighter_equipment_0 =  {
+			owner = "AST" 
+			amount = 30
+		}
+	}
+	
+	519 = {
+	    # RAAF Maritime Patol
+		nav_bomber_equipment_1 = {
+			owner = "AST" 
+			amount = 12
+		}
+		
+	}
+}

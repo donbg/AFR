@@ -1,0 +1,17 @@
+#################
+# Croatia Ideas #
+#############################
+#   Made by Darknight1342   #
+#############################
+
+ideas = {
+	country = {
+		cro_united_revolt = {
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				stability_factor = 0.80
+				defence = 0.4
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+﻿l_english:
+
+
+#Parties
+
+#Mongolian Revolutionary Party
+MON_vanguardist_party:0 "MKN"
+MON_vanguardist_party_long:0 "Mongolian Revolutionary Party" 
+#Communist party of Mongolia
+MON_collectivist_party:0 "PPM"
+MON_collectivist_party_long:0 "People's Party of Mongolia"
+#Socialist Party
+MON_libertarian_socialist_party:0 "Socialist Party"
+MON_libertarian_socialist_party_long:0 "Mongolian Socialist Party"
+#Democratic Party
+MON_social_democrat_party:0 "MPP"
+MON_social_democrat_party_long:0 "Mongolian Progress Party"
+#Social Liberal Party
+MON_social_liberal_party:0 "Social Liberal Party"
+MON_social_liberal_party_long:0 "Social Liberal Party of Mongolia"
+#Market Liberal Party
+MON_market_liberal_party:0 "Liberal Party"
+MON_market_liberal_party_long:0 "Liberal Part of Mongolia"
+#Social Conservative Party
+MON_social_conservative_party:0 "MTP"
+MON_social_conservative_party_long:0 "Mongolian Traditionalist Party"
+#Mongolian Unity Party
+MON_authoritarian_democrat_party:0 "Great Khural"
+MON_authoritarian_democrat_party_long:0 "Great Khural"
+MON_paternal_autocrat_party:0 "Absolutists"
+MON_paternal_autocrat_party_long:0 "Absolutists"
+#Mongol Restoration Party
+MON_national_populist_party:0 "MRP"
+MON_national_populist_party_long:0 "Mongol Restoration Party"
+#Mongolian Valkist Party
+MON_valkist_party:0 "NYM"
+MON_valkist_party_long:0 "Northern Yuan Movement"
+
+#Ideas
+MON_without_khan:0 "A Khanate Without a Khan"
+MON_without_khan_desc:0 "Since the death of Bogd Khan, our great nation has been without a leader. This has caused our nation to freeze in its tracks, as the reforms of Bogd Khan were never finished. Still, the spirit of our great leader can be felt throughout the land, giving strength to our population in these harsh times."
+MON_tuva_nationalism:0 "Tuvan Nationalism"
+MON_tuva_nationalism_desc:0 "Tuvan Nationalism"
+MON_industrial_combine:0 "Delkhii Industrial Combine"
+MON_industrial_combine_desc:0 "Created to help aid in the industrialisation of Mongolia, the Delkhii Industrial Combine now uses its sizable funding, not on the industrial growth of our country, but on personal items of luxury and pleasure.\n We should seek to either correct the DIC's path or abolish it completely."
+MON_nomad:0 "Nomad Society"
+MON_nomad_desc:0 "Mongolia is, by no means, up to western standars when it comes to industrialisation. We've come a long way since the establishment of the DIC, but our society is still largely nomadic. While this means that more warriors stand ready to fight for their country, it also means that the industry that we do have is much less effective than it should be."
+MON_doctrine:0 "Zahilgaant Dovtlolt"
+MON_doctrine_desc:0 "The 'Lightning Offensive' as it has come to be known. This will be our greatest weapon in the coming wars against the pitiful warlords to the south. The doctrine focuses on the use of mobile divisions in order to encircle large amounts of enemies and crush them when their supplies have been completely cut off."

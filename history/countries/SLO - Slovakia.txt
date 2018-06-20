@@ -1,0 +1,81 @@
+﻿capital = 796
+
+oob = "SLO_1936"
+
+set_stability = 0.50
+set_war_support = 0.50
+
+set_technology = {
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 2
+		}
+		collectivist = {
+			popularity = 2
+		}
+		libertarian_socialist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 11
+		}
+		social_liberal = {
+			popularity = 26
+		}
+		market_liberal = {
+			popularity = 6
+		}
+		social_conservative = {
+			popularity = 47
+		}
+		authoritarian_democrat = {
+			popularity = 2
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 3
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+
+
+	ruling_party = social_conservative
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Andrej Hlinka"
+	desc = "POLITICS_ANDREJ_HLINKA_DESC"
+	picture = "AndrejHlinka.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}

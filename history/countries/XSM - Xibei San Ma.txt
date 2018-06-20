@@ -1,0 +1,130 @@
+﻿capital = 604
+
+oob = "XSM_1936"
+
+set_stability = 0.50
+set_war_support = 0.50
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+add_ideas = {
+	GEN_Oscar_Jensen_hog_pau
+	GEN_Lucas_Friberg_for_pau
+	GEN_William_Ostberg_eco_pau
+	GEN_Mats_Holmgren_sec_pau
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SIK
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.25
+	}
+	else = {
+		puppet = SIK
+	}
+}
+
+SIK = {
+	set_politics = {
+		parties = {
+			vanguardist = {
+				popularity = 0
+			}
+			collectivist = {
+				popularity = 0
+			}
+			libertarian_socialist = {
+				popularity = 0
+			}
+			social_democrat = {
+				popularity = 4
+			}
+			social_liberal = {
+				popularity = 6
+			}
+			market_liberal = {
+				popularity = 10
+			}
+			social_conservative = {
+				popularity = 8
+			}
+			authoritarian_democrat = {
+				popularity = 4
+			}
+			paternal_autocrat = {
+				popularity = 60
+			}
+			national_populist = {
+				popularity = 8
+			}
+			valkist = {
+				popularity = 0
+			}
+		}
+		ruling_party = paternal_autocrat
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
+
+set_politics = {
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 4
+		}
+		social_liberal = {
+			popularity = 6
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 8
+		}
+		authoritarian_democrat = {
+			popularity = 14
+		}
+		paternal_autocrat = {
+			popularity = 60
+		}
+		national_populist = {
+			popularity = 8
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ma Bufang"
+	desc = ""
+	picture = "Portrait_Ma_Ma_Bufang.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

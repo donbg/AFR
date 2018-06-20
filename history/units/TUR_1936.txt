@@ -1,0 +1,124 @@
+﻿division_template = {
+	name = "Piyade Tümeni"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Süvari Tümeni"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	##### LAND UNITS #####
+	### Osmanlı Ordusu ###
+	division = {
+		name = "25. Piyade Tümeni"
+		location = 890
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "5. Piyade Tümeni"
+		location = 10041
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7. Piyade Tümeni"
+		location = 6995
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "9. Piyade Tümeni"
+		location = 3876
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "10. Piyade Tümeni"
+		location = 919
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "11. Kolordu"
+		location = 9811
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "16. Piyade Tümeni"
+		location = 856
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "19. Piyade Tümeni"
+		location = 919
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Kafkas Kolordusu"
+		location = 3982
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.2
+	}
+
+	##### NAVAL UNITS #####
+	### Donanma-yi Hümayun ###
+	navy = {				
+		name = "Donanma-yi Hümayun"			
+		base = 11881 
+		location = 11881 # Samsun
+		ship = { name = "Yavuz Sultan Selim" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = TUR } } }			
+		ship = { name = "Midilli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "Hamidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "Samsun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "İntibâh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "Muzaffer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "Nusret" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "Selânik" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "Giresun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		ship = { name = "Abdül Hamid" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUR } } }
+	}				
+}
+
+### Air Wings ###
+air_wings = {
+	##### Osmanlı Hava Kuvvetleri #####
+	49 = { 
+		fighter_equipment_0 = {
+			owner = "TUR" 
+			amount = 45
+		}
+		CAS_equipment_1 = {
+			owner = "TUR" 
+			amount = 16
+		}
+	}
+}

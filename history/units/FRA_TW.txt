@@ -1,0 +1,82 @@
+#TRENCH WARFARE OOB FOR FRANCE
+division_template = {
+	name = "Réformé Division d'Infanterie"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+		anti_tank = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division= {	
+		name = "508ème Division d'Infanterie"
+		location = 11506
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "509ème Division d'Infanterie"
+		location = 11506
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "510ème Division d'Infanterie"
+		location = 9642
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "511ème Division d'Infanterie"
+		location = 5291
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "512ème Division d'Infanterie"
+		location = 13011
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "513ème Division d'Infanterie"
+		location = 3533
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "514ème Division d'Infanterie"
+		location = 9658
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "515ème Division d'Infanterie"
+		location = 9490
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "516ème Division d'Infanterie"
+		location = 3671
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "517ème Division d'Infanterie"
+		location = 620
+		division_template = "Réformé Division d'Infanterie" 
+		start_experience_factor = 0.1
+	}
+}

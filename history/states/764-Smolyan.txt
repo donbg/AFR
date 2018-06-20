@@ -1,0 +1,23 @@
+state={
+	id=764
+	name="STATE_764"
+	
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			
+		}
+		add_core_of = BUL
+		add_claim_by = GRE
+
+	}
+
+	provinces={
+		878 893 6857 9818 9862 11813 
+	}
+	manpower=462500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

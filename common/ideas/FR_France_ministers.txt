@@ -1,0 +1,3887 @@
+######################################
+# France ministers, imported from KR #
+######################################
+ideas = {
+	country = { }
+	
+	head_of_government = { ### Head of Government ###
+		
+		NFA_Pierre_Appell_hog_sde = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Pierre_Appell_dead}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Pierre_Mendes_France_hog_sde = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Pierre_Mendes_France_dead}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Edouard_Herriot_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Edouard_Herriot_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Antoine_Pinay_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Antoine_Pinay_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_happy_amateur
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Damien_Comte_de_Martel_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Damien_Comte_de_Martel_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Gabriel_Puaux_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Gabriel_Puaux_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Georges_Catroux_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Georges_Catroux_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_old_general
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Pierre_Etienne_Flandin_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Pierre_Etienne_Flandin_dead}
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Yves_Chataigneau_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Yves_Chataigneau_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_corporate_suit
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Laurent_Bonnevay_hog_mli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Laurent_Bonnevay_dead}
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Robert_Schumann_hog_mli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Robert_Schumann_dead}
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_naive_optimist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Joachim_Prince_de_Murat_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Joachim_Prince_de_Murat_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_political_protege
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Paul_Reynaud_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Paul_Reynaud_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Pierre_Pflimlin_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Pierre_Pflimlin_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Charles_de_Gaulle_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Charles_de_Gaulle_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_old_general
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Charles_Huntzinger_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Charles_Huntzinger_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_political_protege
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Francois_de_la_Rocque_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Francois_de_la_Rocque_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_old_general
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Henri_Dentz_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Henri_Dentz_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_reformist_soldier
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_de_Lattre_de_Tassigny_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Jean_de_Lattre_de_Tassigny_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_respected_war_hero
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Francois_Darlan_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Jean_Francois_Darlan_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_old_admiral
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Maurice_Janin_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Maurice_Janin_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_old_general
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Pierre_Pujo_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Pierre_Pujo_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		
+		NFA_Pierre_Costantini_hog_pau = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Pierre_Costantini_dead}
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Georges_Valois_hog_tot = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Georges_Valois_dead}
+			}
+			traits = {
+				head_of_government
+				vanguardist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jacques_Duclos_hog_tot = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Jacques_Duclos_dead}
+			}
+			traits = {
+				head_of_government
+				vanguardist
+				hog_backroom_backstabber
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marcel_Bucard_hog_tot = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Marcel_Bucard_dead}
+			}
+			traits = {
+				head_of_government
+				vanguardist
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marcel_Cachin_hog_tot = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Marcel_Cachin_dead}
+			}
+			traits = {
+				head_of_government
+				vanguardist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Benoit_Frachon_hog_syn = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Benoit_Frachon_dead}
+			}
+			traits = {
+				head_of_government
+				collectivist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Boris_Souvarine_hog_syn = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Boris_Souvarine_dead}
+			}
+			traits = {
+				head_of_government
+				collectivist
+				hog_naive_optimist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Guy_Mollet_hog_syn = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Guy_Mollet_dead}
+			}
+			traits = {
+				head_of_government
+				collectivist
+				hog_happy_amateur
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marceau_Pivert_hog_syn = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Marceau_Pivert_dead}
+			}
+			traits = {
+				head_of_government
+				collectivist
+				hog_corporate_suit
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Benoit_Broutchoux_hog_rso = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Benoit_Broutchoux_dead}
+			}
+			traits = {
+				head_of_government
+				libertarian_socialist
+				hog_respected_war_hero
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Daniel_Guerin_hog_rso = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Daniel_Guerin_dead}
+			}
+			traits = {
+				head_of_government
+				libertarian_socialist
+				hog_happy_amateur
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Leon_Blum_hog_rso = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Leon_Blum_dead}
+			}
+			traits = {
+				head_of_government
+				libertarian_socialist
+				hog_naive_optimist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Maurice_Joyeux_hog_rso = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Maurice_Joyeux_dead}
+			}
+			traits = {
+				head_of_government
+				libertarian_socialist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Paul_Ramadier_hog_rso = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Paul_Ramadier_dead}
+			}
+			traits = {
+				head_of_government
+				libertarian_socialist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Edouard_Daladier_hog_sde = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Edouard_Daladier_dead}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_naive_optimist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Felix_Gouin_hog_sde = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Felix_Gouin_dead}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_smiling_oilman
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Maurice_Gamelin_hog_sde = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Maurice_Gamelin_dead}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_respected_war_hero
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Albert_Sarraut_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Albert_Sarraut_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_happy_amateur
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Camille_Chautemps_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Camille_Chautemps_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Louis_Georges_Mandel_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Louis_Georges_Mandel_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_backroom_backstabber
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Paul_Reynaud_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Paul_Reynaud_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_political_protege
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Robert_Schumann_hog_sli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Robert_Schumann_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_corporate_suit
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Georges_Bidault_hog_mli = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Georges_Bidault_dead}
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_old_general
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Marie_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Andre_Marie_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_happy_amateur
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Antoine_Henri_Queuille_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Antoine_Henri_Queuille_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_corporate_suit
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Charles_de_Gaulle_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Charles_de_Gaulle_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_old_general
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Edouard_Herriot_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Edouard_Herriot_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_naive_optimist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jean_Marie_Lattre_de_Tassigny_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Jean_Marie_Lattre_de_Tassigny_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_old_general
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Laval_hog_sco = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Pierre_Laval_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Henri_Honore_Giraud_hog_ade = {
+			allowed = {original_tag = FRA}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				NOT = {has_country_flag = Henri_Honore_Giraud_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_old_general
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	foreign_minister = { ### Foreign Minister ###
+		
+		NFA_Louis_Jacquinot_for_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Jacquinot_dead}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Maurice_Viollette_for_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Viollette_dead}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Paul_Faure_for_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Faure_dead}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Albert_Sarraut_for_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Albert_Sarraut_dead}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jacques_Baumel_for_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jacques_Baumel_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Pierre_Etienne_Flandin_for_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Etienne_Flandin_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Pierre_Pflimlin_for_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Pflimlin_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Albert_Thomas_for_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Albert_Thomas_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Arne_Leroy_for_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Arne_Leroy_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Charles_Andre_Weiss_for_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_Andre_Weiss_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Gabriel_Hanoteaux_for_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Gabriel_Hanoteaux_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Francois_Darlan_for_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Francois_Darlan_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Paul_Baudouin_for_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Baudouin_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Edouard_de_Castelnau_for_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Edouard_de_Castelnau_dead}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Maurice_Pujo_for_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Pujo_dead}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Philippe_Henriot_for_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Philippe_Henriot_dead}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Angelo_Tasca_for_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Angelo_Tasca_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jacques_Duclos_for_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jacques_Duclos_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marcel_Cachin_for_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marcel_Cachin_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marcel_Gitton_for_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marcel_Gitton_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Maurice_Thorez_for_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Thorez_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Comert_for_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Comert_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Laval_for_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Laval_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Amedee_Dunois_for_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Amedee_Dunois_dead}
+			}
+			traits = {
+				foreign_minister
+				collectivist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Charles_Rappoport_for_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_Rappoport_dead}
+			}
+			traits = {
+				foreign_minister
+				collectivist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Joseph_Paul_Boncour_for_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Joseph_Paul_Boncour_dead}
+			}
+			traits = {
+				foreign_minister
+				collectivist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Laurent_Casenove_for_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Laurent_Casenove_dead}
+			}
+			traits = {
+				foreign_minister
+				collectivist
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Brossolette_for_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Brossolette_dead}
+			}
+			traits = {
+				foreign_minister
+				collectivist
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Charles_Emmanuel_Mast_for_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_Emmanuel_Mast_dead}
+			}
+			traits = {
+				foreign_minister
+				libertarian_socialist
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Fernand_Despres_for_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Fernand_Despres_dead}
+			}
+			traits = {
+				foreign_minister
+				libertarian_socialist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jean_Paul_Sartre_for_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Paul_Sartre_dead}
+			}
+			traits = {
+				foreign_minister
+				libertarian_socialist
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Leon_Blum_for_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Leon_Blum_dead}
+			}
+			traits = {
+				foreign_minister
+				libertarian_socialist
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Robert_Louzon_for_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Robert_Louzon_dead}
+			}
+			traits = {
+				foreign_minister
+				libertarian_socialist
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Edouard_Daladier_for_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Edouard_Daladier_dead}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Georges_Bonnet_for_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Georges_Bonnet_dead}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Paul_Reynaud_for_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Reynaud_dead}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Etienne_Flandin_for_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Etienne_Flandin_dead}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Yvon_Delbos_for_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Yvon_Delbos_dead}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_George_Bidault_for_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = George_Bidault_dead}
+			}
+			traits = {
+				foreign_minister
+				market_liberal
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Maurice_Dejean_for_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Dejean_dead}
+			}
+			traits = {
+				foreign_minister
+				market_liberal
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Rene_Pleven_for_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Pleven_dead}
+			}
+			traits = {
+				foreign_minister
+				market_liberal
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Antoine_Henri_Queuille_for_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Antoine_Henri_Queuille_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Henri_Watier_for_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Henri_Watier_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_biased_intellectual
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Rene_Charron_for_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Charron_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Rene_Lucien_Massigli_for_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Lucien_Massigli_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Maurice_Bourges_Maunoroy_for_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Bourges_Maunoroy_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	economy_minister = { ### Economy Minister ###
+
+		NFA_Emile_Borel_eco_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Emile_Borel_dead}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_administrative_genius
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Francois_de_Menthon_eco_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Francois_de_Menthon_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Maurice_Palmade_eco_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Palmade_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Rene_Renoult_eco_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Renoult_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Robert_Schumann_eco_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Robert_Schumann_dead}
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Paul_Marchandeau_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Marchandeau_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_administrative_genius
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Pierre_Henri_Teitgen_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Henri_Teitgen_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Charles_de_Gaulle_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_de_Gaulle_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_tank_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Marie_Jean_Lucien_Lacaze_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marie_Jean_Lucien_Lacaze_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_battle_fleet_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Marius_Berliet_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marius_Berliet_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_industrialiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Paul_Baudouin_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Baudouin_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_bank_president
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Paul_Mantoux_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Mantoux_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_theoretical_scientist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Paul_Painleve_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Painleve_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_administrative_genius
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Robert_Haas_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Robert_Haas_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Stephane_Auphan_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Stephane_Auphan_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_naval_aviation_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Tulio_Franco_Franco_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Tulio_Franco_Franco_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Edouard_Branly_eco_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Edouard_Branly_dead}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_theoretical_scientist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Eugene_Schueller_eco_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Eugene_Schueller_dead}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Louis_Franchet_d'Esperey_eco_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Franchet_d'Esperey_dead}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_military_entrepreneur
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Ambroise_Croizat_eco_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Ambroise_Croizat_dead}
+			}
+			traits = {
+				economy_minister
+				vanguardist
+				eco_industrialiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Auguste_Lecoeur_eco_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Auguste_Lecoeur_dead}
+			}
+			traits = {
+				economy_minister
+				vanguardist
+				eco_military_entrepreneur
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Georges_Levy_eco_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Georges_Levy_dead}
+			}
+			traits = {
+				economy_minister
+				vanguardist
+				eco_administrative_genius
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jacques_Doriot_eco_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jacques_Doriot_dead}
+			}
+			traits = {
+				economy_minister
+				vanguardist
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jean_Jerome_eco_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Jerome_dead}
+			}
+			traits = {
+				economy_minister
+				vanguardist
+				eco_planned_economy_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marcel_Deat_eco_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marcel_Deat_dead}
+			}
+			traits = {
+				economy_minister
+				vanguardist
+				eco_air_superiority_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Benoit_Frachon_eco_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Benoit_Frachon_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_industrialiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Daniel_Renoult_eco_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Daniel_Renoult_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_construction_magnate
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Georges_Dumoulin_eco_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Georges_Dumoulin_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_industrialiser
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Guy_Mollet_eco_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Guy_Mollet_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_bank_president
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Leon_Jouhaux_eco_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Leon_Jouhaux_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_planned_economy_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Laurent_Casenove_eco_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Laurent_Casenove_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_theoretical_scientist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Monatte_eco_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Monatte_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_infantry_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Breton_eco_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Breton_dead}
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_construction_magnate
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Malraux_eco_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Malraux_dead}
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_strategic_destruction_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Benoit_Broutchoux_eco_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Benoit_Broutchoux_dead}
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_planned_economy_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Daniel_Guerin_eco_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Daniel_Guerin_dead}
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_mixed_economy
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Henri_Tanguy_eco_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Tanguy_dead}
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_infantry_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Vincent_Auriol_eco_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Vincent_Auriol_dead}
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_administrative_genius
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Le_Troquer_eco_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Le_Troquer_dead}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Edouard_Daladier_eco_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Edouard_Daladier_dead}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Louis_Barthou_eco_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Barthou_dead}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_military_entrepreneur
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Albert_Sarraut_eco_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Albert_Sarraut_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Georges_Bonnet_eco_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Georges_Bonnet_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Louis_Loucheur_eco_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Loucheur_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_battlefield_support_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marcel_Hoden_eco_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marcel_Hoden_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_air_superiority_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Raoul_Dautry_eco_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Raoul_Dautry_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_theoretical_scientist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Edouard_Herriot_eco_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Edouard_Herriot_dead}
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Rene_Pleven_eco_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Pleven_dead}
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Robert_Schumann_eco_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Robert_Schumann_dead}
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_administrative_genius
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Marie_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Marie_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_air_superiority_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Antoine_Henri_Queuille_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Antoine_Henri_Queuille_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_battlefield_support_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Charles_de_Gaulle_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_de_Gaulle_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_tank_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Edmond_Michelet_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Edmond_Michelet_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jean_Fabry_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Fabry_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Joseph_Louis_Avenol_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Joseph_Louis_Avenol_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_battle_fleet_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jules_Romains_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jules_Romains_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_u_boat_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Louis_Armand_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Armand_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_tank_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marie_Emile_Fayolle_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marie_Emile_Fayolle_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_infantry_proponent
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marie_Pierre_Koenig_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marie_Pierre_Koenig_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_military_entrepreneur
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Paul_Marchandeau_eco_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Marchandeau_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_administrative_genius
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jacques_de_Guillebon_eco_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jacques_de_Guillebon_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+		NFA_Andre_Philip_eco_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Philip_dead}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	security_minister = { ### Security Minister ###
+		
+		NFA_Edouard_Depreux_sec_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Edouard_Depreux_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Hennessy_sec_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Hennessy_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Louis_Nogueres_sec_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Nogueres_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Edouard_Herriot_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Edouard_Herriot_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Andre_Salvat_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Salvat_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Henri_Roy_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Roy_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Rene_Besse_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Besse_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Yves_Morandat_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Yves_Morandat_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_crooked_kleptocrat
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Louis_Georges_Mandel_sec_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Georges_Mandel_dead}
+			}
+			traits = {
+				security_minister
+				market_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Joachim_Prince_de_Murat_sec_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Joachim_Prince_de_Murat_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Paul_Coste_Floret_sec_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Coste_Floret_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Theodore_Steeg_sec_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Theodore_Steeg_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Gouffre_de_Lapradelle_sec_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Gouffre_de_Lapradelle_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Francois_Darlan_sec_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Francois_Darlan_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_back_stabber
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Joseph_Barthelemy_sec_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Joseph_Barthelemy_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Marius_Viple_sec_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marius_Viple_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Raphael_Alibert_sec_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Raphael_Alibert_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Rene_Bousquet_sec_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Bousquet_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Eugene_Deloncle_sec_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Eugene_Deloncle_dead}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Pierre_Costantini_sec_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Costantini_dead}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Claudine_Chomat_sec_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Claudine_Chomat_dead}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_health_and_safety
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jean_Marie_Clamamus_sec_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Marie_Clamamus_dead}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Louis_Aragon_sec_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Aragon_dead}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_health_and_safety
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Lucien_Midol_sec_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Lucien_Midol_dead}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marcel_Bucard_sec_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marcel_Bucard_dead}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_secret_police_chief
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Maurice_Thorez_sec_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Thorez_dead}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Adrien_Tixier_sec_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Adrien_Tixier_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Alfred_Rosmer_sec_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Alfred_Rosmer_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Charles_Rappoport_sec_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_Rappoport_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_health_and_safety
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Gaston_Monmousseau_sec_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Gaston_Monmousseau_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_health_and_safety
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Henri_Bonnet_sec_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Bonnet_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_back_stabber
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Henri_Gourdeaux_sec_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Gourdeaux_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Julien_Luchaire_sec_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Julien_Luchaire_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marceau_Pivert_sec_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marceau_Pivert_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Fernand_Despres_sec_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Fernand_Despres_dead}
+			}
+			traits = {
+				security_minister
+				libertarian_socialist
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Maurice_Joyeux_sec_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Joyeux_dead}
+			}
+			traits = {
+				security_minister
+				libertarian_socialist
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_May_Picqueray_sec_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = May_Picqueray_dead}
+			}
+			traits = {
+				security_minister
+				libertarian_socialist
+				sec_secret_police_chief
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Paul_Ramadier_sec_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Ramadier_dead}
+			}
+			traits = {
+				security_minister
+				libertarian_socialist
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Sebastien_Faure_sec_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Sebastien_Faure_dead}
+			}
+			traits = {
+				security_minister
+				libertarian_socialist
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Albert_Lebrun_sec_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Albert_Lebrun_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Le_Troquer_sec_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Le_Troquer_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jules_Moch_sec_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jules_Moch_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Auguste_Chardigny_sec_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Auguste_Chardigny_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Arthur_Fontaine_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Arthur_Fontaine_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Henri_Roy_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Roy_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jean_Maillet_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Maillet_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_back_stabber
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Louis_Georges_Mandel_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Georges_Mandel_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Marx_Dormoy_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marx_Dormoy_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Pene_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Pene_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Yvon_Delbos_sec_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Yvon_Delbos_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Robert_Schumann_sec_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Robert_Schumann_dead}
+			}
+			traits = {
+				security_minister
+				market_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Marie_sec_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Marie_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Camille_Chautemps_sec_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Camille_Chautemps_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Gaston_Alexandre_Clauzel_sec_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Gaston_Alexandre_Clauzel_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Joseph_Paganon_sec_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Joseph_Paganon_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Rene_Nicolau_sec_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Nicolau_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Eugene_Dunoyer_de_Segonzac_sec_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Eugene_Dunoyer_de_Segonzac_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	head_of_intel = { ### Head of Intel ###
+
+		NFA_Vincent_de_Moro_Giafferi_int_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Vincent_de_Moro_Giafferi_dead}
+			}
+			traits = {
+				head_of_intel
+				social_democrat
+				int_political_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Damien_Comte_de_Martel_int_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Damien_Comte_de_Martel_dead}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_logistics_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Gabriel_Puaux_int_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Gabriel_Puaux_dead}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_industrial_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Georges_Catroux_int_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Georges_Catroux_dead}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_dismal_enigma
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Laurent_Eynac_int_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Laurent_Eynac_dead}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_industrial_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Gouffre_de_Lapradelle_int_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Gouffre_de_Lapradelle_dead}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_industrial_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Rene_Bousquet_int_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Bousquet_dead}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Andre_Dewavrin_int_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Dewavrin_dead}
+			}
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				int_political_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Henri_d'Astier_de_La_Vigerie_int_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_d'Astier_de_La_Vigerie_dead}
+			}
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				int_logistics_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Gustave_Guehenneux_int_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Gustave_Guehenneux_dead}
+			}
+			traits = {
+				head_of_intel
+				vanguardist
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Hubert_Lagradelle_int_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Hubert_Lagradelle_dead}
+			}
+			traits = {
+				head_of_intel
+				vanguardist
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jean_Marie_Clamamus_int_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Marie_Clamamus_dead}
+			}
+			traits = {
+				head_of_intel
+				vanguardist
+				int_industrial_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Villon_int_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Villon_dead}
+			}
+			traits = {
+				head_of_intel
+				vanguardist
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Waldeck_Rochet_int_tot = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Waldeck_Rochet_dead}
+			}
+			traits = {
+				head_of_intel
+				vanguardist
+				int_dismal_enigma
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Henri_Gourdeaux_int_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Gourdeaux_dead}
+			}
+			traits = {
+				head_of_intel
+				collectivist
+				int_logistics_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jean_Moulin_int_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Moulin_dead}
+			}
+			traits = {
+				head_of_intel
+				collectivist
+				int_industrial_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Pierre_Monatte_int_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Pierre_Monatte_dead}
+			}
+			traits = {
+				head_of_intel
+				collectivist
+				int_political_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Roger_Salengro_int_syn = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Roger_Salengro_dead}
+			}
+			traits = {
+				head_of_intel
+				collectivist
+				int_industrial_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Albert_Camus_int_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Albert_Camus_dead}
+			}
+			traits = {
+				head_of_intel
+				libertarian_socialist
+				int_dismal_enigma
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Daniel_Mayer_int_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Daniel_Mayer_dead}
+			}
+			traits = {
+				head_of_intel
+				libertarian_socialist
+				int_logistics_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Felix_Gouin_int_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Felix_Gouin_dead}
+			}
+			traits = {
+				head_of_intel
+				libertarian_socialist
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_May_Picqueray_int_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = May_Picqueray_dead}
+			}
+			traits = {
+				head_of_intel
+				libertarian_socialist
+				int_political_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Paul_Repiton_Preneuf_int_rso = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Paul_Repiton_Preneuf_dead}
+			}
+			traits = {
+				head_of_intel
+				libertarian_socialist
+				int_logistics_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Le_Troquer_int_sde = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Le_Troquer_dead}
+			}
+			traits = {
+				head_of_intel
+				social_democrat
+				int_dismal_enigma
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Aime_Lepercq_int_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Aime_Lepercq_dead}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_industrial_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Joseph_Paganon_int_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Joseph_Paganon_dead}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_political_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Maurice_Delage_int_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Delage_dead}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Charles_Luizet_int_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_Luizet_dead}
+			}
+			traits = {
+				head_of_intel
+				market_liberal
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Boulloche_int_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Boulloche_dead}
+			}
+			traits = {
+				head_of_intel
+				social_conservative
+				int_dismal_enigma
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_de_Wawrin_Passy_int_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_de_Wawrin_Passy_dead}
+			}
+			traits = {
+				head_of_intel
+				social_conservative
+				int_logistics_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Andre_Marie_int_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Andre_Marie_dead}
+			}
+			traits = {
+				head_of_intel
+				social_conservative
+				int_technical_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Jacques_Brunschwig_int_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jacques_Brunschwig_dead}
+			}
+			traits = {
+				head_of_intel
+				social_conservative
+				int_naval_intelligence_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Rene_Nicolau_int_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Nicolau_dead}
+			}
+			traits = {
+				head_of_intel
+				social_conservative
+				int_dismal_enigma
+			}
+			cancel_if_invalid = yes
+		}
+
+		FRA_Roger_Lantenois_int_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Roger_Lantenois_dead}
+			}
+			traits = {
+				head_of_intel
+				social_conservative
+				int_industrial_specialist
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	chief_of_staff = { ### Chief of Staff ###
+		NFA_Henri_Amiel_mhc_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Amiel_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Antoine_Bethouart_mhc_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Antoine_Bethouart_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Bernard_Serrigny_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Bernard_Serrigny_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Charles_de_Gaulle_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_de_Gaulle_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Charles_Huntzinger_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Charles_Huntzinger_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Eugene_Bridoux_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Eugene_Bridoux_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Henri_Albert_Niessel_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Albert_Niessel_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Henri_Dentz_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Dentz_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_de_Lattre_de_Tassigny_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_de_Lattre_de_Tassigny_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Francois_Darlan_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Francois_Darlan_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Philippe_de_Hauteclocque_mhc_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Philippe_de_Hauteclocque_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Louis_Franchet_d'Esperey_mhc_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Franchet_d'Esperey_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	chief_of_army = { ### Chief of Army ###
+		NFA_Gabriel_Puaux_carm_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Gabriel_Puaux_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_armoured_spearhead_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Alphonse_Juin_carm_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Alphonse_Juin_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Touzet_du_Vigier_carm_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Touzet_du_Vigier_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_armoured_spearhead_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Joseph_de_Goislard_de_Monsabert_carm_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Joseph_de_Goislard_de_Monsabert_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Eugene_Bridoux_carm_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Eugene_Bridoux_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_de_Lattre_de_Tassigny_carm_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_de_Lattre_de_Tassigny_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_armoured_spearhead_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Maurice_Janin_carm_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Janin_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Maxime_Weygand_carm_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maxime_Weygand_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Francois_de_la_Rocque_carm_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Francois_de_la_Rocque_dead}
+			}
+			traits = {
+				chief_of_army
+				carm_guns_and_butter_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	chief_of_navy = { ### Chief of Navy ###
+		NFA_Francois_Carre_de_Lusancay_cnav_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Francois_Carre_de_Lusancay_dead}
+			}
+			traits = {
+				chief_of_navy
+				cnav_base_control_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Louis_Finet_cnav_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Louis_Finet_dead}
+			}
+			traits = {
+				chief_of_navy
+				cnav_indirect_approach_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Georges_Thierry_d'Argenlieu_cnav_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Georges_Thierry_d'Argenlieu_dead}
+			}
+			traits = {
+				chief_of_navy
+				cnav_power_projection_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Esteva_cnav_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Esteva_dead}
+			}
+			traits = {
+				chief_of_navy
+				cnav_indirect_approach_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Marie_Abrial_cnav_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Marie_Abrial_dead}
+			}
+			traits = {
+				chief_of_navy
+				cnav_open_seas_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Francois_Darlan_cnav_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Francois_Darlan_dead}
+			}
+			traits = {
+				chief_of_navy
+				cnav_decisive_battle_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Marie_Jean_Lucien_Lacaze_cnav_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marie_Jean_Lucien_Lacaze_dead}
+			}
+			traits = {
+				chief_of_navy
+				cnav_indirect_approach_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	chief_of_air_force = { ### Chief of Air Force ###
+		NFA_Henri_Soulat_cair_sli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Soulat_dead}
+			}
+			traits = {
+				chief_of_air_force
+				cair_naval_aviation_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Antonin_Brocard_cair_mli = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Antonin_Brocard_dead}
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Henri_Amiel_cair_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Henri_Amiel_dead}
+			}
+			traits = {
+				chief_of_air_force
+				cair_vertical_envelopment_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Marie_Charles_Duval_cair_sco = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Marie_Charles_Duval_dead}
+			}
+			traits = {
+				chief_of_air_force
+				cair_carpet_bombing_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Marie_Bergeret_cair_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Marie_Bergeret_dead}
+			}
+			traits = {
+				chief_of_air_force
+				cair_battlefield_support_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Maurice_Jannekeyn_cair_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Maurice_Jannekeyn_dead}
+			}
+			traits = {
+				chief_of_air_force
+				cair_carpet_bombing_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Rene_Paul_Fonck_cair_ade = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Rene_Paul_Fonck_dead}
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		NFA_Jean_Mermoz_cair_pau = {
+			allowed = {original_tag = FRA}
+			visible = {
+				NOT = {has_country_flag = Jean_Mermoz_dead}
+			}
+			traits = {
+				chief_of_air_force
+				cair_battlefield_support_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+	}

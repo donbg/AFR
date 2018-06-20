@@ -1,0 +1,76 @@
+################
+## Kiel Ideas ##
+################
+## By CIA ##
+############
+ideas = {
+
+	## Kiel Ideas ##
+
+	country = {
+
+		SHO_hamburg_legacy = { #Legacy of the Hamburg Commune
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = -0.05
+				enemy_partisan_effect = 0.3
+				foreign_subversive_activites = 0.3
+				libertarian_socialist_drift = 0.02
+				collectivist_drift = 0.02
+				vanguardist_drift = 0.02
+				political_power_gain = -0.15
+			}
+			picture = generic_collectivism_rising
+			removal_cost = -1
+		}
+
+		SHO_nazbol_gang = { #National Collectivism
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				vanguardist_drift = 0.05
+			}
+			picture = generic_spy_political #generic_vanguardism_rising
+			removal_cost = -1
+		}
+
+		SHO_political_repression = { #Political Repression
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = -0.05
+				libertarian_socialist_drift = -0.02
+				collectivist_drift = -0.02
+				vanguardist_drift = -0.02
+				political_power_gain = -0.15
+			}
+			picture = death_men #generic_collectivism_banned
+			removal_cost = -1
+		}
+
+		SHO_integrating_denmark = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				political_power_gain = -1.0
+			}
+			picture = generic_spy_political 
+			removal_cost = -1
+		}
+
+		SHO_industrial_burdens = { 
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.15
+				consumer_goods_factor = 0.1
+			}
+			picture = generic_collectivism_rising
+			removal_cost = -1
+		}
+	}
+
+}

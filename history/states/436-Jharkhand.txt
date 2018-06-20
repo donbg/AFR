@@ -1,0 +1,26 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		chromium=4.0
+	}
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = IND
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		4513 7497 7574 10401 12375 12420 
+	}
+	manpower=14123100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

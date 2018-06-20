@@ -1,0 +1,2429 @@
+#############################
+# Republic of Turkey Ideas
+############################
+# Made by VirtualHummingbird
+############################
+
+ideas = {
+	country = {
+
+		TUR_sick_man_of_europe = { #Idea at start
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				stability_factor = -0.05
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1
+				research_time_factor = 0.10		
+			}
+		}
+
+		TUR_sick_man_of_europe1 = { #Idea after decentralized rule
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1
+				research_time_factor = 0.10		
+			}
+		}
+
+		TUR_sick_man_of_europe2 = { #Idea after paying off debts (decen rule)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				research_time_factor = 0.10		
+			}
+		}
+
+		TUR_sick_man_of_europe3 = { #Idea after paying off debts (no decen rule)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				research_time_factor = 0.10		
+			}
+		}
+
+		TUR_sick_man_of_europe4 = { #Idea after education (no decen rule)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1			
+			}
+		}
+
+		TUR_sick_man_of_europe5 = { #Idea after education (decen rule)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1	
+			}
+		}
+
+		TUR_sick_man_of_europe6 = { #Idea after bureaucracy (with education and debts)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				army_org_factor = -0.02	
+			}
+		}
+
+		TUR_sick_man_of_europe7 = { #Idea after bureaucracy (no education)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				army_org_factor = -0.02
+				research_time_factor = 0.10	
+			}
+		}
+
+		TUR_sick_man_of_europe8 = { #Idea after bureaucracy (no debts)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+
+		TUR_sick_man_of_europe9 = { #Idea after economic mobilization
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.2
+				research_time_factor = 0.10		
+			}
+		}
+
+		TUR_sick_man_of_europe10 = { #Idea after political reform
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				army_org_factor = -0.02
+				research_time_factor = 0.10		
+			}
+		}
+
+		TUR_sick_man_of_europe11 = { #Idea after political reform and eco mobil
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				research_time_factor = 0.10		
+			}
+		}
+
+		TUR_sick_man_of_europe12 = { #Idea after re-educate the masses
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05	
+			}
+		}
+
+		TUR_sick_man_of_europe13 = {
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+			}
+		}
+
+		TUR_sick_man_of_europe14 = {
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.2
+				army_org_factor = -0.02		
+			}
+		}
+
+		TUR_sick_man_of_europe15 = {
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = -0.1
+				research_time_factor = 0.10		
+			}
+		}
+
+		TUR_opda_idea = {
+			picture = HUN_treaty_of_triannon
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		TUR_opda_idea2 = {
+			picture = HUN_treaty_of_triannon
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		TUR_political_turmoil = {
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				political_power_factor = -0.6
+				stability_factor = -0.25			
+			}
+		}
+
+		TUR_a_moderate_empire_idea = {
+			picture = generic_morale_bonus
+			modifier = {
+				political_power_factor = 0.05	
+			}
+		}
+
+		TUR_a_revanchist_empire_idea = {
+			picture = FRA_army_of_aggression_focus
+			modifier = {
+				stability_factor = 0.05		
+			}
+		}
+
+		TUR_ottoman_constitution_idea = {
+			picture = OTT_solid_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+
+		TUR_efficient_bureaucracy_idea = {
+			picture = generic_constitutional_guarantees
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+
+		TUR_assertion_of_neutrality_idea = {
+			picture = neutrality_idea
+			modifier = {
+				enemy_justify_war_goal_time = 0.15
+				join_faction_tension = 0.75
+				send_volunteers_tension = 0.60
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		TUR_banking_reform_idea = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		TUR_paying_off_our_debts_idea = {
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		TUR_payment_from_ottomans_idea = {
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		TUR_multi_party_system_idea = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				social_liberal_drift = 0.03
+				social_conservative_drift = 0.03
+				authoritarian_democrat_drift = 0.03
+				paternal_autocrat_drift = 0.03
+			}
+		}
+
+		TUR_educating_the_people_idea = {
+			picture = generic_research_bonus
+			modifier = {
+				research_time_factor = -0.025
+			}
+		}
+
+		TUR_political_resistance_idea = {
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.15
+			}
+		}
+
+		TUR_an_inclusive_empire_idea = {
+			picture = TUR_solid_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.15
+			}
+		}
+
+		TUR_forced_conscription_idea = {
+			picture = FRA_scw_intervention_nationalists_focus
+			modifier = {
+				conscription = 0.03
+			}
+		}
+
+		TUR_risen_from_the_ashes_idea = {
+			picture = TUR_autocracy_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.15
+			}
+		}
+
+		TUR_reformed_political_system_idea = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				social_conservative_drift = 0.02
+				paternal_autocrat_drift = 0.02
+				national_populist_drift = 0.03
+			}
+		}
+
+		TUR_judicial_control_idea = {
+			picture = FRA_matignon_agreements
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = -0.05
+			}
+		}
+
+		TUR_disbanded_parliament_idea = {
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+
+		TUR_parliamentary_democracy_idea = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				market_liberal_drift = 0.01
+				social_liberal_drift = 0.02
+				social_conservative_drift = 0.01
+				authoritarian_democrat_drift = 0.03
+				national_populist_drift = 0.02
+			}
+		}
+
+		TUR_western_legal_code_idea = {
+			picture = neutrality_idea
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		TUR_bolstering_armed_forces_idea = {
+			picture = generic_manpower_bonus
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.1
+				military_leader_cost_factor = -0.25
+			}
+		}
+
+		TUR_land_reform_idea = {
+			picture = generic_agrarian_society
+			modifier = {
+				supply_consumption_factor = -0.05
+				local_resources_factor = 0.10
+			}
+		}
+
+		TUR_guardians_of_the_constitution_idea = {
+			picture = generic_manpower_bonus
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.1
+				military_leader_cost_factor = -0.25
+				conscription = 0.025
+				training_time_army_factor = -0.05
+			}
+		}
+
+		TUR_sciences_and_arts_idea = {
+			picture = generic_research_bonus
+			modifier = {
+				research_time_factor = -0.025
+			}
+		}
+
+		TUR_financial_reform_idea = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.025
+			}
+		}
+
+		TUR_laicism_idea = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_power_factor = 0.10
+			}
+		}
+
+		TUR_mixed_economy_idea = {
+			picture = generic_production_bonus
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = -0.05
+			}
+		}
+
+		TUR_educating_our_citizens_idea = {
+			picture = generic_research_bonus
+			modifier = {
+				research_time_factor = -0.025
+			}
+		}
+
+		TUR_turkish_constitution_idea = {
+			picture = TUR_solid_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+
+		TUR_decentralized_rule_idea = {
+			picture = generic_victors_of_ww1
+			modifier = {
+				political_power_factor = 0.05	
+			}
+		}
+
+		TUR_true_democracy_idea = {
+			picture = TUR_solid_idea
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		TUR_liberal_republic_idea = {
+			picture = TUR_solid_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+
+		TUR_intelligence_organizations_idea = {
+			picture = generic_spy_coup
+			modifier = {
+				enemy_partisan_effect = -0.1
+				attrition = -0.1
+				encryption_factor = 0.05
+			}
+		}
+
+		TUR_civil_war_idea = {
+			picture = generic_intel_bonus
+			modifier = {
+				ai_call_ally_desire_factor = -10000
+				ai_join_ally_desire_factor = -10000
+			}
+		}
+
+		TUR_increased_infantry_weapons_production_idea = {
+			picture = generic_license_production
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+
+		TUR_indoctrination_idea = {
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				army_morale_factor = 0.1
+				stability_factor = 0.05
+			}
+		}
+
+		TUR_recruitment_campaign_idea = {
+			picture = country_focus_army
+			modifier = {
+				conscription_factor = 0.035
+			}
+		}
+
+		TUR_recruitment_campaign_idea1 = {
+			picture = country_focus_army
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+
+		TUR_recruitment_campaign_idea2 = {
+			picture = country_focus_army
+			modifier = {
+				conscription_factor = 0.075
+			}
+		}
+
+		TUR_paramilitary_groups_idea = {
+			picture = FRA_army_of_aggression_focus
+			modifier = {
+				army_morale_factor = 0.1
+				army_attack_factor = 0.1
+				army_org_factor = -0.05
+				training_time_army_factor = 0.10
+			}
+		}
+
+		TUR_economic_downturn_idea = {
+			picture = great_depression
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = -0.15
+			}
+		}
+
+		TUR_economic_downturn_idea2 = {
+			picture = great_depression
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		TUR_economic_downturn_idea3 = {
+			picture = great_depression
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
+
+		TUR_trade_with_england_idea = {
+			picture = generic_foreign_capital
+			modifier = {
+				industrial_capacity_factory = 0.025
+			}
+		}
+
+		TUR_trade_with_germany_idea = {
+			picture = generic_foreign_capital
+			modifier = {
+				industrial_capacity_factory = 0.025
+			}
+		}
+
+		TUR_agricultural_methods_idea = {
+			picture = generic_agrarian_reform
+			modifier = {
+				monthly_population = 0.2
+				supply_consumption_factor = -0.035
+			}
+		}
+
+		TUR_land_redistribution_idea = {
+			picture = generic_agrarian_reform
+			modifier = {
+				monthly_population = 0.4
+				supply_consumption_factor = -0.05
+			}
+		}
+
+		TUR_british_embargo_idea = {
+			picture = FRA_factory_strikes
+			modifier = {
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		TUR_french_embargo_idea = {
+			picture = FRA_factory_strikes
+			modifier = {
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		TUR_italian_embargo_idea = {
+			picture = FRA_factory_strikes
+			modifier = {
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		TUR_central_bank_idea = {
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = -0.025
+			}
+		}
+
+		TUR_general_staff_idea = {
+			picture = general_staff
+			modifier = {
+				army_org_factor = 0.05
+			}
+		}
+
+		TUR_special_forces_command_idea = {
+			picture = totalist_charta
+			modifier = {
+				army_core_attack_factor = 0.1
+				recon_factor = 0.05
+			}
+		}
+
+		TUR_gendarmerie_general_command_idea = {
+			picture = generic_secret_police
+			modifier = {
+				decryption_factor = 0.05
+				enemy_partisan_effect = -0.1
+			}
+		}
+
+		TUR_naval_costs_idea = {
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		TUR_directorate_of_naval_affairs_idea = {
+			picture = generic_navy_bonus
+			modifier = {
+				naval_coordination = 0.05
+				experience_gain_navy_factor = 0.05
+			}
+		}
+
+		TUR_light_aircraft_idea = {
+			picture = generic_air_bonus
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+			}
+		}
+
+		TUR_heavy_aircraft_idea = {
+			picture = generic_air_research
+			equipment_bonus = {
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}	
+			}
+		}
+
+		TUR_eskisehir_air_school_idea = {
+			picture = air_war_plans_division_focus
+			modifier = {
+				air_ace_generation_chance_factor = 0.05
+				experience_gain_air_factor = 0.05
+			}
+		}
+	}
+
+	head_of_government = { ### Head of Government ###
+		TUR_Sefik_Huesnue_Bey_hog_syn = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = collectivist
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Sefik_Huesnue_Bey_dead}
+				NOT = {has_country_flag = Sefik_Huesnue_Bey_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				collectivist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Hasan_Ali_Pasa_hog_sde = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = social_democrat
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Hasan_Ali_Pasa_dead}
+				NOT = {has_country_flag = Hasan_Ali_Pasa_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ali_Fethi_Pasa_hog_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = social_liberal
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Ali_Fethi_Pasa_dead}
+				NOT = {has_country_flag = Ali_Fethi_Pasa_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_political_protege
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Prens_Sabahaddin_Efendi_hog_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = social_liberal
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Prens_Sabahaddin_Efendi_dead}
+				NOT = {has_country_flag = Prens_Sabahaddin_Efendi_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_naive_optimist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ali_Adnan_Bey_hog_mli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = market_liberal
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Ali_Adnan_Bey_dead}
+				NOT = {has_country_flag = Ali_Adnan_Bey_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_corporate_suit
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ali_Suekrue_Pasa_hog_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = social_conservative
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Ali_Suekrue_Pasa_dead}
+				NOT = {has_country_flag = Ali_Suekrue_Pasa_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Hueseyin_Rauf_Pasa_hog_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = authoritarian_democrat
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Hueseyin_Rauf_Pasa_dead}
+				NOT = {has_country_flag = Hueseyin_Rauf_Pasa_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Hueseyin_Avni_Pasa_hog_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = paternal_autocrat
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Hueseyin_Avni_Pasa_dead}
+				NOT = {has_country_flag = Hueseyin_Avni_Pasa_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Hueseyin_Selahattin_Pasa_hog_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = paternal_autocrat
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Hueseyin_Selahattin_Pasa_dead}
+				NOT = {has_country_flag = Hueseyin_Selahattin_Pasa_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_old_general
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mustafa_Fevzi_Pasa_hog_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = paternal_autocrat
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Mustafa_Fevzi_Pasa_dead}
+				NOT = {has_country_flag = Mustafa_Fevzi_Pasa_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_old_general
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ahmed_Necdet_Pasa_hog_npo = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				has_government = national_populist
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = TUR_Ahmed_Necdet_Pasa_dead}
+				NOT = {has_country_flag = TUR_Ahmed_Necdet_Pasa_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	foreign_minister = { ### Foreign Minister ###
+		TUR_Tevfik_Ruestue_Bey_for_sde = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Tevfik_Ruestue_Bey_dead}
+				NOT = {has_country_flag = Tevfik_Ruestue_Bey_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Osman_Kemal_Bey_for_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Osman_Kemal_Bey_dead}
+				NOT = {has_country_flag = Osman_Kemal_Bey_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Prens_Sabahaddin_Efendi_for_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Prens_Sabahaddin_Efendi_dead}
+				NOT = {has_country_flag = Prens_Sabahaddin_Efendi_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Koeprueluezade_Mehmed_Fuad_Pasa_for_mli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = Koeprueluezade_Mehmed_Fuad_Pasa_dead}
+				NOT = {has_country_flag = Koeprueluezade_Mehmed_Fuad_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				market_liberal
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Asimoglu_Hakki_Pasa_for_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Asimoglu_Hakki_Pasa_dead}
+				NOT = {has_country_flag = Asimoglu_Hakki_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Filibeli_Hilmi_Bey_for_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Filibeli_Hilmi_Bey_dead}
+				NOT = {has_country_flag = Filibeli_Hilmi_Bey_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Kazim_Fikri_Pasa_for_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Kazim_Fikri_Pasa_dead}
+				NOT = {has_country_flag = Kazim_Fikri_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Selahattin_Pasa_for_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Selahattin_Pasa_dead}
+				NOT = {has_country_flag = Selahattin_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ali_Fuad_Pasa_for_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Ali_Fuad_Pasa_dead}
+				NOT = {has_country_flag = Ali_Fuad_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_general_staffer
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Suekrue_Pasa_for_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Suekrue_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Suekrue_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Riza_Nur_Pasa_for_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Riza_Nur_Pasa_dead}
+				NOT = {has_country_flag = Riza_Nur_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Sueleyman_Sefik_Pasa_for_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Sueleyman_Sefik_Pasa_dead}
+				NOT = {has_country_flag = Sueleyman_Sefik_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ahmed_Necdet_Pasa_for_npo = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Ahmed_Necdet_Pasa_dead}
+				NOT = {has_country_flag = Ahmed_Necdet_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				national_populist
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Zeki_Velidi_Pasa_for_npo = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Zeki_Velidi_Pasa_dead}
+				NOT = {has_country_flag = Zeki_Velidi_Pasa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				national_populist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	economy_minister = { ### Economy Minister ###
+		TUR_Berc_Keresteciyan_Bey_eco_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Berc_Keresteciyan_Bey_dead}
+				NOT = {has_country_flag = Berc_Keresteciyan_Bey_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_construction_magnate
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Resad_Muhlis_Bey_eco_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Resad_Muhlis_Bey_dead}
+				NOT = {has_country_flag = Resad_Muhlis_Bey_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_keynesian_economy
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Sevket_Rasid_Bey_eco_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Sevket_Rasid_Bey_dead}
+				NOT = {has_country_flag = Sevket_Rasid_Bey_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Koeprueluezade_Mehmed_Fuad_Pasa_eco_mli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = Koeprueluezade_Mehmed_Fuad_Pasa_dead}
+				NOT = {has_country_flag = Koeprueluezade_Mehmed_Fuad_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_industrialiser
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Abduelmuhsin_el_Sadun_Pasa_eco_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Abduelmuhsin_el_Sadun_Pasa_dead}
+				NOT = {has_country_flag = Abduelmuhsin_el_Sadun_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_oil_baron
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Sakir_Pasa_eco_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Mehmed_Sakir_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Sakir_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_mixed_economy
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Hasan_Huesnue_Pasa_eco_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Hasan_Huesnue_Pasa_dead}
+				NOT = {has_country_flag = Hasan_Huesnue_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_reformer
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Kara_Kemal_Bey_eco_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Kara_Kemal_Bey_dead}
+				NOT = {has_country_flag = Kara_Kemal_Bey_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_corrupt_kleptocrat
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mahmud_Celal_Pasa_eco_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mahmud_Celal_Pasa_dead}
+				NOT = {has_country_flag = Mahmud_Celal_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Cavid_Bey_eco_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Cavid_Bey_dead}
+				NOT = {has_country_flag = Mehmed_Cavid_Bey_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Haci_Oemer_Bey_eco_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Haci_Oemer_Bey_dead}
+				NOT = {has_country_flag = Haci_Oemer_Bey_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Nuri_Bey_eco_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Nuri_Bey_dead}
+				NOT = {has_country_flag = Mehmed_Nuri_Bey_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_administrative_genius
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Sefik_Pasa_eco_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Sefik_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Sefik_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_tank_proponent
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Suekrue_Pasa_eco_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Suekrue_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Suekrue_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_planned_economy_proponent
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mustafa_Abduelhalik_Pasa_eco_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mustafa_Abduelhalik_Pasa_dead}
+				NOT = {has_country_flag = Mustafa_Abduelhalik_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_balanced_budget_economy
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Recep_Pasa_eco_npo = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Mehmed_Recep_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Recep_Pasa_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_military_entrepreneur
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	security_minister = { ### Security Minister ###
+		TUR_Agaoglu_Ahmed_Pasa_sec_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Agaoglu_Ahmed_Pasa_dead}
+				NOT = {has_country_flag = Agaoglu_Ahmed_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ibrahim_Refik_Pasa_sec_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Ibrahim_Refik_Pasa_dead}
+				NOT = {has_country_flag = Ibrahim_Refik_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_health_and_safety
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Bekir_Refik_Pasa_sec_mli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = Bekir_Refik_Pasa_dead}
+				NOT = {has_country_flag = Bekir_Refik_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				market_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ahmed_Naci_Pasa_sec_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Ahmed_Naci_Pasa_dead}
+				NOT = {has_country_flag = Ahmed_Naci_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Abduelkadir_Pasa_sec_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Abduelkadir_Pasa_dead}
+				NOT = {has_country_flag = Abduelkadir_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Semsettin_Pasa_sec_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Semsettin_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Semsettin_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_back_stabber
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Yunus_Nadi_Bey_sec_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Yunus_Nadi_Bey_dead}
+				NOT = {has_country_flag = Yunus_Nadi_Bey_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_media_magnate
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Feridun_Fikri_Pasa_sec_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Feridun_Fikri_Pasa_dead}
+				NOT = {has_country_flag = Feridun_Fikri_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Esad_Pasa_sec_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Esad_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Esad_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_secret_police_chief
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mustafa_Abduelhalik_Pasa_sec_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mustafa_Abduelhalik_Pasa_dead}
+				NOT = {has_country_flag = Mustafa_Abduelhalik_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Necmettin_Sadik_Pasa_sec_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Necmettin_Sadik_Pasa_dead}
+				NOT = {has_country_flag = Necmettin_Sadik_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_media_magnate
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Yusuf_Kemal_Pasa_sec_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Yusuf_Kemal_Pasa_dead}
+				NOT = {has_country_flag = Yusuf_Kemal_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Recep_Pasa_sec_npo = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Mehmed_Recep_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Recep_Pasa_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Sadri_Maksudi_Bey_sec_npo = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Sadri_Maksudi_Bey_dead}
+				NOT = {has_country_flag = Sadri_Maksudi_Bey_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	head_of_intel = { ### Head of Intel ###
+		TUR_Ethem_Nejat_int_syn = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = Ethem_Nejat_dead}
+				NOT = {has_country_flag = Ethem_Nejat_int_fired}
+			}
+			traits = {
+				head_of_intel
+				collectivist
+				int_political_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Hasan_Ali_Pasa_int_sde = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Hasan_Ali_Pasa_dead}
+				NOT = {has_country_flag = Hasan_Ali_Pasa_int_fired}
+			}
+			traits = {
+				head_of_intel
+				social_democrat
+				int_dismal_enigma
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ali_Fethi_Pasa_int_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Ali_Fethi_Pasa_dead}
+				NOT = {has_country_flag = Ali_Fethi_Pasa_int_fired}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_logistics_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ali_Said_Pasa_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Ali_Said_Pasa_dead}
+				NOT = {has_country_flag = Ali_Said_Pasa_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_logistics_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Cerkes_Ethem_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Cerkes_Ethem_dead}
+				NOT = {has_country_flag = Cerkes_Ethem_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_logistics_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Doktor_Nazim_Bey_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Doktor_Nazim_Bey_dead}
+				NOT = {has_country_flag = Doktor_Nazim_Bey_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_political_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Guelekoglu_Kasim_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Guelekoglu_Kasim_dead}
+				NOT = {has_country_flag = Guelekoglu_Kasim_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_political_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Kuscubasi_Esref_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Kuscubasi_Esref_dead}
+				NOT = {has_country_flag = Kuscubasi_Esref_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_political_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Emin_Bey_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Emin_Bey_dead}
+				NOT = {has_country_flag = Mehmed_Emin_Bey_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_industrial_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Suekrue_Ali_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Suekrue_Ali_dead}
+				NOT = {has_country_flag = Mehmed_Suekrue_Ali_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_dismal_enigma
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Riza_Tevfik_Bey_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Riza_Tevfik_Bey_dead}
+				NOT = {has_country_flag = Riza_Tevfik_Bey_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_dismal_enigma
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Yenibahceli_Nail_Bey_int_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Yenibahceli_Nail_Bey_dead}
+				NOT = {has_country_flag = Yenibahceli_Nail_Bey_int_fired}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_logistics_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Aziz_Vefa_int_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Aziz_Vefa_dead}
+				NOT = {has_country_flag = Aziz_Vefa_int_fired}
+			}
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				int_technical_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Cemal_Aga_int_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Cemal_Aga_dead}
+				NOT = {has_country_flag = Cemal_Aga_int_fired}
+			}
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				int_political_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Huesamettin_Pasa_int_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Huesamettin_Pasa_dead}
+				NOT = {has_country_flag = Huesamettin_Pasa_int_fired}
+			}
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				int_naval_intelligence_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Esad_Pasa_int_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Esad_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Esad_Pasa_int_fired}
+			}
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				int_logistics_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Osman_Nevres_int_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Osman_Nevres_dead}
+				NOT = {has_country_flag = Osman_Nevres_int_fired}
+			}
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				int_political_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Yoeruek_Ali_Efe_int_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Yoeruek_Ali_Efe_dead}
+				NOT = {has_country_flag = Yoeruek_Ali_Efe_int_fired}
+			}
+			traits = {
+				head_of_intel
+				paternal_autocrat
+				int_logistics_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Nuri_Pasa_int_npo = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Mehmed_Nuri_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Nuri_Pasa_int_fired}
+			}
+			traits = {
+				head_of_intel
+				national_populist
+				int_dismal_enigma
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	chief_of_staff = { ### Chief of Staff ###
+		TUR_Mehmed_Cemal_Pasa_mhc_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Mehmed_Cemal_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Cemal_Pasa_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Musa_Kazim_Pasa_mhc_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Musa_Kazim_Pasa_dead}
+				NOT = {has_country_flag = Musa_Kazim_Pasa_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mustafa_Fevzi_Pasa_mhc_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mustafa_Fevzi_Pasa_dead}
+				NOT = {has_country_flag = Mustafa_Fevzi_Pasa_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_fire_support
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Cevat_Pasa_mhc_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Cevat_Pasa_dead}
+				NOT = {has_country_flag = Cevat_Pasa_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Osman_Fuad_Efendi_mhc_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Osman_Fuad_Efendi_dead}
+				NOT = {has_country_flag = Osman_Fuad_Efendi_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_commando_operations
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Sueleyman_Sefik_Pasa_mhc_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Sueleyman_Sefik_Pasa_dead}
+				NOT = {has_country_flag = Sueleyman_Sefik_Pasa_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	chief_of_army = { ### Chief of Army ###
+		TUR_Ahmed_Kemal_Pasa_carm_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Ahmed_Kemal_Pasa_dead}
+				NOT = {has_country_flag = Ahmed_Kemal_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_doctrine_of_autonomy
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Cafer_Tayyar_Pasa_carm_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Cafer_Tayyar_Pasa_dead}
+				NOT = {has_country_flag = Cafer_Tayyar_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_static_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Fahrettin_Pasa_carm_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Fahrettin_Pasa_dead}
+				NOT = {has_country_flag = Fahrettin_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_armoured_spearhead_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ali_Ihsan_Pasa_carm_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Ali_Ihsan_Pasa_dead}
+				NOT = {has_country_flag = Ali_Ihsan_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Musa_Kazim_Pasa_carm_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Musa_Kazim_Pasa_dead}
+				NOT = {has_country_flag = Musa_Kazim_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_guns_and_butter_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mustafa_Fevzi_Pasa_carm_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mustafa_Fevzi_Pasa_dead}
+				NOT = {has_country_flag = Mustafa_Fevzi_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mustafa_Ismet_Pasa_carm_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mustafa_Ismet_Pasa_dead}
+				NOT = {has_country_flag = Mustafa_Ismet_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Selahattin_Pasa_carm_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Selahattin_Pasa_dead}
+				NOT = {has_country_flag = Selahattin_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Harun_Rasid_Hintersatz_Pasa_carm_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Harun_Rasid_Hintersatz_Pasa_dead}
+				NOT = {has_country_flag = Harun_Rasid_Hintersatz_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_commando_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mehmed_Vehip_Pasa_carm_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Mehmed_Vehip_Pasa_dead}
+				NOT = {has_country_flag = Mehmed_Vehip_Pasa_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_static_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	chief_of_navy = { ### Chief of Navy ###
+		TUR_Ibrahim_Pasa_cnav_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Ibrahim_Pasa_dead}
+				NOT = {has_country_flag = Ibrahim_Pasa_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_decisive_battle_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Mahmud_Muhtar_Pasa_cnav_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mahmud_Muhtar_Pasa_dead}
+				NOT = {has_country_flag = Mahmud_Muhtar_Pasa_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_base_control_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Suekrue_Pasa_cnav_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Suekrue_Pasa_dead}
+				NOT = {has_country_flag = Suekrue_Pasa_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_indirect_approach_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Hueseyin_Rauf_Pasa_cnav_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Hueseyin_Rauf_Pasa_dead}
+				NOT = {has_country_flag = Hueseyin_Rauf_Pasa_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_open_seas_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	chief_of_air_force = { ### Chief of Air Force ###
+		TUR_Irfan_Bey_cair_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Irfan_Bey_dead}
+				NOT = {has_country_flag = Irfan_Bey_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_vertical_envelopment_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Vecihi_Pasa_cair_sli = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Vecihi_Pasa_dead}
+				NOT = {has_country_flag = Vecihi_Pasa_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ahmet_Ali_Pasa_cair_sco = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Ahmet_Ali_Pasa_dead}
+				NOT = {has_country_flag = Ahmet_Ali_Pasa_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_naval_aviation_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Sakir_Fevzi_Pasa_cair_ade = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Sakir_Fevzi_Pasa_dead}
+				NOT = {has_country_flag = Sakir_Fevzi_Pasa_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_battlefield_support_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Fazil_Pasa_cair_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Fazil_Pasa_dead}
+				NOT = {has_country_flag = Fazil_Pasa_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		TUR_Ismail_Sefik_Bey_cair_pau = { #Auto-Generated
+			allowed = {original_tag = TUR}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Ismail_Sefik_Bey_dead}
+				NOT = {has_country_flag = Ismail_Sefik_Bey_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_carpet_bombing_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+##############
+# Companies
+##############
+
+#### General ####
+industrial_concern = {
+
+	karabuk_demir = {
+		allowed = { original_tag = TUR }
+		traits = { industrial_manufacturer }
+		available = {
+			has_completed_focus = TUR_subsidization_of_industry
+		}
+		modifier = {
+			production_speed_arms_factory_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+		}
+		research_bonus = {
+			industry = 0.1
+		}
+	}
+
+	koc_elektrik = {
+		allowed = { original_tag = TUR }
+		traits = { electronics_manufacturer }
+		available = {
+			has_completed_focus = TUR_establishment_of_radio_networks
+		}
+		modifier = {
+			production_speed_radar_station_factor = 0.1
+		}
+		research_bonus = {
+			electronics = 0.1
+			industry = 0.05
+		}
+	}
+}
+
+#### Weapons Manufacturer ####
+weapons_manufacturer = {
+	designer = yes
+
+	ankara_tufek = {
+		allowed = { original_tag = TUR }
+		traits = { infantry_equipment_producer_defense_1 }
+		available = {
+			has_completed_focus = TUR_equipment_modernization
+		}
+		modifier = {}
+		research_bonus = {
+			infantry_weapons = 0.1
+		}
+	}
+
+	sarsilmaz = {
+		allowed = { original_tag = TUR }
+		traits = { infantry_equipment_producer_assualt_1 }
+		available = {
+			has_completed_focus = TUR_equipment_modernization
+		}
+		modifier = {}
+		research_bonus = {
+			infantry_weapons = 0.1
+		}
+	}
+
+	mauser_osmanen = {
+		allowed = { original_tag = TUR }
+		traits = { infantry_equipment_producer_offense_1 }
+		available = {
+			has_completed_focus = TUR_contracts_with_mauser
+			has_country_flag = TUR_empire_retention
+		}
+		modifier = {}
+		research_bonus = {
+			infantry_weapons = 0.1
+		}
+	}
+}
+
+#### Heavy Equipment Manufacturer ####
+tank_manufacturer = {
+	designer = yes
+
+	zeytinburnu_fabrika = {
+		allowed = { original_tag = TUR }
+		traits = { artillery_producer_offense_1 }
+		available = {
+			has_completed_focus = TUR_field_artillery
+		}
+		modifier = {}
+		research_bonus = {
+			artillery = 0.05
+		}
+	}
+
+	mke_ottoman = {
+		allowed = { original_tag = TUR }
+		traits = { artillery_producer_defense_1 }
+		available = {
+			has_completed_focus = TUR_field_artillery
+			has_country_flag = TUR_empire_retention
+		}
+		modifier = {}
+		research_bonus = {
+			artillery = 0.05
+		}
+	}
+
+	uzel_traktor = {
+		allowed = { original_tag = TUR }
+		traits = { small_tank_producer_defense_1 }
+		available = {
+			has_completed_focus = TUR_tank_research
+		}
+		modifier = {}
+		research_bonus = {
+			armor = 0.05
+		}
+	}
+
+	eskisehir_lokomotif = {
+		allowed = { original_tag = TUR }
+		traits = { medium_tank_producer_defense_1 }
+		available = {
+			has_completed_focus = TUR_tank_research
+		}
+		modifier = {}
+		research_bonus = {
+			armor = 0.05
+		}
+	}
+
+	royal_arsenal_ottoman = {
+		allowed = { original_TAG = TUR }
+		traits = { artillery_producer_offense_2 }
+		available = {
+			has_completed_focus = TUR_contracts_with_royal_arsenal
+			has_country_flag = TUR_empire_retention
+		}
+		modifier = {}
+		research_bonus = {
+			artillery = 0.10
+		}
+	}
+}
+
+#### Air and Naval Manufacturer ####
+air_naval_manufacturer = {
+	designer = yes
+
+	hurkus = {
+		allowed = { original_tag = TUR }
+		traits = { fighter_producer_defense_1 }
+		modifier = {}
+		research_bonus = {
+			air_equipment = 0.05
+		}
+	}
+
+	taskizak_tersanesi = {
+		allowed = { original_tag = TUR }
+		traits = { small_ship_producer_offense_1 }
+		modifier = {}
+		research_bonus = {
+			naval_equipment = 0.05
+		}
+	}
+
+	golcuk_tersanesi = {
+		allowed = { original_tag = TUR }
+		traits = { cruiser_producer_defense_1 }
+		modifier = {}
+		research_bonus = {
+			naval_equipment = 0.05
+		}
+	}
+}

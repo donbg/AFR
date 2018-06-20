@@ -1,0 +1,151 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Jalkaväkidivisioona"		# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "Erillinen Prikaati" 	# Separate Brigade - Represents groups of separate battalions (Erillinen Pataljoona) and various garrison units
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+	priority = 0
+}
+division_template = {
+	name = "Ratsuväkiprikaati"  		# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }   
+	}
+}
+
+
+##### OOB #####
+units = {
+	##### LAND UNITS #####
+	division = {
+		name = "6. Divisioona"
+		location = 3137 # Tampere
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+	
+	division = {
+		name = "12. Divisioona"
+		location = 9061 # Joensuu
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+
+	division = {
+		name = "13. Divisioona"
+		location = 11141 # Kuopio
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+
+	division = {
+		name = "14. Divisioona"
+		location = 11141 # Kuopio
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+
+	division = {
+		name = "15. Divisioona"
+		location = 11141 # Kuopio
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+
+	division = {
+		name = "16. Divisioona"
+		location = 6212 
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+
+	division = {
+		name = "17. Divisioona"
+		location = 6212 
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+
+	division = {
+		name = "18. Divisioona"
+		location = 6212 
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+
+	division = {
+		name = "19. Divisioona"
+		location = 7 
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.2
+
+	}
+
+	navy = {					
+		name = "Rannikkolaivue"				
+		base = 11105 
+		location =  11105 # Helsinki
+		ship = { name = "Ilmarinen" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FIN } } }				
+		ship = { name = "Väinämöinen" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FIN } } }				
+	}					
+	navy = {					
+		name = "Sukellusvenelaivue"				
+		base = 11105 
+		location =  11105 # Helsinki
+		ship = { name = "Vetehinen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FIN } } }
+		ship = { name = "Vesihiisi" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FIN } } }
+		ship = { name = "Iku-Turso" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FIN } } }
+		ship = { name = "Vesikko" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FIN } } }
+	}					
+
+}
+	
+### No air units (first formed Jan-1938) ###
+
+### Starting Production ###
+instant_effect = {
+	#Good luck with nothing
+}

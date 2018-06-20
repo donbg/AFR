@@ -1,0 +1,24 @@
+
+state={
+	id=353
+	name="STATE_353"
+	manpower = 563537
+	state_category = town
+
+	history={
+		owner = ARM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			11853 5
+		}
+		add_core_of = ARM
+		add_core_of = TUR
+	}
+
+	provinces={
+		652 4583 7470 9954 11853 12376 13121 6935 864
+	}
+}

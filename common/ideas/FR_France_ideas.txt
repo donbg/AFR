@@ -1,0 +1,813 @@
+################
+# France Ideas #
+###################################
+# Made by VirtualHummingbird & CIA#
+###################################
+
+ideas = {
+#################
+# Country ideas #
+#################
+	country = {
+
+		FRA_department_of_colonial_territories = {
+			modifier = {
+				non_core_manpower = 0.05
+			}
+			picture = generic_intel_bonus
+		}
+
+		FRA_decentralization = {
+			modifier = {
+				autonomy_gain = 0.5
+				stability_weekly = 0.001
+			}
+			picture = generic_intel_bonus
+		}
+
+		FRA_centralization = {
+			modifier = {
+				autonomy_gain = -0.5
+				production_speed_buildings_factor = 0.1
+			}
+			picture = generic_intel_bonus
+		}
+
+		FRA_conseil_de_defence_idea = { 
+			picture = generic_fortify_the_borders
+			modifier = {
+				#production_speed_anti_air_building_factor = 0.10
+				production_speed_coastal_bunker_factor = 0.10
+				production_speed_bunker_factor = 0.10
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		FRA_strict_training_standards = {
+			picture = generic_reserve_divisions
+			modifier = {
+				training_time_army_factor = 0.05
+				minimum_training_level = 0.05
+				max_planning = 0.10
+				planning_speed = 0.10
+			}
+		}
+
+		FRA_foreign_expenses_low = {
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+			picture = generic_intel_bonus
+		}
+
+		FRA_foreign_expenses_medium = {
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+			picture = generic_intel_bonus
+		}
+
+		FRA_foreign_expenses_high = {
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+			picture = generic_intel_bonus
+		}
+
+		FRA_MDF_benefits = {
+			picture = FRA_scw_intervention_nationalists_focus
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				} 
+			}
+		}
+
+		FRA_MDF_loss = {
+			picture = FRA_scw_intervention_nationalists_focus
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				supply_consumption_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		FRA_nationalist_insurgents = {
+			picture = economic_control_icon
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				army_morale_factor = -0.1
+			}
+		}
+	
+		FRA_government_in_exile = { # added when France escapes to Algiers in GW2
+			picture = tfv_can_conscription_crisis
+			modifier = {
+				conscription_factor = -0.50
+			}
+		}
+
+		FRA_great_war_victors = {
+			picture = generic_victors_of_ww1
+			modifier = {
+				surrender_limit = 0.10
+				stability_factor = 0.05
+				war_support_factor = -0.40
+			}
+		}
+
+		FRA_defend_the_republic = {
+			modifier = {
+				surrender_limit = 0.10
+				stability_factor = 0.10
+				conscription = 0.015
+			}
+			picture = generic_victors_of_ww1
+		}
+
+		FRA_political_bickering = {
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_gain = -0.4
+				stability_factor = -0.1
+			}
+		}
+
+		FRA_airforce_decline = {
+			picture = generic_air_bonus
+			research_bonus = {
+				air_doctrine = -0.4
+			}
+		}
+
+		FRA_our_place_in_the_sun = {
+			picture = tfv_can_conscription_crisis
+			research_bonus = {
+				land_doctrine = -0.5
+				naval_doctrine = -0.5
+				air_doctrine = -0.5
+			}
+			modifier = {
+				conscription_factor = -0.5
+				army_morale_factor = -0.25
+			}
+		}
+
+		FRA_army_reformation_idea = {
+			picture = generic_morale_bonus
+			research_bonus = {
+				land_doctrine = 0.05
+				naval_doctrine = 0.05
+				air_doctrine = 0.05
+			}
+			modifier = {
+				army_morale_factor = 0.1
+			}
+		}
+
+		FRA_rhineland_coal = {
+			picture = ast_all_in
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				#consumer_goods_factor = -0.05
+			}
+		}
+
+		FRA_infantry_equipment_production = {
+			picture = generic_infantry_bonus
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+
+		FRA_british_tariffs = {
+			picture = economic_control_icon
+			modifier = {
+				min_export = 0.2
+				#consumer_goods_factor = 0.2
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.25
+			}
+		}
+
+		FRA_conscription_idea = {
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.05
+			}
+		}
+
+		FRA_reduced_conscription_idea = {
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		FRA_militarization_idea = {
+			modifier = { production_speed_buildings_factor = 0.1 }
+			picture = economic_control_icon
+		}
+
+		FRA_military_academy_idea = {
+			#research_bonus = {
+			#	land_doctrine = 0.05
+			#}
+			modifier = {
+				army_org_factor = 0.1 
+				conscription = 0.005
+			}
+			picture = general_staff
+		}
+
+		FRA_motorized_research = {
+			modifier = {
+				army_speed_factor = 0.1
+			}
+			picture = FRA_motorized_focus
+		}
+
+		FRA_offensive_army = {
+			modifier = { offence = 0.1 }
+			picture = FRA_army_of_aggression_focus
+		}
+
+		FRA_fighter_focus_idea = {
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}
+			picture = generic_air_bonus
+		}
+
+		FRA_bomber_focus_idea = {
+			equipment_bonus = {
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}
+			picture = generic_air_research
+		}
+
+		FRA_bomber_focus_idea2 = {
+			equipment_bonus = {
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			}
+			picture = generic_air_research
+		}
+
+		FRA_capital_ship_bonus = {
+			equipment_bonus = {
+				capital_ship = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+			#screen_ship = {
+			#		instant = yes
+			#		build_cost_ic = -0.1
+			#}
+			picture = generic_navy_bonus
+		}
+
+		FRA_naval_range_idea = {
+			picture = liberty_ships_focus
+			modifier = {
+				navy_max_range_factor = 0.2
+			}
+		}
+
+		FRA_artillery_production_idea = {
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				anti_tank_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+			picture = generic_artillery_regiments
+		}
+
+		FRA_desperate_defence = {
+			modifier = {
+				army_core_defence_factor = 0.25
+				army_morale_factor = 0.25
+			}
+			picture = generic_victors_of_ww1
+		}
+
+		FRA_wal_dissent = {
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_gain = -0.75
+				stability_factor = -0.1
+			}
+		}
+
+		FRA_EAMP_idea = {
+			modifier = {
+				army_org_factor = 0.1
+             	experience_gain_army = 0.05
+			}
+			picture = general_staff
+		}
+
+		FRA_EPTP_idea = {
+			modifier = {
+				#air_ace_generation_chance_factor = 0.1
+				air_accidents_factor = -0.1
+             	experience_gain_air = 0.05
+			}
+			picture = generic_air_bonus
+		}
+
+		FRA_ENEP_idea = {
+			modifier = {
+				navy_max_range_factor = 0.1
+             	experience_gain_navy = 0.05
+			}
+			picture = generic_navy_bonus
+		}
+
+		FRA_NAFTA = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = -0.025
+				min_export = 0.05
+				political_power_gain = -0.05
+			}
+			picture = generic_intel_bonus
+		}
+
+		####BLACK WEDNESDAY SHITE####
+
+		FRA_research_subsidies = {
+			modifier = {
+				research_time_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+			picture = generic_intel_bonus
+		}
+
+		FRA_lsmc = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = -0.15
+				army_morale_factor = -0.15
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.25
+				min_export = 0.35
+			}
+			picture = great_depression
+		}
+
+		FRA_lower_colonial_budget = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.1
+				political_power_gain = -0.2
+			}
+			picture = FRA_factory_strikes
+		}
+
+		FRA_republican_austerity = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = -0.1
+			}
+			picture = FRA_factory_strikes
+		}
+
+		FRA_cut_mill_budget = {
+			modifier = {
+				industrial_capacity_factory = 0.25
+				conscription_factor = -0.2
+			}
+			picture = generic_infantry_bonus
+		}
+
+		FRA_taxes = {
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+			}
+			picture = ast_all_in
+		}
+
+		FRA_living_standards = {
+			modifier = {
+				political_power_gain = 0.1
+				monthly_population = 0.05
+			}
+			picture = ast_all_in
+			removal_cost = -1
+		}
+
+		FRA_trois_glorieus = {
+			modifier = {
+				industrial_capacity_factory = 0.2
+				monthly_population = 0.2
+			}
+			picture = FRA_national_mobilization_focus
+			removal_cost = -1
+		}
+
+		FRA_dirigisme = {
+			modifier = {
+				political_power_gain = 0.1
+				production_factory_efficiency_gain_factor = 0.10
+				production_speed_buildings_factor = 0.10
+			}
+			picture = generic_morale_bonus
+			removal_cost = -1
+		}
+
+		FRA_relief_camps = {
+			modifier = {
+				political_power_gain = 0.05
+				production_speed_buildings_factor = 0.10
+			}
+			picture = ast_all_in
+			removal_cost = -1
+		}
+
+		FRA_org_youth = {
+			modifier = {
+				conscription_factor = 0.1
+			}
+			picture = generic_volunteer_expedition_bonus
+			removal_cost = -1
+		}
+
+		FRA_con_credit = {
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			picture = ast_all_in
+			removal_cost = -1
+		}
+
+		FRA_working_women = {
+			modifier = {
+				conscription_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+			picture = generic_democratic_drift_bonus 
+			removal_cost = -1
+		}
+
+		FRA_war_stim = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.10
+			}
+			picture = generic_democratic_drift_bonus
+		}
+		FRA_gun_buy = {
+			picture = generic_artillery_regiments
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+		}
+		FRA_hun_officers = {
+			picture = generic_manpower_bonus
+			modifier = {
+				experience_gain_army = 0.05
+			}
+		}
+		
+		FRA_marital_power = {
+			picture = idea_generic_constitutional_guarantee
+			modifier = {
+				consumer_goods_factor = -0.02
+				political_power_gain = 0.05
+			}
+		}
+		FRA_female_right_to_vote = {
+			picture = FRA_matignon_agreements
+			modifier = {
+				political_power_gain = 0.20
+				industrial_capacity_factory = 0.02
+			}
+		}
+		FRA_political_instability_1 = {
+			picture = chi_war_of_resistance2
+			modifier = {
+				political_power_gain = -0.20
+				consumer_goods_factor = 0.04
+			}
+		}
+		FRA_political_instability_2 = {
+			picture = chi_war_of_resistance3
+			modifier = {
+				political_power_gain = -0.40
+				consumer_goods_factor = 0.1
+			}
+		}
+		FRA_rights_for_algerians = {
+			picture = idea_hun_treaty_of_trianon
+			modifier = {
+				political_power_gain = 0.05
+				non_core_manpower = 0.15
+			}
+		}
+
+		FRA_inflation_control = {
+			modifier = {
+				consumer_goods_factor = -0.1
+				political_power_gain = -0.2
+			}
+			picture = chi_hyper_inflation5
+		}
+
+		FRA_reformed_tax = {
+			modifier = {
+				industrial_capacity_factory = 0.1
+				stability_factor = -0.1
+			}
+			picture = FRA_factory_strikes
+		}
+
+		FRA_reduce_mil_spending = {
+			modifier = {
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.10
+				conscription_factor = -0.3
+				offence = -0.1
+				defence = -0.1
+			}
+			picture = generic_infantry_bonus
+		}
+
+		FRA_investments = {
+			modifier = {
+				industrial_capacity_factory = 0.20
+				stability_factor = -0.10
+				political_power_gain = -0.1
+			}
+			picture = FRA_national_mobilization_focus
+			removal_cost = -1
+		}
+
+		FRA_taxes_for_rich = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = -0.05
+			}
+			picture = ast_all_in
+		}
+
+		FRA_benefits = {
+			modifier = {
+				political_power_gain = -0.1
+				monthly_population = 0.05
+			}
+			picture = ast_all_in
+			removal_cost = -1
+		}
+
+		#FRA_political_instability_1 = {
+		#	modifier = {
+		#		political_power_gain = -0.2
+		#		consumer_goods_factor = 0.05
+		#	}
+		#	picture = chi_war_of_resistance1
+		#	removal_cost = -1
+		#}
+
+		#FRA_political_instability_2 = {
+		#	modifier = {
+		#		political_power_gain = -0.4
+		#		consumer_goods_factor = 0.1
+		#	}
+		#	picture = chi_war_of_resistance3
+		#	removal_cost = -1
+		#}
+
+		FRA_seize_factories = {
+			modifier = {
+				industrial_capacity_factory = 0.15
+				political_power_cost = 0.15
+			}
+			picture = FRA_scw_intervention_nationalists_focus
+			removal_cost = -1
+		}
+
+		FRA_power_to_the_union = {
+			modifier = {
+				mobilization_speed = -0.05
+				production_factory_max_efficiency_factor = 0.1
+			}
+			picture = FRA_matignon_agreements
+			removal_cost = -1
+		}
+
+		FRA_remove_bourgeois = {
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.15
+				libertarian_socialist_drift = 0.05
+				collectivist_drift = 0.03
+				vanguardist_drift = 0.02
+			}
+			picture = SOV_scientist_defect
+			removal_cost = -1
+		}
+
+		FRA_stop_inflation_idea = {
+			modifier = {
+				political_power_gain = 0.1
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+			picture = chi_hyper_inflation5
+			removal_cost = -1
+		}
+
+		FRA_aid_civie = {
+			modifier = {
+				stability_factor = -0.05
+				monthly_population = 0.20
+			}
+			picture = generic_morale_bonus
+			removal_cost = -1
+		}
+
+		FRA_jobs = {
+			modifier = {
+				political_power_cost = 0.1
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.10
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		FRA_remove_leftists = {
+			modifier = {
+				political_power_gain = 0.15
+				consumer_goods_factor = 0.05
+			}
+			picture = SOV_scientist_defect
+			removal_cost = -1
+		}
+
+		FRA_cut_immigrant_spending = {
+			modifier = {
+				stability_weekly = 0.002
+				trade_opinion_factor = -0.2
+				political_power_cost = 0.05
+				improve_relations_maintain_cost_factor = 0.75
+				justify_war_goal_time = 0.25
+			}
+			picture = generic_intel_bonus
+			removal_cost = -1
+		}
+
+		FRA_exclude_church = {
+			picture = ENG_the_war_to_end_all_wars
+			removal_cost = -1
+			modifier = {
+				#stability_factor = 0.06
+				stability_weekly = 0.001
+				consumer_goods_factor = 0.025
+			}
+		}
+		
+		FRA_african_christian = {
+			picture = generic_pp_unity_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.15
+				consumer_goods_factor = 0.025
+			}
+		}
+		
+		FRA_free_religion = {
+			picture = generic_research_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		FRA_bolidicks_debate = {
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.15
+			}
+		}
+		
+		FRA_free_speech = {
+			picture = FRA_national_mobilization_focus
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				research_time_factor = -0.05
+			}
+		}
+		
+		FRA_austerity = {
+			picture = great_depression
+			removal_cost = -1
+			modifier = {
+				political_power_cost = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		FRA_regulations_reduced = {
+			picture = FRA_factory_strikes
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.08
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		FRA_less_benefit = {
+			picture = great_depression
+			removal_cost = -1
+			modifier = {
+				political_power_cost = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		FRA_bus_subsidies = {
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		FRA_encourage_investment = {
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				supply_consumption_factor = 0.20
+				political_power_cost = 0.05
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		
+		FRA_cut_healthcare = {
+			picture = generic_reserve_divisions
+			removal_cost = -1
+			modifier = {
+				political_power_cost = 0.15
+				consumer_goods_factor = -0.05
+			}
+		}

@@ -1,0 +1,24 @@
+
+state={
+	id=932
+	name="STATE_932"
+	manpower = 680084
+	
+	state_category = town
+	
+	resources={
+		oil=15.0
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		4518 9911
+	}
+}

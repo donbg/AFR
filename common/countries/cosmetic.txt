@@ -1,0 +1,207 @@
+MAL_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+INS_HOL = {
+    color = rgb { 203 138 74 }
+    color_ui = rgb { 255 179 96 }
+}
+
+HUN_EMPIRE = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+AUS_NOT_WHITE = {	
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
+}
+GRL_puppet = {
+	color = rgb { 0 77 0 }
+	color_ui = rgb { 51 102 0 }
+}
+
+ARG_communism = {	
+	color = rgb { 145  157  236 }
+	color_ui = rgb { 255 255 255 }
+}
+
+PRU_revolutionary = {	
+	color = rgb { 136  19  74 }
+	color_ui = rgb { 136  19  74 }
+}
+
+GEO_SSR = {
+	color = rgb { 155 17 65 }
+	color_ui = rgb { 155 17 65 }
+}
+
+
+PHN_FRA = {
+ 	color = rgb { 0 60 180 } #15 90 240
+ 	color_ui = rgb { 15 90 240 }
+}
+
+VIN_FRA = {
+ 	color = rgb { 0 60 180 } #0 146 167
+ 	color_ui = rgb { 15 90 240 }
+}
+
+NFA_FRA = {
+	color = rgb { 0 60 180 } #0 20 130
+	color_ui = rgb { 0 20 130 }
+}
+
+NFQ_FRA = {
+	color = rgb { 0 60 180 } #17 103 198
+	color_ui = rgb { 57 113 228 }
+}
+
+MOR_FRA = {
+	color = rgb { 0 60 180 } #40 44 200
+	color_ui = rgb { 0 8 244 }
+}
+
+MAN_free = {
+	color = rgb { 255 165 0 }
+    color_ui = rgb { 255 165 0}
+}
+
+PRC_free = {
+	color = rgb { 245 12 55 }
+    color_ui = rgb { 245 12 55 }
+}
+
+XSM_free = {
+	color = rgb { 106 83 124 }
+    color_ui = rgb { 106 83 124 }
+}
+
+YUN_free = {
+	color = rgb { 201 120 120 }
+    color_ui = rgb { 255 165 0}
+}
+
+SHX_free = {
+	color = rgb { 78 132 86 }
+    color_ui = rgb { 78 132 86}
+}
+
+LMK_puppet = {
+	color = rgb { 0 52 32 }
+    color_ui = rgb { 0 52 32 }
+}
+SLO_puppet = {
+	color = rgb { 18 38 68 }
+    color_ui = rgb { 18 38 68 }
+}
+DanFed = {
+		color = rgb { 255 152 102 }
+		color_ui = rgb { 255 152 102}
+}
+POL_REP = {
+	color = rgb { 204 86 47 }
+	color_ui = rgb { 204 86 47 }
+}
+
+SHO_REVOLT = {
+	color = rgb { 130 10 10 }
+	color_ui = rgb { 130 10 10 }
+}
+
+SHO_GER = {
+	color = rgb { 130 10 10 }
+	color_ui = rgb { 130 10 10 }
+}
+
+ENG_SAU = {
+	color = rgb { 200 0 0 }
+	color_ui = rgb { 200 0 0 }
+}
+
+ENG_JOR = {
+	color = rgb { 201 0 0 }
+	color_ui = rgb { 201 0 0 }
+} 
+
+ENG_IRQ = {
+	color = rgb { 202 0 0 }
+	color_ui = rgb { 202 0 0 }
+}
+
+ENG_PER = {
+	color = rgb { 203 0 0 }
+	color_ui = rgb { 200 0 0 }
+}
+
+ENG_EGY = {
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
+}
+
+ENG_KEN = {
+	color = rgb { 205 0 0 }
+	color_ui = rgb { 205 0 0 }
+}
+
+ENG_RHO = {
+	color = rgb { 206 0 0 }
+	color_ui = rgb { 206 0 0 }
+}
+
+ENG_MAL = {
+	color = rgb { 207 0 0 }
+	color_ui = rgb { 207 0 0 }
+}
+
+ENG_AFG = {
+	color = rgb { 208 0 0 }
+	color_ui = rgb { 208 0 0 }
+}
+
+ENG_SIA = {
+	color = rgb { 209 0 0 }
+	color_ui = rgb { 209 0 0 }
+}
+
+ENG_NEP = {
+	color = rgb { 210 0 0 }
+	color_ui = rgb { 210 0 0 }
+}
+
+ENG_BHU = {
+	color = rgb { 211 0 0 }
+	color_ui = rgb { 211 0 0 }
+}
+
+ENG_TRK = {
+	color = rgb { 212 0 0 }
+	color_ui = rgb { 212 0 0 }
+}
+
+ENG_USA = {
+	color = rgb { 213 0 0 }
+	color_ui = rgb { 213 0 0 }
+}
+
+IMP_CAN = {
+	color = rgb { 186 0 0 }
+	color_ui = rgb { 200 35 35 }
+}
+IMP_SAF = {
+	color = rgb { 187 0 0 }
+	color_ui = rgb { 200 35 35 }
+}
+IMP_AST = {
+	color = rgb { 188 0 0 }
+	color_ui = rgb { 200 35 35 }
+}
+IMP_NZL = {
+	color = rgb { 189 0 0 }
+	color_ui = rgb { 200 35 35 }
+}
+PLF = {
+	color = rgb {199  119  38}
+	color_ui = rgb {199  119  38}
+}

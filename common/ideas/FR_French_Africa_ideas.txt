@@ -1,0 +1,35 @@
+######################################
+# Temp ideas file for French colonies#
+######################################
+################
+# Country ideas#
+################
+
+ideas = {
+	country = {
+		NFA_pacification_of_africa = {
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_gain = -0.15
+				conscription = -0.01
+				consumer_goods_factor = 0.05
+				stability_weekly = 0.0015
+			}
+		}
+		MOR_harsh_environment = {
+			picture = economic_control_icon
+			modifier = {
+				production_speed_arms_factory_factor = -0.15
+				production_speed_industrial_complex_factor = -0.15
+				consumer_goods_factor = 0.2
+			}
+		}
+		NFQ_colonial_unrest = {
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_gain = -0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+	}
+}

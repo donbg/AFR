@@ -1,0 +1,238 @@
+﻿division_template = {
+	name = "Infanterie"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 1 y = 0}
+		infantry = { x = 2 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+	}
+	support = {
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Garda Regală"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 1 y = 0}
+		infantry = { x = 1 y = 1}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+	}
+	support = {
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Vânători"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+}
+division_template = {
+	name = "Cavalerie"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Vânătorii motorizați"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	### INFANTRY ###
+	division = {
+		name = "Garda Regală"
+		location = 9617
+		division_template = "Garda Regală"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Corpul 1 Grăniceri"
+		location = 11657
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Corpul 2 Grăniceri"
+		location = 6658
+		division_template = "Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Pionieri"
+		location = 11619
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Garda din față"
+		location = 9716
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Divizia 1 Infanterie"
+		location = 657
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Divizia a 2-a Infanterie"
+		location = 11689
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Divizia a 3-a Infanterie"
+		location = 3663
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Divizia a 4-a Infanterie"
+		location = 6706
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	### MOUNTAINEERS ###
+	division = {
+		name = "Vânători Alfa"
+		location = 11619
+		division_template = "Vânători"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Vânători Beta"
+		location = 11655
+		division_template = "Vânători"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Vânători Gama"
+		location = 11605
+		division_template = "Vânători"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Corpul Vânătorilor de Munte"
+		location = 6667
+		division_template = "Vânători"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+### NAVY ###
+
+	navy = {				
+		name = "Grupul tactic Tulcea"			
+		base = 657 
+		location = 657 
+		ship = { name = "NMS Regele Ferdinand" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROM } } }
+		ship = { name = "NMS Regina Maria" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROM } } }
+		ship = { name = "NMS Marasesti" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROM } } }
+		ship = { name = "NMS Mihai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ROM } } }
+	}
+	navy = {
+		name = "Submarin escadron"			
+		base = 687 
+		location = 687 
+		ship = { name = "NMS Marasti" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROM } } }
+		ship = { name = "NMS Naluca" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ROM } } }
+		ship = { name = "NMS Smeul" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ROM } } }
+		ship = { name = "NMS Sborul" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ROM } } }
+	}
+}
+
+air_wings = {
+	46 = {
+		# Grup 1 Avion de Vanatoare -- PZL P.11 fighters
+		fighter_equipment_0 = {
+			owner = "ROM" 
+			amount = 32
+		}
+	}
+	79 = {
+		# Grup 2 Avion de Vanatoare -- IAR 14, 15 fighters
+		fighter_equipment_0 = {
+			owner = "ROM" 
+			amount = 12
+		}
+	}
+}
+	
+#### FACTORY SHIT
+#UR NOT ALLOWED TO HAVE THIS -LOVE AND REGARDS, CIA
+#instant_effect = {
+#	add_equipment_production = {
+#		equipment = {
+#			type = infantry_equipment_1
+#			creator = "ROM"
+#		}
+#		requested_factories = 2
+#		progress = 0.87
+#		efficiency = 100
+#	}
+#	add_equipment_production = {
+#		equipment = {
+#			type = support_equipment_1
+#			creator = "ROM"
+#		}
+#		requested_factories = 1
+#		progress = 0.19
+#		efficiency = 100
+#	}
+#	add_equipment_production = {
+#		equipment = {
+#			type = artillery_equipment_1
+#			creator = "ROM"
+#		}
+#		requested_factories = 2
+#		progress = 0.24
+#		efficiency = 95
+#	}
+#	add_equipment_production = {
+#		equipment = {
+#			type = light_tank_equipment_1
+#			creator = "ROM" 
+#		}
+#		requested_factories = 1
+#		progress = 0.4
+#		efficiency = 80
+#	}	
+#
+#}

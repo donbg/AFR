@@ -1,0 +1,664 @@
+ideas = {
+	country = {
+	}
+
+#### HEAD OF GOVERNMENTS ####
+
+	head_of_government = {
+        MEX_Emiliano_Zapata_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = vanguardist
+                has_country_flag = can_replace_hog
+                NOT = {has_country_flag = Emilio_Zapata_dead}
+                NOT = {has_country_flag = Emilio_Zapata_fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government vanguardist hog_underground_figurehead}
+            cancel_if_invalid = no
+        }
+
+        MEX_Valentin_Campa_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = collectivist
+                has_country_flag = can_replace_hog
+                NOT = {has_country_flag = Valentin_Campa_dead}
+                NOT = {has_country_flag = Valentin_Campa_fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government collectivist hog_ambitious_union_boss}
+            cancel_if_invalid = no
+        }
+
+        MEX_Lazaro_Cardenas_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = libertarian_socialist
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government libertarian_socialist hog_silent_workhorse}
+            cancel_if_invalid = no
+        }
+
+        MEX_Alvaro_Obregon_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = social_democrat
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government social_democrat hog_respected_war_hero}
+            cancel_if_invalid = no
+        }
+
+        MEX_Gustavo_Madero_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = social_liberal
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government social_liberal hog_political_protege}
+            cancel_if_invalid = no
+        }
+
+        MEX_Pascual_Orozco_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = market_liberal
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government market_liberal hog_backroom_backstabber}
+            cancel_if_invalid = no
+        }
+
+        MEX_Ignacio_Bonillas_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = social_conservative
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government social_conservative hog_old_compromiser}
+            cancel_if_invalid = no
+        }
+
+        MEX_Manuel_Gomez_Morin_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = authoritarian_democrat
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government authoritarian_democrat hog_pragmatic_statesman}
+            cancel_if_invalid = no
+        }
+
+        MEX_Plutarco_Elias_Calles_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = paternal_autocrat
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government paternal_autocrat hog_state_secularist}
+            cancel_if_invalid = no
+        }
+
+        MEX_Salvador_Abascal_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = national_populist
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government national_populist hog_determined_populist}
+            cancel_if_invalid = no
+        }
+
+				MEX_Nicolas_Rodriguez_Carrasco_hog = {
+            allowed = {original_tag = MEX }
+            available = {
+                has_government = valkist
+                has_country_flag = can_replace_hog
+                #NOT = {has_country_flag = _dead}
+                #NOT = {has_country_flag = _fired}
+                NOT = {has_country_flag = ministers_cannot_be_replaced}
+            }
+            traits = {head_of_government valkist hog_revanchist_conspirator}
+            cancel_if_invalid = no
+        }
+    }
+
+#### FOREIGN MINISTERS ####
+
+    foreign_minister = {
+            MEX_Narciso_Bassols_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = collectivist
+                    NOT = {has_country_flag = Narciso_Bassols_dead}
+                    NOT = {has_country_flag = Narciso_Bassols_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister collectivist for_foreign_sympathizer}
+                cancel_if_invalid = no
+            }
+
+            MEX_Manuel_Avila_Comacho_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = libertarian_socialist
+                    NOT = {has_country_flag = Manuel_Avila_Comacho_dead}
+                    NOT = {has_country_flag = Manuel_Avila_Comacho_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister libertarian_socialist for_apologetic_clerk}
+                cancel_if_invalid = no
+            }
+
+            MEX_Gilberto_Bosques_Saldivar_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = social_democrat
+                    NOT = {has_country_flag = Gilberto_Bosques_Saldivar_dead}
+                    NOT = {has_country_flag = Gilberto_Bosques_Saldivar_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister social_democrat for_moderate_among_radicals}
+                cancel_if_invalid = no
+            }
+
+            MEX_Luciano_Jublanc_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = social_liberal
+                    NOT = {has_country_flag = Luciano_Jublanc_dead}
+                    NOT = {has_country_flag = Luciano_Jublanc_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister social_liberal for_world_patrician}
+                cancel_if_invalid = no
+            }
+
+            MEX_Antonio_Castro_Leal_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = market_liberal
+                    NOT = {has_country_flag = Antonio_Castro_Leal_dead}
+                    NOT = {has_country_flag = Antonio_Castro_Leal_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister market_liberal for_relations_expert}
+                cancel_if_invalid = no
+            }
+
+            MEX_Matias_Villa_Michel_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = social_conservative
+                    NOT = {has_country_flag = Matias_Villa_Michel_dead}
+                    NOT = {has_country_flag = Matias_Villa_Michel_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister social_conservative for_ideological_crusader}
+                cancel_if_invalid = no
+            }
+
+            MEX_Rodolfo_Sanchez_Taboada_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = authoritarian_democrat
+                    NOT = {has_country_flag = Rodolfo_Sanchez_Taboada_dead}
+                    NOT = {has_country_flag = Rodolfo_Sanchez_Taboada_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister authoritarian_democrat for_iron_fisted_brute}
+                cancel_if_invalid = no
+            }
+
+            MEX_Saturnino_Cedillo_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = paternal_autocrat
+                    NOT = {has_country_flag = Saturnino_Cedillo_dead}
+                    NOT = {has_country_flag = Saturnino_Cedillo_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister paternal_autocrat for_great_compromiser}
+                cancel_if_invalid = no
+            }
+
+            MEX_Manuel_Torres_Bueno_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = national_populist
+                    NOT = {has_country_flag = Manuel_Torres_Bueno_dead}
+                    NOT = {has_country_flag = Manuel_Torres_Bueno_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister national_populist for_moderate_among_radicals}
+                cancel_if_invalid = no
+            }
+
+            MEX_Jose_de_Leon_Toral_for = {
+                allowed = {original_tag = MEX}
+                available = {
+										has_government = valkist
+                    NOT = {has_country_flag = Jose_de_Leon_Toral_dead}
+                    NOT = {has_country_flag = Jose_de_Leon_Toral_fired}
+                    NOT = {has_country_flag = ministers_cannot_be_replaced}
+                    NOT = {has_country_flag = for_cannot_be_replaced}
+                }
+                traits = {foreign_minister valkist for_general_staffer}
+                cancel_if_invalid = no
+            }
+        }
+
+#### ECONOMIC MINISTERS ####
+
+    economy_minister = {
+                MEX_Jose_Robles_Pazos_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = vanguardist
+                        NOT = {has_country_flag = Jose_Robles_Pazos_dead}
+                        NOT = {has_country_flag = Jose_Robles_Pazos_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister vanguardist eco_planned_economy_proponent}
+                    cancel_if_invalid = no
+                }
+
+                MEX_Vicente_Lombardo_Toledano_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = vanguardist
+                        NOT = {has_country_flag = Vicente_Lombardo_Toledano_dead}
+                        NOT = {has_country_flag = Vicente_Lombardo_Toledano_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister collectivist eco_imbedded_unioneer}
+                    cancel_if_invalid = no
+                }
+
+                MEX_Luis_Napoleon_Morones_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = social_democrat
+                        NOT = {has_country_flag = Luis_Napoleon_Morones_dead}
+                        NOT = {has_country_flag = Luis_Napoleon_Morones_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister social_democrat eco_resource_industrialist}
+                    cancel_if_invalid = no
+                }
+
+                MEX_Manuel_Perez_Trevino_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = social_liberal
+                        NOT = {has_country_flag = Manuel_Perez_Trevino_dead}
+                        NOT = {has_country_flag = Manuel_Perez_Trevino_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister social_liberal eco_keynesian_economy}
+                    cancel_if_invalid = no
+                }
+
+								MEX_Juan_Andreu_Almazan_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = market_liberal
+                        NOT = {has_country_flag = Juan_Andreu_Almazan_dead}
+                        NOT = {has_country_flag = Juan_Andreu_Almazan_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister market_liberal eco_laissez_faire_capitalist}
+                    cancel_if_invalid = no
+                }
+
+								MEX_Carlos_Athie_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = social_conservative
+                        NOT = {has_country_flag = Carlos_Athie_dead}
+                        NOT = {has_country_flag = Carlos_Athie_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister social_conservative eco_national_liberal}
+                    cancel_if_invalid = no
+                }
+
+								MEX_Francisco_Leon_de_la_Barra_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = authoritarian_democrat
+                        NOT = {has_country_flag = Francisco_Leon_de_la_Barra_dead}
+                        NOT = {has_country_flag = Francisco_Leon_de_la_Barra_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister authoritarian_democrat eco_industrialiser}
+                    cancel_if_invalid = no
+                }
+
+								MEX_Emilio_Portes_Gil_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = paternal_autocrat
+                        NOT = {has_country_flag = Emilio_Portes_Gil_dead}
+                        NOT = {has_country_flag = Emilio_Portes_Gil_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister paternal_autocrat eco_balanced_budget_economy}
+                    cancel_if_invalid = no
+                }
+
+								MEX_Anacleto_Gonzalez_Flores_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = national_populist
+                        NOT = {has_country_flag = Anacleto_Gonzalez_Flores_dead}
+                        NOT = {has_country_flag = Anacleto_Gonzalez_Flores_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister national_populist eco_reformer}
+                    cancel_if_invalid = no
+                }
+
+								MEX_Jose_Antonio_Urquiza_eco = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = valkist
+                        NOT = {has_country_flag = Jose_Antonio_Urquiza_dead}
+                        NOT = {has_country_flag = Jose_Antonio_Urquiza_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = eco_cannot_be_replaced}
+                    }
+                    traits = {economy_minister valkist eco_resource_industrialist}
+                    cancel_if_invalid = no
+                }
+        }
+
+#### SECURITY MINISTERS ####
+
+    security_minister = {
+                MEX_Andres_Molina_Enriquez_sec = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = vanguardist
+                        NOT = {has_country_flag = Andres_Molina_Enriquez_dead}
+                        NOT = {has_country_flag = Andres_Molina_Enriquez_fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = sec_cannot_be_replaced}
+                    }
+                    traits = {security_minister vanguardist sec_driven_recruiter}
+                    cancel_if_invalid = no
+                }
+        }
+
+				security_minister = {
+		                MEX_Narciso_Bassols_sec = {
+		                    allowed = {original_tag = MEX}
+		                    available = {
+														has_government = collectivist
+		                        NOT = {has_country_flag = Narciso_Bassols_dead}
+		                        NOT = {has_country_flag = Narciso_Bassols_fired}
+		                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+		                        NOT = {has_country_flag = sec_cannot_be_replaced}
+		                    }
+		                    traits = {security_minister collectivist sec_prince_of_terror}
+		                    cancel_if_invalid = no
+		                }
+		        }
+
+						security_minister = {
+				                MEX_Francisco_Jose_Mugica_sec = {
+				                    allowed = {original_tag = MEX}
+				                    available = {
+																has_government = libertarian_socialist
+				                        NOT = {has_country_flag = Francisco_Jose_Mugica_dead}
+				                        NOT = {has_country_flag = Francisco_Jose_Mugica_fired}
+				                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+				                        NOT = {has_country_flag = sec_cannot_be_replaced}
+				                    }
+				                    traits = {security_minister libertarian_socialist sec_compassionate_gentleman}
+				                    cancel_if_invalid = no
+				                }
+				        }
+
+								security_minister = {
+						                MEX_Pascual_Ortiz_Rubio_sec = {
+						                    allowed = {original_tag = MEX}
+						                    available = {
+																		has_government = social_democrat
+						                        NOT = {has_country_flag = Pascual_Ortiz_Rubio_dead}
+						                        NOT = {has_country_flag = Pascual_Ortiz_Rubio_fired}
+						                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+						                        NOT = {has_country_flag = sec_cannot_be_replaced}
+						                    }
+						                    traits = {security_minister social_democrat sec_silent_lawyer}
+						                    cancel_if_invalid = no
+						                }
+						        }
+
+										security_minister = {
+								                MEX_Abelardo_Rodriguez_sec = {
+								                    allowed = {original_tag = MEX}
+								                    available = {
+																				has_government = social_liberal
+								                        NOT = {has_country_flag = Abelardo_Rodriguez_dead}
+								                        NOT = {has_country_flag = Abelardo_Rodriguez_fired}
+								                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+								                        NOT = {has_country_flag = sec_cannot_be_replaced}
+								                    }
+								                    traits = {security_minister social_liberal sec_secret_police_chief}
+								                    cancel_if_invalid = no
+								                }
+								        }
+
+												security_minister = {
+										                MEX_Guadalupe_Sanchez_sec = {
+										                    allowed = {original_tag = MEX}
+										                    available = {
+																						has_government = market_liberal
+										                        NOT = {has_country_flag = Guadalupe_Sanchez_dead}
+										                        NOT = {has_country_flag = Guadalupe_Sanchez_fired}
+										                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+										                        NOT = {has_country_flag = sec_cannot_be_replaced}
+										                    }
+										                    traits = {security_minister market_liberal sec_crooked_kleptocrat}
+										                    cancel_if_invalid = no
+										                }
+										        }
+
+														security_minister = {
+												                MEX_Felix_Diaz_sec = {
+												                    allowed = {original_tag = MEX}
+												                    available = {
+																								has_government = social_conservative
+												                        NOT = {has_country_flag = Felix_Diaz_dead}
+												                        NOT = {has_country_flag = Felix_Diaz_fired}
+												                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+												                        NOT = {has_country_flag = sec_cannot_be_replaced}
+												                    }
+												                    traits = {security_minister social_conservative sec_crime_fighter}
+												                    cancel_if_invalid = no
+												                }
+												        }
+
+																security_minister = {
+														                MEX_Joaquin_Amaro_sec = {
+														                    allowed = {original_tag = MEX}
+														                    available = {
+																										has_government = authoritarian_democrat
+														                        NOT = {has_country_flag = Joaquin_Amaro_dead}
+														                        NOT = {has_country_flag = Joaquin_Amaro_fired}
+														                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+														                        NOT = {has_country_flag = sec_cannot_be_replaced}
+														                    }
+														                    traits = {security_minister authoritarian_democrat sec_man_of_the_people}
+														                    cancel_if_invalid = no
+														                }
+														        }
+
+																		security_minister = {
+																                MEX_Aristeo_Pedroza_sec = {
+																                    allowed = {original_tag = MEX}
+																                    available = {
+																												has_government = authoritarian_democrat
+																                        NOT = {has_country_flag = Aristeo_Pedroza_dead}
+																                        NOT = {has_country_flag = Aristeo_Pedroza_fired}
+																                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+																                        NOT = {has_country_flag = sec_cannot_be_replaced}
+																                    }
+																                    traits = {security_minister authoritarian_democrat sec_secret_police_chief}
+																                    cancel_if_invalid = no
+																                }
+																        }
+
+																				security_minister = {
+																		                MEX_Jesus_Augustin_Castro_sec = {
+																		                    allowed = {original_tag = MEX}
+																		                    available = {
+																														has_government = paternal_autocrat
+																		                        NOT = {has_country_flag = Jesus_Augustin_Castro_dead}
+																		                        NOT = {has_country_flag = Jesus_Augustin_Castro_fired}
+																		                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+																		                        NOT = {has_country_flag = sec_cannot_be_replaced}
+																		                    }
+																		                    traits = {security_minister paternal_autocrat sec_driven_recruiter}
+																		                    cancel_if_invalid = no
+																		                }
+																		        }
+
+																						security_minister = {
+																				                MEX_Enrique_Gorostieta_sec = {
+																				                    allowed = {original_tag = MEX}
+																				                    available = {
+																																has_government = national_populist
+																				                        NOT = {has_country_flag = Enrique_Gorostieta_dead}
+																				                        NOT = {has_country_flag = Enrique_Gorostieta_fired}
+																				                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+																				                        NOT = {has_country_flag = sec_cannot_be_replaced}
+																				                    }
+																				                    traits = {security_minister national_populist sec_great_soul}
+																				                    cancel_if_invalid = no
+																				                }
+																				        }
+
+																								security_minister = {
+																						                MEX_Jose_Olivares_sec = {
+																						                    allowed = {original_tag = MEX}
+																						                    available = {
+																																		has_government = valkist
+																						                        NOT = {has_country_flag = Jose_Olivares_dead}
+																						                        NOT = {has_country_flag = Jose_Olivares_fired}
+																						                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+																						                        NOT = {has_country_flag = sec_cannot_be_replaced}
+																						                    }
+																						                    traits = {security_minister valkist sec_back_stabber}
+																						                    cancel_if_invalid = no
+																						                }
+																						        }
+
+																										security_minister = {
+																								                MEX_Alfonso_Junco_sec = {
+																								                    allowed = {original_tag = MEX}
+																								                    available = {
+																																				has_government = valkist
+																								                        NOT = {has_country_flag = Alfonso_Junco_dead}
+																								                        NOT = {has_country_flag = Alfonso_Junco_fired}
+																								                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+																								                        NOT = {has_country_flag = sec_cannot_be_replaced}
+																								                    }
+																								                    traits = {security_minister valkist sec_crime_fighter}
+																								                    cancel_if_invalid = no
+																								                }
+																								        }
+
+#### INTEL MINISTERS ####
+
+
+
+    head_of_intel = {
+                MEX_Aristeo_Pedroza_int = {
+                    allowed = {original_tag = MEX}
+                    available = {
+												has_government = authoritarian_democrat
+                        #NOT = {has_country_flag = _dead}
+                        #NOT = {has_country_flag = _fired}
+                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+                        NOT = {has_country_flag = int_cannot_be_replaced}
+                    }
+                    traits = {head_of_intel collectivist int_political_specialist}
+                    cancel_if_invalid = no
+                }
+        }
+
+				head_of_intel = {
+										MEX_Enrique_Gorostieta_int = {
+												allowed = {original_tag = MEX}
+												available = {
+														has_government = national_populist
+														#NOT = {has_country_flag = _dead}
+														#NOT = {has_country_flag = _fired}
+														NOT = {has_country_flag = ministers_cannot_be_replaced}
+														NOT = {has_country_flag = int_cannot_be_replaced}
+												}
+												traits = {head_of_intel national_populist int_political_specialist}
+												cancel_if_invalid = no
+										}
+						}
+
+						head_of_intel = {
+				                MEX_Alfonso_Junco_int = {
+				                    allowed = {original_tag = MEX}
+				                    available = {
+																has_government = valkist
+				                        #NOT = {has_country_flag = _dead}
+				                        #NOT = {has_country_flag = _fired}
+				                        NOT = {has_country_flag = ministers_cannot_be_replaced}
+				                        NOT = {has_country_flag = int_cannot_be_replaced}
+				                    }
+				                    traits = {head_of_intel valkist int_political_specialist}
+				                    cancel_if_invalid = no
+				                }
+				        }

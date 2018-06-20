@@ -1,0 +1,42 @@
+﻿l_english:
+
+#### Political Parties ####
+
+JAP_vanguardist_party:0 "Sahashakaitō"
+JAP_vanguardist_party_long:0 "Sahashakaitō"
+JAP_collectivist_party:0 "Musantō"
+JAP_collectivist_party_long:0 "Musantō"
+JAP_libertarian_socialist_party:0 "Sōdōmei"
+JAP_libertarian_socialist_party_long:0 "Sōdōmei"
+JAP_social_democrat_party:0 "Taishūtō"
+JAP_social_democrat_party_long:0 "Taishūtō"
+JAP_social_liberal_party:0 "Progressive Kakushin"
+JAP_social_liberal_party_long:0 "Progressive Kakushin"
+JAP_market_liberal_party:0 "Conservative Kakushin"
+JAP_market_liberal_party_long:0 "Conservative Kakushin"
+JAP_social_conservative_party:0 "Imperial Army"
+JAP_social_conservative_party_long:0 "Imperial Army"
+JAP_authoritarian_democrat_party:0 "Imperial House"
+JAP_authoritarian_democrat_party_long:0 "Imperial House"
+JAP_paternal_autocrat_party:0 "Taisei Yokusankai"
+JAP_paternal_autocrat_party_long:0 "Taisei Yokusankai"
+JAP_national_populist_party:0 "Imperial Navy"
+JAP_national_populist_party_long:0 "Imperial Navy"
+JAP_valkist_party:0 "Tohokai"
+JAP_valkist_party_long:0 "Tohokai"
+
+#### Bookmark Description ####
+
+JAP_FUHRERREICH_DESC:0 "Japan is rising. In less than a century it has pulled itself from an isolated, feudal society to Asia's most industrialised and modern state. Emperor Hirohito rules over an young empire that simultaneously holds dominion over Korean and Taiwan, yet upholds a democracy based on American ideals. Lacking natural resources, Japan must advance even further if it's to thrive in this uncertain world. Tennōheika Banzai!\n\n(Japanese content and focus tree will be included in 0.2)"
+
+#####Events#####
+
+jap.0.t:0 "The Rising Sun"
+jap.0.d:0 "While other nations were immolated in the Great War, the early 20th century has been a blessing to Japan. Gaining dominion over many of Germany's former pacific territories, Japan has continously stepped into the spotlight on the world stage. \n\nHowever, the nation's dabbling in Democracy is still new, and many wish to corrupt it to suit their wishes. Many farmers struggle with the rapid pace of modernisation, and income inequality has exploded. The Zaibatsu, Japan's gargantuan conglomerates, have continued to stifle entrepreunership and innovation. It has been a golden age for Japan, but unless swift action is taken, stagnation may curse us. May the Emperor watch over us all."
+jap.0.a:0 "Tennōheika Banzai!"
+
+#####Ideas#####
+
+JAP_cultural_upheaval:0 "Cultural Upheaval"
+JAP_Romanov_exiles:0 "Romanov Exiles"
+JAP_Romanov_exiles_desc:0 "The erstwhile royal family of Romanov was able to escape eastward across Russia essentially intact. Offered settlement in Japan, the Romanovs have taxed political will and relations with the SSRs with their royal demands and upkeep. We should probably see to sending them somewhere else..."

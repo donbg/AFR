@@ -1,0 +1,49 @@
+﻿capital = 611
+
+oob = "MEN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+set_stability = 0.50
+set_war_support = 0.50
+
+set_politics = {
+
+	parties = {
+		social_conservative = { 
+			popularity = 0
+			banned = yes
+		}
+
+		national_populist = {
+			popularity = 80
+		}
+		
+		collectivist = {
+			popularity = 0
+			banned = yes
+		}
+
+		authoritarian_democrat = {
+			popularity = 20
+		}
+	}
+	
+	ruling_party = national_populist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prince Demchugdongrub"
+	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+	}
+}

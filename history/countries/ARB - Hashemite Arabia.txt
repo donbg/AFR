@@ -1,0 +1,82 @@
+﻿capital = 679
+
+oob = "SAU_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 15
+set_stability = 0.50
+set_war_support = 0.50
+
+set_country_flag = sphered
+set_country_flag = sphere_1_by_ENG
+set_country_flag = sphere_2_by_ENG
+set_country_flag = sphere_3_by_ENG
+add_ideas = sphered_idea_1
+
+add_ideas = {
+	GEN_Szymon_Kowalski_hog_ade
+	GEN_Jozef_Korczak_eco_ade
+	GEN_Gaj_Bosko_sec_ade
+	GEN_Ludwik_Czaplinski_for_ade
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 8
+		}
+		social_liberal = {
+			popularity = 2
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 54
+		}
+		paternal_autocrat = {
+			popularity = 8
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 14
+		}
+	}
+
+
+	ruling_party = authoritarian_democrat
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "'Abd al-Ilah"
+	desc = "POLITICS_ABDALILAH_DESC"
+	picture = "Portrait_ARB_AbdAl-Ilah.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

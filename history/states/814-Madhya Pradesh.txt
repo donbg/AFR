@@ -1,0 +1,22 @@
+
+state={
+	id=814
+	name="STATE_814"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = IND
+		add_core_of = RAJ
+	}
+
+	provinces={
+		4557 4883 7619 10030 12781 12854 
+	}
+	manpower=4000310
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

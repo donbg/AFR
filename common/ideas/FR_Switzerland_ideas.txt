@@ -1,0 +1,36 @@
+#####################
+##SWITZERLAND IDEAS##
+#####################
+
+ideas = {
+    country = {
+		SWI_arms_industry = {
+			picture = generic_production_bonus
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
+
+		SWI_swiss_armed_forces = {
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.03
+				defence = 0.10
+				offence = -0.10
+			}
+		}
+
+		SWI_bank_act = {
+			picture = generic_constitutional_guarantee
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_gain = -0.03
+			}
+		}
+	}
+}

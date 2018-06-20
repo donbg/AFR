@@ -1,0 +1,82 @@
+﻿capital = 267
+
+oob = "AFG_1936"
+
+set_stability = 0.55
+set_war_support = 0.65
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+add_ideas = {
+	GEN_Oscar_Jensen_hog_pau
+	GEN_Lucas_Friberg_for_pau
+	GEN_William_Ostberg_eco_pau
+	GEN_Mats_Holmgren_sec_pau
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 14
+		}
+		collectivist = {
+			popularity = 3
+		}
+		libertarian_socialist = {
+			popularity = 8
+		}
+		social_democrat = {
+			popularity = 5
+		}
+		social_liberal = {
+			popularity = 8
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 13
+		}
+		authoritarian_democrat = {
+			popularity = 2
+		}
+		paternal_autocrat = {
+			popularity = 43
+		}
+		national_populist = {
+			popularity = 4
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+# Mohammad Hashim Khan (Prime Minister) other potential candidate
+create_country_leader = {
+	name = "Mohammed Nadir Shah"
+	desc = "POLITICS_Mohammed_Nadir_Shah_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Nadir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Sardar Shah Wali Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 4
+}

@@ -1,0 +1,16 @@
+units = {
+	
+navy = {					
+		name = "USS Kearsarge"				
+		base = 788
+		location = 788 # Norfolk
+		ship = { name = "USS Kearsarge" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USA } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "USA" amount = 30 }
+				cv_CAS_equipment_1 =  { owner = "USA" amount = 8 }
+				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }
+			}
+		}
+	}
+
+}

@@ -1,0 +1,881 @@
+##################
+## Canada Ideas ##
+####################################
+## By CIA and Virtual Hummingbird ##
+####################################
+ideas = {
+
+	## Canada Ideas ##
+
+	country = {
+
+		CAN_dbs_idea = { #The DBS
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				monthly_population = 0.05
+				industrial_capacity_factory = 0.05
+			}
+			picture = generic_research_bonus
+			removal_cost = -1
+		}
+		
+		CAN_stats_idea = { #DBS 2 electric boogaloo
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				monthly_population = 0.1
+				industrial_capacity_factory = 0.1
+			}
+			picture = generic_research_bonus
+			removal_cost = -1
+		}
+
+		CAN_nrma_idea = { #National Resource Mobilization Act
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = -0.1
+				conscription = 0.05
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+		
+		CAN_wma_idea = { #The War Measures Act
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = -0.1
+				global_building_slots_factor = 0.20 
+				political_power_gain = 0.50
+			}
+			picture = generic_morale_bonus
+			removal_cost = -1
+		}
+
+		CAN_labour_dispute = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.15
+				consumer_goods_factor = 0.05
+			}
+			picture = FRA_matignon_agreements
+			removal_cost = -1
+		}
+
+		CAN_ongoing_civil_strife = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				political_power_gain = -0.1
+				conscription_factor = -0.1
+				consumer_goods_factor = 0.025
+			}
+			picture = FRA_matignon_agreements
+			removal_cost = -1
+		}
+		
+		CAN_rcmp_idea = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				cavalry_attack_factor = 0.025
+				cavalry_defence_factor = 0.025
+			}
+			picture = generic_spy_political
+			removal_cost = -1
+		}
+
+		CAN_rcmp_idea1 = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				cavalry_attack_factor = 0.025
+				cavalry_defence_factor = 0.025
+				decryption_factor = 0.1
+				encryption_factor = 0.1
+				local_intel_to_enemies = -0.5
+			}
+			picture = generic_spy_political
+			removal_cost = -1
+		}
+
+		CAN_rcmp_idea2 = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				cavalry_attack_factor = 0.025
+				cavalry_defence_factor = 0.025
+				decryption_factor = 0.1
+				encryption_factor = 0.1
+				local_intel_to_enemies = -0.5
+				local_factory_sabotage = -0.5
+			}
+			picture = generic_spy_political
+			removal_cost = -1
+		}
+
+		CAN_rcmp_idea3 = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				cavalry_attack_factor = 0.025
+				cavalry_defence_factor = 0.025
+				decryption_factor = 0.1
+				encryption_factor = 0.1
+				local_intel_to_enemies = -0.5
+				local_factory_sabotage = -0.5
+				stability_factor = 0.05
+			}
+			picture = generic_spy_political
+			removal_cost = -1
+		}
+
+		CAN_rccf_idea = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				enemy_partisan_effect = -0.2
+			}
+			picture = generic_spy_intel
+			removal_cost = -1
+		}
+
+		CAN_rccf_idea1 = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				enemy_partisan_effect = -0.2
+				political_power_gain = 0.15
+			}
+			picture = generic_spy_intel
+			removal_cost = -1
+		}
+
+		CAN_rccf_idea2 = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				enemy_partisan_effect = -0.2
+				political_power_gain = 0.15
+				#army_org_factor = 0.05
+				land_reinforce_rate = 0.1
+				max_dig_in = 5
+			}
+			picture = generic_spy_intel
+			removal_cost = -1
+		}
+
+		CAN_rccf_idea3 = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				enemy_partisan_effect = -0.2
+				political_power_gain = 0.15
+				#army_org_factor = 0.05
+				land_reinforce_rate = 0.1
+				max_dig_in = 5
+				conscription = 0.005
+			}
+			picture = generic_spy_intel
+			removal_cost = -1
+		}
+
+		CAN_infiltrative_police_techniques = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				foreign_subversive_activites = -0.2
+				libertarian_socialist_drift = -0.01
+				collectivist_drift = -0.01
+				vanguardist_drift = -0.01
+				valkist_drift = -0.01
+
+			}
+			picture = generic_spy_coup
+			removal_cost = -1
+		}
+
+		CAN_secret_police = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				foreign_subversive_activites = -0.2
+				resistance_tick = -0.2
+				libertarian_socialist_drift = -0.02
+				collectivist_drift = -0.02
+				vanguardist_drift = -0.02
+				valkist_drift = -0.02
+
+			}
+			picture = generic_spy_coup
+			removal_cost = -1
+		}
+		
+		CAN_enforced_conscription = { #Conscription enforced (In quebec)
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				conscription = 0.05
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+		
+		CAN_cco_idea = { #Canada Carries On
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				war_support_factor = 0.05
+				training_time_army_factor = -0.10
+			}
+			picture = generic_war_preparations
+			removal_cost = -1
+		}
+
+		CAN_flimsy_party_platform = { #Flimsy Party Platform
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = -0.05
+				political_power_cost = 0.2
+			}
+			picture = generic_intel_bonus
+			removal_cost = -1
+		}
+
+		CAN_camp_crusade = { #Camp Crusade
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+				political_power_cost = 0.15
+			}
+			picture = FRA_factory_strikes
+			removal_cost = -1
+		}
+
+		CAN_camp_crusade2 = { #Camp Crusade - Post Calgary
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+				conscription_factor = -0.1
+				political_power_cost = 0.15
+			}
+			picture = FRA_factory_strikes
+			removal_cost = -1
+		}
+		
+		CAN_relief_idea = { #Relief Camps
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.05
+				political_power_cost = 0.1
+			}
+			picture = generic_industrial_concern_1
+			removal_cost = -1
+		}
+
+		CAN_relief_idea_CPC = { #Relief Camps - CPC Plan
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.1
+				political_power_cost = 0.05
+			}
+			picture = generic_industrial_concern_1
+			removal_cost = -1
+		}
+
+		CAN_relief_idea_WUL = { #Relief Camps - WUL Plan
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.025
+				political_power_cost = 0.05
+			}
+			picture = generic_industrial_concern_1
+			removal_cost = -1
+		}
+
+		CAN_relief_idea_Strikers = { #Relief Camps - Direct Negotiations
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.025
+			}
+			picture = generic_industrial_concern_1
+			removal_cost = -1
+		}
+		
+		CAN_char_idea = { #The Charlottes Program
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				political_power_cost = 0.15
+				monthly_population = 0.15
+			}
+			picture = stiff_upper_lip #generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		
+		CAN_tes_idea = { #Tank Emplacement Strategy
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				defence = 0.10
+			}
+			picture = generic_license_production
+			removal_cost = -1
+		}
+
+		CAN_modern_idea = { #Modern Supply Lines
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				supply_consumption_factor = -0.10
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+		}
+
+		CAN_red_tories = { #The Red Tories
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				political_power_cost = 0.2
+				stability_factor = -0.2 
+			}
+			picture = can_defence_of_canada_regulations_democratic
+			removal_cost = -1
+		}
+
+		CAN_anglo_french_tension = { #Anglo-French Tensions
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				political_power_cost = 0.1
+			}
+			picture = FRA_matignon_agreements
+			removal_cost = -1
+		}
+
+		CAN_black_wednesday = { #Black Wednesday
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				war_support_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.40
+				production_speed_buildings_factor = -0.55
+				industrial_capacity_factory = -0.45
+				consumer_goods_factor = 0.2
+				min_export = -0.40
+				research_time_factor = 0.05
+			}
+			picture = great_depression
+			removal_cost = -1
+		}
+
+		CAN_recovering_bw = { #Recovering from BW
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				war_support_factor = -0.1
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.20
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_factory = -0.10
+				consumer_goods_factor = 0.10
+				min_export = -0.25
+			}
+			picture = great_depression
+			removal_cost = -1
+		}
+
+		CAN_stimulation = { #Simulation
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = 0.15
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		CAN_austerity = { #Austerity
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.10
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_factory = -0.10
+				consumer_goods_factor = -0.15
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		CAN_exports_raised = { #Raised Exports
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				industrial_capacity_factory = 0.15
+				min_export = 0.2
+			}
+			picture = generic_foreign_capital
+			removal_cost = -1
+		}
+
+		CAN_taxes_raised = { #Raised Taxes
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			picture = generic_foreign_capital
+			removal_cost = -1
+		}
+
+		CAN_socred_plan = { #SoCred recovery plan
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.25
+			}
+			picture = generic_foreign_capital
+			removal_cost = -1
+		}
+
+		CAN_east_west_divide = {
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_cost = 0.05
+				stability_factor = -0.025
+			}
+		}
+
+		CAN_lowered_tariffs = { #Liberal Tariffs
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				local_resources_factor = 0.10
+				research_time_factor = -0.05
+				min_export = 0.1
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+		}
+
+		CAN_raised_tariffs = { #Tory Tariffs
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.03
+				min_export = -0.15
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+		}
+
+		CAN_economic_priority = { #Prioritizing Economic Growth
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.025
+				industrial_capacity_factory = 0.05
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+		}
+
+		CAN_set_the_markets_free = { #Set the Markets Free
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.1
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+		}
+
+		CAN_bill_of_rights = {
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = 0.1
+				non_core_manpower = 0.05
+				political_power_gain = 0.1
+			}
+			picture = generic_constitutional_guarantee
+		}
+
+		CAN_canadian_corps = { #The Royal Canadian Corps
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				training_time_army_factor = 0.25
+				minimum_training_level = 0.5
+				army_org_factor = 0.10
+				planning_speed = 0.10
+			}
+			picture = generic_reserve_divisions
+			removal_cost = -1
+		}
+
+		CAN_school_of_shock_idea = { #The Royal Canadian Corps, Currie's path
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				training_time_army_factor = 0.05
+				army_org_factor = 0.15
+				planning_speed = 0.10
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+
+		CAN_school_of_movement_idea = { #The Royal Canadian Corps, Crerar's path
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				training_time_army_factor = 0.05
+				army_speed_factor = 0.1
+				planning_speed = 0.25
+			}
+			picture = generic_acquire_tanks
+			removal_cost = -1
+		}
+
+		CAN_loyal_military = { #Loyal Military, Dissolve parliament
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				army_org_factor = 0.1
+				army_morale_factor = 0.1
+				conscription_factor = 0.15
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+
+		CAN_liberal_mp_reint = { #Reintegration of Liberal MPs
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				market_liberal_drift = -0.05
+				social_liberal_drift = -0.05
+				social_conservative_drift = 0.1
+			}
+			picture = generic_democratic_drift_bonus
+			removal_cost = -1
+		}
+
+		CAN_universal_pensions = { #Universal Pensions
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = 0.1
+				research_time_factor = -0.05
+				consumer_goods_factor = 0.02
+			}
+			picture = generic_central_management
+			removal_cost = -1
+		}
+
+		CAN_universal_healthcare = { #Universal Healthcare
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				monthly_population = 0.1
+				attrition = -0.1
+				consumer_goods_factor = 0.04
+			}
+			picture = generic_flexible_foreign_policy
+			removal_cost = -1
+		}
+
+		CAN_unemployment_ins = { #Unemployement Insurance
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = 0.04
+			}
+			picture = generic_flexible_foreign_policy2
+			removal_cost = -1
+		}
+
+		CAN_socialized_economics = { #Socialized Economic Planning
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		CAN_coal_imports = { #Coal Imports (ENG)
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		CAN_coal_exports = { #Coal Exports (CAN)
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		CAN_dmas = {
+			picture = volunteer_defenders3
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			#modifier = {
+				#supply_consumption_factor = -0.05
+			#}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				} 
+			}
+		}
+
+		CAN_wicb = { 
+			picture = economic_control_icon
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+
+		CAN_cbc = { #CBC
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = 0.05
+				#war_support_factor = 0.05
+				political_power_gain = 0.10
+				foreign_subversive_activites = -0.1
+			}
+			picture = generic_morale_bonus
+			removal_cost = -1
+		}
+
+		CAN_dcl = { 
+			picture = generic_fortify_the_borders
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_speed_naval_base_factor = 0.10
+				production_speed_air_base_factor = 0.10
+				production_speed_anti_air_building_factor = 0.10
+				production_speed_coastal_bunker_factor = 0.10
+				production_speed_bunker_factor = 0.10
+			}
+		}
+
+		CAN_coastal_patrolling = { #Coastal Patrols
+			picture = generic_air_bonus
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			modifier = {
+				experience_gain_air = 0.07
+				air_weather_penalty = -0.1
+				air_accidents_factor = -0.1
+			}
+		}
+
+		CAN_canadian_mil_mission = { #Military mission to Australia
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				army_org_factor = 0.05
+			}
+			research_bonus = {
+				land_doctrine = 0.1
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+
+		CAN_australian_assistance = { #Australians accept mil mission
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			equipment_bonus = {
+				screen_ship = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+				light_cruiser = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+			picture = generic_navy_bonus
+			removal_cost = -1
+		}
+
+		CAN_british_shipbuilding = { #British Shipbuilders
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			equipment_bonus = {
+			capital_ship = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+			modifier = {
+				production_speed_dockyard_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+			picture = generic_navy_bonus
+			removal_cost = -1
+		}
+		CAN_immanent_sovereignty = { #Immanent Sovereignty
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				war_support_factor = 0.025
+				conscription = 0.025
+				political_power_gain = 0.1
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+		CAN_practical_hecking_christianity = { #Practical Christianity
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+		CAN_basic_income = { #Basic Income
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.20
+				local_resources_factor = -0.10
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+		CAN_a_b_theorem = { #A+B Theorem
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.15
+				local_resources_factor = -0.10
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+		CAN_a_b_theorem_fucc = { #A+B Theorem integration
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.75
+				industrial_capacity_factory = -0.75
+				local_resources_factor = -0.15
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+		CAN_doit_idea = { #Department of International Trade
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				trade_opinion_factor = 0.2
+				extra_trade_to_overlord_factor = -0.5
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+		CAN_quebec_riots = { #Conscription Riots
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				war_support_factor = -0.1
+				conscription_factor = -0.3
+				industrial_capacity_factory = -0.15
+			}
+			picture = tfv_can_conscription_crisis
+			removal_cost = -1
+		}
+		CAN_nationalized_wartime_industry = { #Direct rule from the Economy
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+			picture = FRA_matignon_agreements
+			removal_cost = -1
+		}
+		CAN_oil_flares_idea = { #Turner Valley Oil Flares
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				local_resources_factor = 0.2
+				production_oil_factor = -2.5
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+		CAN_extra_research_teams_idea = { #Additional Research Teams
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				research_time_factor = -0.05
+			}
+			picture = generic_research_bonus
+			removal_cost = -1
+		}
+	}

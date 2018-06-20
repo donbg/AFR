@@ -1,0 +1,87 @@
+﻿capital = 317
+
+oob = "NIC_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+set_country_flag = monroe_doctrine
+
+set_convoys = 10
+set_stability = 0.42
+set_war_support = 0.66
+
+add_ideas = {
+	GEN_Szymon_Kowalski_hog_ade
+	GEN_Jozef_Korczak_eco_ade
+	GEN_Gaj_Bosko_sec_ade
+	GEN_Ludwik_Czaplinski_for_ade
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 1
+		}
+		collectivist = {
+			popularity = 14
+		}
+		libertarian_socialist = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 2
+		}
+		market_liberal = {
+			popularity = 16
+		}
+		social_conservative = {
+			popularity = 8
+		}
+		authoritarian_democrat = {
+			popularity = 48
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 9
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	ruling_party = authoritarian_democrat
+	last_election = "1934.3.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Anastasio Somoza García"
+	desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=929
+	name="STATE_929"
+	manpower = 374926
+	
+	state_category = rural
+	
+	resources={
+		oil=15.0
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+		
+	}
+
+	provinces={
+		11859 6881 11876 3784 986 6861 3840 9637
+	}
+}

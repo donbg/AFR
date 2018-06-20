@@ -1,0 +1,118 @@
+﻿division_template = {
+	name = "Hetevelazori Divizia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }	
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }	
+		infantry = { x = 2 y = 2 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Hetselazori Divizia" 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	navy = {	
+		name = "Sev Tsovi Navatorm"
+		base = 11753
+		location = 11753 # Rize			
+		ship = { name = "Akanakir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARM } } }
+		ship = { name = "Akanakir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARM } } }	
+	}
+	
+	division = {			
+		name = "Hetevelazori Divizia"		
+		location = 789
+		division_template = "Hetevelazori Divizia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {			
+		name = "Hetevelazori Divizia"		
+		location = 12320
+		division_template = "Hetevelazori Divizia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {			
+		name = "Hetevelazori Divizia"		
+		location = 6642
+		division_template = "Hetevelazori Divizia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {			
+		name = "Hetevelazori Divizia"		
+		location = 652
+		division_template = "Hetevelazori Divizia"
+		start_experience_factor = 0.3
+	}
+	
+	division = {			
+		name = "Hetevelazori Divizia"		
+		location = 3714
+		division_template = "Hetevelazori Divizia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {			
+		name = "Hetevelazori Divizia"		
+		location = 9886
+		division_template = "Hetevelazori Divizia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {			
+		name = "Hetevelazori Divizia"		
+		location = 9954
+		division_template = "Hetevelazori Divizia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {			
+		name = "Hetselazori Divizia"		
+		location = 12441
+		division_template = "Hetselazori Divizia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {			
+		name = "Hetselazori Divizia"		
+		location = 9886
+		division_template = "Hetselazori Divizia"
+		start_experience_factor = 0.15
+	}
+}
+
+air_wings = {
+	230 = {
+		fighter_equipment_0 = {
+			owner = "ARM" 
+			amount = 28
+		}
+		CAS_equipment_1 =  {
+			owner = "ARM" 
+			amount = 36
+		}
+	}
+}

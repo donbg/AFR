@@ -1,0 +1,157 @@
+﻿capital = 165
+
+oob = "SPA_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+add_ideas = {
+	SCW_Idea
+	extensive_conscription
+	GEN_Dmitry_Kuznetsov_hog_col
+	GEN_Kostin_Danilovich_for_col
+	GEN_Kolomnikov_Georgiy_eco_col
+	GEN_Burmakin_Ilya_sec_col
+}
+
+set_politics = {
+
+parties = {
+		vanguardist = {
+			popularity = 27
+		}
+		collectivist = {
+			popularity = 32
+		}
+		libertarian_socialist = {
+			popularity = 19
+		}
+		social_democrat = {
+			popularity = 22
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = collectivist
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 150
+set_stability = 0.65
+set_war_support = 0.80
+
+declare_war_on = {
+	target = SPF
+	type = annex_everything
+}
+
+create_country_leader = {
+	name = "Vicente Uribe"
+	desc = "POLITICS_VINCENTE_URIBE_DESC"
+	picture = "Portrait_SPA_Vincente_Uribe.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+### Field Marshals ###
+
+create_field_marshal = {
+	name = "Buenaventura Durruti"
+	picture = "Portrait_SPA_Buenaventura_Durruti.tga"
+	traits = { 
+		trickster
+		urban_assault_specialist
+		expert_improviser
+	}
+	skill = 3
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 4
+}
+
+### Generals ###
+
+create_corps_commander = {
+	name = "Juan Hernández Saravia"
+	picture = "Portrait_SPA_Juan_Saravia.tga"
+	traits = { 
+		infantry_leader
+		ambusher
+	}
+	skill = 2
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "C Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}
+
+create_equipment_variant = {
+	name = "Príncipe Alfonso Class"
+	type = light_cruiser_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}

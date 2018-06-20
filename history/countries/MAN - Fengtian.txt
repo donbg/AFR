@@ -1,0 +1,122 @@
+﻿capital = 608 #Beijing
+
+oob = "MAN_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	
+	tech_support = 1
+	tech_recon = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+
+	early_submarine = 1
+	early_destroyer = 1
+	transport = 1
+
+	construction1 = 1
+	excavation1 = 1
+	
+}
+
+add_ideas = {
+	MAN_political_reform
+	MAN_antijapanese_sentiment
+	MAN_warlord_ubiquity
+	MAN_middling_industry
+	GEN_Szymon_Kowalski_hog_ade
+	GEN_Jozef_Korczak_eco_ade
+	GEN_Gaj_Bosko_sec_ade
+	GEN_Ludwik_Czaplinski_for_ade
+}
+
+set_convoys = 130
+set_stability = 0.50
+set_war_support = 0.45
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 8
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 14
+		}
+		social_conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 46
+		}
+		paternal_autocrat = {
+			popularity = 9
+		}
+		national_populist = {
+			popularity = 11
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Zhang Zuolin"
+	desc = "POLITICS_ZHANG_ZUOLIN_DESC"
+	picture = "Portrait_MAN_Zhang_Zuolin.tga"
+	expire = "1960.1.1"
+	ideology = authoritarian_democrat_subtype
+	
+}
+
+create_corps_commander = {
+	name = "Zhang Haipeng"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = {  }
+	skill = 2
+	
+}
+
+create_corps_commander = {
+	name = "Zhang Jinghui"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = {  }
+	skill = 2
+	
+}
+
+create_corps_commander = {
+	name = "Aisin Gioro Xiqia"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	traits = { }
+	skill = 3
+}

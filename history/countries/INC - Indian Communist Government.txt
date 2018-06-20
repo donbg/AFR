@@ -1,0 +1,134 @@
+﻿capital = 439
+
+oob = "INC"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+	
+}
+
+set_convoys = 50
+set_stability = 0.5
+set_war_support = 0.4
+
+set_politics = {
+
+parties = {
+		vanguardist = {
+			popularity = 13
+		}
+		collectivist = {
+			popularity = 17
+		}
+		libertarian_socialist = {
+			popularity = 76
+		}
+		social_democrat = {
+			popularity = 6
+		}
+		social_liberal = {
+			popularity = 7
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = libertarian_socialist
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+}
+
+create_country_leader = {
+	name = "Shripad Amrit Dange"
+	desc = "POLITICS_SHRIPAD_AMRIT_DESC"
+	picture = "Shripad_Amrit_Dange.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abani Mukherji"
+	desc = "POLITICS_ABANI_MUKHERJI_DESC"
+	picture = "Abani_Mukherji.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Swami Satyabhakta"
+	desc = "POLITICS_SWAMI_SATYABHAKTA_DESC"
+	picture = "Swami_Satyabhakta.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Subhash Chandra Bose"
+	picture = "Chandra_Bose.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Prem Sahgal"
+	picture = "Prem_Sahgal.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Lakshmi Sahgal"
+	picture = "Lakshmi_Sahgal.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}

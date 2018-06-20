@@ -1,0 +1,50 @@
+﻿l_english:
+
+RUS_FUHRERREICH_DESC:0 ""
+#PARTIES
+
+RUS_vanguardist_party:0 "RAV"
+RUS_vanguardist_party_long:0 "Russkaya avangardnaya vecherinka"
+RUS_collectivist_party:0 "RKP"
+RUS_collectivist_party_long:0 "Rossiyskaya kollektivistskaya partiya"
+RUS_libertarian_socialist_party:0 "NPR"
+RUS_libertarian_socialist_party_long:0 "Narodnaya progressivnaya partiya dlya Rossii"
+RUS_social_democrat_party:0 "SR"
+RUS_social_democrat_party_long:0 "Sotsialisticheskiye reformatory"
+RUS_social_liberal_party:0 "NLP"
+RUS_social_liberal_party_long:0 "Narodnaya liberal'naya partiya"
+RUS_market_liberal_party:0 "UDP"
+RUS_market_liberal_party_long:0 "Umerennaya demokraticheskaya partiya"
+RUS_social_conservative_party:0 "Konservativnyy al'yans Rossii"
+RUS_social_conservative_party_long:0 "KAR" 
+RUS_authoritarian_democrat_party:0 "OARN"
+RUS_authoritarian_democrat_party_long:0 "Ob"yedinennyy al'yans russkogo naroda"
+RUS_paternal_autocrat_party:0 "PRY"
+RUS_paternal_autocrat_party_long:0 "Partiya russkogo yedinstva"
+RUS_national_populist_party:0 "IRP"
+RUS_national_populist_party_long:0 "Istinnaya russkaya partiya"
+RUS_valkist_party:0 "SSV"
+RUS_valkist_party_long:0 "Soyuz slavyanskikh vecherinok"
+
+#############
+### IDEAS ###
+#############
+
+RUS_civil_war:0 "Russian Civil War"
+RUS_civil_war_desc:0 "All of Russia has been thrown once more into a brutal and bloody civil war, and the white forces have all united under a common banner. While this is sure not to last, we must take advantage of the unified forces to kick socialism out of Russia once and for all!"
+
+RUS_strife:0 "Internal Strife"
+RUS_strife_desc:0 ""
+
+##############
+### EVENTS ###
+##############
+
+russia.1.t:0 "The Russian Civil War"
+russia.1.d:0 "The time has come to liberate all of Russia from the yoke of socialism. This war will be long and hard, but we must come out victorious, for the preservation of the Russian state as we know it."
+russia.1.a:0 "Raise the White banners!"
+###
+russia.2.t:0 "End of the Russian Civil War"
+russia.2.d:0 "The red forces are defeated, and we are in control of both Moscow and Petrograd. We have ushered in a new age of Russian history, and we will write it."
+russia.2.a:0 "For the Republic!"
+###

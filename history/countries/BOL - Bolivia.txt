@@ -1,0 +1,203 @@
+﻿capital = 302
+
+oob = "BOL_1936"
+
+add_ideas = {
+	civilian_economy
+	export_focus
+	volunteer_only
+	normal_popularity
+	BOL_shameful_defeat
+	BOL_Abadon_Saavedra_Mallea_hog_sli
+	BOL_Alberto_Ostria_Gutierrez_for_mli
+	BOL_Gil_Ibarra_Juarez_eco_sli
+	BOL_Mamerto_Urriolagoitia_Harriague_sec_sli
+}
+set_research_slots = 3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	gwtank = 1
+	tech_mountaineers = 1
+	basic_light_tank = 1
+}
+set_stability = 0.4
+set_war_support = 0.4
+set_politics = {
+
+	parties = {
+
+		libertarian_socialist = {
+			popularity = 10
+		}
+		social_democrat = { 
+			popularity = 10
+		}
+
+		national_populist = {
+			popularity = 5
+		}
+		
+		valkist = {
+			popularity = 20
+		}
+
+		vanguardist = {
+			popularity = 15
+		}
+
+		collectivist = {
+			popularity = 20
+		}
+
+		social_conservative = { 
+			popularity = 10
+		}
+
+		market_liberal = { 
+			popularity = 0
+		}
+		social_liberal = { 
+			popularity = 10
+		}		
+		authoritarian_democrat = { 
+			popularity = 5
+		}
+	}
+	
+	ruling_party = social_liberal
+	last_election = "1934.11.11"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "José Luis Tejada Sorzano"
+	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
+	picture = "JoseLuisTejada.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Bautista Saavedra Mallea"
+	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
+	picture = "BautistaSaavedra.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Santos Marka T'ula"
+	desc = "POLITICS_SANTOS_MARKA_DESC"
+	picture = "SantosMarka.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tristán Marof"
+	desc = "POLITICS_TRISTAN_MAROF_DESC"
+	picture = "TristanMarof.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José Antonio Arze"
+	desc = "POLITICS_ARZE_DESC"
+	picture = "JoseAntonioArze.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carlos Salazar Mostajo"
+	desc = "POLITICS_CARLOS_MOSTAJO_DESC"
+	picture = "CarlosMostajo.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "Óscar Únzaga de la Vega"
+	desc = "POLITICS_OSCAR_UNZAGA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Enrique Peñaranda"
+	picture = "BOL_Enrique_Castillo.dds"
+	traits = {}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Bernardino Bilbao Rioja "
+	picture = "BOL_Bernardino_Bilbao_Rioja.dds"
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "David Toro"
+	picture = "BOL_David_Toro.dds"
+	traits = {}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Carlos Quintanilla Quiroga"
+	picture = "BOL_Carlos_Quintanilla_Quiroga.dds"
+	traits = {}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Germán Busch"
+	picture = "BOL_German_Busch.dds"
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}

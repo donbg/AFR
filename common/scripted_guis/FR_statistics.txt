@@ -1,0 +1,52 @@
+scripted_gui = {
+
+	statistics = {
+		context_type = player_context
+		
+		window_name = "statistics_container"
+		
+		visible = {
+            always = yes
+		}
+		
+		effects = {
+		}
+	}
+	statistics_button = {
+		context_type = player_context
+		
+		window_name = "statistics_button_container"
+		
+		visible = {
+            always = yes
+		}
+		
+		effects = {
+			statistics_button_click = {
+				set_temp_variable = { show = 1 }
+				subtract_from_temp_variable = { show = show_statistics_expanded }
+				set_variable = { show_statistics_expanded = show }
+			}
+		}
+
+	}
+	statistics_expanded = {
+		context_type = player_context
+		
+		window_name = "statistics_container_expanded"
+		
+		visible = {
+            check_variable = { show_statistics_expanded > 0.0 }
+		}
+
+		triggers = {
+    		statistics_button_bg_click = {
+       			always = yes
+    			}
+		}
+		
+		effects = {
+		}
+	}
+}
+

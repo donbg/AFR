@@ -1,0 +1,179 @@
+﻿capital = 613 # Nanjing
+
+oob = "CHI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+}
+
+#Events
+
+
+add_ideas = {
+	KMT_southern_government
+	KMT_soviet_support
+}
+
+set_convoys = 40
+set_stability = 0.56
+set_war_support = 0.67
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 14
+		}
+		collectivist = {
+			popularity = 12
+		}
+		libertarian_socialist = {
+			popularity = 4
+		}
+		social_democrat = {
+			popularity = 33
+		}
+		social_liberal = {
+			popularity = 6
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 4
+		}
+		authoritarian_democrat = {
+			popularity = 15
+		}
+		paternal_autocrat = {
+			popularity = 6
+		}
+		national_populist = {
+			popularity = 3
+		}
+		valkist = {
+			popularity = 4
+		}
+	}
+	
+	ruling_party = social_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Zhang Guotao"
+	desc = "POLITICS_ZHANG_GUOTAO_DESC"
+	picture = "Portrait_KMT_Zhang_Guotao.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Li Dazhao"
+	desc = "POLITICS_LI_DAOZHAO_DESC"
+	picture = "Portrait_KMT_Li_Daozhao.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chiang Kai-Shek"
+	desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
+	picture = "Portrait_KMT_Chiang_Kai_Shek.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wang Jingwei"
+	desc = "POLITICS_WANG_JINGWEI_DESC"
+	picture = "Portrait_GND_Wang_Jingwei.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zhang Qun"
+	desc = "POLITICS_ZHANG_QUN_DESC"
+	picture = "Portrait_NRA_Zhang_Qun.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hu Hanmin"
+	desc = "POLITICS_HU_HANMIN_DESC"
+	picture = "Portrait_NRA_Hu_Hanmin.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "He Yingqin"
+	desc = "POLITICS_HE_YINGQIN_DESC"
+	picture = "Portrait_NRA_He_Yingqin.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chen Lifu"
+	desc = "POLITICS_CHEN_LIFU_DESC"
+	picture = "Portrait_NRA_Chen_Lifu.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zhang Lifu"
+	desc = "POLITICS_ZHANG_LIFU_DESC"
+	picture = "Portrait_NRA_Zhang_Lifu.tga"
+	expire = "1965.1.1"
+	ideology = valkist_subtype 
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Chiang Kai-Shek"
+	picture = "Chiang Kai Shek.tga"
+	traits = { old_guard }
+	skill = 1
+}
+

@@ -1,0 +1,25 @@
+state={
+	id=751
+	name="STATE_751"
+	resources={
+		steel=7.0
+	}
+
+	state_category = rural
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1282 1338 1619 4287 10247 12221
+	}
+	manpower=129338
+	buildings_max_level_factor=1.000
+}

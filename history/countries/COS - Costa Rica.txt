@@ -1,0 +1,74 @@
+﻿capital = 316
+
+oob = "COS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_country_flag = monroe_doctrine
+
+set_convoys = 10
+set_stability = 0.50
+set_war_support = 0.50
+
+add_ideas = {
+	GEN_Francesco_Esposito_hog_mli
+	GEN_Antonello_D_Angelo_for_mli
+	GEN_Eros_Berna_eco_mli
+	GEN_Fleano_Carideo_sec_mli
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 4
+		}
+		social_liberal = {
+			popularity = 33
+		}
+		market_liberal = {
+			popularity = 49
+		}
+		social_conservative = {
+			popularity = 6
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 6
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	ruling_party = market_liberal
+	last_election = "1933.1.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ricardo Jiménez Oreamuno"
+	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}

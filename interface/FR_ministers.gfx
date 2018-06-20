@@ -1,0 +1,1821 @@
+spriteTypes = {
+
+  ####################################################################################################
+  # - ENG
+  ####################################################################################################
+
+	#Head of Government
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Samuel_Hoare_hog"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Samue_Hoare.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Arthur_Greenwood_hog"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Arthur_Greenwood.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Edward_VIII_hog"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Edward_VIII.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Jack_Churchill_hog"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Jack_Churchill.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Oswald_Mosley_hog"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Oswald_Mosley.dds"
+	}
+
+
+
+	#Foreign Minister
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_John_Anderson_for"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_John_Anderson.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Alfred_Brown_for"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Alfred_Brown.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Herbert_Morrison_for"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Herbert_Morrison.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Douglas_Hogg_for"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Douglas_Hogg.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Alan_Cunningham_for"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Alan_Cunningham.dds"
+	}
+
+
+
+	#Economy Minister
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Neville_Chamberlain_eco"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Neville_Chamberlain.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_John_Simon_eco"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_John_Simon.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Oswald_Mosley_eco"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Oswald_Mosley.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Gascogne_Cecil_eco"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Gascoyne_Cecil.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Claude_Auchinleck_eco"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Claude_Auchinleck.dds"
+	}
+
+
+
+	#Security Minister
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_John_Gilmour_sec"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_John_Gilmour.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Sydney_Olivier_sec"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Sydney_Olivier.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_John_Davidson_sec"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_John_Davidson.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Bruce_Fraser_sec"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Bruce_Fraser.dds"
+	}
+
+
+
+	#Intel Minister
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Howard_Wood_int"
+		texturefile = "gfx/interface/ideas/AFG/ministers/ENG_Howard_Wood.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Josiah_Wedgwood_int"
+		texturefile = "gfx/interface/ideas/AFG/ministers/ENG_Josiah_Wedgwood.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_Philip_Lister_int"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Philip_Lister.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_ENG_John_Tovey_int"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_John_Tovey.dds"
+	}
+
+#############################
+# - USA
+#############################
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Earl_Browder_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Earl_Browder.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Jack_Reed_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Jack_REEd.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Norman_Thomas_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Norman_Thomas.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Eugene_Debs_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Eugene_Debs.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Huey_Long_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Huey_Long.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Quentin_Roosevelt_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Quentin_Roosevelt.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Henry_Wallace_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Henry_Wallace.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Alf_Landon_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Alf_Landon.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Charles_Curtis_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Charles_Curtis.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_John_Nance_Garner_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_John_Nance_Garner.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Dwight_Eisenhower_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Dwight_Eisenhower.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Council_of_Patriots_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/ENG_John_Tovey.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Douglas_MacArthur_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Douglas_MacArthur.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Council_of_True_Patriots_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/ENG_John_Tovey.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Virgil_Effinger_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Virgil_Effinger.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_William_Dudley_Pelley_hog"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_William_Dudley_Pelley.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Sandor_Goldberger_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Sandor_Goldberger.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Pavel_Lazimir_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Pavel_Lazimir.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Joseph_E_Davies_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Joseph_E_Davies.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Harry_S_Truman_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Harry_S_Truman.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Harry_Hopkins_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Harry_Hopkins.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Alexander_Comstock_Kirk_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Alexander_Comstock_Kirk.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_William_Averell_Harriman_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_William_Averell_Harriman.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_George_F_Kennan_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_George_F_Kennan.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Frank_Buchman_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Frank_Buchmann.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_James_H_Craig_for"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_James_H_Craig.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Edward_Hastings_Chamberlin_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Edward_Hastings Chamberlin.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Benjamin_Tucker_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Benjamin_Tucker.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Francis_Townsend_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Francis_Townsend.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Edith_Abbott_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Edith_Abbott.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Rexford_Tugwell_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Rexford_Tugwell.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Harry_Hopkins_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Harry_Hopkins.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Robert_A_Taft_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Robert_A_Taft.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_John_Maurice_Clark_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_John_Maurice_Clark.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Milton_Friedman_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Milton_Friedman.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Howard_Eldred_Kirshner_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Howard_Eldred_Kirshner.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Roger_W_Babson_eco"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Roger_W_Babson.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Harry_S_Truman_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Harry_S_Truman.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Seymour_Stedman_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Seymour_Stedman.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Frederick_Steiwer_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Frederick_Steiwer.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Frank_Knox_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Frank_Knox.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Henry_A_Arnold_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Henry_A_Arnold.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Hamilton_Fish_III_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Hamilton_Fish_III.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_William_Harrison_Standley_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_William_Harrison_Standley.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Henry_Stimson_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Henry_Stimson.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Harry_F_Byrd_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Harry_F_Byrd.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Gerhard_Wilhelm_Kunze_sec"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Gerhard_Wilhelm_Kunze.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Arthur_Goldberg_int"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Sandor_Goldberger.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_CG_Roberts_int"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_CG_Roberts.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_James_Forrestal_int"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_James_Forrestal.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_William_J_Donovan_int"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_William_J_Donovan.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_USA_Herbert_Yardley_int"
+  texturefile = "gfx/interface/ideas/USA/ministers/USA_Herbert_Yardley.dds"
+}
+
+##############
+### MEXICO ###
+##############
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Emiliano_Zapata_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Emilio_Portes_Gil.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Valentin_Campa_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Valentin_Campa.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Lazaro_Cardenas_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Lazaro_Cardenas.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Alvaro_Obregon_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Alvaro_Obregon.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Gustavo_Madero_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Gustavo_Madero.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Pascual_Orozco_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Pascual_Orozco.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Ignacio_Bonillas_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Ignacio_Bonillas.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Manuel_Gomez_Morin_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Manuel_Gomez_Morin.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Plutarco_Elias_Calles_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Plutarco_Elias_Calles.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Salvador_Abascal_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Salvador_Abascal.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Nicolas_Rodriguez_Carrasco_hog"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Nicolas_Rodriguez_Carrasco.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Narciso_Bassols_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Narciso_Bassols.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Manuel_Avila_Comacho_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Manuel_Avila_Comacho.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Gilberto_Bosques_Saldivar_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Gilberto_Bosques_Saldivar.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Luciano_Jublanc_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Luciano_Jublanc.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Antonio_Castro_Leal_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Antonio_Castro_Leal.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Matias_Villa_Michel_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Matias_Villa_Michel.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Rodolfo_Sanchez_Taboada_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Rodolfo_Sanchez_Toboada.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Saturnino_Cedillo_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Saturnino_Cedillo.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Manuel_Torres_Bueno_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Manuel_Torres_Bueno.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Jose_de_Leon_Toral_for"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Jose_de_Leon_Toral.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Vicente_Lombardo_Toledano_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Vincente_Lombardo_Toledano.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Luis_Napoleon_Morones_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Luis_Napoleon_Morones.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Manuel_Perez_Trevino_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Manuel_Perez_Trevino.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Juan_Andreu_Almazan_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Juan_Andreu_Almazan.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Carlos_Athie_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Carlos_Athie.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Francisco_Leon_de_la_Barra_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Francsico_Leon_de_la_Barra.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Emilio_Portes_Gil_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Emilio_Portes_Gil.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Anacleto_Gonzalez_Flores_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Anacleto_Gonzalez_Flores.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Jose_Antonio_Urquiza_eco"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Jose_Antonio_Urquiza.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Andres_Molina_Enriquez_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Andres_Molina_Enriquez.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Francisco_Jose_Mugica_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Francisco_Jose_Mugica.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Pascual_Ortiz_Rubio_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Pascual_Ortiz_Rubio.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Abelardo_Rodriguez_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Abelardo_Rodriguez.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Guadalupe_Sanchez_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Guadalupe_Sanchez.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Felix_Diaz_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Felix_Diaz.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Joaquin_Amaro_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Joaquin_Amaro.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Aristeo_Pedroza_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Aristeo_Pedroza.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Jesus_Augustin_Castro_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Jesus_Agustin_Castro.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Enrique_Gorostieta_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Enrique_Gorostieta.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Jose_Olivares_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Jose_Olivares.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Alfonso_Junco_sec"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Alfonso_Junco.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Aristeo_Pedroza_int"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Aristeo_Pedroza.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Enrique_Gorostieta_int"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Enrique_Gorostieta.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_MEX_Alfonso_Junco_int"
+  texturefile = "gfx/interface/ideas/MEX/ministers/MEX_Alfonso_Junco.dds"
+}
+
+###############
+### Germany ###
+############### 
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hermann_Goring_hog_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hermann_Goring.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Wilhelm_Frick_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm Frick.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Julius_Schreck_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Julius_Schreck.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Wilhelm_Ritter_von_Leeb_npo"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Wilhelm_Ritter_von_Leeb.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hans_Jurgen_Graf_von_Blumenthal_hog_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hans_Juergen_von_Blumenthal.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Oskar_von_Hindenburg_hog_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Oskar_von_Hindenburg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Max_von_Baden_hog_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Max_von_Baden.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Ferdinand_von_Bredow_hog_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Ferdinand_von_Bredow.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Wilhelm_Marx_hog_sco"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Wilhelm_Marx.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Otto_Braun_hog_sdm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Otto_Braun.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Eirk_Koch_Weser_hog_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Eirk_Koch_Weser.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hans_von_Raumer_hog_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hans_von_Raumer.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Otto_Grotewohl_hog_lis"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Otto_Grotewohl.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Heinz_Neumann_hog_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Heinz_Neumann.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Willi_Budich_hog_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Willi_Budich.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Fritz_Erpenbeck_hog_int"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Fritz_Erpenbeck.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Konstantin_von_Neurath_for_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Konstantin_von_Neurath.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Walther_von_Brauchitsch_for_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Walther_von_Brauchitsch.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Franz_von_Papen_for_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Franz_von_Papen.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Heinrich_von_Brentano_for_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Heinrich_von_Brentano.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Wilhelm_Roepke_for_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Roepke.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Albert_Dufour_Feronce_for_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Albert_Dufour_Feronce.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hans_Vogel_for_sdm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hans_Vogel.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Heinrich_Mann_for_lis"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Heinrich_Mann.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hans_Vogel_for_sdm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hans_Vogel.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Bernhard_Bastlein_for_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Bernhard_Bastlein.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Ernst_Toller_for_int"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Ernst_Toller.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Paul_Levi_for_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Paul_Levi.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Gregor_Strasser_eco_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Gregor_Strasser.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hjalmar_Schacht_eco_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hjalmar_Schacht.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Waldemar_Pabst_eco_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Waldemar_Pabst.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Alfred_Hugenberg_eco_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Alfred_Hugenberg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Paul_Lejeune_Jung_eco_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Paul_Lejeune_Jung.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Adam_Stegerwald_eco_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Adam_Stegerwald.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Julius_Curtius_eco_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Julius_Curtius.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hermann_Dietrich_eco_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hermann_Dietrich.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Rudolf_Wissel_eco_sdm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Rudolf_Wissel.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Kurt_Schumacher_eco_sde"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Kurt_Schumacher.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Lujo_Brentano_eco_lis"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Willi_Stoph_eco_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Willi_Stoph.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Willi_Munzenberg_eco_int"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Willi_Munzenberg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Ernst_Rohm_eco_int"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Ernst_Rohm.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Heinrich_Muller_sec_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Heinrich_Muller.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Walter_Caspari_sec_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Walter_Caspari.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Rudolf_Diels_sec_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Rudolf_Diels.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Kurt_Daluege_sec_npo"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Kurt_Daluege.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Rudolf_Hess_sec_npo"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Rudolf_Hess.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Wilhelm_von_Gayl_sec_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_von_Gayl.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Roland_Freisler_sec_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Roland_Freisler.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Fritz_Dietlof_Schulenburg_sec_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Fritz_Dietlof_Schulenburg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Robert_Lehr_sec_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Fritz_Robert_Lehr.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Arthur_Nebe_sec_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Arthur_Nebe.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Wilhelm_Groener_sec_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Wilhelm_Abegg_sec_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Abegg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Otto_Gessler_sec_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Dr_Otto_Gessler.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Gustav_Noske_sec_sdm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Gustav_Noske.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Otto_Grotewohl_sec_lis"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Otto_Grotewohl.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hilde_Benjamin_sec_col"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Hilde_Benjamin.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Eugen_Levine_sec_col"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Eugen_Levine.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Ludwig_Renn_sec_int"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Ludwig_Renn.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Adolf_Eichmann_int_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Adolf_Eichmann.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Walter_Schellenberg_int_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Walter_Schellenberg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Kurt_Daluege_int_npo"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Kurt_Daluege.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Rudolf_Diels_int_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Rudolf_Diels.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Wilhelm_Canaris_int_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Canaris.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Paul_Pleiger_int_pau"
+  texturefile = "gfx/interface/ideas/GRU/ministers/GRU_Paul_Pleiger.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Karl_Sack_int_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Karl_Sack.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Theodor_Arps_int_sdm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Theodor_Arps.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Kurt_Fischer_int_sdm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Kurt_Fischer.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Eirch_Weinert_int_int"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Eirch_Weinert.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Rudolf_von_Sebottendorf_mhc_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Rudolf_von_Sebottendorf.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Helmuth_Weidling_mhc_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Helmuth_Weidling.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Walter_Model_mhc_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Walter_Model.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Werner_von_Fritsch_mhc_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Werner_von_Fritsch.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Werner_von_Blomberg_mhc_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Werner_von_Blomberg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hans_Jurgen_von_Arnim_mhc_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hans_Juergen_von_Arnim.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Gotthard_Heinrici_mhc_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Gotthard_Heinrici.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Erwin_von_Manstein_mhc_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Erich_von_Manstein.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Arno_von_Lenski_mhc_int"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Arno_von_Lenski.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Vincenz_Muller_mhc_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Vincenz_Muller.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Alfred_Saalwachter_cnav_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Alfred_Saalwachter.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Walther_Steffens_cnav_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Lothar_von_Richthofen_cair_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Lothar_von_Richthofen.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_konrad_zuse"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Konrad_Zuse.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_Lise_Meitner"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Kurt_Diebner.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Erich_von_Manstein"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Erich_von_Manstein.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Gustav_Krupp"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Gustav_Krupp.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Werner_Heisenberg"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Werner_Heisenberg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Walter_Dornberger"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Walter_Dornberger.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Walther_Wever"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Walther_Wever.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Hans_Georg_von_Friedeburg"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Hans_Georg_von_Friedeburg.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Alfred_Jodl"
+  texturefile = "gfx/interface/ideas/BAV/ministers/BAV_Alfred_Jodl.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Gernhard_Rossbach_eco_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Gernhard_Rossbach.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Kurt_Fischer_int_lis"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Kurt_Fischer.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Ernst_Thalmann_int_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Fritz_Auslander.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GER_Gotthard_Heinrici_mhc_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Gotthard_Heinrici.dds"
+}
+
+#########
+# Italy #
+#########
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Palmiro_Togliatti_hog_int"
+  texturefile = "gfx/interface/ideas/ITA/ministers/SRI_Palmiro_Togliatti.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Camillo_Berneri_hog_lis"
+  texturefile = "gfx/interface/ideas/ITA/ministers/SRI_Camillo_Berneri.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Umberto_Marzocchi_for_lis"
+  texturefile = "gfx/interface/ideas/ITA/ministers/SRI_Umberto_Marzocchi.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Dino_Grandi_for_npo"
+  texturefile = "gfx/interface/ideas/ITA/ministers/SRI_Dino_Grandi.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Carlo_Tresca_eco_lis"
+  texturefile = "gfx/interface/ideas/CSA/ministers/CSA_Carlo_Tresca.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Carlo_Rossell_sec_sde"
+  texturefile = "gfx/interface/ideas/ITA/ministers/ITA_Carlo_Rosselli.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Manlio_Brosio_sec_sco"
+  texturefile = "gfx/interface/ideas/ITA/ministers/ITA_Manlio_Brosio.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Umberto_Terracini_sec_col"
+  texturefile = "gfx/interface/ideas/ITA/ministers/ITA_Umberto_Terracini.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Cesare_Maria_de_Vecchi_sec_val"
+  texturefile = "gfx/interface/ideas/ITA/ministers/ITA_Cesare_Maria_De_Vecchi.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Giacomo_Carboni_sec_adm"
+  texturefile = "gfx/interface/ideas/ITA/ministers/ITA_Giacomo_Carboni.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Edmondo_Rossoni_sec_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Giulio_Benedetti_sec_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Armando_Borghi_sec_lis"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Francesco_Rota_eco_adm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Amilcare_de_Ambris_eco_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Piero_Calamandrei_eco_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Raffaele_Guariglia_for_adm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Ernesto_Rossi_for_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Filoppo_Corridoni_hog_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Luigi_Capello_hog_adm"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_ITA_Mario_Pannunzio_hog_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+#############
+# Rhineland #
+#############
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Otto_Lichtschlag_hog"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Otto_Lichtschlag.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Kurt_Tucholsky_hog"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Kurt_Tucholsky.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Theodor_Reismann-Grone_for"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Theodor_Reismann.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Walter_Kreiser_for"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Walter_Kreiser.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Emil_Kirdorf_eco"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Emil_Kirdorf.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Walt_Kolb_eco"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Walter_Kolb.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Georg_Buch_sec" #####
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Georg_Buch.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Heinrich_Vietinghoff_cos"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Heinrich_Vietinghoff.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Ernst_Busch_cos"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Ernst_Busch.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Otto_Lichtschlag_carm"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Otto_Lichtschlag.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_L_S_Kleinmann_carm"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_L_S_Kleinmann.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_K_A_Hollidt_carm" #####
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_K_A_Hollidt.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Adolf_Galland_cair"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Adolf_Galland.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_Gunther_Korten_cair"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_Gunther_Korten.dds"
+}
+spriteType = { #Auto-Generated
+  name = "GFX_idea_RHI_S_F_Luttwitz_carm"
+  texturefile = "gfx/interface/ideas/RHI/ministers/RHI_S_F_Luttwitz.dds"
+}
+###########
+# Generic #
+###########
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Alexander_Smirnov_int"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Dmitry_Kuznetsov_hog_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Mathias_Hansen_hog_lis"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Louis_Martin_hog_sde"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Hugo_Bernard_hog_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Francesco_Esposito_hog_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_James_Smith_hog_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Szymon_Kowalski_hog_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Oscar_Jensen_hog_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Paul_Muller_hog_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Jonas_Wagner_hog_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Potyomkin_Aleskeevich_for_van"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Kostin_Danilovich_for_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Edgar_Hovda_for_lis"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Charles_Granet_for_sde"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Felix_Menard_for_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Antonello_D_Angelo_for_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Charlie_Baker_for_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Ludwik_Czaplinski_for_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Lucas_Friberg_for_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Petre_Radu_for_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Meik_Koppen_for_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Usatov_Dmitrievich_eco_van"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Kolomnikov_Georgiy_eco_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Karl_Mork_eco_lis"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Adam_Duret_eco_sde"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Francis_Morel_eco_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Eros_Berna_eco_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Sam_Morris_eco_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Jozef_Korczak_eco_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_William_Ostberg_eco_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Mihail_Galca_eco_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Kurt_Becker_eco_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+
+
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Kalganov_Damir_sec_van"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Burmakin_Ilya_sec_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Lars_Egner_sec_lis"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Robin_Trudeau_sec_sde"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Baptiste_Sartre_sec_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Fleano_Carideo_sec_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Oscar_Morgan_sec_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Gaj_Bosko_sec_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Mats_Holmgren_sec_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Boian_Petrescu_sec_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Gunter_Wechsler_sec_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+
+
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Zhukov_Boris_int_van"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Losev_Fyodor_int_col"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_David_Laake_int_lis"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Marian_Leblanc_int_sli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Justin_Alard_int_sde"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Auro_Cimino_int_mli"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Robert_Moss_int_sco"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Olaf_Krasinski_int_ade"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Kjell_Sparre_int_pau"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Adam_Ionesco_int_npo"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+spriteType = { #Auto-Generated
+  name = "GFX_idea_GEN_Tilmann_Seidel_int_val"
+  texturefile = "gfx/interface/ideas/GER/ministers/GER_Wilhelm_Groener.dds"
+}
+
+#########
+#Belgium#
+#########
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Paul_van_Zeeland_hog_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Paul_Van_Zeeland.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Georges_Theunis_hog_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Georges_Theunis.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Paul_Henri_Spaak_hog_sde"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Paul_Henri_Spaak.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Achille_Van_Acker_hog_sde"
+    texturefile = "gfx/interface/ideas/FLN/ministers/FLN_Achille_Van_Acker.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Paul_Emile_Janson_hog_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Paul_Emile_Janson.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Maurice_Lippens_hog_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Maurice_Lippens.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_ideaBEL_Leonie_La_Fontaine_hog_sli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Leonie_La_Fontaine.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Louis_Franck_hog_sli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Louis_Franck.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Staf_de_Clercq_hog_npo"
+    texturefile = "gfx/interface/ideas/FLN/ministers/FLN_Staf_de_Clercq.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Joris_van_Severen_hog_pau"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Joris_Van_Severen.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Leon_Degrelle_hog_val"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Leon_Degrelle.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Jacques_Pirenne_hog_ade"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Jacques_Pirenne.dds"
+}
+
+
+
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Kamiel_Huysmans_for_sde"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Camille_Huysmans.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Louis_de_Brouckere_for_sde"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Louis_de_Brouckere.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Paul_Hymans_for_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Paul_Hymans.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Roger_Motz_for_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Roger_Motz.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Henri_La_Fontaine_for_sli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Henri_La_Fontaine.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Hubert_Pierlot_for_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Hubert_Pierlot.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Gaston_Eyskens_for_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Gaston_Eyskens.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Hendrik_Elias_for_npo"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Hendrik_Elias.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Emiel_Thiers_for_pau"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Emiel_Thiers.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Paul_de_Mont_for_val"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Paul_de_Mont.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Louis_Fredericq_for_ade"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Louis_Fredericq.dds"
+}
+
+
+
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Jules_Destree_eco_sde"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Jules_Destree.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Achille_Van_Acker_eco_sde"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Achille_Van_Acker.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Alexandre_Galopin_eco_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Alexandre_Galopin.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Emile_Francqui_eco_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Emile_Francqui.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Paul_Otlet_eco_sli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Paul_Otlet.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Gustave_Sap_eco_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Gustaaf_Sap.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Albert_de_Vleeschauwer_eco_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Albert_de_Vleeschauwer.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Reimond_Tollenaere_eco_npo"
+    texturefile = "gfx/interface/ideas/FLN/ministers/FLN_Reimond_Tollenaere.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Rene_Lambrichts_eco_pau"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Rene_Lambrichts.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Lucien_Meyer_eco_val"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Lucien_Meyer.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Robert_Goffinet_eco_ade"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Robert_Goffinet.dds"
+}
+
+
+
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Eugene_Soudan_sec_sde"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Eugene_Soudan.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Emile_Vandervelde_sec_sde"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Emile_Vandervelde.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Victor_de_Laveleye_sec_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Victor_de_Laveleye.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Francois_Bovesse_sec_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Francois_Bovesse.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_August_De_Schryver_sec_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_August_De_Schryver.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Frans_van_Cauwelaert_sec_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Frans_Van_Cauwelaert.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Frans_Daels_sec_npo"
+    texturefile = "gfx/interface/ideas/FLN/ministers/FLN_Frans_Daels.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Jan_Rijckoort_sec_pau"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Jan_Rijckoort.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Theo_Simon_sec_val"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Theo_Simon.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Louis_de_Ways_Ruart_sec_ade"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Louis_de_Ways_Ruart.dds"
+}
+
+
+
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Jules_Pire_int_sde"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Jules_Pire.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Albert_Deveze_int_mli"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Albert_Deveze.dds"
+}
+
+spriteType = { #Auto-Generated
+    name = "GFX_idea_BEL_Auguste_Buisseret_int_sco"
+    texturefile = "gfx/interface/ideas/BEL/ministers/BEL_Auguste_Buisseret.dds"
+}
+
+}

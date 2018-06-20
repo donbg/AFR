@@ -1,0 +1,29 @@
+defined_text = {
+
+    name = improve_relation_cost
+
+    text = {
+
+        trigger = {
+            ROOT = {
+                has_political_power < 50    
+            }
+        }
+
+        localization_key = improve_relation_cost_red
+
+    }
+
+    text = {
+
+        trigger = {
+            ROOT = {
+                has_political_power > 50
+            }
+        }
+
+        localization_key = improve_relation_cost_white
+
+    }
+
+}

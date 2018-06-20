@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+	
+		ROMHUN_rightful_land = {
+			picture = generic_volunteer_expedition_bonus
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+				army_morale_factor = 0.05
+				army_org_Factor = 0.05
+			}
+			
+			#targeted_modifier = {
+				#tag = HUN
+				#attack_bonus_against = 0.05
+				#defense_bonus_against = 0.05
+			#}
+		}
+		
+	}
+}

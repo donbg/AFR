@@ -1,0 +1,25 @@
+state={
+	id=817
+	name="STATE_817"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+			5036 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2080 5036 6039 9137 
+	}
+	manpower=857600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

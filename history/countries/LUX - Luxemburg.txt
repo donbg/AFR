@@ -1,0 +1,120 @@
+﻿capital = 8
+
+oob = "LUX_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+}
+
+set_stability = 0.35
+set_war_support = 0.22
+
+add_ideas = {
+	GEN_James_Smith_hog_sco
+	GEN_Charlie_Baker_for_sco
+	GEN_Sam_Morris_eco_sco
+	GEN_Oscar_Morgan_sec_sco
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 3
+		}
+		collectivist = {
+			popularity = 10
+		}
+		libertarian_socialist = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 27
+		}
+		social_liberal = {
+			popularity = 1
+		}
+		market_liberal = {
+			popularity = 2
+		}
+		social_conservative = {
+			popularity = 29
+		}
+		authoritarian_democrat = {
+			popularity = 21
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 5
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+create_country_leader = {
+	name = "Pierre Dupong"
+	desc = "POLITICS_PIERE_DUPONG_DESC"
+	picture = "portrait_luxembourg_piere_dupong.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Michel Rasquin"
+	desc = "POLITICS_MICHEL_RASQUIN_DESC"
+	picture = "portrait_luxembourg_michel_rasquin.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Grand Duchess Charlotte"
+	desc = "POLITICS_CHARLOTTE_DESC"
+	picture = "portrait_luxembourg_charlotte.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Charles Marx"
+	desc = "POLITICS_CHARLES_MARX_DESC"
+	picture = "portrait_luxembourg_charles_marx.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Dominique Urbany"
+	desc = "POLITICS_DOMINIQUE_URBANY_DESC"
+	picture = "portrait_luxembourg_dominique_urbany.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}

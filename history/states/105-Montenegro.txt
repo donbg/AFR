@@ -1,0 +1,35 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		chromium=26.0
+		aluminium=80.0
+	}
+
+	history={
+		owner = MNT
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			9809 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			9809 1 
+		}
+
+	}
+
+	provinces={
+		 937 3922 6913  9809 9821  11858 
+	}
+	manpower=895500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

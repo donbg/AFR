@@ -1,0 +1,251 @@
+##### Division Templates #####
+division_template = {
+	name = "Divisione di Fanteria"		
+	# Represents nearly all infantry divisions
+	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
+	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Divisione Alpina"					# Divisione Alpina
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Celere" 		# Divisione Celere (Fast Division)
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }		# (elite) Bersaglieri Regiment
+		motorized = { x = 2 y = 1 }
+		light_armor = { x = 3 y = 0 }	# L3/35 Tankette Battaltion
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Coloniale"		
+	# Represents lesser-equipped colonial units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Raggruppamento Celere" 			# Raggruppamento Celere
+	# Note: these groups were gradually expanded to army-level supprt of cavalry rgts, bersaglieri rgts, and tankette bns.
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+##### OOB #####
+units = {
+
+	##### Commando Superiore Metropolitana #####
+	### Gruppo d'Armata Ovest ###
+	## 1a Armata ##
+	# II Corpo d'Armata #
+	division= {	
+		name = "Divisione di Fanteria"
+		location = 9904
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 9904
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 9904
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 819
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 819
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 10074
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 10074
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 11837
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 11837
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 3780
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 3780
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+		division= {	
+		name = "Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"	
+		start_experience_factor = 0.1
+	}
+	
+
+
+	##### NAVAL UNITS ####			
+	### 2nd FLEET ###
+	navy = {					
+		name = "2a Squadra Navale"				
+		base = 6973
+		location = 6973 # La Spezia		
+		ship = { name = "RM Giovanni dalle Bande Nere" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
+		ship = { name = "RM Bartolomeo Colleoni" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Giussano Class" } } }
+		# 10a Squadriglia Cacciatorpedindiere
+		ship = { name = "RM Maestrale" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Maestrale Class" } } }
+		ship = { name = "RM Grecale" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Maestrale Class" } } }
+		ship = { name = "RM Libeccio" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Maestrale Class" } } }
+		ship = { name = "RM Scirocco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Maestrale Class" } } }
+	}									
+	navy = {					
+		name = "6a Squadra Navale"				
+		base = 6973
+		location = 6973 # La Spezia		
+		ship = { name = "RM Pola" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Zara Class" } } }
+		# 12a Squadriglia Cacciatorpedindiere
+		ship = { name = "RM Antonio Pigafetta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
+		ship = { name = "RM Alvise da Mosto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
+		ship = { name = "RM Giovanni da Verrazzano" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
+		ship = { name = "RM Nicolò Zeno" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
+	}					
+	navy = {					
+		name = "7a Squadra Navale"				
+		base = 6973
+		location = 6973 # La Spezia		
+		ship = { name = "RM Emanuele Filiberto Duca d'Aosta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Montecuccoli Class" } } }
+		ship = { name = "RM Muzio Attendolo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Montecuccoli Class" } } }
+		ship = { name = "RM Raimondo Montecuccoli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Montecuccoli Class" } } }
+	}
+
+### Air Wings ###
+air_wings = {
+	### 1a Squadra Aerea -- Milan/Turin
+	158 = { 
+		# 2a Divisione Aerea 'Borea'
+		fighter_equipment_0 = {
+			owner = "ITA" 
+			amount = 80
+		}
+		# 4a Divisione Aerea 'Drago'
+		# 6a Divisione Aerea 'Falco'
+		tac_bomber_equipment_0 =  {
+			owner = "ITA" 
+			amount = 128
+		}
+	}
+
+	### 2a Squadra Aerea -- Palermo
+	115 = {
+		# 1a Divisione Aerea 'Aquila'
+		fighter_equipment_0 = {
+			owner = "ITA" 
+			amount = 80
+		}
+		# 3a Divisione Aerea 'Centauro'
+		tac_bomber_equipment_0 =  {
+			owner = "ITA" 
+			amount = 32
+		}
+	}
+
+	### 3a Squadra Aerea -- Rome
+	2 = {
+		# 5a Divisione Aerea 'Eolo'
+		tac_bomber_equipment_0 =  {
+			owner = "ITA" 
+			amount = 64
+		}
+		# 8a Divisione Aerea 'Ibis'
+		fighter_equipment_0 = {
+			owner = "ITA" 
+			amount = 80
+		}
+	}
+}

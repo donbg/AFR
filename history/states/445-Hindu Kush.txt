@@ -1,0 +1,23 @@
+
+state={
+	id=445
+	name="STATE_445"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+
+		}
+		add_core_of = IND
+		add_core_of = RAJ
+	}
+
+	provinces={
+		1107 4990 5105 7847 7903 7975 8044 
+	}
+	manpower=405100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

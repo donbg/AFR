@@ -1,0 +1,87 @@
+﻿capital = 592
+
+oob = "PRC_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_stability = 0.54
+set_war_support = 0.50
+
+set_politics = {
+
+   parties = {
+		vanguardist = {
+			popularity = 39
+		}
+		collectivist = {
+			popularity = 38
+		}
+		libertarian_socialist = {
+			popularity = 21
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = collectivist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	#
+}
+
+#add_opinion_modifier = { target = CHI modifier = hostile_status }
+
+create_country_leader = {
+	name = "Li Dazhao"
+	desc = "POLITICS_LI_DAZHAO_DESC"
+	picture = "portrait_PRC_Li_Dazhao.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+
+}
+
+create_country_leader = {
+	name = "Zhou Enlai"
+	desc = "POLITICS_ZHOU_ENLAI_DESC"
+	picture = "gfx/leaders/PRC/Zhou Enlai.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	
+}
+
+create_field_marshal = {
+	name = "Zhou Enlai"
+	portrait_path = "gfx/leaders/PRC/Zhou Enlai.tga"
+	traits = { defensive_doctrine }
+	skill = 4
+}

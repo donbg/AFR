@@ -1,0 +1,30 @@
+ideas = {
+  country = {
+    japanese_monopolies = {
+      allowed = {
+        always = no
+      }
+      allowed_civil_war = {
+          always = yes
+      }
+      removal_cost = -1
+      picture = japanese_monopolies
+      modifier = {
+        production_factory_efficiency_gain_factor = 0.1
+        production_speed_buildings_factor = 0.1
+        political_power_gain = -0.3
+        stability_factor = -0.4
+      }
+    }
+    part_of_beiyang_council = {
+      allowed = {
+        always = no
+      }
+      allowed_civil_war = {
+        always = yes
+      }
+      picture = beiyang_council
+      removal_cost = -1
+    }
+  }
+}

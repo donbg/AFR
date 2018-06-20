@@ -1,0 +1,28 @@
+
+state={
+	id=848
+	name="STATE_848"
+	manpower = 110100
+	resources={
+		rubber=2.0
+	}
+	
+	state_category = pastoral
+
+	history={
+		owner = PRR
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+			1355 = {
+				naval_base = 1
+
+			}
+		}
+	}
+
+	provinces={
+		1355 4358 1339
+	}
+	buildings_max_level_factor=1
+}

@@ -1,0 +1,5 @@
+HYD_princely_relations = {
+	allowed = {
+		tag = HYD
+	}
+}

@@ -1,0 +1,31 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_industrial_score"
+		texturefile = "gfx/statistics/industrial_score.dds"
+		legacy_lazy_load = no
+	}
+    
+	spriteType = {
+		name = "GFX_military_score"
+		texturefile = "gfx/statistics/military_score.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_prestige"
+		texturefile = "gfx/statistics/prestige.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_score_total"
+		texturefile = "gfx/statistics/score.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_expand_button"
+		texturefile = "gfx/interface/expand_button.dds"
+		legacy_lazy_load = no
+	}
+
+}

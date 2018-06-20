@@ -1,0 +1,314 @@
+﻿capital = 278
+
+oob = "ARG_1936"
+set_research_slots = 3
+add_ideas = {
+	civilian_economy
+	export_focus
+	volunteer_only
+	normal_popularity
+	ARG_british_companies
+	ARG_memories_of_the_chaco_war
+	ARG_labour_strikes
+	ARG_Crisologo_Larralde_hog_sli
+	ARG_Miguel_Zavala_Ortiz_for_sli
+	ARG_Elpidio_Gonzalez_eco_sli
+	ARG_Leopoldo_Melo_sec_sli
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+set_stability = 0.45
+set_war_support = 0.45
+set_convoys = 120
+set_politics = {
+
+	parties = {
+		social_democrat = { 
+			popularity = 11
+		}
+
+		social_liberal = { 
+			popularity = 14
+		}
+
+		libertarian_socialist = { 
+			popularity = 4
+		}
+
+		vanguardist = { 
+			popularity = 1
+		}
+
+		market_liberal = { 
+			popularity = 16
+		}
+
+		social_conservative = { 
+			popularity = 12
+		}
+
+		national_populist = {
+			popularity = 17
+		}
+
+		valkist = {
+			popularity = 1
+		}
+		
+		paternal_autocrat = {
+			popularity = 2
+		}
+
+		collectivist = {
+			popularity = 15
+		}
+		
+		authoritarian_democrat = { 
+			popularity = 6
+		}
+	}
+	
+	ruling_party = social_liberal
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Agustín Pedro Justo"
+	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
+	picture = "AgustinJusto.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+
+
+create_country_leader = {
+	name = "Manuel Domecq García"
+	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
+	picture = "Manuel_Domecq.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alfredo Palacios"
+	desc = "POLITICS_MARCELO_ALVEAR_DESC"
+	picture = "AlfredoPalacios.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Liborio Justo"
+	desc = "POLITICS_LIBORIO_JUSTO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José Grunfeld"
+	desc = "POLITICS_SEVERINO_DESC"
+	picture = "Jose_Grunfeld.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vicente Gallo"
+	desc = "POLITICS_VICENTE_GALLO_DESC"
+	picture = "VicenteGallo.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carlos Saavedra Lamas"
+	desc = "POLITICS_CARLOS_SAAVEDRA_DESC"
+	picture = "CarlosLamas.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edelmiro Farrell"
+	desc = "POLITICS_EDELMIRO_FARRELL_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopoldo Lugones"
+	desc = "POLITICS_LEOPOLDO_LUGONES_DESC"
+	picture = "LeopoldoLugones.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Enrique Martínez"
+	desc = "POLITICS_ENRIQUE_MARTINEZ_DESC"
+	picture = "EnriqueMartinez.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rodolfo Ghioldi"
+	desc = "POLITICS_RGhio_DESC"
+	picture = "RodolfoGhioldi.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Fanny Edelman"
+	desc = "POLITICS_FNEDEL_DESC"
+	picture = "FannyEdelman.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+create_field_marshal = {
+	name = "Arturo Rawson"
+	portrait_path = "gfx/leaders/ARG/ArturoRawson.tga"
+	traits = { defensive_doctrine }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Juan Pistarini"
+	portrait_path = "gfx/leaders/ARG/JuanPistarini.tga"
+	traits = { urban_assault_specialist fortress_buster }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Agustín Justo"
+	portrait_path = "gfx/leaders/ARG/AgustinJusto.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Manuel A. Rodríguez"
+	portrait_path = "gfx/leaders/ARG/ManuelARodriguez.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Basilio Pertiné"
+	portrait_path = "gfx/leaders/ARG/ARG_Basilio_Pertine.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_navy_leader = {
+	name = "Alberto Teisaire"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { blockade_runner }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Segundo Storni"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { }
+	skill = 4
+}
+create_navy_leader = {
+	name = "León Scasso"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { }
+	skill = 2
+}
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Cervantes Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}
+
+create_equipment_variant = {
+	name = "Veinticinco de Mayo Class"
+	type = heavy_cruiser_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+}

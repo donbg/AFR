@@ -1,0 +1,75 @@
+﻿capital = 324
+
+oob = "BHU_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+add_ideas = {
+	GEN_Szymon_Kowalski_hog_ade
+	GEN_Jozef_Korczak_eco_ade
+	GEN_Gaj_Bosko_sec_ade
+	GEN_Ludwik_Czaplinski_for_ade
+}
+
+set_stability = 1
+set_war_support = 1
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 2
+		}
+		collectivist = {
+			popularity = 2
+		}
+		libertarian_socialist = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 4
+		}
+		social_liberal = {
+			popularity = 4
+		}
+		market_liberal = {
+			popularity = 4
+		}
+		social_conservative = {
+			popularity = 10
+		}
+		authoritarian_democrat = {
+			popularity = 54
+		}
+		paternal_autocrat = {
+			popularity = 4
+		}
+		national_populist = {
+			popularity = 4
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Jigme Wangchuck"
+	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
+	picture = "GFX_portrait_buthan_jigme_wangchuk"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=895
+	name="STATE_895"
+
+	history={
+		owner = SCH
+		add_core_of = SCH
+		add_core_of = KMT
+		add_core_of = MAN
+		victory_points = {
+			2045 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces={
+		531 1257 2045 4403 4375 5193 9966 10787 10903 10841
+	}
+	manpower = 2337123
+	buildings_max_level_factor=1.000
+	state_category=town
+}

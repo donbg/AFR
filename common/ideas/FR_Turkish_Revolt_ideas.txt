@@ -1,0 +1,643 @@
+#############################
+# Republic of Turkey Ideas
+############################
+# Made by VirtualHummingbird
+############################
+
+ideas = {
+##############
+# Country ideas
+##############
+	country = {
+
+		TRT_sick_man_of_europe = { #Idea at start
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				stability_factor = -0.05
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1
+				research_time_factor = 0.10		
+			}
+		}
+
+		TRT_sick_man_of_europe1 = { #Idea after decentralized rule
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1
+				research_time_factor = 0.10		
+			}
+		}
+
+		TRT_sick_man_of_europe2 = { #Idea after paying off debts (decen rule)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				research_time_factor = 0.10		
+			}
+		}
+
+		TRT_sick_man_of_europe3 = { #Idea after paying off debts (no decen rule)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				research_time_factor = 0.10		
+			}
+		}
+
+		TRT_sick_man_of_europe4 = { #Idea after education (no decen rule)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1			
+			}
+		}
+
+		TRT_sick_man_of_europe5 = { #Idea after education (decen rule)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1	
+			}
+		}
+
+		TRT_sick_man_of_europe6 = { #Idea after bureaucracy (with education and debts)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				army_org_factor = -0.02	
+			}
+		}
+
+		TRT_sick_man_of_europe7 = { #Idea after bureaucracy (no education)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				army_org_factor = -0.02
+				research_time_factor = 0.10	
+			}
+		}
+
+		TRT_sick_man_of_europe8 = { #Idea after bureaucracy (no debts)
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				army_org_factor = -0.02
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+
+		TRT_sick_man_of_europe9 = { #Idea after economic mobilization
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.2
+				research_time_factor = 0.10		
+			}
+		}
+
+		TRT_sick_man_of_europe10 = { #Idea after political reform
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				army_org_factor = -0.02
+				research_time_factor = 0.10		
+			}
+		}
+
+		TRT_sick_man_of_europe11 = { #Idea after political reform and eco mobil
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				research_time_factor = 0.10		
+			}
+		}
+
+		TRT_sick_man_of_europe12 = { #Idea after re-educate the masses
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05	
+			}
+		}
+
+		TRT_sick_man_of_europe13 = {
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				army_org_factor = -0.02
+			}
+		}
+
+		TRT_sick_man_of_europe14 = {
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.2
+				army_org_factor = -0.02		
+			}
+		}
+
+		TRT_sick_man_of_europe15 = {
+			picture = raj_marginalized_muslim_community_angry
+			modifier = {
+				political_power_factor = -0.2
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = -0.1
+				research_time_factor = 0.10		
+			}
+		}
+
+		TRT_opda_idea = {
+			picture = HUN_treaty_of_triannon
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		TRT_opda_idea2 = {
+			picture = HUN_treaty_of_triannon
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		TRT_political_turmoil = {
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				political_power_factor = -0.6
+				stability_factor = -0.25			
+			}
+		}
+
+		TRT_a_moderate_empire_idea = {
+			picture = generic_morale_bonus
+			modifier = {
+				political_power_factor = 0.05	
+			}
+		}
+
+		TRT_a_revanchist_empire_idea = {
+			picture = FRA_army_of_aggression_focus
+			modifier = {
+				stability_factor = 0.05		
+			}
+		}
+
+		TRT_ottoman_constitution_idea = {
+			picture = TRT_solid_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+
+		TRT_efficient_bureaucracy_idea = {
+			picture = generic_constitutional_guarantees
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+
+		TRT_assertion_of_neutrality_idea = {
+			picture = neutrality_idea
+			modifier = {
+				enemy_justify_war_goal_time = 0.15
+				join_faction_tension = 0.75
+				send_volunteers_tension = 0.60
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		TRT_banking_reform_idea = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		TRT_paying_off_our_debts_idea = {
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		TRT_payment_from_ottomans_idea = {
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		TRT_multi_party_system_idea = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				social_liberal_drift = 0.03
+				social_conservative_drift = 0.03
+				authoritarian_democrat_drift = 0.03
+				paternal_autocrat_drift = 0.03
+			}
+		}
+
+		TRT_educating_the_people_idea = {
+			picture = generic_research_bonus
+			modifier = {
+				research_time_factor = -0.025
+			}
+		}
+
+		TRT_political_resistance_idea = {
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.15
+			}
+		}
+
+		TRT_an_inclusive_empire_idea = {
+			picture = TRT_solid_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.15
+			}
+		}
+
+		TRT_forced_conscription_idea = {
+			picture = FRA_scw_intervention_nationalists_focus
+			modifier = {
+				conscription = 0.03
+			}
+		}
+
+		TRT_risen_from_the_ashes_idea = {
+			picture = TRT_autocracy_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.15
+			}
+		}
+
+		TRT_reformed_political_system_idea = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				social_conservative_drift = 0.02
+				paternal_autocrat_drift = 0.02
+				national_populist_drift = 0.03
+			}
+		}
+
+		TRT_judicial_control_idea = {
+			picture = FRA_matignon_agreements
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = -0.05
+			}
+		}
+
+		TRT_disbanded_parliament_idea = {
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+
+		TRT_parliamentary_democracy_idea = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				market_liberal_drift = 0.01
+				social_liberal_drift = 0.02
+				social_conservative_drift = 0.01
+				authoritarian_democrat_drift = 0.03
+				national_populist_drift = 0.02
+			}
+		}
+
+		TRT_western_legal_code_idea = {
+			picture = neutrality_idea
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		TRT_bolstering_armed_forces_idea = {
+			picture = generic_manpower_bonus
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.1
+				military_leader_cost_factor = -0.25
+			}
+		}
+
+		TRT_land_reform_idea = {
+			picture = generic_agrarian_society
+			modifier = {
+				supply_consumption_factor = -0.05
+				local_resources_factor = 0.10
+			}
+		}
+
+		TRT_guardians_of_the_constitution_idea = {
+			picture = generic_manpower_bonus
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.1
+				military_leader_cost_factor = -0.25
+				conscription = 0.025
+				training_time_army_factor = -0.05
+			}
+		}
+
+		TRT_sciences_and_arts_idea = {
+			picture = generic_research_bonus
+			modifier = {
+				research_time_factor = -0.025
+			}
+		}
+
+		TRT_financial_reform_idea = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.025
+			}
+		}
+
+		TRT_laicism_idea = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_power_factor = 0.10
+			}
+		}
+
+		TRT_mixed_economy_idea = {
+			picture = generic_production_bonus
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = -0.05
+			}
+		}
+
+		TRT_educating_our_citizens_idea = {
+			picture = generic_research_bonus
+			modifier = {
+				research_time_factor = -0.025
+			}
+		}
+
+		TRT_turkish_constitution_idea = {
+			picture = TRT_solid_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+
+		TRT_decentralized_rule_idea = {
+			picture = generic_victors_of_ww1
+			modifier = {
+				political_power_factor = 0.05	
+			}
+		}
+
+		TRT_true_democracy_idea = {
+			picture = TRT_solid_idea
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		TRT_liberal_republic_idea = {
+			picture = TRT_solid_idea
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+
+		TRT_intelligence_organizations_idea = {
+			picture = generic_spy_coup
+			modifier = {
+				enemy_partisan_effect = -0.1
+				attrition = -0.1
+				encryption_factor = 0.05
+			}
+		}
+
+		TRT_civil_war_idea = {
+			picture = generic_intel_bonus
+			modifier = {
+				ai_call_ally_desire_factor = -10000
+				ai_join_ally_desire_factor = -10000
+			}
+		}
+
+		TRT_increased_infantry_weapons_production_idea = {
+			picture = generic_license_production
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+
+		TRT_indoctrination_idea = {
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				army_morale_factor = 0.1
+				stability_factor = 0.05
+			}
+		}
+
+		TRT_recruitment_campaign_idea = {
+			picture = country_focus_army
+			modifier = {
+				conscription_factor = 0.035
+			}
+		}
+
+		TRT_recruitment_campaign_idea1 = {
+			picture = country_focus_army
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+
+		TRT_recruitment_campaign_idea2 = {
+			picture = country_focus_army
+			modifier = {
+				conscription_factor = 0.075
+			}
+		}
+
+		TRT_paramilitary_groups_idea = {
+			picture = FRA_army_of_aggression_focus
+			modifier = {
+				army_morale_factor = 0.1
+				army_attack_factor = 0.1
+				army_org_factor = -0.05
+				training_time_army_factor = 0.10
+			}
+		}
+
+		TRT_economic_downturn_idea = {
+			picture = great_depression
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = -0.15
+			}
+		}
+
+		TRT_economic_downturn_idea2 = {
+			picture = great_depression
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		TRT_economic_downturn_idea3 = {
+			picture = great_depression
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
+
+		TRT_trade_with_england_idea = {
+			picture = generic_foreign_capital
+			modifier = {
+				industrial_capacity_factory = 0.025
+			}
+		}
+
+		TRT_trade_with_germany_idea = {
+			picture = generic_foreign_capital
+			modifier = {
+				industrial_capacity_factory = 0.025
+			}
+		}
+
+		TRT_agricultural_methods_idea = {
+			picture = generic_agrarian_reform
+			modifier = {
+				monthly_population = 0.2
+				supply_consumption_factor = -0.035
+			}
+		}
+
+		TRT_land_redistribution_idea = {
+			picture = generic_agrarian_reform
+			modifier = {
+				monthly_population = 0.4
+				supply_consumption_factor = -0.05
+			}
+		}
+
+		TRT_british_embargo_idea = {
+			picture = FRA_factory_strikes
+			modifier = {
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		TRT_french_embargo_idea = {
+			picture = FRA_factory_strikes
+			modifier = {
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		TRT_italian_embargo_idea = {
+			picture = FRA_factory_strikes
+			modifier = {
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		TRT_central_bank_idea = {
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = -0.025
+			}
+		}
+
+		TRT_general_staff_idea = {
+			picture = general_staff
+			modifier = {
+				army_org_factor = 0.05
+			}
+		}
+
+		TRT_special_forces_command_idea = {
+			picture = totalist_charta
+			modifier = {
+				army_core_attack_factor = 0.1
+				recon_factor = 0.05
+			}
+		}
+
+		TRT_gendarmerie_general_command_idea = {
+			picture = generic_secret_police
+			modifier = {
+				decryption_factor = 0.05
+				enemy_partisan_effect = -0.1
+			}
+		}
+
+		TRT_naval_costs_idea = {
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		TRT_directorate_of_naval_affairs_idea = {
+			picture = generic_navy_bonus
+			modifier = {
+				naval_coordination = 0.05
+				experience_gain_navy_factor = 0.05
+			}
+		}
+
+		TRT_light_aircraft_idea = {
+			picture = generic_air_bonus
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+			}
+		}
+
+		TRT_heavy_aircraft_idea = {
+			picture = generic_air_research
+			equipment_bonus = {
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}	
+			}
+		}
+
+		TRT_eskisehir_air_school_idea = {
+			picture = air_war_plans_division_focus
+			modifier = {
+				air_ace_generation_chance_factor = 0.05
+				experience_gain_air_factor = 0.05
+			}
+		}
+	}
+}

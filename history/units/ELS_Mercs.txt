@@ -1,0 +1,89 @@
+division_template = {
+	name = "Corporate Mercenaries" 			
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	division= {	
+		name = "UFCO Private Security Group Alpha"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "UFCO Private Security Group Beta"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+	division= {	
+		name = "UFCO Private Security Group Gamma"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+	
+	division= {	
+		name = "UFCO Private Security Group Delta"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+
+	division= {	
+		name = "UFCO Private Security Group Epsilon"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+
+	division= {	
+		name = "UFCO Private Security Group Zeta"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+
+	division= {	
+		name = "UFCO Private Security Group Eta"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+
+	division= {	
+		name = "UFCO Private Security Group Theta"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+
+	division= {	
+		name = "UFCO Private Security Group Iota"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+
+	division= {	
+		name = "UFCO Private Security Group Kappa"
+		location = 12823
+		division_template = "Corporate Mercenaries"
+		start_experience_factor = 1.0
+	}
+}

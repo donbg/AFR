@@ -1,0 +1,407 @@
+scripted_gui = {
+
+		sphering_improve_relation_info_box = {
+		context_type = selected_country_context
+
+		parent_window_token = selected_country_view_diplomacy
+		
+		window_name = "sphering_improve_relation_info_box_container"
+		
+		visible = {
+			ROOT = {
+				OR = {
+					has_country_flag = great_power_1
+					has_country_flag = great_power_2
+					has_country_flag = great_power_3
+					has_country_flag = great_power_4
+					has_country_flag = great_power_5
+					has_country_flag = great_power_6
+					has_country_flag = great_power_7
+					has_country_flag = great_power_8
+				}
+			}
+			NOT = {
+				FROM = {
+					tag = ROOT
+				}
+			}
+			always =  yes
+		}
+		
+		effects = {
+		}
+	}
+
+	sphering_improve_relation = {
+		context_type = selected_country_context
+
+		parent_window_token = selected_country_view_diplomacy
+		
+		window_name = "sphering_improve_relation_container"
+		
+		visible = {
+			ROOT = {
+				OR = {
+					has_country_flag = great_power_1
+					has_country_flag = great_power_2
+					has_country_flag = great_power_3
+					has_country_flag = great_power_4
+					has_country_flag = great_power_5
+					has_country_flag = great_power_6
+					has_country_flag = great_power_7
+					has_country_flag = great_power_8
+				}
+			}
+			NOT = {
+				FROM = {
+					tag = ROOT
+				}
+			}
+			FROM = {
+				NOT = {
+					has_country_flag = sphere_3_by_@ROOT
+					has_country_flag = sphere_2_by_@ROOT
+					}
+				}
+			}
+		
+		effects = {
+			improve_relation_button_click = {
+				ROOT = {
+					add_political_power = -50
+				}
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = sphere_1_by_@ROOT
+							NOT = {
+								has_country_flag = sphere_2_by_@ROOT
+								has_country_flag = sphere_3_by_@ROOT
+								}
+							}
+						}
+					FROM = {
+						set_country_flag = sphere_2_by_@ROOT
+						country_event = sph.2
+					}
+				}
+				if = {
+					limit = {
+						FROM = { 
+							NOT = {
+								has_country_flag = sphere_1_by_@ROOT
+								}
+							}
+						}
+					FROM = {
+						set_country_flag = sphere_1_by_@ROOT
+						country_event = sph.1
+					}
+				}
+			}
+		}
+
+		triggers = {
+            improve_relation_button_click_enabled = {
+            	AND= {
+               		FROM = {
+                		 NOT = {
+                	 		OR = {
+                	 			has_country_flag = great_power_1
+                	 			has_country_flag = great_power_2
+                	 			has_country_flag = great_power_3
+                	 			has_country_flag = great_power_4
+                	 			has_country_flag = great_power_5
+                	 			has_country_flag = great_power_6
+                	 			has_country_flag = great_power_7
+                	 			has_country_flag = great_power_8
+                	 		}
+                		 }
+                	}
+                	ROOT = {
+               			has_political_power > 50 
+               		}
+               		OR = {
+ 						AND = {
+ 							FROM = {
+ 								has_socialist_government = yes
+ 								}
+ 							ROOT = {
+ 								has_socialist_government = yes
+ 							}
+ 						}
+ 						AND = {
+ 							FROM = {
+ 								has_democratic_government = yes
+ 								}
+ 							ROOT = {
+ 								has_democratic_government = yes
+ 							}
+ 						}
+ 						AND = {
+ 							FROM = {
+ 								has_authoritarian_government = yes
+ 								}
+ 							ROOT = {
+ 								has_authoritarian_government = yes
+ 							}
+ 						}
+ 					}
+               	}
+            }
+		}
+	}
+
+	sphering_sphere = {
+		context_type = selected_country_context
+
+		parent_window_token = selected_country_view_diplomacy
+		
+		window_name = "sphering_sphere_container"
+		
+		visible = {
+			ROOT = {
+				OR = {
+					has_country_flag = great_power_1
+					has_country_flag = great_power_2
+					has_country_flag = great_power_3
+					has_country_flag = great_power_4
+					has_country_flag = great_power_5
+					has_country_flag = great_power_6
+					has_country_flag = great_power_7
+					has_country_flag = great_power_8
+				}
+			}
+			NOT = {
+				FROM = {
+					tag = ROOT
+				}
+			}
+			FROM = {
+				has_country_flag = sphere_1_by_@ROOT
+				has_country_flag = sphere_2_by_@ROOT
+				NOT = {
+					has_country_flag = sphere_3_by_@ROOT
+					has_country_flag = sphered
+					}
+				}
+			}
+		
+		effects = {
+			sphere_button_click = {
+				ROOT = {
+					add_political_power = -50
+					set_country_flag = sphered_@PREV
+				}
+				FROM = {
+					set_country_flag = sphere_3_by_@ROOT
+					set_country_flag = sphered
+					country_event = sph.3
+				}
+				random_country = {
+					limit = {
+						has_country_flag = great_power_1
+						}
+					save_global_event_target_as = sphereleader1
+				}
+				random_country = {
+					limit = {
+						has_country_flag = great_power_2
+						}
+					save_global_event_target_as = sphereleader2
+				}
+				random_country = {
+					limit = {
+						has_country_flag = great_power_3
+						}
+					save_global_event_target_as = sphereleader3
+				}
+				random_country = {
+					limit = {
+						has_country_flag = great_power_4
+						}
+					save_global_event_target_as = sphereleader4
+				}
+				random_country = {
+					limit = {
+						has_country_flag = great_power_5
+						}
+					save_global_event_target_as = sphereleader5
+				}
+				random_country = {
+					limit = {
+						has_country_flag = great_power_6
+						}
+					save_global_event_target_as = sphereleader6
+				}
+				random_country = {
+					limit = {
+						has_country_flag = great_power_7
+						}
+					save_global_event_target_as = sphereleader7
+				}
+				random_country = {
+					limit = {
+						has_country_flag = great_power_8
+						}
+					save_global_event_target_as = sphereleader8
+				}
+			}
+		}
+
+		triggers = {
+            sphere_button_click_enabled = {
+            	AND= {
+               		FROM = {
+                		 NOT = {
+                	 		OR = {
+                	 			has_country_flag = great_power_1
+                	 			has_country_flag = great_power_2
+                	 			has_country_flag = great_power_3
+                	 			has_country_flag = great_power_4
+                	 			has_country_flag = great_power_5
+                	 			has_country_flag = great_power_6
+                	 			has_country_flag = great_power_7
+                	 			has_country_flag = great_power_8
+                	 		}
+                		 }
+                	}
+                	ROOT = {
+               			has_political_power > 50 
+               		}
+               		OR = {
+ 						AND = {
+ 							FROM = {
+ 								has_socialist_government = yes
+ 								}
+ 							ROOT = {
+ 								has_socialist_government = yes
+ 							}
+ 						}
+ 						AND = {
+ 							FROM = {
+ 								has_democratic_government = yes
+ 								}
+ 							ROOT = {
+ 								has_democratic_government = yes
+ 							}
+ 						}
+ 						AND = {
+ 							FROM = {
+ 								has_authoritarian_government = yes
+ 								}
+ 							ROOT = {
+ 								has_authoritarian_government = yes
+ 							}
+ 						}
+ 					}
+               	}
+            }
+		}
+	}
+
+	sphering_desphere = {
+		context_type = selected_country_context
+
+		parent_window_token = selected_country_view_diplomacy
+		
+		window_name = "sphering_desphere_container"
+		
+		visible = {
+			ROOT = {
+				OR = {
+					has_country_flag = great_power_1
+					has_country_flag = great_power_2
+					has_country_flag = great_power_3
+					has_country_flag = great_power_4
+					has_country_flag = great_power_5
+					has_country_flag = great_power_6
+					has_country_flag = great_power_7
+					has_country_flag = great_power_8
+				}
+			}
+			NOT = {
+				FROM = {
+					tag = ROOT
+				}
+			}
+			FROM = {
+				NOT = {
+					has_country_flag = sphere_3_by_@ROOT
+				}
+				has_country_flag = sphere_2_by_@ROOT
+				has_country_flag = sphered
+			}
+		}
+		
+		effects = {
+			desphere_button_click = {
+				ROOT = {
+					add_political_power = -50
+					save_global_event_target_as = sphereremover
+				}
+				FROM = {
+					clr_country_flag = sphered
+					}
+				random_country = {
+						limit = {
+							has_country_flag = sphered_@FROM
+							}
+						clr_country_flag = sphered_@FROM
+						save_global_event_target_as = originalsphere
+						country_event = sph.4
+					}
+				}
+		}
+
+		triggers = {
+            desphere_button_click_enabled = {
+            	AND= {
+               		FROM = {
+                		 NOT = {
+                	 		OR = {
+                	 			has_country_flag = great_power_1
+                	 			has_country_flag = great_power_2
+                	 			has_country_flag = great_power_3
+                	 			has_country_flag = great_power_4
+                	 			has_country_flag = great_power_5
+                	 			has_country_flag = great_power_6
+                	 			has_country_flag = great_power_7
+                	 			has_country_flag = great_power_8
+                	 		}
+                		 }
+                	}
+                	ROOT = {
+               			has_political_power > 50 
+               		}
+               		OR = {
+ 						AND = {
+ 							FROM = {
+ 								has_socialist_government = yes
+ 								}
+ 							ROOT = {
+ 								has_socialist_government = yes
+ 							}
+ 						}
+ 						AND = {
+ 							FROM = {
+ 								has_democratic_government = yes
+ 								}
+ 							ROOT = {
+ 								has_democratic_government = yes
+ 							}
+ 						}
+ 						AND = {
+ 							FROM = {
+ 								has_authoritarian_government = yes
+ 								}
+ 							ROOT = {
+ 								has_authoritarian_government = yes
+ 							}
+ 						}
+ 					}
+               	}
+            }
+		}
+	}
+}

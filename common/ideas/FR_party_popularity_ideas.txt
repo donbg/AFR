@@ -1,0 +1,53 @@
+ideas = {
+
+	industrial_concern = {}
+	theorist = {}
+	chief_of_army = {}
+	chief_of_navy = {}
+	chief_of_air_force = {}
+	chief_of_staff = {}
+
+	popularity = {
+		law = yes
+
+		very_low_popularity = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea very_low_popularity" }
+			modifier = { political_power_cost = 0.4 }
+		}
+
+		low_popularity = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea low_popularity" }
+			modifier = { political_power_cost = 0.2 }
+		}
+
+		normal_popularity = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea normal_popularity" }
+			default = yes
+		}
+
+		high_popularity = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea high_popularity" }
+			modifier = { political_power_gain = 0.25 }
+		}
+
+		very_high_popularity = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea very_high_popularity" }
+			modifier = { political_power_gain = 0.5 }
+		}
+	}
+}

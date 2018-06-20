@@ -1,0 +1,27 @@
+
+state={
+	id=902
+	name="STATE_902"
+	manpower = 155725
+	
+	state_category = town
+
+	history={
+		owner = GEO 
+		victory_points = {
+			7454 1 
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = TUR
+		add_core_of = ARM
+		add_core_of = GEO
+	}
+
+	provinces={
+	    7454 10403 13216
+	}
+}

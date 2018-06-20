@@ -1,0 +1,57 @@
+﻿capital = 459
+
+OOB = "ALG_1936"
+
+set_research_slots = 2
+set_stability = 0.55
+set_war_support = 0.51
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 10
+		}
+		collectivist = {
+			popularity = 8
+		}
+		libertarian_socialist = {
+			popularity = 8
+		}
+		social_democrat = {
+			popularity = 15
+		}
+		social_liberal = {
+			popularity = 15
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 20
+		}
+		paternal_autocrat = {
+			popularity = 4
+		}
+		national_populist = {
+			popularity = 8
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}

@@ -1,0 +1,223 @@
+﻿capital = 37
+
+oob = "DEN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+add_ideas = {
+	limited_conscription
+	DEN_growing_republican_sentiment
+	DEN_weary_military
+	GEN_James_Smith_hog_sco
+	GEN_Charlie_Baker_for_sco
+	GEN_Sam_Morris_eco_sco
+	GEN_Oscar_Morgan_sec_sco
+}
+
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 11
+		}
+		social_democrat = {
+			popularity = 28
+		}
+		social_liberal = {
+			popularity = 5
+		}
+		market_liberal = {
+			popularity = 18
+		}
+		social_conservative = {
+			popularity = 31
+		}
+		authoritarian_democrat = {
+			popularity = 5
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 2
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_research_slots = 3
+set_convoys = 50
+set_stability = 0.76
+set_war_support = 0.24
+
+puppet = SHO
+
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "Portrait_Denmark_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "William Wain Prior"
+	picture = "Portrait_William_Wain_Prior.dds"
+	traits = { 
+	#trickster
+	}
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Cay Lembcke"
+	picture = "Portrait_Cay_Lembcke.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "A. H. Vedel"
+	picture = "Portrait_Denmark_AH_Vedel.dds"
+	traits = { }
+	skill = 3
+}

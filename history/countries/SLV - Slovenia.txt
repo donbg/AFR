@@ -1,0 +1,73 @@
+﻿capital = 102
+
+oob = "SLV"
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 12
+		}
+		libertarian_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 6
+		}
+		social_conservative = {
+			popularity = 45
+		}
+		authoritarian_democrat = {
+			popularity = 22
+		}
+		paternal_autocrat = {
+			popularity = 15
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Mihály Károlyi"
+	desc = "POLITICS_MIHALY_KAROLYI_DESC"
+	picture = "Portrait_HUN_SocDem.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}

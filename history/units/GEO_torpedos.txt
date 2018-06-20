@@ -1,0 +1,11 @@
+﻿units = {
+	navy = {	
+		name = "Torpedos Kruizeri Floti"
+		base = 3653
+		location = 3653 # Batumi
+		ship = { name = "Torpedos Kruizeri" definition = light_cruiser equipment = { torpedo_cruiser = { amount = 1 owner = GEO } } } #Torpedo cruiser		
+		ship = { name = "Torpedos Kruizeri" definition = light_cruiser equipment = { torpedo_cruiser = { amount = 1 owner = GEO } } } #Torpedo cruiser			
+		ship = { name = "Torpedos Kruizeri" definition = light_cruiser equipment = { torpedo_cruiser = { amount = 1 owner = GEO } } } #Torpedo cruiser			
+		ship = { name = "Torpedos Kruizeri" definition = light_cruiser equipment = { torpedo_cruiser = { amount = 1 owner = GEO } } } #Torpedo cruiser		
+	}
+}

@@ -1,0 +1,93 @@
+﻿#################################
+# Germany, Hungary, Romania loc #
+#################################
+
+l_english:
+
+# - Cosmetic Tags
+
+ROM_HUN_national_populist:0 "Hungarian Administration"
+ROM_HUN_national_populist_ADJ:0 "Hungarian"
+ROM_HUN_national_populist_DEF:0 "Hungarian Administration"
+
+BOH_GER_valkist:0 "RK. Böhmen"
+BOH_GER_valkist_ADJ:0 "Bohemian"
+BOH_GER_valkist_DEF:0 "RK. Böhmen"
+
+POL_GER_valkist:0 "RK. Polen"
+POL_GER_valkist_ADJ:0 "Polish"
+POL_GER_valkist_DEF:0 "RK. Polen"
+
+LIT_GER_valkist:0 "RK. Litauen"
+LIT_GER_valkist_ADJ:0 "Lithuanian"
+LIT_GER_valkist_DEF:0 "RK. Litauen"
+
+
+# - Decisions
+
+bucharest_accord:0 "The Bucharest Accord"
+bucharest_accord_desc:0 "Tensions over the Transylvanian rump state have continued to rise in recent years as the Nationalist government in Bucharest continues to press for an end to their existence, while the Hungarians attempt to forestall the inevitable. With the Entente pre-occupied by the London Stock Market Crisis we have an opportunity to step in an mediate the situation while hopefully increasing our influence in the region.\n\nIt is unlikely that the Hungarians will allow Romania to annex the territory without war."
+occupy_transylvania:0 "Occupy Transylvania"
+occupy_transylvania_desc:0 "With the backing of the Germans in our crusade to reconquer our rightful lands the time has now arrived for us to end the failed state of Transylvania."
+join_stahlpakt_swe:0 "Join the Stahlpakt"
+join_stahlpakt_swe_desc:0 "With the new political situation in our country beginning to finally solidify itself our Government believes that the time has come for us to join with the Germans and their crusade against the Collectivists."
+slovakia_to_hun:0 "Transfer Slovakia to Hungary"
+slovakia_to_hun_desc:0 "As per our agreement with Hungary we will transfer Slovakia to their administration."
+minsk_agreement:0 "The Minsk Agreement"
+minsk_agreement_desc:0 "The Treaty of Versailles gave rise to several abominations in Eastern Europe, all of which once belonged to either the German or Russian Empires. The Fuhrer has demanded that we retake our rightful German lands, perhaps this is an opportunity to be made with the Soviets. If they also threaten to join the war against Poland then it will likely mean the Entente will be unwilling to involve themselves directly."
+fall_weiss:0 "Fall Weiss"
+fall_weiss_desc:0 "Case White: the Invasion of Poland"
+soviets_invade_poland:0 "Minsk Agreement: Invade Poland"
+soviets_invade_poland_desc:0 "With the Germans making head-way against the Polish Government our time has arrived to join the war against the Polish and regain the lands lost to us since the end of the Great War."
+puppet_govs_eeurope:0 "Establish Occupation Administrations"
+puppets_govs_eeurope:0 "By establishing puppet administrations in Eastern Europe we can help properly police these areas, and even help recruit those who are allied to our cause."
+poland_forms_faction:0 "Alliance with Zapadnislavia"
+poland_forms_faction_desc:0 "The renewed German threat against our nation has always been of concern, but this pact with the Soviets is intended to clearly threaten the sovereignty of Eastern European nations. We must reach out to other nations and form an alliance if we are to survive the coming onslaught."
+peace_with_hungary:0 "The Peace of Banat"
+peace_with_hungary_desc:0 "Now that we have occupied as far as Bucharest we are in a position to make demands of the Hungarian Government in any peace deal."
+hungary_occupation:0 "The Occupation of Hungary"
+hungary_occupation_desc:0 "Now that Hungary has been defeated we have a chance to establish a loyal puppet Government in the region as well as solidify our control over our rightful land."
+join_stahlpakt_rom: "Join the Stahlpakt"
+join_stahlpakt_rom_desc:0 "Now that Transylvania is part of our great nation we can step up diplomatic ties with one of the only nations who supported our reconquest of the territory."
+soviet_attack_germany:0 "Destroy Germany"
+soviet_attack_germany_desc:0 "The peace between ourselves and the Germans has held in recent years, but only barely. The time has arrived for us to end the German menace and its threat to our nation."
+uk_join_stahlpakt:0 "Summon German Ambassador"
+uk_join_stahlpakt_desc:0 "With war breaking out between the Soviets and Germans one of our worst fears has now become possible; a Soviet-dominated European continent. The doctrine of Collectivism must not be allowed to spread any further."
+give_land_to_friendly_puppets:0 "Transfer Land"
+give_land_to_friendly_puppets_desc:0 "With the GErmans establishing puppet Governments in Eastern Europe the opportunity has arisen for us to transfer land occupied by us to the control of these new administrations."
+greece_join_ipa:0 "Join the IPA"
+greece_join_ipa_desc:0 "With the Turks foolishly attacking our nation and invoking the wrath of the British, our nation and the British Empire find ourselves locked in a war with a mutual adversary. The time has come for us to join the Imperial Protection Alliance."
+soviets_attack_entente:0 "Liberate the Proletariat of Europe"
+soviets_attack_entente_desc:0 "With the Germans defeated by the Entente powers, the victors have imposed their will - and ideology - upon the people's of Europe. If we are ever to be secure from outside threats we must end the threat from the Entente completely and utterly."
+usa_gw2_join_ipa:0 "An Anglo-American Alliance"
+usa_gw2_join_ipa_desc:0 "Despite our hostility in recent years, the British have found themselves entangled in a major war with the Soviets. Today we have the opportunity to involve ourselves in this conflict and assist them in crushing the Collectivist menace."
+usa_gw2_join_entente:0 "Franco-American Ties"
+usa_gw2_join_entente_desc:0 "French and American diplomatic ties have always been close in these past years, and while their ignorance in the Great War harmed them significantly, we cannot today sit back while France is at war with the Germans once again."
+
+#-Threats
+
+the_minsk_agreement:0 "The Minsk Agreement"
+transylvania_occupation:0 "Annexation of Transylvania"
+2GW_ger_sov:0 "German-Soviet War"
+2GW_eng_fra:0 "The Final Struggle"
+
+#- Ideas
+
+ROMHUN_rightful_land:0 "Balkan Crusade"
+
+#- Events
+
+romhun.1.d:0 "Despite entering the Great War for the purpose of regaining our rightful lands in Transylvania, the peace of Versailles and traitorous Entente nations denied our nation it's sole wish. Almost two decades have passed since the end of the Great War, and now we stand once more on the cusp of acquiring Transylvania.\n\nStill reeling from the London Stock Market Crash, the Entente has its gazer focused solely inwards and the Germans have used this to their advantage, and have approached our nation and offered backing for the occupation of Transylvania."
+romhun.5.d:0 "German diplomats in Moscow have approached our Government with a surprising set of offers. In a grand plan envisioning the complete partition of large parts of Eastern Europe between our nation and the Stahlpakt, the Germans propose that we bring an end to the numerous failed states of Versailles that now exist in Eastern Europe.\n\nIn this agreement the Germans will do the lion's share of the legwork under a promise from our Government to refrain from assisting Poland or its allies in the coming war, in return Byelorussia and Ukraine will be expanded westwards, and our Baltic territories southwards."
+romhun.6.d:0 "In a historic day between our two nations the Minsk Agreement has been signed between our nation and the Soviets. The planned partition of Eastern Europe is now prepared, we need now only prepare our armed forces for the coming struggle to bring an end to these failed states of Versailles."
+romhun.7.d:0 "In an act of sheer madness, the Soviet Government has rejected our proposal for a planned partition of Eastern Europe, citing that they would never collaborate with Valkism to ensure its dominance over the proletariat of Europe."
+romhun.8.d:0 "Intelligence reports have indicated a startling set of developments between the normally hostile German and Soviet nations. Several days ago a series of diplomatic meetings between German and Soviet diplomats were concluded in Minsk and an agreement was signed between the two nations.\n\nIn a serious intelligence coup, several of our covert operatives were able to acquire a copy of the document which portends to partition Eastern Europe between the German and Soviet nations.\n\nIt would seem that war is on the horizon."
+romhun.10.d:0 "Now that the Polish nation has been defeated, and its allies lay occupied by our victorious soldiers the Soviet Government has approached our nation and demanded the hand-over of the land promised to them in the Minsk Agreement.\n\nIgnoring this demand would surely lead to a war between our nations."
+romhun.11.d:0 "With Eastern Europe now occupied by the German army they have agreed to hand over all territory awarded to us in the Minsk Agreement, should we occupy any land that is claimed by the Germans in this agreement we should also return it to them as well."
+romhun.12.d:0 "Troubling news has reached us via Polish diplomats in Paris. According to the Polish Intelligence Agency the German and Soviet Governments have signed an agreement to partition Eastern Europe between their two nations and establish a clear sphere of influence between themselves. The Polish have also claimed that they have obtained copies of the agreement between the two nations, though we have yet to examine them ourselves.\n\nWith the effects of the London Stock Market Crash still effecting our nations many within our Government are extremely unwilling to offer any guarantees to the Polish nation, though if the agreement is true it will surely only strength the two biggest threats to Europe even further. If we offer the Poles protection we may find ourselves at war with both Germany and the Soviets."
+romhun.14.d:0 "News from the European mainland has reached the Foreign Office this morning, and they bring most troubling revelations. Not only have the Germans and Soviets supposedly signed an agreement to partition Eastern Europe between their two nations, the Polish have gotten wind of the plan and approached the French for a set of security guarantees should they be attacked, even more surprisingly is that the French have accepted.\n\nWe now find ourselves in a difficult position; our Government's position since the end of the Great War has been to distance ourselves from the entanglements of mainland Europe, but with these new developments it seems that war in Europe is once more inevitable, and it may mean the Germans and Soviets on one side, with the French on the other. Should France fall, it would mean a German and Soviet dominated Europe for the forseeable future."
+romhun.15.d:0 "This morning British diplomats in our capital approached our Government with several diplomatic proposals in an attempt to heal the wounds between our two nations and officially restore the Entente Cordiale.\n\nDeeply concerned over developments between the German and Soviet nations and even more worried over the possibility of a Europe dominated by Germany or the Soviets, the British have thrown their lot in with our nation once more.\n\nWe would be fools to reject such an offer."
+romhun.22.d:0 "Late yesterday afternoon our ambassador in London was summoned to the UK Foreign Office to discuss recent developments in Europe and moreover to discuss our plans to defend ourselves against the Soviets now that war exists between our two nations.\n\nDeeply worried over the possibility of a Soviet dominated Europe, the British have discussed the possibility of forming a temporary alliance between our two nations in an attempt to throw the Soviets out of Europe and bring and end to the Collectivist menace.\n\nIt seems that in times such as this, potential allies come from the strangest of places."
+romhun.24.d:0 "In an act of pure diplomatic stupidity the German nations has refused to honour the Minsk Agreement between our two nations, denying the existence of the Agreement and stating that they would not hand over an inch of land in Europe to our Government's control.\n\nWe must not allow this insult to stand. We will take these lands through force if necessary."
+
+

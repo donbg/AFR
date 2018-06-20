@@ -1,0 +1,22 @@
+state={
+	id=890
+	name="STATE_890"
+
+	history={
+		owner = KMT
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		1976 2006 4256 4295 5092 7301 7406 10257 12408 12713 
+	}
+	manpower=3011100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

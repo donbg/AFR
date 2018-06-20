@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		
+	### Starting ideas ###
+
+		KNE_military_refugees = {
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.05
+			}
+		}
+		
+		}
+	}

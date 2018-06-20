@@ -1,0 +1,40 @@
+﻿division_template = {
+	name = "Infantry Regiment"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		}
+	#support = {
+	#	engineer = { x = 0 y = 0 }
+	#}
+}
+division_template = {
+	name = "Militia Force"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division= {		
+		name =  "1st Royal Newfoundland Regiment"
+		location = 12505 # St. John's
+		division_template = "Infantry Regiment" 
+		start_experience_factor = 0.1
+
+	}
+
+	##### Naval OOB #####
+	navy = {				
+		name = "Royal Newfoundlandian Navy"			
+		base = 12505 
+		location = 12505 # St. John's
+		ship = { name = "HMNS St. George" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NFL } } }
+	}				
+}

@@ -1,0 +1,244 @@
+﻿division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "NPAM Force"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+#division_template = {
+# 	name = "Infantry-Tank Division" #Rest in peace Pleb-Stomper Division, you will be missed by dirty indian rebel scum.
+# 	regiments = {
+# 		heavy_armor = { x = 0 y = 0 }
+# 		heavy_armor = { x = 0 y = 1 }
+# 		heavy_armor = { x = 0 y = 2 }			
+# 		infantry = { x = 1 y = 0 }		
+# 		infantry = { x = 1 y = 1 }	
+# 		infantry = { x = 1 y = 2 }			
+#	}
+#}
+
+division_template = {
+ 	name = "Motorized Division"
+ 	regiments = {
+ 		motorized = { x = 0 y = 0 }
+ 		motorized = { x = 0 y = 1 }
+ 		motorized = { x = 0 y = 2 }			
+ 		motorized = { x = 1 y = 0 }		
+ 		motorized = { x = 1 y = 1 }	
+ 		motorized = { x = 1 y = 2 }			
+ 	}
+  }
+
+units = {
+	#### ROYAL CANADIAN CORPS ####
+	division= {		
+		name =  "1st 'Old Red Patch' Division"
+		location = 4345 # Montreal
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+
+	}
+	division= {	
+		name = "2nd 'Victoria Rifles' Division"
+		location = 12149 # Montreal
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+
+	}	
+	division= {	
+		name = "3rd 'Water Rats' Division"
+		location = 4285 # St. Johns
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+
+	}
+	division= {	
+		name = "4th 'Northern Pioneers' Division"
+		location = 6662 # Sudbury
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+
+	}
+	division= {	
+		name = "5th 'Maroon 5' Division"
+		location = 7899 # Thunder Bay
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+
+	}
+	division= {	
+		name = "6th 'King's Rifles' Division"
+		location = 3778 # Ottawa
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+
+	}
+	division= {	
+		name = "7th 'Lorne Scots' Division"
+		location = 3778 # Ottawa
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+
+	}	
+	division= {	
+		name = "8th 'Seaforth Highlanders' Division"
+		location = 1408 # Vancouver
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "9th 'Calgary Fusiliers' Division"
+		location = 3706 # Calgary
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "10th 'Royal Grenadiers' Division"
+		location = 3775 # Toronto
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "11th 'York Rangers' Division"
+		location = 10297 # Kuala Lumpar, Malaysia. For the Indian Rebellion.
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "12th 'Empires Finest' Division"
+		location = 10297 # Kuala Lumpar, Malaysia. For the Indian Rebellion.
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+
+	}
+	
+		##### MOTORIZED DIVISIONS ####
+ 	division= {	
+ 		name = "1st Motorized Division"
+ 		location = 3605 
+ 		division_template = "Motorized Division" 
+ 		start_experience_factor = 0.3
+ 
+ 	}
+ 	division= {	
+ 		name = "2nd Motorized Division"
+ 		location = 10230
+ 		division_template = "Motorized Division" 
+ 		start_experience_factor = 0.3
+ 
+ 	}
+
+ 	division= {	
+ 		name = "3rd Motorized Division"
+ 		location = 7259
+ 		division_template = "Motorized Division" 
+ 		start_experience_factor = 0.3
+ 
+ 	}
+
+ 	division= {	
+ 		name = "4th Motorized Division"
+ 		location = 9711
+ 		division_template = "Motorized Division" 
+ 		start_experience_factor = 0.3
+ 
+ 	}
+
+	##### IRREGULARS #####
+	## 1st NPAM Division ##
+	division= {	
+		name = "London NPAM"
+		location = 722 # London, ON
+		division_template = "NPAM Force"
+		start_experience_factor = 0
+
+	}
+
+	## 2nd NPAM Division ##
+	division= {	
+		name = "Winnepeg NPAM"
+		location = 4872  # Winnepeg, MN
+		division_template = "NPAM Force"
+		start_experience_factor = 0
+
+	}
+
+	## 3rd NPAM Division ##
+	division= {	
+		name = "Québec NPAM"
+		location = 12149 # Quebec City, QC
+		division_template = "NPAM Force"
+		start_experience_factor = 0
+
+	}
+
+	## 4th NPAM Division ##
+	division= {	
+		name = "Halifax NPAM"
+		location = 7361  # Halifax, NS
+		division_template = "NPAM Force"
+		start_experience_factor = 0
+
+	}
+
+	## 5th NPAM Division ##
+	division= {	
+		name = "Regina NPAM"
+		location = 12663  # Regina, SK
+		division_template = "NPAM Force"
+		start_experience_factor = 0
+
+	}
+
+	##### Naval OOB #####
+	navy = {				
+		name = "Atlantic Squadron"			
+		base = 7361 
+		location = 7361 # Halifax
+		ship = { name = "HMCS Saguenay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
+		ship = { name = "HMCS Skeena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
+		ship = { name = "HMCS Patrician" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
+		ship = { name = "HMCS Patriot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
+		ship = { name = "HMCS Ottawa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
+		ship = { name = "HMCS Halifax" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
+		ship = { name = "HMCS Nova Scotia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
+		ship = { name = "HMCS Aurora" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAN version_name = "C Class"} } }
+		ship = { name = "HMCS Comet" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAN version_name = "C Class"} } }
+		ship = { name = "HMCS Sudbury" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAN version_name = "C Class"} } }
+		ship = { name = "HMCS Ontario" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAN version_name = "C Class"} } }
+	}				
+}
+
+air_wings = {
+	### Royal Canadian Air Force (RCAF)-- New South Wales
+	276 = {
+		# RCAF Station Trenton (ONT) -- Westland Wapitis
+		nav_bomber_equipment_1 =  {
+			owner = "CAN" 
+			amount = 1
+		}
+	}
+}

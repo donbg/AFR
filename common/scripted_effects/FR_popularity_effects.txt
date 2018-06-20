@@ -1,0 +1,94 @@
+### Popularity Effects
+### Made by CIA
+# How to use for increasing:
+#	increase_popularity_law = yes
+#
+# How to use for decreasing
+#	decrease_popularity_law = yes
+#
+
+increase_popularity_law = {
+	if = {
+		limit = {
+			has_idea = high_popularity
+		}
+		swap_ideas = {
+			remove_idea = high_popularity
+			add_idea = very_high_popularity
+		}
+		break = yes
+	}
+	if = {
+		limit = {
+			has_idea = normal_popularity
+		}
+		swap_ideas = {
+			remove_idea = normal_popularity
+			add_idea = high_popularity
+		}
+		break = yes
+	}
+	if = {
+		limit = {
+			has_idea = low_popularity
+		}
+		swap_ideas = {
+			remove_idea = low_popularity
+			add_idea = normal_popularity
+		}
+		break = yes
+	}
+	if = {
+		limit = {
+			has_idea = very_low_popularity
+		}
+		swap_ideas = {
+			remove_idea = very_low_popularity
+			add_idea = low_popularity
+		}
+		break = yes
+	}
+}
+
+decrease_popularity_law = {
+	if = {
+		limit = {
+			has_idea = low_popularity
+		}
+		swap_ideas = {
+			remove_idea = low_popularity
+			add_idea = very_low_popularity
+		}
+		break = yes
+	}
+	if = {
+		limit = {
+			has_idea = normal_popularity
+		}
+		swap_ideas = {
+			remove_idea = normal_popularity
+			add_idea = low_popularity
+		}
+		break = yes
+	}
+	if = {
+		limit = {
+			has_idea = high_popularity
+		}
+		swap_ideas = {
+			remove_idea = high_popularity
+			add_idea = normal_popularity
+		}
+		break = yes
+	}
+	if = {
+		limit = {
+			has_idea = very_high_popularity
+		}
+		swap_ideas = {
+			remove_idea = very_high_popularity
+			add_idea = high_popularity
+		}
+		break = yes
+	}
+}

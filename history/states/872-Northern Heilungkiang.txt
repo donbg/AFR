@@ -1,0 +1,23 @@
+state={
+	id=872
+	name="STATE_872"
+
+	history={
+		owner = MAN
+		add_core_of = FER
+		add_core_of = KMT
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1776 4809 7697 7848 10541 10675 12537 
+	}
+	manpower=614111
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

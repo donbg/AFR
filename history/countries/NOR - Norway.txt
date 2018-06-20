@@ -1,0 +1,316 @@
+﻿capital = 110
+
+oob = "NOR_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+	low_popularity
+	
+	NOR_monarchist_right_idea
+	NOR_war_on_samfundsvernet_idea
+	NOR_socialism_surrounded_idea
+	
+	#Ministers#
+	NOR_Alfred_Madsen_hog_lso
+	NOR_Nordahl_Grieg_for_col
+	NOR_Christopher_Hornsrud_eco_lso
+	NOR_Fredrik_Monsen_sec_lso
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_destroyer = 1
+	early_submarine = 1
+	early_heavy_cruiser = 1
+	tech_recon = 1
+}
+
+set_convoys = 125		# biggest merchant marine in the world
+set_stability = 0.57
+set_war_support = 0.52
+add_manpower = 45000
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 2
+		}
+		collectivist = {
+			popularity = 8
+		}
+		libertarian_socialist = {
+			popularity = 35
+		}
+		social_democrat = {
+			popularity = 7
+		}
+		social_liberal = {
+			popularity = 13
+		}
+		market_liberal = {
+			popularity = 19
+		}
+		social_conservative = {
+			popularity = 5
+		}
+		authoritarian_democrat = {
+			popularity = 4
+		}
+		paternal_autocrat = {
+			popularity = 3
+		}
+		national_populist = {
+			popularity = 2
+		}
+		valkist = {
+			popularity = 2
+		}
+	}
+	
+	ruling_party = libertarian_socialist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Olav Scheflo"
+	desc = "POLITICS_OLAV_SCHEFLO_DESC"
+	picture = "Portrait_Olav_Scheflo.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Martin Tranmæl"
+	desc = "POLITICS_MARTIN_TRANMAEL_DESC"
+	picture = "Portrait_Martin_Tranmael.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Martin Tranmæl"
+	desc = "POLITICS_MARTIN_TRANMAEL_DESC"
+	picture = "Portrait_Martin_Tranmael.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Johan Nygaardsvold"
+	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
+	picture = "Portrait_Johan_Nygaardsvold.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Johan Ludwig Mowinckel"
+	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
+	picture = "Portrait_Johan_Ludwig_Mowinckel.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ingolf Elster Christensen"
+	desc = "POLITICS_INGOLF_ELSTER_CHRISTENSEN_DESC"
+	picture = "Portrait_Ingolf_Elster_Christensen.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jens Hundseid"
+	desc = "POLITICS_JENS_HUNDSEID_DESC"
+	picture = "Portrait_Jens_Hundseid.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Victor Mogens"
+	desc = "POLITICS_VICTOR_MOGENS_DESC"
+	picture = "Portrait_Victor_Mogens.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "H.M. King Haakon VII"
+	desc = "POLITICS_KING_HAAKON_VII_DESC"
+	picture = "Portrait_King_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vidkun Quisling"
+	desc = "POLITICS_VIDKUN_QUISLING_DESC"
+	picture = "Portrait_Vidkun_Quisling.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Stein Barth-Heyerdahl"
+	desc = "POLITICS_STEIN_BARTH_HEYERDAHL_DESC"
+	picture = "Portrait_Stein_Barth_Heyerdahl.tga"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Kristian Laake"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Kristian_Laake.tga"
+	traits = { old_guard }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+	id = 2000
+}
+
+create_corps_commander = {
+	name = "Carl Gustav Fleischer"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Carl_Gustav_Fleischer.tga"
+	traits = { trickster winter_specialist }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 4
+	id = 2001
+}
+
+create_corps_commander = {
+	name = "Otto Ruge"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Otto_Ruge.tga"
+	traits = { winter_specialist }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+	id = 2002
+}
+
+create_corps_commander = {
+	name = "William Steffens"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_William_Steffens.tga"
+	traits = { hill_fighter }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+	id = 2003
+}
+
+create_corps_commander = {
+	name = "Wilhelm von Tangen Hansteen"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Wilhelm_von_Tangen_Hansteen.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+	id = 2004
+}
+
+create_corps_commander = {
+	name = "Hans Reidar Holtermann"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Hans_Reidar_Holtermann.tga"
+	traits = { hill_fighter }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+	id = 2005
+}
+
+create_navy_leader = {
+	name = "Elias Corneliussen"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Elias_Corneliussen.tga"
+	traits = {  }
+	skill = 3
+	id = 2006
+}
+
+create_navy_leader = {
+	name = "Edvard Christian Danielsen"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Edvard_Christian_Danielsen.tga"
+	traits = { seawolf }
+	skill = 2
+	id = 2007
+}
+
+create_navy_leader = {
+	name = "Henry Diesen"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Henry_Diesen.tga"
+	traits = {  }
+	skill = 1
+	id = 2008
+}
+
+create_navy_leader = {
+	name = "Carsten Tank-Nielsen"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Carsten_Tank_Nielsen.tga"
+	traits = { spotter }
+	skill = 1
+	id = 2009
+}
+
+create_navy_leader = {
+	name = "Odd Isaachsen Willoch"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Odd_Isaachsen_Willoch.tga"
+	traits = {  }
+	skill = 1
+	id = 2010
+}

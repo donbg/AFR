@@ -1,0 +1,16 @@
+####################
+## Austrian Ideas ##
+####################
+## Started by CIA ##
+####################
+ideas = {
+	country = {
+		AUS_bundesheer_conscription = { #Bundesheer Conscription
+			modifier = {
+				conscription = 0.025
+			}
+			picture = generic_reserve_divisions
+			removal_cost = -1
+		}
+	}
+}

@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		VIN_socialist_revolutionaries = { 
+			picture = generic_collectivism_rising 
+			modifier = {
+				conscription_factor = -0.25
+				consumer_goods_factor = 0.08
+				stability_factor = -0.1
+			}
+		}
+		VIN_rural_nation = { 
+			picture = tfv_can_conscription_crisis
+			modifier = {
+				conscription_factor = -0.15
+				production_speed_arms_factory_factor = -0.55
+				production_speed_industrial_complex_factor = -0.55
+			}
+		}
+	}
+}

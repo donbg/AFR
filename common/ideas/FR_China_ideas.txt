@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		CHI_german_advisors = {
+
+		allowed = {
+			original_tag = CHI
+		}
+			
+		removal_cost = -1
+		picture = idea_german_advisors
+			
+		research_bonus = {
+			land_doctrine = 0.07
+		}
+		
+		modifier = {
+			production_factory_max_efficiency_factor = 0.05
+			}
+		}
+	}
+}

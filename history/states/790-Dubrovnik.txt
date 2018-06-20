@@ -1,0 +1,25 @@
+state={
+	id=790
+	name="STATE_790"
+	manpower = 6500
+
+	state_category = pastoral
+
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+			6889 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ITA
+		add_core_of = CRO
+		add_core_of = BOS
+	}
+
+	provinces={
+		6889
+	}
+}

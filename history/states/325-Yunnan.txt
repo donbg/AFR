@@ -1,0 +1,37 @@
+
+state={
+	id=325
+	name="STATE_325"
+	resources={
+		tungsten=2.0
+	}
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		add_core_of = KMT
+		add_core_of = MAN
+		victory_points = {
+			1319 10 
+		}
+		victory_points = {
+			7965 3 
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+		1938.10.25 = {
+			owner = KMT
+
+		}
+
+	}
+
+	provinces={
+		1114 1172 1196 1319 1383 1522 1653 4501 4559 5009 7446 7606 7965 7976 8023 10346 10413 10776 10863 12262 12282 12789 12898 
+	}
+	manpower=11994500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

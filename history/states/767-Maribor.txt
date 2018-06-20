@@ -1,0 +1,23 @@
+
+state={
+	id=767
+	name="STATE_767"
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 4
+			air_base = 5
+
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		596 3654 
+	}
+	manpower=95000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

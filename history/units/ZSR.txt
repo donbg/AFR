@@ -1,0 +1,78 @@
+division_template = {
+	name = "Pesi Divize"
+	#Keep in mind, this is the FR-ified version of the CZE OOB. Division names are in Czech, this will have to be reworked into a language that fits the theme of Zapadoslavia
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Red Militia"
+
+	regiments = {
+		militia = { x = 0 y = 0 }	
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }	
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }	
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "4. Divize"
+		location = 9412  
+		division_template = "Red Militia"
+
+	}
+	division = {
+		name = "12. Divize"
+		location = 11691
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "16. Divize"
+		location = 3434
+		division_template = "Red Militia"
+		start_experience_factor = 0.2
+
+	}
+
+	division = {
+		name = "9. Divize"
+		location = 417
+		division_template = "Pesi Divize"
+
+	}
+	division = {
+		name = "15. Divize"
+		location = 9570 
+		division_template = "Red Militia"
+
+	}
+	division = {
+		name = "21. Divize"
+		location = 3485
+		division_template = "Red Militia"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "18. Divize"
+		location = 6571
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+	}
+}

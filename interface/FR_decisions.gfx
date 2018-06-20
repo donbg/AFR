@@ -1,0 +1,25 @@
+spriteTypes = {	
+
+	### categories
+	
+
+	spriteType = {
+		name = "GFX_decision_cat_generic_scw_map"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_scw_map.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_generic_bcw_map"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_bcw_map.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_generic_collectivism"
+		texturefile = "gfx/interface/decisions/decision_category_generic_collectivism.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_generic_right_wing"
+		texturefile = "gfx/interface/decisions/decision_category_generic_right_wing.dds"
+	}
+	### decision icons
+
+
+}

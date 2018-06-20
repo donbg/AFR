@@ -1,0 +1,135 @@
+﻿division_template = {
+	name = "Juntuán"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 0 y = 2 }
+	}
+
+}
+
+
+units = {
+	division = {
+		name = "Federative Divison 1"
+		location = 12789
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 2"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 3"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 4"
+		location = 12789
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 5"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 6"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 7"
+		location = 12789
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 8"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 9"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 10"
+		location = 12789
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 11"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 12"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 13"
+		location = 12789
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 14"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Federative Divison 15"
+		location = 10346
+		division_template = "Juntuán"
+		start_equipment_factor = 1.0
+
+	}
+}
+
+##### STARTING PRODUCTION #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "YUN"
+		}
+		requested_factories = 1
+		progress = 0.82
+		efficiency = 100
+	}
+}

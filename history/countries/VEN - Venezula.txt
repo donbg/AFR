@@ -1,0 +1,76 @@
+﻿capital = 307
+
+oob = "VEN_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	gwtank = 1
+}
+
+set_convoys = 10
+set_stability = 0.50
+set_war_support = 0.50
+
+add_ideas = {
+	GEN_Francesco_Esposito_hog_mli
+	GEN_Antonello_D_Angelo_for_mli
+	GEN_Eros_Berna_eco_mli
+	GEN_Fleano_Carideo_sec_mli
+}
+
+set_politics = {
+
+	parties = {
+		market_liberal = { 
+			popularity = 75
+		}
+
+		paternal_autocrat = {
+			popularity = 10
+		}
+		
+		collectivist = {
+			popularity = 15
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = market_liberal
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Santos Dominici"
+	desc = "POLITICS_SANTOS_DOMINICI_DESC"
+	picture = "SantosDominici.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Eleazar López Contreras"
+	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan Bautista Fuenmayor"
+	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,24 @@
+#Far Eastern Republic/Pimorian Republic ideas
+
+ideas = {
+	
+	country = {
+	
+		FER_cossack_mil = {
+			allowed = {
+				original_tag = FER
+			}
+			picture = FER_tribal_tensions
+			modifier = {
+				conscription_factor = -0.02
+				consumer_goods_factor = 0.07
+				stability_factor = -0.1
+				cavalry_attack_factor = 0.075
+				cavalry_defence_factor = 0.05
+				army_org_Factor = 0.1
+				army_morale_factor = 0.1
+				experience_gain_army_factor = -0.5
+			}
+		}
+	}
+}

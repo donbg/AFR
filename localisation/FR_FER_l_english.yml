@@ -1,0 +1,33 @@
+﻿l_english:
+
+#### Political Parties ####
+
+#FER_vanguardist_party:0 ""
+#FER_vanguardist_party_long:0 ""
+#FER_collectivist_party:0 ""
+#FER_collectivist_party_long:0 ""
+#FER_libertarian_socialist_party:0 ""
+#FER_libertarian_socialist_party_long:0 ""
+#FER_social_democrat_party:0 ""
+#FER_social_democrat_party_long:0 ""
+#FER_social_liberal_party:0 ""
+#FER_social_liberal_party_long:0 ""
+#FER_market_liberal_party:0 ""
+#FER_market_liberal_party_long:0 ""
+#FER_social_conservative_party:0 ""
+#FER_social_conservative_party_long:0 ""
+#FER_authoritarian_democrat_party:0 ""
+#FER_authoritarian_democrat_party_long:0 ""
+#FER_paternal_autocrat_party:0 ""
+#FER_paternal_autocrat_party_long:0 ""
+#FER_national_populist_party:0 ""
+#FER_national_populist_party_long:0 ""
+#FER_valkist_party:0 ""
+#FER_valkist_party_long:0 ""
+
+#### events ####
+
+#### Ideas ####
+
+FER_cossack_mil:0 "Cossack Military"
+FER_cossack_mil_desc:0 "Almost an entirety of our regular forces consists of cossacks of the Amur atamanate. As a result, we have an experienced and capable army which is quite a bit stronger than a state of our size would normally have. However, there is also a downside to this situation. Cossacks refuse to accept Vladivostoks authority over them and pay no taxes."

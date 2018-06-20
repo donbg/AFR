@@ -1,0 +1,1093 @@
+ideas = {
+	country = {
+	}
+#Canadian Ministers
+#### Head of Government ####
+head_of_government = {
+	CAN_rb_bennett_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = social_conservative
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = rb_bennett_dead}
+			NOT = {has_country_flag = rb_bennett_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government social_conservative hog_happy_amateur} #previous trait was hog_naive_optimist. Removed due to causing Canada's civ industry to skyrocket
+		cancel_if_invalid = no
+	}
+	CAN_john_diefenbaker_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = social_conservative
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = john_diefenbaker_dead}
+			NOT = {has_country_flag = john_diefenbaker_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government social_conservative hog_flamboyant_tough_guy}
+		cancel_if_invalid = no
+	}
+	CAN_wl_mackenzie_king_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = market_liberal
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = wl_mackenzie_king_dead}
+			NOT = {has_country_flag = wl_mackenzie_king_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government market_liberal hog_lauriers_heir}
+		cancel_if_invalid = no
+	}
+	CAN_tommy_douglas_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = social_democrat
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = tommy_douglas_dead}
+			NOT = {has_country_flag = tommy_douglas_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government social_democrat hog_charismatic_charmer}
+		cancel_if_invalid = no
+	}
+	CAN_john_buchan_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = paternal_autocrat
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = john_buchan_dead}
+			NOT = {has_country_flag = john_buchan_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government paternal_autocrat hog_pragmatic_statesman}
+		cancel_if_invalid = no
+	}
+	CAN_jh_blackmore_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = national_populist
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = jh_blackmore_dead}
+			NOT = {has_country_flag = jh_blackmore_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government national_populist hog_backroom_backstabber}
+		cancel_if_invalid = no
+	}
+	CAN_joseph_maurice_scott_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = national_populist
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = joseph_maurice_scott_dead}
+			NOT = {has_country_flag = joseph_maurice_scott_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government valkist hog_political_protege}
+		cancel_if_invalid = no
+	}
+	CAN_arthur_evans_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = national_populist
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = arthur_evans_dead}
+			NOT = {has_country_flag = arthur_evans_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government libertarian_socialist hog_ambitious_union_boss}
+		cancel_if_invalid = no
+	}
+	CAN_fred_rose_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = national_populist
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = fred_rose_dead}
+			NOT = {has_country_flag = fred_rose_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government collectivist hog_flamboyant_tough_guy}
+		cancel_if_invalid = no
+	}
+	CAN_william_kashtan_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = national_populist
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = william_kashtan_dead}
+			NOT = {has_country_flag = william_kashtan_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government collectivist hog_backroom_backstabber}
+		cancel_if_invalid = no
+	}
+	CAN_maurice_spector_hog = { 
+		allowed = {original_tag = CAN}
+		available = {
+			has_government = national_populist
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = maurice_spector_dead}
+			NOT = {has_country_flag = maurice_spector_hog_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government vanguardist hog_red_chairmen}
+		cancel_if_invalid = no
+	}
+}
+#### Foreign Ministers ####
+foreign_minister = {
+	CAN_donald_matheson_sutherland_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = donald_matheson_sutherland_dead}
+			NOT = {has_country_flag = donald_matheson_sutherland_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister social_conservative for_hawkish_intervener}
+		cancel_if_invalid = no
+	}
+	CAN_lester_b_pearson_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = lester_b_pearson_dead}
+			NOT = {has_country_flag = lester_b_pearson_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister social_conservative for_relations_expert}
+		cancel_if_invalid = no
+	}
+	CAN_lib_lester_b_pearson_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = lester_b_pearson_dead}
+			NOT = {has_country_flag = lester_b_pearson_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister market_liberal for_relations_expert}
+		cancel_if_invalid = no
+	}
+	CAN_leo_richer_lafleche_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = leo_richer_lafleche_dead}
+			NOT = {has_country_flag = leo_richer_lafleche_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister market_liberal for_ideological_crusader}
+		cancel_if_invalid = no
+	}
+	CAN_humphrey_mitchell_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = humphrey_mitchell_dead}
+			NOT = {has_country_flag = humphrey_mitchell_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister social_democrat for_apologetic_clerk}
+		cancel_if_invalid = no
+	}
+	CAN_edward_joseph_garland_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = edward_joseph_garland_dead}
+			NOT = {has_country_flag = edward_joseph_garland_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister national_populist for_apologetic_clerk}
+		cancel_if_invalid = no
+	}
+	CAN_tom_mcinnes_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = tom_mcinnes_dead}
+			NOT = {has_country_flag = tom_mcinnes_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister valkist for_ideological_crusader}
+		cancel_if_invalid = no
+	}
+	CAN_robert_b_russle_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = robert_b_russle_dead}
+			NOT = {has_country_flag = robert_b_for_russle_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister libertarian_socialist for_apologetic_clerk}
+		cancel_if_invalid = no
+	}
+	CAN_arthur_evans_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = arthur_evans_dead}
+			NOT = {has_country_flag = arthur_evans_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister libertarian_socialist for_relations_expert}
+		cancel_if_invalid = no
+	}
+	CAN_william_kashtan_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = william_kashtan_dead}
+			NOT = {has_country_flag = william_kashtan_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister collectivist for_hawkish_intervener}
+		cancel_if_invalid = no
+	}
+	CAN_norman_bethune_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = norman_bethune_dead}
+			NOT = {has_country_flag = norman_bethune_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister collectivist for_iron_fisted_brute}
+		cancel_if_invalid = no
+	}
+	CAN_sam_carr_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = sam_carr_dead}
+			NOT = {has_country_flag = sam_carr_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister collectivist for_great_compromiser}
+		cancel_if_invalid = no
+	}
+	CAN_william_kashtan_v_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = william_kashtan_dead}
+			NOT = {has_country_flag = william_kashtan_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister vanguardist for_hawkish_intervener}
+		cancel_if_invalid = no
+	}
+	CAN_norman_bethune_v_for = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = norman_bethune_dead}
+			NOT = {has_country_flag = norman_bethune_for_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = for_cannot_be_replaced}
+		}
+		traits = {foreign_minister vanguardist for_iron_fisted_brute}
+		cancel_if_invalid = no
+	}
+}
+#### Economic Ministers ####
+economy_minister = {
+	CAN_charles_cahan_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = charles_cahan_dead}
+			NOT = {has_country_flag = charles_cahan_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister social_conservative eco_keynesian_economy}
+		cancel_if_invalid = no
+	}
+	CAN_edgar_nelson_rhodes_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = edgar_nelson_rhodes_dead}
+			NOT = {has_country_flag = edgar_nelson_rhodes_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister social_conservative eco_mixed_economy}
+		cancel_if_invalid = no
+	}
+	CAN_cd_howe_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = cd_howe_dead}
+			NOT = {has_country_flag = cd_howe_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister market_liberal eco_the_minister_for_everything}
+		cancel_if_invalid = no
+	}
+	CAN_humphrey_mitchell_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = humphrey_mitchell_dead}
+			NOT = {has_country_flag = humphrey_mitchell_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister social_democrat eco_industrial_chemist}
+		cancel_if_invalid = no
+	}
+	CAN_william_thomas_lucas_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = william_thomas_lucas_dead}
+			NOT = {has_country_flag = william_thomas_lucas_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister social_democrat eco_administrative_genius}
+		cancel_if_invalid = no
+	}
+	CAN_solon_earl_low_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = solon_earl_low_dead}
+			NOT = {has_country_flag = solon_earl_low_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister national_populist eco_socred_economist}
+		cancel_if_invalid = no
+	}
+	CAN_william_aberhart_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = william_aberhart_dead}
+			NOT = {has_country_flag = william_aberhart_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister paternal_autocrat eco_planned_economy_proponent}
+		cancel_if_invalid = no
+	}
+	CAN_gabriel_lambert_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = gabriel_lambert_dead}
+			NOT = {has_country_flag = gabriel_lambert_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister valkist eco_reformer}
+		cancel_if_invalid = no
+	}
+	CAN_tom_uphill_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = tom_uphill_dead}
+			NOT = {has_country_flag = tom_uphill_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister libertarian_socialist eco_imbedded_unioneer}
+		cancel_if_invalid = no
+	}
+	CAN_matthew_popovich_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = matthew_popovich_dead}
+			NOT = {has_country_flag = matthew_popovich_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister collectivist eco_military_entrepreneur}
+		cancel_if_invalid = no
+	}
+	CAN_annie_buller_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = annie_buller_dead}
+			NOT = {has_country_flag = annie_buller_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister collectivist eco_industrialiser}
+		cancel_if_invalid = no
+	}
+	CAN_maurice_spector_eco = { 
+		allowed = {original_tag = CAN}
+		available = {
+			NOT = {has_country_flag = maurice_spector_dead}
+			NOT = {has_country_flag = maurice_spector_eco_fired}
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+			NOT = {has_country_flag = eco_cannot_be_replaced}
+		}
+		traits = {economy_minister vanguardist eco_air_superiority_proponent}
+		cancel_if_invalid = no
+	}
+}
+#### Security Ministers ####
+security_minister = {
+		CAN_hugh_guthrie_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = hugh_guthrie_dead}
+				NOT = {has_country_flag = hugh_guthrie_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister social_conservative sec_crime_fighter}
+			cancel_if_invalid = no
+		}
+		CAN_arthur_meighen_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = arthur_meighen_dead}
+				NOT = {has_country_flag = arthur_meighen_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister social_conservative sec_driven_recruiter}
+			cancel_if_invalid = no
+		}
+		CAN_ernest_lapointe_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = ernest_lapointe_dead}
+				NOT = {has_country_flag = ernest_lapointe_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister market_liberal sec_silent_lawyer}
+			cancel_if_invalid = no
+		}
+		CAN_robert_james_manion_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = robert_james_manion_dead}
+				NOT = {has_country_flag = robert_james_manion_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister market_liberal sec_driven_recruiter}
+			cancel_if_invalid = no
+		}
+		CAN_major_james_coldwell_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = major_james_coldwell_dead}
+				NOT = {has_country_flag = major_james_coldwell_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister social_democrat sec_health_and_safety}
+			cancel_if_invalid = no
+		}
+		CAN_tommy_douglas_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = tommy_douglas_dead}
+				NOT = {has_country_flag = tommy_douglas_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister social_democrat sec_media_magnate}
+			cancel_if_invalid = no
+		}
+		CAN_js_woodsworth_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = js_woodsworth_dead}
+				NOT = {has_country_flag = js_woodsworth_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister social_democrat sec_man_of_the_people}
+			cancel_if_invalid = no
+		}
+		CAN_robert_gardiner_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = robert_gardiner_dead}
+				NOT = {has_country_flag = robert_gardiner_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister national_populist sec_silent_lawyer}
+			cancel_if_invalid = no
+		}
+		CAN_wallace_warren_cross_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = wallace_warren_cross_dead}
+				NOT = {has_country_flag = wallace_warren_cross_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister national_populist sec_great_soul}
+			cancel_if_invalid = no
+		}
+		CAN_adrien_arcand_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = adrien_arcand_dead}
+				NOT = {has_country_flag = adrien_arcand_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister paternal_autocrat sec_prince_of_terror }
+			cancel_if_invalid = no
+		}
+		CAN_charles_edgar_edgett_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = charles_edgar_edgett_dead}
+				NOT = {has_country_flag = charles_edgar_edgett_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister valkist sec_efficient_sociopath }
+			cancel_if_invalid = no
+		}
+		CAN_joseph_farr_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = joseph_farr_dead}
+				NOT = {has_country_flag = joseph_farr_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister valkist sec_silent_lawyer }
+			cancel_if_invalid = no
+		}
+		CAN_william_witaker_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = william_witaker_dead}
+				NOT = {has_country_flag = william_witaker_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister valkist sec_secret_police_chief }
+			cancel_if_invalid = no
+		}
+		CAN_albert_edward_smith_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = albert_edward_smith_dead}
+				NOT = {has_country_flag = albert_edward_smith_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister libertarian_socialist sec_crime_fighter }
+			cancel_if_invalid = no
+		}
+		CAN_honore_jackson_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = honore_jackson_dead}
+				NOT = {has_country_flag = honore_jackson_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister libertarian_socialist sec_compassionate_gentleman }
+			cancel_if_invalid = no
+		}
+		CAN_albert_edward_smith_collie_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = albert_edward_smith_dead}
+				NOT = {has_country_flag = albert_edward_smith_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister collectivist sec_crime_fighter }
+			cancel_if_invalid = no
+		}
+		CAN_william_kashtan_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = william_kashtan_dead}
+				NOT = {has_country_flag = william_kashtan_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister collectivist sec_back_stabber }
+			cancel_if_invalid = no
+		}
+		CAN_william_kashtan_vang_sec = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = william_kashtan_dead}
+				NOT = {has_country_flag = william_kashtan_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister vanguardist sec_back_stabber }
+			cancel_if_invalid = no
+		}
+	}
+#### Intelligence Minister ####
+head_of_intel = {
+		CAN_ernest_lapointe_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = ernest_lapointe_dead}
+				NOT = {has_country_flag = ernest_lapointe_int_fired}
+			}
+			traits = {head_of_intel market_liberal int_political_specialist}
+			cancel_if_invalid = no
+		}
+		CAN_arthur_sauve_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = arthur_sauve_dead}
+				NOT = {has_country_flag = arthur_sauve_int_fired}
+			}
+			traits = {head_of_intel social_conservative int_technical_specialist}
+			cancel_if_invalid = no
+		}
+		CAN_telesphore_arsenault_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = telesphore_arsenault_dead}
+				NOT = {has_country_flag = telesphore_arsenault_int_fired}
+			}
+			traits = {head_of_intel social_conservative int_dismal_enigma}
+			cancel_if_invalid = no
+		}
+		CAN_js_woodsworth_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = js_woodsworth_dead}
+				NOT = {has_country_flag = js_woodsworth_int_fired}
+			}
+			traits = {head_of_intel social_democrat int_political_specialist}
+			cancel_if_invalid = no
+		}
+		CAN_wallace_warren_cross_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = wallace_warren_cross_dead}
+				NOT = {has_country_flag = wallace_warren_cross_int_fired}
+			}
+			traits = {head_of_intel national_populist int_logistics_specialist}
+			cancel_if_invalid = no
+		}
+		CAN_charles_edgar_edgett_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = charles_edgar_edgett_dead}
+				NOT = {has_country_flag = charles_edgar_edgett_int_fired}
+			}
+			traits = {head_of_intel national_populist int_dismal_enigma}
+			cancel_if_invalid = no
+		}
+		CAN_agatha_chapman_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = agatha_chapman_dead}
+				NOT = {has_country_flag = agatha_chapman_int_fired}
+			}
+			traits = {head_of_intel libertarian_socialist int_technical_specialist}
+			cancel_if_invalid = no
+		}
+		CAN_fred_rose_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = fred_rose_dead}
+				NOT = {has_country_flag = fred_rose_int_fired}
+			}
+			traits = {head_of_intel collectivist int_logistics_specialist}
+			cancel_if_invalid = no
+		}
+		CAN_sam_carr_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = sam_carr_dead}
+				NOT = {has_country_flag = sam_carr_int_fired}
+			}
+			traits = {head_of_intel collectivist int_dismal_enigma}
+			cancel_if_invalid = no
+		}
+		CAN_edward_cecil_smith_int = { 
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = edward_cecil_smith_dead}
+				NOT = {has_country_flag = edward_cecil_smith_int_fired}
+			}
+			traits = {head_of_intel vanguardist int_technical_specialist}
+			cancel_if_invalid = no
+		}
+	}
+#### Military Staff ####
+	chief_of_staff = {
+		CAN_Ernest_Ashton_mhc_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Ernest_Ashton_dead}
+				NOT = {has_country_flag = Ernest_Ashton_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_fire_support
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Henry_Crerar_mhc_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Henry_Crerar_dead}
+				NOT = {has_country_flag = Henry_Crerar_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Kenneth_Stuart_mhc_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Kenneth_Stuart_dead}
+				NOT = {has_country_flag = Kenneth_Stuart_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Thomas_Victor_Anderson_mhc_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Thomas_Victor_Anderson_dead}
+				NOT = {has_country_flag = Thomas_Victor_Anderson_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = no
+		}
+		CAN_Arthur_Currie_mhc_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Arthur_Currie_dead}
+				NOT = {has_country_flag = Arthur_Currie_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_fire_support
+			}
+			cancel_if_invalid = no
+		}
+		CAN_Charles_Foulkes_mhc_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Charles_Foulkes_dead}
+				NOT = {has_country_flag = Charles_Foulkes_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = no
+		}
+		CAN_John_Murchie_mhc_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = John_Murchie_dead}
+				NOT = {has_country_flag = John_Murchie_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_fire_support
+			}
+			cancel_if_invalid = no
+		}
+		CAN_Frederick_MW_Harvey_mhc_ade = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Frederick_MW_Harvey_dead}
+				NOT = {has_country_flag = Frederick_MW_Harvey_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = no
+		}
+		CAN_Georges_Vanier_mhc_ade = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Georges_Vanier_dead}
+				NOT = {has_country_flag = Georges_Vanier_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = no
+		}
+	}
+#### Chief of Army ####
+	chief_of_army = {
+		CAN_Ernest_Ashton_carm_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Ernest_Ashton_dead}
+				NOT = {has_country_flag = Ernest_Ashton_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_guns_and_butter_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Henry_Crerar_carm_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Henry_Crerar_dead}
+				NOT = {has_country_flag = Henry_Crerar_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_armoured_spearhead_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Kenneth_Stuart_carm_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Kenneth_Stuart_dead}
+				NOT = {has_country_flag = Kenneth_Stuart_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Thomas_Victor_Anderson_carm_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Thomas_Victor_Anderson_dead}
+				NOT = {has_country_flag = Thomas_Victor_Anderson_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_static_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Arthur_Currie_carm_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Arthur_Currie_dead}
+				NOT = {has_country_flag = Arthur_Currie_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Charles_Foulkes_carm_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Charles_Foulkes_dead}
+				NOT = {has_country_flag = Charles_Foulkes_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Georges_Vanier_carm_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Georges_Vanier_dead}
+				NOT = {has_country_flag = Georges_Vanier_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_elastic_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_John_Murchie_carm_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = John_Murchie_dead}
+				NOT = {has_country_flag = John_Murchie_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_armoured_spearhead_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Frederick_MW_Harvey_carm_ade = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Frederick_MW_Harvey_dead}
+				NOT = {has_country_flag = Frederick_MW_Harvey_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_guns_and_butter_doctrine
+			}
+			cancel_if_invalid = no
+		}
+	}
+#### Chief of Navy ####
+	chief_of_navy = {
+		CAN_Percy_Nelles_cnav_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Percy_Nelles_dead}
+				NOT = {has_country_flag = Percy_Nelles_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_open_seas_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Dudley_Pound_cnav_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Dudley_Pound_dead}
+				NOT = {has_country_flag = Dudley_Pound_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_open_seas_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Sir_Ernle_Chatfield_cnav_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Sir_Ernle_Chatfield_dead}
+				NOT = {has_country_flag = Sir_Ernle_Chatfield_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_decisive_battle_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Sir_Roger_Backhouse_cnav_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Sir_Roger_Backhouse_dead}
+				NOT = {has_country_flag = Sir_Roger_Backhouse_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_decisive_battle_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Alasdair_Murray_cnav_ade = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Alasdair_Murray_dead}
+				NOT = {has_country_flag = Alasdair_Murray_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_base_control_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Jean_Couillard_cnav_ade = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Jean_Couillard_dead}
+				NOT = {has_country_flag = Jean_Couillard_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_indirect_approach_doctrine
+			}
+			cancel_if_invalid = no
+		}
+	}
+#### Chief of Airforce ####
+	chief_of_air_force = {
+		CAN_George_Croil_cair_mli = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = George_Croil_dead}
+				NOT = {has_country_flag = George_Croil_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_carpet_bombing_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_Joseph_Romeo_Vachon_cair_sco = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = Joseph_Romeo_Vachon_dead}
+				NOT = {has_country_flag = Joseph_Romeo_Vachon_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_PW_Oland_cair_ade = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = PW_Oland_dead}
+				NOT = {has_country_flag = PW_Oland_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_battlefield_support_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		CAN_William_Avery_Bishop_cair_ade = { #Imported from Kaiserreich
+			allowed = {original_tag = CAN}
+			available = {
+				NOT = {has_country_flag = William_Avery_Bishop_dead}
+				NOT = {has_country_flag = William_Avery_Bishop_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = no
+		}
+	}
+}

@@ -1,0 +1,288 @@
+
+# checks whether the country in scope has the same government as ROOT (the country running the event/focus)
+has_same_government_as_ROOT = {
+	OR = {
+		AND = {
+			has_government = vanguardist
+			ROOT = { has_government = vanguardist }
+		}
+		AND = {
+			has_government = collectivist
+			ROOT = { has_government = collectivist }
+		}
+		AND = {
+			has_government = libertarian_socialist
+			ROOT = { has_government = libertarian_socialist }
+		}
+		AND = {
+			has_government = social_democrat
+			ROOT = { has_government = social_democrat }
+		}
+		AND = {
+			has_government = social_liberal
+			ROOT = { has_government = social_liberal }
+		}
+		AND = {
+			has_government = market_liberal
+			ROOT = { has_government = market_liberal }
+		}
+		AND = {
+			has_government = social_conservative
+			ROOT = { has_government = social_conservative }
+		}
+		AND = {
+			has_government = authoritarian_democrat
+			ROOT = { has_government = authoritarian_democrat }
+		}
+		AND = {
+			has_government = paternal_autocrat
+			ROOT = { has_government = paternal_autocrat }
+		}
+		AND = {
+			has_government = national_populist
+			ROOT = { has_government = national_populist }
+		}
+		AND = {
+			has_government = valkist
+			ROOT = { has_government = valkist }
+		}
+	}
+}
+
+# checks for these three government types for the country in scope
+has_socialist_government = {
+	OR = {
+		has_government = vanguardist
+		has_government = collectivist
+		has_government = libertarian_socialist
+	}
+}
+
+# checks for these four government types for the country in scope
+has_elected_government = {
+	OR = {
+		has_government = social_democrat
+		has_government = social_liberal
+		has_government = market_liberal
+		has_government = social_conservative
+	}
+}
+
+# checks for these five government types for the country in scope
+has_democratic_government = {
+	OR = {
+		has_government = social_democrat
+		has_government = social_liberal
+		has_government = market_liberal
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+	}
+}
+
+# checks for these two government types for the country in scope
+has_authoritarian_government = {
+	OR = {
+		has_government = authoritarian_democrat
+		has_government = paternal_autocrat
+		has_government = national_populist
+		has_government = valkist
+	}
+}
+
+# checks for these three government types for the country in scope
+has_dictatorship_government = {
+	OR = {
+		has_government = paternal_autocrat
+		has_government = national_populist
+		has_government = valkist
+	}
+}
+
+# checks whether the country in scope has the same government type as ROOT (the country running the event/focus)
+# note that it's not the exact same government - just the general type, as above
+same_government_type_as_ROOT = {
+	OR = {
+		AND = {
+			has_socialist_government = yes
+			ROOT = { has_socialist_government = yes }
+		}
+		AND = {
+			has_democratic_government = yes
+			ROOT = { has_democratic_government = yes }
+		}
+		AND = {
+			has_dictatorship_government = yes
+			ROOT = { has_dictatorship_government = yes }
+		}
+	}
+}
+
+# the following triggers will check if the country in scope is on a particular continent
+# note that these are continents as per the game - asia and middle-east are considered separate continents
+is_in_asia = {
+	capital_scope = {
+		is_on_continent = asia
+	}
+}
+
+is_in_europe = {
+	capital_scope = {
+		is_on_continent = europe
+	}
+}
+
+is_in_africa = {
+	capital_scope = {
+		is_on_continent = africa
+	}
+}
+
+is_in_north_america = {
+	capital_scope = {
+		is_on_continent = north_america
+	}
+}
+
+is_in_south_america = {
+	capital_scope = {
+		is_on_continent = south_america
+	}
+}
+
+is_in_middle_east = {
+	capital_scope = {
+		is_on_continent = middle_east
+	}
+}
+
+is_in_australia = {
+	capital_scope = {
+		is_on_continent = australia
+	}
+}
+
+# checks whether the country in scope is in the same continent as ROOT (the country running the event)
+same_continent_as_ROOT = {
+	OR = {
+		AND = {
+			is_in_asia = yes
+			ROOT = { is_in_asia = yes }
+		}
+		AND = {
+			is_in_europe = yes
+			ROOT = { is_in_europe = yes }
+		}
+		AND = {
+			is_in_africa = yes
+			ROOT = { is_in_africa = yes }
+		}
+		AND = {
+			is_in_north_america = yes
+			ROOT = { is_in_north_america = yes }
+		}
+		AND = {
+			is_in_south_america = yes
+			ROOT = { is_in_south_america = yes }
+		}
+		AND = {
+			is_in_middle_east = yes
+			ROOT = { is_in_middle_east = yes }
+		}
+		AND = {
+			is_in_australia = yes
+			ROOT = { is_in_australia = yes }
+		}
+	}
+}
+
+# checks whether the state in scope is on the same continent as ROOT (the country running the event)
+state_same_continent_as_ROOT = {
+	OR = {
+		AND = {
+			is_on_continent = asia
+			ROOT = { is_in_asia = yes }
+		}
+		AND = {
+			is_on_continent = europe
+			ROOT = { is_in_europe = yes }
+		}
+		AND = {
+			is_on_continent = africa
+			ROOT = { is_in_africa = yes }
+		}
+		AND = {
+			is_on_continent = north_america
+			ROOT = { is_in_north_america = yes }
+		}
+		AND = {
+			is_on_continent = south_america
+			ROOT = { is_in_south_america = yes }
+		}
+		AND = {
+			is_on_continent = middle_east
+			ROOT = { is_in_middle_east = yes }
+		}
+		AND = {
+			is_on_continent = australia
+			ROOT = { is_in_australia = yes }
+		}
+	}
+}
+
+### world news triggers
+wants_world_news = {
+	OR = {
+		has_global_flag = NEWS_ALL
+		has_global_flag = NEWS_SOME
+	}
+}
+
+regional_europe_news = {
+	OR = {
+		has_global_flag = NEWS_ALL
+		is_in_europe = yes
+		any_neighbor_country = { is_in_europe = yes }
+	}
+}
+
+regional_asia_news = {
+	OR = {
+		has_global_flag = NEWS_ALL
+		is_in_asia = yes
+		any_neighbor_country = { is_in_asia = yes }
+		is_in_australia = yes
+	}
+}
+
+regional_africa_news = {
+	OR = {
+		has_global_flag = NEWS_ALL
+		is_in_africa = yes
+		any_neighbor_country = { is_in_africa = yes }
+	}
+}
+
+regional_north_america_news = {
+	OR = {
+		has_global_flag = NEWS_ALL
+		is_in_north_america = yes
+		any_neighbor_country = { is_in_north_america = yes }
+	}
+}
+
+regional_south_america_news = {
+	OR = {
+		has_global_flag = NEWS_ALL
+		is_in_south_america = yes
+		any_neighbor_country = { is_in_south_america = yes }
+	}
+}
+
+regional_middle_east_news = {
+	OR = {
+		has_global_flag = NEWS_ALL
+		is_in_middle_east = yes
+		any_neighbor_country = { is_in_middle_east = yes }
+	}
+}
+

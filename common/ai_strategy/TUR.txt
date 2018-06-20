@@ -1,0 +1,459 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+TUR_invasion_of_armenia = {
+	enable = {
+		tag = TUR
+		has_war = no
+		focus_progress = {
+			focus = TUR_crush_arm
+			progress > 0.01
+		}
+	}
+	
+	abort = {
+		has_war = yes
+		ARM = { exists = no }
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ARM"
+		value = 100
+	}
+}
+
+TUR_invasion_of_kurdistan = {
+	enable = {
+		tag = TUR
+		has_war = no
+		focus_progress = {
+			focus = TUR_destroy_kurds
+			progress > 0.01
+		}
+	}
+	
+	abort = {
+		has_war = yes
+		KUR = { exists = no }
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "KUR"
+		value = 100
+	}
+}
+
+TUR_invasion_of_arabia = {
+	enable = {
+		tag = TUR
+		has_war = no
+		focus_progress = {
+			focus = TUR_conquer_arabia
+			progress > 0.01
+		}
+	}
+	
+	abort = {
+		has_war = yes
+		ARB = { exists = no }
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ARB"
+		value = 100
+	}
+}
+
+TUR_antagonize_greece = {
+	enable = {
+		tag = TUR
+		has_completed_focus = TUR_remil_istanbul
+		country_exists = GRE
+		OR = {
+			has_government = valkist
+			has_government = national_populist
+			has_government = authoritarian_democrat
+		}
+	}
+	abort = {
+		NOT = { country_exists = GRE }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "GRE"
+		value = 200
+	}
+}
+
+TUR_invasion_of_greece = {
+	enable = {
+		tag = TUR
+		has_war = no
+		OR = {
+			AND = {
+				has_completed_focus = TUR_join_stahlpakt
+				has_completed_focus = TUR_demand_aydin
+			}
+		}
+		focus_progress = {
+			focus = TUR_reclaim_west
+			progress > 0.01
+		}
+	}
+	
+	abort = {
+		has_war = yes
+		GRE = { exists = no }
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "GRE"
+		value = 100
+	}
+}
+
+TUR_civil_war_unit_production = {
+	enable = {
+		original_tag = TUR
+		has_war_with = TRT
+	}
+
+	abort = {
+		TRT = { exists = no }
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = 500
+	}
+}
+
+TUR_ally_with_germany = {
+	enable = {
+		tag = TUR
+		NOT = {
+			has_completed_focus = TUR_join_stahlpakt
+		}
+		country_exists = GER
+		OR = {
+			has_government = valkist
+			has_government = national_populist
+		}
+	}
+
+	abort = {
+		NOT = { country_exists = GER }
+		has_completed_focus = TUR_join_stahlpakt
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "GER"			
+		value = 200
+	}	
+}
+
+TUR_ally_with_britain = {
+	enable = {
+		tag = TUR
+		NOT = {
+			has_completed_focus = TUR_join_stahlpakt
+		}
+		country_exists = ENG
+		OR = {
+			has_government = social_liberal
+			AND = {
+				has_government = authoritarian_democrat
+				has_opinion_modifier = TUR_british_ties
+			}
+		}
+	}
+	abort = {
+		NOT = { country_exists = ENG }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "ENG"			
+		value = 200
+	}	
+}
+
+TUR_ignore_kurdistan = {
+	enable = {
+		tag = TUR
+		country_exists = KUR
+		has_war = yes
+	}
+
+	abort = {
+		OR = {
+			NOT = { country_exists = KUR }
+			has_war = no
+		}
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "KUR"
+		value = 100
+	}
+}
+
+TUR_ignore_arabia = {
+	enable = {
+		tag = TUR
+		country_exists = ARB
+		has_war = yes
+		NOT = {
+			has_government = national_populist
+		}
+	}
+
+	abort = {
+		OR = {
+			NOT = { country_exists = ARB }
+			has_war = no
+		}
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "ARB"
+		value = 100
+	}
+}
+
+TUR_ignore_armenia = {
+	enable = {
+		tag = TUR
+		country_exists = ARM
+		OR = {
+			has_war = yes
+			ARM = {
+				NOT = {
+					owns_state = 354
+					owns_state = 353
+				}
+			}
+		}
+	}
+
+	abort = {
+		OR = {
+			NOT = { country_exists = ARM }
+			has_war = no
+		}
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "ARM"
+		value = 100
+	}
+}
+
+TUR_ignore_greece = {
+	enable = {
+		tag = TUR
+		country_exists = GRE
+		has_war = yes
+		GRE = {
+			NOT = {
+				owns_state = 339
+				owns_state = 776
+				owns_state = 340
+				owns_state = 342
+			}
+		}
+	}
+
+	abort = {
+		OR = {
+			NOT = { country_exists = GRE }
+			has_war = no
+		}
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "GRE"
+		value = 100
+	}
+}
+
+TUR_area_priority_peace = {
+	enable = {
+		original_tag = TUR
+		has_war = no
+	}
+
+	abort = {
+		has_war = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 100
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 75
+	}
+}
+
+TUR_area_priority_war_mideast = {
+	enable = {
+		original_tag = TUR
+		has_war = yes
+		AND = {
+			any_enemy_country = {
+				has_war_with = TUR
+				capital_scope = {
+					is_on_continent = middle_east
+				}
+			}
+			NOT = {
+				any_enemy_country = {
+					has_war_with = TUR
+					capital_scope = {
+						is_on_continent = middle_east
+					}
+				}
+			}
+		}
+	}
+
+	abort = {
+		has_war = no
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 50
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 100
+	}
+}
+
+TUR_area_priority_war_europe = {
+	enable = {
+		original_tag = TUR
+		has_war = yes
+		AND = {
+			any_enemy_country = {
+				has_war_with = TUR
+				capital_scope = {
+					is_on_continent = europe
+				}
+			}
+			NOT = {
+				any_enemy_country = {
+					has_war_with = TUR
+					capital_scope = {
+						is_on_continent = europe
+					}
+				}
+			}
+		}
+	}
+
+	abort = {
+		has_war = no
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 100
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 50
+	}
+}
+
+TUR_unit_production = {
+	enable = {
+		original_tag = TUR
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -100 
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 100 
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 75
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 40
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 60
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 20
+	}
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=714
+	name="STATE_714"
+
+	history={
+		owner = MAN
+		add_core_of = KMT
+		add_core_of = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1502 1847 4852 4876 7873 7894 10567 12485
+	}
+	manpower=2051151
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

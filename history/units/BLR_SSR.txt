@@ -1,0 +1,56 @@
+﻿##### Division Templates #####  
+division_template = {
+	name = "vintoŭka Apalčennia"			# Rifle Militia
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+##### OOB #####
+units = {		
+	division= {			
+		name = "1-y vintoŭka Apalčennia"		
+		location = 11370
+		division_template = "vintoŭka Apalčennia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+	}
+	division= {			
+		name = "2-y vintoŭka Apalčennia"		
+		location = 9506
+		division_template = "vintoŭka Apalčennia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+	}
+	division= {			
+		name = "3-y vintoŭka Apalčennia"		
+		location = 6556
+		division_template = "vintoŭka Apalčennia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+	}
+	division= {			
+		name = "4-y vintoŭka Apalčennia"		
+		location = 3378
+		division_template = "vintoŭka Apalčennia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+	}
+}
+
+air_wings = {
+	194 = {
+		# 1-y pieršaje aviakrylo
+		fighter_equipment_1 = {
+			owner = "BLR" 
+			amount = 72
+		}
+	}
+}

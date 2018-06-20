@@ -1,0 +1,23 @@
+state={
+	id=816
+	name="STATE_816"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+
+		}
+		add_core_of = IRE
+
+	}
+
+	provinces={
+		303 369 3396 9310 11238 11287 11303 
+	}
+	manpower=410500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

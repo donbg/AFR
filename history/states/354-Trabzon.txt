@@ -1,0 +1,26 @@
+
+state={
+	id=354
+	name="STATE_354"
+	manpower = 675404
+	
+	state_category = rural
+
+	history={
+		owner = ARM
+		
+		buildings = {
+			infrastructure = 3
+			11753 = { #Rize
+				naval_base = 2
+			}
+		}
+		add_core_of = TUR
+		add_core_of = ARM
+		add_claim_by = GEO
+	}
+
+	provinces={
+		789 3714 6976 6991 9886 10472 11753 
+	}
+}

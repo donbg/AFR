@@ -1,0 +1,28 @@
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = POL
+		victory_points = {
+			9427 10
+		}
+		victory_points = {
+			417 1
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		6464 9427 417 442 3410 9412 11398 11413 
+	}
+	manpower=1534900
+	buildings_max_level_factor=1.000
+	state_category=city
+}

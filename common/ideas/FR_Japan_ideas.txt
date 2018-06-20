@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		JAP_cultural_upheaval = {
+			picture = FRA_scw_intervention_republicans_focus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.20
+				consumer_goods_factor = 0.05
+				trade_opinion_factor = 0.20
+			}
+		}
+
+		JAP_Romanov_exiles = {
+			picture = generic_disjointed_gov
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = -0.10
+			}
+		}
+	}
+}

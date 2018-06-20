@@ -1,0 +1,100 @@
+﻿capital = 313
+
+oob = "GUA_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+
+set_convoys = 5
+set_stability = 0.66
+set_war_support = 0.24
+
+add_ideas = {
+	GEN_Mathias_Hansen_hog_lis
+	GEN_Edgar_Hovda_for_lis
+	GEN_Karl_Mork_eco_lis
+	GEN_Lars_Egner_sec_lis
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 22
+		}
+		collectivist = {
+			popularity = 5
+		}
+		libertarian_socialist = {
+			popularity = 53
+		}
+		social_democrat = {
+			popularity = 16
+		}
+		social_liberal = {
+			popularity = 3
+		}
+		market_liberal = {
+			popularity = 1
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = libertarian_socialist
+	last_election = "1931.2.8"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Antonio Díaz Soto y Gama"
+	desc = "GAMA_DESC"
+	picture = "Antonio_Diaz_Soto_y_Gama.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Antonio Díaz Soto y Gama"
+	desc = "GAMA_DESC"
+	picture = "Antonio_Diaz_Soto_y_Gama.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Antonio Díaz Soto y Gama"
+	desc = "GAMA_DESC"
+	picture = "Antonio_Diaz_Soto_y_Gama.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}

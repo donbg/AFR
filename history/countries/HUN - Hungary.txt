@@ -1,0 +1,216 @@
+﻿capital = 43
+
+oob = "HUN_1936"
+country_event = { id = hungary.1 days = 1 }
+
+set_research_slots = 3
+set_stability = 0.33
+set_war_support = 0.34
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	early_bomber = 1
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 22
+		}
+		libertarian_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 10
+		}
+		market_liberal = {
+			popularity = 36
+		}
+		social_conservative = {
+			popularity = 6
+		}
+		authoritarian_democrat = {
+			popularity = 6
+		}
+		paternal_autocrat = {
+			popularity = 20
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = market_liberal
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+give_guarantee = TRA
+
+add_ideas = {
+    hun_horthy_resistance
+    hun_kun_resistance
+    hun_annecy_treaty
+    hun_croat_unrest
+    disarmed_nation
+	GEN_Francesco_Esposito_hog_mli
+	GEN_Antonello_D_Angelo_for_mli
+	GEN_Eros_Berna_eco_mli
+	GEN_Fleano_Carideo_sec_mli
+}
+
+create_country_leader = {
+	name = "Mihály Károlyi"
+	desc = "POLITICS_MIHALY_KAROLYI_DESC"
+	picture = "Portrait_HUN_Marklib.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mátyás Rákosi"
+	desc = "POLITICS_MATYAS_RAKOSI_DESC"
+	picture = "Portrait_HUN_Vang.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "György Lukács"
+	desc = "POLITICS_BELA_KUN_DESC"
+	picture = "Portrait_HUN_BelaKun.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Imre Nagy"
+	desc = "POLITICS_IMRE_NAGY_DESC"
+	picture = "Portrait_HUN_LibSoc.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Miklós Horthy"
+	desc = "POLITICS_MIKLOS_HORTHY_DESC"
+	picture = "Portrait_HUN_PatAut.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ferenc Nagy"
+	desc = "POLITICS_FERENC_NAGY_DESC"
+	picture = "Portrait_HUN_soccon.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+#######################
+### Field Marshalls ###
+#######################
+
+
+create_field_marshal = { 
+	name = "Ferenc Feketehalmy-Czeydner"
+	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
+	traits = { }
+	skill = 2
+}
+################
+### Generals ###
+################
+
+
+create_corps_commander = {
+	name = "Géza Lakatos" 
+	gfx = GFX_Portrait_hungary_geza_lakatos
+	traits = {  }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Iván Hindy" 
+	gfx = GFX_Portrait_hungary_ivan_hindy
+	traits = {  trickster }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Károly Beregfy" 
+	gfx = GFX_Portrait_hungary_karoly_beregfy
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Lajos Veress" 
+	gfx = GFX_Portrait_hungary_lajos_veress
+	traits = { panzer_leader }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Maléter Pál"
+	picture = "Portrait_Maleter_Pal.dds"
+	traits = { }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Vilmos Nagy de Nagybaczon"
+	picture = "Portrait_Vilmos_Nagybaczon.dds"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Béla Király"
+	picture = "Portrait_Bela_Kiraly.dds"
+	traits = { }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Gusztáv Hennyey"
+	picture = "Portrait_Gusztav_Hennyey.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "András Littay"
+	picture = "Portrait_Andras_Littay.dds"
+	traits = { }
+	skill = 1
+}

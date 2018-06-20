@@ -1,0 +1,187 @@
+##############
+#Indian Ideas#
+##############
+
+ideas = {
+
+	## India Ideas ##
+
+	country = {
+		
+		RAJ_poor_conditions = {
+			picture = FRA_scw_intervention_republicans_focus
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.15
+				political_power_gain = -0.1
+				consumer_goods_factor = -0.10
+			}
+		}
+
+		RAJ_improved_conditions = {
+			picture = FRA_scw_intervention_republicans_focus
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				political_power_gain = -0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		RAJ_colonial_administration = {
+			picture = generic_disjointed_gov
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_time_factor = 0.05
+				conscription_factor = -0.75
+			}
+		}
+		
+		RAJ_poor_training = {
+			picture = generic_manpower_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				training_time_army_factor = -0.25
+				army_org_Factor = -0.1
+				army_morale_factor = -0.1
+			}
+		}
+
+		RAJ_reconquest_campaign = {
+			picture = escort_effort_focus
+
+			removal_cost = -1
+	
+			modifier = {
+				amphibious_invasion = 0.10
+				invasion_preparation = -0.3
+			}
+		}
+
+		RAJ_exiled_government = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.1
+				conscription_factor = -0.15
+				war_support_factor = 0.20
+			}
+		}
+			
+		RAJ_full_reform = {
+			picture = HUN_treaty_of_triannon
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.10
+				stability_factor = 0.20
+				war_support_factor = 0.10
+				conscription_factor = -0.10
+			}
+		}
+
+		RAJ_partial_reform = {
+			picture = HUN_treaty_of_triannon
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.10
+				war_support_factor = 0.05
+				conscription_factor = -0.25
+			}
+		}
+
+		RAJ_bare_reform = {
+			picture = HUN_treaty_of_triannon
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				conscription_factor = -0.50	
+			}
+		}
+		
+		IND_indian_rebels = {
+			picture = FRA_scw_intervention_republicans_focus
+			allowed = {
+				original_tag = IND
+			}
+				
+			removal_cost = -1
+				
+			research_bonus = {
+				land_doctrine = -0.20
+			}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.20
+				army_org_Factor = -0.15
+			}
+		}
+		
+		IND_hindi_language = {
+			picture = HUN_treaty_of_triannon	
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.10
+			}
+		}
+		
+		IND_english_language = {
+			picture = HUN_treaty_of_triannon	
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.10
+			}
+		}
+
+		IND_mahatma_memories = {
+			picture = raj_quit_india_movement
+
+			removal_cost = -1
+
+
+			modifier = {
+				war_support_factor = 0.10
+				army_core_attack_factor = 0.05 
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		IND_provisional_rule = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.15
+				war_support_factor = -0.40
+				conscription_factor = -0.25
+				army_morale_factor = -0.05
+			}
+		}
+	}
+}

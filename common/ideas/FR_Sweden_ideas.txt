@@ -1,0 +1,2453 @@
+######################
+##   SWEDEN IDEAS   ##
+######################
+
+ideas = {
+
+    country = {
+
+		SWE_unbroken_neutrality_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = neutrality_idea
+			
+			#research_bonus = {
+			#	land_doctrine = 0.07
+			#}
+			
+			modifier = {
+				join_faction_tension = 1.00
+				justify_war_goal_time = 0.75
+			}
+		}
+		
+		SWE_political_wounds_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			
+			#research_bonus = {
+			#	land_doctrine = 0.07
+			#}
+			
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.15
+				drift_defence_factor = -0.35
+			}
+		}
+		
+		SWE_ban_radical_parties_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			
+			#research_bonus = {
+			#	land_doctrine = 0.07
+			#}
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.10
+				drift_defence_factor = -0.25
+			}
+		}
+		
+		SWE_effect_london_crash_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = great_depression
+			
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.25
+				production_speed_buildings_factor = -0.35
+				industrial_capacity_factory = -0.35
+				industrial_capacity_dockyard = -0.25
+				trade_opinion_factor = -0.15
+				social_conservative_drift = -0.01
+			}
+		}
+		
+		SWE_reopen_international_trade_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = great_depression
+			
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.25
+				production_speed_buildings_factor = -0.35
+				industrial_capacity_factory = -0.35
+				industrial_capacity_dockyard = -0.25
+				social_conservative_drift = -0.01
+			}
+		}
+		
+		SWE_maternity_leave_child_welfare_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = ROM_king_carol_ii_hedonist
+			
+			modifier = {
+				stability_factor = 0.02
+				consumer_goods_factor = 0.10
+				MONTHLY_POPULATION = 0.20
+				industrial_capacity_factory = -0.05
+			}
+		}
+		
+		SWE_treasure_sold_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_foreign_capital
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		## Focus Tree ##
+		
+		SWE_folk_arme_doctrine_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				conscription = 0.005
+				army_org_Factor = -0.05
+			}
+		}
+		
+		SWE_train_general_staff_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				conscription = 0.005
+				army_org_Factor = -0.05
+				max_planning = 0.05
+				planning_speed = 0.05
+			}
+		}
+		
+		SWE_eldkraft_doctrine_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_artillery_regiments
+			
+			modifier = {
+				army_artillery_attack_factor = 0.06
+				army_artillery_defence_factor = 0.06
+				army_infantry_attack_factor = 0.03
+				army_infantry_defence_factor = 0.03
+			}
+		}
+		
+		SWE_stridsvagn_doctrine_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = FRA_motorized_focus
+			
+			modifier = {
+				army_armor_attack_factor = 0.08
+				army_armor_defence_factor = 0.07
+				army_speed_factor = 0.05
+			}
+		}
+		
+		SWE_solitify_control_baltic_sea_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = idea_generic_navy
+			
+			modifier = {
+				navy_max_range_factor = 0.10
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+			}
+		}
+		
+		SWE_solitify_control_under_baltic_sea_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = idea_generic_navy
+			
+			modifier = {
+				navy_submarine_detection_factor = 0.10
+				navy_submarine_attack_factor = 0.10
+				navy_submarine_defence_factor = 0.10
+			}
+		}
+		
+		SWE_introduce_rations_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		SWE_expand_lottorna_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.01
+				training_time_factor = 0.10
+			}
+		}
+		
+		SWE_establish_homeguard_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		
+		SWE_in_defence_of_sweden_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.02
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.10
+				production_speed_bunker_factor = 0.05
+			}
+		}
+		
+		## Political Focus Ideas ##
+		
+		SWE_increase_farmer_quotas_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = economic_control_icon
+			
+			modifier = {
+				consumer_goods_factor = 0.04
+				local_resources_factor = 0.10
+				min_export = -0.05
+			}
+		}
+		
+		SWE_welfare_administration_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = economic_control_icon
+			
+			modifier = {
+				consumer_goods_factor = 0.08
+				local_resources_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				min_export = -0.05
+			}
+		}
+		
+		SWE_build_up_welfare_state_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_morale_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				local_resources_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				min_export = -0.05
+			}
+		}
+		
+		SWE_offer_free_education_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_morale_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				local_resources_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				min_export = -0.05
+				research_time_factor = -0.03
+			}
+		}
+		
+		SWE_women_in_workforce_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = IRE_wind
+			
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = 0.25
+				industrial_capacity_factory = 0.10
+			}
+		}
+		
+		SWE_import_ukrainian_corn_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = SOV_bread
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				drift_defence_factor = -0.10
+			}
+		}
+		
+		SWE_passport_idea = {
+
+			allowed = {
+				OR = {
+					original_tag = SWE
+					original_tag = NOR
+					original_tag = DEN
+					original_tag = FIN
+				}
+			}
+			
+			removal_cost = -1
+			picture = generic_constitutional_guarantees
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				MONTHLY_POPULATION = 0.05
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		
+		SWE_support_christian_education_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_morale_bonus
+			
+			modifier = {
+				conscription_factor = 0.15
+				army_morale_factor = 0.05
+				research_time_factor = 0.02
+			}
+		}
+		
+		SWE_cut_oversea_aid_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				min_export = -0.20
+			}
+		}
+		
+		SWE_higher_taxes_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				min_export = -0.20
+				political_power_factor = 0.05
+				stability_factor = -0.05
+			}
+		}
+		
+		SWE_crisis_rations_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.02
+			}
+		}
+		
+		SWE_radical_angry_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = idea_chi_war_of_resistance2
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.10
+			}
+		}
+		
+		SWE_swedish_democracy_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				social_democrat_drift = 0.02
+				social_liberal_drift = 0.01
+				market_liberal_drift = 0.01
+				social_conservative_drift = 0.02
+			}
+		}
+		
+		## Far-Right ##
+		
+		SWE_ensure_corporate_support_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = state_economy
+			
+			modifier = {
+				authoritarian_democrat_drift = 0.01
+				paternal_autocrat_drift = 0.01
+				national_populist_drift = 0.01
+			}
+		}
+		
+		SWE_establish_arbeidsplikt_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_bunker_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.10
+			}
+		}
+		
+		SWE_force_socialists_to_work_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_bunker_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.10
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.10
+			}
+		}
+		
+		SWE_agreements_with_corperations_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = state_economy
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_factor = -0.10
+			}
+		}
+		
+		SWE_make_welfare_cuts_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.10
+				MONTHLY_POPULATION = -0.10
+			}
+		}
+		
+		SWE_cut_oversea_imports_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				stability_factor = -0.05
+				MONTHLY_POPULATION = -0.10
+				min_export = -0.25
+			}
+		}
+		
+		SWE_strenghten_monarchs_power_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_intel_bonus
+			
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+		
+		SWE_indoctrinate_love_for_king_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_intel_bonus
+			
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.10
+			}
+		}
+		
+		SWE_indoctrinate_love_for_nation_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = ast_abandon_the_westminster_system_fascism
+			
+			modifier = {
+				stability_factor = 0.10
+			}
+		}
+		
+		SWE_lit_swedish_nationalism_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = ast_abandon_the_westminster_system_fascism
+			
+			modifier = {
+				stability_factor = 0.15
+				conscription_factor = 0.10
+			}
+		}
+		
+		SWE_national_plan_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		SWE_support_swedish_farmers_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_agrarian_society
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.10
+			}
+		}
+		
+		SWE_we_can_feed_ourself_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_agrarian_society
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				local_resources_factor = 0.10
+				min_export = -0.05
+			}
+		}
+		
+		SWE_sweden_prosperous_again_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = ast_all_in
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				production_speed_arms_factory_factor = 0.15
+				industrial_capacity_factory = 0.10
+				local_resources_factor = 0.10
+				min_export = -0.05
+			}
+		}
+		
+		SWE_mothers_of_our_nation_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = FRA_army_of_aggression_focus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				MONTHLY_POPULATION = 0.40
+			}
+		}
+		
+		SWE_bear_sons_of_war_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = FRA_army_of_aggression_focus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				MONTHLY_POPULATION = 0.40
+				conscription = 0.015
+			}
+		}
+		
+		SWE_preach_of_our_promiced_land_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = FRA_national_mobilization_focus
+			
+			modifier = {
+				army_core_attack_factor = 0.15
+				army_attack_factor = 0.10
+			}
+		}
+		
+		SWE_love_your_nation_as_yourself_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = FRA_national_mobilization_focus
+			
+			modifier = {
+				army_core_defence_factor = 0.15
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		SWE_sweden_strong_again_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = FRA_army_of_aggression_focus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				MONTHLY_POPULATION = 0.40
+				conscription = 0.015
+				army_attack_factor = 0.10
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		SWE_rekindled_imperialism_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				join_faction_tension = -0.45
+				justify_war_goal_time = -0.45
+			}
+		}
+		
+		SWE_civil_war_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = chi_war_of_resistance3
+			
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.15
+				conscription_factor = -0.25
+				production_speed_buildings_factor = -0.60
+			}
+		}
+		
+		## Socialist Focus Tree ##
+		
+		SWE_worker_controlled_industries_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = economic_control_icon
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		
+		SWE_continued_worker_control_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = economic_control_icon
+			
+			modifier = {
+				consumer_goods_factor = 0.07
+				production_factory_efficiency_gain_factor = 0.10
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		SWE_trade_agreements_with_soviet_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_deal_with_the_devil
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		
+		SWE_decentralize_parliamentary_power_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = IRE_atheist
+			
+			modifier = {
+				political_power_factor = -0.10
+				stability_factor = 0.05
+			}
+		}
+		
+		SWE_socialist_welfare_state_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = UK_economy_syn_idea
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor = 0.03
+			}
+		}
+		
+		SWE_improved_worker_conditions_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		SWE_for_workers_and_farmers_alike_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				local_resources_factor = 0.05
+			}
+		}
+		
+		SWE_war_on_unemployment_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				stability_factor = 0.03
+				conscription_factor = 0.05
+				MONTHLY_POPULATION = 0.10
+			}
+		}
+		
+		SWE_socialist_security_police_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+			
+			removal_cost = -1
+			picture = generic_secret_police
+			
+			modifier = {
+				political_power_factor = 0.05
+				vanguardist_drift = 0.02
+				collectivist_drift = 0.02
+			}
+		}
+		
+		SWE_swedish_red_army_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = chi_army_corruption3
+			
+			modifier = {
+				conscription = 0.01
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		
+		SWE_for_new_sweden_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = triumphant_will
+			
+			modifier = {
+				conscription_factor = 0.35
+				army_core_defence_factor = 0.10
+				stability_factor = 0.05
+				war_support_factor = 0.10
+			}
+		}
+		
+		SWE_state_for_people_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = generic_volunteer_expedition_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				MONTHLY_POPULATION = 0.10
+				political_power_factor = -0.10
+			}
+		}
+		
+		SWE_dictatorial_revolution_idea = {
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			picture = nkvd_2
+			
+			modifier = {
+				conscription = 0.01
+				political_power_factor = 0.10
+				MONTHLY_POPULATION = -0.05
+			}
+		}
+	}
+	
+	### MINISTERS of SWEDEN ###
+	
+	head_of_government = {
+		SWE_Hilding_Hagberg_hog_van = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = SWE_Hilding_Hagberg_dead}
+			}
+			traits = {
+				head_of_government
+				vanguardist
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Sven_Olov_Lindholm_hog_van = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = SWE_Sven_Olov_Lindholm_dead}
+				has_completed_focus = SWE_attract_valkist_symphantizers
+			}
+			traits = {
+				head_of_government
+				vanguardist
+				hog_reformist_soldier
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Sven_Linderot_hog_col = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Sven_Linderot_dead}
+			}
+			traits = {
+				head_of_government
+				collectivist
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Zeth_Hoglund_hog_col = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Zeth_Hoglund_dead}
+			}
+			traits = {
+				head_of_government
+				collectivist
+				hog_pragmatic_statesman
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Nils_Flyg_hog_lso = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = SWE_Nils_Flyg_dead}
+			}
+			traits = {
+				head_of_government
+				libertarian_socialist
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Karl_Kilbom_hog_lso = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = SWE_Karl_Kilbom_dead}
+			}
+			traits = {
+				head_of_government
+				libertarian_socialist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Per_Albin_Hansson_hog_sde = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Per_Albin_Hansson_dead}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Tage_Erlander_hog_sde = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Tage_Erlander_dead}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_political_protege
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Axel_Pehrsson_Bramstorp_hog_sli = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Axel_Pehrsson_Bramstorp_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Gunnar_Hedlund_hog_sli = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Gunnar_Hedlund_dead}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_pragmatic_statesman
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Bertil_Ohlin_hog_mli = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Bertil_Ohlin_dead}
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_corporate_suit
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Gustaf_Andersson_hog_mli = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Gustaf_Andersson_dead}
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Arvid_Lindman_hog_sco = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Arvid_Lindman_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_pragmatic_statesman
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Goesta_Bagge_hog_sco = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Goesta_Bagge_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_smiling_oilman
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Fritiof_Domo_hog_sco = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Fritiof_Domo_dead}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_naive_optimist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Elmo_Lindholm_hog_ade = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Elmo_Lindholm_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_political_protege
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Sven_Hedin_hog_ade = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Sven_Hedin_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Alf_Meyerhoffer_hog_pau = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Alf_Meyerhoffer_dead}
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_reformist_soldier
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Ivar_Rhedin_hog_pau = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Ivar_Rhedin_dead}
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_spiritual_leader
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Axel_Rappe_hog_pau = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Axel_Rappe_dead}
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_old_general
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Per_Engdahl_hog_npo = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = SWE_Per_Engdahl_dead}
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_determined_populist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Martin_Ekstroem_hog_npo = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = SWE_Martin_Ekstroem_dead}
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_naive_optimist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Sven_Olov_Lindholm_hog_val = {
+			allowed = {original_tag = SWE}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				valkist_allowed = yes
+				NOT = {has_country_flag = SWE_Sven_Olov_Lindholm_dead}
+			}
+			traits = {
+				head_of_government
+				valkist
+				hog_reformist_soldier
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	foreign_minister = {
+		SWE_Hilding_Hagberg_for_van = {
+			allowed = {original_tag = SWE}
+			visible = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = SWE_Hilding_Hagberg_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Hugo_Sillen_for_van = {
+			allowed = {original_tag = SWE}
+			visible = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = SWE_Hugo_Sillen_dead}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Fredrik_Stroem_for_col = {
+			allowed = {original_tag = SWE}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Fredrik_Stroem_dead}
+			}
+			traits = {
+				foreign_minister
+				collectivist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Ture_Nerman_for_col = {
+			allowed = {original_tag = SWE}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Ture_Nerman_dead}
+			}
+			traits = {
+				foreign_minister
+				collectivist
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Albin_Stroem_for_lso = {
+			allowed = {original_tag = SWE}
+			visible = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = SWE_Albin_Stroem_dead}
+			}
+			traits = {
+				foreign_minister
+				libertarian_socialist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Albert_Jensen_for_lso = {
+			allowed = {original_tag = SWE}
+			visible = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = SWE_Albert_Jensen_dead}
+			}
+			traits = {
+				foreign_minister
+				libertarian_socialist
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Oesten_Unden_for_sde = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Oesten_Unden_dead}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Richard_Sandler_for_sde = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Richard_Sandler_dead}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Karl_Gustaf_Westman_for_sli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Karl_Gustaf_Westman_dead}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Arthur_Heiding_for_sli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Richard_Sandler_dead}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_relations_expert
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Fredrik_Ramel_for_mli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Richard_Sandler_dead}
+			}
+			traits = {
+				foreign_minister
+				market_liberal
+				for_hawkish_intervener
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Gustaf_Andersson_for_mli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Gustaf_Andersson_dead}
+			}
+			traits = {
+				foreign_minister
+				market_liberal
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Ernst_Trygger_for_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Ernst_Trygger_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_relations_expert
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Christian_Guenther_for_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Christian_Guenther_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Theodor_Borell_for_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Theodor_Borell_dead}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Harald_Malmberg_for_ade = {
+			allowed = {original_tag = SWE}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Harald_Malmberg_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_general_staffer
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Sven_Wijkman_for_ade = {
+			allowed = {original_tag = SWE}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Sven_Wijkman_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_hawkish_intervener
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Carl_August_Ehrensvard_for_pau = {
+			allowed = {original_tag = SWE}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Carl_August_Ehrensvard_dead}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_general_staffer
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Folke_Bernadotte_for_pau = {
+			allowed = {original_tag = SWE}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Folke_Bernadotte_dead}
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Martin_Ekstroem_for_npo = {
+			allowed = {original_tag = SWE}
+			visible = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = SWE_Martin_Ekstroem_dead}
+			}
+			traits = {
+				foreign_minister
+				national_populist
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Erik_von_Rosen_for_val = {
+			allowed = {original_tag = SWE}
+			visible = {
+				valkist_allowed = yes
+				NOT = {has_country_flag = SWE_Erik_von_Rosen_dead}
+			}
+			traits = {
+				foreign_minister
+				valkist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	economy_minister = {
+		SWE_Knut_Olsson_eco_van = {
+			allowed = {original_tag = SWE}
+			visible = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = SWE_Knut_Olsson_dead}
+			}
+			traits = {
+				economy_minister
+				vanguardist
+				eco_infantry_proponent
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Set_Persson_eco_col = {
+			allowed = {original_tag = SWE}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Set_Persson_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_administrative_genius
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Carl_Lindhagen_eco_col = {
+			allowed = {original_tag = SWE}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Carl_Lindhagen_dead}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_imbedded_unioneer
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Gustav_Sjoestroem_eco_lso = {
+			allowed = {original_tag = SWE}
+			visible = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = SWE_Gustav_Sjoestroem_dead}
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_planned_economy_proponent
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Arvid_Olsson_eco_lso = {
+			allowed = {original_tag = SWE}
+			visible = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = SWE_Arvid_Olsson_dead}
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_imbedded_unioneer
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Ernst_Wigforss_eco_sde = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Ernst_Wigforss_dead}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_planned_economy_proponent
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Per_Edvin_Skold_eco_sde = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Per_Edvin_Skold_dead}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_administrative_genius
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Vilmar_Ljungdahl_eco_sli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Vilmar_Ljungdahl_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Sam_B_Norup_eco_sli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Sam_B_Norup_dead}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_national_liberal
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Ernst_Lyberg_eco_mli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Ernst_Lyberg_dead}
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_reformer
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Carl_Gustaf_Ekman_eco_mli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Carl_Gustaf_Ekman_dead}
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_industrialiser
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Nils_Wohlin_eco_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Nils_Wohlin_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_industrial_chemist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Thorsten_Ericson_eco_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Thorsten_Ericson_dead}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_railway_magnate
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Arthur_Linden_eco_ade = {
+			allowed = {original_tag = SWE}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Arthur_Linden_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Ivar_Anderson_eco_ade = {
+			allowed = {original_tag = SWE}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Ivar_Anderson_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_balanced_budget_economy
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Arne_Forssell_eco_pau = {
+			allowed = {original_tag = SWE}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Arne_Forssell_dead}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_national_liberal
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Marcus_Wallenberg_eco_pau = {
+			allowed = {original_tag = SWE}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Marcus_Wallenberg_dead}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_bank_president
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Birger_Furugard_eco_npo = {
+			allowed = {original_tag = SWE}
+			visible = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = SWE_Per_Edvin_Skold_dead}
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_infantry_proponent
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Carl_Ernfrid_Carlberg_eco_npo = {
+			allowed = {original_tag = SWE}
+			visible = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = SWE_Per_Edvin_Skold_dead}
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_reformer
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	security_minister = {
+		SWE_Gustav_Johansson_sec_van = {
+			allowed = {original_tag = SWE}
+			visible = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = SWE_Gustav_Johansson_dead}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_crooked_kleptocrat
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Knut_Senander_sec_van = {
+			allowed = {original_tag = SWE}
+			visible = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = SWE_Knut_Senander_dead}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_driven_recruiter
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Gunnar_Oehman_sec_col = {
+			allowed = {original_tag = SWE}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Gunnar_Oehman_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_regionalist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Solveig_Roenn_Christiansson_sec_col = {
+			allowed = {original_tag = SWE}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Solveig_Roenn_Christiansson_dead}
+			}
+			traits = {
+				security_minister
+				collectivist
+				sec_health_and_safety
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Hinke_Bergegren_sec_lso = {
+			allowed = {original_tag = SWE}
+			visible = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = SWE_Hinke_Bergegren_dead}
+			}
+			traits = {
+				security_minister
+				libertarian_socialist
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Karl_Kilbom_sec_lso = {
+			allowed = {original_tag = SWE}
+			visible = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = SWE_Karl_Kilbom_dead}
+			}
+			traits = {
+				security_minister
+				libertarian_socialist
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Ivar_Vennerstroem_sec_sde = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Ivar_Vennerstroem_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_regionalist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Karl_Schlyter_sec_sde = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Karl_Schlyter_dead}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_health_and_safety
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Janne_Nilsson_sec_sli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Janne_Nilsson_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_regionalist
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Karl_Gustaf_Westman_sec_sli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Karl_Gustaf_Westman_dead}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Thorwald_Bergquist_sec_mli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Thorwald_Bergquist_dead}
+			}
+			traits = {
+				security_minister
+				market_liberal
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Natanael_Gaerde_sec_mli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Natanael_Gaerde_dead}
+			}
+			traits = {
+				security_minister
+				market_liberal
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Harald_Malmberg_sec_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Harald_Malmberg_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_driven_recruiter
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_August_Beskow_sec_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_August_Beskow_dead}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Carlos_Adlercreutz_sec_ade = {
+			allowed = {original_tag = SWE}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Carlos_Adlercreutz_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_secret_police_chief
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Claes_Lindskog_sec_ade = {
+			allowed = {original_tag = SWE}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Claes_Lindskog_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Gustaf_Nyblaeus_sec_pau = {
+			allowed = {original_tag = SWE}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Gustaf_Nyblaeus_dead}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Prince_Gustaf_Adolf_sec_pau = {
+			allowed = {original_tag = SWE}
+			visible = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = SWE_Prince_Gustaf_Adolf_dead}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_preserver_of_culture
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Konrad_Hallgren_sec_npo = {
+			allowed = {original_tag = SWE}
+			visible = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = SWE_Konrad_Hallgren_dead}
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Johnny_Bode_sec_npo = {
+			allowed = {original_tag = SWE}
+			visible = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = SWE_Johnny_Bode_dead}
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_media_magnate
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Hans_Goesta_Pehrsson_sec_val = {
+			allowed = {original_tag = SWE}
+			visible = {
+				valkist_allowed = yes
+				NOT = {has_country_flag = SWE_Hans_Goesta_Pehrsson_dead}
+			}
+			traits = {
+				security_minister
+				valkist
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	### MILITARY MINISTERS OF SWEDEN ###
+	
+	chief_of_staff = {
+		SWE_Sven_Olov_Lindholm_cos_van = {
+			allowed = {original_tag = SWE}
+			visible = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = SWE_Sven_Olov_Lindholm_dead}
+				has_completed_focus = SWE_attract_valkist_symphantizers
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Anton_Nilson_cos_col = {
+			allowed = {original_tag = SWE}
+			visible = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = SWE_Anton_Nilson_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_commando_operations
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Ernst_af_Klercker_cos_mli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Ernst_af_Klercker_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Per_Sylvan_cos_mli = {
+			allowed = {original_tag = SWE}
+			visible = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = SWE_Per_Sylvan_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_fire_support
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Olof_Thoernell_cos_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Olof_Thoernell_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Oscar_Nygren_cos_sco = {
+			allowed = {original_tag = SWE}
+			visible = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = SWE_Oscar_Nygren_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Axel_Rappe_cos_ade = {
+			allowed = {original_tag = SWE}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Axel_Rappe_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_fire_support
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Carl_August_Ehrensvaerd_cos_ade = {
+			allowed = {original_tag = SWE}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = SWE_Carl_August_Ehrensvaerd_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Martin_Ekstroem_cos_npo = {
+			allowed = {original_tag = SWE}
+			visible = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = SWE_Martin_Ekstroem_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = no
+		}
+		
+		SWE_Sven_Olov_Lindholm_cos_val = {
+			allowed = {original_tag = SWE}
+			visible = {
+				valkist_allowed = yes
+				NOT = {has_country_flag = SWE_Sven_Olov_Lindholm_dead}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = no
+		}
+	}
+}

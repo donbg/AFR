@@ -1,0 +1,184 @@
+﻿capital = 500
+
+add_ideas = {
+	limited_conscription
+	BRA_political_instability
+	GEN_Francesco_Esposito_hog_mli
+	GEN_Antonello_D_Angelo_for_mli
+	GEN_Eros_Berna_eco_mli
+	GEN_Fleano_Carideo_sec_mli
+}
+oob = "BRA_1936"
+set_research_slots = 3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+set_politics = {
+
+	parties = {
+		social_conservative = { 
+			popularity = 10
+		}
+		market_liberal = { 
+			popularity = 30
+		}
+		paternal_autocrat = {
+			popularity = 20
+		}
+		valkist = {
+			popularity = 5
+		}		
+		collectivist = {
+			popularity = 25
+		}
+		libertarian_socialist = {
+			popularity = 5
+		}		
+
+		authoritarian_democrat = { 
+			popularity = 5
+		}
+	}
+	
+	ruling_party = market_liberal
+	last_election = "1934.7.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Plinio Correa"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "PlinioCorrea.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustavo Dodt Barroso"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "GustavoBarroso.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Getulio Vargas"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "Vargas.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Plínio Salgado"
+	desc = "POLITICS_PLINIO_SALGADO_DESC"
+	picture = "Portrait_Brazil_Plinio_Salgado.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Luís Carlos Prestes"
+	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
+	picture = "Luis_Prestes.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Armando Salles"
+	desc = "POLITICS_ARMANDO_SALES_DESC"
+	picture = "ArmandoSalles.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+set_convoys = 40
+set_stability = 0.30
+set_war_support = 0.76
+
+create_corps_commander = {
+	name = "Eurico Gaspar Dutra"
+	portrait_path = "gfx/leaders/BRA/BRA_Erico_Gaspar_Dutra.dds"
+	traits = { 	
+	infantry_officer
+	harsh_leader
+	offensive_doctrine  
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Euclides Figueiredo"
+	portrait_path = "gfx/leaders/BRA/EuclidesFigueiredo.dds"
+	traits = {  politically_connected
+		media_personality
+		hill_fighter }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Palimércio de Rezende"
+	portrait_path = "gfx/leaders/BRA/BRA_Palimerico_Rezende.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Mascarenhas de Morais"
+	portrait_path = "gfx/leaders/BRA/BRA_Mascarenhas_Morais.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_navy_leader = {
+	name = "Isaías de Noronha"
+	portrait_path = "gfx/leaders/BRA/BRA_Isaias_Noronha.dds"
+	traits = {  }
+	skill = 3
+}

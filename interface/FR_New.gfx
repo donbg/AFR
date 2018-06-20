@@ -1,0 +1,38 @@
+#This file is deprecated; it only exists to store old event pictures that were made before the photoshop script was a thing.
+#If you need to add new event pics, please do so using the photoshop script, and add them to the eventpics.gfx file.
+
+spriteTypes = {
+
+	spriteType = {
+		name = "venice_biennale"
+		texturefile = "gfx/event_pictures/fr_new/venice_biennale.dds"
+	}
+	spriteType = {
+		name = "italo_chiarman"
+		texturefile = "gfx/event_pictures/fr_new/italo_chiarman.dds"
+	}
+	spriteType = {
+		name = "facist_council"
+		texturefile = "gfx/event_pictures/fr_new/facist_council.dds"
+	}
+	spriteType = {
+		name = "Biennale_1"
+		texturefile = "gfx/event_pictures/fr_new/Biennale_1.dds"
+	}
+	spriteType = {
+		name = "Biennale_2"
+		texturefile = "gfx/event_pictures/fr_new/Biennale_2.dds"
+	}
+	spriteType = {
+		name = "omar_captured"
+		texturefile = "gfx/event_pictures/fr_new/omar_captured.dds"
+	}
+	spriteType = {
+		name = "omar_trial"
+		texturefile = "gfx/event_pictures/fr_new/omar_trial.dds"
+	}
+	spriteType = {
+		name = "TST_event"
+		texturefile = "gfx/event_pictures/fr_new/TST_event.dds"
+	}
+}

@@ -1,0 +1,118 @@
+﻿capital = 539
+
+oob = "NFQ"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	transport = 1
+	electronic_mechanical_engineering = 1
+}
+
+set_convoys = 75
+set_stability = 0.59
+set_war_support = 0.51
+
+add_ideas = {
+	VIN_rural_nation
+	NFQ_colonial_unrest
+	GEN_Louis_Martin_hog_sde
+	GEN_Charles_Granet_for_sde
+	GEN_Adam_Duret_eco_sde
+	GEN_Robin_Trudeau_sec_sde
+}
+
+set_cosmetic_tag = NFQ_FRA
+
+set_country_flag = sphered
+set_country_flag = sphere_1_by_FRA
+set_country_flag = sphere_2_by_FRA
+set_country_flag = sphere_3_by_FRA
+add_ideas = sphered_idea_4
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 3
+		}
+		libertarian_socialist = {
+			popularity = 4
+		}
+		social_democrat = {
+			popularity = 41
+		}
+		social_liberal = {
+			popularity = 25
+		}
+		market_liberal = {
+			popularity = 9
+		}
+		social_conservative = {
+			popularity = 15
+		}
+		authoritarian_democrat = {
+			popularity = 1
+		}
+		paternal_autocrat = {
+			popularity = 2
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+add_ideas = {
+	#
+}
+
+create_country_leader = {
+	name = "Félix Éboué"
+	desc = "POLITICS_EBOUE_DESC"
+	picture = "Portrait_NFQ_Felix_Eboue.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+	
+}
+
+create_corps_commander = {
+	name = "Paul Aussaresses"
+	picture = "Portrait_France_Generic_land_1.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 5
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}

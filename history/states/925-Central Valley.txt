@@ -1,0 +1,23 @@
+
+state={
+	id=925
+	name="STATE_925"
+	manpower = 403248
+	
+	state_category = town
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			9713 1
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		9713 6876 6699 6694 9697 768
+	}
+}

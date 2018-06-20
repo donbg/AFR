@@ -1,0 +1,24 @@
+state={
+	id=854
+	name="STATE_854"
+
+	history={
+		owner = SPA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SPA
+		add_claim_by = SPR
+		add_claim_by = SPM
+		add_claim_by = SPF
+
+	}
+
+	provinces={
+		3898 3899 
+	}
+	manpower=2030
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,115 @@
+#MASS ASSAULT OOB FOR FRANCE
+division_template = {
+	name = "Division d'Réserviste"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division= {	
+		name = "1er Réserviste Division"
+		location = 11506
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "2ème Réserviste Division"
+		location = 11506
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "3ème Réserviste Division"
+		location = 11506
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "4ème Réserviste Division"
+		location = 11506
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "5ème Réserviste Division"
+		location = 11506
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "6ème Réserviste Division"
+		location = 9642
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "7ème Réserviste Division"
+		location = 11516
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "8ème Réserviste Division"
+		location = 5291
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "9ème Réserviste Division"
+		location = 11502
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "10ème Réserviste Division"
+		location = 11502
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "11ème Réserviste Division"
+		location = 13011
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "12ème Réserviste Division"
+		location = 3533
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "13ème Réserviste Division"
+		location = 9658
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "14ème Réserviste Division"
+		location = 9490
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "15ème Réserviste Division"
+		location = 620
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+	division= {	
+		name = "16ème Réserviste Division"
+		location = 3671
+		division_template = "Division d'Réserviste" 
+		start_experience_factor = 0
+	}
+}

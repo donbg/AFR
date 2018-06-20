@@ -1,0 +1,380 @@
+﻿capital = 276
+
+oob = "CAN"
+
+set_research_slots = 3
+set_country_flag = monroe_doctrine
+set_country_flag = NO_GENERIC_STABILITY_DECISIONS
+set_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+set_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+ 	basic_light_tank = 1
+ 	#basic_heavy_tank = 1
+	gw_artillery = 1
+	gwtank = 1
+	motorised_infantry = 1
+
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	transport = 1
+
+	electronic_mechanical_engineering = 1
+}
+
+set_country_flag = sphered
+set_country_flag = sphere_1_by_ENG
+set_country_flag = sphere_2_by_ENG
+set_country_flag = sphere_3_by_ENG
+add_ideas = sphered_idea_1
+
+add_political_power = -52
+set_convoys = 100
+set_stability = 0.6
+set_war_support = 0.40
+
+add_ideas = {
+	CAN_red_tories
+	CAN_canadian_corps
+	CAN_anglo_french_tension
+	CAN_east_west_divide
+	high_popularity
+	CAN_rb_bennett_hog
+	CAN_lester_b_pearson_for
+	CAN_edgar_nelson_rhodes_eco
+	CAN_hugh_guthrie_sec
+	}
+
+if = { 
+	limit = { NOT = { has_dlc = "Together for Victory" } }
+	set_cosmetic_tag = CAN_ALY
+}
+if = {
+	limit = { has_dlc = "Together for Victory" }
+	set_cosmetic_tag = CAN_UK
+	#add_to_tech_sharing_group = commonwealth_research
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 1
+		}
+		libertarian_socialist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 14
+		}
+		social_liberal = {
+			popularity = 3
+		}
+		market_liberal = {
+			popularity = 5
+		}
+		social_conservative = {
+			popularity = 60
+		}
+		authoritarian_democrat = {
+			popularity = 1
+		}
+		paternal_autocrat = {
+			popularity = 1
+		}
+		national_populist = {
+			popularity = 14
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+
+
+	ruling_party = social_conservative
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tim Buck" #His name is buck, an he likes to...
+	desc = "POLITICS_TIM_BUCC_DESC"
+	picture = "Portrait_Tim_Buck.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "JS Salsburg"
+	desc = "POLITICS_SALSBURG_DESC"
+	picture = "Portrait_JS_Salsburg.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George Armstrong"
+	desc = "POLITICS_GEORGE_ARMSTRONG_DESC"
+	picture = "Portrait_George_Armstrong.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Tweedsmuir"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_John_Bucan.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Tweedsmuir"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_John_Bucan.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Tweedsmuir"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_John_Bucan.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Tweedsmuir"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_John_Bucan.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Tweedsmuir"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_John_Bucan.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Tweedsmuir"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_John_Bucan.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lord Tweedsmuir"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_John_Bucan.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Ross Taylor"
+	desc = "POLITICS_JOHN_ROSS_TAYLOR_DESC"
+	picture = "Portrait_John_Ross_Taylor.tga"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+#GENERALS
+
+create_field_marshal = {
+	name = "Andrew McNaughton"
+	desc = "CAN_Gen_McNaughton_DESC"
+	picture = "Portrait_Andrew_McNaughton.tga"
+	traits = { 
+		logistics_wizard
+		armor_officer
+		trait_reckless
+	}
+	skill = 3
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Arthur Currie"
+	desc = "CAN_Gen_Currie_DESC"
+	picture = "Portrait_Arthur_Currie.tga"
+	traits = { 
+		brilliant_strategist
+		offensive_doctrine
+		war_hero
+		infantry_officer
+		infantry_leader
+	}
+	skill = 4
+	attack_skill = 5
+    defense_skill = 2
+    planning_skill = 5
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Charles Foulkes"
+	desc = "CAN_Gen_Foulkes_DESC"
+	picture = "Portrait_Charles_Foulkes.tga" #gfx = "GFX_CAN_charles_foulkes" < This is the vanilla one.
+	traits = { 
+		career_officer
+		infantry_officer
+		trait_engineer
+		organizer
+	}
+	skill = 2
+	attack_skill = 3
+    defense_skill = 5
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Harry Crerar"
+	desc = "CAN_Gen_Crerar_DESC"
+	picture = "Portrait_Harry_Crerar.tga"
+	traits = { 
+		inflexible_strategist
+		old_guard
+		trait_cautious
+	}
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Guy Simonds"
+	desc = "CAN_Gen_Simonds_DESC"
+	picture = "Portrait_Guy_Simonds.tga"
+	traits = {
+		#career_officer
+		cavalry_officer
+		trickster
+		winter_specialist
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Bert Hoffmeister"
+	desc = "CAN_Gen_Hoffmeister_DESC"
+	gfx = "GFX_CAN_bert_hoffmeister"
+	traits = {
+		career_officer
+		infantry_officer
+		hill_fighter
+	}
+	skill = 2
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Leonard W. Murray"
+	gfx = "GFX_CAN_leonard_warren_murray"
+	traits = { 
+		#
+	}
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "H.T. Baillie-Grohman"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { spotter }
+	skill = 4
+}
+create_navy_leader = {
+	name = "James D. Prentice"
+	gfx = "GFX_CAN_james_prentice"
+	traits = { spotter }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Harry DeWolf"
+	gfx = "GFX_CAN_harry_dewolf"
+	traits = { superior_tactician }
+	skill = 4
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Sanguenay Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}

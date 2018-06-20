@@ -1,0 +1,165 @@
+﻿division_template = {
+	name = "Soldados Nacionalistas"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}	
+}
+
+division_template = {# Patriotic Infantry Section
+	name = "Sección de Infantería Patriótica"					
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	division= {	
+		name = "Extremadura Milícia Nacional"
+		location = 9877
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "1a Sección de Infantería Patriótica"
+		location = 918
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "2a Sección de Infantería Patriótica"
+		location = 4024
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "3a Sección de Infantería Patriótica"
+		location = 9815
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "4a Sección de Infantería Patriótica"
+		location = 6907
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "5a Sección de Infantería Patriótica"
+		location = 6907
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "6a Sección de Infantería Patriótica"
+		location = 918
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "7a Sección de Infantería Patriótica"
+		location = 4024
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "8a Sección de Infantería Patriótica"
+		location = 3920
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "9a Sección de Infantería Patriótica"
+		location = 6746
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "10a Sección de Infantería Patriótica"
+		location = 9699
+		division_template = "Sección de Infantería Patriótica"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "1a Soldados Nacionalistas"
+		location = 6746
+		division_template = "Soldados Nacionalistas"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "2a Soldados Nacionalistas"
+		location = 3920
+		division_template = "Soldados Nacionalistas"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "3a Soldados Nacionalistas"
+		location = 6746
+		division_template = "Soldados Nacionalistas"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "4a Soldados Nacionalistas"
+		location = 9699
+		division_template = "Soldados Nacionalistas"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "5a Soldados Nacionalistas"
+		location = 6749
+		division_template = "Soldados Nacionalistas"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "6a Soldados Nacionalistas"
+		location = 729
+		division_template = "Soldados Nacionalistas"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SPF"
+		}
+		requested_factories = 2
+		progress = 0.78
+		efficiency = 100
+	}
+}

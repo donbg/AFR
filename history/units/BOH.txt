@@ -1,0 +1,164 @@
+division_template = {
+	name = "Pesi Divize"
+	#Keep in mind, this is the FR-ified version of the CZE OOB. Division names are in Czech, this will have to be reworked into a language that fits the theme of Zapadoslavia
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Horská Divize"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Slavophile militia"
+
+	regiments = {
+		militia = { x = 0 y = 0 }	
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }	
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }	
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Rychlá Divize"	
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "4. Divize"
+		location = 11542  #Prague
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "12. Divize"
+		location = 9457
+		division_template = "Slavophile militia"
+	}
+	division = {
+		name = "16. Divize"
+		location = 421 #eastern sudetenland
+		division_template = "Horská Divize"
+		start_experience_factor = 0.2
+
+	}
+
+	division = {
+		name = "9. Divize"
+		location = 3514 # Lemko
+		division_template = "Slavophile militia"
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "15. Divize"
+		location =   #zaolzie
+		division_template = "Pesi Divize"
+
+	}
+	division = {
+		name = "22. Divize"
+		location = 6440 
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "18. Divize"
+		location = 9421
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2. Divize"
+		location = 11556
+		division_template = "Pesi Divize"
+	}
+
+	division = {
+		name = "15. Divize"
+		location = 583
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3. Divize"
+		location = 3462
+		division_template = "Pesi Divize"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5. Divize"
+		location = 6512
+		division_template = "Slavophile militia"
+	}
+	division = {
+		name = "21. Divize"
+		location = 3512
+		division_template = "Rychlá Divize"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "22. Divize"
+		location = 583
+		division_template = "Slavophile militia"
+	}
+	division = {
+		name = "23. Divize"
+		location = 3462
+		division_template = "Slavophile militia"
+	}
+}
+air_wings = {
+	9 = {
+		fighter_equipment_0 = {		# Avia B.534
+			owner = "BOH" 
+			amount = 92
+		}
+		CAS_equipment_1 =  {		# Aero A-101
+			owner = "BOH" 
+			amount = 24
+		}
+		tac_bomber_equipment_0 =  {	# Bloch MB.200
+			owner = "BOH" 
+			amount = 31
+		}
+	}
+}
+

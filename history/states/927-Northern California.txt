@@ -1,0 +1,24 @@
+
+state={
+	id=927
+	name="STATE_927"
+	manpower = 364000
+	
+	state_category = rural
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			610 = {
+			    naval_base = 1
+		    }
+		}
+		add_core_of = USA
+		
+	}
+
+	provinces={
+		610 781 3588 3644 4331 6482 6665 6681 6745 6757 6772 9730 10159 
+	}
+}

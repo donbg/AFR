@@ -1,0 +1,20 @@
+units = {
+	division= {	
+		name = "Yorkshire Royal Armoured"
+		location = 6103
+		division_template = "Royal Armoured Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "Aberdeen Armoured Cavalry"
+		location = 6103
+		division_template = "Royal Armoured Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "Royal Armoured Guardsmen"
+		location = 6103
+		division_template = "Royal Armoured Division"
+		start_experience_factor = 0.5
+	}
+}

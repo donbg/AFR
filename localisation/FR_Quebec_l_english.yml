@@ -1,0 +1,26 @@
+﻿l_english:
+
+#### Political Parties ####
+
+QUE_vanguardist_party:0 "FLQ"
+QUE_vanguardist_party_long:0 "Front de Libération du Québec"
+QUE_collectivist_party:0 "FLQ"
+QUE_collectivist_party_long:0 "Front de Libération du Québec" 
+QUE_libertarian_socialist_party:0 "Socialistes"
+QUE_libertarian_socialist_party_long:0 "Parti Socialiste du Québec"
+QUE_social_democrat_party:0 "PSDQ"
+QUE_social_democrat_party_long:0 "Parti Social Démocratique du Québec"
+QUE_social_liberal_party:0 "Libéraux"
+QUE_social_liberal_party_long:0 "Parti Républicain-Libéral"
+QUE_market_liberal_party:0 "Libéraux"
+QUE_market_liberal_party_long:0 "Parti Républicain-Libéral"
+QUE_social_conservative_party:0 "UN"
+QUE_social_conservative_party_long:0 "Union Nationale"
+QUE_authoritarian_democrat_party:0 "UN"
+QUE_authoritarian_democrat_party_long:0 "Union Nationale"
+QUE_paternal_autocrat_party:0 "UN"
+QUE_paternal_autocrat_party_long:0 "Union Nationale"
+QUE_national_populist_party:0 "Créditistes"
+QUE_national_populist_party_long:0 "Ralliement Créditiste"
+QUE_valkist_party:0 "Patriotes"
+QUE_valkist_party_long:0 "Parti Patriote"

@@ -1,0 +1,21 @@
+
+state={
+	id=920
+	name="STATE_920"
+	manpower = 72600
+	
+	
+	state_category = rural
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		2055 3875 3972 9908 12848 12893
+	}
+}

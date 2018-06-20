@@ -1,0 +1,188 @@
+﻿capital = 48
+
+oob = "INF"
+
+country_event = { id = bulgaria.1 days = 1}
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+}
+
+set_convoys = 30
+set_stability = 0.62
+set_war_support = 0.68
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 22
+		}
+		collectivist = {
+			popularity = 46
+		}
+		libertarian_socialist = {
+			popularity = 14
+		}
+		social_democrat = {
+			popularity = 10
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 8
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = collectivist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+    name = "Konstantin Muraviev"
+    desc = "POLITICS_KONSTANTIN_MURAVIEV_DESC"
+    picture = "gfx/leaders/BUL/Konstantin_Muraviev.dds"
+    expire = "1965.1.1"
+    ideology = collectivist_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Georgi Dimitrov"
+    desc = "POLITICS_GEORGI_DIMITROV_DESC"
+    picture = "fx/leaders/BUL/Portrait_Bulgaria_Georgi_Dimitrov.dds"
+    expire = "1965.1.1"
+    ideology = vanguardist_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Todor Zhivkov"
+    desc = "POLITICS_Todor_Zhivkov_DESC"
+    picture = "gfx/leaders/BUL/Todor_Zhivkov.dds"
+    expire = "1965.1.1"
+    ideology = libertarian_socialist_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Vasil Kolarov"
+    desc = "POLITICS_VASIL_KOLAROV_DESC"
+    picture = "gfx/leaders/BUL/Vasil_Kolarov.dds"
+    expire = "1965.1.1"
+    ideology = social_democrat_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Aleksandar Malinov"
+    desc = "POLITICS_ALEKSANDAR_MALINOV_DESC"
+    picture = "gfx/leaders/BUL/Aleksandar_Malinov.dds"
+    expire = "1965.1.1"
+    ideology = social_liberal_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Nikola Mushanov"
+    desc = "POLITICS_NIKOLA_MUSHANOV_DESC"
+    picture = "gfx/leaders/BUL/Nikola_Mushanov.dds"
+    expire = "1965.1.1"
+    ideology = market_liberal_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Konstantin Stoilov"
+    desc = "POLITICS_KONSTANTIN_STOILOV_DESC"
+    picture = "gfx/leaders/BUL/Konstantin_Stoilov.dds"
+    expire = "1965.1.1"
+    ideology = social_conservative_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Boris III"
+    desc = "POLITICS_BORISS_III_DESC"
+    picture = "Portrait_Bulgaria_Boris_III.dds"
+    expire = "1965.1.1"
+    ideology = authoritarian_democrat_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Racho Petrov"
+    desc = "POLITICS_RACHO_PETROV_DESC"
+    picture = "gfx/leaders/BUL/Racho_Petrov.dds"
+    expire = "1965.1.1"
+    ideology = paternal_autocrat_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Petar Gabrovski"
+    desc = "POLITICS_PETAR_GABROVSKI_DESC"
+    picture = "gfx/leaders/BUL/Petar_Gabrovski.dds"
+    expire = "1965.1.1"
+    ideology = national_populist_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Hristo Lukov"
+    desc = "POLITICS_HRISTO_LUKOV_DESC"
+    picture = "portrait_bul_hristo_lukov.dds"
+    expire = "1965.1.1"
+    ideology = valkist_subtype
+    traits = {
+        #
+    }
+}

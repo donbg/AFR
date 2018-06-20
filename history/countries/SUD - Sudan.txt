@@ -1,0 +1,87 @@
+﻿
+capital = 551
+
+oob = "SUD_1936"
+
+set_stability = 0
+set_war_support = 0.22
+
+# Starting tech
+	set_technology = {
+		infantry_weapons = 1
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+	}
+
+add_ideas = {
+	volunteer_only
+}
+
+
+set_politics = {
+    parties = {
+        vanguardist = {
+            popularity = 3
+        }
+        collectivist = {
+            popularity = 4
+        }
+        libertarian_socialist = {
+            popularity = 1
+        }
+        social_democrat = {
+            popularity = 12
+        }
+        social_liberal = {
+            popularity = 6
+        }
+        market_liberal = {
+            popularity = 4
+        }
+        social_conservative = {
+            popularity = 33
+        }
+        authoritarian_democrat = {
+            popularity = 21
+        }
+        paternal_autocrat = {
+            popularity = 11
+        }
+        national_populist = {
+            popularity = 5
+        }
+        valkist = {
+            popularity = 0
+        }
+    }
+	ruling_party = social_conservative
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "Ismail al-Azhari"
+	desc = "POLITICS_ISMAIL_AL_AZAHRI_DESC"
+	picture = "gfx/leaders/SUD/Portrait_SUD_Ismail_al-Azhari.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}

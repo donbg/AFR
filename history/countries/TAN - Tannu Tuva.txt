@@ -1,0 +1,70 @@
+﻿capital = 329
+
+oob = "SSR"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+set_stability = 0.50
+set_war_support = 0.50
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 5
+		}
+		collectivist = {
+			popularity = 15
+		}
+		libertarian_socialist = {
+			popularity = 15
+		}
+		social_democrat = {
+			popularity = 5
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 5
+		}
+		paternal_autocrat = {
+			popularity = 40
+		}
+		national_populist = {
+			popularity = 15
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Donduk Kuular"
+	desc = ""
+	picture = "Portrait_TAN_Donduk_Kuular.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

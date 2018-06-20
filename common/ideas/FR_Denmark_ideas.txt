@@ -1,0 +1,38 @@
+##################
+## Danish Ideas ##
+##################
+## By CIA ##
+############
+ideas = {
+
+	## Denmark Ideas ##
+
+	country = {
+
+		DEN_growing_republican_sentiment = { #Growing Republican Sentiment
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				social_democrat_drift = 0.02
+				libertarian_socialist_drift = 0.02
+				political_power_gain = -0.1
+			}
+			picture = can_patriation
+			removal_cost = -1
+		}
+
+		DEN_weary_military = { #Weary Military
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				war_support_factor = -0.1
+				army_morale_factor = -0.1
+				conscription = 0.02
+			}
+			picture = tfv_can_conscription_crisis
+			#generic_spy_political
+			removal_cost = -1
+		}
+	}
+	
+}

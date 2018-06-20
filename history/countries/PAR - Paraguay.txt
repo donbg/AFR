@@ -1,0 +1,119 @@
+﻿capital = 301
+
+oob = "PAR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	tech_support = 1
+	tech_engineers = 1
+	gwtank = 1
+}
+
+add_ideas = {
+	GEN_James_Smith_hog_sco
+	GEN_Charlie_Baker_for_sco
+	GEN_Sam_Morris_eco_sco
+	GEN_Oscar_Morgan_sec_sco
+}
+
+set_stability = 0.50
+set_war_support = 0.50
+
+set_politics = {
+
+	parties = {
+		collectivist = { 
+			popularity = 5
+		}
+		libertarian_socialist = { 
+			popularity = 6
+		}
+		vanguardist = { 
+			popularity = 0
+		}
+		market_liberal = { 
+			popularity = 11
+		}
+		social_conservative = { 
+			popularity = 30
+		}
+		social_liberal = { 
+			popularity = 10
+		}
+		national_populist = {
+			popularity = 2
+		}
+		valkist = {
+			popularity = 2
+		}		
+		social_democrat = {
+			popularity = 14
+		}
+		authoritarian_democrat = {
+			popularity = 9
+		}
+		paternal_autocrat = {
+			popularity = 16
+		}
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#create_country_leader = {
+#	name = "Eusebio Ayala"
+#	desc = "POLITICS_EUSEBIO_AYALA_DESC"
+#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = market_liberal_subtype
+#	traits = {
+#		#
+#	}
+#}
+create_country_leader = {
+	name = "Adolfo Chirife"
+	desc = "POLITICS_ADOLFO_CHIRIFE_DESC"
+	picture = "AdolfoChirife.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Juan Manuel Fructos"
+	desc = "POLITICS_JuanmaFruc_DESC"
+	picture = "JuanManuelFructos.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Rafael Franco"
+	desc = "POLITICS_RAFAEL_FRANCO_DESC"
+	picture = "RafaelFranco.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Higinio Morínigo"
+	desc = "HIGINIO_MORINIGO_DESC"
+	picture = "HiginioMorinigo.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

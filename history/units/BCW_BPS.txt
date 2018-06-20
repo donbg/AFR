@@ -1,0 +1,133 @@
+﻿division_template = {
+	name = "Soldados Populares"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}	
+}
+division_template = {
+	name = "Soldados Populares II"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {# Militia
+	name = "Milícia Patriótica"					
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+units = {
+
+	division= {	
+		name = "1a Soldados Populares"
+		location = 8189 
+		division_template = "Soldados Populares"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2a Soldados Populares"
+		location = 10959 
+		division_template = "Soldados Populares"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "3a Soldados Populares"
+		location = 8239
+		division_template = "Soldados Populares II"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "4a Soldados Populares"
+		location = 5112
+		division_template = "Soldados Populares II"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "5a Soldados Populares"
+		location = 8239
+		division_template = "Soldados Populares II"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+#	division= {	
+#		name = "6a Soldados Populares"
+#		location = 10360
+#		division_template = "Soldados Populares"
+#		start_experience_factor = 0.1
+#		start_equipment_factor = 1.0
+#	}
+	division= {	
+		name = "7a Soldados Populares"
+		location = 12972
+		division_template = "Soldados Populares"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "8a Soldados Populares"
+		location = 8239
+		division_template = "Soldados Populares"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+#	division= {	
+#		name = "9a Soldados Populares"
+#		location = 12937
+#		division_template = "Soldados Populares"
+#		start_experience_factor = 0.1
+#		start_equipment_factor = 1.0
+#	}
+	division= {	
+		name = "1a Milícia Patriótica"
+		location = 8239
+		division_template = "Milícia Patriótica"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
+air_wings = {
+	503 = {
+		fighter_equipment_0 = {
+			owner = "BPS"
+			amount = 25
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "BPS"
+			amount = 25
+		}		
+	}
+}

@@ -1,0 +1,72 @@
+﻿capital = 323
+
+oob = "NEP_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+add_ideas = {
+	GEN_Oscar_Jensen_hog_pau
+	GEN_Lucas_Friberg_for_pau
+	GEN_William_Ostberg_eco_pau
+	GEN_Mats_Holmgren_sec_pau
+}
+
+set_stability = 0.44
+set_war_support = 0.50
+
+set_politics = {
+	parties = {
+		vanguardist = {
+			popularity = 12
+		}
+		collectivist = {
+			popularity = 2
+		}
+		libertarian_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 2
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 3
+		}
+		social_conservative = {
+			popularity = 8
+		}
+		authoritarian_democrat = {
+			popularity = 32
+		}
+		paternal_autocrat = {
+			popularity = 35
+		}
+		national_populist = {
+			popularity = 4
+		}
+		valkist = {
+			popularity = 2
+		}
+	}	
+	ruling_party = paternal_autocrat
+	last_election = "1931.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "King Tribhuvan of Nepal"
+	desc = "POLITICS_WHATEVER_HIS_NAME_IS_DESC"
+	picture = "Portrait_Nepal_Tribhuvana"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

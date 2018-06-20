@@ -1,0 +1,15 @@
+ideas = {
+
+	## Valkist France Ideas ##
+
+	country = {
+	
+		VFR_illegitimate_government = {
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				conscription_factor = -0.65
+				political_power_gain = -0.50
+			}
+		}
+	}
+}

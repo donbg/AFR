@@ -1,0 +1,189 @@
+##################
+## Newfie Ideas ##
+##################
+## By CIA ##
+############
+
+ideas = {
+
+	## Newfie Ideas ##
+
+	country = {
+
+		NFL_debt_crisis1 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.50
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_debt_crisis2 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.45
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_debt_crisis3 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.40
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+		
+		NFL_debt_crisis4 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.35
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_debt_crisis5 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.30
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_debt_crisis6 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.25
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_debt_crisis7 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.20
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_debt_crisis8 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_debt_crisis9 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.10
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_debt_crisis10 = { #Debt Crisis
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+			picture = generic_goods_red_bonus
+			removal_cost = -1
+		}
+
+		NFL_maintain_the_regiment_idea = { #Maintain the Regiment
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				conscription = 0.025
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+		}
+
+		NFL_struggling_economy = { #Struggling Economy
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.1
+			}
+			picture = FRA_factory_strikes
+			removal_cost = -1
+		}
+
+		NFL_the_unions = { #The Unions
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = 0.05
+				political_power_cost = 0.15
+			}
+			picture = generic_industrial_concern_1
+			removal_cost = -1
+		}
+
+		NFL_LSMC = { #The London Stock Market Crash
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_weekly = -0.001
+				production_factory_max_efficiency_factor = -0.30
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.5
+				consumer_goods_factor = 0.1
+			}
+			picture = great_depression
+			removal_cost = -1
+		}
+
+		NFL_fish_price_collapse = { #Fish Price Collapse
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_weekly = -0.003
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.05
+			}
+			picture = FRA_factory_strikes
+			removal_cost = -1
+		}
+
+		NFL_fish_price_maintained = { #Fish Prices Maintained (Through gov't subsidies)
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_weekly = 0.003
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.1
+			}
+			picture = FRA_factory_strikes
+			removal_cost = -1
+		}
+
+	}
+}

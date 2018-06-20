@@ -1,0 +1,192 @@
+﻿##########################
+#Created by Darknight1342#
+##########################
+
+division_template = {
+	name = "Republikánus őrség"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+		name = "Kárpátok"
+
+		regiments = {
+			mountaineers = { x = 0 y = 0 }
+			mountaineers = { x = 0 y = 1 }
+			mountaineers = { x = 0 y = 2 }
+		}
+}
+
+units = {
+	division= {
+		name = "1. Republikánus őrség"
+		location = 9660
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "2. Republikánus őrség"
+		location = 9660
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "3. Republikánus őrség"
+		location = 9660
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "4. Republikánus őrség"
+		location = 9660
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "5. Republikánus őrség"
+		location = 11581
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "6. Republikánus őrség"
+		location = 11581
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "7. Republikánus őrség"
+		location = 11610
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "8. Republikánus őrség"
+		location = 6647
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "9. Republikánus őrség"
+		location = 3700
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "10. Republikánus őrség"
+		location = 9661
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "11. Republikánus őrség"
+		location = 11630
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "12. Republikánus őrség"
+		location = 9621
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "13. Republikánus őrség"
+		location = 619
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "14. Republikánus őrség"
+		location = 716
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "15. Republikánus őrség"
+		location = 11646
+		division_template = "Republikánus őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "1. Kárpátok"
+		location = 3709
+		division_template = "Kárpátok"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "2. Kárpátok"
+		location = 746
+		division_template = "Kárpátok"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "3. Kárpátok"
+		location = 9687
+		division_template = "Kárpátok"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "4. Kárpátok"
+		location = 6682
+		division_template = "Kárpátok"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "5. Kárpátok"
+		location = 9640
+		division_template = "Kárpátok"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+}
+
+air_wings = {
+	43 = {
+		# 1. Légi Ezred -- Fiat CR.32 fighters
+		# 2. Légi Ezred -- Fiat CR.32 fighters
+		fighter_equipment_0 = {
+			owner = "HUN" 
+			creator = "HUN"
+			amount = 72
+		}
+
+	}
+	154 = {
+		# 3. Légi Ezred -- Caproni Ca.101, WM-16 Budapest light bombers
+		CAS_equipment_1 = {
+			owner = "HUN"
+			creator = "ITA"
+			amount = 12
+		}
+		tac_bomber_equipment_0 = {
+			owner = "HUN" 
+			creator = "HUN"
+			amount = 12
+		}
+	}
+}

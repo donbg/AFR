@@ -1,0 +1,831 @@
+
+ideas = {
+##############
+# Country ideas
+##############
+	country = {
+		COL_patria_revancha = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_colombia_revanchism
+			modifier = {
+				army_core_attack_factor = 0.05
+				training_time_army_factor = -0.05
+				justify_war_goal_time = -0.10
+			}
+		}
+		COL_revanchist = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.04
+				war_support_factor = 0.15
+			}
+		}
+		COL_reparations_to_peru = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		COL_reparations_from_colombia = {
+			allowed = {
+			original_tag = "PRU"
+			}
+
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		COL_reparations_to_peru1 = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		COL_reparations_from_colombia1 = {
+			allowed = {
+			original_tag = "PRU"
+			}
+
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}	
+		COL_internal_trade_boom = {
+			allowed = {
+			original_tag = "PRU"
+			}
+
+			picture = generic_goods_red_bonus
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}	
+		COL_populist_regime = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_manpower_bonus
+			modifier = {
+				paternal_autocrat_drift = 0.02
+			}
+		}
+		COL_nationalist_regime = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_fascism_drift_2
+			modifier = {
+				national_populist_drift = 0.02
+			}
+		}
+		COL_colon_platform = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_central_management
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+		}
+		COL_colon_platform1 = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_central_management
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		COL_colon_platform2 = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_central_management
+			modifier = {
+				consumer_goods_factor = -0.07
+			}
+		}
+		COL_agrarian_reform = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_agrarian_reform
+			modifier = {
+				min_export = -0.04 
+				production_factory_start_efficiency_factor = 0.06
+			}
+		}
+		COL_expanded_central_bank = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_central_management
+			modifier = {
+				industrial_capacity_factory = 0.05
+				subversive_activites_upkeep = -0.05 
+			}
+		}
+		COL_development_boost = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_central_management
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		COL_credit_boost = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_central_management
+			modifier = {
+				consumer_goods_factor = 0.05 
+			}
+		}
+		COL_saving_boost = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_central_management
+			modifier = {
+				industrial_capacity_factory = 0.15
+			}
+		}
+		COL_nationalism_incarnate = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_fascism_drift_2
+			modifier = {
+				national_populist_drift = 0.02
+				conscription = 0.02
+			}
+		}
+		COL_greatness_desired = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = generic_morale_boost
+			modifier = {
+				army_morale_factor = 0.05
+				planning_speed = 0.05
+			}
+		}
+		COL_corporatism = {
+			allowed = {
+			original_tag = "COL"
+			}
+
+			picture = state_economy
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+}
+#ministers
+
+	head_of_government = { ### Head of Government ###
+		COL_Gilberto_Vieiria_hog_van = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = vanguardist
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Gilberto_Vieiria_dead}
+				NOT = {has_country_flag = Gilberto_Vieiria_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				vanguardist
+				hog_backroom_backstabber
+			}
+			cancel_if_invalid = no
+		}
+		COL_Augusto_Duran_hog_col = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = collectivist
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Augusto_Duran_dead}
+				NOT = {has_country_flag = Augusto_Duran_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				collectivist
+				hog_naive_optimist
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Maria_Cano_hog_lso = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = libertarian_socialist
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Jorge_Eliecer_Gaitan_dead}
+				NOT = {has_country_flag = Jorge_Eliecer_Gaitan_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				libertarian_socialist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Alfonso_Lopez_Pumarejo_hog_sde = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = social_democrat
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Alfonso_Lopez_Pumarejo_dead}
+				NOT = {has_country_flag = Alfonso_Lopez_Pumarejo_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+			COL_Enrique_Olaya_Herrera_hog_sli = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = social_liberal
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Enrique_Olaya_Herrera_dead}
+				NOT = {has_country_flag = Enrique_Olaya_Herrera_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_political_protege
+			}
+			cancel_if_invalid = no
+		}
+		COL_Gabriel_Turbay_Ayala_hog_mli = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = smarket_liberal
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Gabriel_Turbay_Ayala_dead}
+				NOT = {has_country_flag = Gabriel_Turbay_Ayala_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = no
+		}
+		COL_Mariano_Ospina_Perez_hog_sco = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = social_conservative
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Mariano_Ospina_Perez_dead}
+				NOT = {has_country_flag = Mariano_Ospina_Perez_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+		COL_Jorge_Eliecer_Gaitan_hog_pau = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = paternal_autocrat
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Jorge_Eliecer_Gaitan_dead}
+				NOT = {has_country_flag = Jorge_Eliecer_Gaitan_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_naive_optimist
+			}
+			cancel_if_invalid = no
+		}
+		COL_Laureano_Gomez_Castro_hog_npo = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				has_government = national_populist
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Jorge_Eliecer_Gaitan_dead}
+				NOT = {has_country_flag = Jorge_Eliecer_Gaitan_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	foreign_minister = { ### Foreign Minister ###
+		COL_Ignacio_Torres_Giraldo_for_van = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = Ignacio_Torres_Giraldo_dead}
+				NOT = {has_country_flag = Ignacio_Torres_Giraldo_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				vanguardist
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+		COL_Jacobo_Arenas_for_col = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = Jacobo_Arenas_dead}
+				NOT = {has_country_flag = Jacobo_Arenas_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				collectivist
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = no
+		}
+		COL_Raul_Eduardo_Mahecha_for_lso = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				libertarian_socialist_allowed = yes
+				NOT = {has_country_flag = Raul_Eduardo_Mahecha_dead}
+				NOT = {has_country_flag = Raul_Eduardo_Mahecha_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				libertarian_socialist
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+		COL_Ernesto_Gonzalez_Piedrahita_for_sde = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Ernesto_Gonzalez_Piedrahita_dead}
+				NOT = {has_country_flag = Ernesto_Gonzalez_Piedrahita_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+		COL_Eduardo_Zuleta_Castillo_for_sli = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Eduardo_Zuleta_Castillo_dead}
+				NOT = {has_country_flag = Eduardo_Zuleta_Castillo_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+		COL_Luis_Lopez_de_Mesa_for_mli = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = Luis_Lopez_de_Mesa_dead}
+				NOT = {has_country_flag = Luis_Lopez_de_Mesa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				market_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+		COL_Fernando_Londono_y_Londono_for_sco = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Fernando_Londono_y_Londono_dead}
+				NOT = {has_country_flag = Fernando_Londono_y_Londono_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_general_staffer
+			}
+			cancel_if_invalid = no
+		}
+		COL_Baldomero_Sanin_Cano_for_ade = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Baldomero_Sanin_Cano_dead}
+				NOT = {has_country_flag = Baldomero_Sanin_Cano_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = no
+		}
+		COL_Erasmo_Valencia_for_pau = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Baldomero_Sanin_Cano_dead}
+				NOT = {has_country_flag = Baldomero_Sanin_Cano_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = no
+		}
+		COL_Eliseo_Arango_for_npo = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Baldomero_Sanin_Cano_dead}
+				NOT = {has_country_flag = Baldomero_Sanin_Cano_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				national_populist
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = no
+		}
+	}
+	economy_minister = { ### Economy Minister ###
+		COL_Luis_Vidales_eco_vang = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = Luis_Vidales_dead}
+				NOT = {has_country_flag = Luis_Vidales_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				vanguardist
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = no
+		}
+		COL_Joaquin_Moreno_Diaz_eco_col = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = Joaquin_Moreno_Diaz_dead}
+				NOT = {has_country_flag = Joaquin_Moreno_Diaz_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				collectivist
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Gregorio_Obregon_eco_sde = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Gregorio_Obregon_dead}
+				NOT = {has_country_flag = Gregorio_Obregon_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_tank_proponent
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Mauricio_Soto_Gomez_eco_mli = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				market_liberal_allowed = yes
+				NOT = {has_country_flag = Mauricio_Soto_Gomez_dead}
+				NOT = {has_country_flag = Mauricio_Soto_Gomez_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				market_liberal
+				eco_u_boat_proponent
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Plinio_Mendoza_eco_sli = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Plinio_Mendoza_dead}
+				NOT = {has_country_flag = Plinio_Mendoza_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_corrupt_kleptocrat
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_William_Martinez_Perez_eco_sco = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = William_Martinez_Perez_dead}
+				NOT = {has_country_flag = William_Martinez_Perez_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_tank_proponent
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Julio_Valdez_eco_ade = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Julio_Valdez_dead}
+				NOT = {has_country_flag = Julio_Valdez_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_theoretical_scientist
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Carlos_Lozano_y_Lozano_eco_pau = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Carlos_Lozano_y_Lozano_dead}
+				NOT = {has_country_flag = Carlos_Lozano_y_Lozano_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = no
+		}
+		COL_Jose_Camacho_Carreno_eco_npo = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Jose_Camacho_Carreno_dead}
+				NOT = {has_country_flag = Jose_Camacho_Carreno_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_administrative_genius
+			}
+			cancel_if_invalid = no
+		}
+	}
+	security_minister = { ### Security Minister ###
+		COL_Tomas_Uribe_Marquez_sec_van = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				vanguardist_allowed = yes
+				NOT = {has_country_flag = Tomas_Uribe_Marquez_dead}
+				NOT = {has_country_flag = Tomas_Uribe_Marquez_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+		COL_Luis_Tejada_Caro_sec_van = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				collectivist_allowed = yes
+				NOT = {has_country_flag = Tomas_Uribe_Marquez_dead}
+				NOT = {has_country_flag = Tomas_Uribe_Marquez_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				vanguardist
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+		COL_Raphael_Hollmann_sec_sde = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Raphael_Hollmann_dead}
+				NOT = {has_country_flag = Raphael_Hollmann_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Francesco_Jose_Urrutia_sec_mli = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Francesco_Jose_Urrutia_dead}
+				NOT = {has_country_flag = Francesco_Jose_Urrutia_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				market_liberal
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = no
+		}
+		COL_Enrique_Gomez_Hurtado_sec_sli = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Enrique_Gomez_Hurtado_dead}
+				NOT = {has_country_flag = Enrique_Gomez_Hurtado_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+
+
+
+		COL_Caesare_Bernal_Gustaves_sec_sco = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				social_conservative_allowed = yes
+				NOT = {has_country_flag = Caesare_Bernal_Gustaves_dead}
+				NOT = {has_country_flag = Caesare_Bernal_Gustaves_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_crooked_kleptocrat
+			}
+			cancel_if_invalid = no
+		}
+
+		COL_Jose_Ellis_Quinsado_sec_ade = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Jose_Ellis_Quinsado_dead}
+				NOT = {has_country_flag = Jose_Ellis_Quinsado_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_back_stabber
+			}
+			cancel_if_invalid = no
+		}
+		COL_Dario_Echandia_sec_pau = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				paternal_autocrat_allowed = yes
+				NOT = {has_country_flag = Dario_Echandia_dead}
+				NOT = {has_country_flag = Dario_Echandia_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+		COL_Augusto_Ramirez_Moreno_sec_npo = { #Auto-Generated
+			allowed = {original_tag = COL}
+			available = {
+				national_populist_allowed = yes
+				NOT = {has_country_flag = Augusto_Ramirez_Moreno_dead}
+				NOT = {has_country_flag = Augusto_Ramirez_Moreno_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = no
+		}
+	}

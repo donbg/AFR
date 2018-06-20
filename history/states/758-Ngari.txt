@@ -1,0 +1,27 @@
+
+state={
+	id=758
+	name="STATE_758"
+	manpower = 90500
+	resources={
+		steel=4.0
+	}
+	
+	state_category = town
+	
+	history={
+		owner = LAT
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 7
+			}
+		add_core_of = LAT
+		add_core_of = EST
+	}
+
+	provinces={
+		265 3255 6222 11358
+	}
+}

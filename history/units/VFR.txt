@@ -1,0 +1,296 @@
+##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      
+		artillery = { x = 0 y = 1 } 
+		anti_tank = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	# Note: Transformed to DLC, DLM divisions, 1936-39 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }     
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique" 		
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }		
+		motorized = { x = 1 y = 0 }			
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      
+		anti_tank = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigade Coloniale"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+##### OOB #####
+units = {
+	division= {	
+		name = "Force de défense Paris a"
+		location = 11506
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense Paris b"
+		location = 11506
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense Paris c"
+		location = 11506
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 11548
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 11548
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 3552
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 3552
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 11465
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 11465
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 9737
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 9737
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 6766
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 6766
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 11834
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 11834
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 3594
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 3594
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 3671
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 3671
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Force de défense"
+		location = 11834
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.1
+	}
+}
+
+			
+	navy = {				
+		name = "3ème Région Navale"			
+		base = 911 
+		location = 911 # Toulon	
+		ship = { name = "Courbet" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }       
+		ship = { name = "Paris" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }		
+		ship = { name = "Algérie" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = FRA } }	}	# Algerie variant		
+		ship = { name = "Foch" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Dupleix" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Colbert" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Duquesne" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Tourville" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Travialle" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Dunkerque" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Lille" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+		# 4e Division des Contre-Torpilleurs
+		ship = { name = "Lynx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		ship = { name = "Tigre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		# 5e Division des Contre-Torpilleurs
+		ship = { name = "Tartu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Chevalier Paul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Vauquelin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		# 7e Division des Contre-Torpilleurs
+		ship = { name = "Gerfaut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Albatros" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Vautour" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		# 9e Division des Contre-Torpilleurs
+		ship = { name = "Cassard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Maillé Brézé" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+		ship = { name = "Kersaint" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA version_name = "Aigle & Vauquelin Class" } } }
+	}		
+	navy = {	
+		name = "3ème Escadron Sous-Marins"			
+		base = 911 
+		location = 911 # Toulon			
+		# 1e Division des Sous-Marins
+		ship = { name = "Le Glorieux" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 3 Division des Sous-Marins
+		ship = { name = "Protée" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Actéon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Fresnel" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Achéron" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		# 5e Division des Sous-Marins
+		ship = { name = "L`Espoire" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Pégase" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		ship = { name = "Monge" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+	}							
+
+### Air Wings
+air_wings = {
+
+	# Z.d'Op. Aériennes du Alps -- Marseille
+	21 = {
+		# Groupement de Chasse d'Alps
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 96
+		}
+		# Groupement de Bombardment 1
+		# Groupement de Bombardment 6
+		# Groupement de Bombardment 9
+		tac_bomber_equipment_1 =  {
+			owner = "FRA" 
+			amount = 90
+		}
+		# Groupement de Bombardment d'Assault 19
+		tac_bomber_equipment_0 =  {
+			owner = "FRA" 
+			amount = 50
+		}
+	}

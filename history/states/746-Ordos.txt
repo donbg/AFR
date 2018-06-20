@@ -1,0 +1,46 @@
+
+state={
+	id=746
+	name="STATE_746"
+	resources={
+		steel=31.0
+		aluminium=14.0
+	}
+
+	history={
+		owner = RHI
+		victory_points = {
+			587 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			#587 = {
+			#	bunker = 2
+
+			#}
+			#3444 = {
+			#	bunker = 2
+
+			#}
+			#3547 = {
+			#	bunker = 2
+
+			#}
+			#11494 = {
+			#	bunker = 2
+
+			#}
+
+		}
+		add_core_of = RHI
+
+	}
+
+	provinces={
+		587 3444 3547 9522 11470 11494 
+	}
+	manpower=5022339
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

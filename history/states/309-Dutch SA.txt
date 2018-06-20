@@ -1,0 +1,31 @@
+
+state={
+	id=309
+	name="STATE_309"
+	manpower = 652000
+
+	resources={
+		aluminium=9.0
+	}	
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			10906 30 
+		}
+		owner = KNE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			12828 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1928 10906 12828 
+	}
+}

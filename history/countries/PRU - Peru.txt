@@ -1,0 +1,236 @@
+﻿capital = 303
+
+oob = "PRU_1936"
+set_research_slots = 3
+add_ideas = {
+	civilian_economy
+	export_focus
+	volunteer_only
+	normal_popularity
+	PRU_weak_constitution
+	PRU_damaged_democracy
+	PRU_proud_and_victorious
+	COL_reparations_from_colombia
+	PRU_Manuel_Esteban_Rodriguez_hog_ade
+	PRU_Alberto_Ulloa_Sotomayor_for_ade
+	PRU_Ernesto_Scroth_eco_ade
+	PRU_Rocas_Sanchez_Mapas_sec_ade
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	gwtank = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+set_stability = 0.65
+set_war_support = 0.31
+
+set_politics = {
+
+	parties = {
+		social_conservative = { 
+			popularity = 12
+		}
+
+		social_democrat = { 
+			popularity = 4
+		}
+
+		social_liberal = { 
+			popularity = 6
+		}
+
+		market_liberal = { 
+			popularity = 8
+		}
+
+		authoritarian_democrat = { 
+			popularity = 30
+		}
+
+		paternal_autocrat = { 
+			popularity = 11
+		}
+
+		valkist = { 
+			popularity = 3
+		}
+
+		national_populist = {
+			popularity = 5
+		}
+		
+		collectivist = {
+			popularity = 3
+			#banned = no #default is no
+		}
+		vanguardist = {
+			popularity = 15
+		}
+		libertarian_socialist = {
+			popularity = 2
+		}
+
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1931.10.11"
+	election_frequency = 96
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Luis Miguel Sánchez Cerro"
+	desc = "POLITICS_LUIS_SANCHEZ_DESC"
+	picture = "LuisSanchez.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "José Bustamante y Rivero"
+	desc = "POLITICS_LUIS_SANCHEZ_DESC"
+	picture = "GFX_Portrait_peru_oscar_benavides"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Luis Antonio Eguiguren"
+	desc = "POLITICS_LUIS_SANCHEZ_DESC"
+	picture = "LuisEguiguren.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Víctor Raúl Haya de la Torre"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "VictorHaya.dds"
+	expire = "1965.1.1"
+	ideology = internationalist_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "Manuel Prado Ugarteche"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "GFX_Portrait_peru_oscar_benavides"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "José de la Riva"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "GFX_Portrait_peru_oscar_benavides"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Luis A. Flores"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "GFX_Portrait_peru_oscar_benavides"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Luis Miguel Sánchez Cerro"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "LuisSanchez.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_field_marshal = {
+	name = "Luis Sánchez"
+	portrait_path = "gfx/leaders/PRU/LuisSanchez.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Manuel María Ponce Brousset"
+	portrait_path = "gfx/leaders/PRU/PRU_Manuel_Maria_Ponce_Brousset.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Oscar Benavides"
+	picture = "gfx/leaders/PRU/PRU_Oscar_Benavides.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ernesto Montagne Markholz"
+	portrait_path = "gfx/leaders/PRU/PRU_Ernesto_Montagne_Markholz.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Antonio Rodríguez Ramírez"
+	portrait_path = "gfx/leaders/PRU/PRU_Antonio_Rodriguez_Ramirez.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_navy_leader = {
+	name = "Julio Goicochea Álvarez"
+	portrait_path = "gfx/leaders/PRU/PRU_Julio_Victor_Goicochea.dds"
+	traits = { }
+	skill = 2
+}
+create_navy_leader = {
+	name = "César Bielich"
+	portrait_path = "gfx/leaders/PRU/PRU_Cesar_Bielich"
+	traits = { }
+	skill = 2
+}

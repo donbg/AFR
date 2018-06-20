@@ -1,0 +1,29 @@
+
+state={
+	id=716
+	name="STATE_716"
+	resources={
+		steel=27.0
+	}
+
+	history={
+		owner = MAN
+		add_core_of = KMT
+		add_core_of = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+		}
+
+	}
+
+	provinces={
+		836 846 887 892 964 987 6837 3839 3849 3895 6804 6951 9781 9788 9835 9885 11764 11771 11808 11815 3783 6851 6918 9854 11886
+	}
+	manpower=5126462
+	buildings_max_level_factor=1.000
+	state_category=city
+}

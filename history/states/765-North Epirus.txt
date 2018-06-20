@@ -1,0 +1,27 @@
+state={
+	id=765
+	name="STATE_765"
+
+	history={
+		owner = ALB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			11767 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ALB
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		914 3448 6900 11767 
+	}
+	manpower=110200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

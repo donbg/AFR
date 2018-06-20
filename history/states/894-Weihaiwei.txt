@@ -1,0 +1,29 @@
+
+state={
+	id=894
+	name="STATE_894"
+
+	history={
+		owner = ENG
+		add_core_of = ANH
+		add_core_of = KMT
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 2
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		4205
+	}
+	manpower= 1032842
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

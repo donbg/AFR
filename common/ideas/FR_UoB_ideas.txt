@@ -1,0 +1,413 @@
+ideas = {
+
+	country = {
+	
+		#####INITIAL IDEA#####
+	
+		UOB_revo_recov = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.25
+				political_power_cost = 0.1
+				stability_factor = -0.15
+				war_support_factor = -0.2
+			}
+		}
+		
+		#####ILP IDEAS#####
+		
+		UOB_eco_rev = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		UOB_eco_rev2 = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				#unity_factor = 0.1
+			}
+		}
+		
+		UOB_eco_rev3 = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				#unity_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		UOB_mob_unions = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				political_power_cost = -0.05
+			}
+		}
+		
+		UOB_soc_freedom = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				#unity_factor = 0.1
+				political_power_cost = -0.1
+			}
+		}
+		
+		#####BSP IDEAS#####
+		
+		UOB_enforced_atheism = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				#unity_factor = -0.1
+				political_power_cost = -0.1
+			}
+		}
+		
+		UOB_re_britain = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				global_building_slots_factor = 0.1
+			}
+		}
+		
+		UOB_exert_cont = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		
+		UOB_eco_sr = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				min_export = -0.15
+				local_resources_factor = 0.25
+			}
+		}
+		
+		#####CPGB IDEAS#####
+		
+		UOB_bnu = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = -0.15
+				#unity_factor = 0.05
+			}
+		}
+		
+		UOB_mob_work = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		
+		UOB_soc_wpol = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		
+		#####GENERIC IDEAS#####
+		
+		UOB_sprevo = {
+			picture = FRA_factory_strikes
+		
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+				send_volunteers_tension = -0.25
+			}
+		}
+	}
+	
+	##### UOB MINISTERS #####
+	
+	# - ILP
+	
+	head_of_government = {
+		ENG_Clement_Attlee_hog = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = { head_of_government hog_charismatic_charmer}
+			cancel_if_invalid = no
+		}
+	}
+	
+	foreign_minister = { ### Foreign Minister ###
+		ENG_Herbert_Morrison1_for = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {foreign_minister for_apologetic_clerk}
+			cancel_if_invalid = no
+		}
+	}
+	
+	economy_minister = { ### Economy Minister ###
+		ENG_Oswald_Mosley1_eco = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {economy_minister eco_administrative_genius}
+			cancel_if_invalid = no
+		}
+	}
+	
+	security_minister = { ### Security Minister ###
+		ENG_William_Gallacher_sec = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister sec_compassionate_gentleman}
+			cancel_if_invalid = no
+		}
+	}
+	
+	head_of_intel = { ### Intelligence Minister ###
+		ENG_Fenner_Brockway_int = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+			}
+			traits = {head_of_intel int_dismal_enigma}
+			cancel_if_invalid = no
+		}
+	}
+	
+	# - BSP
+	
+	head_of_government = {
+		ENG_Arthur_MacManus_hog = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = { head_of_government hog_ambitious_union_boss}
+			cancel_if_invalid = no
+		}
+	}
+	
+	foreign_minister = { ### Foreign Minister ###
+		ENG_James_Maxton_for = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {foreign_minister for_biased_intellectual}
+			cancel_if_invalid = no
+		}
+	}
+	
+	economy_minister = { ### Economy Minister ###
+		ENG_Aneurin_Bevan_eco = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {economy_minister eco_reformer}
+			cancel_if_invalid = no
+		}
+	}
+	
+	security_minister = { ### Security Minister ###
+		ENG_Stafford_Cripps_sec = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister sec_man_of_the_people}
+			cancel_if_invalid = no
+		}
+	}
+	
+	head_of_intel = { ### Intelligence Minister ###
+		ENG_Rhys_Davies_int = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+			}
+			traits = {head_of_intel int_industrial_specialist}
+			cancel_if_invalid = no
+		}
+	}
+	
+	# - WIL
+	
+	head_of_government = {
+		ENG_Jock_Haston_hog = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = { head_of_government hog_red_chairmen}
+			cancel_if_invalid = no
+		}
+	}
+	
+	foreign_minister = { ### Foreign Minister ###
+		ENG_William_Rust_for = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {foreign_minister for_ideological_crusader}
+			cancel_if_invalid = no
+		}
+	}
+	
+	economy_minister = { ### Economy Minister ###
+		ENG_Wilfred_Risdon_eco = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {economy_minister eco_planned_economy_proponent}
+			cancel_if_invalid = no
+		}
+	}
+	
+	security_minister = { ### Security Minister ###
+		ENG_Clifford_Allen_sec = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {security_minister sec_silent_lawyer}
+			cancel_if_invalid = no
+		}
+	}
+	
+	head_of_intel = { ### Intelligence Minister ###
+		ENG_Arthur_Horner_int = { #Auto-Generated
+			allowed = {original_tag = UOB}
+			available = {
+			}
+			traits = {head_of_intel int_industrial_specialist}
+			cancel_if_invalid = no
+		}
+	}
+}

@@ -1,0 +1,1656 @@
+political_actions_left = {
+
+	increase_popularity_vang = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = vanguardist
+		}
+
+		visible = {
+			has_government = vanguardist
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	increase_popularity_collie = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = collectivist
+		}
+
+		visible = {
+			has_government = collectivist
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	increase_popularity_libsoc = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = libertarian_socialist
+		}
+
+		visible = {
+			has_government = libertarian_socialist
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	centralized_economic_planning = {
+
+		icon = generic_industry
+
+		available = {
+			OR = {
+				has_government = vanguardist
+				has_government = collectivist
+			}
+		}
+
+		visible = {
+			OR = {
+				has_government = vanguardist
+				has_government = collectivist
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_remove = 210 #Days the modifier lasts for
+		days_re_enable = 365 #1 year until the decision may be taken again
+
+		modifier = {
+			production_speed_buildings_factor = 0.1
+			consumer_goods_factor = 0.025
+			industrial_capacity_factory = -0.025
+		}
+
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	decentralized_economic_planning = {
+
+		icon = generic_industry
+
+		available = {
+			has_government = libertarian_socialist
+		}
+
+		visible = {
+			has_government = libertarian_socialist
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_remove = 210 #Days the modifier lasts for
+		days_re_enable = 365 #1 year until the decision may be taken again
+
+		modifier = {
+			production_speed_buildings_factor = -0.05
+			consumer_goods_factor = -0.05
+			industrial_capacity_factory = 0.025
+		}
+
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+}
+
+political_actions_dem = {
+
+	increase_popularity_socdem = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = social_democrat
+		}
+
+		visible = {
+			has_government = social_democrat
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	increase_popularity_soclib = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = social_liberal
+		}
+
+		visible = {
+			has_government = social_liberal
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	increase_popularity_marklib = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = market_liberal
+		}
+
+		visible = {
+			has_government = market_liberal
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	increase_popularity_soccon = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = social_conservative
+		}
+
+		visible = {
+			has_government = social_conservative
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	increase_popularity_authdem = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = authoritarian_democrat
+		}
+
+		visible = {
+			has_government = authoritarian_democrat
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	industrial_privatization = {
+
+		icon = generic_industry
+
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+		}
+
+		visible = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_remove = 210 #Days the modifier lasts for
+		days_re_enable = 365 #1 year until the decision may be taken again
+
+		modifier = {
+			industrial_capacity_factory = 0.1
+			production_factory_max_efficiency_factor = 0.025
+			consumer_goods_factor = 0.025
+		}
+
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	economic_regulation = {
+
+		icon = generic_industry
+
+		available = {
+			OR = {
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+			}
+		}
+
+		visible = {
+			OR = {
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_remove = 210 #Days the modifier lasts for
+		days_re_enable = 365 #1 year until the decision may be taken again
+
+		modifier = {
+			production_factory_max_efficiency_factor = 0.025
+			consumer_goods_factor = -0.05
+			industrial_capacity_factory = -0.05
+		}
+
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	nationalize_key_industries = {
+
+		icon = generic_industry
+
+		available = {
+			has_government = social_democrat
+		}
+
+		visible = {
+			has_government = social_democrat
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_remove = 210 #Days the modifier lasts for
+		days_re_enable = 365 #1 year until the decision may be taken again
+
+		modifier = {
+			industrial_capacity_factory = 0.025
+			consumer_goods_factor = -0.05
+			production_factory_max_efficiency_factor = 0.05
+		}
+
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+}
+
+political_actions_right = {
+	increase_popularity_pataut = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = paternal_autocrat
+		}
+
+		visible = {
+			has_government = paternal_autocrat
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	increase_popularity_natpop = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = national_populist
+		}
+
+		visible = {
+			has_government = national_populist
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	increase_popularity_valkist = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_government = valkist
+		}
+
+		visible = {
+			has_government = valkist
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 730 #2 years until the decision may be taken again
+
+		complete_effect = {
+			increase_ruling_party_popularity_by_5 = yes
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	nationalize_foreign_industries = {
+
+		icon = generic_industry
+
+		available = {
+			OR = {
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = valkist
+			}
+		}
+
+		visible = {
+			OR = {
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = valkist
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = no #May take this decision multiple times
+		days_remove = 210 #Days the modifier lasts for
+		days_re_enable = 365 #1 year until the decision may be taken again
+
+		modifier = {
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.05
+			consumer_goods_factor = 0.03
+		}
+
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+}
+
+political_actions = {
+
+	improved_worker_conditions = {
+
+		icon = generic_industry
+
+		available = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_STABILITY_DECISIONS
+        	}
+		}
+
+		visible = {
+			OR = {
+				has_government = social_democrat
+				has_government = libertarian_socialist
+				has_government = collectivist
+				has_government = vanguardist
+			}
+			NOT = {
+        		has_country_flag = NO_GENERIC_STABILITY_DECISIONS
+        	}
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.005
+			consumer_goods_factor = 0.05
+			production_factory_max_efficiency_factor = -0.05
+		}
+
+		days_remove = 180
+		days_re_enable = 365
+
+		cost = 100
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.65
+			}
+		}
+	}
+
+	civil_crackdown = {
+
+		icon = generic_civil_support
+
+		available = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_STABILITY_DECISIONS
+        	}
+		}
+
+		visible = {
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = valkist
+			}
+			NOT = {
+        		has_country_flag = NO_GENERIC_STABILITY_DECISIONS
+        	}
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.01
+			mobilization_speed = 0.25
+			consumer_goods_factor = 0.05
+			conscription_factor = -0.25
+			political_power_cost = 0.25
+		}
+
+		days_remove = 90
+		days_re_enable = 365
+
+		cost = 100
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.5
+			}
+		}
+	}
+
+	cut_red_tape = {
+
+		icon = generic_operation
+
+		available = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_STABILITY_DECISIONS
+        	}
+		}
+
+		visible = {
+			OR = {
+				has_government = social_conservative
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+			NOT = {
+        		has_country_flag = NO_GENERIC_STABILITY_DECISIONS
+        	}
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.005
+			consumer_goods_factor = 0.025
+			political_power_cost = 0.10
+		}
+
+		days_remove = 180
+		days_re_enable = 365
+
+		cost = 100
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.6
+			}
+		}
+	}
+}
+
+economy_decisions = {
+
+	economic_demobilization = {
+
+		icon = generic_industry
+
+		available = {
+			num_of_military_factories > 5
+			has_war = no
+			has_war_support < 0.8
+			OR = {
+				has_idea = partial_economic_mobilisation
+				has_idea = war_economy
+				has_idea = tot_economic_mobilisation
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		cost = 100
+		fire_only_once = no #May take this decision multiple times
+		days_re_enable = 365 #Days until the decision may be taken again
+
+		complete_effect = {
+			add_stability = 0.1
+			replace_arms_with_civ_factories = yes
+			add_ideas = civilian_economy
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	infrastructure_building_slot = {
+
+		icon = generic_construction
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 50
+        fire_only_once = no
+
+        days_re_enable = 30
+
+        available = {
+            any_state = {
+            	NOT = { has_state_flag = infrastructure_building_slot_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size < 4
+				}
+            }
+        }
+
+        visible = {
+			any_state = {
+            	NOT = { has_state_flag = infrastructure_building_slot_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            }
+		}
+
+        complete_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = infrastructure_building_slot_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size < 4
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				set_state_flag = infrastructure_building_slot_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    civilian_factory_commission = {
+
+		icon = generic_construction
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 125
+        fire_only_once = no
+
+        days_re_enable = 240
+
+        available = {
+            any_state = {
+            	NOT = { has_state_flag = factory_comission_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	free_building_slots = { building = industrial_complex size > 1 include_locked = no }
+            }
+        }
+
+        visible = {
+			any_state = {
+            	NOT = { has_state_flag = factory_comission_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	free_building_slots = { building = industrial_complex size > 1 include_locked = no }
+            }
+		}
+
+        complete_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = factory_comission_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					free_building_slots = { building = industrial_complex size > 1 include_locked = no }
+				}
+				add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+				set_state_flag = factory_comission_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+    arms_factory_commission = {
+
+		icon = generic_construction
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 125
+        fire_only_once = no
+
+        days_re_enable = 240
+
+        available = {
+            any_state = {
+            	NOT = { has_state_flag = factory_comission_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	free_building_slots = { building = arms_factory size > 1 include_locked = no }
+            }
+        }
+
+        visible = {
+			any_state = {
+            	NOT = { has_state_flag = factory_comission_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	free_building_slots = { building = arms_factory size > 1 include_locked = no }
+            }
+		}
+
+        complete_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = factory_comission_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					free_building_slots = { building = arms_factory size > 1 include_locked = no }
+				}
+				add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+				set_state_flag = factory_comission_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    dockyard_commission = {
+
+		icon = generic_construction
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 125
+        fire_only_once = no
+
+        days_re_enable = 240
+
+        available = {
+            any_state = {
+            	NOT = { has_state_flag = factory_comission_flag }
+            	is_coastal = yes
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	free_building_slots = { building = dockyard size > 1 include_locked = no }
+            }
+        }
+
+        visible = {
+			any_state = {
+            	NOT = { has_state_flag = factory_comission_flag }
+            	is_coastal = yes
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	free_building_slots = { building = dockyard size > 1 include_locked = no }
+            }
+		}
+
+        complete_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = factory_comission_flag }
+					is_coastal = yes
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					free_building_slots = { building = dockyard size > 1 include_locked = no }
+				}
+				add_building_construction = {
+                    type = dockyard
+                    level = 1
+                    instant_build = yes
+                }
+				set_state_flag = factory_comission_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    expand_oil_rigs = {
+
+		icon = oil
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 100
+        fire_only_once = no
+
+        days_re_enable = 365
+        days_remove = 60
+
+        modifier = {
+			civilian_factory_use = 2
+		}
+
+        available = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+        	has_tech = excavation2
+        	num_of_civilian_factories_available_for_projects > 2
+            any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = oil amount > 7 }
+            }
+        }
+
+        visible = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+			any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = oil amount > 7 }
+            }
+		}
+
+        remove_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = resources_exploited_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					has_resources_amount = { resource = oil amount > 7 }
+				}
+				add_resource = {  
+ 					type = oil  
+ 					amount = 8
+ 				} 
+				set_state_flag = resources_exploited_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    expand_rubber_plants = {
+
+		icon = rubber
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 100
+        fire_only_once = no
+
+        modifier = {
+			civilian_factory_use = 2
+		}
+
+        days_re_enable = 365
+        days_remove = 60
+
+        available = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+        	has_tech = excavation2
+        	num_of_civilian_factories_available_for_projects > 2
+            any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = rubber amount > 7 }
+            }
+        }
+
+        visible = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+			any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = rubber amount > 7 }
+            }
+		}
+
+        remove_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = resources_exploited_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					has_resources_amount = { resource = rubber amount > 7 }
+				}
+				add_resource = {  
+ 					type = rubber  
+ 					amount = 8
+ 				} 
+				set_state_flag = resources_exploited_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    expand_steel_mines = {
+
+		icon = steel
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 100
+        fire_only_once = no
+
+        modifier = {
+			civilian_factory_use = 2
+		}
+
+        days_re_enable = 365
+        days_remove = 60
+
+        available = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+        	has_tech = excavation2
+        	num_of_civilian_factories_available_for_projects > 2
+            any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = steel amount > 7 }
+            }
+        }
+
+        visible = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+			any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = steel amount > 7 }
+            }
+		}
+
+        remove_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = resources_exploited_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					has_resources_amount = { resource = steel amount > 7 }
+				}
+				add_resource = {  
+ 					type = steel  
+ 					amount = 8
+ 				} 
+				set_state_flag = resources_exploited_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    expand_aluminium_mines = {
+
+		icon = aluminium
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 100
+        fire_only_once = no
+
+        modifier = {
+			civilian_factory_use = 2
+		}
+
+        days_re_enable = 365
+        days_remove = 60
+
+        available = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+        	has_tech = excavation2
+        	num_of_civilian_factories_available_for_projects > 2
+            any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = aluminium amount > 7 }
+            }
+        }
+
+        visible = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+			any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = aluminium amount > 7 }
+            }
+		}
+
+        remove_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = resources_exploited_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					has_resources_amount = { resource = aluminium amount > 7 }
+				}
+				add_resource = {  
+ 					type = aluminium  
+ 					amount = 8
+ 				} 
+				set_state_flag = resources_exploited_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    expand_tungsten_mines = {
+
+		icon = tungsten
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 100
+        fire_only_once = no
+
+        modifier = {
+			civilian_factory_use = 2
+		}
+
+        days_re_enable = 365
+        days_remove = 60
+
+        available = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+        	has_tech = excavation2
+        	num_of_civilian_factories_available_for_projects > 2
+            any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = tungsten amount > 7 }
+            }
+        }
+
+        visible = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+			any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = tungsten amount > 7 }
+            }
+		}
+
+        remove_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = resources_exploited_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					has_resources_amount = { resource = tungsten amount > 7 }
+				}
+				add_resource = {  
+ 					type = tungsten  
+ 					amount = 8
+ 				} 
+				set_state_flag = resources_exploited_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    expand_chromium_mines = {
+
+		icon = chromium
+
+        allowed = {
+            always = yes
+        }
+
+        cost = 100
+        fire_only_once = no
+
+        modifier = {
+			civilian_factory_use = 2
+		}
+
+        days_re_enable = 365
+        days_remove = 60
+
+        available = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+        	has_tech = excavation2
+        	num_of_civilian_factories_available_for_projects > 2
+            any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = chromium amount > 7 }
+            }
+        }
+
+        visible = {
+        	NOT = {
+        		has_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+        	}
+			any_state = {
+            	NOT = { has_state_flag = resources_exploited_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            	has_resources_amount = { resource = chromium amount > 7 }
+            }
+		}
+
+        remove_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = { has_state_flag = resources_exploited_flag }
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					has_resources_amount = { resource = chromium amount > 7 }
+				}
+				add_resource = {  
+ 					type = chromium  
+ 					amount = 8
+ 				} 
+				set_state_flag = resources_exploited_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+}
+
+propaganda_efforts = {
+
+	military_service_propaganda = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
+        	}
+			OR = {
+				has_war = yes
+				threat > 0.75
+			}
+		}
+
+		visible = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
+        	}
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			conscription = 0.005
+			mobilization_speed = 0.05
+		}
+
+		days_remove = 365
+		days_re_enable = 30
+
+		cost = 50
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				surrender_progress > 0.01
+			}
+		}
+	}
+
+	war_propaganda = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
+        	}
+			NOT = { has_country_flag = war_propaganda_campaign_running }
+			has_war_support < 0.7
+			OR = {
+				has_war = yes
+				threat > 0.3
+			}
+		}
+
+		visible = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
+        	}
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+		days_re_enable = 180
+
+		cost = 100
+
+		modifier = {
+			war_support_weekly = 0.01
+		}
+
+		complete_effect = {
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			clr_country_flag = war_propaganda_campaign_running
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+				has_war = yes
+			}
+		}
+	}
+	#Propaganda campaign against a country in offensive that has caused a lot of tension and started a war
+	war_propaganda_against_warmonger = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
+        	}
+			NOT = { has_country_flag = war_propaganda_campaign_running }
+			FROM = {
+				OR = {
+					has_offensive_war = yes
+					is_justifying_wargoal_against = ROOT
+				}
+			}
+		}
+
+		visible = {
+			NOT = {
+        		has_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
+        	}
+			FROM = { NOT = { has_government = ROOT } }
+			FROM = {
+				NOT = { is_neighbor_of = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+				OR = {
+					AND = {
+						NOT = { has_government = ROOT }
+						has_offensive_war = yes
+						has_added_tension_amount > 30
+					}
+					is_justifying_wargoal_against = ROOT
+					has_offensive_war_with = ROOT
+				}
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				NOT = { is_neighbor_of = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+				OR = {
+					AND = {
+						NOT = { has_government = ROOT }
+						has_offensive_war = yes
+						has_added_tension_amount > 30
+					}
+					is_justifying_wargoal_against = ROOT
+					has_offensive_war_with = ROOT
+				}
+			}
+		}
+
+		days_remove = 90
+
+		fire_only_once = yes
+
+		cost = 75
+
+		modifier = {
+			war_support_weekly = 0.01
+		}
+
+		complete_effect = {
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			clr_country_flag = war_propaganda_campaign_running
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	#Propaganda campaign against a neighbor
+	war_propaganda_against_warmonger_neighbor = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			NOT = { has_country_flag = war_propaganda_campaign_running }
+			FROM = {
+				OR = {
+					has_offensive_war = yes 
+					is_justifying_wargoal_against = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		visible = {
+			#FROM = { NOT = { has_government = ROOT } }
+			FROM = {
+				is_neighbor_of = ROOT
+				NOT = { is_in_faction_with = ROOT }
+				OR = {
+					AND = {
+						NOT = { has_government = ROOT }
+						has_offensive_war = yes
+					}
+					is_justifying_wargoal_against = ROOT
+					has_war_with = ROOT
+				}
+				#has_added_tension_amount > 5
+			}
+		}
+
+		target_trigger = {
+			FROM = {
+				is_neighbor_of = ROOT
+				NOT = { is_in_faction_with = ROOT }
+				OR = {
+					AND = {
+						NOT = { has_government = ROOT }
+						has_offensive_war = yes
+					}
+					is_justifying_wargoal_against = ROOT
+					has_war_with = ROOT
+				}
+				#has_added_tension_amount > 5
+			}
+		}
+
+		days_remove = 90
+		days_re_enable = 180
+
+		cost = 50
+
+		modifier = {
+			war_support_weekly = 0.01
+		}
+
+		complete_effect = {
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_war_support > 0.9
+			}
+		}
+	}
+}
+
+war_measures = {
+	
+	emergency_factory_conversion_defensive = {
+
+		icon = generic_industry
+
+		available = {
+			num_of_civilian_factories > 5 #Change this if amount of factories change
+		}
+
+		visible = {
+			has_war = yes		
+		}
+
+		fire_only_once = no
+
+		days_re_enable = 90
+
+		cost = 100
+
+		complete_effect = {
+			replace_civ_with_arms_factories = yes
+			add_war_support = -0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+    war_bonds = {
+
+    	icon = generic_industry
+
+    	allowed = {
+            always = yes
+        }
+
+        available = {
+            has_war = yes
+            OR = {
+                AND = {
+                    has_government = vanguardist
+                    has_war_support > 0.85
+                }
+                AND = {
+                    has_government = collectivist
+                    has_war_support > 0.79
+                }
+                AND = {
+                    has_government = libertarian_socialist
+                    has_war_support > 0.79
+                }
+                AND = {
+                    has_government = social_democrat
+                    has_war_support > 0.70
+                }
+                AND = {
+                    has_government = social_liberal
+                    has_war_support > 0.60
+                }
+                AND = {
+                    has_government = market_liberal
+                    has_war_support > 0.60
+                }
+                AND = {
+                    has_government = social_conservative
+                    has_war_support > 0.60
+                }
+                AND = {
+                    has_government = authoritarian_democrat
+                    has_war_support > 0.70
+                }
+                AND = {
+                    has_government = paternal_autocrat
+                    has_war_support > 0.79
+                }
+                AND = {
+                    has_government = national_populist
+                    has_war_support > 0.79
+                }
+                AND = {
+                    has_government = valkist
+                    has_war_support > 0.85
+                }
+            }
+        }
+        visible = {
+            has_war = yes
+        }
+
+        fire_only_once = no
+
+		days_remove = 180
+
+		cost = 50
+
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 150
+				factor = 0 #use as pp dump
+			}
+		}
+
+		remove_effect = {
+			#
+		}
+
+		complete_effect = {
+			#
+		}
+	}
+}
+
+
+#foreign_politics = {
+#	object_to_attaches = {
+#
+#		allowed = {
+#           always = yes
+#       }
+#
+#       cost = 50
+#       fire_only_once = no
+#
+#       days_re_enable = 30
+#
+#       available = {
+#       }
+#
+#       visible = {
+#       	FROM = {
+#       		NOT = { has_country_flag = rejected_withdrawing_attache }
+#       		NOT = { has_country_flag = rejected_withdrawing_attache@ROOT }
+#       	}
+#       	has_war = yes
+#       	NOT = { has_war_with = FROM }
+#       	any_enemy_country = {
+#				has_attache_from = FROM
+#			}
+#		}
+#
+#		target_trigger = {
+#			NOT = { has_war_with = FROM }
+#			#FROM = { has_sent_attache = yes } # Make such trigger to optimize if it becomes a performance problem again.
+#			any_enemy_country = {
+#				has_attache_from = FROM
+#			}			
+#		}
+#
+#       complete_effect = {
+#			FROM = { country_event = { id = generic.14 hours = 6 } }
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#}

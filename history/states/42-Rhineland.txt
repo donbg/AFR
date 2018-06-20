@@ -1,0 +1,33 @@
+
+state={
+	id=42
+	name="STATE_42"
+	manpower = 3027739
+	resources={
+		steel=59.0
+		aluminium=14.0
+	}
+	
+	state_category = metropolis
+
+	history={
+	victory_points = {
+			3423 5 
+		}
+
+		owner = RHI
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+
+		}
+		add_core_of = RHI
+
+	}
+
+	provinces={
+		563 3423 3558 9575 11531 11547 11560
+	}
+	
+	
+}

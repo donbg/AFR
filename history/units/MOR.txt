@@ -1,0 +1,125 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigade Coloniale"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Milice"			
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+##### OOB #####
+units = {
+	#Algeria Garrisons, transfer to France?
+	division= {	
+		name = "1ère Bge. d'Infanterie Algérienne"
+		location = 1145
+		division_template = "Brigade Coloniale" 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "2ème Bge. d'Infanterie Algérienne"
+		location = 1145
+		division_template = "Brigade Coloniale" 
+		start_experience_factor = 0.3
+
+	}
+	# attached directly to Army
+	division= {	
+		name = "7ème Bge. d'Infanterie Algérienne"
+		location = 7132
+		division_template = "Brigade Coloniale" 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "Groupement Cavalerie d'Algérienne"
+		location = 7132
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.3
+
+	}
+	#North Africa Proper
+	division= {	
+		name = "Division de Meknès"
+		location = 7069
+		division_template = "Brigade Coloniale" 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "Division de Fès"
+		location = 7100
+		division_template = "Brigade Coloniale" 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "Division de Marrakech"	
+		location = 7069
+		division_template = "Brigade Coloniale" 
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "Groupement de Maroc"
+		location = 7100
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.3
+
+	}
+	division= {	
+		name = "Division de Sousse"
+		location = 9994
+		division_template = "Brigade Coloniale" 
+		start_experience_factor = 0.3
+
+	}
+}

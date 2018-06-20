@@ -1,0 +1,78 @@
+﻿capital = 455
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 5
+set_stability = 0.45
+set_war_support = 0.45
+
+set_politics = {
+
+	parties = {
+		social_conservative = { 
+			popularity = 25
+		}
+
+		national_populist = {
+			popularity = 20
+		}
+		
+		collectivist = {
+			popularity = 5
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = { 
+			popularity = 50
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Hashim Kheir"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Saeed Ahmadi"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_fascism1.dds"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdullah bin al-Hussein"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_3.dds"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fu'ad Nassar"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_navy_2.dds"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}

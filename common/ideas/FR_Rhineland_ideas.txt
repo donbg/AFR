@@ -1,0 +1,774 @@
+############################
+# Rhineland Ideas
+############################
+# Made by CalvinSoul
+############################
+
+ideas = {
+##############
+# Country ideas
+##############
+	country = {
+
+		RHI_S_rhineland_coal = {
+			picture = state_economy
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.1
+				consumer_goods_factor = 0.10
+			}
+		}
+		RHI_S_political_powderkeg = {
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_gain = -1.25
+			}
+		}
+		RHI_S_rhenish_freikorps = {
+			picture = generic_fascism_drift_2
+			modifier = {
+				stability_factor = -0.1
+				collectivist_drift = -0.03
+				vanguardist_drift = -0.03
+				libertarian_socialist_drift = -0.01
+			}
+		}
+		RHI_S_melting_pot ={
+			picture = SOV_scientist_defect
+			#generic_flexible_foreign_policy2
+			modifier = {
+				stability_factor = -0.1
+				research_time_factor = -0.03
+			}
+		}
+		RHI_S_spectre_of_spartacists ={
+			picture = generic_collectivism_rising
+			modifier = {
+				stability_factor = -0.05
+				collectivist_drift = 0.03
+				vanguardist_drift = 0.03
+				libertarian_socialist_drift = 0.01
+			}	
+		}
+		RHI_S_einstein ={
+			picture = RHI_einstein
+			#generic_flexible_foreign_policy2
+			modifier = {research_time_factor = -0.01}
+			research_bonus = { nuclear = 0.20 }
+			
+		}
+	### Starting Trait Changes
+	RHI_S_integrated_freikorps = {
+			picture = generic_fascism_drift_2
+			modifier = {
+				stability_factor = -0.05
+				conscription = 0.01
+			}
+		}
+	RHI_S_legal_FAUR ={
+			picture = generic_collectivism_rising
+			modifier = {
+				stability_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.1
+			}	
+		}
+	RHI_S_melted_pot ={
+			picture = SOV_scientist_defect
+			#generic_flexible_foreign_policy2
+			modifier = {
+				stability_factor = -0.05
+				research_time_factor = -0.05
+			}
+		}
+	###Policy Bois Spirit Options
+		RHI_S_free_society ={
+			picture = generic_spy_intel
+			modifier = {
+				research_time_factor = -0.08
+				political_power_gain = -0.05
+			}	
+		}
+		RHI_S_limited_society ={
+			picture = generic_spy_intel
+			modifier = {
+				research_time_factor = -0.05
+			}	
+		}
+		RHI_S_secret_police ={
+			picture = generic_spy_intel
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.05
+			}	
+		}
+		RHI_S_police_state ={
+			picture = generic_spy_intel
+			modifier = {
+				research_time_factor = 0.03
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}	
+		}
+		
+	###Military Tree
+		RHI_S_disarmed = {
+			picture = FRA_factory_strikes
+			research_bonus = {
+				land_doctrine = -0.7
+				air_doctrine = -0.7
+				naval_doctrine = -0.7
+			}
+			
+			modifier = {
+			conscription = -0.005
+			production_factory_max_efficiency_factor = -0.4
+			production_factory_efficiency_gain_factor = -0.1
+			}
+			
+		}
+		RHI_S_army_doctrine_dispute = {
+			picture = german_advisors
+			research_bonus = {
+			land_doctrine = -0.5
+			}
+		}
+
+		RHI_S_forced_conscription{
+			picture= MON_conscript_conquered
+			modifier = {
+			conscription_factor= -0.25
+			attrition=0.1
+			army_org_Factor=-0.1
+			}
+		}
+		RHI_S_french_enlistment{
+			picture= YUG_all_yugoslavian_regiments
+			modifier = {
+			conscription_factor= -0.90
+			army_org_Factor=0.1
+			}
+		}
+		RHI_S_french_rhenish_union_army{
+			picture= generic_deal_with_the_devil2
+			modifier = {
+			conscription_factor= -0.1
+			army_morale_factor = -0.05
+			}
+		}
+		RHI_S_french_officers{
+			picture= advisors_natfrance
+			modifier = {
+			planning_speed= -0.1
+			max_planning= 0.25
+			}
+		}
+		RHI_S_rhenish_officers{
+			picture= generic_infantry_bonus
+			modifier = {
+			army_core_attack_factor=0.05
+			army_core_defence_factor=0.05
+			}
+		}
+		RHI_S_military_reorganization{
+			picture= guns_shield
+			modifier = {
+			planning_speed= -0.25
+			max_planning= -0.1
+			army_org_Factor=-0.1
+			}
+		}
+		RHI_S_rhenish_patriotic_army{
+			picture= FRA_national_mobilization_focus
+			modifier = {
+			army_morale_factor = 0.1
+			army_core_attack_factor=0.1
+			army_core_defence_factor=0.15
+			}
+		}	
+	####Doctrine Ideas
+		RHI_S_superior_firepower_1{
+			picture = generic_intel_bonus
+			modifier = {
+			army_artillery_attack_factor = 0.1
+			army_artillery_defence_factor = 0.1
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 0.1 instant = yes
+				}
+			}
+		}
+		RHI_S_superior_firepower_2{
+			picture = generic_intel_bonus
+			modifier = {
+			army_artillery_attack_factor = 0.25
+			army_artillery_defence_factor = 0.1
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic =0.05 instant = yes
+				}
+			}
+		}
+		RHI_S_defensive_doctrine_1{
+			picture = YUG_federal_defense_council
+			modifier = {
+			dig_in_speed_factor = 0.25
+			max_dig_in = 1
+			army_attack_factor = -0.1
+			}
+		}
+		RHI_S_defensive_doctrine_2{
+			picture = YUG_federal_defense_council
+			modifier = {
+			dig_in_speed_factor = 0.25
+			max_dig_in = 2
+			army_defence_factor=0.15
+			army_attack_factor = -0.05
+			}
+		}
+		RHI_S_trench_war_1{
+			picture = YUG_federal_defense_council
+			modifier = {
+			max_planning = 0.1
+			}
+		}
+		RHI_S_trench_war_2{
+			picture = YUG_federal_defense_council
+			modifier = {
+			max_planning = 0.15
+			planning_speed = 0.1
+			}
+		}
+		RHI_S_blitz_1{
+			picture = generic_acquire_tanks
+			modifier = {
+			planning_speed = 0.1
+			army_speed_factor = 0.10
+			}
+		}
+		RHI_S_blitz_2{
+			picture = generic_acquire_tanks
+			modifier = {
+			planning_speed = 0.25
+			army_speed_factor = 0.10
+			}
+		}
+		RHI_S_fort_production{
+			picture = generic_wall_line
+			modifier = {
+			production_speed_bunker_factor = 0.25
+			}
+		}
+##### Air Tree #####
+		RHI_S_air_doctrine_dispute = {
+			picture = generic_air_research
+			research_bonus = {
+			air_doctrine = -0.5
+			}
+		}
+		RHI_S_light_production = {
+			picture = generic_air_bonus
+			equipment_bonus = {
+				CAS_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		RHI_S_heavy_production = {
+			picture = generic_air_bonus
+			equipment_bonus = {
+				strat_bomber_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+#####Watch On The Rhine / Rhine Crisis Ideas#####
+		RHI_S_rhine_crisis = {
+			picture = great_depression
+			modifier = {
+				stability_factor = -0.1
+				production_speed_buildings_factor = -0.50
+				industrial_capacity_factory = -0.25
+				consumer_goods_factor = 0.30
+				valkist_drift = 0.075
+				national_populist_drift = 0.05
+				social_conservative_drift = 0.025
+				social_democrat_drift = 0.025
+			}
+		}
+		RHI_S_french_aid = {
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = -0.10
+			}
+		}
+		RHI_S_crisis_recovery = {
+			picture = great_depression
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.10
+				consumer_goods_factor = 0.10
+			}
+		}
+		FRA_S_rhine_relief = {
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+#####Gov Nat Spirits#####
+	RHI_S_ind_gov = {
+		picture = generic_morale_bonus
+		modifier = {
+				stability_factor = 0.1
+				conscription = 0.01
+			}
+		}
+	RHI_S_aut_gov = {
+		picture = generic_victors_of_ww1
+		modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+	RHI_S_man_gov = {
+		picture = FRA_scw_intervention_nationalists_focus
+		modifier = {
+				stability_factor = 0.05
+				political_power_cost = -0.05
+			}
+		}
+	RHI_S_val_gov = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+				stability_factor = 0.05
+				conscription = 0.03
+			}
+		}
+#####Economic Spirits#####
+	###Dorner
+	RHI_S_autarky = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			consumer_goods_factor= -0.1
+		}
+	}
+	RHI_S_fund_industry = { ###Temporary
+		picture = generic_deal_with_the_devil
+		modifier = {
+			production_speed_infrastructure_factor = 0.25
+			production_speed_industrial_complex_factor = 0.1
+		}
+	}
+	RHI_S_autarky_corporate = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			consumer_goods_factor= -0.1
+			production_factory_efficiency_gain_factor = 0.1
+		}
+	}
+	RHI_S_autarky_populist = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			consumer_goods_factor= -0.07
+			stability_factor = 0.1
+		}
+	}
+	###Matthes
+	RHI_S_welfare_state = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			consumer_goods_factor= -0.05
+			stability_factor = 0.1
+		}
+	}
+	RHI_S_employment_projects = { ###Temporary
+		picture = generic_deal_with_the_devil
+		modifier = {consumer_goods_factor= -0.10}
+	}
+	RHI_S_welfare_state_full_1 = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			consumer_goods_factor= -0.05
+			stability_factor = 0.1
+			political_power_gain = 0.1
+		}
+	}
+	RHI_S_welfare_state_limited_1 = {
+		picture = generic_deal_with_the_devil
+		modifier = { 
+			consumer_goods_factor= -0.08
+			stability_factor = 0.1
+		}
+	}
+	RHI_S_welfare_state_full_2 = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			consumer_goods_factor= -0.05
+			stability_factor = 0.1
+			political_power_gain = 0.1
+			production_speed_industrial_complex_factor = 0.1
+		}
+	}
+	RHI_S_welfare_state_limited_2 = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			consumer_goods_factor= -0.08
+			stability_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+		}
+	}
+	###Konrad
+	RHI_S_cooperation_1 = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			min_export = 0.15
+		}
+	}
+	RHI_S_cooperation_2 = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			production_speed_industrial_complex_factor = 0.15
+			production_speed_infrastructure_factor = 0.25
+			min_export = 0.2
+		}
+	}
+	RHI_S_cooperation_free = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			production_speed_industrial_complex_factor = 0.15
+			production_speed_infrastructure_factor = 0.25
+			min_export = 0.1
+		}
+	}
+	RHI_S_cooperation_limited = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			production_speed_industrial_complex_factor = 0.2
+			production_speed_infrastructure_factor = 0.3
+			min_export = 0.25
+		}
+	}
+	RHI_S_Wirtschaftswunder = { ###Temporary
+		picture = generic_deal_with_the_devil
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.25
+			production_factory_start_efficiency_factor = 0.1
+			local_resources_factor = 0.1
+			production_speed_buildings_factor = 0.1
+		}
+	}
+	###Mandate
+	RHI_S_strict_economy ={
+		picture = generic_deal_with_the_devil
+		modifier = {
+			production_factory_efficiency_gain_factor = -0.1
+			local_resources_factor = 0.25
+		}
+	}
+	RHI_S_french_workers ={###Temporary
+		picture = generic_deal_with_the_devil
+		modifier = {
+			consumer_goods_factor = -0.15
+			production_speed_buildings_factor = 0.2
+			political_power_gain = -0.25
+		}
+	}
+	RHI_S_strict_economy_2 ={
+		picture = generic_deal_with_the_devil
+		modifier = {
+			production_factory_efficiency_gain_factor = -0.05
+			local_resources_factor = 0.3
+		}
+	}
+	###Research
+	RHI_S_tall_research = {
+		picture = generic_deal_with_the_devil
+		modifier = {
+			research_time_factor = -0.1
+		}
+	}
+}
+#############
+# Ministers #
+#############
+### Head of Government
+head_of_government = {	#Original Gov
+	RHI_Paul_Tirard_hog = {	#Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government authoritarian_democrat hog_silent_workhorse}
+		cancel_if_invalid = no
+	}
+
+###Autonomous gov
+	RHI_Josef_Friedrich_Matthes_hog = { #Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government social_democrat hog_flamboyant_tough_guy}
+		cancel_if_invalid = no
+	}
+
+###Provisional Gov
+	RHI_Hans_Adam_Dorten_hog = { #Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government national_populist hog_freikorps_veteran}
+		cancel_if_invalid = no
+	}
+	###Nationalist Gov
+	RHI_Otto_Lichtschlag_hog = { #Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government national_populist hog_freikorps_veteran}
+		cancel_if_invalid = no
+	}
+	###SuccDem Gov
+	RHI_Kurt_Tucholsky_hog = { #Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = can_replace_hog
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {head_of_government social_democrat hog_charismatic_charmer}
+		cancel_if_invalid = no
+	}
+}
+### Foreign Minister
+foreign_minister = {###Original Gov
+	RHI_William_Seeds_for = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {foreign_minister authoritarian_democrat for_great_compromiser}
+		cancel_if_invalid = no
+	}
+
+###Provisional Gov
+	RHI_Kurt_Tucholsky_for = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {foreign_minister social_democrat for_biased_intellectual}
+		cancel_if_invalid = no
+	}
+###Nationalist Gov 
+	RHI_Theodor_Reismann-Grone_for = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {foreign_minister national_populist for_ideological_crusader}
+		cancel_if_invalid = no
+	}
+###Succdem
+	RHI_Walter_Kreiser_for = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {foreign_minister social_democrat for_biased_intellectual}
+		cancel_if_invalid = no
+	}
+}
+	###Gunter d'Alquen (Natpop)
+### Economic Minister
+economy_minister = {###Original Gov
+	RHI_EF_Schumacher_eco = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {economy_minister authoritarian_democrat eco_keynesian_economy}
+		cancel_if_invalid = no
+	}
+	###Provisional Gov
+	RHI_Franz_Blucher_eco = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {economy_minister social_conservative eco_bank_president}
+		cancel_if_invalid = no
+	}
+	###Nationalist
+	RHI_Emil_Kirdorf_eco = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {economy_minister national_populist eco_industrialiser}
+		cancel_if_invalid = no
+	}
+	###Succdem
+	RHI_Walt_Kolb_eco = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_country_flag = ministers_cannot_be_replaced}
+		}
+		traits = {economy_minister social_democrat eco_bank_president}
+		cancel_if_invalid = no
+	}
+}
+	##Franz Oppenhoff
+### Security Minister
+security_minister = { ###Original Gov
+		RHI_Karl_von_Starck_sec = { #Auto-Generated
+			allowed = {original_tag = RHI}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {security_minister authoritarian_democrat sec_man_of_the_people}
+			cancel_if_invalid = no
+		}
+		###Provisional Gov
+		RHI_Wilhelm_Rombach_sec = { #Auto-Generated
+			allowed = {original_tag = RHI}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {security_minister social_conservative sec_silent_lawyer}
+			cancel_if_invalid = no
+		}
+	#Nationalist
+		RHI_Walter_Lichtschlag_sec = { #Auto-Generated
+			allowed = {original_tag = RHI}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {security_minister national_populist sec_health_and_safety}
+			cancel_if_invalid = no
+		}
+	#Succdem
+		RHI_Georg_Buch_sec = { #Auto-Generated
+			allowed = {original_tag = RHI}
+			available = {
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {security_minister social_democrat sec_man_of_the_people}
+			cancel_if_invalid = no
+		}
+}
+
+### Intelligence Minister
+
+### Chief of Staff
+chief_of_staff = { ###Original Gov
+	RHI_Charles_Mangin_cos = {
+		allowed = {original_tag = RHI}
+		available = {
+			NOT = {has_global_flag = RHI_F_independent}
+			NOT = {has_country_flag = RHI_F_rhenish_officers}
+		}
+		traits = {chief_of_staff cos_school_of_defence}
+			cancel_if_invalid = yes
+		}
+	RHI_Heinrich_Vietinghoff_cos = {
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = RHI_F_rhenish_officers
+		}
+		traits = {chief_of_staff cos_school_of_psychology}
+			cancel_if_invalid = yes
+		}
+	RHI_Ernst_Busch_cos = {
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = RHI_F_rhenish_officers
+		}
+		traits = {chief_of_staff cos_school_of_mass_combat}
+			cancel_if_invalid = yes
+		}
+	}
+### Chief of Army
+chief_of_army = {
+	RHI_L_S_Kleinmann_carm = {#Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = RHI_F_french_officers
+		}
+		traits = {chief_of_army  carm_guns_and_butter_doctrine}
+		cancel_if_invalid = yes
+		}
+	RHI_Otto_Lichtschlag_carm = {#Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_global_flag = RHI_F_independent
+		}
+		traits = {chief_of_army  carm_elastic_defence_doctrine}
+		cancel_if_invalid = yes
+		}
+	RHI_S_F_Luttwitz_carm = {#Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = RHI_F_rhenish_officers
+		}
+		traits = {chief_of_army  carm_decisive_battle_doctrine}
+		cancel_if_invalid = yes
+		}
+	RHI_K_A_Hollidt_carm = {#Auto-Generated
+		allowed = {original_tag = RHI}
+		available = {
+			has_country_flag = RHI_F_rhenish_officers
+		}
+		traits = {chief_of_army  carm_elastic_defence_doctrine}
+		cancel_if_invalid = yes
+		}
+	}
+### Chief of Air
+chief_of_air_force = { ### Chief of Air Force ###
+		RHI_Gunther_Korten_cair = { #Auto-Generated
+			allowed = {original_tag = RHI}
+			available = {
+				has_country_flag = RHI_F_rhenish_officers
+			}
+			traits = {chief_of_air_force cair_air_superiority_doctrine}
+			cancel_if_invalid = yes
+		}
+	RHI_Adolf_Galland_cair = { #Auto-Generated
+			allowed = {original_tag = RHI}
+			available = {
+				has_country_flag = RHI_F_rhenish_officers
+			}
+			traits = {chief_of_air_force cair_battlefield_support_doctrine}
+			cancel_if_invalid = yes
+		}
+	}
+	air_naval_manufacturer = {
+	designer = yes
+	
+	Baumer_Aero = {
+		allowed = {
+			original_tag = RHI
+		}
+		traits = {
+			fighter_producer_defense_2
+		}
+		research_bonus = {
+			air_equipment = 0.1
+		}
+		modifier = {}
+	}
+}

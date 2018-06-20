@@ -1,0 +1,235 @@
+﻿capital = 6
+
+oob = "BEL_1936"
+
+set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	early_fighter = 1
+
+}
+
+add_ideas = {
+	BEL_Paul_van_Zeeland_hog_sco
+	BEL_Paul_Hymans_for_mli
+	BEL_Jules_Destree_eco_sde
+	BEL_Frans_van_Cauwelaert_sec_sco
+	BEL_pillarized_society
+	BEL_national_unity_government
+}
+
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 7
+		}
+		libertarian_socialist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 36
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 12
+		}
+		social_conservative = {
+			popularity = 40
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 4
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+
+set_convoys = 80
+set_stability = 0.70
+set_war_support = 0.30
+
+create_country_leader = {
+	name = "King Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_Albert_I.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Paul-Emile Janson"
+	desc = "POLITICS_PAUL_EMILE_JANSON_DESC"
+	picture = "Portrait_Belgium_Paul_Emile_Janson.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Paul-Henri Spaak"
+	desc = "POLITICS_PAUL_HENRI_SPAAK_DESC"
+	picture = "Portrait_Belgium_Paul_Henri_Spaak.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Léonie La Fontaine"
+	desc = "POLITICS_Léonie_La_Fontaine_DESC"
+	picture = "Portrait_Belgium_Leonie_La_Fontaine.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Léon Degrelle"
+	desc = "POLITICS_LEON_DEGRELLE_DESC"
+	picture = "Portrait_Belgium_Leon_Degrelle.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Jacquemotte"
+	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
+	picture = "Portrait_Belgium_Joseph_Jacquemotte.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Julien Lahaut"
+	desc = "POLITICS_JULIEN_LAHAUT_DESC"
+	picture = "Portrait_Belgium_Julien_Lahaut.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Jacquemotte"
+	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
+	picture = "Portrait_Belgium_Joseph_Jacquemotte.dds"
+	expire = "1965.1.1"
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hendrik de Man"
+	desc = "POLITICS_HENDRIK_DE_MAN_DESC"
+	picture = "Portrait_Belgium_Hendrik_de_Man.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "Staf de Clercq"
+	desc = "POLITICS_STAF_DE_CLERCQ_DESC"
+	picture = "Portrait_Belgium_Staf_de_Clercq.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joris van Severen"
+	desc = "POLITICS_JORIS_VAN_SEVEREN_DESC"
+	picture = "Portrait_Belgium_Joris_van_Severen.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Staf de Clercq"
+	desc = "POLITICS_STAF_DE_CLERCQ_DESC"
+	picture = "Portrait_Belgium_Staf_de_Clercq.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joris van Severen"
+	desc = "POLITICS_JORIS_VAN_SEVEREN_DESC"
+	picture = "Portrait_Belgium_Joris_van_Severen.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "M.C.L. Keyaerts"
+	picture = "Portrait_M_C_L_Keyaerts.dds"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Georges Timmermans"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+	traits = { seawolf }
+	skill = 4
+}

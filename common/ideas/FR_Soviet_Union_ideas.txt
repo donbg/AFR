@@ -1,0 +1,30 @@
+######################
+# Soviet Union Ideas #
+######################
+# Made by mop #
+###############
+
+
+ideas = {
+#################
+# Country Ideas #
+#################
+	country = {
+	}
+#############
+# Ministers #
+#############
+
+#######################
+# Head of Governments #
+#######################
+head_of_government = { #Original government
+		SOV_Mikhail_Kalinin_hog = {
+				allowed = {original_tag = SOV}
+				avalible = {
+					has_country_flag = can_replace_hog
+					NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			
+		}
+}

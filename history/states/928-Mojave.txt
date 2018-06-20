@@ -1,0 +1,21 @@
+
+state={
+	id=928
+	name="STATE_928"
+	manpower = 351018
+	
+	state_category = pastoral
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+		
+	}
+
+	provinces={
+		9855 10483 11795 12303 941 10387 4657 1651 7667 11763 
+	}
+}

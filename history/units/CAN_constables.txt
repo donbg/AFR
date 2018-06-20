@@ -1,0 +1,59 @@
+﻿division_template = {
+	name = "RCCF Non-Civil Detachment"  
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+ 		military_police = { x = 0 y = 0 }
+    }
+    priority = 0
+}
+
+units = {
+
+	#### RCCF Detachments ####
+
+	division= {	
+		name = "2nd RCCF Non-Civil Detachment"
+		location = 3775 # Toronto ONT
+		division_template = "RCCF Non-Civil Detachment" 
+		start_experience_factor = 0.4
+
+	}
+
+	division= {	
+		name = "4th RCCF Non-Civil Detachment"
+		location = 4345 # Montreal QBC
+		division_template = "RCCF Non-Civil Detachment" 
+		start_experience_factor = 0.4
+
+	}
+
+	division= {	
+		name = "1st RCCF Non-Civil Detachment"
+		location = 4872  # Winnepeg
+		division_template = "RCCF Non-Civil Detachment" 
+		start_experience_factor = 0.4
+
+	}
+
+	division= {	
+		name = "7th RCCF Non-Civil Detachment"
+		location = 12603  # Regina SASK
+		division_template = "RCCF Non-Civil Detachment" 
+		start_experience_factor = 0.4
+
+	}	
+
+	division= {	
+		name = "18th RCCF Non-Civil Detachment"
+		location = 3706  # Calgary ALB
+		division_template = "RCCF Non-Civil Detachment" 
+		start_experience_factor = 0.4
+
+	}	
+
+}

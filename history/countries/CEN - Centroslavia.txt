@@ -1,0 +1,247 @@
+﻿capital = 75
+
+oob = "CEN"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+
+add_ideas = {
+	CEN_failed_state
+	CEN_nationalist_unrest
+	GEN_James_Smith_hog_sco
+	GEN_Charlie_Baker_for_sco
+	GEN_Sam_Morris_eco_sco
+	GEN_Oscar_Morgan_sec_sco
+}
+
+set_research_slots = 3
+set_stability = 0.40
+set_war_support = 0.30
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 5
+		}
+		social_democrat = {
+			popularity = 20
+		}
+		social_liberal = {
+			popularity = 30
+		}
+		market_liberal = {
+			popularity = 5
+		}
+		social_conservative = {
+			popularity = 40
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1934.6.12"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+
+create_country_leader = {
+	name = "Karel Kramář"
+	desc = "POLITICS_KAREL_KRAMAR_DESC"
+	picture = "Portrait_CEN_Karel_Kramar.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Andrej Hlinka"
+	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
+	picture = "Portrait_CEN_Jaroslav_Krejci.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Klement Gottwald"
+	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
+	picture = "Portrait_CEN_Klement_Gottwald.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Klement Gottwald"
+	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
+	picture = "Portrait_CEN_Klement_Gottwald.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Radoja Gajda"
+	desc = "POLITICS_RADOLA_GAJDA_DESC"
+	picture = "Portrait_CEN_Radola_Gajda.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Zdeněk Nejedlý"
+	desc = "POLITICS_ZDENEK_NEJEDLY_DESC"
+	picture = "Portrait_CEN_Nejedly.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Zdeněk Nejedlý"
+	desc = "POLITICS_ZDENEK_NEJEDLY_DESC"
+	picture = "Portrait_CEN_Nejedly.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Emil Hácha"
+	desc = "POLITICS_EMIL_HACHA_DESC"
+	picture = "Portrait_CEN_Hacha.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Milan Hodža"
+	desc = "POLITICS_MILAN_HODZA_DESC"
+	picture = "Portrait_CEN_Milan_Hodza.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Milan Hodža"
+	desc = "POLITICS_MILAN_HODZA_DESC"
+	picture = "Portrait_CEN_Milan_Hodza.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_field_marshal = {
+	name = "Vojtěch Luža"
+	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
+	traits = { fast_planner offensive_doctrine }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Josef Šnejdárek"
+	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
+	traits = { thorough_planner defensive_doctrine }
+	skill = 3
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Richard Tesařík"
+	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
+	traits = { panzer_leader }
+	skill = 2
+	attack_skill = 3
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 2
+	id = 6969
+}
+
+create_corps_commander = {
+	name = "Sergej Vojcechovský"
+	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
+	traits = { winter_specialist }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+	id = 6666
+}
+
+#if = {
+#	limit = {
+#		has_dlc = "Death or Dishonor"
+#	}
+#	add_ideas = {
+#		CZE_skoda_works
+#		CZE_divided_nation
+#}
+#	give_guarantee = YUG
+#	give_guarantee = ROM
+#}
+#
+#if = {
+#	limit = {
+#		NOT = { has_dlc = "Death or Dishonor" }
+#	}
+#	add_ideas = {
+#		CZE_fortification_focus
+#	}
+#

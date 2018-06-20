@@ -1,0 +1,8 @@
+﻿units = {
+	navy = {	
+		name = "Sabrdzolo Gemi"
+		base = 3653
+		location = 3653 # Batumi
+		ship = { name = "Sabrdzolo Gemi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GEO } } }		
+	}
+}

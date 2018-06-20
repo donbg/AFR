@@ -1,0 +1,6 @@
+#Sudan
+
+graphical_culture = middle_east_gfx
+graphical_culture_2d = western_european_2d
+
+color = RGB { 207  219  64 }

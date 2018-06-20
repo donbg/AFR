@@ -1,0 +1,262 @@
+﻿capital = 408
+
+oob = "INF"
+
+add_ideas = {
+	FER_cossack_mil
+	GEN_Hugo_Bernard_hog_sli
+	GEN_Felix_Menard_for_sli
+	GEN_Francis_Morel_eco_sli
+	GEN_Baptiste_Sartre_sec_sli
+}
+
+set_technology = {
+	
+	#### Navy ####
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	basic_light_cruiser = 1
+	basic_destroyer = 1
+	#### Tanks ####
+	gwtank = 1
+	basic_light_tank = 1
+	#### INF ####
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1	
+	tech_engineers = 1
+	marines = 1
+	gw_artillery = 1
+	#### AIR ####
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	fighter1 = 1
+}
+
+set_research_slots = 3
+set_convoys = 30
+set_stability = 0.24
+set_war_support = 0.61
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 1
+		}
+		collectivist = {
+			popularity = 2
+		}
+		libertarian_socialist = {
+			popularity = 3
+		}
+		social_democrat = {
+			popularity = 5
+		}
+		social_liberal = {
+			popularity = 27
+		}
+		market_liberal = {
+			popularity = 6
+		}
+		social_conservative = {
+			popularity = 8
+		}
+		authoritarian_democrat = {
+			popularity = 10
+		}
+		paternal_autocrat = {
+			popularity = 13
+		}
+		national_populist = {
+			popularity = 23
+		}
+		valkist = {
+			popularity = 2
+		}
+	}
+	
+	ruling_party = social_liberal
+	last_election = "1922.12.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Grigory Semyonov"
+	desc = "POLITICS_GRIGORY_SEMYONOV_DESC"
+	picture = "portrait_FER_Grigory_Mikhaylovich_Semyonov.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Grigory Semyonov"
+	desc = "POLITICS_GRIGORY_SEMYONOV_DESC"
+	picture = "portrait_FER_Grigory_Mikhaylovich_Semyonov.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Grigory Semyonov"
+	desc = "POLITICS_GRIGORY_SEMYONOV_DESC"
+	picture = "portrait_FER_Grigory_Mikhaylovich_Semyonov.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Mikhail Diterikhs"
+	desc = "POLITICS_MIKHAIL_DITERIKHS_DESC"
+	picture = "Portrait_FER_Mikhail_Diterikhs.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nikolay Nikolayevich Romanov"
+	desc = "POLITICS_NIKOLAY_ROMANOV_DESC"
+	picture = "Portrait_FER_Nikolay_Romanov.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Yuri Hlushko-Mova"
+	desc = "POLITICS_YURI_H-M_DESC"
+	picture = "Portrait_FER_Yuri_Hlushko-Mova.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Grigori Rasputin"
+	desc = "POLITICS_GRIGORI_RASPUTIN_DESC"
+	picture = "Portrait_FER_Grigori_Rasputin.tga"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		
+	}
+}
+
+### Field Marshal
+### Corps Commander
+create_field_marshal = {
+	name = "Anatoly Pepelyaev"
+	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Pepelyaev.tga"
+	traits = {
+	}
+	skill = 2
+}
+
+###create_field_marshal = { 
+#	name = "Grigory Semyonov"
+#	portrait_path = "gfx/leaders/TRM/Portrait_Transamur_Grigory_Semyonov.tga"
+#	traits = {
+#	}
+#	skill = 2
+#}
+
+###create_corps_commander = { 
+#	name = "Sergey Baranovsky"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Baranovsky.tga"
+#	traits = {
+#	}
+#	skill = 2
+#}
+
+###create_corps_commander = { 
+#	name = "Mikhail Khanzhin"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Khanzhin.tga"
+#	traits = {
+#		old_guard
+#	}
+#	skill = 1
+#}
+
+###create_corps_commander = { 
+#	name = "Dmitry Semenov"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Semenov.tga"
+#	traits = {
+#	}
+#	skill = 2
+#}
+
+###create_corps_commander = { 
+#	name = "Vladimir Gulidov"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Gulidov.tga"
+#	traits = {
+#	}
+#	skill = 2
+#}
+
+###create_corps_commander = { 
+#	name = "Vladimir Tolstov"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Tolstov.tga"
+#	traits = {
+#	}
+#	skill = 2
+#}
+
+###create_corps_commander = { 
+#	name = "Leonid Skipetrov"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Skipetrov.tga"
+#	traits = {
+#		commando
+#	}
+#	skill = 3
+#}
+
+###create_corps_commander = { 
+#	name = "Vasiliy Boldyrev"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Boldyrev.tga"
+#	traits = {
+#	}
+#	skill = 3
+#}
+
+### Navy Leader
+###create_navy_leader = { 
+#	name = "Georgy Stark"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Stark.tga"
+#	traits = {
+#	}
+#	skill = 3
+#}
+
+###reate_navy_leader = { 
+#	name = "Aleksandr Gerasimov"
+#	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Gerasimov.tga"
+#	traits = {
+#	}
+#	skill = 1
+#}
+

@@ -1,0 +1,202 @@
+﻿capital = 266
+
+oob = "PER_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_convoys = 10
+set_stability = 0.58
+set_war_support = 0.48
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 8
+		}
+		libertarian_socialist = {
+			popularity = 5
+		}
+		social_democrat = {
+			popularity = 19
+		}
+		social_liberal = {
+			popularity = 7
+		}
+		market_liberal = {
+			popularity = 4
+		}
+		social_conservative = {
+			popularity = 10
+		}
+		authoritarian_democrat = {
+			popularity = 2
+		}
+		paternal_autocrat = {
+			popularity = 38
+		}
+		national_populist = {
+			popularity = 4
+		}
+		valkist = {
+			popularity = 3
+		}
+	}
+
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	#limited_conscription
+	free_trade
+	
+	PER_british_influence_iran_idea
+	PER_underground_revolutionaries_idea
+	PER_primitive_military_idea
+}
+
+create_country_leader = {
+	name = "Davud Monshizadeh"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "PER_NATPOP.tga"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fazlollah Zahedi"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Portrait_Fazlollah_Zahedi.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Reza Khan"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "PER_AUTDEM.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ahmad Qavam"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Portrait_Ahmad_Qavam.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ahmad Qavam"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Portrait_Ahmad_Qavam.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mohammad Ali Foroughi"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "PER_AUTDEM.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ali Dashti"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "PER_AUTDEM.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mohammad Mosaddegh"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "PER_AUTDEM.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mostafa Fateh"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Iraj Eskandari"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "Portrait_Iraj_Eskandari.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Iraj Eskandari"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "Portrait_Iraj_Eskandari.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+#create_country_leader = {
+#	name = "Mohammad Hassan Mirza"
+#	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+#	picture = "PER_PATAUT.tga"
+#	expire = "1965.1.1"
+#	ideology = paternal_autocrat_subtype
+#	traits = {
+#		#
+#	}
+#}
+

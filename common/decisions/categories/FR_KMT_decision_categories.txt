@@ -1,0 +1,5 @@
+KMT_seize_ports = {
+	allowed = {
+		original_tag = KMT
+	}
+}

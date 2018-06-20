@@ -1,0 +1,450 @@
+﻿l_english:
+
+SOV_FUHRERREICH_DESC:0 "After their loss in the Great War, the Russian Empire fell into civil war and the collectivist Bolshevik party soon found itself as the ruler of Russia. That power was eventually disputed by anarchist sailors in Kronstadt, who rose up to fight authoritarianism in the nation. The uprising was a success and a majority of the old Bolsheviks resigned as a more democratic form of socialism was implemented- Libertarian Socialism, where the workers are truly in control. The beacon of socialism worldwide charges headfirst into an unknown future, threatened by Polish ambitions and even by revengeful old Bolsheviks..."
+
+#### Traits ####
+popular_figurehead:0 "Popular Figurehead"
+
+#### Political Parties ####
+
+SOV_vanguardist_party:0 "SNRP" #RKP(V)
+SOV_vanguardist_party_long:0 "Sovetskaya Narodno-Revolyutsionnaya Partiya" #Rossiyskaya Kollektivistskaya Partiya (Vanguardists)
+SOV_collectivist_party:0 "SRKYPMK"
+SOV_collectivist_party_long:0 "Sovetskaya Raboche-Krest'yanskaya Partiya Marxistov-Kollectivistov"
+SOV_libertarian_socialist_party:0 "RKP" #RKP(L)
+SOV_libertarian_socialist_party_long:0 "Rossiyskaya Kollektivistskaya Partiya" #Rossiyskaya Kollektivistskaya Partiya (Libertarians)
+SOV_social_democrat_party:0 "SRs"
+SOV_social_democrat_party_long:0 "Partiya Socialistov Reformatorov"
+SOV_social_liberal_party:0 "Kadets"
+SOV_social_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
+SOV_market_liberal_party:0 "Vozobnovleniya"
+SOV_market_liberal_party_long:0 "Partiya Mirnogo Vozobnovleniya"
+SOV_social_conservative_party:0 "Romanov Restorationists"
+SOV_social_conservative_party_long:0 "Romanov Restorationists (Constitutionalists)"
+SOV_authoritarian_democrat_party:0 "Technocratic Union of Soviet Workers"
+SOV_authoritarian_democrat_party_long:0 "Technocratic Union of Soviet Workers and Engineers"
+SOV_paternal_autocrat_party:0 "Romanov Restorationists"
+SOV_paternal_autocrat_party_long:0 "Romanov Restorationists (Absolutists)"
+SOV_national_populist_party:0 "RSV"
+SOV_national_populist_party_long:0 "Russian Salvation Union"
+SOV_valkist_party:0 "Smenovekhovtsy"
+SOV_valkist_party_long:0 "Smenovekhovtsy"
+
+###############
+#### IDEAS ####
+###############
+
+SOV_Bread:0 "Bread!"
+SOV_Bread_desc:0 "The first ideal of our nation is that of bread. We shall respect the welfare and freedoms of our people."
+###
+SOV_Peace:0 "Peace!"
+SOV_Peace_desc:0 "The second ideal of our nation is that of peace. No longer shall the Soviet war machine turn, for the good of the people and the state."
+###
+SOV_Labour:0 "Labour!"
+SOV_Labour_desc:0 "The third ideal of our nation is that of labour. The Soviet Union is still in a sorry undeveloped state due to weak industry. We shall build our nation with welfare-based 5 Year Plans and industrialize into a modern nation."
+###
+SOV_legacy_red_calvary:0 "Legacy of the Red Calvary"
+SOV_legacy_red_calvary_desc:0 "The Red Calvary no longer plays a small role in our military, but their legacy lives on and inspires our men."
+SOV_red_knights:0 "Red Knights"
+###
+SOV_ukraine_unrest:0 "Ukrainian Independance Movement"
+SOV_ukraine_unrest_desc:0 "The Ukrainian government has begun to take steps towards independance, and are refusing to enter negotiations with us. We may have to allow Ukraine to go on their own if we are to avoid a war with our fellow socialists."
+###
+SOV_centralize_union:0 "Centralize the Union"
+SOV_centralize_union_desc:0 ""
+###
+SOV_decentralize_union:0 "Decentralize the Union"
+SOV_decentralize_union_desc:0 ""
+###
+AZR_sov_influence:0 "Soviet Influence in our politics"
+###
+SOV_west_shield:0 "Western Shield"
+SOV_west_shield_desc:0 "The Russian Détente policy has awarded our nation more self rule. We now have the opputunity to develop socialism that best deals with the specific issues that the average [GetAdjective] citizen faces."
+###
+SOV_south_hegemony:0 "Participating in Islamic Socialism Council"
+SOV_south_hegemony_desc:0 ""
+###
+SOV_less_union:0 "Dencralization of the Union"
+SOV_less_union_desc:0 ""
+###
+SOV_red_fin:0 "Legacy of Finnish SSR"
+SOV_red_fin_desc:0 ""
+###
+SOV_recovery_plan:0 "Collapse of the Union"
+SOV_recovery_plan_desc:0 "The USSR is facing total political collapse, we must take drastic measures if we are to avoid the end of socialism in Russia."
+###
+SOV_eternal:0 "A Union Eternal"
+SOV_eternal_desc:0 ""
+###
+SOV_industry_focus:0 "Industrial Focus"
+SOV_industry_focus_desc:0 ""
+###
+SOV_industry_focus2:0 "Industrial Focus"
+SOV_industry_focus2_desc:0 ""
+###
+SOV_industry_focus3:0 "Industrial Focus"
+SOV_industry_focus3_desc:0 ""
+###
+SOV_civil_war:0 "Russian Civil War"
+SOV_civil_war_desc:0 "The Tratiorous white forces have risen up in rebellion against us, we must rally together our scattered forces if we are to have a chance at victory."
+###
+SOV_rally_people:0 "Rally the people"
+SOV_rally_people_desc:0 ""
+###
+SOV_russian_intergration:0 "Russian Intergration"
+SOV_russian_intergration_desc:0 ""
+
+###############
+### FOCUSES ###
+###############
+
+SOV_future_union:0 "The Future of The Union"
+SOV_future_union_desc:0 ""
+###
+SOV_call_congress:0 "Meeting of The Soviet Congress"
+SOV_call_congress_desc:0 ""
+###
+SOV_tight_union:0 "A Tighter Union"
+SOV_tight_union_desc:0 ""
+###
+SOV_caucus_focus:0 "Expand Caucasian Forts"
+SOV_caucus_focus_desc:0 ""
+###
+SOV_kazakh_focus:0 "Transfer Kazakh Industry"
+SOV_kazakh_focus_desc:0 ""
+###
+SOV_ukraine_focus:0 "Recruit Ukrainian Soldiers"
+SOV_ukraine_focus_desc:0 ""
+###
+SOV_belarus_focus:0 "Transfer Belarussian Air Wings"
+SOV_belarus_focus_desc:0 ""
+###
+SOV_south_consolidation:0 "Southern Consolidation"
+SOV_south_consolidation_desc:0 ""
+###
+SOV_west_consolidation:0 "Western Consolidation"
+SOV_west_consolidation_desc:0 ""
+###
+SOV_reform_ussr:0 "Reform the USSR"
+SOV_reform_ussr_desc:0 ""
+###
+SOV_strong_ssr:0 "Stregthen the SSRs"
+SOV_strong_ssr_desc:0 ""
+###
+SOV_belarusian_forts:0 "Expand Belarusian Forts"
+SOV_belarusian_forts_desc:0 ""
+###
+SOV_ukraine_corn:0 "Subsidize Ukrainian Corn"
+SOV_ukraine_corn_desc:0 ""
+###
+SOV_kazakh_claims:0 "Press Kazakh Southern Claims"
+SOV_kazakh_claims_desc:0 ""
+###
+SOV_influence_azerbaijan:0 "Influence Azerbaijan"
+SOV_influence_azerbaijan_desc:0 ""
+###
+SOV_west_shield:0 "Western Shield"
+SOV_west_shield_desc:0 ""
+###
+SOV_south_hegemony:0 "Southern Hegemony"
+SOV_south_hegemony_desc:0 ""
+###
+SOV_reform_union:0 "Reform The Union"
+SOV_reform_union_desc:0 ""
+###
+SOV_deadlock:0 "Political Deadlock"
+SOV_deadlock_desc:0 ""
+###
+SOV_salvage_union:0 "Salvage The Union"
+SOV_salvage_union_desc:0 ""
+###
+SOV_bye_caucus:0 "Abandon The Caucasus"
+SOV_bye_caucus_desc:0 ""
+###
+SOV_bye_ukraine:0 "Acknowledge Ukrainian Independence"
+SOV_bye_ukraine_desc:0 ""
+###
+SOV_bye_finland:0 "Surrender The Finnish SSR"
+SOV_bye_finland_desc:0 ""
+###
+SOV_union_eternal:0 "The Union Eternal"
+SOV_union_eternal_desc:0 ""
+###
+SOV_industry:0 "Soviet Industry"
+SOV_industry_desc:0 ""
+###
+SOV_expand_siberia:0 "Expand Trans-Siberian Railway"
+SOV_expand_siberia_dsec:0 ""
+###
+SOV_ural_factories:0 "Expand Ural Factories"
+SOV_ural_factories_desc:0 ""
+###
+SOV_stalingrad_arms:0 "Expand Volga Arms Factories"
+SOV_stalingrad_arms_desc:0 ""
+###
+SOV_woman_working:0 "Women in the workforce"
+SOV_woman_working_desc:0 ""
+###
+SOV_resources:0 "Caucasian Resource Extraction"
+SOV_resources_desc:0 ""
+###
+SOV_subsidies:0 "Industrial Subsidies"
+SOV_subsidies_desc:0 ""
+###
+SOV_caucasian_rails:0 "Expand Caucasian Railways"
+SOV_caucasian_rails_desc:0 ""
+###
+SOV_war_industry:0 "Wartime Industry"
+SOV_war_industry_desc:0 ""
+###
+SOV_emergency_forts:0 "Emergency Fortifications"
+SOV_emergency_forts_desc:0 ""
+###
+SOV_moscow_defense:0 "Moscow Defensive Preperations"
+SOV_moscow_defense_desc:0 ""
+###
+SOV_industry_convert:0 "Industrial Conversion"
+SOV_industry_convert_desc:0 ""
+###
+SOV_defense_act:0 "The Socialist Defense Act"
+SOV_defense_act_desc:0 ""
+###
+SOV_army_effort:0 "Army Reforms"
+SOV_army_effort_desc:0 ""
+###
+SOV_soldier_effort:0 "Soldier Councils"
+SOV_soldier_effort_desc:0 ""
+###
+SOV_equipment_effort:0 "Modernize Equipment"
+SOV_equipment_effort_desc:0 ""
+###
+SOV_arms_imports:0 "Arm Imports"
+SOV_arms_imports_desc:0 ""
+###
+SOV_recruitment:0 "Recruitment Propoganda"
+SOV_recruitment_desc:0 ""
+###
+SOV_motorization_effort:0 "Army Motorisation"
+SOV_motorization_effort_desc:0 ""
+###
+SOV_equipment_effort_2:0 "Equipment Research"
+SOV_equipment_effort_2_desc:0 ""
+###
+SOV_mechanization_effort:0 "Mechanized Warfare"
+SOV_mechanization_effort_desc:0 ""
+###
+SOV_equipment_effort_3:0 "Equipment Breakthrough"
+SOV_equipment_effort_3_desc:0 ""
+###
+SOV_armor_effort:0 "Armored Warfare"
+SOV_armor_effort_desc:0 ""
+###
+SOV_special_forces:0 "Special Forces"
+SOV_special_forces_desc:0 ""
+###
+SOV_officer_effort:0 "Appointed Officers"
+SOV_officer_effort_desc:0 ""
+###
+SOV_reform_officer_corps:0 "Reform Officer Corps"
+SOV_reform_officer_corps_desc:0 ""
+###
+SOV_reform_supply_lines:0 "Logistical Reforms"
+SOV_reform_supply_lines_desc:0 ""
+###
+SOV_national_training_school:0 "Unify Officer Training"
+SOV_national_training_school_desc:0 ""
+###
+SOV_doctrine_effort:0 "Studying the Russian Civil War"
+SOV_doctrine_effort_desc:0 ""
+###
+SOV_doctrine_effort_2:0 "Military Exercise"
+SOV_doctrine_effort_2_desc:0 ""
+###
+SOV_doctrine_effort_3:0 "War Games"
+SOV_doctrine_effort_3_desc:0 ""
+###
+SOV_mil_industrial_complex:0 "Requisition Factories For Military Use"
+SOV_mil_industrial_complex_desc:0 ""
+###
+SOV_aviation_effort:0 "National Airforce"
+SOV_aviation_effort_desc:0 ""
+###
+SOV_fighter_focus:0 "Air Superiority"
+SOV_fighter_focus_desc:0 ""
+###
+SOV_bomber_focus:0 "Strategic Bombing"
+SOV_bomber_focus_desc:0 ""
+###
+SOV_aviation_effort_2:0 "Modern Air Tactics"
+SOV_aviation_effort_2_desc:0 ""
+###
+SOV_CAS_effort:0 "Close Air Support"
+SOV_CAS_effort_desc:0 ""
+###
+SOV_rocket_effort:0 "Experimental Rockets"
+SOV_rocket_effort_desc:0 ""
+###
+SOV_NAV_effort:0 "Naval Aviation"
+SOV_NAV_effort_desc:0 ""
+###
+SOV_naval_effort:0 "Modern Dockyards"
+SOV_naval_effort_desc:0 ""
+###
+SOV_flexible_navy:0 "Flexible Tactics"
+SOV_flexible_navy_desc:0 ""
+###
+SOV_large_navy:0 "Power Projection"
+SOV_large_navy_desc:0 ""
+###
+SOV_submarine_effort:0 "Submarine Warfare"
+SOV_submarine_effort_desc:0 ""
+###
+SOV_cruiser_effort:0 "Screen Ships"
+SOV_cruiser_effort_desc:0 ""
+###
+SOV_destroyer_effort:0 "Anti-Submarine Strategy"
+SOV_destroyer_effort_desc:0 ""
+###
+SOV_capital_ships_effort:0 "Capital Ships"
+SOV_capital_ships_effort_desc:0 ""
+###
+SOV_bloated_bureaucracy:0 "Bloated Bureaucracy"
+SOV_bloated_bureaucracy_desc:0 "With the advent of the Centralization of the USSR, our Bureaucracy is struggling to administer everything so suddenly. It will take some time before we are able to properly govern everything directly."
+#### events ####
+soviet.1.d:0 "The old Tsarist regime was highly turbulent since the turn of the century, however the Great War put the final nail in the coffin of the Tsar, and later the Provisional Republic. Disastrous losses to the advancing German-Austrian Armies caused the precious little stability within Russia to plummet, shortly afterwards, the brutal conflict known as the Russian Civil War would develop. Many years of toil, struggle, and some luck had allowed Lenin and his Bolsheviks to establish themselves as the victors of the Russian Civil War. However, as the old saying goes, 'out of the frying pan and into the fire'.\n\nCountless years of war, death, and civil misery had led to the Krondstadt Rebellion which originated off the coast of Petrograd. With various other movements inspired by the Krondstadt rebellion beginning to spring up across the Union, Lenin acknowledged that if the matter was to be ignored, the USSR would soon find itself in Civil disarray.\n\nLenin accepted the terms of the so-called 'Krondstadt Ultimatum', and then resigned from the Party entirely. The RKP was transformed from an Authoritarian Bolshevik party into a relatively Liberal (by socialist standards) organization. Since then, Russia has seen herself on a clear path of liberalization and decentralization.\n\nToday, Russia stands as an isolated beacon of Socialism in an alien world. The following years will be decisive in deciding which role Russia will take on in the worldwide revolution, and which branch of Socialism she will subscribe to, but furthermore and perhaps of most importance would be the future of the Union itself."
+###
+soviet.15.d:0 "The face of Russian Politics has been drastically changed by the Krondstadt Ultimatum, and the RKP stands at the front as one of the most Liberal parties within the Union. The SRKYPMK stands as a broad organization of Leninists and Marxists, whilst the SNRP is highly authoritarian in nature, and follows Leon Trotsky's theories of permanent revolution.\n\nNonetheless, this election will shape the future of Russian Politics perhaps even more than the Krondstadt Ultimatum."
+###
+soviet.16.d:0 "An important matter of these elections are what each party plans to prioritze in Internal Development of Russia. The RKP plans to build new infrastructure to bind the nation together, and the SRKYPMK plans to expand the various industrial sectors of Russia. The SNRP however, advocates total militarization of industries."
+###
+soviet.17.d:0 "Female workers of the Soviet Union have worked for it's prosperity just as hard, if not harder, than their male counterparts. However, Bolshevik feminist Alexandra Kollontai claims that the Soviet Union is far from Marxist egalitarian ideals and suggests radical solutions to this issue. The topic has become particularly controversial in this election, and the various running parties seek to clearly assert their platforms concerning the matter."
+###
+soviet.18.d:0 ""
+###
+soviet.19.d:0 "The people of the Soviet Union are eager to spread their revolution following the years of recovery which was granted by the RKP's Liberalization. Even the RKP itself has become much more militant in nature, and the people of the union seek to carry the torch of revolution once more; however the RKP, SRKYPMK & the SNRP have different plans as to what our first steps onto the world stage should be."
+###
+soviet.20.d:0 "Civil Security has become an issue during this campaign due to a small surge in crime within the Union. Whilst not nessecarily a rampant issue, it's large enough for the citizens of the union to want change concerning the matter, however some citizens believe the matter is being overblown."
+###
+soviet.22.d:0 "It seems that during our election, we've run into the unfortunate circumstance of gridlock."
+###
+soviet.23.d:0 "During these elections, it seems the RKP has managed a clear majority over their competition."
+###
+soviet.24.d:0 "During these elections, it seems the SRKYPMK has managed a clear majority over their competition."
+###
+soviet.25.d:0 "During these elections, it seems the SNRP has managed a clear majority over their competition."
+###
+soviet.26.d:0 "As the RKP lost the election, the matter of the Chairman came into question. We are faced with the option to elect a Chairman of our own, or keep Kirov as the Chairman of the Union."
+###
+soviet.27.t:0 "Yagoda's Proposal - The Amurian Cossacks"
+soviet.27.d:0 "It has recently been reported that Cossacks from the Amur region in the Far Eastern Republic have oncea gain raided the Transsiberian Railroad, their attacks seem to be getting more and more frequent each year. It is well known that these men are loyal to the Far Eastern Republic and we belive that they are behind the attacks. Security offical Genrikh Yagoda recommends we strike back!"
+###
+soviet.27.a:0 "We are not ready for a war in the Far East yet. Reinforce the border to prevent future attacks."
+soviet.27.b:0 "There must be a diplomatic solution to this problem."
+soviet.27.c:0 "Comrade Yagoda is right. Raid their borders!"
+soviet.28.t:0 "Frunze’s Speech - The Final Day of the Summit"
+###
+###All-Russian Soviet Congress starts
+###
+soviet.29.t:0 "Meeting of the All-Russian Soviet Council"
+soviet.29.d:0 "The All-Russian Soviet Council has convened in Moscow for a discussion on the state of the union. The outcome of this meeting will determine the future of both the Third International and the Soviet Union. Should the congress fail, we may see a complete breakdown in the government along with mass dissent across our fellow SSRs."
+soviet.29.a:0 "Let us hope they reach a resolution."
+###
+#congress votes for centralization
+###
+soviet.30.t:0 "The Congress votes for centralization"
+soviet.30.d:0 ""
+soviet.30.a:0 "A stronger union, for a better future."
+###
+#congress votes for decentralization
+###
+soviet.31.t:0 "The Congress votes for decentralization"
+soviet.31.d:0 ""
+soviet.31.a:0 "Freedom for all, peace forever."
+###
+#congress fails to reach a resolution.
+###
+soviet.32.t:0 "The Congress fails to reach a resolution!"
+soviet.32.d:0 ""
+soviet.32.a:0 "This does not bode well..."
+###
+#Ukranian event, independance movement.
+###
+soviet.33.t:0 "The Russian Government is in shambles!"
+soviet.33.d:0 "The complete failiure of the Soviet Congress has led to complete political deadlock in Moscow, and the government is struggling to complete even the most basic of tasks. Internal strife and power struggles have completely occupied the Russians attention, and we have been given a chance to relieve ourselves of Russian servitude for good."
+soviet.33.a:0 "No longer will we suffer under the Russian boot!"
+soviet.33.b:0 "We cannot abandon the Russians in their time of need."
+###
+#soviet event, Ukraine breaks off
+###
+soviet.34.t:0 "The Ukrainian Government distances itself from Moscow."
+soviet.34.d:0 "Over the past several days, the Ukrainian government has been making preperations for what appear to be an independance movement. The farmlands of the Ukraine are extremely valuable, and losing the land could cripple the union beyond repair. We must prepare for some very difficult months coming up ahead."
+soviet.34.a:0 "Is Khrushchev behind this?"
+###
+soviet.35.t:0 "Moscow Détente Policy"
+soviet.35.d:0 "The Central Russian government in Moscow has anounced a policy of 'Détente' or Relaxation towards overseeing and influencing our domestic affairs. The [GetName] will now have more autonomy when enacting local polcies. While Russia will still handle our foreign policy and provide protection if needed, this change in attitude will allow us to implement socialism in the most optimal way for the [GetAdjective] people."
+soviet.35.a:0 "A toast to leftist brotherhood"
+###
+soviet.36.t:0 "Islamic Council for the advancement of Socialism"
+soviet.36.d:0 "In central Asia and the Caucasus many intellectuals have tried to mesh the teachings of Islam, as practiced by much of the local population, with the philosophy of Socialism. The Zakat is one of the 5 Pillars of Islam in which Muslims who are able to meet all their basic needs must donate part of there income to the less fortunate. Many see this teaching as one of the countless examples of how Islam and Socialism can be combined but many intellectuals are having trouble teatching these ideas to the rural population of these regions. It has been suggested that a unified council be formed to help organize these disperate efforts. Moscow has already given there support."
+soviet.36.a:0 "We shall also support this"
+###
+soviet.37.t:0 "Islamic Council for the advancement of Socialism"
+soviet.37.d:0 "The Soviet Union has created a Council to blend the teachings of Muhhamed with Socialism. Of course few of our citisens will actually fall for a philosophy invented by the godless Karl Marx but his supporters are vocal to say the least."
+soviet.37.a:0 "Those damn socialists"
+###
+soviet.38.t:0 "Reforming the Union"
+soviet.38.d:0 "For years the various SSRs have debated the orginazation of the Union and the role of the central government in Moscow. It seems that the Russian SSR is now pursuing a policy of of self rule. Each SSR will now have full responisbiliity over it's domestic affairs while the members of what was once the Union will serve as a defensive alliance to protect the fruits of the Rrvolution."
+soviet.38.a:0 "Long live Socialism"
+###
+soviet.39.t:0 "Reunification of Finalnd"
+soviet.39.d:0 "Political instability in the Soviet Union has lead Mosocw to enact major reforms to save there nation. Unrest in the Finnish SSR has influenced Moscow to find a permanent solution to the problem, even reunification. A joint conference between the Soviet Union and Finland has been offered with neutral Sweden as an intermediary to help solve this issue and bring perament peace to Finland."
+soviet.39.a:0 "We should seek friendships, not hostility"
+soviet.39.b:0 "Sometimes the pen is mightier than the sword"
+soviet.39.c:0 "We will gladly mediate this issue"
+###
+soviet.40.t:0 "Abaondoned by Moscow"
+soviet.40.d:0 "Political unrest in Moscow has severly hampered the Russian's ability to manage the SSRs. Unrest in the caucuses has been common even before the Revolution but in recent years it has become too much for even Russian authorities to manage. Today Russian Chairman Segey Kirov has announced that 'Russian meddling in the Caucasus can no longer continue'. Withour Russian support The future of our regime is unclear. Many reactionary groups are preparing to take advantage of this power vacum. In times like this we must stand vigilent."
+soviet.40.a:0 "Damn Russians"
+###
+soviet.42.t:0 "Russian Influence"
+soviet.42.d:0 "More and more lately Russian officials have been appointed by Moscow into important government positions within our SSR. This 'Russofication' has sparked fears that Moscow is planning a take over of our nation. We must prepare for this."
+soviet.42.a:0 "Damn Russians"
+###
+soviet.43.t:0 "Moscow demands we submit to annexation"
+soviet.43.d:0 "After years of increasing Russian influence in our domestic policies it became inevitable to some that Kirov's ultimate goal for the Union was to centralize it under Russian dominance, despite the promises made at Kronstadt. We must either submit to Russian authorities or face retribution."
+soviet.43.a:0 "We must submit"
+soviet.43.b:0 "We must fight back"
+###
+soviet.44.t:0 "The Second Russian Civil War"
+soviet.44.d:0 "Months of political turmoil and instability have led to a complete collapse of our nation and its structure. Areas and armies are defecting left and right, delcaring their allegiance to the provisional Russian government in Lyudigrad"
+soviet.44.a:0 "Once more into the fire..."
+###
+soviet.45.t:0 "The Whites are defeated"
+soviet.45.d:0 ""
+soviet.45.a:0 "Long Live the Union."
+###
+soviet.46.t:0 "Ukraine and the Caucasus break away!"
+soviet.46.d:0 ""
+soviet.46.a:0 ""
+
+###################
+# custom tooltips #
+###################
+
+sov_congress_tip:0 "The Council will discuss the future of the union over the next few days, and a resolution will be announced soon."
+sov_collapse:0 "We will have to take drastic measures to ensure the Soviet Union does not collapse completely."
+sov_militia:0 "Several Ukrainian militia divisions will be formed and transfered to our army."
+sov_bel_air:0 "Several Belarusian air wings will be tranfered to the red air force."
+sov_annex_rude:0 "The SSRs may fight back against such a direct takeover"
+soviet_war_warning:0 "§RIf measures are not taken to stabalize and preserve the union, we may find ourselves engulfed in another terrible civil war like the one we faced 20 years ago.§!\n"
+sov_civil_war:0 "Many states and territories will break away to form a White Russian government."
+
+#####################
+# Opinion modifiers #
+#####################
+
+FIN_soviet_cool:0 "Reunification of Finland"
+
+#########
+# OOB's #
+#########

@@ -1,0 +1,228 @@
+﻿capital = 44
+
+OOB = "ALB_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_stability = 0.50
+set_war_support = 0.50
+
+set_country_flag = sphered
+set_country_flag = sphere_1_by_ITA
+set_country_flag = sphere_2_by_ITA
+set_country_flag = sphere_3_by_ITA
+add_ideas = sphered_idea_5
+
+add_ideas = {
+	GEN_Oscar_Jensen_hog_pau
+	GEN_Lucas_Friberg_for_pau
+	GEN_William_Ostberg_eco_pau
+	GEN_Mats_Holmgren_sec_pau
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 5
+		}
+		collectivist = {
+			popularity = 4
+		}
+		libertarian_socialist = {
+			popularity = 4
+		}
+		social_democrat = {
+			popularity = 6
+		}
+		social_liberal = {
+			popularity = 11
+		}
+		market_liberal = {
+			popularity = 16
+		}
+		social_conservative = {
+			popularity = 20
+		}
+		authoritarian_democrat = {
+			popularity = 6
+		}
+		paternal_autocrat = {
+			popularity = 19
+		}
+		national_populist = {
+			popularity = 6
+		}
+		valkist = {
+			popularity = 3
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 5
+
+give_military_access = ITA
+
+create_country_leader = {
+	name = "Enver Hoxha"
+	desc = "POLITICS_ENVER_HOXHA_DESC"
+	picture = "portrait_Albania_Enver_Hoxha.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mehmet Shehu"
+	desc = "POLITICS_MEHMET_SHEHU_DESC"
+	picture = "portrait_europe_generic_5.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sejfulla Malëshova"
+	desc = "POLITICS_SEJFULLA_MALESHOVA_DESC"
+	picture = "portrait_europe_generic_5.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nikolla bey Ivanaj"
+	desc = "POLITICS_NIKOLLA_BEY_IVANAJ_DESC"
+	picture = "Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pandeli Evangjeli"
+	desc = "POLITICS_PANDELI_EVANGJELI_DESC"
+	picture = "Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shefqet Vërlaci"
+	desc = "POLITICS_SHEFQET_VERLACI_DESC"
+	picture = "Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Idhomene Kosturi"
+	desc = "POLITICS_IDHOMENE_KOSTURI_DESC"
+	picture = "Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zog I"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/ALB/Zog_I_Royal.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	desc = "POLITICS_KING_FERDINAND_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Albania_Ferdinand_I.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Xhafer Bej Ypi"
+	desc = "POLITICS_XHAFER_BEJ_YPI_DESC"
+	picture = "Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fan Stilian Noli"
+	desc = "POLITICS_FAN_STILIAN_NOLI_DESC"
+	picture = "Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Xhemal Aranitasi"
+	portrait_path = "gfx/leaders/ALB/Xhemal_Aranitasi.dds"
+	traits = { defensive_doctrine }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Prek Cali"
+	portrait_path = "gfx/leaders/ALB/Prek_Cali.dds"
+	traits = { trait_mountaineer }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Muharrem Bajraktari"
+	portrait_path = "gfx/leaders/ALB/Muharrem_Bajraktari.dds"
+	traits = { hill_fighter }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Ugo Cavallero"
+	portrait_path = "gfx/leaders/ALB/Ugo_Cavallero.dds"
+	traits = { ranger }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Alberto Pariani"
+	portrait_path = "gfx/leaders/ALB/Alberto_Pariani.dds"
+	skill = 2
+}

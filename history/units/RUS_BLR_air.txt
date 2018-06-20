@@ -1,0 +1,21 @@
+#220 = {
+	# 1-ye vozdushnoye krylo
+	#fighter_equipment_1 = {
+		#owner = "RUS" 
+		#amount = 44
+	#}
+#}
+#243 = {
+	# 2-ye vozdushnoye krylo
+	#fighter_equipment_1 = {
+		#owner = "RUS" 
+		#amount = 61
+	#}
+#}
+#218 = {
+	# 3-ye vozdushnoye krylo
+	#fighter_equipment_1 = {
+		#owner = "RUS" 
+		#amount = 30
+	#}
+#}

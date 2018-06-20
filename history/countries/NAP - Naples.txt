@@ -1,0 +1,178 @@
+﻿capital = 117
+
+oob = "NAP"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	fleet_in_being = 1
+}
+
+
+
+
+set_convoys = 50
+set_stability = 0.20
+set_war_support = 0.20
+
+set_politics = {
+
+    parties = {
+        vanguardist = {
+            popularity = 14
+        }
+        collectivist = {
+            popularity = 0
+        }
+        libertarian_socialist = {
+            popularity = 2
+        }
+        social_democrat = {
+            popularity = 23
+        }
+        social_liberal = {
+            popularity = 5
+        }
+        market_liberal = {
+            popularity = 31
+        }
+        social_conservative = {
+            popularity = 15
+        }
+        authoritarian_democrat = {
+            popularity = 4
+        }
+        paternal_autocrat = {
+            popularity = 2
+        }
+        national_populist = {
+            popularity = 0
+        }
+        valkist = {
+            popularity = 4
+        }
+    }
+	
+	ruling_party = market_liberal
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+
+}
+
+
+
+
+create_country_leader = {
+	name = "Gennaro Granito Pignatelli di Belmonte"
+	desc = "GENNARO_GRANITO_PIGNATELLI_DI_BELMONTE_DESC"
+	picture = "Portrait_Naples_Gennaro_Granito_Pignatelli_di_Belmonte.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {		
+	}
+}
+
+create_country_leader = {
+	name = "Gennaro Granito Pignatelli di Belmonte"
+	desc = "GENNARO_GRANITO_PIGNATELLI_DI_BELMONTE_DESC"
+	picture = "Portrait_Naples_Gennaro_Granito_Pignatelli_di_Belmonte.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {		
+	}
+}
+
+create_country_leader = {
+	name = "Marcello Candia"
+	desc = "MARCELLO_CANDIA_DESC"
+	picture = "Portrait_Naples_Marcello_Candia.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {		
+	}
+}
+
+create_country_leader = {
+	name = "Achille Lauro"
+	desc = "ACHILLE_LAURO_DESC"
+	picture = "Portrait_Naples_Achille_Lauro.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {		
+	}
+}
+
+create_country_leader = {
+	name = "Maurizio Valenzi"
+	desc = "MAURIZIO_VALENZI_DESC"
+	picture = "Portrait_Naples_Maurizio_Valenzi.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {		
+	}
+}
+
+create_country_leader = {
+	name = "Maurizio Valenzi"
+	desc = "MAURIZIO_VALENZI_DESC"
+	picture = "Portrait_Naples_Maurizio_Valenzi.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {		
+	}
+}
+
+create_country_leader = {
+	name = "Maurizio Valenzi"
+	desc = "MAURIZIO_VALENZI_DESC"
+	picture = "Portrait_Naples_Maurizio_Valenzi.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {		
+	}
+}
+
+create_country_leader = {
+	name = "Aurelio Padovani"
+	desc = "AURELIO_PADOVANI_DESC"
+	picture = "Portrait_Naples_Aurelio_Padovani.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {		
+	}
+}
+
+create_country_leader = {
+	name = "Benedetto Croce"
+	desc = "BENEDETTO_CROCE_DESC"
+	picture = "Portrait_Naples_Benedetto_Croce.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {		
+	}
+}

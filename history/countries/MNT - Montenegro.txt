@@ -1,0 +1,246 @@
+﻿capital = 105 # Montenegro
+
+#oob = "INF"
+
+set_research_slots = 3
+set_stability = 0.56
+set_war_support = 0.51
+
+# Starting tech
+# clone of Yugoslavia
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+}
+
+add_ideas = {
+	GEN_Oscar_Jensen_hog_pau
+	GEN_Lucas_Friberg_for_pau
+	GEN_William_Ostberg_eco_pau
+	GEN_Mats_Holmgren_sec_pau
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 1
+		}
+		collectivist = {
+			popularity = 3
+		}
+		libertarian_socialist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 3
+		}
+		social_liberal = {
+			popularity = 6
+		}
+		market_liberal = {
+			popularity = 17
+		}
+		social_conservative = {
+			popularity = 19
+		}
+		authoritarian_democrat = {
+			popularity = 11
+		}
+		paternal_autocrat = {
+			popularity = 27
+		}
+		national_populist = {
+			popularity = 8
+		}
+		valkist = {
+			popularity = 4
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+    name = "Đorđije Lašić"
+    desc = "POLITICS_DORSIJE_LASIC_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = collectivist_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Blažo Jovanović"
+    desc = "POLITICS_BLAZO_JOVANOVIC_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = vanguardist_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Filip Bajković"
+    desc = "POLITICS_FILIP_BAJKOVIC_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = libertarian_socialist_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Milovan Djilas"
+    desc = "POLITICS_MILOVAN_DJILAS_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = social_democrat_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Milovan Djilas"
+    desc = "POLITICS_MILOVAN_DJILAS_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = social_liberal_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Vojvoda Mitar Martinović"
+    desc = "POLITICS_VOJVODA_MITAR_MARTINOVIC_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = market_liberal_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Andrija Radović"
+    desc = "POLITICS_ANDRIJA_RADOVIC_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = social_conservative_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Danilo I"
+    desc = "POLITICS_DANILO_I_DESC"
+    picture = "gfx/leaders/MNT/Danilo_I.dds"
+    expire = "1965.1.1"
+    ideology = authoritarian_democrat_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "George I"
+    desc = "POLITICS_GEORGE_I_DESC"
+    picture = "gfx/leaders/MNT/George_I.dds"
+    expire = "1965.1.1"
+    ideology = paternal_autocrat_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Jovan Plamenac"
+    desc = "POLITICS_JOVAN_PLAMENAC_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = national_populist_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Krsto Popović"
+    desc = "POLITICS_KRSTO_POPOVIC_DESC"
+    picture = "Portrait_Albania_King_Zog.dds"
+    expire = "1965.1.1"
+    ideology = valkist_subtype
+    traits = {
+        #
+    }
+}
+
+############################################
+
+create_field_marshal = {
+	name = "George I"
+	portrait_path = "gfx/leaders/MNT/George_I.dds"
+	traits = { fast_planner }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Đorđije Lašić"
+	portrait_path = "gfx/leaders/MNT/Đorđije_Lašić.dds"
+	traits = { trickster }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Bajo Stanišić"
+	portrait_path = "gfx/leaders/MNT/Bajo_Stanišić.dds"
+	traits = { swamp_fox }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Radola Gajda"
+	portrait_path = "gfx/leaders/MNT/Radola_Gajda.dds"
+	traits = { ranger }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Radomir Vešović"
+	portrait_path = "gfx/leaders/MNT/Radomir_Vešović.dds"
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Luka Gojnić"
+	portrait_path = "gfx/leaders/MNT/Luka_Gojnić.dds"
+	traits = { hill_fighter ranger }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Krsto Popović"
+	portrait_path = "gfx/leaders/MNT/Krsto_Popović.dds"
+	skill = 2
+}

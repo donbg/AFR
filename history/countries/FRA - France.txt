@@ -1,0 +1,673 @@
+﻿capital = 16
+
+oob = "FRA_1936"
+
+set_research_slots = 4
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antitank = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	basic_battlecruiser = 1
+	early_carrier = 1
+	transport = 1
+	electronic_mechanical_engineering = 1
+}
+
+set_convoys = 400
+set_stability = 0.66
+set_war_support = 0.54
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 3
+		}
+		libertarian_socialist = {
+			popularity = 12
+		}
+		social_democrat = {
+			popularity = 8
+		}
+		social_liberal = {
+			popularity = 21
+		}
+		market_liberal = {
+			popularity = 16
+		}
+		social_conservative = {
+			popularity = 27
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 13
+		}
+		national_populist = {
+			popularity = 0
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+
+create_faction = continental_entente
+add_to_faction = FRA
+add_to_faction = ITA
+#add_to_faction = BEL
+#add_to_faction = LUX
+add_to_faction = FEA
+add_to_faction = PHN
+
+FRA = { #fucking wewlad
+	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = AST modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = RAJ modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
+}
+RHI = {
+	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = AST modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = RAJ modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
+}
+VIN = {
+	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = AST modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = RAJ modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
+}
+PHN = {
+	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = AST modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = RAJ modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
+}
+MOR = {
+	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = AST modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = RAJ modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
+}
+NFA = {
+	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = AST modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = RAJ modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
+}
+NFQ = {
+	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = AST modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = RAJ modifier = heavy_tariffs }
+	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = RHI
+		autonomous_state = autonomy_colony
+		freedom_level = 0.8
+	}
+	set_autonomy = {
+		target = FEA
+		autonomous_state = puppet
+		freedom_level = 0.25
+	}
+	set_autonomy = {
+		target = PHN
+		autonomous_state = puppet
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = MOR
+		autonomous_state = puppet
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = NFA
+		autonomous_state = puppet
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = NFQ
+		autonomous_state = puppet
+		freedom_level = 0.1
+	}
+	else = {
+		puppet = RHI
+		puppet = FEA
+		puppet = PHN
+		puppet = MOR
+		puppet = NFA
+		puppet = NFQ
+	}
+}
+
+add_ideas = {
+	FRA_great_war_victors
+	FRA_our_place_in_the_sun
+	FRA_british_tariffs
+	FRA_rhineland_coal
+	#low_popularity
+	normal_popularity
+	NFA_Joachim_Prince_de_Murat_hog_sco
+	NFA_Pierre_Pflimlin_for_sco
+	#NFA_Paul_Marchandeau_eco_sco #Removed for being too good.
+	#FRA_Raoul_Dautry_eco_sli #Still too good.
+	FRA_Antoine_Henri_Queuille_eco_sco #A good old useless air support proponent.
+	NFA_Paul_Coste_Floret_sec_sco
+}
+
+create_country_leader = {
+	name = "Maurice Thorez"
+	desc = "POLITICS_MAURICE_THOREZ_DESC"
+	picture = "Portrait_France_Maurice_Thorez.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#	
+	}	
+}
+
+create_country_leader = {
+	name = "Sébastien Faure"
+	desc = "POLITICS_FAURE_DESC"
+	picture = "Portrait_France_Sebastien_Faure.tga"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#	
+	}	
+}
+
+create_country_leader = {
+	name = "Sébastien Faure"
+	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
+	picture = "Portrait_France_Sebastien_Faure.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#	
+	}	
+}
+
+create_country_leader = {
+	name = "Pierre Laval"
+	desc = "POLITICS_PIERRE_LAVAL_DESC"
+	picture = "Portrait_France_Pierre_Laval.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+	
+}
+
+create_country_leader = {
+	name = "Édouard Daladier"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "Portrait_France_EdouardDaladier.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+	
+}
+
+create_country_leader = {
+	name = "Pierre-Étienne Flandin"
+	desc = "POLITICS_PIERRE_ETIENNE_FLANDIN_DESC"
+	picture = "Portrait_France_Pierre_Etienne_Flandin.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+	
+}
+
+create_country_leader = { #yeah idk
+	name = "Paul Reynaud"
+	desc = "POLITICS_PAUL_REYNAUD_DESC"
+	picture = "Portrait_FRA_Paul_Reynaud.tga" #'Portrait_France_Paul_Reynaud.tga' is the vanilla portrait
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+	
+}
+
+create_country_leader = {
+	name = "Philippe Petain"
+	desc = "POLITICS_PHILIPPE_PETAIN_DESC"
+	picture = "Portrait_France_PhilippePetain1.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		marshal_of_france
+	}
+	
+}
+
+create_country_leader = {
+	name = "Léon Daudet"
+	desc = "POLITICS_LEON_DAUDET_DESC"
+	picture = "Portrait_FRA_Leon_Daudet.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
+	
+}
+
+#create_country_leader = {
+#	name = "HRH Jean I d'Orleans"
+#	desc = "POLITICS_JEAN_ORLEANS_DESC"
+#	picture = "Portrait_France_Jean_d_Orleans.tga"
+#	expire = "1965.1.1"
+#	ideology = paternal_autocrat_subtype
+#	traits = {
+#		
+#	}
+#	
+#}
+
+#create_country_leader = {
+#	name = "Maxime Weygand"
+#	desc = "POLITICS_MAXIME_WEYGAND_DESC"
+#	picture = "Portrait_France_MaximeWeygand.tga"
+#	expire = "1965.1.1"
+#	ideology = paternal_autocrat_subtype
+#	traits = {
+#		
+#	}
+#	
+#}
+
+create_country_leader = {
+	name = "François de La Rocque"
+	desc = "POLITICS_FRANCOIS_DE_LA_ROCQUE_DESC"
+	picture = "Portrait_France_Francois_de_la_Rocque.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		
+	}
+	
+}
+
+FEA = {
+	set_politics = {
+
+	parties = {
+			vanguardist = {
+				popularity = 0
+			}
+			collectivist = {
+				popularity = 4
+			}
+			libertarian_socialist = {
+				popularity = 8
+			}
+			social_democrat = {
+				popularity = 5
+			}
+			social_liberal = {
+				popularity = 20
+			}
+			market_liberal = {
+				popularity = 5
+			}
+			social_conservative = {
+				popularity = 11
+			}
+			authoritarian_democrat = {
+				popularity = 2
+			}
+			paternal_autocrat = {
+				popularity = 45
+			}
+			national_populist = {
+				popularity = 0
+			}
+			valkist = {
+				popularity = 0
+			}
+		}
+
+		ruling_party = paternal_autocrat
+		last_election = "1933.2.16"
+		election_frequency = 36
+		elections_allowed = no
+	}
+}
+
+create_field_marshal = {
+	name = "Maurice Gamelin"
+	picture = "Portrait_France_MauriceGamelin.tga"
+	traits = {
+		defensive_doctrine
+		offensive_doctrine
+	}
+	skill = 2
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Philippe Pétain"
+	picture = "Portrait_France_PhilippePetain1.tga"
+	traits = { 
+		old_guard
+		organisational_leader
+		inspirational_leader
+	}
+	skill = 3
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Alphonse Juin"
+	picture = "Portrait_France_Alphonse_Juin2.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Maurice Janin"
+	picture = "Portrait_NFA_Maurice_Janin.tga"
+	traits = {
+		politically_connected
+		harsh_leader
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Charles de Gaulle"
+	picture = "Portrait_France_Charles_deGaulle1.tga"
+	traits = { 
+		panzer_leader 
+		urban_assault_specialist
+	}
+	skill = 3
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Jean de Lattre de Tassigny"
+	picture = "Portrait_France_Jean_tassigny1.tga"
+	traits = { 
+		trickster 
+		naval_invader
+		jungle_rat
+	}
+	skill = 4
+	attack_skill = 4
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Maxime Weygand"
+	picture = "Portrait_France_MaximeWeygand.tga"
+	traits = { old_guard }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Philippe Leclerc"
+	picture = "Portrait_France_philippe_leclerc2.tga"
+	traits = { 
+		panzer_leader
+		desert_fox
+	}
+	skill = 4
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Antoine Béthouart"
+	picture = "Portrait_France_Generic_land_3.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jacques Massu"
+	picture = "Portrait_France_Generic_land_4.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Edgard de Larminat"
+	picture = "Portrait_France_Generic_land_5.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "François Darlan"
+		picture = "Portrait_France_Francois_Darlan.dds"
+	traits = { superior_tactician }
+	skill = 5
+}
+
+create_navy_leader = {
+	name = "Jean-Marie Charles Abrial"
+		picture = "Portrait_France_Jean-Marie_Charles_Abrial.dds"
+	traits = { superior_tactician }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Jean-Pierre Esteva"
+		picture = "Portrait_France_Jean-Pierre_Esteva.dds"
+	traits = { seawolf }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "René-Émile Godfroy"
+		picture = "Portrait_France_Rene-Emile_Godfroy.dds"
+	traits = { old_guard_navy spotter }
+	skill = 2
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "630 Series"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Redoutable Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 2
+		sub_engine_upgrade = 2
+		sub_stealth_upgrade = 2
+		sub_torpedo_upgrade = 2
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Chacal Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Aigle & Vauquelin Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 2
+		destroyer_engine_upgrade = 2
+		ship_ASW_upgrade = 2
+		ship_anti_air_upgrade = 2
+	}
+}
+
+create_equipment_variant = {
+	name = "Bretagne Class"
+	type = battleship_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+        ship_armor_upgrade = 1
+        ship_gun_upgrade = 1
+	}
+}
+
+1939.1.1 = {
+	
+	create_equipment_variant = {
+		name = "Aurore Class"
+		type = submarine_2
+		upgrades = {
+			ship_reliability_upgrade = 3
+			sub_engine_upgrade = 3
+			sub_stealth_upgrade = 3
+			sub_torpedo_upgrade = 3
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Le Hardi Class"
+		type = destroyer_2
+		upgrades = {
+			ship_torpedo_upgrade = 1
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Mogador Class"
+		type = destroyer_2
+		upgrades = {
+			ship_torpedo_upgrade = 2
+			destroyer_engine_upgrade = 2
+			ship_ASW_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}
+	}
+}

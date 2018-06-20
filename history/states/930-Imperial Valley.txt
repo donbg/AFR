@@ -1,0 +1,24 @@
+
+state={
+	id=930
+	name="STATE_930"
+	manpower = 64830
+	
+	state_category = pastoral
+	
+	resources={
+		oil=10.0
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		823 4727 7986 12374 
+	}
+}

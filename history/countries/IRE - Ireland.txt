@@ -1,0 +1,118 @@
+﻿capital = 815
+
+oob = "IRE_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 25
+set_stability = 0.42
+set_war_support = 0.50
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 5
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 26
+		}
+		social_conservative = {
+			popularity = 56
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 5
+		}
+		national_populist = {
+			popularity = 8
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+
+
+	ruling_party = social_conservative
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Éamon de Valera"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Eoin O'Duffy"
+	desc = "POLITICS_EOIN_ODUFFY_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "James Larkin"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "William Norton"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Eoin O'Duffy"
+	desc = "POLITICS_EOIN_O_DUFFY_DESC"
+	picture = "portrait_valkist_ireland_Eoin_O_Duffy.dds"
+	expire = "1965.1.1"
+	ideology = valkist_subtype
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Michael Costello"
+	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+	traits = {  }
+	skill = 2
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=614
+	name="STATE_614" #Hebei
+
+	history={
+		owner = MAN
+		add_core_of = KMT
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1084 7160 7189 10003 10022 10119 11944 11962 11980 11996 12093 
+	}
+	manpower=10421284
+	buildings_max_level_factor=1.000
+	state_category=town
+}

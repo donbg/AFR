@@ -1,0 +1,27 @@
+state={
+	id=822
+	name="STATE_822"
+
+	history={
+		owner = ENG
+		victory_points = {
+			10297 1 
+		}
+		buildings = {
+			infrastructure = 2
+			10297 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4412 7427 10297 
+	}
+	manpower=638650
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

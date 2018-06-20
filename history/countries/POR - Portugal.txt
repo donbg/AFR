@@ -1,0 +1,129 @@
+﻿capital = 112
+
+oob = "POR_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	transport = 1
+}
+
+set_country_flag = sphered
+set_country_flag = sphere_1_by_ENG
+set_country_flag = sphere_2_by_ENG
+set_country_flag = sphere_3_by_ENG
+add_ideas = sphered_idea_1
+
+add_ideas = {
+	GEN_Oscar_Jensen_hog_pau
+	GEN_Lucas_Friberg_for_pau
+	GEN_William_Ostberg_eco_pau
+	GEN_Mats_Holmgren_sec_pau
+}
+
+set_politics = {
+
+	parties = {
+		vanguardist = {
+			popularity = 0
+		}
+		collectivist = {
+			popularity = 0
+		}
+		libertarian_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 6
+		}
+		social_conservative = {
+			popularity = 18
+		}
+		authoritarian_democrat = {
+			popularity = 10
+		}
+		paternal_autocrat = {
+			popularity = 56
+		}
+		national_populist = {
+			popularity = 10
+		}
+		valkist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	#
+}
+
+set_convoys = 100
+set_stability = 0.29
+set_war_support = 0.88
+
+
+create_country_leader = {
+	name = "Manuel II"
+	desc = "POLITICS_MANUEL_II_DESC"
+	picture = "Portrait_Manuel_II.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bento Gonçalves"
+	desc = "POLITICS_BENTO_GONCALVES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Francisco de Barcelos Rolão Preto"
+	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Manuel II"
+	picture = "Portrait_Manuel_II_general.tga"
+	traits = {  }
+	skill = 3
+
+}
+

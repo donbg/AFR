@@ -1,0 +1,50 @@
+#MOBILE WARFARE OOB FOR FRANCE
+division_template = {
+	name = "Blindée Division" 		
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }		
+		motorized = { x = 1 y = 0 }			
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }     
+	}
+}
+
+units = {
+	division= {	
+		name = "1er Blindée Division"
+		location = 11483
+		division_template = "Blindée Division" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2éme Blindée Division"
+		location = 3402
+		division_template = "Blindée Division" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3éme Blindée Division"
+		location = 13011
+		division_template = "Blindée Division" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4éme Blindée Division"
+		location = 3666
+		division_template = "Blindée Division" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5éme Blindée Division"
+		location = 11506
+		division_template = "Blindée Division" 
+		start_experience_factor = 0.1
+	}
+}

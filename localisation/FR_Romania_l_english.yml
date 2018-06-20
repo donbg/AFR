@@ -1,0 +1,27 @@
+﻿l_english:
+ 
+
+##### Parties #####
+
+ROM_vanguardist_party:0 "PCR"
+ROM_vanguardist_party_long:0 "Partidul Comunist Român"
+ROM_collectivist_party:0 "PUR"
+ROM_collectivist_party_long:0 "Partitul Unionist Român"
+ROM_libertarian_socialist_party:0 "POLS-T"
+ROM_libertarian_socialist_party_long:0 "Partidul Liber Socialist-Țărănist"
+ROM_social_democrat_party:0 "PNT"
+ROM_social_democrat_party_long:0 "Partidul Național Țărănesc"
+ROM_social_liberal_party:0 "MPU"
+ROM_social_liberal_party_long:0 "Mișcarea Populară Unită"
+ROM_market_liberal_party:0 "PNLR"
+ROM_market_liberal_party_long:0 "Partidul Național Liberal al Reformatorilor"
+ROM_social_conservative_party:0 "UDN"
+ROM_social_conservative_party_long:0 "Uniunea Democratică Națională"
+ROM_authoritarian_democrat_party:0 "LPD"
+ROM_authoritarian_democrat_party_long:0 "Liga Popular-Democratică"
+ROM_paternal_autocrat_party:0 "FLR"
+ROM_paternal_autocrat_party_long:0 "Frontul Loialist Român"
+ROM_national_populist_party:0 "FCML"
+ROM_national_populist_party_long:0 "Frontul Corpului Muncitoresc Legionar"
+ROM_valkist_party:0 "PNR"
+ROM_valkist_party_long:0 "Partidul Național Român"
