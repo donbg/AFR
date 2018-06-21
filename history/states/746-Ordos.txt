@@ -8,32 +8,16 @@ state={
 	}
 
 	history={
-		owner = RHI
+		owner = GER
 		victory_points = {
 			587 5 
 		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 7
-			#587 = {
-			#	bunker = 2
-
-			#}
-			#3444 = {
-			#	bunker = 2
-
-			#}
-			#3547 = {
-			#	bunker = 2
-
-			#}
-			#11494 = {
-			#	bunker = 2
-
-			#}
 
 		}
-		add_core_of = RHI
+		add_core_of = GER
 
 	}
 
