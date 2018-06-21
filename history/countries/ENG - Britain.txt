@@ -56,7 +56,6 @@ set_country_flag = sphered_POR
 set_country_flag = sphered_GRE
 set_country_flag = sphered_SPM
 set_country_flag = sphered_TRK
-set_country_flag = sphered_ISR
 set_country_flag = sphered_ARB
 set_country_flag = sphered_IRQ
 set_country_flag = sphered_BEA
@@ -64,10 +63,6 @@ save_global_event_target_as = sphereleader1
 
 
 add_ideas = {
-	undisturbed_isolation
-	ENG_col_unrest
-	ENG_irb
-	ENG_war_fatigue
 	ENG_Samuel_Hoare_hog
 	ENG_John_Anderson_for
 	ENG_Neville_Chamberlain_eco
@@ -113,11 +108,6 @@ if = {
 		freedom_level = 0.5
 	}
 	set_autonomy = {
-		target = ISR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.5
-	}
-	set_autonomy = {
 		target = BEA
 		autonomous_state = autonomy_colony
 		freedom_level = 0.5
@@ -129,18 +119,8 @@ if = {
 		puppet = AST
 		puppet = NZL
 		puppet = SAF
-		puppet = ISR
 		puppet = BEA
 	}
-}
-
-give_military_access = SHO
-diplomatic_relation = { country = SHO relation = non_aggression_pact }
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
 }
 
 set_politics = {

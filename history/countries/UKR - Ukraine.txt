@@ -41,8 +41,7 @@ set_war_support = 0.20
 
 
 add_ideas = {
-	UKR_famine_spook
-	UKR_language_problem
+
 }
 
 set_politics = {
@@ -52,38 +51,38 @@ set_politics = {
 			popularity = 0
 		}
 		collectivist = {
-			popularity = 3
-		}
-		libertarian_socialist = {
-			popularity = 2
-		}
-		social_democrat = {
-			popularity = 38
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 31
-		}
-		social_conservative = {
-			popularity = 0
-		}
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
 			popularity = 4
 		}
+		libertarian_socialist = {
+			popularity = 4
+		}
+		social_democrat = {
+			popularity = 8
+		}
+		social_liberal = {
+			popularity = 2
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 12
+		}
+		authoritarian_democrat = {
+			popularity = 8
+		}
+		paternal_autocrat = {
+			popularity = 50
+		}
 		national_populist = {
-			popularity = 22
+			popularity = 12
 		}
 		valkist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no

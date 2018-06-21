@@ -1,7 +1,7 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 77 108 108 } #We could always use a KR-esque color. Perhaps 77 93 83?
+	color = rgb { 87 121 121 } #We could always use a KR-esque color. Perhaps 77 93 83?
 	color_ui = rgb { 80 90 100 } #Formerly 77 88 99. Rounded it up.
 }
 ENG = {
@@ -41,7 +41,7 @@ UOB = {
 	color_ui = rgb { 155 0 0 }
 }
 SOV = {
-	color = rgb { 155 17 65 }
+	color = rgb { 84 126 88 }
 	color_ui = rgb { 150 17 59 }
 }
 GOR = {
@@ -908,24 +908,9 @@ GUO = {
 	color_ui = rgb { 154 214 185 }
 }
 
-SPF = {
-	color = rgb { 194 133 35 }
-	color_ui = rgb { 194 133 35 }
-}
-
-SPA = {
-	color = rgb { 224 56 48 }
-	color_ui = rgb { 224 56 48 }
-}
-
-SPM = {
-	color = rgb { 222 205 94 } #222 205 94 is much more tame. 242 205 94 
-	color_ui = rgb { 239 220 44 }
-}
-
 SPR = {# 220 180 6 # 200 130 222 # 179 138 184 # 189 110 211 
-	color = rgb { 179 138 184 }
-	color_ui = rgb { 179 138 184 }
+	color = rgb { 174 166 30 }
+	color_ui = rgb { 174 166 0 }
 }
 
 GRP = {

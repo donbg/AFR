@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SPF
+		owner = SPR
 		victory_points = {
 			758 3 
 		}
@@ -20,10 +20,7 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = SPF
-		add_claim_by = SPR
-		add_claim_by = SPA
-		add_claim_by = SPM
+		add_core_of = SPR
 	}
 
 	provinces={

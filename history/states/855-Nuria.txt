@@ -3,15 +3,12 @@ state={
 	name="STATE_855"
 
 	history={
-		owner = SPA
+		owner = SPR
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = SPA
-		add_claim_by = SPR
-		add_claim_by = SPM
-		add_claim_by = SPF
+		add_core_of = SPR
 
 	}
 
