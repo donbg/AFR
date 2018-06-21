@@ -3,7 +3,7 @@ state={
 	name="STATE_799"
 
 	history={
-		owner = POL
+		owner = AUS
 		victory_points = {
 			9427 10
 		}
@@ -15,7 +15,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = POL
+		add_core_of = AUS
 
 	}
 

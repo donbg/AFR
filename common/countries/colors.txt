@@ -1,12 +1,12 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 73 73 73 } #We could always use a KR-esque color. Perhaps 77 93 83?
+	color = rgb { 77 108 108 } #We could always use a KR-esque color. Perhaps 77 93 83?
 	color_ui = rgb { 80 90 100 } #Formerly 77 88 99. Rounded it up.
 }
 ENG = {
-	color = rgb { 185 0 0 }
-	color_ui = rgb { 200 35 35 }
+	color = rgb { 160 25 25 } #177 25 25
+	color_ui = rgb { 160 15 15 }
 }
 ARB = {
 	color = rgb { 130 130 130 } #95 177 73
@@ -65,8 +65,8 @@ AZR = {
 	color_ui = rgb { 40 170 137 }
 }
 SWE = {
-	color = rgb { 0 86 167 }
-	color_ui = rgb { 0 86 167 }
+	color = rgb { 56 127 162 }
+	color_ui = rgb { 16 157 182 }
 }
 TRK = {
 	color = rgb { 100 150 105 }
@@ -77,18 +77,18 @@ CEN = { #133 125 203 is liliac
 	color_ui = rgb { 146  80  140 }
 }
 FRA = {
-	color = rgb { 0 60 180 } #0 0 200 is the former variant. Too purple though. #0 40 190?
-	color_ui = rgb { 35 60 200 } #Consider use of 0 50 160. 10 50 170 is okay but it's TOO FUCKING PURPLE FUCK WHY IS EVERYTHING FUCKING PURPLE
+	color = rgb { 0 95 140 }
+	color_ui = rgb { 0 95 140 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
 BEL = { 
-	color = rgb { 213 191 28 } #193 171 8
+	color = rgb { 167 150 82 } #193 171 8
 	color_ui = rgb { 251 222 10 }
 	  }
-HOL = {	color = rgb { 214 121 18 }
+HOL = {	color = rgb { 153 84 52 }
 		color_ui = rgb { 255 179 96 }
 }
 KNE = {	color = rgb { 164 111 48 }
@@ -107,11 +107,11 @@ UBR = {	color = rgb { 215 15 40 }
 		color_ui = rgb { 215 15 40 }
 }
 POL = {
-	color = rgb { 204 86 47 }
+	color = rgb { 184 77 102 }
 	color_ui = rgb { 204 86 47 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
+	color = rgb { 174 178 205 }
 	color_ui = rgb { 194 198 215 }
 }
 AUT = {
@@ -123,15 +123,15 @@ ASR = {
 	color_ui = rgb { 255 150 150 }
 }
 LIT = {
-	color = rgb { 193 151 28 } #255 255 155
-	color_ui = rgb { 193 151 28 } #KR uses 154 69 116
+	color = rgb { 134 69 136 } #255 255 155
+	color_ui = rgb { 154 69 116 } #KR uses 154 69 116
 }
 EST = {
-	color = rgb { 0 114 206 }
+	color = rgb { 10 10 170 }
 	color_ui = rgb { 0 114 206 }
 }
 LAT = {
-	color = rgb { 75 77 146 }
+	color = rgb { 135 27 27 }
 	color_ui = rgb { 10 40 170 }
 }
 UBD = {
@@ -139,11 +139,11 @@ UBD = {
 	color_ui = rgb { 142 142 128 }
 }
 ITA = {
-	color = rgb { 47 130 43 }
+	color = rgb { 47 100 63 }
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
-	color = rgb { 215 194 72 } #242 205 94 is Vanilla spain-esque color. Original is 215, 194, 72.
+	color = rgb { 143 131 45 } #242 205 94 is Vanilla spain-esque color. Original is 215, 194, 72.
 	color_ui = rgb { 242 205 94 } #KR uses 208 184 73, should we do the same?
 }
 BOS = {
@@ -151,35 +151,35 @@ BOS = {
 	color_ui = rgb { 130 157 6 }
 }
 SWI = {
-	color = rgb { 150 15 15 }
+	color = rgb { 180 45 45 }
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 165 210 161 }
-	color_ui = rgb { 164 255 156 }
+	color = rgb { 112 65 79 }
+	color_ui = rgb { 112 65 79 }
 }
 TRT = {
 	color = rgb { 164 255 156 }
 	color_ui = rgb { 164 255 156 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
-	color_ui = rgb { 121 235 255 }
+	color = rgb { 63 141 227 }
+	color_ui = rgb { 63 141 227 }
 }
 ALB = {
-	color = rgb { 149 45 102 }
+	color = rgb { 160 65 65 }
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
-	color = rgb { 135 62 62 } #239 112 112
+	color = rgb { 85 122 82 } #239 112 112
 	color_ui = rgb { 111 71 71 }
 }
 DEN = {
-	color = rgb { 163 86 73 }
-	color_ui = rgb { 199 151 121 }
+	color = rgb { 153 87 111 }
+	color_ui = rgb { 153 77 111 }
 }
 BUL = {
-	color = rgb { 93 157 47 } #Previous is 51, 155, 0
+	color = rgb { 43 127 47 } #Previous is 51, 155, 0
 	color_ui = rgb { 10 147 17 }
 }
 BSR = {
@@ -187,7 +187,7 @@ BSR = {
 	color_ui = rgb { 10 147 27 }
 }
 POR = {
-	color = rgb { 29 106 136 } #39 116 70
+	color = rgb { 61 126 62 } #39 116 70
 	color_ui = rgb { 29 106 136 }
 }
 PRR = {
@@ -195,7 +195,7 @@ PRR = {
 	color_ui = rgb { 39 116 70 }
 }
 FIN = {
-	color = rgb { 205 212 228 }
+	color = rgb { 160 190 215 }
 	color_ui = rgb { 255 255 255 }
 }
 IRE = {
@@ -483,7 +483,7 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 60 60 100 }
+	color = rgb { 60 80 100 }
 	color_ui = rgb { 60 60 100 }
 }
 
@@ -493,7 +493,7 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 102 58 42 }# 122  89  46 
+	color = rgb { 112 88 52 }# 122  89  46 
 	color_ui = rgb { 22 95 186 }	
 }
 
@@ -553,8 +553,8 @@ MAL = {
 }
 
 MNT = {
-	color = rgb { 47  40  155 }
-	color_ui = rgb { 77  90  105 }
+	color = rgb { 30 55 150 }
+	color_ui = rgb { 30 55 150 }
 }
 
 KUR = {

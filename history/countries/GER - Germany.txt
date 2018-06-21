@@ -39,16 +39,7 @@ set_technology = {
 }
 
 add_ideas = {
-	GER_divided_govt
-	GER_naval_treaty
-	#GER_army_treaty
-	#GER_versialles_no_good
-	low_economic_mobilisation 
-	limited_exports
-	GER_Anton_Arco_Valley_val
-	GER_Alfred_Rosenberg_for_val
-	GER_Adolf_Hitler_eco_val
-	GER_Hermann_Ehrhardt_sec_val
+
 }
 
 set_country_flag = has_ministers
@@ -58,10 +49,14 @@ set_country_flag = great_power_2
 set_country_flag = sphered_HOL
 save_global_event_target_as = sphereleader2
 
-create_faction = Stahlpakt
+create_faction = "Central Powers"
 add_to_faction = GER
-add_to_faction = HOL
-
+add_to_faction = ENG
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = SAF
+add_to_faction = RAJ
 
 set_research_slots = 4
 set_convoys = 200
@@ -72,41 +67,41 @@ set_politics = {
 
 	parties = {
 		vanguardist = {
-			popularity = 0
+			popularity = 1
 		}
 		collectivist = {
-			popularity = 8
+			popularity = 1
 		}
 		libertarian_socialist = {
-			popularity = 1
+			popularity = 3
 		}
 		social_democrat = {
-			popularity = 1
+			popularity = 22
 		}
 		social_liberal = {
-			popularity = 1
+			popularity = 9
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 32
 		}
 		social_conservative = {
-			popularity = 15
+			popularity = 17
 		}
 		authoritarian_democrat = {
-			popularity = 14
+			popularity = 10
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 3
 		}
 		national_populist = {
-			popularity = 13
+			popularity = 2
 		}
 		valkist = {
-			popularity = 40
+			popularity = 0
 		}
 	}
 	
-	ruling_party = valkist
+	ruling_party = market_liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

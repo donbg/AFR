@@ -147,31 +147,31 @@ set_politics = {
 
 	parties = {
 		vanguardist = {
-			popularity = 2
+			popularity = 0
 		}
 		collectivist = {
-			popularity = 5
+			popularity = 2
 		}
 		libertarian_socialist = {
-			popularity = 8
+			popularity = 5
 		}
 		social_democrat = {
-			popularity = 30
-		}
-		social_liberal = {
-			popularity = 3
-		}
-		market_liberal = {
 			popularity = 10
 		}
+		social_liberal = {
+			popularity = 36
+		}
+		market_liberal = {
+			popularity = 14
+		}
 		social_conservative = {
-			popularity = 40
+			popularity = 30
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 2
+			popularity = 3
 		}
 		national_populist = {
 			popularity = 0
@@ -181,70 +181,11 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = social_liberal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-
-create_faction = imperial_protection_alliance
-add_to_faction = ENG
-add_to_faction = CAN
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = SAF
-add_to_faction = NFL
-add_to_faction = ISR
-add_to_faction = BEA
-give_guarantee = GRE
-give_guarantee = POR
-
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
-#add_to_faction = MAL
-
-CAN = { 
-	add_opinion_modifier = {
-		target = ENG
-		modifier = IMP_no_statute
-	}
-}
-
-AST = { 
-	add_opinion_modifier = {
-		target = ENG
-		modifier = IMP_no_statute
-	}
-}
-
-NZL = { 
-	add_opinion_modifier = {
-		target = ENG
-		modifier = IMP_no_statute
-	}
-}
-
-SAF = { 
-	add_opinion_modifier = {
-		target = ENG
-		modifier = IMP_no_statute
-	}
-}
-
-RAJ = { 
-	add_opinion_modifier = {
-		target = ENG
-		modifier = IMP_no_statute
-	}
-}
-
-country_event = { id = uk.1 days = 1 }
-
-#declare_war_on = {
-	#target = IND
-	#type = annex_everything
-#}
 
 create_country_leader = {
 	name = "Jock Haston"
