@@ -45,10 +45,6 @@ add_ideas = {
 set_country_flag = has_ministers
 
 
-set_country_flag = great_power_2
-set_country_flag = sphered_HOL
-save_global_event_target_as = sphereleader2
-
 create_faction = "Central Powers"
 add_to_faction = GER
 add_to_faction = ENG
@@ -110,19 +106,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Adam Dressler"
-	desc = "POLITICS_ADAM_DRESSLER_DESC"
-	picture = "Portrait_Germany_Adam_Dressler_old.tga"
-	expire = "1965.1.1"
-	ideology = valkist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Hermann Göring"
-	desc = "POLITICS_HERMANN_GORING_DESC"
-	picture = "Portrait_Germany_Hermann_Goring.tga"
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "Portrait_Germany_William_III.dds"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -130,9 +116,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ritter von Leeb"
-	desc = "POLITICS_RITTER_VON_LEEB_DESC"
-	picture = "Portrait_Germany_Ritter_Von_Leeb.tga"
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "Portrait_Germany_William_III.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -150,9 +136,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Heinrich Brüning"
-	desc = "POLITICS_HEINRICH_BRUNING_DESC"
-	picture = "Portrait_Germany_Heinrich_Bruning.tga"
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "Portrait_Germany_William_III.dds"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -160,9 +146,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustav Stresemann"
-	desc = "POLITICS_GUSTAV_STRESEMANN_DESC"
-	picture = "Portrait_Germany_Gustav_Stresemann.tga"
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "Portrait_Germany_William_III.dds"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -170,9 +156,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Theodor Heuss"
-	desc = "POLITICS_THEODOR_HEUSS_DESC"
-	picture = "Portrait_Germany_Heuss_Theodor.tga"
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "Portrait_Germany_William_III.dds"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -180,9 +166,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Otto Wels"
-	desc = "POLITICS_OTTO_WELS_DESC"
-	picture = "Portrait_Germany_Otto_Wels.tga"
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "Portrait_Germany_William_III.dds"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -218,17 +204,6 @@ create_country_leader = {
 	traits = {
 	}
 }
-
-#create_country_leader = {
-#	name = "Darknight"
-#	desc = "POLITICS_DARK_DESC"
-#	picture = "Portrait_darknight.tga"
-#	expire = "1965.1.1"
-#	ideology = valkist_subtype
-#	traits = {
-#		hates_democracy
-#	}
-#}
 
 add_namespace = {
 	name = "ger_unit_leader"

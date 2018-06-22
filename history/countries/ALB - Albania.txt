@@ -11,12 +11,6 @@ set_technology = {
 set_stability = 0.50
 set_war_support = 0.50
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ITA
-set_country_flag = sphere_2_by_ITA
-set_country_flag = sphere_3_by_ITA
-add_ideas = sphered_idea_5
-
 add_ideas = {
 	GEN_Oscar_Jensen_hog_pau
 	GEN_Lucas_Friberg_for_pau

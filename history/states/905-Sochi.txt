@@ -4,7 +4,7 @@ state={
 	name="STATE_905"
 
 	history={
-		owner = GEO
+		owner = RUS
 		victory_points = {
 			9663 1 
 		}
@@ -15,8 +15,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = GEO
-		add_core_of = SOV
+		add_core_of = RUS
 	}
 
 	provinces={

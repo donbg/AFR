@@ -13,12 +13,6 @@ set_stability = 0.50
 set_war_support = 0.50
 set_cosmetic_tag = ISR_UK
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ENG
-set_country_flag = sphere_2_by_ENG
-set_country_flag = sphere_3_by_ENG
-add_ideas = sphered_idea_1
-
 add_ideas = {
 	GEN_Francesco_Esposito_hog_mli
 	GEN_Antonello_D_Angelo_for_mli

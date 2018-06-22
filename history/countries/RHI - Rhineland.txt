@@ -31,12 +31,6 @@ set_technology = {
 	transport = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
-
 set_convoys = 50
 set_stability = 0.34
 set_war_support = 0.25

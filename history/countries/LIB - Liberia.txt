@@ -11,12 +11,6 @@ set_convoys = 10
 set_stability = 0.49
 set_war_support = 0.33
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_USA
-set_country_flag = sphere_2_by_USA
-set_country_flag = sphere_3_by_USA
-add_ideas = sphered_idea_7
-
 add_ideas = {
 	GEN_James_Smith_hog_sco
 	GEN_Charlie_Baker_for_sco

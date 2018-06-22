@@ -45,12 +45,6 @@ set_convoys = 300
 set_stability = 0.56
 set_war_support = 0.34
 
-
-set_country_flag = great_power_7
-set_country_flag = sphered_LIB
-set_country_flag = sphered_HAI
-save_global_event_target_as = sphereleader7
-
 set_politics = {
 
 	parties = {

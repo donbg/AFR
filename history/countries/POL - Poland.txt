@@ -26,28 +26,6 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 }
 
-give_guarantee = LAT
-give_guarantee = LIT
-puppet = LIT
-
-set_country_flag = sphered_LIT
-set_country_flag = sphered_LAT
-set_country_flag = great_power_8
-save_global_event_target_as = sphereleader8
-
-
-# DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = LIT
-		autonomous_state = autonomy_puppet
-		freedom_level = 0.4
-	}
-}
-
 set_politics = {
 
 	parties = {

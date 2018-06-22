@@ -44,12 +44,6 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
-
 add_ideas = {
 	VIN_rural_nation
 	VIN_socialist_revolutionaries

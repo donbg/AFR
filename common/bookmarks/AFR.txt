@@ -1,0 +1,83 @@
+bookmarks = {
+	bookmark = {
+		name = "AFR_NAME"
+		desc = "AFR_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "ENG"
+		default = yes
+
+		"USA"={
+			history = "USA_AFR_DESC"
+			ideology = market_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"RUS"={
+			history = "RUS_AFR_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+
+			}
+		}
+
+		"GER"={
+			history = "GER_AFR_DESC"
+			ideology = market_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"FRA"={
+			history = "FRA_AFR_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ITA"={
+			history = "ITA_AFR_DESC"
+			ideology = market_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ENG"={
+			history = "ENG_AFR_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"TUR"={
+			history = "TUR_AFR_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		#Others
+
+		"---"={
+			history = "OTHER_AFR_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

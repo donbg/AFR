@@ -6,12 +6,6 @@ add_ideas = {
 	limited_conscription
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_POL
-set_country_flag = sphere_2_by_POL
-set_country_flag = sphere_3_by_POL
-add_ideas = sphered_idea_8
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

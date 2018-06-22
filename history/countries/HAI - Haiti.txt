@@ -22,12 +22,6 @@ add_ideas = {
 	GEN_Ludwik_Czaplinski_for_ade
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_USA
-set_country_flag = sphere_2_by_USA
-set_country_flag = sphere_3_by_USA
-add_ideas = sphered_idea_7
-
 set_politics = {
 
 	parties = {

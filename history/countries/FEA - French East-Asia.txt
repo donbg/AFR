@@ -43,15 +43,7 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
-
 add_ideas = {
-	VIN_rural_nation
-	VIN_rural_nation
 	GEN_Hugo_Bernard_hog_sli
 	GEN_Felix_Menard_for_sli
 	GEN_Francis_Morel_eco_sli

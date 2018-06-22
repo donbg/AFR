@@ -45,23 +45,6 @@ set_technology = {
 	radio = 1
 }
 
-
-set_country_flag = great_power_1
-set_country_flag = sphered_CAN
-set_country_flag = sphered_AST
-set_country_flag = sphered_NZL
-set_country_flag = sphered_RAJ
-set_country_flag = sphered_SAF
-set_country_flag = sphered_POR
-set_country_flag = sphered_GRE
-set_country_flag = sphered_SPM
-set_country_flag = sphered_TRK
-set_country_flag = sphered_ARB
-set_country_flag = sphered_IRQ
-set_country_flag = sphered_BEA
-save_global_event_target_as = sphereleader1
-
-
 add_ideas = {
 	ENG_Samuel_Hoare_hog
 	ENG_John_Anderson_for

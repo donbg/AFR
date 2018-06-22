@@ -37,14 +37,6 @@ add_ideas = {
 	GEN_Fleano_Carideo_sec_mli
 }
 
-set_cosmetic_tag = MOR_FRA
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
-
 set_politics = {
 
 	parties = {

@@ -12,12 +12,6 @@ set_technology = {
 	CAS1 = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ENG
-set_country_flag = sphere_2_by_ENG
-set_country_flag = sphere_3_by_ENG
-add_ideas = sphered_idea_1
-
 add_ideas = {
 	GEN_Szymon_Kowalski_hog_ade
 	GEN_Jozef_Korczak_eco_ade

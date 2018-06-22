@@ -14,12 +14,6 @@ set_technology = {
 	early_light_cruiser = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_JAP
-set_country_flag = sphere_2_by_JAP
-set_country_flag = sphere_3_by_JAP
-add_ideas = sphered_idea_6
-
 country_event = {
 	id = anh.1 days = 1
 }

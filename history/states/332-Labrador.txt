@@ -4,7 +4,7 @@ state={
 	name="STATE_332"
 
 	history={
-		owner = NFL
+		owner = CAN
 		buildings = {
 			infrastructure = 3
 			4720 = {
@@ -14,7 +14,6 @@ state={
 
 		}
 		add_core_of = CAN
-		add_core_of = NFL
 
 	}
 

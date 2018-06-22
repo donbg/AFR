@@ -28,14 +28,7 @@ set_technology = {
 	transport = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ENG
-set_country_flag = sphere_2_by_ENG
-set_country_flag = sphere_3_by_ENG
-add_ideas = sphered_idea_1
-
 set_convoys = 40
-
 
 set_politics = {
 

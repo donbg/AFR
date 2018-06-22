@@ -57,21 +57,9 @@ GENERATING_GRADIENT_BORDERS:0 "Creating a Coalition"
 ### Name and Description ###
 BM_HISTORY_TITLE:0 "Brief History"
 
-FUHRERREICH_NAME:0 "Legacy of the Great War"
+AFR_NAME:0 "Aftermath of the Großerkrieg"
 
-FUHRERREICH_DESC:0 "The end of the Great War saw the empires of the old—the Ottomans, the Austrians, and the Germans—fall greatly in both power and influence while the United States, Britain, and France have risen. While the Great War was thought by many to usher in a new era of peace, it seems that the tensions of old have not yet faded away and, with them, could threaten the tenuous peace that remains..."
-
-###OTHER COUNTRIES DESC###
-OTHER_FUHRERREICH_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the valkists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
-
-###LEADER DESCRIPTIONS###
-POLITICS_GEORGE_V_DESC:0 "George V of Windsor is the King-Emperor of the British Empire, more than just in name. Reigning nearly 3 times longer than his father, Edward VII, he has risen to become one of the most beloved Monarchs in British history. Under his reign the British Empire has once again asserted itself as the Global Hegemon and has economically eclipsed both their rivals and former allies following the Empire's return to Splendid Isolation. However, his invincible image does not entirely live up to reality. As the years march forward, King George's health has been steadily deteriorating, forcing him allow his son, Prince Edward, to assume a portion of his duties. Some of the Empire's finest medical experts expect him to live another 10 years at minimum, although King George privately holds an opinion to the contrary, despite his often stoic nature."
-
-POLITICS_EDWARD_VIII_DESC:0 "With the passing of the beloved King George, Edward VIII of Windsor found himself inheriting not only an Empire spanning from Vancouver to Wellington, but also the larger-than-life image that was established by his Father. Charismatic, confident, and armed with experience from the closing years of his Father's reign; the newly coronated King-Emperor is prepared to assume any duties that may be required of him in coming years."
-
-POLITICS_ADAM_DRESSLER_DESC:0 "An orphan, a Veteran, an Austro-German, Dressler led a very difficult life. Following the Great War, Dressler would find his way to the DNVP and then become one of their most notable and charismatic speakers. Dressler would attempt to assist a DNVP-led coup in 1923, only to be crushed and forcibly detained. During his time in prison, Dressler wrote a fanatic novel titled 'Mein Deutschland das Siegreiche', a novel detailing revenge against the Western Powers and destruction of the Soviets in the East. The novel would become incredibly popular. Following a case that proved Dressler's imprisonment unlawful; he was released from prison and was greeted by hundreds of supporters. Dressler would then build up support for his newly founded Valkistische Volkspartei Deutschlands and then run for office in 1932. Dressler narrowly lost to Otto Wels, declared the results fraudulent, and then lead a coup to bring down the Wels' Government. Dressler declared himself leader of Germany in the Reichstag, something the Entente responded to with hostility due to their belief of the 1932 election being legitimate. Dressler declared a snap-election which led to an overwhelming VVD victory. With it, the Entente reluctantly accepted the belief that the 1932 elections were fraudulent. Since then, Dressler has rearmed Germany from the shadows, prepared to enforce Germany's vision for Europe through Military Might in coming years."
-
-POLITICS_PAUL_REYNAUD_DESC:0 "Paul Reynaud made his first major appearance in French politics in 1919, Reynaud was elected as part of the Conservative 'Blue Horizon' Bloc. Quickly developing a reputation for being a Savvy politician, Reynaud soon clarified his allegiance as a member of the Fédération Républicaine. Quickly climbing ranks within the party due to his Militant nature in foreign policy, Reynaud rose to the position of the Vice-President of the FR. In 1925, Auguste Isaac resigned his position as President of the Fédération Républicaine and sought to appoint a Militant successor in order to strengthen the platform of the party. Reynaud was a natural candidate due to his popularity within the party and firm stance on foreign affiars. Under Reynaud's leadership, the Fédération Républicaine managed gathering the most votes and seats in both the 1928 & 1932 Elections. An extremely pragmatic man, Reynaud follows one doctrine in foreign policy; France has no Friends, only Interests."
+AFR_DESC:0 "In the ashes of the Great War, many new regimes have been born. France and Italy have found themselves under new regimes enthusiastic to right the wrongs of the Großerkrieg, whilst the victors of the Großerkrieg have stagnated and divided themselves in face of new threats. A fragile peace remains, and another war lies on the horizon, yet the question remains; who will be victorious?"
 
 ### Laws ###
 undisturbed_isolation:0 "Splendid Isolation"
@@ -149,12 +137,7 @@ custom_diff_strong_jap:0 "Strengthen Japan"
 custom_diff_strong_tur:0 "Strengthen Ottomans"
 
 ### Factions ###
-imperial_protection_alliance:0 "Imperial Protection Alliance"
-continental_entente:0 "Continental Entente"
-Stahlpakt:0 "Stahlpakt"
-3rd_international:0 "Third International"
-free_bloc:0 "Free Bloc"
-commonwealth:0 "Commonwealth of Nations"
+central_powers:0 "Central Powers"
 
 ### Interface ###
 minister:1 "Ministers"

@@ -21,17 +21,7 @@ set_convoys = 50
 set_stability = 0.202
 set_war_support = 0.55
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_SOV
-set_country_flag = sphere_2_by_SOV
-set_country_flag = sphere_3_by_SOV
-add_ideas = sphered_idea_3
-
-
 add_ideas = {
-	SOV_Bread
-	SOV_Peace
-	SOV_Labour
 	GEN_Mathias_Hansen_hog_lis
 	GEN_Edgar_Hovda_for_lis
 	GEN_Karl_Mork_eco_lis

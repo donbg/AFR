@@ -22,12 +22,6 @@ set_technology = {
 	transport = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_GER
-set_country_flag = sphere_2_by_GER
-set_country_flag = sphere_3_by_GER
-add_ideas = sphered_idea_2
-
 add_ideas = {
 	extensive_conscription
 	GEN_Paul_Muller_hog_npo

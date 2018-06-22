@@ -36,12 +36,6 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ENG
-set_country_flag = sphere_2_by_ENG
-set_country_flag = sphere_3_by_ENG
-add_ideas = sphered_idea_1
-
 add_political_power = -52
 set_convoys = 100
 set_stability = 0.6
