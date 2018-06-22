@@ -44,6 +44,10 @@ SOV = {
 	color = rgb { 170 10 18 }
 	color_ui = rgb { 150 17 59 }
 }
+RUS = {
+	color = rgb { 54 126 88 }
+	color_ui = rgb { 54 126 68 }
+}
 GOR = {
 	color = rgb { 22 150 54 }#255 235 59 
 	color_ui = rgb { 4 140 34 }
@@ -69,7 +73,7 @@ SWE = {
 	color_ui = rgb { 16 157 182 }
 }
 TRK = {
-	color = rgb { 100 150 105 }
+	color = rgb { 170 160 105 }
 	color_ui = rgb { 100 150 105 }
 }
 CEN = { #133 125 203 is liliac
@@ -207,7 +211,7 @@ HUN = {
 	color_ui = rgb { 187 74 74 }
 }
 AFG = {
-	color = rgb { 0 146 167 } #Original is 64 160 167
+	color = rgb { 50 106 127 } #Original is 64 160 167
 	color_ui = rgb { 0 106 167 }
 }
 ARG = {
@@ -215,7 +219,7 @@ ARG = {
 	color_ui = rgb { 189 204 255 }
 }
 AST = {
-	color = rgb { 57 143 97 }
+	color = rgb { 97 133 87 }
 	color_ui = rgb { 74 186 126 }
 }
 BHU = {
@@ -231,12 +235,12 @@ BRA = {
 	color_ui = rgb { 32 164 121 }
 }
 CAN = {
-	color = rgb { 120 40 40 }
+	color = rgb { 100 40 40 }
 	color_ui = rgb { 155 62 51 }
 }
 NFL = {
-    color = rgb { 195 11 78 } #160 10 10 works good for a 'bad guy' look for Britain
-    color_ui = rgb { 195 11 78 } #SocDem Gang: The color. 160 10 105
+    color = rgb { 195 11 78 }
+    color_ui = rgb { 195 11 78 }
 }
 QUE = {
 	color = rgb { 0 0 160 }
@@ -295,7 +299,7 @@ JAP = {
 	color_ui = rgb { 231 200 200 }
 }
 KMT = {
-	color = rgb { 93 187 191 }
+	color = rgb { 93 157 161 }
 	color_ui = rgb { 93 187 191 }
 }
 LIB = {
@@ -315,7 +319,7 @@ NIC = {
 	color_ui = rgb { 146 179 191 }
 }
 NZL = {
-	color = rgb { 122 85 151 }
+	color = rgb { 152 115 121 }
 	color_ui = rgb { 152 130 191 }
 }
 PAN = {
@@ -323,7 +327,7 @@ PAN = {
 	color_ui = rgb { 198 169 248 }
 }
 PER = {
-	color = rgb { 71 113 97 }
+	color = rgb { 81 123 67 }
 	color_ui = rgb { 92 147 126 }
 }
 PHI = {
@@ -411,7 +415,7 @@ HAI = {
 	color_ui = rgb { 174 113 113 }
 }
 YEM = {
-	color = rgb { 155 101 107 }
+	color = rgb { 115 101 147 }
 	color_ui = rgb { 202 131 139 }
 }
 OMA = {
@@ -423,7 +427,7 @@ SLO = {
 	color_ui = rgb { 96  83  143 }
 }
 RAJ = {
-	color = rgb { 158 50 50 }
+	color = rgb { 128 70 70 }
 	color_ui = rgb { 158 50 50 }
 }
 
@@ -919,6 +923,6 @@ GRP = {
 }
 
 ZHI = {
-	color = rgb { 214  136  2 }
+	color = rgb { 204  206  122 }
 	color_ui = rgb { 214  136  2 }
 }
