@@ -5,7 +5,7 @@ state={
 
 
 	history={
-		owner = AST
+		owner = GER
 		buildings = {
 			infrastructure = 0
 		}

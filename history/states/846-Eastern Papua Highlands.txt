@@ -5,8 +5,7 @@ state={
 
 
 	history={
-		owner = AST
-		add_core_of = INS
+		owner = HOL
 		buildings = {
 			infrastructure = 0
 		}

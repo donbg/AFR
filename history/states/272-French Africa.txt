@@ -2,12 +2,9 @@
 state={
 	id=272
 	name="STATE_272"
-	manpower = 1638000
 	resources={
-		steel=7.0
+		steel=7.000
 	}
-	
-	state_category = rural
 
 	history={
 		owner = ENG
@@ -20,11 +17,17 @@ state={
 			air_base = 4
 			4948 = {
 				naval_base = 3
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		2100 4948 7972 8015 12710 12834 
+		2100 4948 7972 8015 12710 
 	}
+	manpower=1638000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

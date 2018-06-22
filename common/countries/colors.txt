@@ -335,8 +335,8 @@ PRU = {
 	color_ui = rgb { 151  39  39 }
 }
 SAF = {
-	color = rgb { 120 120 127 } #130 53 90
-	color_ui = rgb { 110 110 117 }
+	color = rgb { 62 115 160 } #130 53 90
+	color_ui = rgb { 112 145 190 }
 }
 SAU = {
 	color = rgb { 195 177 73 }
