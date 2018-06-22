@@ -9,7 +9,7 @@ state={
 		rubber=16.0
 	}
 	history={
-		owner = PRR
+		owner = POR
 		buildings = {
 			industrial_complex = 1
 			dockyard = 1
@@ -24,8 +24,6 @@ state={
 		victory_points = {
 			10966 10
 		}
-		add_core_of = ANG
-		add_core_of = PRR
 	}
 
 	provinces={

@@ -7,8 +7,7 @@ state={
 	}
 
 	history={
-		owner = NFQ
-		add_core_of = NFQ
+		owner = GER
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

@@ -8,8 +8,7 @@ state=
 	
 	history=
 	{
-		owner = NFQ
-		add_core_of = NFQ
+		owner = POR
 		buildings = {
 			infrastructure = 2
 			1903 = {
