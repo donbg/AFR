@@ -41,7 +41,7 @@ UOB = {
 	color_ui = rgb { 155 0 0 }
 }
 SOV = {
-	color = rgb { 84 126 88 }
+	color = rgb { 54 126 68 }
 	color_ui = rgb { 150 17 59 }
 }
 GOR = {
