@@ -20,7 +20,7 @@ state={
 			}
 
 		}
-		add_core_of = IND
+		 
 		add_core_of = RAJ
 	}
 

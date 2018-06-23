@@ -4,7 +4,7 @@ state={
 	name="STATE_438"
 
 	history={
-		owner = IND
+		owner = RAJ
 		victory_points = {
 			12137 1 
 		}
@@ -13,7 +13,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = IND
+		 
 		add_core_of = RAJ
 	}
 

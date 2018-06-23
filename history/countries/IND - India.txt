@@ -73,14 +73,7 @@ parties = {
 	elections_allowed = no
 }
 
-declare_war_on = {
-	target = RAJ
-	type = annex_everything
-}
-
 add_ideas = {
-	IND_mahatma_memories
-	IND_indian_rebels
 }
 
 # REVISIT Unclear if appropriate for this ideology

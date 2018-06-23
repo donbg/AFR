@@ -295,7 +295,7 @@ IRQ = {
 	color_ui = rgb { 172 105 44 }
 }
 JAP = {
-	color = rgb { 247 160 160 } #paler version is 247 200 210
+	color = rgb { 160 100 140 } #paler version is 247 200 210
 	color_ui = rgb { 231 200 200 }
 }
 KMT = {

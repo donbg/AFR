@@ -21,7 +21,7 @@ state={
 		victory_points = {
 			1349 10 
 		}
-		add_core_of = IND
+		 
 		add_core_of = RAJ
 
 	}

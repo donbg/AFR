@@ -1,6 +1,6 @@
 ﻿capital = 13
 
-oob = "SSR"
+oob = "INF"
 
 set_research_slots = 3
 
@@ -20,26 +20,22 @@ set_stability = 0.69
 set_war_support = 0.32
 
 add_ideas = {
-	GEN_Mathias_Hansen_hog_lis
-	GEN_Edgar_Hovda_for_lis
-	GEN_Karl_Mork_eco_lis
-	GEN_Lars_Egner_sec_lis
 }
 
 set_politics = {
 
 	parties = {
 		vanguardist = {
-			popularity = 28
+			popularity = 14
 		}
 		collectivist = {
-			popularity = 42
-		}
-		libertarian_socialist = {
 			popularity = 16
 		}
+		libertarian_socialist = {
+			popularity = 28
+		}
 		social_democrat = {
-			popularity = 14
+			popularity = 42
 		}
 		social_liberal = {
 			popularity = 0
@@ -64,7 +60,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = collectivist
+	ruling_party = social_democrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
