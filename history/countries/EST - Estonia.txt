@@ -26,25 +26,25 @@ set_politics = {
 
 	parties = {
 		vanguardist = {
-			popularity = 14
+			popularity = 4
 		}
 		collectivist = {
 			popularity = 16
 		}
 		libertarian_socialist = {
-			popularity = 28
+			popularity = 8
 		}
 		social_democrat = {
 			popularity = 42
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 10
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 10
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 10
 		}
 		authoritarian_democrat = {
 			popularity = 0
@@ -67,11 +67,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Jaan Anvelt"
-	desc = "POLITICS_JAAN_ANVELT_DESC"
-	picture = "Portrait_Jaan_Anvelt.tga"
+	name = "help"
+	desc = ""
+	picture = ""
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		#
 	}

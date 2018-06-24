@@ -11,9 +11,6 @@ add_ideas = {
 	export_focus
 	volunteer_only
 	normal_popularity
-	CHL_crumbling_government
-	CHL_collapsed_economy
-	CHL_political_polarization
 	CHL_Juan_Esteban_Montero_hog_sli
 	CHL_Abraham_Ortega_Aguayo_for_sli
 	CHL_Pedro_Enrique_Alfonso_eco_sli
@@ -43,153 +40,52 @@ set_politics = {
 
 	parties = {
 		vanguardist = {
-			popularity = 1
-		}
-		collectivist = {
 			popularity = 5
 		}
+		collectivist = {
+			popularity = 51
+		}
 		libertarian_socialist = {
-			popularity = 6
+			popularity = 10
 		}
 		social_democrat = {
 			popularity = 13
 		}
 		social_liberal = {
-			popularity = 23
-		}
-		market_liberal = {
-			popularity = 2
-		}
-		social_conservative = {
-			popularity = 3
-		}
-		authoritarian_democrat = {
 			popularity = 6
 		}
+		market_liberal = {
+			popularity = 6
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
 		paternal_autocrat = {
-			popularity = 16
+			popularity = 0
 		}
 		national_populist = {
-			popularity = 1
+			popularity = 9
 		}
 		valkist = {
-			popularity = 24
+			popularity = 0
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = collectivist
 	last_election = "1935.10.30"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Juan Esteban Montero"
-	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "JEMontero.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-
-
-create_country_leader = {
-	name = "Jorge González von Marées"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "jgvm.dds"
-	expire = "1965.1.1"
-	ideology = valkist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Carlos Contreras Labarca"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "Carlos_Contreras_Labarca.dds"
+	name = "Luis Emilio Recabarren"
+	desc = ""
+	picture = ""
 	expire = "1965.1.1"
 	ideology = collectivist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Carlos Ibañez del Campo"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "General_Ibanez.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bartolomé Blanche"
-	desc = "BB_DESC"
-	picture = "Bartolome_Blanche.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Marmaduque Grove"
-	desc = "MG_DESC"
-	picture = "Marmaduque_Grove.dds"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Raúl Olivares"
-	desc = "RO_DESC"
-	picture = "Raul_Olivares.dds"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gustavo Ross"
-	desc = "GR_DESC"
-	picture = "gustavo_ross.dds"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Eduardo Cruz-Coke"
-	desc = "ECC_DESC"
-	picture = "ECC.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Manuel Rojas"
-	desc = "MR_DESC"
-	picture = "Manuel_Rojas.dds"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
 	traits = {
 		#
 	}

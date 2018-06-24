@@ -267,7 +267,7 @@ COL = {
 	color_ui = rgb { 214 194 108 }
 }
 COS = {
-	color = rgb { 152 128 43 }
+	color = rgb { 122 92 55 }
 	color_ui = rgb { 152 128 43 }
 }
 ECU = {
@@ -275,7 +275,7 @@ ECU = {
 	color_ui = rgb { 50  148  172 }
 }
 ELS = {
-	color = rgb { 152 130 191 }
+	color = rgb { 142 140 141 }
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
@@ -283,11 +283,11 @@ ETH = {
 	color_ui = rgb { 150 120 105 }
 }
 GUA = {
-	color = rgb { 72 49 112 }
+	color = rgb { 132 49 132 }
 	color_ui = rgb { 72 49 112 }
 }
 HON = {
-	color = rgb { 128 145 65 }
+	color = rgb { 57 173 123 }
 	color_ui = rgb { 128 145 65 }
 }
 IRQ = {
@@ -315,7 +315,7 @@ NEP = {
 	color_ui = rgb { 198 169 248 }
 }
 NIC = {
-	color = rgb { 146 179 191 }
+	color = rgb { 106 189 184 }
 	color_ui = rgb { 146 179 191 }
 }
 NZL = {
@@ -323,8 +323,8 @@ NZL = {
 	color_ui = rgb { 152 130 191 }
 }
 PAN = {
-	color = rgb { 192 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 200 90 125 }
+	color_ui = rgb { 200 90 125 }
 }
 PER = {
 	color = rgb { 81 123 67 }
