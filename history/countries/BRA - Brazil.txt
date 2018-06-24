@@ -2,7 +2,6 @@
 
 add_ideas = {
 	limited_conscription
-	BRA_political_instability
 	GEN_Francesco_Esposito_hog_mli
 	GEN_Antonello_D_Angelo_for_mli
 	GEN_Eros_Berna_eco_mli
