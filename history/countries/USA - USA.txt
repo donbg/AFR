@@ -74,9 +74,6 @@ set_politics = {
 		national_populist = {
 			popularity = 16
 		}
-		national_populist = {
-			popularity = 0
-		}
 	}
 
 	ruling_party = social_conservative

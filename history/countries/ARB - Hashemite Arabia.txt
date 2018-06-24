@@ -50,9 +50,6 @@ set_politics = {
 			popularity = 8
 		}
 		national_populist = {
-			popularity = 0
-		}
-		national_populist = {
 			popularity = 14
 		}
 	}

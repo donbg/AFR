@@ -42,26 +42,11 @@ set_stability = 0.6
 set_war_support = 0.40
 
 add_ideas = {
-	CAN_red_tories
-	CAN_canadian_corps
-	CAN_anglo_french_tension
-	CAN_east_west_divide
-	high_popularity
 	CAN_rb_bennett_hog
 	CAN_lester_b_pearson_for
 	CAN_edgar_nelson_rhodes_eco
 	CAN_hugh_guthrie_sec
 	}
-
-if = { 
-	limit = { NOT = { has_dlc = "Together for Victory" } }
-	set_cosmetic_tag = CAN_ALY
-}
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	set_cosmetic_tag = CAN_UK
-	#add_to_tech_sharing_group = commonwealth_research
-}
 
 set_politics = {
 
@@ -76,33 +61,30 @@ set_politics = {
 			popularity = 1
 		}
 		social_democrat = {
-			popularity = 14
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 3
+			popularity = 11
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 43
 		}
 		social_conservative = {
-			popularity = 60
+			popularity = 22
 		}
 		authoritarian_democrat = {
-			popularity = 1
+			popularity = 2
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 2
 		}
 		national_populist = {
-			popularity = 14
-		}
-		national_populist = {
-			popularity = 0
+			popularity = 8
 		}
 	}
 
 
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no

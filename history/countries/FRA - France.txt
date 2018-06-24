@@ -51,38 +51,35 @@ set_politics = {
 			popularity = 0
 		}
 		revolutionary_unionist = {
-			popularity = 3
+			popularity = 0
 		}
 		libertarian_socialist = {
-			popularity = 12
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 8
+			popularity = 3
 		}
 		social_liberal = {
-			popularity = 21
+			popularity = 2
 		}
 		market_liberal = {
-			popularity = 16
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 27
+			popularity = 9
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 50
 		}
 		paternal_autocrat = {
-			popularity = 13
+			popularity = 20
 		}
 		national_populist = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
+			popularity = 16
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -90,12 +87,6 @@ set_politics = {
 }
 
 add_ideas = {
-	FRA_great_war_victors
-	FRA_our_place_in_the_sun
-	FRA_british_tariffs
-	FRA_rhineland_coal
-	#low_popularity
-	normal_popularity
 	NFA_Joachim_Prince_de_Murat_hog_sco
 	NFA_Pierre_Pflimlin_for_sco
 	#NFA_Paul_Marchandeau_eco_sco #Removed for being too good.
@@ -105,190 +96,25 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Maurice Thorez"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "Portrait_France_Maurice_Thorez.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
-	traits = {
-		#	
-	}	
-}
-
-create_country_leader = {
-	name = "Sébastien Faure"
-	desc = "POLITICS_FAURE_DESC"
-	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
-	traits = {
-		#	
-	}	
-}
-
-create_country_leader = {
-	name = "Sébastien Faure"
-	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
-	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		#	
-	}	
-}
-
-create_country_leader = {
-	name = "Pierre Laval"
-	desc = "POLITICS_PIERRE_LAVAL_DESC"
-	picture = "Portrait_France_Pierre_Laval.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-	
-}
-
-create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_EdouardDaladier.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-	
-}
-
-create_country_leader = {
-	name = "Pierre-Étienne Flandin"
-	desc = "POLITICS_PIERRE_ETIENNE_FLANDIN_DESC"
-	picture = "Portrait_France_Pierre_Etienne_Flandin.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-	
-}
-
-create_country_leader = { #yeah idk
-	name = "Paul Reynaud"
-	desc = "POLITICS_PAUL_REYNAUD_DESC"
-	picture = "Portrait_FRA_Paul_Reynaud.tga" #'Portrait_France_Paul_Reynaud.tga' is the vanilla portrait
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-	
-}
-
-create_country_leader = {
 	name = "Philippe Petain"
 	desc = "POLITICS_PHILIPPE_PETAIN_DESC"
 	picture = "Portrait_France_PhilippePetain1.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
-		marshal_of_france
 	}
 	
 }
-
 create_country_leader = {
-	name = "Léon Daudet"
-	desc = "POLITICS_LEON_DAUDET_DESC"
-	picture = "Portrait_FRA_Leon_Daudet.tga"
+	name = "Maurice Gamelin"
+	desc = "POLITICS_GAMELIN_DESC"
+	picture = "Portrait_France_MauriceGamelin.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}
 	
-}
-
-#create_country_leader = {
-#	name = "HRH Jean I d'Orleans"
-#	desc = "POLITICS_JEAN_ORLEANS_DESC"
-#	picture = "Portrait_France_Jean_d_Orleans.tga"
-#	expire = "1965.1.1"
-#	ideology = paternal_autocrat_subtype
-#	traits = {
-#		
-#	}
-#	
-#}
-
-#create_country_leader = {
-#	name = "Maxime Weygand"
-#	desc = "POLITICS_MAXIME_WEYGAND_DESC"
-#	picture = "Portrait_France_MaximeWeygand.tga"
-#	expire = "1965.1.1"
-#	ideology = paternal_autocrat_subtype
-#	traits = {
-#		
-#	}
-#	
-#}
-
-create_country_leader = {
-	name = "François de La Rocque"
-	desc = "POLITICS_FRANCOIS_DE_LA_ROCQUE_DESC"
-	picture = "Portrait_France_Francois_de_la_Rocque.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		
-	}
-	
-}
-
-FEA = {
-	set_politics = {
-
-	parties = {
-			vanguard_marxist = {
-				popularity = 0
-			}
-			revolutionary_unionist = {
-				popularity = 4
-			}
-			libertarian_socialist = {
-				popularity = 8
-			}
-			social_democrat = {
-				popularity = 5
-			}
-			social_liberal = {
-				popularity = 20
-			}
-			market_liberal = {
-				popularity = 5
-			}
-			social_conservative = {
-				popularity = 11
-			}
-			authoritarian_democrat = {
-				popularity = 2
-			}
-			paternal_autocrat = {
-				popularity = 45
-			}
-			national_populist = {
-				popularity = 0
-			}
-			national_populist = {
-				popularity = 0
-			}
-		}
-
-		ruling_party = paternal_autocrat
-		last_election = "1933.2.16"
-		election_frequency = 36
-		elections_allowed = no
-	}
 }
 
 create_field_marshal = {
