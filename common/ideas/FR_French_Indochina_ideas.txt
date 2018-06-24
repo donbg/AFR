@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		VIN_socialist_revolutionaries = { 
-			picture = generic_collectivism_rising 
+			picture = generic_revolutionary_unionism_rising 
 			modifier = {
 				conscription_factor = -0.25
 				consumer_goods_factor = 0.08

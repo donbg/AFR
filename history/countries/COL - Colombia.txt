@@ -51,10 +51,10 @@ set_politics = {
 		national_populist = {
 			popularity = 10
 		}
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 3
 		}	
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 8
 		}
 	}
@@ -101,7 +101,7 @@ create_country_leader = {
 	desc = "POLITICS_ELISO_ARANGO_RAMOS_DESC"
 	picture = "ElisoArango.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

@@ -21,10 +21,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 5
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 4
 		}
 		libertarian_socialist = {
@@ -51,7 +51,7 @@ set_politics = {
 		national_populist = {
 			popularity = 6
 		}
-		valkist = {
+		national_populist = {
 			popularity = 3
 		}
 	}
@@ -71,7 +71,7 @@ create_country_leader = {
 	desc = "POLITICS_ENVER_HOXHA_DESC"
 	picture = "portrait_Albania_Enver_Hoxha.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_MEHMET_SHEHU_DESC"
 	picture = "portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}
@@ -181,7 +181,7 @@ create_country_leader = {
 	desc = "POLITICS_FAN_STILIAN_NOLI_DESC"
 	picture = "Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

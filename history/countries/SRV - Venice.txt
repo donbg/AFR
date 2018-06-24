@@ -39,10 +39,10 @@ set_war_support = 0.50
 set_politics = {
 
     parties = {
-        vanguardist = {
+        vanguard_marxist = {
             popularity = 14
         }
-        collectivist = {
+        revolutionary_unionist = {
             popularity = 0
         }
         libertarian_socialist = {
@@ -69,7 +69,7 @@ set_politics = {
         national_populist = {
             popularity = 0
         }
-        valkist = {
+        national_populist = {
             popularity = 4
         }
     }
@@ -129,7 +129,7 @@ create_country_leader = {
 	desc = "GIUSEPPE_VOLPI_DESC"
 	picture = "Portrait_Venice_Giuseppe_Volpi.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {		
 	}
 }

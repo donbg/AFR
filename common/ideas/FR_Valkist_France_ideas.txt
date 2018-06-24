@@ -1,6 +1,6 @@
 ideas = {
 
-	## Valkist France Ideas ##
+	## national_populist France Ideas ##
 
 	country = {
 	

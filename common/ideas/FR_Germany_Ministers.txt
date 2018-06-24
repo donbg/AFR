@@ -579,14 +579,14 @@ head_of_government = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Anton_Arco_Valley_dead}
 			NOT = {has_country_flag = Anton_Arco_Valley_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government valkist hog_flamboyant_tough_guy}
+		traits = {head_of_government national_populist hog_flamboyant_tough_guy}
 		cancel_if_invalid = no
 	}
 	GER_Kurt_von_Schleicher_hog_ade = { #Auto-Generated
@@ -607,7 +607,7 @@ head_of_government = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Hermann_Goring_dead}
@@ -623,14 +623,14 @@ head_of_government = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Julius_Schreck_dead}
 			NOT = {has_country_flag = Julius_Schreck_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government valkist hog_flamboyant_tough_guy}
+		traits = {head_of_government national_populist hog_flamboyant_tough_guy}
 		cancel_if_invalid = no
 	}
 	GER_Sebottendorf_hgo_val = { #Auto-Generated
@@ -639,14 +639,14 @@ head_of_government = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Sebottendorf_dead}
 			NOT = {has_country_flag = Sebottendorf_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government valkist hog_old_general}
+		traits = {head_of_government national_populist hog_old_general}
 		cancel_if_invalid = no
 	}
 	GER_Heinrich_Class_hog_npo = { #Auto-Generated
@@ -655,7 +655,7 @@ head_of_government = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Heinrich_Class_dead}
@@ -671,7 +671,7 @@ head_of_government = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Wilhelm_Frick_dead}
@@ -687,7 +687,7 @@ head_of_government = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Theodor_Duesterberg_dead}
@@ -808,37 +808,37 @@ head_of_government = {
 	GER_Heinz_Neumann_hog_col = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Heinz_Neumann_dead}
 			NOT = {has_country_flag = Heinz_Neumann_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government collectivist hog_silent_workhorse}
+		traits = {head_of_government revolutionary_unionist hog_silent_workhorse}
 		cancel_if_invalid = no
 	}
 	GER_Willi_Budich_hog_col = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Willi_Budich_dead}
 			NOT = {has_country_flag = Willi_Budich_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government collectivist hog_political_protege}
+		traits = {head_of_government revolutionary_unionist hog_political_protege}
 		cancel_if_invalid = no
 	}
 	GER_Fritz_Erpenbeck_hog_int = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Fritz_Erpenbeck_dead}
 			NOT = {has_country_flag = Fritz_Erpenbeck_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government vanguardist hog_happy_amateur}
+		traits = {head_of_government vanguard_marxist hog_happy_amateur}
 		cancel_if_invalid = no
 	}
 	
@@ -851,14 +851,14 @@ foreign_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Alfred_Rosenberg_dead}
 			NOT = {has_country_flag = Alfred_Rosenberg_for_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister valkist for_ideological_crusader}
+		traits = {foreign_minister national_populist for_ideological_crusader}
 		cancel_if_invalid = no
 	}
 	GER_Max_Amann_for_val = { #Auto-Generated
@@ -867,14 +867,14 @@ foreign_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Max_Amann_dead}
 			NOT = {has_country_flag = Max_Amann_for_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister valkist for_iron_fisted_brute}
+		traits = {foreign_minister national_populist for_iron_fisted_brute}
 		cancel_if_invalid = no
 	}
 	GER_Friedrich_Werner_von_der_Schulenberg_for_ade = { #Auto-Generated
@@ -919,7 +919,7 @@ foreign_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Franz_von_Papen_dead}
 			NOT = {has_country_flag = Franz_von_Papen_for_fired}
@@ -992,37 +992,37 @@ foreign_minister = {
 	GER_Paul_Levi_for_col = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 			NOT = {has_country_flag = Paul_Levi_dead}
 			NOT = {has_country_flag = Paul_Levi_for_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister collectivist for_apologetic_clerk}
+		traits = {foreign_minister revolutionary_unionist for_apologetic_clerk}
 		cancel_if_invalid = no
 	}
 	GER_Bernhard_Bastlein_for_col = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 			NOT = {has_country_flag = Paul_Levi_dead}
 			NOT = {has_country_flag = Paul_Levi_for_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister collectivist for_ideological_crusader}
+		traits = {foreign_minister revolutionary_unionist for_ideological_crusader}
 		cancel_if_invalid = no
 	}
 	GER_Ernst_Toller_for_int = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 			NOT = {has_country_flag = Ernst_Toller_dead}
 			NOT = {has_country_flag = Ernst_Toller_for_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister collectivist for_iron_fisted_brute}
+		traits = {foreign_minister revolutionary_unionist for_iron_fisted_brute}
 		cancel_if_invalid = no
 	}
 }
@@ -1034,14 +1034,14 @@ economy_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Adolf_Hitler_dead}
 			NOT = {has_country_flag = Adolf_Hitler_eco_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister valkist eco_administrative_genius}
+		traits = {economy_minister national_populist eco_administrative_genius}
 		cancel_if_invalid = no
 	}
 	GER_Otto_Strasser_eco_val = { #Auto-Generated
@@ -1050,14 +1050,14 @@ economy_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Otto_Strasser_dead}
 			NOT = {has_country_flag = Otto_Strasser_eco_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister valkist eco_reformer}
+		traits = {economy_minister national_populist eco_reformer}
 		cancel_if_invalid = no
 	}
 	GER_Gernhard_Rossbach_eco_val = { #Auto-Generated needs pic
@@ -1066,14 +1066,14 @@ economy_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Gernhard_Rosbach_dead}
 			NOT = {has_country_flag = Gernhard_Rosbach_eco_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister valkist eco_military_entrepreneur}
+		traits = {economy_minister national_populist eco_military_entrepreneur}
 		cancel_if_invalid = no
 	}
 	GER_Gregor_Strasser_eco_val = { #Auto-Generated
@@ -1082,14 +1082,14 @@ economy_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Gregor_Strasser_dead}
 			NOT = {has_country_flag = Gregor_Strasser_eco_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister valkist eco_construction_magnate}
+		traits = {economy_minister national_populist eco_construction_magnate}
 		cancel_if_invalid = no
 	}
 	GER_Hjalmar_Schacht_eco_ade = { #Auto-Generated
@@ -1110,7 +1110,7 @@ economy_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Waldemar_Pabst_dead}
 			NOT = {has_country_flag = Waldemar_Pabst_eco_fired}
@@ -1126,7 +1126,7 @@ economy_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Alfred_Hugenberg_dead}
 			NOT = {has_country_flag = Alfred_Hugenberg_eco_fired}
@@ -1142,7 +1142,7 @@ economy_minister = {
 			OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 			NOT = {has_country_flag = Paul_Lejeune_Jung_dead}
 			NOT = {has_country_flag = Paul_Lejeune_Jung_eco_fired}
@@ -1227,37 +1227,37 @@ economy_minister = {
 	GER_Willi_Stoph_eco_col = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 			NOT = {has_country_flag = Willi_Stoph_dead}
 			NOT = {has_country_flag = Willi_Stoph_eco_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister collectivist eco_administrative_genius}
+		traits = {economy_minister revolutionary_unionist eco_administrative_genius}
 		cancel_if_invalid = no
 	}
 	GER_Willi_Munzenberg_eco_int = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 			NOT = {has_country_flag = Willi_Munzenberg_dead}
 			NOT = {has_country_flag = Willi_Munzenberg_eco_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister vanguardist eco_administrative_genius}
+		traits = {economy_minister vanguard_marxist eco_administrative_genius}
 		cancel_if_invalid = no
 	}
 	GER_Ernst_Rohm_eco_int = { #Auto-Generated
 		allowed = {original_tag = GER}
 		available = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 			NOT = {has_country_flag = Ernst_Rohm_dead}
 			NOT = {has_country_flag = Ernst_Rohm_eco_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister vanguardist eco_military_entrepreneur}
+		traits = {economy_minister vanguard_marxist eco_military_entrepreneur}
 		cancel_if_invalid = no
 	}
 }
@@ -1269,14 +1269,14 @@ security_minister = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Hermann_Ehrhardt_dead}
 				NOT = {has_country_flag = Hermann_Ehrhardt_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister valkist sec_prince_of_terror}
+			traits = {security_minister national_populist sec_prince_of_terror}
 			cancel_if_invalid = no
 		}
 		GER_Heinrich_Muller_sec_val = { #Auto-Generated
@@ -1285,14 +1285,14 @@ security_minister = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Heinrich_Muller_dead}
 				NOT = {has_country_flag = Heinrich_Muller_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister valkist sec_secret_police_chief}
+			traits = {security_minister national_populist sec_secret_police_chief}
 			cancel_if_invalid = no
 		}
 		GER_Walter_Caspari_sec_npo = { #Auto-Generated
@@ -1301,7 +1301,7 @@ security_minister = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Walter_Caspari_dead}
 				NOT = {has_country_flag = Walter_Caspari_sec_fired}
@@ -1317,7 +1317,7 @@ security_minister = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Rudolf_Diels_dead}
 				NOT = {has_country_flag = Rudolf_Diels_sec_fired}
@@ -1333,7 +1333,7 @@ security_minister = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Kurt_Daluege_dead}
 				NOT = {has_country_flag = Kurt_Daluege_sec_fired}
@@ -1349,7 +1349,7 @@ security_minister = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Rudolf_Hess_dead}
 				NOT = {has_country_flag = Rudolf_Hess_sec_fired}
@@ -1365,7 +1365,7 @@ security_minister = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Wilhelm_von_Gayl_dead}
 				NOT = {has_country_flag = Wilhelm_von_Gayl_sec_fired}
@@ -1381,7 +1381,7 @@ security_minister = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Roland_Freisler_dead}
 				NOT = {has_country_flag = Roland_Freisler_sec_fired}
@@ -1490,37 +1490,37 @@ security_minister = {
 		GER_Hilde_Benjamin_sec_col = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				NOT = {has_country_flag = Hilde_Benjamin_dead}
 				NOT = {has_country_flag = Hilde_Benjamin_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister collectivist sec_efficient_sociopath}
+			traits = {security_minister revolutionary_unionist sec_efficient_sociopath}
 			cancel_if_invalid = no
 		}
 		GER_Eugen_Levine_sec_col = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				NOT = {has_country_flag = Eugen_Levine_dead}
 				NOT = {has_country_flag = Eugen_Levine_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister collectivist sec_prince_of_terror}
+			traits = {security_minister revolutionary_unionist sec_prince_of_terror}
 			cancel_if_invalid = no
 		}
 		GER_Ludwig_Renn_sec_int = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				NOT = {has_country_flag = Ludwig_Renn_dead}
 				NOT = {has_country_flag = Ludwig_Renn_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister vanguardist sec_man_of_the_people}
+			traits = {security_minister vanguard_marxist sec_man_of_the_people}
 			cancel_if_invalid = no
 		}
 	}
@@ -1532,12 +1532,12 @@ head_of_intel = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Johann_Rickmers_dead}
 				NOT = {has_country_flag = Johann_Rickmers_int_fired}
 			}
-			traits = {head_of_intel valkist int_logistics_specialist}
+			traits = {head_of_intel national_populist int_logistics_specialist}
 			cancel_if_invalid = no
 		}
 		GER_Adolf_Eichmann_int_val = { #Auto-Generated
@@ -1546,12 +1546,12 @@ head_of_intel = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Adolf_Eichmann_dead}
 				NOT = {has_country_flag = Adolf_Eichmann_int_fired}
 			}
-			traits = {head_of_intel valkist int_technical_specialist}
+			traits = {head_of_intel national_populist int_technical_specialist}
 			cancel_if_invalid = no
 		}
 		GER_Walter_Schellenberg_int_val = { #Auto-Generated
@@ -1560,12 +1560,12 @@ head_of_intel = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Walter_Schellenberg_dead}
 				NOT = {has_country_flag = Walter_Schellenberg_int_fired}
 			}
-			traits = {head_of_intel valkist int_logistics_specialist}
+			traits = {head_of_intel national_populist int_logistics_specialist}
 			cancel_if_invalid = no
 		}
 		GER_Kurt_Daluege_int_npo = { #Auto-Generated
@@ -1574,7 +1574,7 @@ head_of_intel = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Kurt_Daluege_dead}
 				NOT = {has_country_flag = Kurt_Daluege_int_fired}
@@ -1588,7 +1588,7 @@ head_of_intel = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Rudolf_Diels_dead}
 				NOT = {has_country_flag = Rudolf_Diels_int_fired}
@@ -1602,7 +1602,7 @@ head_of_intel = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Wilhelm_Canaris_dead}
 				NOT = {has_country_flag = Wilhelm_Canaris_int_fired}
@@ -1616,7 +1616,7 @@ head_of_intel = {
 				OR = {
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = valkist
+				has_government = national_populist
 			}
 				NOT = {has_country_flag = Paul_Pleiger_dead}
 				NOT = {has_country_flag = Paul_Pleiger_int_fired}
@@ -1691,21 +1691,21 @@ head_of_intel = {
 		GER_Ernst_Thalmann_int_col = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				NOT = {has_country_flag = Ernst_Thalmann_dead}
 				NOT = {has_country_flag = Ernst_Thalmann_int_fired}
 			}
-			traits = {head_of_intel collectivist int_industrial_specialist}
+			traits = {head_of_intel revolutionary_unionist int_industrial_specialist}
 			cancel_if_invalid = no
 		}
 		GER_Eirch_Weinert_int_int = { #Auto-Generated NEEDS PIC
 			allowed = {original_tag = GER}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				NOT = {has_country_flag = Eirch_Weinert_dead}
 				NOT = {has_country_flag = Eirch_Weinert_int_fired}
 			}
-			traits = {head_of_intel vanguardist int_logistics_specialist}
+			traits = {head_of_intel vanguard_marxist int_logistics_specialist}
 			cancel_if_invalid = no
 			}
 		}
@@ -1715,7 +1715,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Erwin_Rommel_mhc_val = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Erwin_Rommel_dead}
 				NOT = {has_country_flag = Erwin_Rommel_mhc_fired}
 			}
@@ -1737,7 +1737,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Heinz_Guderian_mhc_val = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Heinz_Guderian_dead}
 				NOT = {has_country_flag = Heinz_Guderian_mhc_fired}
 			}
@@ -1770,7 +1770,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Rudolf_von_Sebottendorf_mhc_val = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Rudolf_von_Sebottendorf_dead}
 				NOT = {has_country_flag = Rudolf_von_Sebottendorf_mhc_fired}
 			}
@@ -1792,7 +1792,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Reinhard_Heydrich_mhc_val = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Reinhard_Heydrich_dead}
 				NOT = {has_country_flag = Reinhard_Heydrich_mhc_fired}
 			}
@@ -1836,7 +1836,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Walther_von_Seydlitz_Kurzbach_mhc_col = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Walther_von_Seydlitz_Kurzbach_dead}
 				NOT = {has_country_flag = Walther_von_Seydlitz_Kurzbach_mhc_fired}
 			}
@@ -1869,7 +1869,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Alfred_Jodl_mhc_val = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Alfred_Jodl_dead}
 				NOT = {has_country_flag = Alfred_Jodl_mhc_fired}
 			}
@@ -1880,7 +1880,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Ludwig_Beck_mhc_val = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Ludwig_Beck_dead}
 				NOT = {has_country_flag = Ludwig_Beck_mhc_fired}
 			}
@@ -1891,7 +1891,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Werner_von_Fritsch_mhc_val = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Werner_von_Fritsch_dead}
 				NOT = {has_country_flag = Werner_von_Fritsch_mhc_fired}
 			}
@@ -1902,7 +1902,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Werner_von_Blomberg_mhc_pau = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Werner_von_Blomberg_dead}
 				NOT = {has_country_flag = Werner_von_Blomberg_mhc_fired}
 			}
@@ -2005,7 +2005,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Arno_von_Lenski_mhc_int = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Arno_von_Lenski_dead}
 				NOT = {has_country_flag = Arno_von_Lenski_mhc_fired}
 			}
@@ -2016,7 +2016,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Vincenz_Muller_mhc_col = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Vincenz_Muller_dead}
 				NOT = {has_country_flag = Vincenz_Muller_mhc_fired}
 			}
@@ -2062,7 +2062,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Walther_Steffens_cnav_col = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Walther_Steffens_dead}
 				NOT = {has_country_flag = Walther_Steffens_cnav_fired}
 			}
@@ -2076,7 +2076,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Lothar_von_Richthofen_cair_val = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Lothar_von_Richthofen_dead}
 				NOT = {has_country_flag = Lothar_von_Richthofen_cair_fired}
 			}
@@ -2120,7 +2120,7 @@ chief_of_staff = { ### Military High Command ###
 		GER_Bruno_Loerzer_cair_col = { #Auto-Generated
 			allowed = {original_tag = GER}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Bruno_Loerzer_dead}
 				NOT = {has_country_flag = Bruno_Loerzer_cair_fired}
 			}

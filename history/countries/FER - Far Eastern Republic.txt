@@ -49,10 +49,10 @@ set_war_support = 0.61
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 1
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 2
 		}
 		libertarian_socialist = {
@@ -79,7 +79,7 @@ set_politics = {
 		national_populist = {
 			popularity = 23
 		}
-		valkist = {
+		national_populist = {
 			popularity = 2
 		}
 	}
@@ -161,7 +161,7 @@ create_country_leader = {
 	desc = "POLITICS_GRIGORI_RASPUTIN_DESC"
 	picture = "Portrait_FER_Grigori_Rasputin.tga"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		
 	}

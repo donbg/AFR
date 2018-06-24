@@ -85,7 +85,7 @@ head_of_government = {
 			NOT = {has_country_flag = joseph_maurice_scott_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government valkist hog_political_protege}
+		traits = {head_of_government national_populist hog_political_protege}
 		cancel_if_invalid = no
 	}
 	CAN_arthur_evans_hog = { 
@@ -109,7 +109,7 @@ head_of_government = {
 			NOT = {has_country_flag = fred_rose_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government collectivist hog_flamboyant_tough_guy}
+		traits = {head_of_government revolutionary_unionist hog_flamboyant_tough_guy}
 		cancel_if_invalid = no
 	}
 	CAN_william_kashtan_hog = { 
@@ -121,7 +121,7 @@ head_of_government = {
 			NOT = {has_country_flag = william_kashtan_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government collectivist hog_backroom_backstabber}
+		traits = {head_of_government revolutionary_unionist hog_backroom_backstabber}
 		cancel_if_invalid = no
 	}
 	CAN_maurice_spector_hog = { 
@@ -133,7 +133,7 @@ head_of_government = {
 			NOT = {has_country_flag = maurice_spector_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government vanguardist hog_red_chairmen}
+		traits = {head_of_government vanguard_marxist hog_red_chairmen}
 		cancel_if_invalid = no
 	}
 }
@@ -213,7 +213,7 @@ foreign_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister valkist for_ideological_crusader}
+		traits = {foreign_minister national_populist for_ideological_crusader}
 		cancel_if_invalid = no
 	}
 	CAN_robert_b_russle_for = { 
@@ -246,7 +246,7 @@ foreign_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister collectivist for_hawkish_intervener}
+		traits = {foreign_minister revolutionary_unionist for_hawkish_intervener}
 		cancel_if_invalid = no
 	}
 	CAN_norman_bethune_for = { 
@@ -257,7 +257,7 @@ foreign_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister collectivist for_iron_fisted_brute}
+		traits = {foreign_minister revolutionary_unionist for_iron_fisted_brute}
 		cancel_if_invalid = no
 	}
 	CAN_sam_carr_for = { 
@@ -268,7 +268,7 @@ foreign_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister collectivist for_great_compromiser}
+		traits = {foreign_minister revolutionary_unionist for_great_compromiser}
 		cancel_if_invalid = no
 	}
 	CAN_william_kashtan_v_for = { 
@@ -279,7 +279,7 @@ foreign_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister vanguardist for_hawkish_intervener}
+		traits = {foreign_minister vanguard_marxist for_hawkish_intervener}
 		cancel_if_invalid = no
 	}
 	CAN_norman_bethune_v_for = { 
@@ -290,7 +290,7 @@ foreign_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = for_cannot_be_replaced}
 		}
-		traits = {foreign_minister vanguardist for_iron_fisted_brute}
+		traits = {foreign_minister vanguard_marxist for_iron_fisted_brute}
 		cancel_if_invalid = no
 	}
 }
@@ -381,7 +381,7 @@ economy_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister valkist eco_reformer}
+		traits = {economy_minister national_populist eco_reformer}
 		cancel_if_invalid = no
 	}
 	CAN_tom_uphill_eco = { 
@@ -403,7 +403,7 @@ economy_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister collectivist eco_military_entrepreneur}
+		traits = {economy_minister revolutionary_unionist eco_military_entrepreneur}
 		cancel_if_invalid = no
 	}
 	CAN_annie_buller_eco = { 
@@ -414,7 +414,7 @@ economy_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister collectivist eco_industrialiser}
+		traits = {economy_minister revolutionary_unionist eco_industrialiser}
 		cancel_if_invalid = no
 	}
 	CAN_maurice_spector_eco = { 
@@ -425,7 +425,7 @@ economy_minister = {
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 			NOT = {has_country_flag = eco_cannot_be_replaced}
 		}
-		traits = {economy_minister vanguardist eco_air_superiority_proponent}
+		traits = {economy_minister vanguard_marxist eco_air_superiority_proponent}
 		cancel_if_invalid = no
 	}
 }
@@ -549,7 +549,7 @@ security_minister = {
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister valkist sec_efficient_sociopath }
+			traits = {security_minister national_populist sec_efficient_sociopath }
 			cancel_if_invalid = no
 		}
 		CAN_joseph_farr_sec = { 
@@ -560,7 +560,7 @@ security_minister = {
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister valkist sec_silent_lawyer }
+			traits = {security_minister national_populist sec_silent_lawyer }
 			cancel_if_invalid = no
 		}
 		CAN_william_witaker_sec = { 
@@ -571,7 +571,7 @@ security_minister = {
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister valkist sec_secret_police_chief }
+			traits = {security_minister national_populist sec_secret_police_chief }
 			cancel_if_invalid = no
 		}
 		CAN_albert_edward_smith_sec = { 
@@ -604,7 +604,7 @@ security_minister = {
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister collectivist sec_crime_fighter }
+			traits = {security_minister revolutionary_unionist sec_crime_fighter }
 			cancel_if_invalid = no
 		}
 		CAN_william_kashtan_sec = { 
@@ -615,7 +615,7 @@ security_minister = {
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister collectivist sec_back_stabber }
+			traits = {security_minister revolutionary_unionist sec_back_stabber }
 			cancel_if_invalid = no
 		}
 		CAN_william_kashtan_vang_sec = { 
@@ -626,7 +626,7 @@ security_minister = {
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = sec_cannot_be_replaced}
 			}
-			traits = {security_minister vanguardist sec_back_stabber }
+			traits = {security_minister vanguard_marxist sec_back_stabber }
 			cancel_if_invalid = no
 		}
 	}
@@ -701,7 +701,7 @@ head_of_intel = {
 				NOT = {has_country_flag = fred_rose_dead}
 				NOT = {has_country_flag = fred_rose_int_fired}
 			}
-			traits = {head_of_intel collectivist int_logistics_specialist}
+			traits = {head_of_intel revolutionary_unionist int_logistics_specialist}
 			cancel_if_invalid = no
 		}
 		CAN_sam_carr_int = { 
@@ -710,7 +710,7 @@ head_of_intel = {
 				NOT = {has_country_flag = sam_carr_dead}
 				NOT = {has_country_flag = sam_carr_int_fired}
 			}
-			traits = {head_of_intel collectivist int_dismal_enigma}
+			traits = {head_of_intel revolutionary_unionist int_dismal_enigma}
 			cancel_if_invalid = no
 		}
 		CAN_edward_cecil_smith_int = { 
@@ -719,7 +719,7 @@ head_of_intel = {
 				NOT = {has_country_flag = edward_cecil_smith_dead}
 				NOT = {has_country_flag = edward_cecil_smith_int_fired}
 			}
-			traits = {head_of_intel vanguardist int_technical_specialist}
+			traits = {head_of_intel vanguard_marxist int_technical_specialist}
 			cancel_if_invalid = no
 		}
 	}

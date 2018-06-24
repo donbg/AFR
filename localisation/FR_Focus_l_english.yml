@@ -106,8 +106,8 @@ generic_secret_weapons_desc:0 "It is tempting to expend all extra resources into
 
 generic_political_effort:0 "Political Reform"
 generic_political_effort_desc:0 "To bring about change in the world, we need to be able to bring about change in our own country. Strengthening our political position should come first, we need to do away with old political doctrine and be ready to adopt bold, ambitious views on how our nation is to be ruled from now on."
-generic_collectivist_ethos_kr:0 "Unite The Nation"
-generic_collectivist_ethos_kr_desc:0 "This era is a strange one, with the rise of Communism, the fragile position of Democracy and the maintained Authoritarian old order. We must protect our country from outside influences by ensuring our people believe in the founding values of our country, least we are washed away by opposing views."
+generic_revolutionary_unionist_ethos_kr:0 "Unite The Nation"
+generic_revolutionary_unionist_ethos_kr_desc:0 "This era is a strange one, with the rise of Communism, the fragile position of Democracy and the maintained Authoritarian old order. We must protect our country from outside influences by ensuring our people believe in the founding values of our country, least we are washed away by opposing views."
 generic_militarism:0 "Militarism"
 generic_militarism_desc:0 "Those who view the military as a necessary evil are doomed to hesitate in the face of war. We will ingrain militarism into our culture to become a people of soldiers, if not an army with a state. If one thing is certain since the Great War, it is that it might very well not have been The War To End War."
 generic_military_youth:0 "Military Youth"

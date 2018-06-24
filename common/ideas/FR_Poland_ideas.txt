@@ -349,7 +349,7 @@ ideas = {
 				war_support_weekly = 0.01
 			}
 		}
-		POL_valkist_resistance = {
+		POL_national_populist_resistance = {
 			picture = FRA_scw_intervention_republicans_focus
 			modifier = {
 				stability_weekly = -0.005

@@ -56,10 +56,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 3
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 13
 		}
 		libertarian_socialist = {
@@ -86,7 +86,7 @@ set_politics = {
 		national_populist = {
 			popularity = 1
 		}
-		valkist = {
+		national_populist = {
 			popularity = 7
 		}
 	}
@@ -95,7 +95,7 @@ set_politics = {
 create_country_leader = {
 	name = "François Coty"
 	desc = "POLITICS_FRANCOIS_COTY_DESC"
-	picture = "portrait_valkist_france_Francois_Coty.dds"
+	picture = "portrait_national_populist_france_Francois_Coty.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -105,9 +105,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jacques Doriot"
 	desc = "POLITICS_JACQUES_DORIOT_DESC"
-	picture = "portrait_valkist_france_Jacques_Doriot.dds"
+	picture = "portrait_national_populist_france_Jacques_Doriot.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

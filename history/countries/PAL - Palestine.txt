@@ -13,10 +13,10 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 13
 		}
 		libertarian_socialist = {
@@ -43,7 +43,7 @@ set_politics = {
 		national_populist = {
 			popularity = 16
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -88,7 +88,7 @@ create_country_leader = {
 	name = "Bulus Farah"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_2.dds"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}

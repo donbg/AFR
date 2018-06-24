@@ -68,10 +68,10 @@ give_guarantee = TRA
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 2
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 5
 		}
 		libertarian_socialist = {
@@ -98,7 +98,7 @@ set_politics = {
 		national_populist = {
 			popularity = 42
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -120,7 +120,7 @@ create_country_leader = {
 	desc = "POLITICS_NICOLAE_CEAUSESCU_DESC"
 	picture = "gfx/leaders/ROM/Nicolae_Ceausescu.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = { charismatic
 		#
 	}
@@ -131,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICS_PETRU_GROZA_DESC"
 	picture = "gfx/leaders/ROM/Petru_Groza.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -230,7 +230,7 @@ create_country_leader = {
 	desc = "POLITICS_MIRCEA_ELIADE_DESC"
 	picture = "gfx/leaders/ROM/Octavian_Goga.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

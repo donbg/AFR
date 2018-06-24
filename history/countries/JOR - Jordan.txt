@@ -21,7 +21,7 @@ set_politics = {
 			popularity = 20
 		}
 		
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 5
 			#banned = no #default is no
 		}
@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Fu'ad Nassar"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_navy_2.dds"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}

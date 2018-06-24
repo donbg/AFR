@@ -22,7 +22,7 @@ set_politics = {
 			popularity = 0
 		}
 		
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 0
 			#banned = no #default is no
 		}

@@ -384,7 +384,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_silent_workhorse
 			}
 			cancel_if_invalid = yes
@@ -400,7 +400,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_backroom_backstabber
 			}
 			cancel_if_invalid = yes
@@ -416,7 +416,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_flamboyant_tough_guy
 			}
 			cancel_if_invalid = yes
@@ -432,7 +432,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_silent_workhorse
 			}
 			cancel_if_invalid = yes
@@ -448,7 +448,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_ambitious_union_boss
 			}
 			cancel_if_invalid = yes
@@ -464,7 +464,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_naive_optimist
 			}
 			cancel_if_invalid = yes
@@ -480,7 +480,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_happy_amateur
 			}
 			cancel_if_invalid = yes
@@ -496,7 +496,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_corporate_suit
 			}
 			cancel_if_invalid = yes
@@ -1057,7 +1057,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_biased_intellectual
 			}
 			cancel_if_invalid = yes
@@ -1070,7 +1070,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_ideological_crusader
 			}
 			cancel_if_invalid = yes
@@ -1083,7 +1083,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_biased_intellectual
 			}
 			cancel_if_invalid = yes
@@ -1096,7 +1096,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_apologetic_clerk
 			}
 			cancel_if_invalid = yes
@@ -1109,7 +1109,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_biased_intellectual
 			}
 			cancel_if_invalid = yes
@@ -1122,7 +1122,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_the_cloak_n_dagger_schemer
 			}
 			cancel_if_invalid = yes
@@ -1135,7 +1135,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_great_compromiser
 			}
 			cancel_if_invalid = yes
@@ -1148,7 +1148,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_ideological_crusader
 			}
 			cancel_if_invalid = yes
@@ -1161,7 +1161,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_ideological_crusader
 			}
 			cancel_if_invalid = yes
@@ -1174,7 +1174,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_ideological_crusader
 			}
 			cancel_if_invalid = yes
@@ -1187,7 +1187,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_great_compromiser
 			}
 			cancel_if_invalid = yes
@@ -1200,7 +1200,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_general_staffer
 			}
 			cancel_if_invalid = yes
@@ -1698,7 +1698,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_industrialiser
 			}
 			cancel_if_invalid = yes
@@ -1711,7 +1711,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_military_entrepreneur
 			}
 			cancel_if_invalid = yes
@@ -1724,7 +1724,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_administrative_genius
 			}
 			cancel_if_invalid = yes
@@ -1737,7 +1737,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_reformer
 			}
 			cancel_if_invalid = yes
@@ -1750,7 +1750,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_planned_economy_proponent
 			}
 			cancel_if_invalid = yes
@@ -1763,7 +1763,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_air_superiority_proponent
 			}
 			cancel_if_invalid = yes
@@ -1776,7 +1776,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_industrialiser
 			}
 			cancel_if_invalid = yes
@@ -1789,7 +1789,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_construction_magnate
 			}
 			cancel_if_invalid = yes
@@ -1802,7 +1802,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_industrialiser
 			}
 			cancel_if_invalid = yes
@@ -1815,7 +1815,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_bank_president
 			}
 			cancel_if_invalid = yes
@@ -1828,7 +1828,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_planned_economy_proponent
 			}
 			cancel_if_invalid = yes
@@ -1841,7 +1841,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_theoretical_scientist
 			}
 			cancel_if_invalid = yes
@@ -1854,7 +1854,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_infantry_proponent
 			}
 			cancel_if_invalid = yes
@@ -2520,7 +2520,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_health_and_safety
 			}
 			cancel_if_invalid = yes
@@ -2533,7 +2533,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_man_of_the_people
 			}
 			cancel_if_invalid = yes
@@ -2546,7 +2546,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_health_and_safety
 			}
 			cancel_if_invalid = yes
@@ -2559,7 +2559,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_crime_fighter
 			}
 			cancel_if_invalid = yes
@@ -2572,7 +2572,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_secret_police_chief
 			}
 			cancel_if_invalid = yes
@@ -2585,7 +2585,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_prince_of_terror
 			}
 			cancel_if_invalid = yes
@@ -2598,7 +2598,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_compassionate_gentleman
 			}
 			cancel_if_invalid = yes
@@ -2611,7 +2611,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_silent_lawyer
 			}
 			cancel_if_invalid = yes
@@ -2624,7 +2624,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_health_and_safety
 			}
 			cancel_if_invalid = yes
@@ -2637,7 +2637,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_health_and_safety
 			}
 			cancel_if_invalid = yes
@@ -2650,7 +2650,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_back_stabber
 			}
 			cancel_if_invalid = yes
@@ -2663,7 +2663,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_silent_lawyer
 			}
 			cancel_if_invalid = yes
@@ -2676,7 +2676,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_efficient_sociopath
 			}
 			cancel_if_invalid = yes
@@ -2689,7 +2689,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_compassionate_gentleman
 			}
 			cancel_if_invalid = yes
@@ -3122,7 +3122,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				vanguardist
+				vanguard_marxist
 				int_technical_specialist
 			}
 			cancel_if_invalid = yes
@@ -3135,7 +3135,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				vanguardist
+				vanguard_marxist
 				int_technical_specialist
 			}
 			cancel_if_invalid = yes
@@ -3148,7 +3148,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				vanguardist
+				vanguard_marxist
 				int_industrial_specialist
 			}
 			cancel_if_invalid = yes
@@ -3161,7 +3161,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				vanguardist
+				vanguard_marxist
 				int_technical_specialist
 			}
 			cancel_if_invalid = yes
@@ -3174,7 +3174,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				vanguardist
+				vanguard_marxist
 				int_dismal_enigma
 			}
 			cancel_if_invalid = yes
@@ -3187,7 +3187,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				collectivist
+				revolutionary_unionist
 				int_logistics_specialist
 			}
 			cancel_if_invalid = yes
@@ -3200,7 +3200,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				collectivist
+				revolutionary_unionist
 				int_industrial_specialist
 			}
 			cancel_if_invalid = yes
@@ -3213,7 +3213,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				collectivist
+				revolutionary_unionist
 				int_political_specialist
 			}
 			cancel_if_invalid = yes
@@ -3226,7 +3226,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				collectivist
+				revolutionary_unionist
 				int_industrial_specialist
 			}
 			cancel_if_invalid = yes

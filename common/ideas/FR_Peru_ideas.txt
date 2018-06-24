@@ -194,7 +194,7 @@ ideas = {
 					original_tag = "D05"
 				}
 			}
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
 				war_support_factor = 0.05
 				conscription = 0.02			
@@ -211,11 +211,11 @@ ideas = {
 					original_tag = "D05"
 				}
 			}
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
 				war_support_factor = 0.05
 				conscription = 0.025
-				vanguardist_drift = 0.03			
+				vanguard_marxist_drift = 0.03			
 			}
 		}
 		PRU_agrarian_reform = {
@@ -303,7 +303,7 @@ ideas = {
 				}
 			}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Victor_Raul_Haya_dead}
 				NOT = {has_country_flag = Victor_Raul_Haya_hog_fired}
@@ -311,7 +311,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_happy_amateur
 			}
 			cancel_if_invalid = no
@@ -325,7 +325,7 @@ ideas = {
 				}
 			}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Eudocio_Ravines_dead}
 				NOT = {has_country_flag = Eudocio_Ravines_hog_fired}
@@ -333,7 +333,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_silent_workhorse
 			}
 			cancel_if_invalid = no
@@ -552,7 +552,7 @@ ideas = {
 				}
 			}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Hugo_Pesce_Pescetto_dead}
 				NOT = {has_country_flag = Hugo_Pesce_Pescetto_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -560,7 +560,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_great_compromiser
 			}
 			cancel_if_invalid = no

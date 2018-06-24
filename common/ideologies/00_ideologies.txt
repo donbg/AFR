@@ -7,18 +7,18 @@
 
 ideologies = {
 
-	vanguardist = {
+	vanguard_marxist = {
 		types = {
-		vanguardist_subtype = {}
+		vanguard_marxist_subtype = {}
 		internationalist_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_VANGUARDIST_1"
-			"FACTION_NAME_VANGUARDIST_2"
-			"FACTION_NAME_VANGUARDIST_3"
-			"FACTION_NAME_VANGUARDIST_4"
-			"FACTION_NAME_VANGUARDIST_5"
-			"FACTION_NAME_VANGUARDIST_6"
+			"FACTION_NAME_vanguard_marxist_1"
+			"FACTION_NAME_vanguard_marxist_2"
+			"FACTION_NAME_vanguard_marxist_3"
+			"FACTION_NAME_vanguard_marxist_4"
+			"FACTION_NAME_vanguard_marxist_5"
+			"FACTION_NAME_vanguard_marxist_6"
 		}
 		color = { 155 0 0 }
 		rules = {
@@ -36,19 +36,19 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	collectivist = {
+	revolutionary_unionist = {
 		types = {
-			collectivist_subtype = {}
+			revolutionary_unionist_subtype = {}
 			}
 		dynamic_faction_names = {
-			"FACTION_NAME_collectivist_1"
-			"FACTION_NAME_collectivist_2"
-			"FACTION_NAME_collectivist_3"
-			"FACTION_NAME_collectivist_4"
-			"FACTION_NAME_collectivist_5"
-			"FACTION_NAME_collectivist_6"
+			"FACTION_NAME_revolutionary_unionist_1"
+			"FACTION_NAME_revolutionary_unionist_2"
+			"FACTION_NAME_revolutionary_unionist_3"
+			"FACTION_NAME_revolutionary_unionist_4"
+			"FACTION_NAME_revolutionary_unionist_5"
+			"FACTION_NAME_revolutionary_unionist_6"
 		}
-		color = { 225 0 0 } #205 0 0 works good as an alternative, too similar to Vanguardist though.
+		color = { 225 0 0 } #205 0 0 works good as an alternative, too similar to vanguard_marxist though.
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -278,34 +278,6 @@ ideologies = {
 			"FACTION_NAME_NATIONAL_POPULIST_6"
 		}
 		color = { 112 53 0 } #142 57 0 is original
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			conscription = 0.005
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-	}
-
-	valkist = {
-		types = {
-		valkist_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_VALKIST_1"
-			"FACTION_NAME_VALKIST_2"
-			"FACTION_NAME_VALKIST_3"
-			"FACTION_NAME_VALKIST_4"
-			"FACTION_NAME_VALKIST_5"
-			"FACTION_NAME_VALKIST_6"
-		}
-		color = { 18 53 36 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

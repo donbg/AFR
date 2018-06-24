@@ -47,10 +47,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 4
 		}
 		libertarian_socialist = {
@@ -77,7 +77,7 @@ set_politics = {
 		national_populist = {
 			popularity = 12
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_UKR_stanislav_kosior.dds"
 	expire = "1953.3.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		
 	}
@@ -104,7 +104,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_UKR_nikita_khruschev.dds"
 	expire = "1953.3.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		
 	}
@@ -203,7 +203,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_UKR_volodymyr_shayan.dds"
 	expire = "1953.3.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		
 	}

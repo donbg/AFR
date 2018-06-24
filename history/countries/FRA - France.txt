@@ -47,10 +47,10 @@ set_war_support = 0.54
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 3
 		}
 		libertarian_socialist = {
@@ -77,7 +77,7 @@ set_politics = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -109,7 +109,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "Portrait_France_Maurice_Thorez.tga"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#	
 	}	
@@ -120,7 +120,7 @@ create_country_leader = {
 	desc = "POLITICS_FAURE_DESC"
 	picture = "Portrait_France_Sebastien_Faure.tga"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#	
 	}	
@@ -249,10 +249,10 @@ FEA = {
 	set_politics = {
 
 	parties = {
-			vanguardist = {
+			vanguard_marxist = {
 				popularity = 0
 			}
-			collectivist = {
+			revolutionary_unionist = {
 				popularity = 4
 			}
 			libertarian_socialist = {
@@ -279,7 +279,7 @@ FEA = {
 			national_populist = {
 				popularity = 0
 			}
-			valkist = {
+			national_populist = {
 				popularity = 0
 			}
 		}

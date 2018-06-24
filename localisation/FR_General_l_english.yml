@@ -190,8 +190,8 @@ national_populist_promoter:0 "Nationalist Demagogue"
 great_compromiser:0 "Great Compromiser"
 
 ### Ideologies ###
-vanguardist:0 "Vanguardists"
-collectivist:0 "Collectivists"
+vanguard_marxist:0 "vanguard_marxists"
+revolutionary_unionist:0 "revolutionary_unionists"
 libertarian_socialist:0 "Libertarian Socialist"
 social_democrat:0 "Social Democrats"
 social_liberal:0 "Social Liberals"
@@ -200,11 +200,10 @@ social_conservative:0 "Social Conservatives"
 authoritarian_democrat:0 "Authoritarian Dem."
 paternal_autocrat:0 "Paternal Autocrats"
 national_populist:0 "National Populists"
-valkist:0 "Valkists"
 
 ### Drift ###
-vanguardist_drift:0 "Daily Vanguardist support"
-collectivist_drift:0 "Daily Collectivist support"
+vanguard_marxist_drift:0 "Daily vanguard_marxist support"
+revolutionary_unionist_drift:0 "Daily revolutionary_unionist support"
 libertarian_socialist_drift:0 "Daily Libertarian Socialist support"
 social_democrat_drift:0 "Daily Social Democrat support"
 social_liberal_drift:0 "Daily Social Liberal support"
@@ -213,11 +212,10 @@ social_conservative_drift:0 "Daily Social Conservative support"
 authoritarian_democrat_drift:0 "Daily Authoritarian Democrat support"
 paternal_autocrat_drift:0 "Daily Paternal Autocrat support"
 national_populist_drift:0 "Daily National Populist support"
-valkist_drift:0 "Daily Valkist support"
 
 ### Banned ###
-vanguardist_banned:0 "Banned Vanguardists"
-collectivist_banned:0 "Banned Collectivists"
+vanguard_marxist_banned:0 "Banned vanguard_marxists"
+revolutionary_unionist_banned:0 "Banned revolutionary_unionists"
 libertarian_socialist_banned:0 "Banned Libertarian Socialists"
 social_democrat_banned:0 "Banned Social Democrats"
 social_liberal_banned:0 "Banned Social Liberals"
@@ -226,7 +224,6 @@ social_conservative_banned:0 "Banned Social Conservatives"
 authoritarian_democrat_banned:0 "Banned Authoritarian Democrats"
 paternal_autocrat_banned:0 "Banned Paternal Autocrats"
 national_populist_banned:0 "Banned National Populists"
-valkist_banned:0 "Banned Valkists"
 
 ### Company Traits ###
 

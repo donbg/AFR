@@ -50,10 +50,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 4
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 7
 		}
 		libertarian_socialist = {
@@ -80,7 +80,7 @@ set_politics = {
 		national_populist = {
 			popularity = 1
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}

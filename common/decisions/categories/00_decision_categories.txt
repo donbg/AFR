@@ -82,7 +82,7 @@ political_actions_dem = {
 	}
 }
 political_actions_left = {
-	icon = generic_collectivism
+	icon = generic_revolutionary_unionism
 	
 	visible = {
 		NOT = { original_tag = ENG }

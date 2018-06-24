@@ -33,10 +33,10 @@ set_convoys = 40
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 3
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 8
 		}
 		libertarian_socialist = {
@@ -63,7 +63,7 @@ set_politics = {
 		national_populist = {
 			popularity = 2
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

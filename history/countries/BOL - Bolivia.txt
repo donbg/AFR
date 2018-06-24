@@ -42,15 +42,15 @@ set_politics = {
 			popularity = 5
 		}
 		
-		valkist = {
+		national_populist = {
 			popularity = 20
 		}
 
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 15
 		}
 
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 20
 		}
 
@@ -100,7 +100,7 @@ create_country_leader = {
 	desc = "POLITICS_SANTOS_MARKA_DESC"
 	picture = "SantosMarka.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
@@ -111,7 +111,7 @@ create_country_leader = {
 	desc = "POLITICS_TRISTAN_MAROF_DESC"
 	picture = "TristanMarof.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}
@@ -122,7 +122,7 @@ create_country_leader = {
 	desc = "POLITICS_ARZE_DESC"
 	picture = "JoseAntonioArze.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}

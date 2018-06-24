@@ -31,10 +31,10 @@ set_war_support = 0.80
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 0
 		}
 		libertarian_socialist = {
@@ -61,12 +61,12 @@ set_politics = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 80
 		}
 	}
 	
-	ruling_party = valkist
+	ruling_party = national_populist
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
@@ -77,7 +77,7 @@ create_country_leader = {
 	desc = "Wacław_Krzeptowski_desc"
 	picture = "gfx/leaders/GRL/leader_grl_Waclaw_Krz.png"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

@@ -34,10 +34,10 @@ set_cosmetic_tag = RAJ_UK # British Raj
 set_politics = {
 
 parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 1
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 1
 		}
 		libertarian_socialist = {
@@ -64,7 +64,7 @@ parties = {
 		national_populist = {
 			popularity = 3
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -110,7 +110,7 @@ create_country_leader = {
 	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
 	picture = "GFX_RAJ_krishna_pillai"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		
 	}

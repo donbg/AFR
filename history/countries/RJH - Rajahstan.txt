@@ -21,10 +21,10 @@ set_convoys = 50
 set_politics = {
 
 parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 17
 		}
 		libertarian_socialist = {
@@ -51,7 +51,7 @@ parties = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}

@@ -23,10 +23,10 @@ set_war_support = 0.4
 set_politics = {
 
 parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 13
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 17
 		}
 		libertarian_socialist = {
@@ -53,7 +53,7 @@ parties = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -83,7 +83,7 @@ create_country_leader = {
 	desc = "POLITICS_ABANI_MUKHERJI_DESC"
 	picture = "Abani_Mukherji.tga"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		
 	}
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_SWAMI_SATYABHAKTA_DESC"
 	picture = "Swami_Satyabhakta.tga"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		
 	}

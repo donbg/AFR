@@ -36,10 +36,10 @@ add_ideas = {
 set_politics = {
 
     parties = {
-        vanguardist = {
+        vanguard_marxist = {
             popularity = 0
         }
-        collectivist = {
+        revolutionary_unionist = {
             popularity = 2
         }
         libertarian_socialist = {
@@ -66,7 +66,7 @@ set_politics = {
         national_populist = {
             popularity = 1
         }
-        valkist = {
+        national_populist = {
             popularity = 1
         }
     }
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_PETAR_STAMBOLIC_DESC"
 	picture = "gfx/leaders/SER/Petar_Stambolic.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
 	picture = "gfx/leaders/SER/Portrait_Yugoslavia_Josip_Broz_Tito.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}
@@ -196,7 +196,7 @@ create_country_leader = {
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
 	picture = "gfx/leaders/SER/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

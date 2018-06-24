@@ -132,7 +132,7 @@ ideas = {
 		picture = idea_generic_king_handled
 		
 		modifier = {
-			collectivist_drift = 0.10
+			revolutionary_unionist_drift = 0.10
 			political_power_gain = 0.10
 		}
 	}
@@ -544,7 +544,7 @@ ideas = {
 		picture = generic_volunteer_expedition_bonus
 		
 		modifier = {
-			valkist_drift = 0.05
+			national_populist_drift = 0.05
 			}
 		}
 
@@ -1040,25 +1040,25 @@ head_of_government = {
 	ITA_Antonio_Gramsci_hog_int = { #Auto-Generated
 		allowed = {original_tag = ITA}
 		available = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Antonio_Gramsci_dead}
 			NOT = {has_country_flag = Antonio_Gramsci_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government collectivist hog_silent_workhorse}
+		traits = {head_of_government revolutionary_unionist hog_silent_workhorse}
 		cancel_if_invalid = no
 		}
 	ITA_Palmiro_Togliatti_hog_int = { #Auto-Generated
 		allowed = {original_tag = ITA}
 		available = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Palmiro_Togliatti_dead}
 			NOT = {has_country_flag = Palmiro_Togliatti_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government vanguardist hog_red_chairmen}
+		traits = {head_of_government vanguard_marxist hog_red_chairmen}
 		cancel_if_invalid = no
 		}
 	ITA_Camillo_Berneri_hog_lis = { #Auto-Generated
@@ -1112,25 +1112,25 @@ head_of_government = {
 	ITA_Italo_Balbo_hog_val = { #Auto-Generated
 		allowed = {original_tag = ITA}
 		available = {
-			has_government = valkist
+			has_government = national_populist
 			has_country_flag = can_replace_hog
 			NOT = {has_country_flag = Italo_Balbo_dead}
 			NOT = {has_country_flag = Italo_Balbo_hog_fired}
 			NOT = {has_country_flag = ministers_cannot_be_replaced}
 		}
-		traits = {head_of_government valkist hog_flamboyant_tough_guy}
+		traits = {head_of_government national_populist hog_flamboyant_tough_guy}
 		cancel_if_invalid = no
 		}
 	#ITA_Pietro_Badoglio_hog_pau = { #Auto-Generated
 	#	allowed = {original_tag = ITA}
 	#	available = {
-	#		has_government = valkist
+	#		has_government = national_populist
 	#		has_country_flag = can_replace_hog
 	#		NOT = {has_country_flag = Pietro_Badoglio_dead}
 	#		NOT = {has_country_flag = Pietro_Badoglio_hog_fired}
 	#		NOT = {has_country_flag = ministers_cannot_be_replaced}
 	#	}
-	#	traits = {head_of_government valkist hog_old_general}
+	#	traits = {head_of_government national_populist hog_old_general}
 	#	cancel_if_invalid = no
 	#	}
 	ITA_Pietro_Badoglio_hog_pau = { #Auto-Generated
@@ -1210,25 +1210,25 @@ foreign_minister = {
 		ITA_Angelo_Tasca_for_int = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				NOT = {has_country_flag = Angelo_Tasca_dead}
 				NOT = {has_country_flag = Angelo_Tasca_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
-			traits = {foreign_minister collectivist for_ideological_crusader} 
+			traits = {foreign_minister revolutionary_unionist for_ideological_crusader} 
 			cancel_if_invalid = no
 		}
 		ITA_Bruno_Fortichiari_for_int = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				NOT = {has_country_flag = Bruno_Fortichiari_dead}
 				NOT = {has_country_flag = Bruno_Fortichiari_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
-			traits = {foreign_minister vanguardist for_biased_intellectual} 
+			traits = {foreign_minister vanguard_marxist for_biased_intellectual} 
 			cancel_if_invalid = no
 		}
 		ITA_Ferdinando_di_Savoia_for_pau = { #Auto-Generated
@@ -1270,13 +1270,13 @@ foreign_minister = {
 		ITA_Giovanni_Marinelli_for_val = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 				NOT = {has_country_flag = Giovanni_Marinelli_dead}
 				NOT = {has_country_flag = Giovanni_Marinelli_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
-			traits = {foreign_minister valkist for_biased_intellectual}
+			traits = {foreign_minister national_populist for_biased_intellectual}
 			cancel_if_invalid = no
 		}
 	}
@@ -1320,25 +1320,25 @@ economy_minister = {
 		ITA_Antonio_Graziadei_eco_int = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				NOT = {has_country_flag = Antonio_Graziade_dead}
 				NOT = {has_country_flag = Antonio_Graziade_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = eco_cannot_be_replaced}
 			}
-			traits = {economy_minister collectivist eco_planned_economy_proponent}
+			traits = {economy_minister revolutionary_unionist eco_planned_economy_proponent}
 			cancel_if_invalid = no
 		}
 		ITA_Mario_Montagnana_eco_int = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				NOT = {has_country_flag = Mario_Montagnana_dead}
 				NOT = {has_country_flag = Mario_Montagnana_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = eco_cannot_be_replaced}
 			}
-			traits = {economy_minister vanguardist eco_industrialiser}
+			traits = {economy_minister vanguard_marxist eco_industrialiser}
 			cancel_if_invalid = no
 		}
 		ITA_Carlo_Tresca_eco_lis = { #Auto-Generated
@@ -1368,19 +1368,19 @@ economy_minister = {
 		ITA_Francesco_Giunta_eco_val = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 				NOT = {has_country_flag = Alfredo_Covelli_dead}
 				NOT = {has_country_flag = Alfredo_Covelli_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = eco_cannot_be_replaced}
 			}
-			traits = {economy_minister valkist eco_corrupt_kleptocrat}
+			traits = {economy_minister national_populist eco_corrupt_kleptocrat}
 			cancel_if_invalid = no
 		}
 		ITA_Piero_Calamandrei_eco_sli = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 				NOT = {has_country_flag = Piero_Calamandrei_dead}
 				NOT = {has_country_flag = Piero_Calamandrei_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1454,37 +1454,37 @@ security_minister = { ### Security Minister ###
 		ITA_Umberto_Terracini_sec_col = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				NOT = {has_country_flag = Umberto_Terracini_dead}
 				NOT = {has_country_flag = Umberto_Terracini_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = eco_cannot_be_replaced}
 			}
-			traits = {security_minister collectivist sec_man_of_the_people}
+			traits = {security_minister revolutionary_unionist sec_man_of_the_people}
 			cancel_if_invalid = no
 		}
 		ITA_Ruggero_Grieco_sec_int = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				NOT = {has_country_flag = Ruggero_Grieco_dead}
 				NOT = {has_country_flag = Ruggero_Grieco_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = eco_cannot_be_replaced}
 			}
-			traits = {security_minister vanguardist sec_efficient_sociopath}
+			traits = {security_minister vanguard_marxist sec_efficient_sociopath}
 			cancel_if_invalid = no
 		}
 		ITA_Cesare_Maria_de_Vecchi_sec_val = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 				NOT = {has_country_flag = Cesare_Maria_de_Vecchi_dead}
 				NOT = {has_country_flag = Cesare_Maria_de_Vecchi_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = eco_cannot_be_replaced}
 			}
-			traits = {security_minister valkist sec_prince_of_terror}
+			traits = {security_minister national_populist sec_prince_of_terror}
 			cancel_if_invalid = no
 		}
 		ITA_Armando_Borghi_sec_lis = { #Auto-Generated
@@ -1582,21 +1582,21 @@ head_of_intel = { ### Intelligence Minister ###
 		ITA_Antonio_Giolitti_int_col = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				NOT = {has_country_flag = Antonio_Giolitti_dead}
 				NOT = {has_country_flag = Antonio_Giolitti_int_fired}
 			}
-			traits = {head_of_intel collectivist int_technical_specialist}
+			traits = {head_of_intel revolutionary_unionist int_technical_specialist}
 			cancel_if_invalid = no
 			}
 		ITA_Nicolo_Bombacci_int_int = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				NOT = {has_country_flag = Nicolo_Bombacci_dead}
 				NOT = {has_country_flag = Nicolo_Bombacci_int_fired}
 			}
-			traits = {head_of_intel vanguardist int_dismal_enigma}
+			traits = {head_of_intel vanguard_marxist int_dismal_enigma}
 			cancel_if_invalid = no
 		}
 		ITA_Alfonso_Failla_int_lis = { #Auto-Generated
@@ -1612,11 +1612,11 @@ head_of_intel = { ### Intelligence Minister ###
 		ITA_Rodolfo_Graziani_int_val = { #Auto-Generated
 			allowed = {original_tag = ITA}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 				NOT = {has_country_flag = Rodolfo_Graziani_dead}
 				NOT = {has_country_flag = Rodolfo_Graziani_int_fired}
 			}
-			traits = {head_of_intel valkist int_logistics_specialist}
+			traits = {head_of_intel national_populist int_logistics_specialist}
 			cancel_if_invalid = no
 			}
 		ITA_Riccardo_Bauer_int_sli = { #Auto-Generated

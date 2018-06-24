@@ -10,7 +10,7 @@ ideas = {
 			}
 			
 			removal_cost = -1
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			
 			#research_bonus = {
 			#	land_doctrine = 0.07
@@ -19,7 +19,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				political_power_factor = 0.05
-				collectivist_drift = 0.01
+				revolutionary_unionist_drift = 0.01
 				libertarian_socialist_drift = 0.02
 			}
 		}
@@ -62,7 +62,7 @@ ideas = {
 				conscription_factor = -0.05
 				political_power_factor = -0.20
 				national_populist_drift = 0.01
-				valkist_drift = 0.01
+				national_populist_drift = 0.01
 			}
 		}
 		
@@ -73,7 +73,7 @@ ideas = {
 			}
 			
 			removal_cost = -1
-			picture = generic_valkist_support
+			picture = generic_national_populist_support
 			
 			#research_bonus = {
 			#	land_doctrine = 0.07
@@ -83,7 +83,7 @@ ideas = {
 				stability_factor = -0.05
 				political_power_factor = -0.10
 				national_populist_drift = 0.01
-				valkist_drift = 0.01
+				national_populist_drift = 0.01
 			}
 		}
 		
@@ -593,7 +593,7 @@ ideas = {
 				political_power_factor = 0.10
 				paternal_autocrat_drift = -0.02
 				national_populist_drift = -0.02
-				valkist_drift = -0.02
+				national_populist_drift = -0.02
 			}
 		}
 		
@@ -613,7 +613,7 @@ ideas = {
 				authoritarian_democrat_drift = -0.01
 				paternal_autocrat_drift = -0.03
 				national_populist_drift = -0.03
-				valkist_drift = -0.03
+				national_populist_drift = -0.03
 			}
 		}
 		
@@ -644,7 +644,7 @@ ideas = {
 			}
 			
 			removal_cost = -1
-			picture = generic_valkist_support
+			picture = generic_national_populist_support
 			
 			#research_bonus = {
 			#	land_doctrine = 0.07
@@ -655,7 +655,7 @@ ideas = {
 				conscription_factor = -0.03
 				political_power_factor = -0.10
 				national_populist_drift = 0.01
-				valkist_drift = 0.01
+				national_populist_drift = 0.01
 			}
 		}
 		
@@ -686,8 +686,8 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = 0.05
-				vanguardist_drift = 0.04
-				collectivist_drift = 0.04
+				vanguard_marxist_drift = 0.04
+				revolutionary_unionist_drift = 0.04
 			}
 		}
 		
@@ -732,7 +732,7 @@ ideas = {
 			}
 			
 			removal_cost = -1
-			picture = generic_valkist_support
+			picture = generic_national_populist_support
 			
 			#research_bonus = {
 			#	land_doctrine = 0.07
@@ -809,11 +809,11 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = -0.05
-				vanguardist_drift = -0.01
-				collectivist_drift = -0.01
+				vanguard_marxist_drift = -0.01
+				revolutionary_unionist_drift = -0.01
 				paternal_autocrat_drift = -0.01
 				national_populist_drift = -0.01
-				valkist_drift = -0.01
+				national_populist_drift = -0.01
 			}
 		}
 		
@@ -927,8 +927,8 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = 0.05
-				vanguardist_drift = -0.02
-				collectivist_drift = -0.02
+				vanguard_marxist_drift = -0.02
+				revolutionary_unionist_drift = -0.02
 				libertarian_socialist_drift = -0.02
 				social_democrat_drift = -0.01
 			}
@@ -967,7 +967,7 @@ ideas = {
 			}
 		}
 		
-		NOR_promote_christian_valkism_idea = {
+		NOR_promote_christian_national_populism_idea = {
 
 			allowed = {
 				original_tag = NOR
@@ -1011,7 +1011,7 @@ ideas = {
 			
 			modifier = {
 				war_support_factor = 0.05
-				valkist_drift = 0.02
+				national_populist_drift = 0.02
 			}
 		}
 		
@@ -1026,7 +1026,7 @@ ideas = {
 			
 			modifier = {
 				war_support_factor = 0.05
-				valkist_drift = 0.02
+				national_populist_drift = 0.02
 				navy_max_range_factor = 0.05
 			}
 		}
@@ -1042,7 +1042,7 @@ ideas = {
 			
 			modifier = {
 				war_support_factor = 0.10
-				valkist_drift = 0.05
+				national_populist_drift = 0.05
 				navy_max_range_factor = 0.05
 				MONTHLY_POPULATION = -0.05
 				army_core_attack_factor = 0.05
@@ -1914,13 +1914,13 @@ ideas = {
 		NOR_Olav_Scheflo_hog_int = {
 			allowed = {original_tag = NOR}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_naive_optimist
 			}
 			cancel_if_invalid = no
@@ -1929,13 +1929,13 @@ ideas = {
 		NOR_Peder_Furubotn_hog_col = {
 			allowed = {original_tag = NOR}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_red_chairmen
 			}
 			cancel_if_invalid = no
@@ -1944,13 +1944,13 @@ ideas = {
 		NOR_Adam_Egede_Nissen_hog_col = {
 			allowed = {original_tag = NOR}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_flamboyant_tough_guy
 			}
 			cancel_if_invalid = no
@@ -2199,13 +2199,13 @@ ideas = {
 		NOR_Gulbrand_Lunde_hog_val = {
 			allowed = {original_tag = NOR}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			traits = {
 				head_of_government
-				valkist
+				national_populist
 				hog_political_protege
 			}
 			cancel_if_invalid = no
@@ -2214,13 +2214,13 @@ ideas = {
 		NOR_Rolf_Jorgen_Fuglesang_hog_val = {
 			allowed = {original_tag = NOR}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			traits = {
 				head_of_government
-				valkist
+				national_populist
 				hog_local_tyrant
 			}
 			cancel_if_invalid = no
@@ -2231,13 +2231,13 @@ ideas = {
 		NOR_Olav_Scheflo_for_int = {
 			allowed = {original_tag = NOR}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_hawkish_intervener
 			}
 			cancel_if_invalid = no
@@ -2246,13 +2246,13 @@ ideas = {
 		NOR_Nordahl_Grieg_for_col = {
 			allowed = {original_tag = NOR}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_apologetic_clerk
 			}
 			cancel_if_invalid = no
@@ -2261,13 +2261,13 @@ ideas = {
 		NOR_Arvid_Gilbert_Hansen_for_col = {
 			allowed = {original_tag = NOR}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_biased_intellectual
 			}
 			cancel_if_invalid = no
@@ -2486,13 +2486,13 @@ ideas = {
 		NOR_Stein_Barth_Heyerdahl_for_val = {
 			allowed = {original_tag = NOR}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				foreign_minister
-				valkist
+				national_populist
 				for_iron_fisted_brute
 			}
 			cancel_if_invalid = no
@@ -2503,13 +2503,13 @@ ideas = {
 		NOR_Jeanette_Olsen_eco_int = {
 			allowed = {original_tag = NOR}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_military_entrepreneur
 			}
 			cancel_if_invalid = no
@@ -2518,13 +2518,13 @@ ideas = {
 		NOR_Johan_Strand_Johansen_eco_col = {
 			allowed = {original_tag = NOR}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_planned_economy_proponent
 			}
 			cancel_if_invalid = no
@@ -2533,13 +2533,13 @@ ideas = {
 		NOR_Axel_Somme_eco_col = {
 			allowed = {original_tag = NOR}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_theoretical_scientist
 			}
 			cancel_if_invalid = no
@@ -2758,13 +2758,13 @@ ideas = {
 		NOR_Adolf_Egeberg_jr_eco_val = {
 			allowed = {original_tag = NOR}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				economy_minister
-				valkist
+				national_populist
 				eco_military_entrepreneur
 			}
 			cancel_if_invalid = no
@@ -2775,13 +2775,13 @@ ideas = {
 		NOR_Kirsten_Hansteen_sec_col = {
 			allowed = {original_tag = NOR}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_health_and_safety
 			}
 			cancel_if_invalid = no
@@ -2940,13 +2940,13 @@ ideas = {
 		NOR_Gulbrand_Lunde_sec_val = {
 			allowed = {original_tag = NOR}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 				NOT = {has_country_flag = for_cannot_be_replaced}
 			}
 			traits = {
 				security_minister
-				valkist
+				national_populist
 				sec_prince_of_terror
 			}
 			cancel_if_invalid = no
@@ -2959,7 +2959,7 @@ ideas = {
 		NOR_Arne_Gausl_cos_col = {
 			allowed = {original_tag = NOR}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Arne_Gausl_dead}
 				NOT = {has_country_flag = Arne_Gausl_mhc_fired}
 			}

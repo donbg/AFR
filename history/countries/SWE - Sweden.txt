@@ -42,10 +42,10 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 2
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 8
 		}
 		libertarian_socialist = {
@@ -72,7 +72,7 @@ set_politics = {
 		national_populist = {
 			popularity = 6
 		}
-		valkist = {
+		national_populist = {
 			popularity = 2
 		}
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
 	picture = "Portrait_Sven_Linderot.tga"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}
@@ -107,7 +107,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
 	picture = "Portrait_Sven_Linderot.tga"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -206,7 +206,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
 	picture = "Portrait_Sven_Olov_Lindholm.tga"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

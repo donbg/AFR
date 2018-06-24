@@ -24,10 +24,10 @@ set_war_support = 0.21
 set_politics = {
 
 	parties = {
-	    vanguardist = {
+	    vanguard_marxist = {
             popularity = 5
         }
-        collectivist = {
+        revolutionary_unionist = {
             popularity = 0
         }
         libertarian_socialist = {
@@ -45,11 +45,11 @@ set_politics = {
         authoritarian_democrat = {
             popularity = 0
         }
-		valkist = {
+		national_populist = {
 			popularity = 5
 		}
 		
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 10
 		}
 	    national_populist = {
@@ -71,7 +71,7 @@ create_country_leader = {
 	desc = "POLITICS_IVAN_RIBAR_DESC"
 	picture = "Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_DURO_PUCAR_DESC"
 	picture = "Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}
@@ -180,7 +180,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTE_PAVELIC_DESC"
 	picture = "Portrait_Croatia_Ante_Pavelic.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

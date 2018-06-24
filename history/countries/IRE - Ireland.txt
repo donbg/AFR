@@ -15,10 +15,10 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 5
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 0
 		}
 		libertarian_socialist = {
@@ -45,7 +45,7 @@ set_politics = {
 		national_populist = {
 			popularity = 8
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -83,7 +83,7 @@ create_country_leader = {
 	desc = "POLITICS_JAMES_LARKIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -103,9 +103,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Eoin O'Duffy"
 	desc = "POLITICS_EOIN_O_DUFFY_DESC"
-	picture = "portrait_valkist_ireland_Eoin_O_Duffy.dds"
+	picture = "portrait_national_populist_ireland_Eoin_O_Duffy.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

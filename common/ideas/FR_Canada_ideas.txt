@@ -190,9 +190,9 @@ ideas = {
 			modifier = {
 				foreign_subversive_activites = -0.2
 				libertarian_socialist_drift = -0.01
-				collectivist_drift = -0.01
-				vanguardist_drift = -0.01
-				valkist_drift = -0.01
+				revolutionary_unionist_drift = -0.01
+				vanguard_marxist_drift = -0.01
+				national_populist_drift = -0.01
 
 			}
 			picture = generic_spy_coup
@@ -206,9 +206,9 @@ ideas = {
 				foreign_subversive_activites = -0.2
 				resistance_tick = -0.2
 				libertarian_socialist_drift = -0.02
-				collectivist_drift = -0.02
-				vanguardist_drift = -0.02
-				valkist_drift = -0.02
+				revolutionary_unionist_drift = -0.02
+				vanguard_marxist_drift = -0.02
+				national_populist_drift = -0.02
 
 			}
 			picture = generic_spy_coup

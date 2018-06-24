@@ -62,7 +62,7 @@ ideas = {
 			}
 		}
 
-		EST_collectivist = {
+		EST_revolutionary_unionist = {
 			picture = generic_goods_red_bonus
 			modifier = {
 				production_speed_buildings_factor = 0.15
@@ -89,7 +89,7 @@ ideas = {
 		EST_teaching = {
 			picture = generic_goods_red_bonus
 			modifier = {
-				collectivist_drift = 0.05
+				revolutionary_unionist_drift = 0.05
 			}
 		}
 	}

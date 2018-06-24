@@ -54,10 +54,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 3
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 13
 		}
 		libertarian_socialist = {
@@ -84,7 +84,7 @@ set_politics = {
 		national_populist = {
 			popularity = 1
 		}
-		valkist = {
+		national_populist = {
 			popularity = 7
 		}
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "RODOLFO_GRAZIANI_DESC"
 	picture = "portrait_italy_radolfo_graziani.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

@@ -37,22 +37,22 @@ set_politics = {
 		social_democrat = {
 			popularity = 5
 		}
-		valkist = {
+		national_populist = {
 			popularity = 2
 		}		
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 52
 		}
 		libertarian_socialist = {
 			popularity = 17
 		}		
 
-		vanguardist = { 
+		vanguard_marxist = { 
 			popularity = 7
 		}
 	}
 	
-	ruling_party = collectivist
+	ruling_party = revolutionary_unionist
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_GETULIO_VARGAS_DESC"
 	picture = "GustavoBarroso.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
 	picture = "Luis_Prestes.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}

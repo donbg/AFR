@@ -52,10 +52,10 @@ set_war_support = 0.52
 set_politics = {
 
     parties = {
-        vanguardist = {
+        vanguard_marxist = {
             popularity = 0
         }
-        collectivist = {
+        revolutionary_unionist = {
             popularity = 14
         }
         libertarian_socialist = {
@@ -82,7 +82,7 @@ set_politics = {
         national_populist = {
             popularity = 0
         }
-        valkist = {
+        national_populist = {
             popularity = 4
         }
     }
@@ -132,7 +132,7 @@ create_country_leader = {
 	desc = "UMBERRTO_II_DESC"
 	picture = "Portrait_Italy_Umberto_II.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 	}
 }
@@ -142,7 +142,7 @@ create_country_leader = {
 	desc = "UMBERRTO_II_DESC"
 	picture = "Portrait_Italy_Umberto_II.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }
@@ -152,7 +152,7 @@ create_country_leader = {
 	desc = "PALMIRO_TOGLIATTI_DESC"
 	picture = "Portrait_Italy_Palmiro_Togliatti.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 	}
 }
@@ -172,7 +172,7 @@ create_country_leader = {
 	desc = "ITALO_BALBO_DESC"
 	picture = "Portrait_Italy_Italo_Balbo.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

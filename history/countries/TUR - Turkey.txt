@@ -41,10 +41,10 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 3
 		}
 		libertarian_socialist = {
@@ -71,7 +71,7 @@ set_politics = {
 		national_populist = {
 			popularity = 10
 		}
-		valkist = {
+		national_populist = {
 			popularity = 2
 		}
 	}
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_ŞEFİK_HÜSNÜ_DESC"
 	picture = "Picture_TUR_Sefik_Husnu.tga"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		
 	}
@@ -105,7 +105,7 @@ create_country_leader = {
 	desc = "POLITICS_NAZIM_HİKMET_DESC"
 	picture = "Portrait_Turkey_Nazim_Hikmet.tga"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		
 	}

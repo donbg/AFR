@@ -20,7 +20,7 @@ ideas = {
 			original_tag = "CZE"
 			}
 
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
 				stability_factor = -0.1
 				war_support_factor = -0.1

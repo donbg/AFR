@@ -27,10 +27,10 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 0
 		}
 		libertarian_socialist = {
@@ -57,7 +57,7 @@ set_politics = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -86,10 +86,10 @@ DEI = {
 	set_politics = {
 
 		parties = {
-			vanguardist = {
+			vanguard_marxist = {
 				popularity = 0
 			}
-			collectivist = {
+			revolutionary_unionist = {
 				popularity = 2
 			}
 			libertarian_socialist = {
@@ -116,7 +116,7 @@ DEI = {
 			national_populist = {
 			popularity = 5
 			}
-			valkist = {
+			national_populist = {
 			popularity = 0
 			}
 		}
@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Netherlands_Wilhelmina.tga"
 	expire = "1938.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		
 	}
@@ -157,7 +157,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Netherlands_Wilhelmina.tga"
 	expire = "1938.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		
 	}
@@ -256,7 +256,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Netherlands_Wilhelmina.tga"
 	expire = "1938.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		
 	}

@@ -37,9 +37,9 @@ leader_traits = {
 	totalist = {}
 	radical_socialist = {}
 	syndicalist = {}
-	vanguardist = {}
+	vanguard_marxist = {}
 	libertarian_socialist = {}
-	collectivist = {}
+	revolutionary_unionist = {}
 	social_democrat = {}
 	social_liberal = {}
 	market_liberal = {}
@@ -47,6 +47,6 @@ leader_traits = {
 	authoritarian_democrat = {}
 	paternal_autocrat = {}
 	national_populist = {}
-	valkist = {}
+	national_populist = {}
 
 }

@@ -34,10 +34,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 8
 		}
 		libertarian_socialist = {
@@ -64,7 +64,7 @@ set_politics = {
 		national_populist = {
 			popularity = 12
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
 	picture = "gfx/leaders/AUS/AUS_Portrait_Ernst_Kaltenbrunner.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
@@ -129,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_ALFRED_KLAHR_DESC"
 	picture = "gfx/leaders/AUS/AUS_Portrait_Otto_Bauer.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}

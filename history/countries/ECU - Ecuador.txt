@@ -30,7 +30,7 @@ set_politics = {
 		libertarian_socialist = {
 			popularity = 5
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 15
 		}
 		social_conservative = {

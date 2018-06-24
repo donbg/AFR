@@ -21,7 +21,7 @@ set_politics = {
 			popularity = 10
 		}
 		
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 10
 			#banned = no #default is no
 		}
@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Khalid Bakdash"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_communism1.dds"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}

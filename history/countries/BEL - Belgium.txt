@@ -30,10 +30,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 7
 		}
 		libertarian_socialist = {
@@ -60,7 +60,7 @@ set_politics = {
 		national_populist = {
 			popularity = 4
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -126,7 +126,7 @@ create_country_leader = {
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
 	picture = "Portrait_Belgium_Leon_Degrelle.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
@@ -148,7 +148,7 @@ create_country_leader = {
 	desc = "POLITICS_JULIEN_LAHAUT_DESC"
 	picture = "Portrait_Belgium_Julien_Lahaut.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -169,7 +169,7 @@ create_country_leader = {
 	desc = "POLITICS_HENDRIK_DE_MAN_DESC"
 	picture = "Portrait_Belgium_Hendrik_de_Man.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}
@@ -181,7 +181,7 @@ create_country_leader = {
 	desc = "POLITICS_STAF_DE_CLERCQ_DESC"
 	picture = "Portrait_Belgium_Staf_de_Clercq.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

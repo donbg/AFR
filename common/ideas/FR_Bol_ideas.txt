@@ -21,7 +21,7 @@ ideas = {
 			original_tag = "BOL"
 			}
 
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
 				industrial_capacity_factory = 0.1
 				consumer_goods_factor = -0.05
@@ -52,7 +52,7 @@ ideas = {
 			}
 		}
 
-		BOL_collectivist_administration = {
+		BOL_revolutionary_unionist_administration = {
 			allowed = {
 			original_tag = "BOL"
 			}
@@ -187,7 +187,7 @@ ideas = {
 			original_tag = "BOL"
 			}
 
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
 				industrial_capacity_factory = 0.05
 				production_speed_buildings_factor = 0.1
@@ -262,7 +262,7 @@ ideas = {
 		BOL_Juan_Lechin_Oquendo_hog_bol = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Juan_Lechin_Oquendo_dead}
 				NOT = {has_country_flag = Juan_Lechin_Oquendo_hog_fired}
@@ -270,7 +270,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_backroom_backstabber
 			}
 			cancel_if_invalid = no
@@ -279,7 +279,7 @@ ideas = {
 		BOL_Guillermo_Lora_hog_int = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Guillermo_Lora_dead}
 				NOT = {has_country_flag = Guillermo_Lora_hog_fired}
@@ -287,7 +287,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_happy_amateur
 			}
 			cancel_if_invalid = no
@@ -296,7 +296,7 @@ ideas = {
 		BOL_Gustavo_Navarro_Marof_hog_int = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Gustavo_Navarro_Marof_dead}
 				NOT = {has_country_flag = Gustavo_Navarro_Marof_hog_fired}
@@ -304,7 +304,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_ambitious_union_boss
 			}
 			cancel_if_invalid = no
@@ -313,7 +313,7 @@ ideas = {
 		BOL_Jose_Aguirre_Gainsborg_hog_int = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Jose_Aguirre_Gainsborg_dead}
 				NOT = {has_country_flag = Jose_Aguirre_Gainsborg_hog_fired}
@@ -321,7 +321,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_political_protege
 			}
 			cancel_if_invalid = no
@@ -364,7 +364,7 @@ ideas = {
 		BOL_Jose_Antonio_Arze_y_Arze_hog_bol = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Jose_Antonio_Arze_y_Arze_dead}
 				NOT = {has_country_flag = Jose_Antonio_Arze_y_Arze_hog_fired}
@@ -372,7 +372,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_silent_workhorse
 			}
 			cancel_if_invalid = no
@@ -672,7 +672,7 @@ ideas = {
 		BOL_Mariano_Ramos_hog_val = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Oscar_Unzaga_de_la_Vega_dead}
 				NOT = {has_country_flag = Oscar_Unzaga_de_la_Vega_hog_fired}
@@ -680,7 +680,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				valkist
+				national_populist
 				hog_silent_workhorse
 			}
 			cancel_if_invalid = no
@@ -724,14 +724,14 @@ ideas = {
 		BOL_Guillermo_Lora_for_int = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Guillermo_Lora_dead}
 				NOT = {has_country_flag = Guillermo_Lora_hog_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_biased_intellectual
 			}
 			cancel_if_invalid = no
@@ -756,7 +756,7 @@ ideas = {
 		BOL_Juan_Lechin_Oquendo_for_bol = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Juan_Lechin_Oquendo_dead}
 				NOT = {has_country_flag = Juan_Lechin_Oquendo_hog_fired}
@@ -764,7 +764,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_apologetic_clerk
 			}
 			cancel_if_invalid = no
@@ -1031,7 +1031,7 @@ ideas = {
 		BOL_Manuel_Quispe_for_val = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Juan_Mechin_dead}
 				NOT = {has_country_flag = Juan_Mechin_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1039,7 +1039,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				valkist
+				national_populist
 				for_great_compromiser
 			}
 			cancel_if_invalid = no
@@ -1050,7 +1050,7 @@ ideas = {
 		BOL_Werner_Guttenberg_eco_int = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Werner_Guttenberg_dead}
 				NOT = {has_country_flag = Werner_Guttenberg_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1058,7 +1058,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_strategic_destruction_proponent
 			}
 			cancel_if_invalid = no
@@ -1375,7 +1375,7 @@ ideas = {
 		BOL_Fernando_Ramos_eco_val = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Bernardino_Bilbao_Rioja_dead}
 				NOT = {has_country_flag = Bernardino_Bilbao_Rioja_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1383,7 +1383,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				valkist
+				national_populist
 				eco_infantry_proponent
 			}
 			cancel_if_invalid = no
@@ -1411,7 +1411,7 @@ ideas = {
 		BOL_Juan_Lechin_Oquendo_sec_bol = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Juan_Lechin_Oquendo_dead}
 				NOT = {has_country_flag = Juan_Lechin_Oquendo_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1419,7 +1419,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_back_stabber
 			}
 			cancel_if_invalid = no
@@ -1751,7 +1751,7 @@ ideas = {
 		BOL_Pedro_Rojas_sec_val = { #Auto-Generated
 			allowed = {original_tag = BOL}
 			available = {
-				valkist_allowed = yes
+				national_populist_allowed = yes
 				NOT = {has_country_flag = Edwin_Moeller_dead}
 				NOT = {has_country_flag = Edwin_Moeller_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1759,7 +1759,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				valkist
+				national_populist
 				sec_crime_fighter
 			}
 			cancel_if_invalid = no

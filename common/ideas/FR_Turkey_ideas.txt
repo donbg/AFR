@@ -642,7 +642,7 @@ ideas = {
 		TUR_Sefik_Huesnue_Bey_hog_syn = { #Auto-Generated
 			allowed = {original_tag = TUR}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Sefik_Huesnue_Bey_dead}
 				NOT = {has_country_flag = Sefik_Huesnue_Bey_hog_fired}
@@ -650,7 +650,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_ambitious_union_boss
 			}
 			cancel_if_invalid = no
@@ -1589,13 +1589,13 @@ ideas = {
 		TUR_Ethem_Nejat_int_syn = { #Auto-Generated
 			allowed = {original_tag = TUR}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Ethem_Nejat_dead}
 				NOT = {has_country_flag = Ethem_Nejat_int_fired}
 			}
 			traits = {
 				head_of_intel
-				collectivist
+				revolutionary_unionist
 				int_political_specialist
 			}
 			cancel_if_invalid = no

@@ -1693,7 +1693,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = generic_collectivist_ethos_kr
+		id = generic_revolutionary_unionist_ethos_kr
 		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
 		
 		prerequisite = { focus = generic_political_effort }
@@ -1722,7 +1722,7 @@ focus_tree = {
 		
 			NOT = {
 			
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_government = paternal_autocrat
 				has_government = national_populist
 			
@@ -1731,7 +1731,7 @@ focus_tree = {
 		}
 		
 		prerequisite = { focus = generic_political_effort }
-		mutually_exclusive = { focus = generic_collectivist_ethos_kr }
+		mutually_exclusive = { focus = generic_revolutionary_unionist_ethos_kr }
 		
 		x = 23
 		y = 1
@@ -1751,7 +1751,7 @@ focus_tree = {
 		id = generic_militarism
 		icon = GFX_goal_generic_political_pressure
 		
-		prerequisite = { focus = generic_collectivist_ethos_kr }
+		prerequisite = { focus = generic_revolutionary_unionist_ethos_kr }
 		x = 21
 		y = 2
 		cost = 10

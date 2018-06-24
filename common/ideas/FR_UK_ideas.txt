@@ -1904,8 +1904,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				vanguardist_drift = -0.1
-				collectivist_drift = -0.1
+				vanguard_marxist_drift = -0.1
+				revolutionary_unionist_drift = -0.1
 				libertarian_socialist_drift = -0.1
 				political_power_gain = 0.1
 			}
@@ -1938,8 +1938,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				vanguardist_drift = -0.1
-				collectivist_drift = -0.1
+				vanguard_marxist_drift = -0.1
+				revolutionary_unionist_drift = -0.1
 				libertarian_socialist_drift = -0.1
 				social_democrat_drift = -0.02
 				market_liberal_drift = -0.02

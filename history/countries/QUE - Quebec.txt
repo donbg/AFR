@@ -44,10 +44,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 2
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 2
 		}
 		libertarian_socialist = {
@@ -74,7 +74,7 @@ set_politics = {
 		national_populist = {
 			popularity = 6
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -102,7 +102,7 @@ create_country_leader = {
 	desc = "POLITICS_DUPLESSIS_DESC"
 	picture = "Portrait_CIA.tga"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		cia
 		hothead

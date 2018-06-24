@@ -24,10 +24,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 22
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 5
 		}
 		libertarian_socialist = {
@@ -54,7 +54,7 @@ set_politics = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = "GAMA_DESC"
 	picture = "Antonio_Diaz_Soto_y_Gama.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "GAMA_DESC"
 	picture = "Antonio_Diaz_Soto_y_Gama.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}

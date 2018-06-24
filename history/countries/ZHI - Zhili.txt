@@ -13,10 +13,10 @@ set_technology = {
 
 set_politics = {
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 0
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 0
 		}
 		libertarian_socialist = {
@@ -43,7 +43,7 @@ set_politics = {
 		national_populist = {
 			popularity = 8
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}

@@ -655,8 +655,8 @@ ideas = {
 				stability_factor = -0.05
 				political_power_gain = 0.15
 				libertarian_socialist_drift = 0.05
-				collectivist_drift = 0.03
-				vanguardist_drift = 0.02
+				revolutionary_unionist_drift = 0.03
+				vanguard_marxist_drift = 0.02
 			}
 			picture = SOV_scientist_defect
 			removal_cost = -1

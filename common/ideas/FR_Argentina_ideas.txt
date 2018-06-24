@@ -218,29 +218,29 @@ ideas = {
 				production_factory_start_efficiency_factor = 0.07
 			}
 		}
-		ARG_the_collectivist_revolution = {
+		ARG_the_revolutionary_unionist_revolution = {
 			allowed = {
 			original_tag = "ARG"
 			}
 
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
-				collectivist_drift = 0.03
+				revolutionary_unionist_drift = 0.03
 				libertarian_socialist_drift = 0.01
-				vanguardist_drift = 0.01
+				vanguard_marxist_drift = 0.01
 			}
 		}
 
-		ARG_collectivism_banned = {
+		ARG_revolutionary_unionism_banned = {
 			allowed = {
 			original_tag = "ARG"
 			}
 
-			picture = generic_collectivism_banned
+			picture = generic_revolutionary_unionism_banned
 			modifier = {
-				collectivist_drift = -0.03
+				revolutionary_unionist_drift = -0.03
 				libertarian_socialist_drift = -0.01
-				vanguardist_drift = -0.01
+				vanguard_marxist_drift = -0.01
 			}
 		}
 
@@ -264,7 +264,7 @@ ideas = {
 			modifier = {
 				foreign_subversive_activites = -0.50 
 				enemy_partisan_effect = -0.1
-				collectivist_drift = -0.01
+				revolutionary_unionist_drift = -0.01
 				libertarian_socialist_drift = -0.01
 			}
 		}
@@ -503,29 +503,29 @@ ideas = {
 			}
 		}
 
-		ARG_the_collectivist_revolution1 = {
+		ARG_the_revolutionary_unionist_revolution1 = {
 			allowed = {
 			original_tag = "ARG"
 			}
 
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
-				collectivist_drift = 0.03
+				revolutionary_unionist_drift = 0.03
 				libertarian_socialist_drift = 0.01
-				vanguardist_drift = 0.01
+				vanguard_marxist_drift = 0.01
 				political_power_gain = 0.03
 			}
 		}
-		ARG_the_collectivist_revolution2 = {
+		ARG_the_revolutionary_unionist_revolution2 = {
 			allowed = {
 			original_tag = "ARG"
 			}
 
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
-				collectivist_drift = 0.03
+				revolutionary_unionist_drift = 0.03
 				libertarian_socialist_drift = 0.01
-				vanguardist_drift = 0.01
+				vanguard_marxist_drift = 0.01
 				political_power_gain = 0.05
 				stability_factor = 0.05	
 			}
@@ -547,7 +547,7 @@ ideas = {
 			original_tag = "ARG"
 			}
 
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
 				political_power_gain = 0.1
 				stability_factor = 0.07	
@@ -563,14 +563,14 @@ ideas = {
 				min_export = -0.05     
 			}
 		}
-		ARG_the_vanguardist_revolution = {
+		ARG_the_vanguard_marxist_revolution = {
 			allowed = {
 			original_tag = "ARG"
 			}
 
-			picture = generic_vanguardism_rising
+			picture = generic_vanguard_marxism_rising
 			modifier = {
-				vanguardist_drift = 0.04
+				vanguard_marxist_drift = 0.04
 				political_power_gain = 0.07
 				stability_factor = 0.07
 				war_support_factor = 0.01
@@ -707,7 +707,7 @@ ideas = {
 		ARG_Rodolfo_Ghioldi_hog_bol = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Rodolfo_Ghioldi_dead}
 				NOT = {has_country_flag = Rodolfo_Ghioldi_hog_fired}
@@ -715,7 +715,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_political_protege
 			}
 			cancel_if_invalid = no
@@ -723,7 +723,7 @@ ideas = {
 		ARG_Jose_Penelon_hog_bol = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Jose_Penelon_dead}
 				NOT = {has_country_flag = Jose_Penelon_hog_fired}
@@ -731,7 +731,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_silent_workhorse
 			}
 			cancel_if_invalid = no
@@ -739,7 +739,7 @@ ideas = {
 		ARG_Victorio_Codovilla_hog_int = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Victorio_Codovilla_dead}
 				NOT = {has_country_flag = Victorio_Codovilla_hog_fired}
@@ -747,7 +747,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_ambitious_union_boss
 			}
 			cancel_if_invalid = no
@@ -755,7 +755,7 @@ ideas = {
 		ARG_Fanny_Jacobsky_hog_int = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Fanny_Jacobsky_dead}
 				NOT = {has_country_flag = Fanny_Jacobsky_hog_fired}
@@ -763,7 +763,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_political_protege
 			}
 			cancel_if_invalid = no
@@ -1150,7 +1150,7 @@ ideas = {
 		ARG_Geronimo_Arnedo_for_int = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Anita_Piacenza_dead}
 				NOT = {has_country_flag = Anita_Piacenza_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1158,7 +1158,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_apologetic_clerk
 			}
 			cancel_if_invalid = no
@@ -1182,7 +1182,7 @@ ideas = {
 		ARG_Florindo_Moretti_for_bol = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Florindo_Moretti_dead}
 				NOT = {has_country_flag = Florindo_Moretti_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1190,7 +1190,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_apologetic_clerk
 			}
 			cancel_if_invalid = no
@@ -1575,7 +1575,7 @@ ideas = {
 		ARG_Juan_Jose_Real_eco_int = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Juan_Jose_Real_dead}
 				NOT = {has_country_flag = Juan_Jose_Real_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1583,7 +1583,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_infantry_proponent
 			}
 			cancel_if_invalid = no
@@ -1591,7 +1591,7 @@ ideas = {
 		ARG_Orestes_Ghioldi_eco_bol = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Orestes_Ghioldi_dead}
 				NOT = {has_country_flag = Orestes_Ghioldi_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -1599,7 +1599,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_resource_industrialist
 			}
 			cancel_if_invalid = no
@@ -2003,7 +2003,7 @@ ideas = {
 		ARG_Jose_Peter_sec_int = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Jose_Peter_dead}
 				NOT = {has_country_flag = Jose_Peter_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -2011,7 +2011,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_crooked_kleptocrat
 			}
 			cancel_if_invalid = no
@@ -2020,7 +2020,7 @@ ideas = {
 		ARG_Pedro_Chiarante_sec_bol = { #Auto-Generated
 			allowed = {original_tag = ARG}
 			available = {
-				#syndicalist_allowed = collectivist
+				#syndicalist_allowed = revolutionary_unionist
 				NOT = {has_country_flag = Pedro_Chiarante_dead}
 				NOT = {has_country_flag = Pedro_Chiarante_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -2028,7 +2028,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				collectivist
+				revolutionary_unionist
 				sec_prince_of_terror
 			}
 			cancel_if_invalid = no

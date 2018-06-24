@@ -33,19 +33,19 @@
 increase_ruling_party_popularity_by_5 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.05
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.05
 		}
 	}
@@ -123,10 +123,10 @@ increase_ruling_party_popularity_by_5 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.05
 		}
 	}
@@ -135,19 +135,19 @@ increase_ruling_party_popularity_by_5 = {
 increase_ruling_party_popularity_by_10 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.10
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.10
 		}
 	}
@@ -225,10 +225,10 @@ increase_ruling_party_popularity_by_10 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.10
 		}
 	}
@@ -237,19 +237,19 @@ increase_ruling_party_popularity_by_10 = {
 increase_ruling_party_popularity_by_15 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.15
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.15
 		}
 	}
@@ -327,10 +327,10 @@ increase_ruling_party_popularity_by_15 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.15
 		}
 	}
@@ -339,19 +339,19 @@ increase_ruling_party_popularity_by_15 = {
 increase_ruling_party_popularity_by_20 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.20
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.20
 		}
 	}
@@ -429,10 +429,10 @@ increase_ruling_party_popularity_by_20 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.20
 		}
 	}
@@ -441,19 +441,19 @@ increase_ruling_party_popularity_by_20 = {
 increase_ruling_party_popularity_by_25 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.25
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.25
 		}
 	}
@@ -531,10 +531,10 @@ increase_ruling_party_popularity_by_25 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.25
 		}
 	}
@@ -543,19 +543,19 @@ increase_ruling_party_popularity_by_25 = {
 increase_ruling_party_popularity_by_30 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.30
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.30
 		}
 	}
@@ -633,10 +633,10 @@ increase_ruling_party_popularity_by_30 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.30
 		}
 	}
@@ -645,19 +645,19 @@ increase_ruling_party_popularity_by_30 = {
 increase_ruling_party_popularity_by_35 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.35
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.35
 		}
 	}
@@ -735,10 +735,10 @@ increase_ruling_party_popularity_by_35 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.35
 		}
 	}
@@ -747,19 +747,19 @@ increase_ruling_party_popularity_by_35 = {
 increase_ruling_party_popularity_by_40 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.40
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.40
 		}
 	}
@@ -837,10 +837,10 @@ increase_ruling_party_popularity_by_40 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.40
 		}
 	}
@@ -849,19 +849,19 @@ increase_ruling_party_popularity_by_40 = {
 increase_ruling_party_popularity_by_45 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.45
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.45
 		}
 	}
@@ -939,10 +939,10 @@ increase_ruling_party_popularity_by_45 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.45
 		}
 	}
@@ -951,19 +951,19 @@ increase_ruling_party_popularity_by_45 = {
 increase_ruling_party_popularity_by_50 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = 0.50
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = 0.50
 		}
 	}
@@ -1041,10 +1041,10 @@ increase_ruling_party_popularity_by_50 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = 0.50
 		}
 	}
@@ -1053,19 +1053,19 @@ increase_ruling_party_popularity_by_50 = {
 decrease_ruling_party_popularity_by_5 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.05
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.05
 		}
 	}
@@ -1143,10 +1143,10 @@ decrease_ruling_party_popularity_by_5 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.05
 		}
 	}
@@ -1155,19 +1155,19 @@ decrease_ruling_party_popularity_by_5 = {
 decrease_ruling_party_popularity_by_10 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.10
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.10
 		}
 	}
@@ -1245,10 +1245,10 @@ decrease_ruling_party_popularity_by_10 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.10
 		}
 	}
@@ -1257,19 +1257,19 @@ decrease_ruling_party_popularity_by_10 = {
 decrease_ruling_party_popularity_by_15 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.15
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.15
 		}
 	}
@@ -1347,10 +1347,10 @@ decrease_ruling_party_popularity_by_15 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.15
 		}
 	}
@@ -1359,19 +1359,19 @@ decrease_ruling_party_popularity_by_15 = {
 decrease_ruling_party_popularity_by_20 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.20
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.20
 		}
 	}
@@ -1449,10 +1449,10 @@ decrease_ruling_party_popularity_by_20 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.20
 		}
 	}
@@ -1461,19 +1461,19 @@ decrease_ruling_party_popularity_by_20 = {
 decrease_ruling_party_popularity_by_25 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.25
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.25
 		}
 	}
@@ -1551,10 +1551,10 @@ decrease_ruling_party_popularity_by_25 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.25
 		}
 	}
@@ -1563,19 +1563,19 @@ decrease_ruling_party_popularity_by_25 = {
 decrease_ruling_party_popularity_by_30 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.30
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.30
 		}
 	}
@@ -1653,10 +1653,10 @@ decrease_ruling_party_popularity_by_30 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.30
 		}
 	}
@@ -1665,19 +1665,19 @@ decrease_ruling_party_popularity_by_30 = {
 decrease_ruling_party_popularity_by_35 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.35
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.35
 		}
 	}
@@ -1755,10 +1755,10 @@ decrease_ruling_party_popularity_by_35 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.35
 		}
 	}
@@ -1767,19 +1767,19 @@ decrease_ruling_party_popularity_by_35 = {
 decrease_ruling_party_popularity_by_40 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.40
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.40
 		}
 	}
@@ -1857,10 +1857,10 @@ decrease_ruling_party_popularity_by_40 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.40
 		}
 	}
@@ -1869,19 +1869,19 @@ decrease_ruling_party_popularity_by_40 = {
 decrease_ruling_party_popularity_by_45 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.45
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.45
 		}
 	}
@@ -1959,10 +1959,10 @@ decrease_ruling_party_popularity_by_45 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.45
 		}
 	}
@@ -1971,19 +1971,19 @@ decrease_ruling_party_popularity_by_45 = {
 decrease_ruling_party_popularity_by_50 = {
 	if = {
 		limit = {
-			has_government = vanguardist
+			has_government = vanguard_marxist
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = vanguard_marxist
 			popularity = -0.50
 		}
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = revolutionary_unionist
 			popularity = -0.50
 		}
 	}
@@ -2061,10 +2061,10 @@ decrease_ruling_party_popularity_by_50 = {
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = national_populist
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = national_populist
 			popularity = -0.50
 		}
 	}

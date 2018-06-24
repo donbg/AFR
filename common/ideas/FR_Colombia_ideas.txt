@@ -219,7 +219,7 @@ ideas = {
 		COL_Gilberto_Vieiria_hog_van = { #Auto-Generated
 			allowed = {original_tag = COL}
 			available = {
-				has_government = vanguardist
+				has_government = vanguard_marxist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Gilberto_Vieiria_dead}
 				NOT = {has_country_flag = Gilberto_Vieiria_hog_fired}
@@ -227,7 +227,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				vanguardist
+				vanguard_marxist
 				hog_backroom_backstabber
 			}
 			cancel_if_invalid = no
@@ -235,7 +235,7 @@ ideas = {
 		COL_Augusto_Duran_hog_col = { #Auto-Generated
 			allowed = {original_tag = COL}
 			available = {
-				has_government = collectivist
+				has_government = revolutionary_unionist
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = Augusto_Duran_dead}
 				NOT = {has_country_flag = Augusto_Duran_hog_fired}
@@ -243,7 +243,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				collectivist
+				revolutionary_unionist
 				hog_naive_optimist
 			}
 			cancel_if_invalid = no
@@ -368,7 +368,7 @@ ideas = {
 		COL_Ignacio_Torres_Giraldo_for_van = { #Auto-Generated
 			allowed = {original_tag = COL}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Ignacio_Torres_Giraldo_dead}
 				NOT = {has_country_flag = Ignacio_Torres_Giraldo_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -376,7 +376,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				vanguardist
+				vanguard_marxist
 				for_biased_intellectual
 			}
 			cancel_if_invalid = no
@@ -384,7 +384,7 @@ ideas = {
 		COL_Jacobo_Arenas_for_col = { #Auto-Generated
 			allowed = {original_tag = COL}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Jacobo_Arenas_dead}
 				NOT = {has_country_flag = Jacobo_Arenas_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -392,7 +392,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				collectivist
+				revolutionary_unionist
 				for_the_cloak_n_dagger_schemer
 			}
 			cancel_if_invalid = no
@@ -530,7 +530,7 @@ ideas = {
 		COL_Luis_Vidales_eco_vang = { #Auto-Generated
 			allowed = {original_tag = COL}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Luis_Vidales_dead}
 				NOT = {has_country_flag = Luis_Vidales_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -538,7 +538,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				vanguardist
+				vanguard_marxist
 				eco_laissez_faire_capitalist
 			}
 			cancel_if_invalid = no
@@ -546,7 +546,7 @@ ideas = {
 		COL_Joaquin_Moreno_Diaz_eco_col = { #Auto-Generated
 			allowed = {original_tag = COL}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Joaquin_Moreno_Diaz_dead}
 				NOT = {has_country_flag = Joaquin_Moreno_Diaz_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -554,7 +554,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				collectivist
+				revolutionary_unionist
 				eco_laissez_faire_capitalist
 			}
 			cancel_if_invalid = no
@@ -682,7 +682,7 @@ ideas = {
 		COL_Tomas_Uribe_Marquez_sec_van = { #Auto-Generated
 			allowed = {original_tag = COL}
 			available = {
-				vanguardist_allowed = yes
+				vanguard_marxist_allowed = yes
 				NOT = {has_country_flag = Tomas_Uribe_Marquez_dead}
 				NOT = {has_country_flag = Tomas_Uribe_Marquez_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -690,7 +690,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_compassionate_gentleman
 			}
 			cancel_if_invalid = no
@@ -698,7 +698,7 @@ ideas = {
 		COL_Luis_Tejada_Caro_sec_van = { #Auto-Generated
 			allowed = {original_tag = COL}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Tomas_Uribe_Marquez_dead}
 				NOT = {has_country_flag = Tomas_Uribe_Marquez_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -706,7 +706,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				vanguardist
+				vanguard_marxist
 				sec_compassionate_gentleman
 			}
 			cancel_if_invalid = no

@@ -32,7 +32,7 @@ set_politics = {
 			popularity = 10
 		}
 		
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 15
 			#banned = no #default is no
 		}
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}

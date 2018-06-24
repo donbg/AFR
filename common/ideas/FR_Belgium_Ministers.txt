@@ -199,7 +199,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				valkist
+				national_populist
 				hog_naive_optimist
 			}
 			cancel_if_invalid = yes
@@ -370,7 +370,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				valkist
+				national_populist
 				for_great_compromiser
 			}
 			cancel_if_invalid = yes
@@ -538,7 +538,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				valkist
+				national_populist
 				eco_administrative_genius
 			}
 			cancel_if_invalid = yes
@@ -691,7 +691,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				valkist
+				national_populist
 				sec_man_of_the_people
 			}
 			cancel_if_invalid = yes

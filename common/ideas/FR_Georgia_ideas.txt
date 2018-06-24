@@ -75,7 +75,7 @@ ideas = {
 				allowed = {
 					always = no
 				}
-				picture = generic_collectivism_rising
+				picture = generic_revolutionary_unionism_rising
 				modifier = {
 					mobilization_speed = 0.05
 					consumer_goods_factor = -0.1
@@ -141,12 +141,12 @@ ideas = {
 				}
 			}
 			GEO_vang_constitution_idea = {
-				picture = generic_vanguardism_rising
+				picture = generic_vanguard_marxism_rising
 				allowed = {
 					always = no
 				}
 				modifier = {
-					vanguardist_drift = 0.1
+					vanguard_marxist_drift = 0.1
 					political_power_gain = 0.1
 					war_support_factor = -0.1
 				}

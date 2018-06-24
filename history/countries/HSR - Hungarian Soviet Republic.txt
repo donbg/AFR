@@ -21,10 +21,10 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 75
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 10
 		}
 		libertarian_socialist = {
@@ -51,12 +51,12 @@ set_politics = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = vanguardist
+	ruling_party = vanguard_marxist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

@@ -23,10 +23,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 2
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 4
 		}
 		libertarian_socialist = {
@@ -53,7 +53,7 @@ set_politics = {
 		national_populist = {
 			popularity = 3
 		}
-		valkist = {
+		national_populist = {
 			popularity = 2
 		}
 	}
@@ -107,7 +107,7 @@ create_country_leader = {
 	name = "Meir Vilner"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}

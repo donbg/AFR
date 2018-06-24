@@ -39,10 +39,10 @@ ideas = {
 			}
 		}
 	
-		GER_valkist_scandinavia = {
+		GER_national_populist_scandinavia = {
 			picture = generic_fascism_drift_bonus
 			modifier = {
-				valkist_drift = 0.1
+				national_populist_drift = 0.1
 			}
 		}
 		
@@ -321,7 +321,7 @@ ideas = {
 			picture = generic_secret_police
 			modifier = {
 				consumer_goods_factor = 0.1
-				valkist_drift = 0.10
+				national_populist_drift = 0.10
 			}
 		}
 		GER_divided_govt = {
@@ -381,8 +381,8 @@ ideas = {
 			picture = officers_purged
 			modifier = {
 				libertarian_socialist_acceptance = -25
-				collectivist_acceptance = -25
-				vanguardist_acceptance = -25
+				revolutionary_unionist_acceptance = -25
+				vanguard_marxist_acceptance = -25
 			}
 		}
 		GER_tst_army = {

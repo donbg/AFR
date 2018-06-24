@@ -54,10 +54,10 @@ set_convoys = 250
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 2
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 0
 		}
 		libertarian_socialist = {
@@ -84,7 +84,7 @@ set_politics = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -98,9 +98,9 @@ set_politics = {
 create_country_leader = {
 	name = "Arnold Leese"
 	desc = "ARNOLD_LEESE_DESC"
-	picture = "portrait_valkist_england_Arnold_Leese.dds"
+	picture = "portrait_national_populist_england_Arnold_Leese.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }
@@ -108,9 +108,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Graham Seton Hutchison"
 	desc = "POLITICS_GRAHAM_SETON_HUTCHISON_DESC"
-	picture = "portrait_valkist_england_Graham_Seton_Hutchison.dds"
+	picture = "portrait_national_populist_england_Graham_Seton_Hutchison.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }
@@ -120,7 +120,7 @@ create_country_leader = {
 	desc = "ROTHA_ORMAN_DESC"
 	picture = "Potrait_England_Rotha_Orman.dds"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

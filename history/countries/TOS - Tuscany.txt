@@ -39,10 +39,10 @@ set_convoys = 50
 set_politics = {
 
     parties = {
-        vanguardist = {
+        vanguard_marxist = {
             popularity = 14
         }
-        collectivist = {
+        revolutionary_unionist = {
             popularity = 0
         }
         libertarian_socialist = {
@@ -69,7 +69,7 @@ set_politics = {
         national_populist = {
             popularity = 0
         }
-        valkist = {
+        national_populist = {
             popularity = 4
         }
     }
@@ -149,7 +149,7 @@ create_country_leader = {
 	desc = "EZIO_BARALINI_DESC"
 	picture = "Portrait_Italy_Ezio_Bartalini.dds"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {		
 	}
 }

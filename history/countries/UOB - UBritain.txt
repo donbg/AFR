@@ -55,10 +55,10 @@ set_war_support = 0.45
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 10
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 20
 		}
 		libertarian_socialist = {
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_JOCK_HASTON_DESC"
 	picture = "Portrait_UoB_Haston.tga"
 	expire = "1955.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		
 	}
@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTHUR_MACMANUS_DESC"
 	picture = "Portrait_UoB_MacManus.tga"
 	expire = "1955.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		
 	}
@@ -196,7 +196,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGE_VI_DESC"
 	picture = "Portrait_Britain_George_VI.dds"
 	expire = "1955.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		
 	}

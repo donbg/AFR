@@ -30,11 +30,11 @@ set_politics = {
 			popularity = 15
 		}
 
-		valkist = {
+		national_populist = {
 			popularity = 10
 		}
 		
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 15
 		}
 

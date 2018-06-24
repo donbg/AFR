@@ -8,26 +8,26 @@ ideas = {
         MEX_Emiliano_Zapata_hog = {
             allowed = {original_tag = MEX }
             available = {
-                has_government = vanguardist
+                has_government = vanguard_marxist
                 has_country_flag = can_replace_hog
                 NOT = {has_country_flag = Emilio_Zapata_dead}
                 NOT = {has_country_flag = Emilio_Zapata_fired}
                 NOT = {has_country_flag = ministers_cannot_be_replaced}
             }
-            traits = {head_of_government vanguardist hog_underground_figurehead}
+            traits = {head_of_government vanguard_marxist hog_underground_figurehead}
             cancel_if_invalid = no
         }
 
         MEX_Valentin_Campa_hog = {
             allowed = {original_tag = MEX }
             available = {
-                has_government = collectivist
+                has_government = revolutionary_unionist
                 has_country_flag = can_replace_hog
                 NOT = {has_country_flag = Valentin_Campa_dead}
                 NOT = {has_country_flag = Valentin_Campa_fired}
                 NOT = {has_country_flag = ministers_cannot_be_replaced}
             }
-            traits = {head_of_government collectivist hog_ambitious_union_boss}
+            traits = {head_of_government revolutionary_unionist hog_ambitious_union_boss}
             cancel_if_invalid = no
         }
 
@@ -138,13 +138,13 @@ ideas = {
 				MEX_Nicolas_Rodriguez_Carrasco_hog = {
             allowed = {original_tag = MEX }
             available = {
-                has_government = valkist
+                has_government = national_populist
                 has_country_flag = can_replace_hog
                 #NOT = {has_country_flag = _dead}
                 #NOT = {has_country_flag = _fired}
                 NOT = {has_country_flag = ministers_cannot_be_replaced}
             }
-            traits = {head_of_government valkist hog_revanchist_conspirator}
+            traits = {head_of_government national_populist hog_revanchist_conspirator}
             cancel_if_invalid = no
         }
     }
@@ -155,13 +155,13 @@ ideas = {
             MEX_Narciso_Bassols_for = {
                 allowed = {original_tag = MEX}
                 available = {
-										has_government = collectivist
+										has_government = revolutionary_unionist
                     NOT = {has_country_flag = Narciso_Bassols_dead}
                     NOT = {has_country_flag = Narciso_Bassols_fired}
                     NOT = {has_country_flag = ministers_cannot_be_replaced}
                     NOT = {has_country_flag = for_cannot_be_replaced}
                 }
-                traits = {foreign_minister collectivist for_foreign_sympathizer}
+                traits = {foreign_minister revolutionary_unionist for_foreign_sympathizer}
                 cancel_if_invalid = no
             }
 
@@ -272,13 +272,13 @@ ideas = {
             MEX_Jose_de_Leon_Toral_for = {
                 allowed = {original_tag = MEX}
                 available = {
-										has_government = valkist
+										has_government = national_populist
                     NOT = {has_country_flag = Jose_de_Leon_Toral_dead}
                     NOT = {has_country_flag = Jose_de_Leon_Toral_fired}
                     NOT = {has_country_flag = ministers_cannot_be_replaced}
                     NOT = {has_country_flag = for_cannot_be_replaced}
                 }
-                traits = {foreign_minister valkist for_general_staffer}
+                traits = {foreign_minister national_populist for_general_staffer}
                 cancel_if_invalid = no
             }
         }
@@ -289,26 +289,26 @@ ideas = {
                 MEX_Jose_Robles_Pazos_eco = {
                     allowed = {original_tag = MEX}
                     available = {
-												has_government = vanguardist
+												has_government = vanguard_marxist
                         NOT = {has_country_flag = Jose_Robles_Pazos_dead}
                         NOT = {has_country_flag = Jose_Robles_Pazos_fired}
                         NOT = {has_country_flag = ministers_cannot_be_replaced}
                         NOT = {has_country_flag = eco_cannot_be_replaced}
                     }
-                    traits = {economy_minister vanguardist eco_planned_economy_proponent}
+                    traits = {economy_minister vanguard_marxist eco_planned_economy_proponent}
                     cancel_if_invalid = no
                 }
 
                 MEX_Vicente_Lombardo_Toledano_eco = {
                     allowed = {original_tag = MEX}
                     available = {
-												has_government = vanguardist
+												has_government = vanguard_marxist
                         NOT = {has_country_flag = Vicente_Lombardo_Toledano_dead}
                         NOT = {has_country_flag = Vicente_Lombardo_Toledano_fired}
                         NOT = {has_country_flag = ministers_cannot_be_replaced}
                         NOT = {has_country_flag = eco_cannot_be_replaced}
                     }
-                    traits = {economy_minister collectivist eco_imbedded_unioneer}
+                    traits = {economy_minister revolutionary_unionist eco_imbedded_unioneer}
                     cancel_if_invalid = no
                 }
 
@@ -406,13 +406,13 @@ ideas = {
 								MEX_Jose_Antonio_Urquiza_eco = {
                     allowed = {original_tag = MEX}
                     available = {
-												has_government = valkist
+												has_government = national_populist
                         NOT = {has_country_flag = Jose_Antonio_Urquiza_dead}
                         NOT = {has_country_flag = Jose_Antonio_Urquiza_fired}
                         NOT = {has_country_flag = ministers_cannot_be_replaced}
                         NOT = {has_country_flag = eco_cannot_be_replaced}
                     }
-                    traits = {economy_minister valkist eco_resource_industrialist}
+                    traits = {economy_minister national_populist eco_resource_industrialist}
                     cancel_if_invalid = no
                 }
         }
@@ -423,13 +423,13 @@ ideas = {
                 MEX_Andres_Molina_Enriquez_sec = {
                     allowed = {original_tag = MEX}
                     available = {
-												has_government = vanguardist
+												has_government = vanguard_marxist
                         NOT = {has_country_flag = Andres_Molina_Enriquez_dead}
                         NOT = {has_country_flag = Andres_Molina_Enriquez_fired}
                         NOT = {has_country_flag = ministers_cannot_be_replaced}
                         NOT = {has_country_flag = sec_cannot_be_replaced}
                     }
-                    traits = {security_minister vanguardist sec_driven_recruiter}
+                    traits = {security_minister vanguard_marxist sec_driven_recruiter}
                     cancel_if_invalid = no
                 }
         }
@@ -438,13 +438,13 @@ ideas = {
 		                MEX_Narciso_Bassols_sec = {
 		                    allowed = {original_tag = MEX}
 		                    available = {
-														has_government = collectivist
+														has_government = revolutionary_unionist
 		                        NOT = {has_country_flag = Narciso_Bassols_dead}
 		                        NOT = {has_country_flag = Narciso_Bassols_fired}
 		                        NOT = {has_country_flag = ministers_cannot_be_replaced}
 		                        NOT = {has_country_flag = sec_cannot_be_replaced}
 		                    }
-		                    traits = {security_minister collectivist sec_prince_of_terror}
+		                    traits = {security_minister revolutionary_unionist sec_prince_of_terror}
 		                    cancel_if_invalid = no
 		                }
 		        }
@@ -588,13 +588,13 @@ ideas = {
 																						                MEX_Jose_Olivares_sec = {
 																						                    allowed = {original_tag = MEX}
 																						                    available = {
-																																		has_government = valkist
+																																		has_government = national_populist
 																						                        NOT = {has_country_flag = Jose_Olivares_dead}
 																						                        NOT = {has_country_flag = Jose_Olivares_fired}
 																						                        NOT = {has_country_flag = ministers_cannot_be_replaced}
 																						                        NOT = {has_country_flag = sec_cannot_be_replaced}
 																						                    }
-																						                    traits = {security_minister valkist sec_back_stabber}
+																						                    traits = {security_minister national_populist sec_back_stabber}
 																						                    cancel_if_invalid = no
 																						                }
 																						        }
@@ -603,13 +603,13 @@ ideas = {
 																								                MEX_Alfonso_Junco_sec = {
 																								                    allowed = {original_tag = MEX}
 																								                    available = {
-																																				has_government = valkist
+																																				has_government = national_populist
 																								                        NOT = {has_country_flag = Alfonso_Junco_dead}
 																								                        NOT = {has_country_flag = Alfonso_Junco_fired}
 																								                        NOT = {has_country_flag = ministers_cannot_be_replaced}
 																								                        NOT = {has_country_flag = sec_cannot_be_replaced}
 																								                    }
-																								                    traits = {security_minister valkist sec_crime_fighter}
+																								                    traits = {security_minister national_populist sec_crime_fighter}
 																								                    cancel_if_invalid = no
 																								                }
 																								        }
@@ -628,7 +628,7 @@ ideas = {
                         NOT = {has_country_flag = ministers_cannot_be_replaced}
                         NOT = {has_country_flag = int_cannot_be_replaced}
                     }
-                    traits = {head_of_intel collectivist int_political_specialist}
+                    traits = {head_of_intel revolutionary_unionist int_political_specialist}
                     cancel_if_invalid = no
                 }
         }
@@ -652,13 +652,13 @@ ideas = {
 				                MEX_Alfonso_Junco_int = {
 				                    allowed = {original_tag = MEX}
 				                    available = {
-																has_government = valkist
+																has_government = national_populist
 				                        #NOT = {has_country_flag = _dead}
 				                        #NOT = {has_country_flag = _fired}
 				                        NOT = {has_country_flag = ministers_cannot_be_replaced}
 				                        NOT = {has_country_flag = int_cannot_be_replaced}
 				                    }
-				                    traits = {head_of_intel valkist int_political_specialist}
+				                    traits = {head_of_intel national_populist int_political_specialist}
 				                    cancel_if_invalid = no
 				                }
 				        }

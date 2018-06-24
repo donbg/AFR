@@ -48,10 +48,10 @@ set_war_support = 0.25
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 30
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 13
 		}
 		libertarian_socialist = {
@@ -78,7 +78,7 @@ set_politics = {
 		national_populist = {
 			popularity = 0
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_LAUFENBERG_DESC"
 	picture = "Portrait_Kiel_Heinrich_Laufenberg.tga"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}

@@ -40,10 +40,10 @@ set_war_support = 0.36
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 3
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 6
 		}
 		libertarian_socialist = {
@@ -70,7 +70,7 @@ set_politics = {
 		national_populist = {
 			popularity = 5
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -98,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_ANDERSON_DESC"
 	picture = "Portrait_David_Murray_Anderson.tga"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}
@@ -108,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_ANDERSON_DESC"
 	picture = "Portrait_David_Murray_Anderson.tga"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = revolutionary_unionist_subtype
 	traits = {
 		#
 	}
@@ -198,7 +198,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_ANDERSON_DESC"
 	picture = "Portrait_David_Murray_Anderson.tga"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

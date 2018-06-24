@@ -193,12 +193,12 @@ ideas = {
 			}
 		}
 
-		CHL_chilean_valkism_idea = {
+		CHL_chilean_national_populism_idea = {
 			allowed = {
 			original_tag = "CHL"
 			}
 
-			picture = generic_valkist_support
+			picture = generic_national_populist_support
 
 
 			modifier = {
@@ -243,12 +243,12 @@ ideas = {
 			}
 		}
 
-		CHL_roto_valkism = {
+		CHL_roto_national_populism = {
 			allowed = {
 			original_tag = "CHL"
 			}
 
-			picture = generic_valkist_support
+			picture = generic_national_populist_support
 			modifier = {
 				political_power_gain = 0.1	
 				war_support_factor = 0.15	
@@ -415,18 +415,18 @@ head_of_government = {
 	CHL_Carlos_Contreras_Labarca_hog_bol = { #Auto-Generated
 		allowed = {original_tag = CHL}
 		available = {
-			has_government = collectivist
+			has_government = revolutionary_unionist
 		}
-		traits = {head_of_government collectivist hog_silent_workhorse}
+		traits = {head_of_government revolutionary_unionist hog_silent_workhorse}
 		cancel_if_invalid = no
 		}
 	CHL_Jorge_Gonzales_von_Marees_hog_val = { #Auto-Generated
 		allowed = {original_tag = CHL}
 		available = {
-			has_government = valkist
+			has_government = national_populist
 			has_country_flag = can_replace_hog
 		}
-		traits = {head_of_government valkist hog_flamboyant_tough_guy}
+		traits = {head_of_government national_populist hog_flamboyant_tough_guy}
 		cancel_if_invalid = no
 		}
 	CHL_Carlos_Ibanez_hog_pau = { #Auto-Generated
@@ -527,9 +527,9 @@ foreign_minister = {
 		CHL_Fernando_Guarello_for_val = { #Auto-Generated
 			allowed = {original_tag = CHL}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 			}
-			traits = {foreign_minister valkist for_apologetic_clerk}
+			traits = {foreign_minister national_populist for_apologetic_clerk}
 			cancel_if_invalid = no
 		}
 	}
@@ -586,9 +586,9 @@ economy_minister = {
 		CHL_Carlos_Keller_eco_val = { #Auto-Generated
 			allowed = {original_tag = CHL}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 			}
-			traits = {economy_minister valkist eco_corrupt_kleptocrat}
+			traits = {economy_minister national_populist eco_corrupt_kleptocrat}
 			cancel_if_invalid = no
 		}		
 	}
@@ -644,9 +644,9 @@ security_minister = { ### Security Minister ###
 		CHL_Francisco_Diaz_sec_val = { #Auto-Generated
 			allowed = {original_tag = CHL}
 			available = {
-				has_government = valkist
+				has_government = national_populist
 			}
-			traits = {security_minister valkist sec_prince_of_terror}
+			traits = {security_minister national_populist sec_prince_of_terror}
 			cancel_if_invalid = no
 		}
 	}
@@ -797,7 +797,7 @@ security_minister = { ### Security Minister ###
 		CHL_Julio_Allard_Pinto_carm_syn = { #Auto-Generated
 			allowed = {original_tag = CHL}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Julio_Allard_Pinto_dead}
 				NOT = {has_country_flag = Julio_Allard_Pinto_carm_fired}
 			}
@@ -926,7 +926,7 @@ security_minister = { ### Security Minister ###
 		CHL_Gustavo_Silva_cnav_syn = { #Auto-Generated
 			allowed = {original_tag = CHL}
 			available = {
-				collectivist_allowed = yes
+				revolutionary_unionist_allowed = yes
 				NOT = {has_country_flag = Gustavo_Silva_dead}
 				NOT = {has_country_flag = Gustavo_Silva_cnav_fired}
 			}
@@ -1206,9 +1206,9 @@ security_minister = { ### Security Minister ###
 #		CHL_Gustavo_Vargas_Molinare_int_val = { #Auto-Generated
 #			allowed = {original_tag = CHL}
 #			available = {
-#				has_government = Valkist
+#				has_government = national_populist
 #			}
-#			traits = {head_of_intel valkist int_logistics_specialist}
+#			traits = {head_of_intel national_populist int_logistics_specialist}
 #			cancel_if_invalid = no
 #			}
 #		}

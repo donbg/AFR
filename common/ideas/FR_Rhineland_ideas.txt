@@ -27,8 +27,8 @@ ideas = {
 			picture = generic_fascism_drift_2
 			modifier = {
 				stability_factor = -0.1
-				collectivist_drift = -0.03
-				vanguardist_drift = -0.03
+				revolutionary_unionist_drift = -0.03
+				vanguard_marxist_drift = -0.03
 				libertarian_socialist_drift = -0.01
 			}
 		}
@@ -41,11 +41,11 @@ ideas = {
 			}
 		}
 		RHI_S_spectre_of_spartacists ={
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
 				stability_factor = -0.05
-				collectivist_drift = 0.03
-				vanguardist_drift = 0.03
+				revolutionary_unionist_drift = 0.03
+				vanguard_marxist_drift = 0.03
 				libertarian_socialist_drift = 0.01
 			}	
 		}
@@ -65,7 +65,7 @@ ideas = {
 			}
 		}
 	RHI_S_legal_FAUR ={
-			picture = generic_collectivism_rising
+			picture = generic_revolutionary_unionism_rising
 			modifier = {
 				stability_factor = -0.05
 				production_factory_efficiency_gain_factor = 0.1
@@ -296,7 +296,7 @@ ideas = {
 				production_speed_buildings_factor = -0.50
 				industrial_capacity_factory = -0.25
 				consumer_goods_factor = 0.30
-				valkist_drift = 0.075
+				national_populist_drift = 0.075
 				national_populist_drift = 0.05
 				social_conservative_drift = 0.025
 				social_democrat_drift = 0.025

@@ -25,10 +25,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 3
 		}
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 10
 		}
 		libertarian_socialist = {
@@ -55,7 +55,7 @@ set_politics = {
 		national_populist = {
 			popularity = 5
 		}
-		valkist = {
+		national_populist = {
 			popularity = 0
 		}
 	}
@@ -113,7 +113,7 @@ create_country_leader = {
 	desc = "POLITICS_DOMINIQUE_URBANY_DESC"
 	picture = "portrait_luxembourg_dominique_urbany.tga"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}

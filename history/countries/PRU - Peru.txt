@@ -63,7 +63,7 @@ set_politics = {
 			popularity = 11
 		}
 
-		valkist = { 
+		national_populist = { 
 			popularity = 3
 		}
 
@@ -71,11 +71,11 @@ set_politics = {
 			popularity = 5
 		}
 		
-		collectivist = {
+		revolutionary_unionist = {
 			popularity = 3
 			#banned = no #default is no
 		}
-		vanguardist = {
+		vanguard_marxist = {
 			popularity = 15
 		}
 		libertarian_socialist = {
@@ -157,7 +157,7 @@ create_country_leader = {
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
 	picture = "GFX_Portrait_peru_oscar_benavides"
 	expire = "1965.1.1"
-	ideology = valkist_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
