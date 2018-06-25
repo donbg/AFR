@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = HUN
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
@@ -18,7 +18,7 @@ state={
 			690 10
 		}
 		add_core_of = ROM
-		add_core_of = AUS
+		add_core_of = HUN
 
 	}
 

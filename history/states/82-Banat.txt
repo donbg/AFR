@@ -10,14 +10,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = AUS
+		owner = HUN
 		victory_points = {
 			9606 3
 		}
 		buildings = {
 			infrastructure = 5
 		}
-		add_claim_by = AUS
+		add_claim_by = HUN
 	}
 
 	provinces={
