@@ -27,41 +27,9 @@ set_technology = {
 }
 
 add_ideas = {
-	GEN_Paul_Muller_hog_npo
-	GEN_Petre_Radu_for_npo
-	GEN_Mihail_Galca_eco_npo
-	GEN_Boian_Petrescu_sec_npo
 }
 
-#Ideas
-#if = {
-#	limit = {
-#		has_dlc = "Death or Dishonor"
-#	}
-#	add_ideas = {
-#		ROM_king_carol_ii_hedonist
-#	}
-#	give_guarantee = CZE
-#	give_guarantee = GRE
-#	give_guarantee = TUR
-#}
-#add_ideas = neutrality_idea
-
-#Kick off kings crazy life
-#if = {
-#	limit = {
-#		has_dlc = "Death or Dishonor"
-#	}
-#	ROM = {
-#		#Pick from list of the sane events first
-#		random_list = {
-#			100 = { country_event = { id = DOD_romania.81 days = 2 random = 20 } }
-#		}
-#	}
-#}
-
-
-set_convoys = 10
+set_convoys = 20
 
 give_guarantee = TRA
 
@@ -69,19 +37,19 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 2
+			popularity = 7
 		}
 		revolutionary_unionist = {
-			popularity = 5
+			popularity = 3
 		}
 		libertarian_socialist = {
-			popularity = 3
+			popularity = 0
 		}
 		social_democrat = {
 			popularity = 15
 		}
 		social_liberal = {
-			popularity = 14
+			popularity = 34
 		}
 		market_liberal = {
 			popularity = 0
@@ -93,17 +61,14 @@ set_politics = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 3
+			popularity = 13
 		}
 		national_populist = {
-			popularity = 42
-		}
-		national_populist = {
-			popularity = 0
+			popularity = 12
 		}
 	}
 	
-	ruling_party = national_populist
+	ruling_party = social_liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

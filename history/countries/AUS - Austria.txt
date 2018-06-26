@@ -24,11 +24,6 @@ set_technology = {
 }
 
 add_ideas = {
-	AUS_bundesheer_conscription
-	GEN_James_Smith_hog_sco
-	GEN_Charlie_Baker_for_sco
-	GEN_Sam_Morris_eco_sco
-	GEN_Oscar_Morgan_sec_sco
 }
 
 set_politics = {
@@ -38,38 +33,35 @@ set_politics = {
 			popularity = 0
 		}
 		revolutionary_unionist = {
-			popularity = 8
+			popularity = 0
 		}
 		libertarian_socialist = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 27
+			popularity = 12
 		}
 		social_liberal = {
 			popularity = 0
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 10
 		}
 		social_conservative = {
-			popularity = 42
+			popularity = 15
 		}
 		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
 			popularity = 5
 		}
-		national_populist = {
-			popularity = 12
+		paternal_autocrat = {
+			popularity = 7
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 51
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = national_populist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
