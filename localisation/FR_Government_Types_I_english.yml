@@ -1,7 +1,7 @@
 ﻿l_english:
-vanguard_marxist_noun:0 "vanguard_marxism"
-revolutionary_unionist_noun:0 "revolutionary_unionism"
-libertarian_socialist_noun:0 "Libertarian Socialist"
+vanguard_marxist_noun:0 "Vanguard Marxism"
+revolutionary_unionist_noun:0 "Revolutionary Unionism"
+libertarian_socialist_noun:0 "Libertarian Socialism"
 social_democrat_noun:0 "Social Democracy"
 social_liberal_noun:0 "Social Liberalism"
 market_liberal_noun:0 "Market Liberalism"
@@ -10,8 +10,8 @@ authoritarian_democrat_noun:0 "Authoritarian Dem."
 paternal_autocrat_noun:0 "Paternal Autocracy"
 national_populist_noun:0 "National Populism"
 
-vanguard_marxist_desc:0 "vanguard_marxist"
-revolutionary_unionist_desc:0 "revolutionary_unionist"
+vanguard_marxist_desc:0 "Vanguard Marxist"
+revolutionary_unionist_desc:0 "Revolutionary Unionist"
 libertarian_socialist_desc:0 "Libertarian Socialist"
 social_democrat_desc:0 "Social Democrat"
 social_liberal_desc:0 "Social Liberal"
@@ -23,13 +23,14 @@ national_populist_desc:0 "National Populist"
 
 internationalist_subtype_desc:0 "Developed from particularly interventionist branches of revolutionary_unionism and Marxism overall, Internationalist Socialism, as it calls itself, or more commonly known as Internationalism,  is a socialist ideology that proposes the workers, once in power, must organize to enact a perpetual revolution, and to continue proactively in their struggle to bring socialism to the world. While most socialist strains are of international nature, the proactive spirit of Internationalism has given it a more militant nature, and Internationalist ideologues are known advocates of increased militarization of the workers in name of the revolution, as well as establishing a strong state that is able to defend the workers’ interests and protect the revolution from reactionary forces that may oppose it, however, these traits are just means, not ends, to Internationalists' agenda, as the revolution is never supposed to stop spreading."
 ###
-vanguard_marxist_subtype_desc:0 "One of the most extreme and divisive branches of Socialism, as well as an umbrella term for those ideologies that operate in similar systems, Vanguard Socialism, or vanguard_marxism, is a political idea that proposes the establishment of a strong socialist state, with total control over society, lead by a political vanguard group, to direct the working classes towards the Marxist dream. Widely considered revisionist, nowadays, any socialist ideologies that propose structures such as a strong state, leadership, and military tend to be categorized under vanguard_marxism as an umbrella term too."
+vanguard_marxist_subtype_desc:0 "Vanguard Marxism is often used as a term to describe the various authoritarian interpretations of Socialism, which propose a much stronger state than which is advocated by both Libertarian Socialists and Revolutionary Unionists. Vanguard Marxism, as a general term, advocates centralized economic planning, political consciousness of the populace, and a strong state in order to enable a revolutionary political vanguard to establish a dictatorship of the proletariat."
 ###
-revolutionary_unionist_subtype_desc:0 "revolutionary_unionism proper, commonly referred to as Revolutionary revolutionary_unionism, is a socialist ideology that proposes the implementation of an order of mutual co-dependence and of a collectivized society through a socialist state, that in its government apparatus has entities that direct and guide the collective society in its development, but the means of production are essentially owned by the working class. revolutionary_unionism often defends slight democratic means of participation of the proletariat, albeit only as long as it doesn’t affect the state’s conduction of the collective, or the implementation of socialism in the revolutionary_unionist society."
+revolutionary_unionist_subtype_desc:0 "Although sometimes used as an umbrella term for ideologies which propose a trade-union dominated society of some sort, Orthodox Revolutionary Unionism combines the revolutionary nature of Orthodox Marxism and labour-organization tactics of Industrial Unionism. Orthodox Revolutionary Unionism calls for a central state to manage production, political affairs, and military matters in order to apply just enough state influence to keep society orderly and stable."
 ###
-libertarian_socialist_subtype_desc:0 "An ideology consisting of many branches, Libertarian Socialism focuses on improving the rights of workers by weakening or eliminating a strong central government and implementing market socialist policies. Additional interpretations can focus on the building of small workers’ communes through the workplace, unions, or collectives or communes, as well as pacifist or radical sects that may focus on the rights of workers in a communal federation or the dismantling of other capitalist states respectively."
+libertarian_socialist_subtype_desc:0 "Rather than a defined ideology, Libertarian Socialism is an umbrella term for the different socialist ideologies that put an emphasis in a liberal social and political order, possibly including direct or indirect democracy, or absence of a central government to democratically rule altogether, while possessing certain degree of socialist economic policy that may vary depending on the ideology. Many different sub-ideologies fall under the banner of libertarian socialism. Prominent ideologies under this term may include Participism, Communalism and Anarchism, amongst others."
 ###
 social_democrat_subtype_desc:0 "Social Democracy is an ideology whose goal is to reform capitalism and humanize it by aligning it with the ethical ideals of social welfare while maintaining the capitalist mode of production, rather than creating an alternative socialist economic system. While usually promoting a plutocratic form of government and a heavily regulated market economy, some more radical streams exist."
+###
 social_liberal_subtype_desc:0 "Social Liberalism is a variation on mainstream Market liberalism, with the main difference being is the inclusion of various civil freedoms as basic human rights. Professing progressive social and economic policies the social liberals aim to create a society where every individual is free to live his own life with full opportunities regardless of their status"
 ###
 market_liberal_subtype_desc:0 "Market Liberals see themselves as the mainstream liberal ideology. The main tenants of Market Liberalism are an unregulated free market and a liberal democratic political system. Market Liberals believe that the freer the market the freer the people, and they will staunchly defend the political and economic rights of the individual."
@@ -41,4 +42,3 @@ authoritarian_democrat_subtype_desc:0 "Authoritarian Democracy is an ideology th
 paternal_autocrat_subtype_desc:0 "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
 ###
 national_populist_subtype_desc:0 "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the nation in question. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
-###

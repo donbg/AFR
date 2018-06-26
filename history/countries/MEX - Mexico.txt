@@ -1,4 +1,4 @@
-﻿capital = 277
+capital = 277
 
 oob = "MEX_1936"
 
@@ -14,20 +14,6 @@ set_technology = {
 set_country_flag = monroe_doctrine
 
 add_ideas = {
-	MEX_nationalist_strife
-	#MEX_legacy_of_los_fanaticos
-	MEX_basta
-	MEX_military_corruption
-	MEX_militias
-	MEX_rampant_industrialization
-	#limited_conscription
-	#low_economic_mobilisation
-	low_popularity
-	MEX_Salvador_Abascal_hog
-	MEX_Jose_de_Leon_Toral_for
-	MEX_Anacleto_Gonzalez_Flores_eco
-	MEX_Aristeo_Pedroza_sec
-	MEX_Enrique_Gorostieta_int
 }
 
 set_convoys = 60
@@ -39,41 +25,38 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 2
+			popularity = 10
 		}
 		revolutionary_unionist = {
-			popularity = 2
+			popularity = 7
 		}
 		libertarian_socialist = {
-			popularity = 2
+			popularity = 4
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 12
 		}
 		social_liberal = {
 			popularity = 4
 		}
 		market_liberal = {
-			popularity = 3
+			popularity = 19
 		}
 		social_conservative = {
 			popularity = 8
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 32
 		}
 		paternal_autocrat = {
-			popularity = 16
+			popularity = 4
 		}
 		national_populist = {
-			popularity = 37
-		}
-		national_populist = {
-			popularity = 16
+			popularity = 0
 		}
 	}
 
-	ruling_party = national_populist
+	ruling_party = authoritarian_democrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -94,17 +77,6 @@ create_country_leader = {
 	name = "Salvador Abascal"
 	desc = "POLITICS_SALVADOR_ABASCAL_DESC"
 	picture = "portrait_MEX_Salvador_Abascal.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Nicolas Rodriguez Carrasco"
-	desc = "POLITICS_SALVADOR_ABASCAL_DESC"
-	picture = "portrait_MEX_Nicolas_Rodriguez_Carrasco.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
