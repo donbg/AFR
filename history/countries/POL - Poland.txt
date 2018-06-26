@@ -2,7 +2,6 @@
 
 oob = "POL"
 
-country_event = { id = poland.1 days = 1 }
 set_research_slots = 3
 set_stability = 0.40
 set_war_support = 0.45
@@ -42,25 +41,22 @@ set_politics = {
 			popularity = 10
 		}
 		social_liberal = {
-			popularity = 25
+			popularity = 15
 		}
 		market_liberal = {
 			popularity = 1
 		}
 		social_conservative = {
-			popularity = 25
+			popularity = 15
 		}
 		authoritarian_democrat = {
-			popularity = 30
+			popularity = 50
 		}
 		paternal_autocrat = {
 			popularity = 4
 		}
 		national_populist = {
 			popularity = 5
-		}
-		national_populist = {
-			popularity = 0
 		}
 	}
 	
@@ -71,11 +67,6 @@ set_politics = {
 }
 
 add_ideas = {
-	POL_Lithuanian_unrest
-	limited_conscription
-	POL_poland_ab_idea
-	POL_advisors_council
-	low_popularity
 }
 
 create_country_leader = {

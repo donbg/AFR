@@ -131,7 +131,7 @@ LIT = {
 	color_ui = rgb { 154 69 116 } #KR uses 154 69 116
 }
 EST = {
-	color = rgb { 10 10 170 }
+	color = rgb { 30 60 150 }
 	color_ui = rgb { 0 114 206 }
 }
 LAT = {
@@ -437,7 +437,7 @@ IND = {
 }
 
 CRO = {
-	color = rgb { 40  150  130 } #130  70  180 
+	color = rgb { 40  140  120 } #130  70  180 
 	color_ui = rgb { 130 75 182 }
 }
 
