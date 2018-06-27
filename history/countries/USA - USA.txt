@@ -83,12 +83,6 @@ set_politics = {
 }
 
 add_ideas = {
-	limited_conscription
-	
-	USA_William_Averell_Harriman_for
-	USA_John_Maurice_Clark_eco
-	USA_Hamilton_Fish_III_sec
-	USA_CG_Roberts_int
 }
 
 create_country_leader = {

@@ -207,7 +207,7 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 187 74 74 }
+	color = rgb { 157 44 44 }
 	color_ui = rgb { 187 74 74 }
 }
 AFG = {
@@ -307,7 +307,7 @@ LIB = {
 	color_ui = rgb { 198 169 248 }
 }
 MEX = {
-	color = rgb { 105 150 47 } #104 152 83
+	color = rgb { 75 120 57 } #104 152 83
 	color_ui = rgb { 105 150 47 }
 }
 NEP = {
@@ -411,11 +411,11 @@ CUB = {
 	color_ui = rgb { 140 65 166 }
 }
 DOM = {
-	color = rgb { 152 130 191 }
+	color = rgb { 102 130 101 }
 	color_ui = rgb { 198 169 248 }
 }
 HAI = {
-	color = rgb { 174 113 113 }
+	color = rgb { 134 103 103 }
 	color_ui = rgb { 174 113 113 }
 }
 YEM = {
