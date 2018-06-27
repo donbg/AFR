@@ -1886,7 +1886,7 @@ KAZ_national_populist_DEF:0 "Қазақтың ұлы мемлекеті"
 # AMERICAS #
 ############
 
-#Federation of American States
+#FSA
 USA_vanguard_marxist:0 "American Soviet Republic"
 USA_vanguard_marxist_ADJ:0 "American"
 USA_vanguard_marxist_DEF:0 "The United Communes of America"
@@ -1918,7 +1918,7 @@ USA_national_populist:0 "American Commonwealth"
 USA_national_populist_ADJ:0 "American"
 USA_national_populist_DEF:0 "The Commonwealth of America"
 
-#United Socialist States of America
+#USSA
 USS_vanguard_marxist:0 "United Socialist States of America"
 USS_vanguard_marxist_ADJ:0 "American"
 USS_vanguard_marxist_DEF:0 "The United Socialist States of America"

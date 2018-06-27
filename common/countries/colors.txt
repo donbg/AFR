@@ -386,6 +386,10 @@ USA = {
 	color = rgb { 26 88 151 } #44 106 193
 	color_ui = rgb { 30 140 247 }
 }
+USS = {
+	color = rgb { 156 48 41 } #44 106 193
+	color_ui = rgb { 156 48 41 }
+}
 MON = {
 	color = rgb { 113 164 85 }
 	color_ui = rgb { 113 164 85 }
