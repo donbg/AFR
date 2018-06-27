@@ -20,7 +20,7 @@ ideologies = {
 			"FACTION_NAME_vanguard_marxist_5"
 			"FACTION_NAME_vanguard_marxist_6"
 		}
-		color = { 155 0 0 }
+		color = { 175 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -48,7 +48,7 @@ ideologies = {
 			"FACTION_NAME_revolutionary_unionist_5"
 			"FACTION_NAME_revolutionary_unionist_6"
 		}
-		color = { 225 0 0 } #205 0 0 works good as an alternative, too similar to vanguard_marxist though.
+		color = { 255 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -193,7 +193,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
 		}
-		color = { 0 60 180 } #0 0 255 is the original one
+		color = { 0 50 160 } #0 0 255 is the original one
 		rules = {
 			can_force_government = no
 			can_puppet = no

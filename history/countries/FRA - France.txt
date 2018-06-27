@@ -87,12 +87,6 @@ set_politics = {
 }
 
 add_ideas = {
-	NFA_Joachim_Prince_de_Murat_hog_sco
-	NFA_Pierre_Pflimlin_for_sco
-	#NFA_Paul_Marchandeau_eco_sco #Removed for being too good.
-	#FRA_Raoul_Dautry_eco_sli #Still too good.
-	FRA_Antoine_Henri_Queuille_eco_sco #A good old useless air support proponent.
-	NFA_Paul_Coste_Floret_sec_sco
 }
 
 create_country_leader = {

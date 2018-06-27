@@ -90,11 +90,6 @@ if = {
 		autonomous_state = autonomy_colony
 		freedom_level = 0.5
 	}
-	set_autonomy = {
-		target = BEA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.5
-	}
 	else = {
 		puppet = RAJ
 		puppet = NFL
@@ -102,7 +97,6 @@ if = {
 		puppet = AST
 		puppet = NZL
 		puppet = SAF
-		puppet = BEA
 	}
 }
 
@@ -113,22 +107,22 @@ set_politics = {
 			popularity = 0
 		}
 		revolutionary_unionist = {
-			popularity = 2
+			popularity = 3
 		}
 		libertarian_socialist = {
-			popularity = 5
+			popularity = 4
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 8
 		}
 		social_liberal = {
-			popularity = 36
+			popularity = 45
 		}
 		market_liberal = {
-			popularity = 14
+			popularity = 10
 		}
 		social_conservative = {
-			popularity = 30
+			popularity = 25
 		}
 		authoritarian_democrat = {
 			popularity = 0
@@ -137,10 +131,7 @@ set_politics = {
 			popularity = 3
 		}
 		national_populist = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
+			popularity = 2
 		}
 	}
 	
