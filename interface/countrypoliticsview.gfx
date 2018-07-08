@@ -424,13 +424,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_collectivist_group"
-		texturefile = "gfx/interface/ideologies/collectivist_group.dds"
+		name = "GFX_ideology_revolutionary_unionist_group"
+		texturefile = "gfx/interface/ideologies/revolutionary_unionist_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_vanguardist_group"
-		texturefile = "gfx/interface/ideologies/vanguardist_group.dds"
+		name = "GFX_ideology_vanguard_marxist_group"
+		texturefile = "gfx/interface/ideologies/vanguard_marxist_group.dds"
 	}
 	
 	spriteType = {
