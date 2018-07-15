@@ -2,7 +2,7 @@
 state={
 	id=26
 	name="STATE_26" # Auveregne
-	manpower = 877800
+	manpower = 2077800
 	
 	state_category = city
 
