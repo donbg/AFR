@@ -1,0 +1,2280 @@
+﻿###########################
+# Political Events
+###########################
+# By Kallar, Nijato, Sir Rogers and Zankoas
+###########################
+
+add_namespace = fr.political
+
+###########################
+# Popularity Events
+###########################
+
+### very_high_popularity - Very High Popularity
+country_event = {
+	id = fr.political.11
+	title = fr.political.11.t
+	desc = fr.political.11.d
+	picture = popularity_rising
+
+	fire_only_once = no
+
+	trigger = {
+		NOT = { 
+			has_idea = very_high_popularity
+			has_country_flag = unpopular_government
+			has_country_flag = party_popularity_system_disabled
+		}
+		OR = {
+			AND = {
+				has_government = vanguard_marxist
+				vanguard_marxist > 0.799
+			}
+			AND = {
+				has_government = revolutionary_unionist
+				revolutionary_unionist > 0.799
+			}
+			AND = {
+				has_government = libertarian_socialist
+				libertarian_socialist > 0.799
+			}
+			AND = {
+				has_government = social_democrat
+				social_democrat > 0.799
+			}
+			AND = {
+				has_government = social_liberal
+				social_liberal > 0.799
+			}
+			AND = {
+				has_government = market_liberal
+				market_liberal > 0.799
+			}
+			AND = {
+				has_government = social_conservative
+				social_conservative > 0.799
+			}
+			AND = {
+				has_government = authoritarian_democrat
+				authoritarian_democrat > 0.799
+			}
+			AND = {
+				has_government = paternal_autocrat
+				paternal_autocrat > 0.799
+			}
+			AND = {
+				has_government = national_populist
+				national_populist > 0.799
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = fr.political.11.a
+		if = {
+			limit = { has_idea = very_low_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = very_low_popularity add_idea = very_high_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = very_low_popularity add_idea = low_popularity } }
+		}
+		if = {
+			limit = { has_idea = low_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = low_popularity add_idea = very_high_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = low_popularity add_idea = normal_popularity } }
+		}
+		if = {
+			limit = { has_idea = normal_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = normal_popularity add_idea = very_high_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = normal_popularity add_idea = high_popularity } }
+		}
+		if = {
+			limit = { has_idea = high_popularity }
+			swap_ideas = { remove_idea = high_popularity add_idea = very_high_popularity }
+		}
+	}
+
+}
+
+### high_popularity - High Popularity
+country_event = {
+	id = fr.political.12
+	title = fr.political.12.t
+	desc = fr.political.12.d
+	picture = diplomacy2
+
+	fire_only_once = no
+
+	trigger = {
+		NOT = { 
+			has_idea = high_popularity
+			has_country_flag = unpopular_government
+			has_country_flag = party_popularity_system_disabled
+		}
+		OR = {
+			AND = {
+				has_government = vanguard_marxist
+				vanguard_marxist < 0.8
+				vanguard_marxist > 0.599
+			}
+			AND = {
+				has_government = revolutionary_unionist
+				revolutionary_unionist < 0.8
+				revolutionary_unionist > 0.599
+			}
+			AND = {
+				has_government = libertarian_socialist
+				libertarian_socialist < 0.8
+				libertarian_socialist > 0.599
+			}
+			AND = {
+				has_government = social_democrat
+				social_democrat < 0.8
+				social_democrat > 0.599
+			}
+			AND = {
+				has_government = social_liberal
+				social_liberal < 0.8
+				social_liberal > 0.599
+			}
+			AND = {
+				has_government = market_liberal
+				market_liberal < 0.8
+				market_liberal > 0.599
+			}
+			AND = {
+				has_government = social_conservative
+				social_conservative < 0.8
+				social_conservative > 0.599
+			}
+			AND = {
+				has_government = authoritarian_democrat
+				authoritarian_democrat < 0.8
+				authoritarian_democrat > 0.599
+			}
+			AND = {
+				has_government = paternal_autocrat
+				paternal_autocrat < 0.8
+				paternal_autocrat > 0.599
+			}
+			AND = {
+				has_government = national_populist
+				national_populist < 0.8
+				national_populist > 0.599
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = fr.political.12.a
+		if = {
+			limit = { has_idea = very_low_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = very_low_popularity add_idea = high_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = very_low_popularity add_idea = low_popularity } }
+		}
+		if = {
+			limit = { has_idea = low_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = low_popularity add_idea = high_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = low_popularity add_idea = normal_popularity } }
+		}
+		if = {
+			limit = { has_idea = normal_popularity }
+			swap_ideas = { remove_idea = normal_popularity add_idea = high_popularity }
+		}
+		if = {
+			limit = { has_idea = very_high_popularity }
+			swap_ideas = { remove_idea = very_high_popularity add_idea = high_popularity }
+		}
+	}
+}
+
+### normal_popularity - Normal Popularity
+country_event = {
+	id = fr.political.13
+	title = fr.political.13.t
+	desc = fr.political.13.d
+	picture = diplomacy4
+
+	fire_only_once = no
+
+	trigger = {
+		NOT = { 
+			has_idea = normal_popularity
+			has_country_flag = unpopular_government
+			has_country_flag = party_popularity_system_disabled
+		}
+		OR = {
+			AND = {
+				has_government = vanguard_marxist
+				vanguard_marxist < 0.6
+				vanguard_marxist > 0.399
+			}
+			AND = {
+				has_government = libertarian_socialist
+				libertarian_socialist < 0.6
+				libertarian_socialist > 0.399
+			}
+			AND = {
+				has_government = revolutionary_unionist
+				revolutionary_unionist < 0.6
+				revolutionary_unionist > 0.399
+			}
+			AND = {
+				has_government = social_democrat
+				social_democrat < 0.6
+				social_democrat > 0.399
+			}
+			AND = {
+				has_government = social_liberal
+				social_liberal < 0.6
+				social_liberal > 0.399
+			}
+			AND = {
+				has_government = market_liberal
+				market_liberal < 0.6
+				market_liberal > 0.399
+			}
+			AND = {
+				has_government = social_conservative
+				social_conservative < 0.6
+				social_conservative > 0.399
+			}
+			AND = {
+				has_government = authoritarian_democrat
+				authoritarian_democrat < 0.6
+				authoritarian_democrat > 0.399
+			}
+			AND = {
+				has_government = paternal_autocrat
+				paternal_autocrat < 0.6
+				paternal_autocrat > 0.399
+			}
+			AND = {
+				has_government = national_populist
+				national_populist < 0.6
+				national_populist > 0.399
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = fr.political.13.a
+		if = {
+			limit = { has_idea = very_low_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = very_low_popularity add_idea = normal_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = very_low_popularity add_idea = low_popularity } }
+		}
+		if = {
+			limit = { has_idea = low_popularity }
+			swap_ideas = { remove_idea = low_popularity add_idea = normal_popularity }
+		}
+		if = {
+			limit = { has_idea = very_high_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = very_high_popularity add_idea = normal_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = very_high_popularity add_idea = high_popularity } }
+		}
+		if = {
+			limit = { has_idea = high_popularity }
+			swap_ideas = { remove_idea = high_popularity add_idea = normal_popularity }
+		}
+	}
+}
+
+### low_popularity - Low Popularity
+country_event = {
+	id = fr.political.14
+	title = fr.political.14.t
+	desc = fr.political.14.d
+	picture = GFX_report_event_gathering_protest
+
+	fire_only_once = no
+
+	trigger = {
+		NOT = { 
+			has_idea = low_popularity
+			has_country_flag = unpopular_government
+			has_country_flag = party_popularity_system_disabled
+		}
+		OR = {
+			AND = {
+				has_government = vanguard_marxist
+				vanguard_marxist < 0.4
+				vanguard_marxist > 0.199
+			}
+			AND = {
+				has_government = libertarian_socialist
+				libertarian_socialist < 0.4
+				libertarian_socialist > 0.199
+			}
+			AND = {
+				has_government = revolutionary_unionist
+				revolutionary_unionist < 0.4
+				revolutionary_unionist > 0.199
+			}
+			AND = {
+				has_government = social_democrat
+				social_democrat < 0.4
+				social_democrat > 0.199
+			}
+			AND = {
+				has_government = social_liberal
+				social_liberal < 0.4
+				social_liberal > 0.199
+			}
+			AND = {
+				has_government = market_liberal
+				market_liberal < 0.4
+				market_liberal > 0.199
+			}
+			AND = {
+				has_government = social_conservative
+				social_conservative < 0.4
+				social_conservative > 0.199
+			}
+			AND = {
+				has_government = authoritarian_democrat
+				authoritarian_democrat < 0.4
+				authoritarian_democrat > 0.199
+			}
+			AND = {
+				has_government = paternal_autocrat
+				paternal_autocrat < 0.4
+				paternal_autocrat > 0.199
+			}
+			AND = {
+				has_government = national_populist
+				national_populist < 0.4
+				national_populist > 0.199
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = fr.political.14.a
+		if = {
+			limit = { has_idea = very_low_popularity }
+			swap_ideas = { remove_idea = very_low_popularity add_idea = low_popularity }
+		}
+		if = {
+			limit = { has_idea = very_high_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = very_high_popularity add_idea = low_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = very_high_popularity add_idea = high_popularity } }
+		}
+		if = {
+			limit = { has_idea = high_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = high_popularity add_idea = low_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = high_popularity add_idea = normal_popularity } }
+		}
+		if = {
+			limit = { has_idea = normal_popularity }
+			swap_ideas = { remove_idea = normal_popularity add_idea = low_popularity }
+		}
+	}
+}
+
+### very_low_popularity - Very Low Popularity
+country_event = {
+	id = fr.political.15
+	title = fr.political.15.t
+	desc = fr.political.15.d
+	picture = GFX_report_event_generic_riot
+
+	fire_only_once = no
+
+	trigger = {
+		NOT = { 
+			has_idea = very_low_popularity
+			has_country_flag = unpopular_government
+			has_country_flag = party_popularity_system_disabled
+		}
+		OR = {
+			AND = {
+				has_government = vanguard_marxist
+				vanguard_marxist < 0.2
+			}
+			AND = {
+				has_government = libertarian_socialist
+				libertarian_socialist < 0.2
+
+			}
+			AND = {
+				has_government = revolutionary_unionist
+				revolutionary_unionist < 0.2
+
+			}
+			AND = {
+				has_government = social_democrat
+				social_democrat < 0.2
+			}
+			AND = {
+				has_government = social_liberal
+				social_liberal < 0.2
+			}
+			AND = {
+				has_government = market_liberal
+				market_liberal < 0.2
+			}
+			AND = {
+				has_government = social_conservative
+				social_conservative < 0.2
+			}
+			AND = {
+				has_government = authoritarian_democrat
+				authoritarian_democrat < 0.2
+			}
+			AND = {
+				has_government = paternal_autocrat
+				paternal_autocrat < 0.2
+			}
+			AND = {
+				has_government = national_populist
+				national_populist < 0.2
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = fr.political.15.a
+		if = {
+			limit = { has_idea = very_high_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = very_high_popularity add_idea = very_low_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = very_high_popularity add_idea = high_popularity } }
+		}
+		if = {
+			limit = { has_idea = high_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = high_popularity add_idea = very_low_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = high_popularity add_idea = normal_popularity } }
+		}
+		if = {
+			limit = { has_idea = normal_popularity }
+			effect_tooltip = { swap_ideas = { remove_idea = normal_popularity add_idea = very_low_popularity } }
+			hidden_effect = {  swap_ideas = { remove_idea = normal_popularity add_idea = low_popularity } }
+		}
+		if = {
+			limit = { has_idea = low_popularity }
+			swap_ideas = { remove_idea = low_popularity add_idea = very_low_popularity }
+		}
+	}
+}
+
+###########################
+# Minister Influence Events
+###########################
+
+#### Damage Ruling Party socialist ####
+country_event = {
+	id = fr.political.16
+	title = fr.political.16.t
+	desc = fr.political.16.d
+	picture = GFX_report_event_generic_rally
+
+	trigger = {
+		NOT = {
+			has_government = vanguard_marxist
+			has_government = libertarian_socialist
+			has_government = revolutionary_unionist
+		}
+		OR = {
+			AND = { has_idea_with_trait = vanguard_marxist vanguard_marxist < 0.7 }
+			AND = { has_idea_with_trait = libertarian_socialist libertarian_socialist < 0.7 }
+			AND = { has_idea_with_trait = revolutionary_unionist revolutionary_unionist < 0.7 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_idea_with_trait = vanguard_marxist
+			vanguard_marxist > 0.299
+			vanguard_marxist < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = vanguard_marxist
+			vanguard_marxist > 0.399
+			vanguard_marxist < 0.5
+		}
+
+		modifier = {
+			factor = 2
+			has_idea_with_trait = libertarian_socialist
+			libertarian_socialist > 0.299
+			libertarian_socialist < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = libertarian_socialist
+			libertarian_socialist > 0.399
+			libertarian_socialist < 0.5
+		}
+
+		modifier = {
+			factor = 2
+			has_idea_with_trait = revolutionary_unionist
+			revolutionary_unionist > 0.299
+			revolutionary_unionist < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = revolutionary_unionist
+			revolutionary_unionist > 0.399
+			revolutionary_unionist < 0.5
+		}
+	}
+
+	option = {
+		name = fr.political.16.a
+		ai_chance = {
+			factor = 50
+
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = market_liberal market_liberal < 0.35 market_liberal > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.35 paternal_autocrat > 0.199 }
+					AND = { has_government = national_populist national_populist < 0.35 national_populist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = market_liberal market_liberal < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.2 }
+					AND = { has_government = national_populist national_populist < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.599 social_democrat < 0.75 }
+					AND = { has_government = social_liberal social_liberal > 0.599 social_liberal < 0.75 }
+					AND = { has_government = market_liberal market_liberal > 0.599 market_liberal < 0.75 }
+					AND = { has_government = social_conservative social_conservative > 0.599 social_conservative < 0.75 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.599 paternal_autocrat < 0.75 }
+					AND = { has_government = national_populist national_populist > 0.599 national_populist < 0.75 }
+				}
+			}
+			modifier = {
+				factor = 1.7
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = market_liberal market_liberal > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.749 }
+					AND = { has_government = national_populist national_populist > 0.749 }
+				}
+			}
+		}
+
+		if = {
+			limit = { has_idea_with_trait = vanguard_marxist }
+			add_popularity = { ideology = vanguard_marxist popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = libertarian_socialist }
+			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = revolutionary_unionist }
+			add_popularity = { ideology = revolutionary_unionist popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = fr.political.16.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = market_liberal market_liberal < 0.35 market_liberal > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.35 paternal_autocrat > 0.199 }
+					AND = { has_government = national_populist national_populist < 0.35 national_populist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = market_liberal market_liberal < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.2 }
+					AND = { has_government = national_populist national_populist < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.599 social_democrat < 0.75 }
+					AND = { has_government = social_liberal social_liberal > 0.599 social_liberal < 0.75 }
+					AND = { has_government = market_liberal market_liberal > 0.599 market_liberal < 0.75 }
+					AND = { has_government = social_conservative social_conservative > 0.599 social_conservative < 0.75 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.599 paternal_autocrat < 0.75 }
+					AND = { has_government = national_populist national_populist > 0.599 national_populist < 0.75 }
+				}
+			}
+			modifier = {
+				factor = 0.3
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = market_liberal market_liberal > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.749 }
+					AND = { has_government = national_populist national_populist > 0.749 }
+				}
+			}
+		}
+
+		add_political_power = -25
+	}
+}
+
+#### Ruling Party Support socialist ####
+country_event = {
+	id = fr.political.17
+	title = fr.political.17.t
+	desc = fr.political.17.d
+	picture = GFX_report_event_generic_rally2
+
+	trigger = {
+		NOT = {
+			has_country_flag = unpopular_government
+		}
+		OR = {
+			AND = {
+				has_government = vanguard_marxist
+				has_idea_with_trait = vanguard_marxist
+				vanguard_marxist < 0.97
+			}
+			AND = {
+				has_government = revolutionary_unionist
+				has_idea_with_trait = revolutionary_unionist
+				revolutionary_unionist < 0.97
+			}
+			AND = {
+				has_government = libertarian_socialist
+				has_idea_with_trait = libertarian_socialist
+				libertarian_socialist < 0.97
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_government = vanguard_marxist
+			vanguard_marxist > 0.599
+			vanguard_marxist < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = vanguard_marxist
+			vanguard_marxist > 0.799
+			vanguard_marxist < 1
+		}
+
+		modifier = {
+			factor = 2
+			has_government = libertarian_socialist
+			libertarian_socialist > 0.599
+			libertarian_socialist < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = libertarian_socialist
+			libertarian_socialist > 0.799
+			libertarian_socialist < 1
+		}
+
+		modifier = {
+			factor = 2
+			has_government = revolutionary_unionist
+			revolutionary_unionist > 0.599
+			revolutionary_unionist < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = revolutionary_unionist
+			revolutionary_unionist > 0.799
+			revolutionary_unionist < 1
+		}
+	}
+	option = {
+		name = fr.political.17.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.85 revolutionary_unionist > 0.599 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.85 libertarian_socialist > 0.599 }
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.85 vanguard_marxist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = revolutionary_unionist revolutionary_unionist > 0.849 }
+					AND = { has_government = libertarian_socialist libertarian_socialist > 0.849 }
+					AND = { has_government = vanguard_marxist vanguard_marxist > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.5 revolutionary_unionist > 0.199 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.5 libertarian_socialist > 0.199 }
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.5 vanguard_marxist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.2 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.2 }
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.2 }
+				}
+			}
+		}
+
+		add_political_power = -25
+		if = {
+			limit = { has_government = revolutionary_unionist }
+			add_popularity = { ideology = revolutionary_unionist popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = libertarian_socialist }
+			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = vanguard_marxist }
+			add_popularity = { ideology = vanguard_marxist popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = fr.political.17.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.85 revolutionary_unionist > 0.599 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.85 libertarian_socialist > 0.599 }
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.85 vanguard_marxist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = revolutionary_unionist revolutionary_unionist > 0.849 }
+					AND = { has_government = libertarian_socialist libertarian_socialist > 0.849 }
+					AND = { has_government = vanguard_marxist vanguard_marxist > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.5 revolutionary_unionist > 0.199 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.5 libertarian_socialist > 0.199 }
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.5 vanguard_marxist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.2 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.2 }
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.2 }
+				}
+			}
+		}
+	}
+}
+
+#### Ruling Party Support Reactionary ####
+country_event = {
+	id = fr.political.18
+	title = fr.political.18.t
+	desc = fr.political.18.d
+	picture = GFX_report_event_generic_rally_3
+
+	trigger = {
+		NOT = {
+			has_country_flag = unpopular_government
+		}
+		OR = {
+			AND = {
+				has_government = authoritarian_democrat
+				has_idea_with_trait = authoritarian_democrat
+				authoritarian_democrat < 0.97
+			}
+			AND = {
+				has_government = paternal_autocrat
+				has_idea_with_trait = paternal_autocrat
+				paternal_autocrat < 0.97
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_government = authoritarian_democrat
+			authoritarian_democrat > 0.599
+			authoritarian_democrat < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = authoritarian_democrat
+			authoritarian_democrat > 0.799
+			authoritarian_democrat < 1
+		}
+
+		modifier = {
+			factor = 2
+			has_government = paternal_autocrat
+			paternal_autocrat > 0.599
+			paternal_autocrat < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = paternal_autocrat
+			paternal_autocrat > 0.799
+			paternal_autocrat < 1
+		}
+	}
+	option = {
+		name = fr.political.18.a
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.85 paternal_autocrat > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.5 paternal_autocrat > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.2 }
+				}
+			}
+		}
+
+		add_political_power = -25
+		if = {
+			limit = { has_government = paternal_autocrat }
+			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = authoritarian_democrat }
+			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		}
+	}
+	option = {
+		name = fr.political.18.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.85 paternal_autocrat > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.5 paternal_autocrat > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.2 }
+				}
+			}
+		}
+	}
+}
+
+#### Ruling Party Support Nat populist ####
+country_event = {
+	id = fr.political.19
+	title = fr.political.19.t
+	desc = fr.political.19.d
+	picture = GFX_report_event_generic_rally
+
+	trigger = {
+		NOT = {
+			has_country_flag = unpopular_government
+		}
+		OR = {
+			AND = {
+				has_government = national_populist
+				has_idea_with_trait = national_populist
+				national_populist < 0.97
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_government = national_populist
+			national_populist > 0.6
+			national_populist < 0.799
+		}
+		modifier = {
+			factor = 4
+			has_government = national_populist
+			national_populist > 0.8
+			national_populist < 1
+		}
+	}
+
+	option = {
+		name = fr.political.19.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = national_populist national_populist < 0.85 national_populist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = national_populist national_populist > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = national_populist national_populist < 0.5 national_populist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = national_populist national_populist < 0.2 }
+				}
+			}
+		}
+
+		add_political_power = -25
+		if = {
+			limit = { has_government = national_populist }
+			add_popularity = { ideology = national_populist popularity = 0.03 }
+		}
+	}
+	option = {
+		name = fr.political.19.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = national_populist national_populist < 0.85 national_populist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = national_populist national_populist > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = national_populist national_populist < 0.5 national_populist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = national_populist national_populist < 0.2 }
+				}
+			}
+		}
+	}
+}
+
+#### Ruling Party Support democrats ####
+country_event = {
+	id = fr.political.20
+	title = fr.political.20.t
+	desc = fr.political.20.d
+	picture = GFX_report_event_generic_rally2
+
+	trigger = {
+		NOT = {
+			has_country_flag = unpopular_government
+		}
+		OR = {
+			AND = {
+				has_government = social_democrat
+				has_idea_with_trait = social_democrat
+				social_democrat < 0.97
+			}
+			AND = {
+				has_government = social_liberal
+				has_idea_with_trait = social_liberal
+				social_liberal < 0.97
+			}
+			AND = {
+				has_government = market_liberal
+				has_idea_with_trait = market_liberal
+				market_liberal < 0.97
+			}
+			AND = {
+				has_government = social_conservative
+				has_idea_with_trait = social_conservative
+				social_conservative < 0.97
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_government = social_democrat
+			social_democrat > 0.599
+			social_democrat < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = social_democrat
+			social_democrat > 0.799
+			social_democrat < 1
+		}
+
+		modifier = {
+			factor = 2
+			has_government = social_liberal
+			social_liberal > 0.599
+			social_liberal < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = social_liberal
+			social_liberal > 0.799
+			social_liberal < 1
+		}
+
+		modifier = {
+			factor = 2
+			has_government = market_liberal
+			market_liberal > 0.599
+			market_liberal < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = market_liberal
+			market_liberal > 0.799
+			market_liberal < 1
+		}
+		modifier = {
+			factor = 2
+			has_government = social_conservative
+			social_conservative > 0.599
+			social_conservative < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = social_conservative
+			social_conservative > 0.799
+			social_conservative < 1
+		}
+	}
+	option = {
+		name = fr.political.20.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.85 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.85 social_liberal > 0.599 }
+					AND = { has_government = market_liberal market_liberal < 0.85 market_liberal > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.85 social_conservative > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.849 }
+					AND = { has_government = social_liberal social_liberal > 0.849 }
+					AND = { has_government = market_liberal market_liberal > 0.849 }
+					AND = { has_government = social_conservative social_conservative > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.5 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.5 social_liberal > 0.199 }
+					AND = { has_government = market_liberal market_liberal < 0.5 market_liberal > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.5 social_conservative > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = market_liberal market_liberal < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+				}
+			}
+		}
+
+		add_political_power = -25
+		if = {
+			limit = { has_government = social_democrat }
+			add_popularity = { ideology = social_democrat popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = social_liberal }
+			add_popularity = { ideology = social_liberal popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = market_liberal }
+			add_popularity = { ideology = market_liberal popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = social_conservative }
+			add_popularity = { ideology = social_conservative popularity = 0.03 }
+		}
+	}
+	option = {
+		name = fr.political.20.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.85 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.85 social_liberal > 0.599 }
+					AND = { has_government = market_liberal market_liberal < 0.85 market_liberal > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.85 social_conservative > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.849 }
+					AND = { has_government = social_liberal social_liberal > 0.849 }
+					AND = { has_government = market_liberal market_liberal > 0.849 }
+					AND = { has_government = social_conservative social_conservative > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.5 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.5 social_liberal > 0.199 }
+					AND = { has_government = market_liberal market_liberal < 0.5 market_liberal > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.5 social_conservative > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = market_liberal market_liberal < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+				}
+			}
+		}
+	}
+}
+
+### Decrease of support by rectionaries ###
+country_event = {
+	id = fr.political.21
+	title = fr.political.21.t
+	desc = fr.political.21.d
+	picture = GFX_report_event_generic_rally_3
+
+	trigger = {
+		NOT = {
+			has_government = paternal_autocrat
+			has_government = authoritarian_democrat
+		}
+		OR = {
+			AND = { has_idea_with_trait = paternal_autocrat paternal_autocrat < 0.7 }
+			AND = { has_idea_with_trait = authoritarian_democrat authoritarian_democrat < 0.7 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_idea_with_trait = paternal_autocrat
+			paternal_autocrat > 0.299
+			paternal_autocrat < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = paternal_autocrat
+			paternal_autocrat > 0.399
+			paternal_autocrat < 0.5
+		}
+
+		modifier = {
+			factor = 2
+			has_idea_with_trait = authoritarian_democrat
+			authoritarian_democrat > 0.299
+			authoritarian_democrat < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = authoritarian_democrat
+			authoritarian_democrat > 0.399
+			authoritarian_democrat < 0.5
+		}
+	}
+
+	option = {
+		name = fr.political.21.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.35 vanguard_marxist > 0.199 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.35 revolutionary_unionist > 0.199 }
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = market_liberal market_liberal < 0.35 market_liberal > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+					AND = { has_government = national_populist national_populist < 0.35 national_populist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.2 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.2 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.2 }
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = market_liberal market_liberal < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+					AND = { has_government = national_populist national_populist < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.75 vanguard_marxist > 0.599 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.75 revolutionary_unionist > 0.599 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.75 libertarian_socialist > 0.599 }
+					AND = { has_government = social_democrat social_democrat < 0.75 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
+					AND = { has_government = market_liberal market_liberal < 0.75 market_liberal > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
+					AND = { has_government = national_populist national_populist < 0.75 national_populist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.7
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist > 0.749 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist > 0.749 }
+					AND = { has_government = libertarian_socialist libertarian_socialist > 0.749 }
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = market_liberal market_liberal > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+					AND = { has_government = national_populist national_populist > 0.749 }
+				}
+			}
+		}
+
+		if = {
+			limit = { has_idea_with_trait = paternal_autocrat }
+			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = authoritarian_democrat }
+			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = fr.political.21.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.35 vanguard_marxist > 0.199 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.35 revolutionary_unionist > 0.199 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.35 libertarian_socialist > 0.199 }
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = market_liberal market_liberal < 0.35 market_liberal > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+					AND = { has_government = national_populist national_populist < 0.35 national_populist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.2 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.2 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.2 }
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = market_liberal market_liberal < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+					AND = { has_government = national_populist national_populist < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.75 vanguard_marxist > 0.599 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.75 revolutionary_unionist > 0.599 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.75 libertarian_socialist > 0.599 }
+					AND = { has_government = social_democrat social_democrat < 0.75 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
+					AND = { has_government = market_liberal market_liberal < 0.75 market_liberal > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
+					AND = { has_government = national_populist national_populist < 0.75 national_populist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.3
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist > 0.749 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist > 0.749 }
+					AND = { has_government = libertarian_socialist libertarian_socialist > 0.749 }
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = market_liberal market_liberal > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+					AND = { has_government = national_populist national_populist > 0.749 }
+				}
+			}
+		}
+
+		add_political_power = -25
+	}
+}
+
+### Decrease of support of nat pop ###
+country_event = {
+	id = fr.political.22
+	title = fr.political.22.t
+	desc = fr.political.22.d
+	picture = GFX_report_event_generic_rally_3
+
+	trigger = {
+		NOT = {
+			has_government = national_populist
+		}
+		OR = {
+			AND = { has_idea_with_trait = national_populist national_populist < 0.7 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_idea_with_trait = national_populist
+			paternal_autocrat > 0.299
+			paternal_autocrat < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = national_populist
+			paternal_autocrat > 0.399
+			paternal_autocrat < 0.5
+		}
+
+		modifier = {
+			factor = 2
+			has_idea_with_trait = national_populist
+			authoritarian_democrat > 0.299
+			authoritarian_democrat < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = national_populist
+			authoritarian_democrat > 0.399
+			authoritarian_democrat < 0.5
+		}
+	}
+
+	option = {
+		name = fr.political.22.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.35 vanguard_marxist > 0.199 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.35 revolutionary_unionist > 0.199 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.35 libertarian_socialist > 0.199 }
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = market_liberal market_liberal < 0.35 market_liberal > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.35 paternal_autocrat > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.2 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.2 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.2 }
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = market_liberal market_liberal < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.75 vanguard_marxist > 0.599 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.75 revolutionary_unionist > 0.599 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.75 libertarian_socialist > 0.599 }
+					AND = { has_government = social_democrat social_democrat < 0.75 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
+					AND = { has_government = market_liberal market_liberal < 0.75 market_liberal > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.75 authoritarian_democrat > 0.599 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.75 paternal_autocrat > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.7
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist > 0.749 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist > 0.749 }
+					AND = { has_government = libertarian_socialist libertarian_socialist > 0.749 }
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = market_liberal market_liberal > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.749 }
+				}
+			}
+		}
+		if = {
+			limit = { has_idea_with_trait = national_populist }
+			add_popularity = { ideology = national_populist popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = fr.political.22.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.35 vanguard_marxist > 0.199 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.35 revolutionary_unionist > 0.199 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.35 libertarian_socialist > 0.199 }
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = market_liberal market_liberal < 0.35 market_liberal > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.35 paternal_autocrat > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.2 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.2 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.2 }
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = market_liberal market_liberal < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.75 vanguard_marxist > 0.599 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.75 revolutionary_unionist > 0.599 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.75 libertarian_socialist > 0.599 }
+					AND = { has_government = social_democrat social_democrat < 0.75 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
+					AND = { has_government = market_liberal market_liberal < 0.75 market_liberal > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.75 authoritarian_democrat > 0.599 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.75 paternal_autocrat > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.3
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist > 0.749 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist > 0.749 }
+					AND = { has_government = libertarian_socialist libertarian_socialist > 0.749 }
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = market_liberal market_liberal > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.749 }
+				}
+			}
+		}
+
+		add_political_power = -25
+	}
+}
+
+### Decrease of support by democrats ###
+country_event = {
+	id = fr.political.23
+	title = fr.political.23.t
+	desc = fr.political.23.d
+	picture = GFX_report_event_generic_rally2
+
+	trigger = {
+		NOT = {
+			has_government = social_conservative
+			has_government = market_liberal
+			has_government = social_liberal
+			has_government = social_democrat
+			has_country_flag = unpopular_government
+		}
+		OR = {
+			AND = { has_idea_with_trait = social_conservative social_conservative < 0.7 }
+			AND = { has_idea_with_trait = market_liberal market_liberal < 0.7 }
+			AND = { has_idea_with_trait = social_liberal social_liberal < 0.7 }
+			AND = { has_idea_with_trait = social_democrat social_democrat < 0.7 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_idea_with_trait = social_conservative
+			social_conservative > 0.299
+			social_conservative < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = social_conservative
+			social_conservative > 0.399
+			social_conservative < 0.5
+		}
+		modifier = {
+			factor = 2
+			has_idea_with_trait = market_liberal
+			market_liberal > 0.299
+			market_liberal < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = market_liberal
+			market_liberal > 0.399
+			market_liberal < 0.5
+		}
+		modifier = {
+			factor = 2
+			has_idea_with_trait = social_liberal
+			social_liberal > 0.299
+			social_liberal < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = social_liberal
+			social_liberal > 0.399
+			social_liberal < 0.5
+		}
+		modifier = {
+			factor = 2
+			has_idea_with_trait = social_democrat
+			social_democrat > 0.299
+			social_democrat < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = social_democrat
+			social_democrat > 0.399
+			social_democrat < 0.5
+		}
+	}
+
+	option = {
+		name = fr.political.23.a
+		if = {
+			limit = { has_idea_with_trait = social_conservative }
+			add_popularity = { ideology = social_conservative popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = market_liberal }
+			add_popularity = { ideology = market_liberal popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = social_liberal }
+			add_popularity = { ideology = social_liberal popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = social_democrat }
+			add_popularity = { ideology = social_democrat popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = fr.political.23.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.35 vanguard_marxist > 0.199 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.35 revolutionary_unionist > 0.199 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.35 libertarian_socialist > 0.199 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.35 paternal_autocrat > 0.199 }
+					AND = { has_government = national_populist national_populist < 0.35 national_populist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.2 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.2 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.2 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.2 }
+					AND = { has_government = national_populist national_populist < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist < 0.75 vanguard_marxist > 0.599 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist < 0.75 revolutionary_unionist > 0.599 }
+					AND = { has_government = libertarian_socialist libertarian_socialist < 0.75 libertarian_socialist > 0.599 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.75 authoritarian_democrat > 0.599 }
+					AND = { has_government = paternal_autocrat paternal_autocrat < 0.75 paternal_autocrat > 0.599 }
+					AND = { has_government = national_populist national_populist < 0.75 national_populist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.3
+				OR = {
+					AND = { has_government = vanguard_marxist vanguard_marxist > 0.749 }
+					AND = { has_government = revolutionary_unionist revolutionary_unionist > 0.749 }
+					AND = { has_government = libertarian_socialist libertarian_socialist > 0.749 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
+					AND = { has_government = paternal_autocrat paternal_autocrat > 0.749 }
+					AND = { has_government = national_populist national_populist > 0.749 }
+				}
+			}
+		}
+
+		add_political_power = -25
+	}
+}
+
+country_event = {
+	id = fr.political.27 #PP system explanation
+	title = fr.political.27.t
+	desc = fr.political.27.d
+	picture = GFX_petain_NFA
+
+	is_triggered_only = yes
+
+	option = {
+		name = fr.political.27.a
+		add_political_power = -5
+		country_event = { id = fr.political.28 }
+	}
+
+}
+
+
+### Remove independent war
+country_event = {
+	id = fr.political.30
+	title = fr.political.30.t
+	desc = fr.political.30.d
+
+	trigger = {
+		has_idea = independent_war
+		has_war = no
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = fr.political.30.a
+		remove_ideas = independent_war
+	}
+
+}
+
+
+### Setting up Opinion Modifiers at Gamestart ###
+country_event = {
+	id = fr.political.40
+	title = fr.political.40.t
+	desc = fr.political.40.d
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_socialist_government = yes
+			}
+			every_country = {
+				limit = {
+					has_socialist_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_democratic_government = yes
+						has_dictatorship_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_democratic_government = yes
+			}
+			every_country = {
+				limit = {
+					has_democratic_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_socialist_government = yes
+						has_dictatorship_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_dictatorship_government = yes
+			}
+			every_country = {
+				limit = {
+					has_dictatorship_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_democratic_government = yes
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				has_same_government_as_ROOT = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = FR_same_ideology
+			}
+		}
+		if = {
+			limit = {
+				has_government = vanguard_marxist
+			}
+			set_country_flag = opinion_set_vanguard_marxist
+		}
+		if = {
+			limit = {
+				has_government = revolutionary_unionist
+			}
+			set_country_flag = opinion_set_revolutionary_unionist
+		}
+		if = {
+			limit = {
+				has_government = libertarian_socialist
+			}
+			set_country_flag = opinion_set_libertarian_socialist
+		}
+		if = {
+			limit = {
+				has_government = social_democrat
+			}
+			set_country_flag = opinion_set_social_democrat
+		}
+		if = {
+			limit = {
+				has_government = social_liberal
+			}
+			set_country_flag = opinion_set_social_liberal
+		}
+		if = {
+			limit = {
+				has_government = market_liberal
+			}
+			set_country_flag = opinion_set_market_liberal
+		}
+		if = {
+			limit = {
+				has_government = social_conservative
+			}
+			set_country_flag = opinion_set_social_conservative
+		}
+		if = {
+			limit = {
+				has_government = authoritarian_democrat
+			}
+			set_country_flag = opinion_set_authoritarian_democrat
+		}
+		if = {
+			limit = {
+				has_government = paternal_autocrat
+			}
+			set_country_flag = opinion_set_paternal_autocrat
+		}
+		if = {
+			limit = {
+				has_government = national_populist
+			}
+			set_country_flag = opinion_set_national_populist
+		}
+	}
+	
+	option = {
+		name = fr.political.40.a
+	}
+
+}
+
+### Setting up Opinion Modifiers on Government Change ###
+country_event = {
+	id = fr.political.41
+	title = fr.political.40.t
+	desc = fr.political.40.d
+	
+	hidden = yes
+
+	trigger = {
+		OR = {
+			AND = {
+				NOT = { has_government = vanguard_marxist }
+				has_country_flag = opinion_set_vanguard_marxist
+			}
+			AND = {
+				NOT = { has_government = revolutionary_unionist }
+				has_country_flag = opinion_set_revolutionary_unionist
+			}
+			AND = {
+				NOT = { has_government = libertarian_socialist }
+				has_country_flag = opinion_set_libertarian_socialist
+			}
+			AND = {
+				NOT = { has_government = social_democrat }
+				has_country_flag = opinion_set_social_democrat
+			}
+			AND = {
+				NOT = { has_government = social_liberal }
+				has_country_flag = opinion_set_social_liberal
+			}
+			AND = {
+				NOT = { has_government = market_liberal }
+				has_country_flag = opinion_set_market_liberal
+			}
+			AND = {
+				NOT = { has_government = social_conservative }
+				has_country_flag = opinion_set_social_conservative
+			}
+			AND = {
+				NOT = { has_government = authoritarian_democrat }
+				has_country_flag = opinion_set_authoritarian_democrat
+			}
+			AND = {
+				NOT = { has_government = paternal_autocrat }
+				has_country_flag = opinion_set_paternal_autocrat
+			}
+			AND = {
+				NOT = { has_government = national_populist }
+				has_country_flag = opinion_set_national_populist
+			}
+			AND = {
+				NOT = { has_country_flag = opinion_set_vanguard_marxist }
+				NOT = { has_country_flag = opinion_set_revolutionary_unionist }
+				NOT = { has_country_flag = opinion_set_libertarian_socialist }
+				NOT = { has_country_flag = opinion_set_social_democrat }
+				NOT = { has_country_flag = opinion_set_social_liberal }
+				NOT = { has_country_flag = opinion_set_market_liberal }
+				NOT = { has_country_flag = opinion_set_social_conservative }
+				NOT = { has_country_flag = opinion_set_authoritarian_democrat }
+				NOT = { has_country_flag = opinion_set_paternal_autocrat }
+				NOT = { has_country_flag = opinion_set_national_populist }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		clr_country_flag = opinion_set_vanguard_marxist
+		clr_country_flag = opinion_set_revolutionary_unionist
+		clr_country_flag = opinion_set_libertarian_socialist
+		clr_country_flag = opinion_set_social_democrat
+		clr_country_flag = opinion_set_social_liberal
+		clr_country_flag = opinion_set_market_liberal
+		clr_country_flag = opinion_set_social_conservative
+		clr_country_flag = opinion_set_authoritarian_democrat
+		clr_country_flag = opinion_set_paternal_autocrat
+		clr_country_flag = opinion_set_national_populist
+		every_country = {
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = FR_similar_ideology
+			}
+			ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = FR_similar_ideology
+			}
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = FR_different_ideology
+			}
+			ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = FR_different_ideology
+			}
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = FR_same_ideology
+			}
+			ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = FR_same_ideology
+			}
+			}
+		}
+		if = {
+			limit = {
+				has_socialist_government = yes
+			}
+			every_country = {
+				limit = {
+					has_socialist_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_democratic_government = yes
+						has_dictatorship_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_democratic_government = yes
+			}
+			every_country = {
+				limit = {
+					has_democratic_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_socialist_government = yes
+						has_dictatorship_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_dictatorship_government = yes
+			}
+			every_country = {
+				limit = {
+					has_dictatorship_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_democratic_government = yes
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = FR_different_ideology
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				has_same_government_as_ROOT = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = FR_same_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = FR_same_ideology
+			}
+		}
+		if = {
+			limit = {
+				has_government = vanguard_marxist
+			}
+			set_country_flag = opinion_set_vanguard_marxist
+		}
+		if = {
+			limit = {
+				has_government = revolutionary_unionist
+			}
+			set_country_flag = opinion_set_revolutionary_unionist
+		}
+		if = {
+			limit = {
+				has_government = libertarian_socialist
+			}
+			set_country_flag = opinion_set_libertarian_socialist
+		}
+		if = {
+			limit = {
+				has_government = social_democrat
+			}
+			set_country_flag = opinion_set_social_democrat
+		}
+		if = {
+			limit = {
+				has_government = social_liberal
+			}
+			set_country_flag = opinion_set_social_liberal
+		}
+		if = {
+			limit = {
+				has_government = market_liberal
+			}
+			set_country_flag = opinion_set_market_liberal
+		}
+		if = {
+			limit = {
+				has_government = social_conservative
+			}
+			set_country_flag = opinion_set_social_conservative
+		}
+		if = {
+			limit = {
+				has_government = authoritarian_democrat
+			}
+			set_country_flag = opinion_set_authoritarian_democrat
+		}
+		if = {
+			limit = {
+				has_government = paternal_autocrat
+			}
+			set_country_flag = opinion_set_paternal_autocrat
+		}
+		if = {
+			limit = {
+				has_government = national_populist
+			}
+			set_country_flag = opinion_set_national_populist
+		}
+	}
+	
+	
+	option = {
+		name = fr.political.40.a
+	}
+
+}
