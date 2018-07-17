@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "District Force"				# For 2-brigade Military Districts
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "District Brigade"			# For 1-brigade Military Districts
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Garrison Force"			# For 1-brigade Military Districts
+
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Armored-Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+##### OOB #####
+units = {
+	##### Royal South African Army #####
+
+	# INFANTRY
+
+	division= {	
+		name = "1st Infantry Division"
+		location = 12589 # Capetown
+		division_template = "District Force"
+		start_experience_factor = 0.2
+	}
+	
+	division= {	
+		name = "Natal Garrison"
+		location = 1468 # Natal
+		division_template = "Garrison Force"
+		start_experience_factor = 0.1
+	}
+
+	##### No Naval OOB #####
+}

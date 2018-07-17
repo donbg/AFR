@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SAF
+		owner = NAT
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -21,12 +21,12 @@ state={
 		victory_points = {
 			1468 3 
 		}
-		add_core_of = SAF
+		add_core_of = NAT
 
 	}
 
 	provinces={
-		1468 1494 1833 4556 4584 7576 7900 8178 
+		1468 1494 7900 8178 4556
 	}
 	manpower=3962157
 	buildings_max_level_factor=1.000

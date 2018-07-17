@@ -214,3 +214,8 @@ FEA = "countries/Est-Asie Française.txt"
 ZSR = "countries/ZSR.txt"
 RUS = "countries/Russia.txt"
 USS = "countries/USS.txt"
+
+CAP = "countries/Cape.txt"
+TRN = "countries/Transvaal.txt"
+ORA = "countries/Orange.txt"
+NAT = "countries/Natal.txt"

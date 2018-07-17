@@ -53,6 +53,8 @@ add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
 add_to_faction = RAJ
+add_to_faction = CAP
+add_to_faction = NAT
 
 set_research_slots = 4
 set_convoys = 200

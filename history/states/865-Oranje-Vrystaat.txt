@@ -3,15 +3,17 @@ state={
 	name="STATE_865"
 
 	history={
-		owner = SAF
+		owner = ORA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 3
 
 		}
-		add_core_of = SAF
-
+		add_core_of = ORA
+		victory_points = {
+			12648 5 
+		}
 	}
 
 	provinces={

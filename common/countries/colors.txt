@@ -930,3 +930,23 @@ ZHI = {
 	color = rgb { 204  206  122 }
 	color_ui = rgb { 214  136  2 }
 }
+
+CAP = {
+	color = rgb { 172 10 10 }
+	color_ui = rgb { 104 1 1 }
+}
+
+NAT = {
+	color = rgb { 168 107 107 }
+	color_ui = rgb { 101 65 65 }
+}
+
+TRN = {
+	color = rgb { 111 156 76 }
+	color_ui = rgb { 60 80 44 }
+}
+
+ORA = {
+	color = rgb { 192 160 71 }
+	color_ui = rgb { 104 89 48 }
+}
