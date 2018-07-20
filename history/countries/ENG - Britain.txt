@@ -113,35 +113,35 @@ set_politics = {
 			popularity = 0
 		}
 		revolutionary_unionist = {
-			popularity = 3
+			popularity = 0
 		}
 		libertarian_socialist = {
-			popularity = 4
-		}
-		social_democrat = {
 			popularity = 8
 		}
+		social_democrat = {
+			popularity = 31
+		}
 		social_liberal = {
-			popularity = 45
+			popularity = 12
 		}
 		market_liberal = {
-			popularity = 10
+			popularity = 7
 		}
 		social_conservative = {
 			popularity = 25
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 13
 		}
 		paternal_autocrat = {
-			popularity = 3
+			popularity = 4
 		}
 		national_populist = {
-			popularity = 2
+			popularity = 0
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = social_democrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no

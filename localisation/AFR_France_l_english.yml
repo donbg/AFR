@@ -1,0 +1,25 @@
+﻿l_english:
+#desc
+FRA_AFR_DESC:0 ""
+
+#PARTIES
+FRA_vanguard_marxist_party:0 "PAGM"
+FRA_vanguard_marxist_party_long:0 "Parti Avant Garde-Marxiste Française "
+FRA_revolutionary_unionist_party:0 "SFIO"
+FRA_revolutionary_unionist_party_long:0 "Section Française de l'Internationale Ouvrière"
+FRA_libertarian_socialist_party:0 "SFIO"
+FRA_libertarian_socialist_party_long:0 "Section Française de l'Internationale Ouvrière"
+FRA_social_democrat_party:0 "PRS"
+FRA_social_democrat_party_long:0 "Parti Republicain-Socialiste"
+FRA_social_liberal_party:0 "PR"
+FRA_social_liberal_party_long:0 "Parti Radical"
+FRA_market_liberal_party:0 "ARD"
+FRA_market_liberal_party_long:0 "Alliance Républicaine Démocratique"
+FRA_social_conservative_party:0 "FR"
+FRA_social_conservative_party_long:0 "Fédération Républicaine" 
+FRA_authoritarian_democrat_party:0 "Gamelin Board"
+FRA_authoritarian_democrat_party_long:0 "Gamelin Board"
+FRA_paternal_autocrat_party:0 "Petain Board"
+FRA_paternal_autocrat_party_long:0 "Petain Board" 
+FRA_national_populist_party:0 "Leclerc Board"
+FRA_national_populist_party_long:0 "Leclerc Board"
