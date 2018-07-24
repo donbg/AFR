@@ -1,4 +1,4 @@
-﻿capital = 126
+capital = 126
 
 oob = "ENG_1936"
 
@@ -119,13 +119,13 @@ set_politics = {
 			popularity = 8
 		}
 		social_democrat = {
-			popularity = 31
+			popularity = 37
 		}
 		social_liberal = {
-			popularity = 12
+			popularity = 13
 		}
 		market_liberal = {
-			popularity = 7
+			popularity = 0
 		}
 		social_conservative = {
 			popularity = 25
