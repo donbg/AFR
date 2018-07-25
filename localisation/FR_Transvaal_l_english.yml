@@ -1,0 +1,24 @@
+﻿l_english:
+
+#### Political Parties ####
+
+TRN_vanguard_marxist_party:0 "SAWP"
+TRN_vanguard_marxist_party_long:0 "Suid-Afrikaans Werkersparty"
+TRN_revolutionary_unionist_party:0 "SAWP"
+TRN_revolutionary_unionist_party_long:0 "Suid-Afrikaans Werkersparty" 
+TRN_libertarian_socialist_party:0 "SAWP"
+TRN_libertarian_socialist_party_long:0 "Suid-Afrikaans Werkersparty"
+TRN_social_democrat_party:0 "AP"
+TRN_social_democrat_party_long:0 "Arbeidersparty"
+TRN_social_liberal_party:0 "RP"
+TRN_social_liberal_party_long:0 "Reformiste Party"
+TRN_market_liberal_party:0 "RP"
+TRN_market_liberal_party_long:0 "Reformiste Party"
+TRN_social_conservative_party:0 "NP"
+TRN_social_conservative_party_long:0 "Nasionale Party"
+TRN_authoritarian_democrat_party:0 "VNH"
+TRN_authoritarian_democrat_party_long:0 "Verbond vir Nasionale Herstrukturering"
+TRN_paternal_autocrat_party:0 "VNH"
+TRN_paternal_autocrat_party_long:0 "Verbond vir Nasionale Herstrukturering"
+TRN_national_populist_party:0 "VAB"
+TRN_national_populist_party_long:0 "Verenigde Afrikaner Bond"
