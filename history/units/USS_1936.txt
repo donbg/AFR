@@ -1,0 +1,576 @@
+﻿####### Division Templates #####
+division_template = {
+	name = "Federal Infantry Division"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+	}
+}
+division_template = {
+	name = "State Army Division"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Revolutionary Militia"  	# Standard formation for NG divisions through late 1940
+
+	regiments = {						
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Cavalry Division"  		# 1st Cavalry Division only
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # US Eng Bn
+	}
+}
+division_template = {
+	name = "Motorized Division"
+	division_names_group = ENG_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+	}
+}
+
+units = {
+
+	##### Federal Army #### 
+	
+	division = {
+		name = "1st Division"
+		location = 9450
+		division_template = "Federal Infantry Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Division"
+		location = 9450
+		division_template = "Federal Infantry Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Division"
+		location = 1770
+		division_template = "Federal Infantry Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Cavalry Division"
+		location = 10337
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Motorized Division"
+		location = 9450
+		division_template = "Motorized Division"
+		start_experience_factor = 0.1
+	}
+	
+	#### Joint State Armies #####
+	
+	division = {
+		name = "Illinois Division"
+		location = 9450
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Colorado Division"
+		location = 1827
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "California Division"
+		location = 9814
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Texas Division"
+		location = 12782
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Michigan Division"
+		location = 6710
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Ohio Division"
+		location = 6890
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Louisiana Division"
+		location = 7552
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Florida Division"
+		location = 1843
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Missouri Division"
+		location = 10370
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Montana Division"
+		location = 4860
+		division_template = "State Army Division"
+		start_experience_factor = 0.1
+	}
+	
+	##### Militias #####
+	
+	division = {
+		name = "1st Organized Militia"
+		location = 12357
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "2nd Organized Militia"
+		location = 4569
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "3rd Organized Militia"
+		location = 7552
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "4th Organized Militia"
+		location = 986
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "5th Organized Militia"
+		location = 1747
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "6th Organized Militia"
+		location = 12501
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "7th Organized Militia"
+		location = 1770
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.4
+	}
+	
+	#### Navy ####
+	### West Coast Fleet - 46 Destroyers, 14 Light Cruisers, 6 Heavy Cruisers, 2 Battlecruisers, 4 Battleships, 1 Carrier, 20 Submarines #####
+	
+	navy = {					
+		name = "San Francisco Destroyer Flotilla 1"				
+		base = 9671
+		location = 9671
+		ship = { name = "APS Revolution" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Condor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Equity" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Bay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Cascadia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Hammer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Falcon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Grizzly Bear" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Portland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Eugene Debs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Marx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS James Madison" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Oklahoma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Lincoln" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Colorado" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Utah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Bismarck" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Dakota" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+	}
+	navy = {					
+		name = "San Francisco Destroyer Flotilla 2"				
+		base = 9671
+		location = 9671 
+		ship = { name = "APS Revolution" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Condor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Equity" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Bay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Cascadia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Hammer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Falcon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Grizzly Bear" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Portland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Eugene Debs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Marx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS James Madison" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Oklahoma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Lincoln" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Colorado" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Utah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+	}
+	navy = {					
+		name = "Los Angeles Destroyer Flotilla"				
+		base = 9814
+		location = 9814 
+		ship = { name = "APS Revolution" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Eagle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Barley" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Vezzeti" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Hyena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Ringing" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Wart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Holland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Brooks" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Gilmer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+	}
+	navy = {					
+		name = "Pacific Cruiser Flotilla"				
+		base = 1562
+		location = 1562
+		ship = { name = "APS Richmond" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Trenton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Concord" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Richmond" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Trenton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Concord" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Pensacola" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Salt Lake City" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Chicago" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Indianapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS New Orleans" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Astoria" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }					
+	}
+	navy = {					
+		name = "Pacific Battleship Division"				
+		base = 9671
+		location = 9671 # San Diego
+		ship = { name = "APS Nevada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Oklahoma" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Tennessee" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS California" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }
+	}
+	navy = {					
+		name = "Pacific Carrier"				
+		base = 9671
+		location = 9671 # San Diego
+		ship = { name = "APS Louis Tikas" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "USS" amount = 8 }
+				cv_CAS_equipment_1 =  { owner = "USS" amount = 14 }
+				cv_nav_bomber_equipment_1 =  { owner = "USS" amount = 8 } 
+			}
+		}
+	}
+	
+	navy = {					
+		name = "California Submarine Squadron"				
+		base = 9814
+		location = 9814 # San Diego				
+		ship = { name = "APS S-18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-23" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-28" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-34" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-35" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }			
+		ship = { name = "APS Argonaut" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Narwhal" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Nautilus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Dolphin" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Cachalot" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Cuttlefish" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Porpoise" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Pike" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Shark" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USS } } }
+		ship = { name = "USS R-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "USS R-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "USS R-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "USS R-20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "USS S-46" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+	}
+
+			
+	#### East Coast Fleet- 50 Destroyers, 14 Light Cruisers, 10 Heavy Cruisers, 7 Battleships, 2 Carriers, 15 Submarines #####
+						
+	navy = {					
+		name = "Atlantic Submarine Squadron"				
+		base = 7552
+		location = 7552
+		ship = { name = "USS S-47" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-48" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS O-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS R-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS R-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "USS S-47" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-48" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS O-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS R-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS R-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS S-32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USS } } }
+	}
+
+	navy = {					
+		name = "East Coast Destroyer Flotilla"				
+		base = 7552
+		location = 7552			
+		ship = { name = "APS Paul Jones" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Alden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS John D Edwards" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Whipple" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Edsall" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Barker" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Parrott" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Bulmer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Stewart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }						
+		ship = { name = "APS Pope" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Peary" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Pillsbury" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS John D Ford" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Paul Jones" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Alden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS John D Edwards" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Whipple" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Edsall" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Barker" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Parrott" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Bulmer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Stewart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Pope" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Peary" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Pillsbury" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS John D Ford" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "USS Decatur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Badger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Babbitt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Leary" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Schenck" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }						
+		ship = { name = "APS Jacob Jones" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Roper" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Dickerson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Herbert" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }						
+		ship = { name = "APS Dallas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Du Pont" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Bernadou" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Ellis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Cole" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }					
+		ship = { name = "APS Lea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Tarbell" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Upshur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Greer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Trever" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Perry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Hulbert" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS Noa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }		
+		ship = { name = "APS William B Preston" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USS } } }
+	}
+		navy = {					
+		name = "Norfolk Battleship Division"				
+		base = 788
+		location = 788 # Norfolk
+		ship = { name = "APS New Mexico" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Mississippi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Idaho" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }											
+		ship = { name = "APS Arkansas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS New York" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Texas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }	
+		ship = { name = "APS Texas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USS } } }	
+	}	
+	
+	navy = {					
+		name = "Cruiser Division 2"				
+		base = 788
+		location = 788 # Norfolk
+		ship = { name = "APS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }												
+		ship = { name = "APS Augusta" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Tuscaloosa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }												
+		ship = { name = "APS Augusta" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Tuscaloosa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }
+		ship = { name = "APS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USS } } }												
+		ship = { name = "APS Augusta" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }				
+		ship = { name = "APS Tuscaloosa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USS } } }				
+	}	
+		
+		navy = {					
+		name = "Carrier Division 1"				
+		base = 788
+		location = 788 # Norfolk
+		ship = { name = "APS William Jennings Bryan" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "USS" amount = 8 } # historical: 36
+				cv_CAS_equipment_1 =  { owner = "USS" amount = 14 } # historical: 15
+				cv_nav_bomber_equipment_1 =  { owner = "USS" amount = 8 } # historical: 12
+			}
+		}
+	}
+		navy = {					
+		name = "Carrier Division 2"				
+		base = 788
+		location = 788 # Norfolk
+		ship = { name = "APS Karl Marx" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "USS" amount = 8 } # historical: 36
+				cv_CAS_equipment_1 =  { owner = "USS" amount = 14 } # historical: 15
+				cv_nav_bomber_equipment_1 =  { owner = "USS" amount = 8 } # historical: 12
+			}
+		}
+	}
+		
+###### Air Force
+air_wings = {
+	378 = {
+		# 7th Bombardment Group 
+		# 19th Bombardment Group 
+		tac_bomber_equipment_0 = {
+			owner = "USS" 
+			amount = 60
+		}
+		# 17th Attack Group 
+		CAS_equipment_1 = {
+			owner = "USS" 
+			amount = 48
+		}
+	}
+
+2 USSAF Wing -- Norfolk
+	362 = {  
+		fighter_equipment_0 =  {
+			owner = "USS" 
+			amount = 144
+		}
+		tac_bomber_equipment_0 = {
+			owner = "USS" 
+			amount = 96
+		}
+	}
+
+	
+	395 = {  
+		fighter_equipment_0 =  {
+			owner = "USS" 
+			amount = 144
+		}
+		tac_bomber_equipment_0 = {
+			owner = "USS" 
+			amount = 96
+		}
+	}
+	
+	3 USSAF Wing -- Louisiana
+	371 = { 
+		# 20th Pursuit Group 
+		fighter_equipment_0 =  {
+			owner = "USS" 
+			amount = 96
+		}
+		# 3rd Attack Group 
+		CAS_equipment_1 = {
+			owner = "USS" 
+			amount = 48
+		}
+	}
+
+	362 = { 
+		# Naval Patrol Wing 3 
+		nav_bomber_equipment_1 =  {
+			owner = "USS" 
+			amount = 36
+		}
+	}
+
+	378 = { 
+		# Naval Patrol Wing 1 
+		# Naval Patrol Wing 2 
+		nav_bomber_equipment_1 =  {
+			owner = "USS" 
+			amount = 72
+		}
+	}
+}

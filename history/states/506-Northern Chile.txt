@@ -4,7 +4,7 @@ state={
 	name="STATE_506"
 
 	history={
-		owner = BOL
+		owner = CHL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -14,8 +14,8 @@ state={
 
 			}
 		}
-		add_core_of = BOL
-		add_claim_by = CHL
+		add_core_of = CHL
+		add_claim_by = BOL
 		victory_points = {
 			12994 1 
 		}

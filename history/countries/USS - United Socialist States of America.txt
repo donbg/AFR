@@ -1,6 +1,6 @@
 ﻿capital = 395
 
-oob = "INF"
+oob = "USS_1936"
 
 set_research_slots = 4
 
@@ -38,29 +38,29 @@ set_technology = {
 }
 
 set_convoys = 100
-set_stability = 0.3
+set_stability = 0.5
 set_war_support = 0.40
 
 set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 21
+			popularity = 9
 		}
 		revolutionary_unionist = {
-			popularity = 52
+			popularity = 43
 		}
 		libertarian_socialist = {
-			popularity = 13
+			popularity = 23
 		}
 		social_democrat = {
-			popularity = 8
+			popularity = 21
 		}
 		social_liberal = {
-			popularity = 4
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 2
+			popularity = 0
 		}
 		social_conservative = {
 			popularity = 0
@@ -72,7 +72,7 @@ set_politics = {
 			popularity = 0
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 4
 		}
 	}
 
@@ -83,319 +83,120 @@ set_politics = {
 }
 
 add_ideas = {
+	USS_john_lewis_hog_run
+	USS_walter_lippmann_for_run
+	USS_william_green_eco_run
+	USS_edward_james_sec_run
+	USS_the_federal_debate
+	USS_decentralized_military
+	USS_dust_bowl
+	limited_exports
+}
+
+
+
+###note make event where Floyd b. olson is treated successfully for cancer #####
+create_country_leader = {
+	name = "James P. Cannon"
+	desc = "POLITICS_JAMES_P_CANNON_DESC"
+	picture = "GFX_USS_james_p_cannon.tga"
+	expire = "1965.1.1"
+	ideology = vanguard_marxist_subtype
+	traits = {
+		#
+	}
+}
+	
+create_country_leader = {
+	name = "John L. Lewis"
+	desc = "POLITICS_JOHN_L_LEWIS_DESC"
+	picture = "GFX_USS_john_l_lewis.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_unionist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frank Little"
+	desc = "POLITICS_FRANK_LITTLE_DESC"
+	picture = "GFX_TRN_frank_little.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Floyd B. Olson"
+	desc = "POLITICS_FLOYD_B_OLSON_DESC"
+	picture = "GFX_TRN_floyd_b_olson.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Herbert Hoover"
+	desc = "POLITICS_HERBERT_HOOVER_DESC"
+	picture = "GFX_TRN_herbert_hoover.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Herbert Hoover"
+	desc = "POLITICS_HERBERT_HOOVER_DESC"
+	picture = "GFX_TRN_herbert_hoover.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Herbert Hoover"
+	desc = "POLITICS_HERBERT_HOOVER_DESC"
+	picture = "GFX_TRN_herbert_hoover.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Herbert Hoover"
+	desc = "POLITICS_HERBERT_HOOVER_DESC"
+	picture = "GFX_TRN_herbert_hoover.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Herbert Hoover"
+	desc = "POLITICS_HERBERT_HOOVER_DESC"
+	picture = "GFX_TRN_herbert_hoover.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_PELLEY_DESC"
+	picture = "GFX_TRN_william_pelley.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
 }
 
 #MILITARY STAFF
 
-create_corps_commander = {
-	name = "George S. Patton"
-	picture = "Portrait_USA_George_S_Patton.dds"
-	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
-	skill = 5
-
-	attack_skill = 7
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Omar Bradley"
-	picture = "Portrait_USA_Omar_Bradley.dds"
-	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader }
-	skill = 5
-
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_field_marshal = {
-	name = "Dwight D. Eisenhower"
-	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
-	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
-	skill = 5
-	id = 602
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Geoffrey Keyes"
-	picture = "Portrait_USA_Geoffrey_Keyes.dds"
-	traits = { armor_officer career_officer }
-	skill = 2
-
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Lucian Truscott"
-	picture = "Portrait_USA_Lucian_Truscott.dds"
-	traits = { trait_engineer commando cavalry_officer }
-	skill = 3
-
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Mark Clark"
-	picture = "Portrait_USA_Mark_W_Clark.dds"
-	traits = { infantry_officer trait_reckless }
-	skill = 4
-
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Douglas MacArthur"
-	id = 57
-	picture = "Portrait_USA_Douglas_MacArthur.dds"
-	traits = {  offensive_doctrine brilliant_strategist career_officer media_personality politically_connected }
-	skill = 4
-
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Walter Krueger"
-	picture = "Portrait_USA_Walter_Krueger.dds"
-	traits = { armor_officer career_officer brilliant_strategist }
-	skill = 3
-
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Lloyd Fredendall"
-	picture = "Portrait_USA_Lloyd_Fredendall.dds"
-	traits = { old_guard infantry_officer inflexible_strategist }
-	skill = 2
-
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Leslie McNair"
-	picture = "Portrait_USA_Lesley_McNair.dds"
-	traits = {  old_guard career_officer armor_officer }
-	skill = 3
-
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Jonathan Wainwright"
-	picture = "Portrait_USA_Jonathan_Wainwright.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Russell Hartle"
-	picture = "Portrait_USA_Russell_P_Hartle.dds"
-	traits = { infantry_officer }
-	skill = 1
-	rank = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Leonard Gerow"
-	picture = "Portrait_USA_Leonard_T_Gerow.dds"
-	traits = { infantry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Edward Brooks"
-	picture = "Portrait_USA_Edward_Brooks.dds"
-	traits = { armor_officer trait_reckless }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Clarence Huebner"
-	picture = "Portrait_USA_Clarence_Huebner.dds"
-	traits = { old_guard harsh_leader }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Alexander Patch"
-	picture = "Portrait_USA_Alexander_Patch.dds"
-	traits = {  commando infantry_officer }
-	skill = 3
-
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "William Simpson"
-	picture = "Portrait_USA_William_Hood_Simpson.dds"
-	traits = { infantry_officer }
-	skill = 3
-
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "J. Lawton Collins"
-	picture = "Portrait_USA_Lawton_Collins.dds"
-	traits = {  trickster career_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Courtney Hodges"
-	picture = "Portrait_USA_Cortney_Hodges.dds"
-	traits = {  panzer_leader career_officer infantry_officer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Joseph Stilwell"
-	picture = "Portrait_USA_Joseph_Stilwell.dds"
-	traits = { politically_connected infantry_officer career_officer harsh_leader }
-	skill = 1
-	id = 601
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Oscar Griswold"
-	picture = "Portrait_USA_Oscar_Griswold.dds"
-	traits = { infantry_officer  }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Maurice Rose"
-	picture = "Portrait_USA_Maurice_Rose.dds"
-	traits = { armor_officer trait_reckless brilliant_strategist  }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_navy_leader = {
-	name = "Ernest King"
-		picture = "Portrait_USA_Earnest_King.dds"
-	traits = { blockade_runner superior_tactician }
-	skill = 5
-}
-
-create_navy_leader = {
-	name = "Chester W. Nimitz"
-		picture = "Portrait_USA_Chester_W_Nimitz.dds"
-	traits = { superior_tactician spotter }
-	skill = 5
-}
-
-create_navy_leader = {
-	name = "William Halsey, Jr."
-		picture = "Portrait_USA_William_Halsey_Jr.dds"
-	traits = { superior_tactician spotter }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Frank Jack Fletcher"
-		picture = "Portrait_USA_Frank_Jack_Fletcher.dds"
-	traits = { superior_tactician spotter }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Raymond A. Spruance"
-		picture = "Portrait_USA_Raymond_A_Spruance.dds"
-	traits = { superior_tactician }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Harold Rainsford Stark"
-		picture = "Portrait_USA_Harold_Rainsford_Stark.dds"
-	traits = { blockade_runner spotter }
-	skill = 2
-}
-
-create_navy_leader = {
-	name = "Arleigh Burke"
-		picture = "Portrait_USA_Arleigh_Burke.dds"
-	traits = { old_guard_navy superior_tactician }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Charles M. Cooke, Jr."
-		picture = "Portrait_USA_Charles_M_Cooke.dds"
-	traits = {  }
-	skill = 2
-}

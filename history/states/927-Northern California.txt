@@ -4,21 +4,26 @@ state={
 	name="STATE_927"
 	manpower = 364000
 	
-	state_category = rural
+	state_category = town
 	
 	history={
-		owner = USS
+		owner = USA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
+			dockyard = 1
+			industrial_complex = 1
 			610 = {
 			    naval_base = 1
 		    }
+			6757 = {
+			    naval_base = 3
+		    }
 		}
-		add_core_of = USS
+		add_core_of = USA
 		
 	}
 
 	provinces={
-		610 781 3588 3644 4331 6482 6665 6681 6745 6757 6772 9730 10159 
+		610 781 3588 3644 6482 6665 6681 6745 6757 6772 9730 677 11658
 	}
 }

@@ -1,0 +1,40 @@
+﻿l_english:
+
+#### Political Parties ####
+
+USS_vanguard_marxist_party:0 "RSF"
+USS_vanguard_marxist_party_long:0 "Revolutionary Socialist Front"
+USS_revolutionary_unionist_party:0 "SP/PPA"
+USS_revolutionary_unionist_party_long:0 "Socialist Party/People's Party of America" 
+USS_libertarian_socialist_party:0 "WSP"
+USS_libertarian_socialist_party_long:0 "Workers' Syndicalist Party"
+USS_social_democrat_party:0 "CLP"
+USS_social_democrat_party_long:0 "Christian Labor Party"
+USS_social_liberal_party:0 "Liberals"
+USS_social_liberal_party_long:0 "Liberals"
+USS_market_liberal_party:0 "Liberals"
+USS_market_liberal_party_long:0 "Liberals"
+USS_social_conservative_party:0 "Conservatives"
+USS_social_conservative_party_long:0 "Conservatives"
+USS_authoritarian_democrat_party:0 "Militarists"
+USS_authoritarian_democrat_party_long:0 "Militarist Sympathizers"
+USS_paternal_autocrat_party:0 "Militarists"
+USS_paternal_autocrat_party_long:0 "Militarist Sympathizers"
+USS_national_populist_party:0 "NLM"
+USS_national_populist_party_long:0 "National Labor Movement"
+
+###IDEAS###
+
+USS_the_federal_debate:0 "The Federal Debate"
+USS_the_federal_debate_desc:0 "Although our federal government has great responsibilities in upholding the needs of the population, the great amounts of executive and legislative power it has to share with state governments and labor unions renders it unable at times to perform its job effectively."
+USS_decentralized_military:0 "Decentralized Military"
+USS_decentralized_military_desc:0 "Our federal army is just a token force, with the vast bulk of our forces being unorganized state militias and guards who are subject to different authorities, have no central command and lack cohesion in their training, equipment and performance."
+USS_dust_bowl:0 "Dust Bowl"
+USS_dust_bowl_desc:0 "Our country was completely unprepared for the Dust Bowl of 1933. The large-scale human displacement, fall in agricultural yield and droughts hit our people hard and since then we have failed to deal with the impacts on our supply of food. As a consequence regions of our country are almost facing food shortages and our bureaucracy and infrastructure are overwhelmed."
+
+####Ministers####
+
+USS_john_lewis_hog_run:0 "John L. Lewis"
+USS_walter_lippmann_for_run:0 "Walter Lippmann"
+USS_william_green_eco_run:0 "William Green"
+USS_edward_james_sec_run:0 "Edward Holton James"
