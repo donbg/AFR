@@ -1,0 +1,20 @@
+state={
+	id=941
+	name="STATE_941"
+	history = {
+		add_core_of = KHO
+		add_core_of = LAO
+		owner = KHO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	provinces={
+		10453 1563 1577 4554 1374 7426 12210 10238 4539 10195 1520 4260 10326
+	}
+	manpower=1457900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

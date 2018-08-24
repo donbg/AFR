@@ -17,8 +17,8 @@ ENP = {
 	color_ui = rgb { 201 56 93 }
 }
 EGY = {
-	color = rgb { 200 200 100 } #200 200 100
-	color_ui = rgb { 200 200 100 }
+	color = rgb { 152 124 32 } #200 200 100
+	color_ui = rgb { 81 67 19 }
 }
 EGL = {
 	color = rgb { 140 0 0 } #135 13 24
@@ -366,9 +366,9 @@ BEA = {
 	color = rgb { 168 28 28 }
 	color_ui = rgb { 168 28 28 }
 }
-FEA = {
-	color = rgb { 20 70 145 }
-	color_ui = rgb { 20 70 145 }
+KHO = {
+	color = rgb { 122 93 132 }
+	color_ui = rgb { 72 53 78 }
 }
 URG = {
 	color = rgb { 196 147 164 }
@@ -436,8 +436,8 @@ RAJ = {
 }
 
 IND = {
-	color = rgb { 255 72 0 } #more colorful one is 255 72 0
-	color_ui = rgb { 255 72 0 } #Old one is 255 103 48
+	color = rgb { 115  77  52 } #more colorful one is 255 72 0
+	color_ui = rgb { 60 42 30 } #Old one is 255 103 48
 }
 
 CRO = {
@@ -546,8 +546,8 @@ INS = {
 }
 
 VIN = {
-	color = rgb { 255 255 50 } #Original is 255, 255, 50
-	color_ui = rgb { 255 255 50 }
+	color = rgb { 156 132 63 } 
+	color_ui = rgb { 90 75 34 }
 }
 
 CAM = {
@@ -949,4 +949,8 @@ TRN = {
 ORA = {
 	color = rgb { 192 160 71 }
 	color_ui = rgb { 104 89 48 }
+}
+SOM = {
+	color = rgb { 122  111  179 }
+	color_ui = rgb { 80 74 108 }
 }

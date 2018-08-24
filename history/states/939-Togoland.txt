@@ -1,0 +1,24 @@
+
+state={
+	id=939
+	name="STATE_939"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		 1951 12843 10919 12874
+	}
+	manpower=3577520
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

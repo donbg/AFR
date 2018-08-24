@@ -45,7 +45,7 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 9
+			popularity = 10
 		}
 		revolutionary_unionist = {
 			popularity = 43
@@ -54,13 +54,13 @@ set_politics = {
 			popularity = 23
 		}
 		social_democrat = {
-			popularity = 21
+			popularity = 12
 		}
 		social_liberal = {
 			popularity = 0
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 3
 		}
 		social_conservative = {
 			popularity = 0
@@ -72,7 +72,7 @@ set_politics = {
 			popularity = 0
 		}
 		national_populist = {
-			popularity = 4
+			popularity = 9
 		}
 	}
 
@@ -118,9 +118,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frank Little"
-	desc = "POLITICS_FRANK_LITTLE_DESC"
-	picture = "GFX_TRN_frank_little.tga"
+	name = "Arnold Petersen"
+	desc = "POLITICS_ARNOLD_PETERSEN_DESC"
+	picture = "GFX_USS_arnold_petersen.tga"
 	expire = "1965.1.1"
 	ideology = libertarian_socialist_subtype
 	traits = {
@@ -128,9 +128,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Floyd B. Olson"
-	desc = "POLITICS_FLOYD_B_OLSON_DESC"
-	picture = "GFX_TRN_floyd_b_olson.tga"
+	name = "Louis Waldman"
+	desc = "POLITICS_LOUIS_WALDMAN_DESC"
+	picture = "GFX_USS_louis_waldman.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -138,9 +138,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Herbert Hoover"
-	desc = "POLITICS_HERBERT_HOOVER_DESC"
-	picture = "GFX_TRN_herbert_hoover.tga"
+	name = "Burton K. Wheeler"
+	desc = "POLITICS_BURTON_K_WHEELER_DESC"
+	picture = "GFX_USS_herbert_hoover.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -148,9 +148,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Herbert Hoover"
-	desc = "POLITICS_HERBERT_HOOVER_DESC"
-	picture = "GFX_TRN_herbert_hoover.tga"
+	name = "Charles E. Scott Wood"
+	desc = "POLITICS_CHARLES_SCOTT_WOOD_DESC"
+	picture = "GFX_USS_charles_scott_wood.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -158,9 +158,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Herbert Hoover"
-	desc = "POLITICS_HERBERT_HOOVER_DESC"
-	picture = "GFX_TRN_herbert_hoover.tga"
+	name = "John Nance Garner"
+	desc = "POLITICS_JOHN_NANCE_GARNER_DESC"
+	picture = "GFX_USS_john_nance_garner.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -168,9 +168,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Herbert Hoover"
-	desc = "POLITICS_HERBERT_HOOVER_DESC"
-	picture = "GFX_TRN_herbert_hoover.tga"
+	name = "John Thomas Taylor"
+	desc = "POLITICS_JOHN_THOMAS_TAYLOR_DESC"
+	picture = "GFX_USS_john_thomas_taylor.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -178,9 +178,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Herbert Hoover"
-	desc = "POLITICS_HERBERT_HOOVER_DESC"
-	picture = "GFX_TRN_herbert_hoover.tga"
+	name = "John Thomas Taylor"
+	desc = "POLITICS_JOHN_THOMAS_TAYLOR_DESC"
+	picture = "GFX_USS_john_thomas_taylor.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -190,7 +190,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "William Dudley Pelley"
 	desc = "POLITICS_WILLIAM_PELLEY_DESC"
-	picture = "GFX_TRN_william_pelley.tga"
+	picture = "GFX_USS_william_pelley.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

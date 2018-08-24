@@ -14,15 +14,20 @@ state={
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 5
-			
+			7315 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = USS
 		victory_points = {
 			1690 1 
 		}
+		victory_points = {
+			7315 10 
+		}
 	}
 
 	provinces={
-		 1690 4747 10198 10327 10687 10690 10693 12673 
+		1320 7414 10157 12214 10155 12155 7315 7255 7442 10271 7386 4398 4296 10242 1690 4747 10198 10327 10687 10690 10693 12673 
 	}
 }

@@ -1,0 +1,2039 @@
+﻿######### USSA EVENTS ##### Just testing :P #####
+
+add_namespace = USSA
+
+#####country_event = ####
+###id= USSA.0###
+####title = "The USSA in 1936"###
+
+####country_event####
+####id=USSA.1###
+####title="The Situation of the USSA####
+
+#####country_event####
+######id=USSA.2#####
+######title="The Upcoming Elections####
+
+country_event = {
+	id = USSA.3
+    title = "Heat Wave of 1936"
+    desc = USSA.3.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 180
+	}
+	
+	fire_only_once = yes
+	
+	option = { # This is an example of an option that has no function
+		name = "Ouch.."
+		swap_ideas = {
+			add_idea = USS_dust_bowl_2
+			remove_idea = USS_dust_bowl
+			}
+	}
+}
+
+##### Elections #######
+
+country_event = {
+	id = USSA.4
+    title = "The PPA leaves the coalition"
+    desc = USSA.4.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 35
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Not much of a surprise really."
+		custom_effect_tooltip = USSA_elections_long_leaves
+		hidden_effect = {
+			country_event = {
+				id = USSA.5
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = USSA.5
+    title = "The CLP denounces John Lewis"
+    desc = USSA.5.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "John L. Lewis will not run a second time."
+		set_country_flag = seymour_candidate
+		hidden_effect = {
+			country_event = {
+			id = USSA.7
+			days = 1
+			}
+		}
+	}
+	option = {
+		name = "The SPA doesn't need the CLP. John L. Lewis is its candidate."
+		set_country_flag = lewis_candidate
+		hidden_effect = {
+			country_event = {
+			id = USSA.6
+			days = 1
+			}
+		}
+	}
+	option = {
+		name = "The SPA shall go for a radical option."
+		set_country_flag = haywood_candidate
+		hidden_effect = {
+			country_event = {
+			id = USSA.6
+			days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = USSA.6
+    title = "The CLP nominates Norman Thomas"
+    desc = USSA.6.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "\"The meek shall inherit the earth\"."
+		set_country_flag = norman_candidate
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = haywood_candidate
+				}
+				country_event = {
+					id = USSA.8
+					days = 1
+					}
+				}
+			else = {
+				country_event = {
+				id = USSA.7
+				days = 1
+					}
+				}
+		}
+	}
+}
+
+country_event = {
+	id = USSA.7
+    title = "Congress of the Worker's Syndicalist Federation" #### no Haywood ###
+    desc = USSA.7.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "The Federation chooses Arnold Petersen."
+		set_country_flag = petersen_candidate
+		hidden_effect = {
+				if = {
+						limit = { has_country_flag = seymour_candidate }
+						country_event = {
+						id = USSA.10
+						days = 1
+						}
+					}
+					else = {
+						country_event = {
+						id = USSA.9
+						days = 1
+						}
+			}
+		}
+	}
+	
+	option = {
+		name = "The Federation chooses Lucy Parsons."
+		set_country_flag = parsons_candidate
+		hidden_effect = {
+				if = {
+						limit = { has_country_flag = seymour_candidate }
+						country_event = {
+						id = USSA.10
+						days = 1
+						}
+					}
+					else = {
+						country_event = {
+						id = USSA.9
+						days = 1
+						}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = USSA.8
+    title = "Congress of the Worker's Syndicalist Federation" ####yes Haywood###
+    desc = USSA.8.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "The Federation chooses Arnold Petersen."
+		set_country_flag = petersen_candidate
+		hidden_effect = {
+			country_event = {
+			id = USSA.9
+			days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = "The Federation chooses Lucy Parsons."
+		set_country_flag = parsons_candidate
+		hidden_effect = {
+			country_event = {
+			id = USSA.9
+			days = 1
+			}
+		}
+	}
+	
+	option = {
+		has_country_flag = haywood_candidate
+		name = "The Federation endorses Haywood."
+		set_country_flag = haywood_wsf
+		hidden_effect = {
+			country_event = {
+			id = USSA.11
+			days = 1
+			}
+		}
+		}
+	}
+}
+
+country_event = {
+	id = USSA.9
+    title = "Socialist Association of African-Americans and Ethnic Minorities" ####NO seymour###
+    desc = USSA.9.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "The League endorses the SPA."
+		set_country_flag = black_SPA
+		hidden_effect = {
+						country_event = {
+						id = USSA.12
+						days = 1
+			}
+		}
+	}
+	option = {
+		name = "The League endorses the PPA."
+		set_country_flag = black_PPA
+		hidden_effect = {
+				country_event = {
+				id = USSA.14
+				days = 1
+				}
+		}
+	}
+	option = {
+		name = "The League endorses the CLP."
+		set_country_flag = black_CLP
+		hidden_effect = {
+						country_event = {
+						id = USSA.13
+						days = 1
+			}
+		}
+	}
+	option = {
+		name = "The League endorses the WSF."
+		set_country_flag = black_WSF
+		hidden_effect = {
+						country_event = {
+						id = USSA.12
+						days = 1
+			}
+	}
+}
+}
+
+country_event = {
+	id = USSA.10
+    title = "Socialist Association of African-Americans and Ethnic Minorities" ###yes Seymour##
+    desc = USSA.10.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "The League endorses the SPA."
+		set_country_flag = black_SPA
+		hidden_effect = {
+			country_event = {
+				id = USSA.13
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = "The League endorses the PPA."
+		set_country_flag = black_PPA
+		hidden_effect = {
+				country_event = {
+				id = USSA.16
+				days = 1
+				}
+		}
+	}
+	
+	option = {
+		name = "The League endorses the WSF."
+		set_country_flag = black_WSF
+		hidden_effect = {
+			country_event = {
+				id = USSA.13
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = USSA.11
+    title = "Socialist Association of African-Americans and Ethnic Minorities" ###no WSF##
+    desc = USSA.11.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "The League endorses the SPA."
+		set_country_flag = black_SPA
+		hidden_effect = {
+			country_event = {
+				id = USSA.12
+				days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = "The League endorses the CLP."
+		set_country_flag = black_CLP
+		hidden_effect = {
+				country_event = {
+				id = USSA.13
+				days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = "The League endorses the PPA."
+		set_country_flag = black_PPA
+		hidden_effect = {
+				country_event = {
+				id = USSA.14
+				days = 1
+				}
+		}
+	}
+	
+}
+
+country_event = {
+	id = USSA.12
+    title = "Long seeks alliances" 
+    desc = USSA.12.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Long turns to Dudley."
+		set_country_flag = dudley_long
+		hidden_effect = {
+			country_event = {
+				id = USSA.14
+				days = 1
+				}
+		}
+	}
+	
+	option = {
+		name = "olson will lead a PPA-CLP ticket."
+		set_country_flag = olson_candidate
+		hidden_effect = {
+					if = {
+						limit = { has_country_flag = haywood_wsf }
+						country_event = {
+							id = USSA.18
+							days = 1
+						}
+					}
+					else_if = {
+						limit = { has_country_flag = black_SPA }
+						country_event = {
+							id = USSA.16
+							days = 1
+							}
+					}
+					else = {
+						country_event = {
+						id = USSA.15
+						days = 1
+						}
+				}
+		}
+	}
+}
+
+country_event = {
+	id = USSA.13
+    title = "Long seeks alliances" #### No CLP-olson option ####
+    desc = USSA.13.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Long turns to Dudley."
+		set_country_flag = dudley_long
+		hidden_effect = {
+					if = {
+						limit = { has_country_flag = seymour_candidate }
+						country_event = {
+							id = USSA.17
+							days = 1
+						}
+					}
+					else_if = {
+						limit = { has_country_flag = black_CLP }
+						country_event = {
+							id = USSA.15
+							days = 1
+							}
+					}
+					else = {
+						country_event = {
+						id = USSA.14
+						days = 1
+						}
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.14
+    title = "CLP"  ##no Long offer###
+    desc = USSA.14.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "The CLP goes for the interest groups."
+		set_country_flag = motley_CLP
+		hidden_effect = {
+			if = {
+					limit = { 
+							OR = {
+							has_country_flag = haywood_wsf
+							has_country_flag = black_WSF
+							}
+							}
+						country_event = {
+							id = USSA.18
+							days = 1
+						}
+					}
+					else_if = {
+						limit = { has_country_flag = black_SPA }
+						country_event = {
+							id = USSA.17
+							days = 1
+							}
+					}
+					else = {
+						country_event = {
+						id = USSA.15
+						days = 1
+						}
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.15
+    title = "SPA" #### Cannon-only SPA ####
+    desc = USSA.15.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Begin SPA-RV negotiations at once."
+		set_country_flag = SPA_cannon
+		hidden_effect = {
+			if = {
+					limit = { has_country_flag = motley_CLP }
+						country_event = {
+							id = USSA.17
+							days = 1
+						}
+					}
+				else = {
+						country_event = {
+						id = USSA.16
+						days = 1
+						}
+				}	
+			}
+		}
+}
+
+country_event = {
+	id = USSA.16
+    title = "WSF" #### WSF Anarchists or Motley ####
+    desc = USSA.16.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "The WSF goes for the interest groups."
+		set_country_flag = motley_CLP
+		hidden_effect = {
+			country_event = {
+				id = USSA.18
+				days = 1
+				}
+			}
+		}
+		
+	option = {
+		name = "We shall uphold Anarcho-Syndicalist-DeLeonist thought."
+		set_country_flag = anarcho_wsf
+		hidden_effect = {
+			country_event = {
+				id = USSA.18
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.17
+    title = "WSF" #### WSF Anarchists Only ####
+    desc = USSA.17.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "We shall uphold Anarcho-Syndicalist-DeLeonist thought."
+		set_country_flag = anarcho_wsf
+		hidden_effect = {
+			country_event = {
+				id = USSA.18
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.18
+    title = "Candidates rally for support" 
+    desc = USSA.18.d
+	picture = gfx_ussa_heat_wave
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "To the elections."
+		hidden_effect = {
+			country_event = {
+				id = USSA.19
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.19
+    title = "Hidden Event- olson or Lewis" 
+    desc = USSA.19.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = olson_candidate  }
+			country_event = {
+				id = USSA.20
+				days = 1
+				}
+		}
+		else = {
+			country_event = {
+				id = USSA.23
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.20
+    title = "Hidden Event olson Line - Lewis or Haywood" 
+    desc = USSA.19.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = haywood_candidate  }
+			country_event = {
+				id = USSA.21
+				days = 1
+				}
+		}
+		else = {
+			country_event = {
+				id = USSA.22
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.21
+    title = "Hidden Event olsonHaywood Line - Petersen or Parsons or none" 
+    desc = USSA.21.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = petersen_candidate  }
+			country_event = {
+				id = USSA.27 ####olson Haywood Petersen ####
+				days = 1
+				}
+		}
+		else_if = {
+			limit = { has_country_flag = parsons_candidate }
+			country_event = {
+				id = USSA.28 ####olson Haywood Parsons ####
+				days = 1
+			}
+		}
+		else = {
+			country_event = {
+				id = USSA.29 ####olson Haywood####
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.22
+    title = "Hidden Event olsonLewis Line - Petersen or Parsons" 
+    desc = USSA.21.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = petersen_candidate  }
+			country_event = {
+				id = USSA.30 ####olson Lewis Petersen ####
+				days = 1
+				}
+		}
+		else = {
+			country_event = {
+				id = USSA.31 ####olson Lewis Parsons ####
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.23
+    title = "Hidden Event Long Line - Stedman, Petersen or Lewis" 
+    desc = USSA.21.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = seymour_candidate  }
+			country_event = {
+				id = USSA.24 
+				days = 1
+				}
+		}
+		else_if = {
+			limit = { has_country_flag = lewis_candidate }
+			country_event = {
+				id = USSA.25
+				days = 1
+			}
+		}
+		else = {
+			country_event = {
+				id = USSA.26
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.24
+    title = "Hidden Event LongSeymour - Parsons or Petersen" 
+    desc = USSA.21.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = petersen_candidate  }
+			country_event = {
+				id = USSA.32 #### Long Seymour Petersen ####
+				days = 1
+				}
+		}
+		else = {
+			country_event = {
+				id = USSA.33 #### Long Seymour Parsons ####
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.25
+    title = "Hidden Event LongLewisThomas - Petersen or Parsons" 
+    desc = USSA.25.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = petersen_candidate  }
+			country_event = {
+				id = USSA.34 #### Long Lewis Thomas Petersen ?####
+				days = 1
+				}
+		}
+		else = {
+			country_event = {
+				id = USSA.35 #### Long Lewis Thomas Parsons ####
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.26
+    title = "LongHaywoodThomas - Petersen or Parsons or None" 
+    desc = USSA.26.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = petersen_candidate	}
+			country_event = {
+				id = USSA.36 #### Long Haywood Thomas Petersen####
+				days = 1
+				}
+		}
+		else_if = {
+			limit = { has_country_flag = parsons_candidate }
+			country_event = {
+				id = USSA.37 #### Long Haywood Thomas Parsons ####
+				days = 1
+			}
+		}
+		else = {
+			country_event = {
+				id = USSA.38 #### Long Haywood Thomas ####
+				days = 1
+				}
+			}
+		}
+}
+
+country_event = {
+	id = USSA.27
+    title = "Election Time" ####olson Haywood Petersen####  
+    desc = USSA.27.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Floyd B. Olson is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Floyd B. Olson"
+			desc = "POLITICS_FLOYD_B_OLSON_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+		option = {
+		name = "Bill Haywood is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+	
+		option = {
+		name = "Arnold Petersen is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		hidden_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+			}
+		}
+	}
+}
+
+country_event = {
+	id = USSA.28
+    title = "Election Time" ####olson Haywood Parsons####  
+    desc = USSA.28.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Floyd B. Olson is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Floyd B. Olson"
+			desc = "POLITICS_FLOYD_B_OLSON_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Bill Haywood is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		hidden_effect = {
+			create_country_leader = {
+			name = "Lucy Parsons"
+			desc = "POLITICS_LUCY_PARSONS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = libertarian_socialist_subtype
+			}
+		}
+	}
+	
+		option = {
+		name = "Lucy Parsons is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		create_country_leader = {
+			name = "Lucy Parsons"
+			desc = "POLITICS_LUCY_PARSONS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = libertarian_socialist_subtype
+		}
+		hidden_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+			}
+				}
+		}
+}
+
+country_event = {
+	id = USSA.29
+    title = "Election Time" ####olson Haywood####  
+    desc = USSA.29.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Floyd B. Olson is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Floyd B. Olson"
+			desc = "POLITICS_FLOYD_B_OLSON_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Bill Haywood is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+	}
+
+country_event = {
+	id = USSA.30
+    title = "Election Time" ####olson Lewis Petersen####  
+    desc = USSA.30.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Floyd B. Olson is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Floyd B. Olson"
+			desc = "POLITICS_FLOYD_B_OLSON_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "John L. Lewis is reelected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Arnold Petersen is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		hidden_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+				}
+			}
+		}
+	}
+	
+country_event = {
+	id = USSA.31
+    title = "Election Time" ####olson Lewis Parsons####  
+    desc = USSA.31.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Floyd B. Olson is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Floyd B. Olson"
+			desc = "POLITICS_FLOYD_B_OLSON_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "John L. Lewis is reelected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Lucy Parsons is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		create_country_leader = {
+			name = "Lucy Parsons"
+			desc = "POLITICS_LUCY_PARSONS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = libertarian_socialist_subtype
+			}
+		}
+	}
+
+	country_event = {
+	id = USSA.32
+    title = "Election Time" ####Long Seymour Petersen####  
+    desc = USSA.32.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Huey Long is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Huey Long"
+			desc = "POLITICS_HUEY_LONG_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Seymour Stedman is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		create_country_leader = {
+			name = "Seymour Stedman"
+			desc = "POLITICS_SEYMOUR_STEDMAN_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+	}
+		
+	option = {
+		name = "Arnold Petersen is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		}
+	}
+	
+country_event = {
+	id = USSA.33
+    title = "Election Time" ####Long Seymour Parsons####  
+    desc = USSA.33.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Huey Long is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Huey Long"
+			desc = "POLITICS_HUEY_LONG_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Seymour Stedman is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		create_country_leader = {
+			name = "Seymour Stedman"
+			desc = "POLITICS_SEYMOUR_STEDMAN_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+	}
+		
+	option = {
+		name = "Lucy Parsons is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		create_country_leader = {
+			name = "Lucy Parsons"
+			desc = "POLITICS_LUCY_PARSONS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = libertarian_socialist_subtype
+			}
+		}
+	}
+	
+	country_event = {
+	id = USSA.34
+    title = "Election Time" ####Long Lewis Thomas Petersen####  
+    desc = USSA.34.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Huey Long is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Huey Long"
+			desc = "POLITICS_HUEY_LONG_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "John L. Lewis is reelected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Norman Thomas is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_christian_labor_party
+			long_name = USS_christian_labor_party_long
+			}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Norman Thomas"
+			desc = "POLITICS_NORMAN_THOMAS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+	}
+		
+	option = {
+		name = "Arnold Petersen is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		}
+	}
+	
+	country_event = {
+	id = USSA.35
+    title = "Election Time" ####Long Lewis Thomas Parsons####  
+    desc = USSA.35.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Huey Long is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Huey Long"
+			desc = "POLITICS_HUEY_LONG_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "John L. Lewis is reelected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Norman Thomas is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_christian_labor_party
+			long_name = USS_christian_labor_party_long
+			}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Norman Thomas"
+			desc = "POLITICS_NORMAN_THOMAS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+	}
+		
+	option = {
+		name = "Lucy Parsons is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		create_country_leader = {
+			name = "Lucy Parsons"
+			desc = "POLITICS_LUCY_PARSONS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = libertarian_socialist_subtype
+			}
+		}
+	}
+	
+	country_event = {
+	id = USSA.36
+    title = "Election Time" ####Long Haywood Thomas Petersen ####  
+    desc = USSA.36.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Huey Long is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Huey Long"
+			desc = "POLITICS_HUEY_LONG_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Bill Haywood is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Norman Thomas is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_christian_labor_party
+			long_name = USS_christian_labor_party_long
+			}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Norman Thomas"
+			desc = "POLITICS_NORMAN_THOMAS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+	}
+		
+	option = {
+		name = "Arnold Petersen is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		}
+	}
+	
+	country_event = {
+	id = USSA.37
+    title = "Election Time" ####Long Haywood Thomas Parsons ####  
+    desc = USSA.37.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Huey Long is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Huey Long"
+			desc = "POLITICS_HUEY_LONG_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Bill Haywood is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Norman Thomas is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_christian_labor_party
+			long_name = USS_christian_labor_party_long
+			}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Norman Thomas"
+			desc = "POLITICS_NORMAN_THOMAS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+	}
+		
+	option = {
+		name = "Lucy Parsons is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_politics = {
+				ruling_party = libertarian_socialist
+				elections_allowed = no
+			}
+		create_country_leader = {
+			name = "Lucy Parsons"
+			desc = "POLITICS_LUCY_PARSONS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = libertarian_socialist_subtype
+			}
+		}
+	}
+	
+	country_event = {
+	id = USSA.38
+    title = "Election Time" ####Long Haywood Thomas ####  
+    desc = USSA.38.d
+
+	trigger = {
+		tag = USS
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Huey Long is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Huey Long"
+			desc = "POLITICS_HUEY_LONG_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_peoples_party_of_america
+			long_name = USS_peoples_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Bill Haywood is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Bill Haywood"
+			desc = "POLITICS_BILL_HAYWOOD_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
+		}
+		
+	option = {
+		name = "Norman Thomas is elected."
+		set_stability = 0.4
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = foreign_minister
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_christian_labor_party
+			long_name = USS_christian_labor_party_long
+			}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Norman Thomas"
+			desc = "POLITICS_NORMAN_THOMAS_DESC"
+			picture = ".tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_unionist_subtype
+		}
+	}
+	}
+	
+	

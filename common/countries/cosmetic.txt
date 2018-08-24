@@ -43,10 +43,6 @@ PHN_FRA = {
  	color_ui = rgb { 15 90 240 }
 }
 
-VIN_FRA = {
- 	color = rgb { 0 60 180 } #0 146 167
- 	color_ui = rgb { 15 90 240 }
-}
 
 NFA_FRA = {
 	color = rgb { 0 60 180 } #0 20 130

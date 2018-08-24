@@ -23,6 +23,13 @@ spriteTypes = {
 	
 	### COUNTRY SPECIFIC PICS
 	
+	## United Socialist States of America
+	
+	spriteType = {
+		name = "gfx_ussa_heat_wave"
+		texturefile = "gfx/event_pictures/North_America/USSA/ussa_heat_wave.dds"
+	}
+	
 	## Germany
 	
 	## Ottomans

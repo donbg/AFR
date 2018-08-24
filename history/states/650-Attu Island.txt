@@ -7,7 +7,7 @@ state=
 	
 	history=
 	{
-		owner = USS
+		owner = JAP
 		victory_points = {
 			13067 1 
 		}

@@ -9,7 +9,7 @@ ideas = {
 				political_power_gain = -0.1
 				production_speed_arms_factory_factor = -0.1
 				production_speed_industrial_complex_factor = -0.1
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.1
 			}
 		}
 	
@@ -18,7 +18,7 @@ ideas = {
 			
 			modifier = {
 				conscription = -0.005
-				training_time_factor = -0.25
+				training_time_factor = 0.25
 				army_morale_factor = -0.1
 				army_org_Factor = -0.05
 			}
@@ -26,6 +26,15 @@ ideas = {
 		}
 		
 		USS_dust_bowl = {
+			picture = idea_generic_agrarian_society
+		
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_infrastructure_factor = -0.1
+				MONTHLY_POPULATION = -0.025
+			}
+		}
+		USS_dust_bowl_2 = {
 			picture = idea_generic_agrarian_society
 		
 			modifier = {

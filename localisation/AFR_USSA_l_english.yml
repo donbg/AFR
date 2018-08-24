@@ -2,26 +2,32 @@
 
 #### Political Parties ####
 
-USS_vanguard_marxist_party:0 "RSF"
-USS_vanguard_marxist_party_long:0 "Revolutionary Socialist Front"
-USS_revolutionary_unionist_party:0 "SP/PPA"
-USS_revolutionary_unionist_party_long:0 "Socialist Party/People's Party of America" 
-USS_libertarian_socialist_party:0 "WSP"
-USS_libertarian_socialist_party_long:0 "Workers' Syndicalist Party"
-USS_social_democrat_party:0 "CLP"
-USS_social_democrat_party_long:0 "Christian Labor Party"
+USS_vanguard_marxist_party:0 "RV"
+USS_vanguard_marxist_party_long:0 "Revolutionary Vanguard"
+USS_revolutionary_unionist_party:0 "SPC"
+USS_revolutionary_unionist_party_long:0 "Socialist-Populist Coalition" 
+USS_libertarian_socialist_party:0 "WSF"
+USS_libertarian_socialist_party_long:0 "Workers' Syndicalist Federation"
+USS_social_democrat_party:0 "SDM"
+USS_social_democrat_party_long:0 "Social Democracy Movement"
 USS_social_liberal_party:0 "Liberals"
 USS_social_liberal_party_long:0 "Liberals"
-USS_market_liberal_party:0 "Liberals"
-USS_market_liberal_party_long:0 "Liberals"
+USS_market_liberal_party:0 "Georgists"
+USS_market_liberal_party_long:0 "Georgists"
 USS_social_conservative_party:0 "Conservatives"
 USS_social_conservative_party_long:0 "Conservatives"
 USS_authoritarian_democrat_party:0 "Militarists"
 USS_authoritarian_democrat_party_long:0 "Militarist Sympathizers"
 USS_paternal_autocrat_party:0 "Militarists"
 USS_paternal_autocrat_party_long:0 "Militarist Sympathizers"
-USS_national_populist_party:0 "NLM"
-USS_national_populist_party_long:0 "National Labor Movement"
+USS_national_populist_party:0 "NSM"
+USS_national_populist_party_long:0 "National Social Movement"
+USS_socialist_party_of_america:0 "SPA"
+USS_socialist_party_of_america_long:0 "Socialist Party of America"
+USS_peoples_party_of_america:0 "PPA"
+USS_peoples_party_of_america_long:0 "People's Party of America"
+USS_peoples_party_or_socialist:0 "PPA/SPA"
+USS_peoples_party_or_socialist_long:0 "People's Party/Socialist Party"
 
 ###IDEAS###
 
@@ -29,8 +35,10 @@ USS_the_federal_debate:0 "The Federal Debate"
 USS_the_federal_debate_desc:0 "Although our federal government has great responsibilities in upholding the needs of the population, the great amounts of executive and legislative power it has to share with state governments and labor unions renders it unable at times to perform its job effectively."
 USS_decentralized_military:0 "Decentralized Military"
 USS_decentralized_military_desc:0 "Our federal army is just a token force, with the vast bulk of our forces being unorganized state militias and guards who are subject to different authorities, have no central command and lack cohesion in their training, equipment and performance."
-USS_dust_bowl:0 "Dust Bowl"
+USS_dust_bowl:0 "The Dust Bowl"
 USS_dust_bowl_desc:0 "Our country was completely unprepared for the Dust Bowl of 1933. The large-scale human displacement, fall in agricultural yield and droughts hit our people hard and since then we have failed to deal with the impacts on our supply of food. As a consequence regions of our country are almost facing food shortages and our bureaucracy and infrastructure are overwhelmed."
+USS_dust_bowl_2:0 "The Dust Bowl"
+USS_dust_bowl_2_desc:0 "Our country was completely unprepared for the Dust Bowl of 1933. The large-scale human displacement, fall in agricultural yield and droughts hit our people hard and since then we have failed to deal with the impacts on our supply of food. As a consequence regions of our country are almost facing food shortages and our bureaucracy and infrastructure are overwhelmed."
 
 ####Ministers####
 
@@ -38,3 +46,18 @@ USS_john_lewis_hog_run:0 "John L. Lewis"
 USS_walter_lippmann_for_run:0 "Walter Lippmann"
 USS_william_green_eco_run:0 "William Green"
 USS_edward_james_sec_run:0 "Edward Holton James"
+
+
+
+#### Events ####
+USSA.3.d:0 "A massive heat wave has struck our country this month. Record temperatures are being reported from Ohio to Illinois, afflicting much of the Midwest and parts of the Northeast. Combined with the lack of rainfall, farmers report state-wide droughts leading to the indiscriminate death of crops and livestock. Our fledging governmental offices have, as of now, been unable to calculate the economical impacts this disaster will have, but predict that it will be substantial, and will only hurt our attempts at solving the consequences of the Dust Bowl of 1933."
+
+
+
+
+
+### Custom Tooltips###
+USSA_elections_long_leaves:0 "§BThe People's Party will leave the Socialist-Populist Coalition§!"
+
+
+

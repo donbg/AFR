@@ -45,7 +45,7 @@ add_ideas = {
 set_country_flag = has_ministers
 
 
-create_faction = "Central Powers"
+create_faction = "Mächtebund"
 add_to_faction = GER
 add_to_faction = ENG
 add_to_faction = CAN

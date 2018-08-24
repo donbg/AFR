@@ -89,6 +89,9 @@ set_politics = {
 add_ideas = {
 }
 
+create_faction = "Entente d'Acier"
+add_to_faction = ITA
+
 create_country_leader = {
 	name = "Philippe Petain"
 	desc = "POLITICS_PHILIPPE_PETAIN_DESC"

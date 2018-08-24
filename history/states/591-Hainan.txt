@@ -5,7 +5,7 @@ state={
 	state_category = town
 
 	history={
-		owner = FEA
+		owner = KMT
 		add_core_of = KMT
 		add_core_of = MAN
 		

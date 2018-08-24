@@ -29,32 +29,32 @@ set_politics = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 5
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 10
-		}
-		social_conservative = {
-			popularity = 65
-		}
-		authoritarian_democrat = {
-			popularity = 10
-		}
-		paternal_autocrat = {
 			popularity = 0
 		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 17
+		}
+		authoritarian_democrat = {
+			popularity = 66
+		}
+		paternal_autocrat = {
+			popularity = 12
+		}
 		national_populist = {
-			popularity = 5
+			popularity = 15
 		}
 		national_populist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

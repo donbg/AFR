@@ -10,6 +10,18 @@ set_convoys = 20
 set_stability = 0.50
 set_war_support = 0.50
 
+diplomatic_relation = {
+	country = ENG
+	relation = military_access
+	active = yes
+}
+
+diplomatic_relation = {
+	country = TUR
+	relation = military_access
+	active = yes
+}
+
 set_politics = {
 
 	parties = {
@@ -55,32 +67,72 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Muhammad Naguib"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ahmed Husayn"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	name = "Abbas II"
+	desc = "POLITICS_ABBAS_II_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Farouk Muhammad Ali"
-	desc = ""
+	name = "Abbas II"
+	desc = "POLITICS_ABBAS_II_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	desc = "POLITICS_ABBAS_II_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	desc = "POLITICS_ABBAS_II_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	desc = "POLITICS_ABBAS_II_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	desc = "POLITICS_ABBAS_II_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	desc = "POLITICS_ABBAS_II_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
 	}
 }
 

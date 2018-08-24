@@ -12,13 +12,18 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 6
+			12211 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = USS
-		
+		victory_points = {
+			3513 1 
+		}
 
 	}
 
 	provinces={
-	 1414 4347 4826 7721 7865 10305 10625 12553 
+	 12183 7398 4274 10151 3471 11733 505 11495 12281 528 4328 3513 4380 12211 10183 1414 4347 4826 7721 7865 10305 10625 12553 
 	}
 }

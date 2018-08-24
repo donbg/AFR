@@ -148,9 +148,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Eugène Marais"
-	desc = "POLITICS_EUGENE_MARAIS_DESC"
-	picture = "GFX_TRN_eugene_marais.tga"
+	name = "Louis Botha"
+	desc = "POLITICS_LOUIS_BOTHA_DESC"
+	picture = "GFX_TRN_louis_botha.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {

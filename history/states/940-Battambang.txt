@@ -1,0 +1,19 @@
+state={
+	id=940
+	name="STATE_940"
+	history = {
+		add_core_of = CAM
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+	provinces={
+		7404 4359 12191 1353 10134 10177 4251 4302 10467 12460 12447 5236 1592
+	}
+	manpower=5245000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
