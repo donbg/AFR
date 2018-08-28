@@ -34,7 +34,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = { # This is an example of an option that has no function
-		name = "Ouch.."
+		name = "The people and the country are wounded."
 		swap_ideas = {
 			add_idea = USS_dust_bowl_2
 			remove_idea = USS_dust_bowl
@@ -58,13 +58,13 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 35
+		days = 1
 	}
 	
 	fire_only_once = yes
 	
 	option = {
-		name = "Not much of a surprise really."
+		name = "Is this the end for John L. Lewis?"
 		custom_effect_tooltip = USSA_elections_long_leaves
 		hidden_effect = {
 			country_event = {
@@ -96,6 +96,7 @@ country_event = {
 	option = {
 		name = "John L. Lewis will not run a second time."
 		set_country_flag = seymour_candidate
+		custom_effect_tooltip = USSA_elections_seymour_candidate
 		hidden_effect = {
 			country_event = {
 			id = USSA.7
@@ -106,6 +107,7 @@ country_event = {
 	option = {
 		name = "The SPA doesn't need the CLP. John L. Lewis is its candidate."
 		set_country_flag = lewis_candidate
+		custom_effect_tooltip = USSA_elections_lewis_candidate
 		hidden_effect = {
 			country_event = {
 			id = USSA.6
@@ -114,8 +116,9 @@ country_event = {
 		}
 	}
 	option = {
-		name = "The SPA shall go for a radical option."
+		name = "A radical option is the best option."
 		set_country_flag = haywood_candidate
+		custom_effect_tooltip = USSA_elections_haywood_candidate
 		hidden_effect = {
 			country_event = {
 			id = USSA.6
@@ -143,14 +146,15 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "\"The meek shall inherit the earth\"."
+		name = "The meek shall inherit the earth."
 		set_country_flag = norman_candidate
+		custom_effect_tooltip = USSA_elections_norman_candidate
 		hidden_effect = {
 			if = {
 				limit = {
 					has_country_flag = haywood_candidate
 				}
-				country_event = {
+					country_event = {
 					id = USSA.8
 					days = 1
 					}
@@ -167,7 +171,7 @@ country_event = {
 
 country_event = {
 	id = USSA.7
-    title = "Congress of the Worker's Syndicalist Federation" #### no Haywood ###
+    title = "Congress of the Workers' Syndicalist Federation" #### no Haywood ###
     desc = USSA.7.d
 	picture = gfx_ussa_heat_wave
 
@@ -183,8 +187,9 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "The Federation chooses Arnold Petersen."
+		name = "The legacy of De Leon stands strong."
 		set_country_flag = petersen_candidate
+		custom_effect_tooltip = USSA_elections_petersen_candidate
 		hidden_effect = {
 				if = {
 						limit = { has_country_flag = seymour_candidate }
@@ -203,8 +208,9 @@ country_event = {
 	}
 	
 	option = {
-		name = "The Federation chooses Lucy Parsons."
+		name = "For a syndicalist America."
 		set_country_flag = parsons_candidate
+		custom_effect_tooltip = USSA_elections_parsons_candidate
 		hidden_effect = {
 				if = {
 						limit = { has_country_flag = seymour_candidate }
@@ -225,7 +231,7 @@ country_event = {
 
 country_event = {
 	id = USSA.8
-    title = "Congress of the Worker's Syndicalist Federation" ####yes Haywood###
+    title = "Congress of the Workers' Syndicalist Federation" ####yes Haywood###
     desc = USSA.8.d
 	picture = gfx_ussa_heat_wave
 
@@ -241,8 +247,9 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "The Federation chooses Arnold Petersen."
+		name = "The legacy of De Leon stands strong."
 		set_country_flag = petersen_candidate
+		custom_effect_tooltip = USSA_elections_petersen_candidate
 		hidden_effect = {
 			country_event = {
 			id = USSA.9
@@ -252,8 +259,9 @@ country_event = {
 	}
 	
 	option = {
-		name = "The Federation chooses Lucy Parsons."
+		name = "For a syndicalist America."
 		set_country_flag = parsons_candidate
+		custom_effect_tooltip = USSA_elections_parsons_candidate
 		hidden_effect = {
 			country_event = {
 			id = USSA.9
@@ -263,9 +271,9 @@ country_event = {
 	}
 	
 	option = {
-		has_country_flag = haywood_candidate
-		name = "The Federation endorses Haywood."
+		name = "Haywood runs for the workers."
 		set_country_flag = haywood_wsf
+		custom_effect_tooltip = USSA_elections_haywood_support
 		hidden_effect = {
 			country_event = {
 			id = USSA.11
@@ -274,11 +282,10 @@ country_event = {
 		}
 		}
 	}
-}
 
 country_event = {
 	id = USSA.9
-    title = "Socialist Association of African-Americans and Ethnic Minorities" ####NO seymour###
+    title = "SAMAA" ##### ######Socialist Association of Minorities and African-Americans### ######NO seymour###
     desc = USSA.9.d
 	picture = gfx_ussa_heat_wave
 
@@ -294,8 +301,9 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "The League endorses the SPA."
+		name = "The SPA, just like in Debs' time."
 		set_country_flag = black_SPA
+		custom_effect_tooltip = USSA_elections_black_SPA
 		hidden_effect = {
 						country_event = {
 						id = USSA.12
@@ -304,8 +312,9 @@ country_event = {
 		}
 	}
 	option = {
-		name = "The League endorses the PPA."
+		name = "Long will not disappoint."
 		set_country_flag = black_PPA
+		custom_effect_tooltip = USSA_elections_black_PPA
 		hidden_effect = {
 				country_event = {
 				id = USSA.14
@@ -314,8 +323,9 @@ country_event = {
 		}
 	}
 	option = {
-		name = "The League endorses the CLP."
+		name = "All men are equal before God."
 		set_country_flag = black_CLP
+		custom_effect_tooltip = USSA_elections_black_CLP
 		hidden_effect = {
 						country_event = {
 						id = USSA.13
@@ -324,8 +334,9 @@ country_event = {
 		}
 	}
 	option = {
-		name = "The League endorses the WSF."
+		name = "The state is a tool of ethnic oppression."
 		set_country_flag = black_WSF
+		custom_effect_tooltip = USSA_elections_black_WSF
 		hidden_effect = {
 						country_event = {
 						id = USSA.12
@@ -337,10 +348,9 @@ country_event = {
 
 country_event = {
 	id = USSA.10
-    title = "Socialist Association of African-Americans and Ethnic Minorities" ###yes Seymour##
+    title = "SAMAA" ###yes Seymour##
     desc = USSA.10.d
 	picture = gfx_ussa_heat_wave
-
 	trigger = {
 		tag = USS
 		USS = { 
@@ -353,8 +363,9 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "The League endorses the SPA."
+		name = "The SPA, just like in Debs' time."
 		set_country_flag = black_SPA
+		custom_effect_tooltip = USSA_elections_black_SPA_seymour
 		hidden_effect = {
 			country_event = {
 				id = USSA.13
@@ -363,7 +374,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "The League endorses the PPA."
+		name = "Long will not disappoint."
+		custom_effect_tooltip = USSA_elections_black_PPA
 		set_country_flag = black_PPA
 		hidden_effect = {
 				country_event = {
@@ -374,8 +386,9 @@ country_event = {
 	}
 	
 	option = {
-		name = "The League endorses the WSF."
+		name = "The state is a tool of ethnic oppression."
 		set_country_flag = black_WSF
+		custom_effect_tooltip = USSA_elections_black_WSF
 		hidden_effect = {
 			country_event = {
 				id = USSA.13
@@ -387,7 +400,7 @@ country_event = {
 
 country_event = {
 	id = USSA.11
-    title = "Socialist Association of African-Americans and Ethnic Minorities" ###no WSF##
+    title = "SAMAA" ###no WSF##
     desc = USSA.11.d
 	picture = gfx_ussa_heat_wave
 
@@ -403,8 +416,9 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "The League endorses the SPA."
+		name = "The SPA, just like in Debs' time."
 		set_country_flag = black_SPA
+		custom_effect_tooltip = USSA_elections_black_SPA_WSF
 		hidden_effect = {
 			country_event = {
 				id = USSA.12
@@ -414,8 +428,9 @@ country_event = {
 	}
 	
 	option = {
-		name = "The League endorses the CLP."
+		name = "All men are equal before God."
 		set_country_flag = black_CLP
+		custom_effect_tooltip = USSA_elections_black_CLP
 		hidden_effect = {
 				country_event = {
 				id = USSA.13
@@ -425,8 +440,9 @@ country_event = {
 	}
 	
 	option = {
-		name = "The League endorses the PPA."
+		name = "Long will not disappoint."
 		set_country_flag = black_PPA
+		custom_effect_tooltip = USSA_elections_black_PPA
 		hidden_effect = {
 				country_event = {
 				id = USSA.14
@@ -455,8 +471,9 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "Long turns to Dudley."
+		name = "Dudley isn't that bad."
 		set_country_flag = dudley_long
+		custom_effect_tooltip = USSA_elections_dudley_long
 		hidden_effect = {
 			country_event = {
 				id = USSA.14
@@ -466,8 +483,9 @@ country_event = {
 	}
 	
 	option = {
-		name = "olson will lead a PPA-CLP ticket."
+		name = "Olson and Long are a perfect duo."
 		set_country_flag = olson_candidate
+		custom_effect_tooltip = USSA_elections_olson
 		hidden_effect = {
 					if = {
 						limit = { has_country_flag = haywood_wsf }
@@ -511,15 +529,29 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "Long turns to Dudley."
+		name = "Opportunism is better than failure."
 		set_country_flag = dudley_long
+		custom_effect_tooltip = USSA_elections_dudley_long
 		hidden_effect = {
 					if = {
-						limit = { has_country_flag = seymour_candidate }
+						limit = {
+							AND = 
+							{
+							has_country_flag = seymour_candidate
+							has_country_flag = black_WSF
+							}
+							}
 						country_event = {
-							id = USSA.17
+							id = USSA.18
 							days = 1
 						}
+					}
+					else_if = {
+						limit = { has_country_flag = seymour_candidate }
+						country_event = {
+							id = USSA.16
+							days = 1
+							}
 					}
 					else_if = {
 						limit = { has_country_flag = black_CLP }
@@ -540,7 +572,7 @@ country_event = {
 
 country_event = {
 	id = USSA.14
-    title = "CLP"  ##no Long offer###
+    title = "Searching for support"  ##no Long offer###
     desc = USSA.14.d
 	picture = gfx_ussa_heat_wave
 
@@ -556,7 +588,8 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "The CLP goes for the interest groups."
+		name = "Better than nothing."
+		custom_effect_tooltip = USSA_elections_CLP_motley
 		set_country_flag = motley_CLP
 		hidden_effect = {
 			if = {
@@ -608,6 +641,7 @@ country_event = {
 	option = {
 		name = "Begin SPA-RV negotiations at once."
 		set_country_flag = SPA_cannon
+		custom_effect_tooltip = USSA_elections_SPA_cannon
 		hidden_effect = {
 			if = {
 					limit = { has_country_flag = motley_CLP }
@@ -644,8 +678,9 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "The WSF goes for the interest groups."
-		set_country_flag = motley_CLP
+		name = "It is better to appease some interest groups."
+		set_country_flag = motley_wsf
+		custom_effect_tooltip = USSA_elections_WSF_motley
 		hidden_effect = {
 			country_event = {
 				id = USSA.18
@@ -655,8 +690,9 @@ country_event = {
 		}
 		
 	option = {
-		name = "We shall uphold Anarcho-Syndicalist-DeLeonist thought."
+		name = "Uphold Anarchist-Syndicalist-DeLeonist thought."
 		set_country_flag = anarcho_wsf
+		custom_effect_tooltip = USSA_elections_anarcho_wsf
 		hidden_effect = {
 			country_event = {
 				id = USSA.18
@@ -684,8 +720,9 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "We shall uphold Anarcho-Syndicalist-DeLeonist thought."
+		name = "Uphold Anarchist-Syndicalist-DeLeonist thought."
 		set_country_flag = anarcho_wsf
+		custom_effect_tooltip = USSA_elections_anarcho_wsf
 		hidden_effect = {
 			country_event = {
 				id = USSA.18
@@ -761,7 +798,7 @@ country_event = {
 country_event = {
 	id = USSA.20
     title = "Hidden Event olson Line - Lewis or Haywood" 
-    desc = USSA.19.d
+    desc = USSA.20.d
 
 	trigger = {
 		tag = USS
@@ -1463,11 +1500,6 @@ country_event = {
 		remove_ideas_with_trait = economy_minister
 		remove_ideas_with_trait = security_minister
 		remove_ideas_with_trait = foreign_minister
-		set_party_name = {
-			ideology = revolutionary_unionist
-			name = USS_socialist_party_of_america
-			long_name = USS_socialist_party_of_america_long
-			}
 		create_country_leader = {
 			name = "Seymour Stedman"
 			desc = "POLITICS_SEYMOUR_STEDMAN_DESC"
@@ -1475,6 +1507,11 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = revolutionary_unionist_subtype
 		}
+		set_party_name = {
+			ideology = revolutionary_unionist
+			name = USS_socialist_party_of_america
+			long_name = USS_socialist_party_of_america_long
+			}
 	}
 		
 	option = {

@@ -28,6 +28,8 @@ USS_peoples_party_of_america:0 "PPA"
 USS_peoples_party_of_america_long:0 "People's Party of America"
 USS_peoples_party_or_socialist:0 "PPA/SPA"
 USS_peoples_party_or_socialist_long:0 "People's Party/Socialist Party"
+USS_christian_labor_party:0 "CLP"
+USS_christian_labor_party_long:0 "Christian Labor Party"
 
 ###IDEAS###
 
@@ -51,13 +53,53 @@ USS_edward_james_sec_run:0 "Edward Holton James"
 
 #### Events ####
 USSA.3.d:0 "A massive heat wave has struck our country this month. Record temperatures are being reported from Ohio to Illinois, afflicting much of the Midwest and parts of the Northeast. Combined with the lack of rainfall, farmers report state-wide droughts leading to the indiscriminate death of crops and livestock. Our fledging governmental offices have, as of now, been unable to calculate the economical impacts this disaster will have, but predict that it will be substantial, and will only hurt our attempts at solving the consequences of the Dust Bowl of 1933."
-
-
-
-
+USAS.4.d:0 "During a heated speech earlier this evening, the chairman of the PPA (People's Party of America), Huey Long, condemned the policies of President John L. Lewis and declared the exit of the PPA from the Socialist-Populist coalition. Despite having threatened to do so for almost a whole year, leaders of the SPA who had insisted negotiations with Long had been going smoothly were surprised by his actions. Faced by hostility from the WSF, the RV and even members of the CLP, Long will surely face a hard road ahead of him in search of votes and allies."
+USSA.5.d:0 "Top officials in the SPA were approached earlier today by the CLP on the issue of John L. Lewis' supposed plans for running for a second term. Citing the collapse of the Socialist-Populist coalition as a sign of incompetence, they have demanded that Seymour Stedman run for candidacy instead of Lewis. The SPA could accept their demands and abandon Lewis, although that would discredit the party somewhat, or they could insist on Lewis and abandon the alliance with the CLP. Alternatively, Bill Haywood and his radical faction are greatly influential amongst trade unions and have been vying for party leadership in the last few years."
+USSA.6.d:0 "After the collapse of the alliance between the SPA and the CLP, CLP party members have been conducting a number of meetings on the issue of a potential candidacy for the presidency and have opted temporarily for Norman Thomas as president, while some members scout the possiblity of a SPA-PPA alliance under a candidate other than Long."
+USSA.7.d:0 "Capitalizing on the collapse of the Socialist-Populist Coalition, the Workers' Syndicalist Federation have been discussing their latest congress on hosting their own candidate to the elections. Two possible candidates have been considered. Arnold Petersen leads the De Leonist faction in the Federation and seems intent on competing under a platform of government decentralization and trade union empowerment. Meanwhile, Alexander Berkman leads the Syndicalist faction and has supported Lucy Parsons to run in his stead, as he is ill and is not a natural-born citizen of America."
+USSA.8.d:0 "Capitalizing on the collapse of the Socialist-Populist Coalition, the Workers' Syndicalist Federation have been discussing their latest congress on hosting their own candidate to the elections or supporting Bill Haywood. Hosting their own candidate would mean either having Arnold Petersen, leader of the De Leonists, as candidate or Lucy Parsons, who would represent Berkman and his syndicalists."
+USSA.9.d:0 "The SAMAA, Socialist Association of Minorities and African-Americans is a massive and ideologically diverse organization that represents the quest for rights for minorities in the USSA. They hold immense electoral and political power, being influential over roughly 15% of the electorate and winning their approval is synonymous with making a sturdy alliance with any major party. Currently, the SPA, the PPA, the CLP and the WSF have extended a hand to upholding their policies in return for support. The question now is what SAMAA will do. Should they support the SPA, SAMAA's chairman, Asa Randolph will be entertained as the ticket's vice-president."
+USSA.10.d:0 "The SAMAA, Socialist Association of Minorities and African-Americans is a massive and ideologically diverse organization that represents the quest for rights for minorities in the USSA. They hold immense electoral and political power, being influential over roughly 15% of the electorate and winning their approval is synonymous with making a sturdy alliance with any major party. Currently, the SPA, the PPA and the WSF have extended a hand to upholding their policies in return for support. The question now is what SAMAA will do."
+USSA.11.d:0 "The SAMAA, Socialist Association of Minorities and African-Americans is a massive and ideologically diverse organization that represents the quest for rights for minorities in the USSA. They hold immense electoral and political power, being influential over roughly 15% of the electorate and winning their approval is synonymous with making a sturdy alliance with any major party. Currently, the SPA, the PPA and the CLP have extended a hand to upholding their policies in return for support. The question now is what SAMAA will do."
+USSA.12.d:0 "After being unable to secure an alliance with SAMAA and having waning support levels in Michigan and Steel Belt states, Long has seen himself more and more isolated from political actors that could secure him more votes, and has been met with two opportunities for securing more votes. The first is for Long to ally himself with the leader of the National Social Movement, William Dudley Pelley - a very risky and controversial decision. The second has been suggested by some members of the CLP and it is for Long to give up his presidential candidacy and serve as vice-president for Floyd B. Olson, a more serious PPA member liked by the CLP."
+USSA.13.d:0 "After being unable to secure an alliance with SAMAA and having waning support levels in Michigan and Steel Belt states, Long has seen himself more and more isolated from political actors that could secure him more votes and has seen himself without alternatives other than accepting a political alliance with William Dudley Pelley and his National Social Movement. The move undoubtedly will be controversial, but is better than risking losing the election to a nutty radical."
+USSA.14.d:0 "Without support from SAMAA, Norman Thomas has been forming a rather peculiar support group consisting of union leaders, priests, activists, journalists and many others who have very specific agenda he promises in fulfilling. This has given him a political motley rather than a political alliance that will either be a major electoral success or a complete failure."
+USSA.15.d:0 "Abandoned by the CLP, the PPA and SAMAA and cursed with a declining popularity, the SPA had been in a tough position until earlier this morning, when the Revolutionary Vanguard proposed them an alliance. The RV, a radical vanguardist movement, has offered to support us integrally, if James P. Cannon is given a position as vice-president of our electoral ticket. In the SPA's current state, they don't have much of a choice other than agreeing."
+USSA.16.d:0 "The WSF's bid for the presidency has been met with a lot of overwhelming success. To solve this issue, party members have supported one of two alternatives. Either to form a bloc of journalists, union leaders, activists, among others and to make promises to further their personal agendas in return for support or to make an anti-state and anti-government deal with more radical anarchists that not necessarily support some of our economical views."
+USSA.17.d:0 "Without much support for the WSF's presidential candidacy from major political actors and with a discourse unknown by large sectors of the population, party members of the WSF have begun courting and forming an anti-government and anti-state alliance with large anarchist organizations and individuals."
+USSA.18.d:0 "After months of political bickering and electoral deals, the deadline for announcing the presidential tickets has been reached and all candidates have been formally confirmed. Campaigning has already begun around the country and marks the beginning of a tight and arduous political race. Who shall be victorious? We shall yet see, but it has become clear that there is no favorite."
+USSA.27.d:0 "The long electoral race between Floyd B. Olson, Bill Haywood and Arnold Petersen is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.28.d:0 "The long electoral race between Floyd B. Olson, Bill Haywood and Lucy Parsons is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.29.d:0 "The long electoral race between Floyd B. Olson and Bill Haywood is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.30.d:0 "The long electoral race between Floyd B. Olson, John L. Lewis and Arnold Petersen is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.31.d:0 "The long electoral race between Floyd B. Olson, John L. Lewis and Lucy Parsons is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.32.d:0 "The long electoral race between Huey Long, Seymour Stedman and Arnold Petersen is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.33.d:0 "The long electoral race between Huey Long, Seymour Stedman and Lucy Parsons is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.34.d:0 "The long electoral race between Huey Long, John L. Lewis, Norman Thomas and Arnold Petersen is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.35.d:0 "The long electoral race between Huey Long, John L. Lewis, Norman Thomas and Lucy Parsons is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.36.d:0 "The long electoral race between Huey Long, Bill Haywood, Norman Thomas and Arnold Petersen is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.37.d:0 "The long electoral race between Huey Long, Bill Haywood, Norman Thomas and Lucy Parsons is over. Counting of votes is finishing and the results are rolling in. Who has won?"
+USSA.38.d:0 "The long electoral race between Huey Long, Bill Haywood and Norman Thomas is over. Counting of votes is finishing and the results are rolling in. Who has won?"
 
 ### Custom Tooltips###
-USSA_elections_long_leaves:0 "§BThe People's Party will leave the Socialist-Populist Coalition§!"
-
-
+USSA_elections_long_leaves:0 "§TThe People's Party will leave the Socialist-Populist Coalition."
+USSA_elections_seymour_candidate:0 "§TSeymour Stedman will run for president in a SPA-CLP coalition and will not need to search for alliances."
+USSA_elections_lewis_candidate:0 "§TJohn L. Lewis will run for president and the CLP will host their own candidacy."
+USSA_elections_haywood_candidate:0 "§TBill Haywood will run for president and he CLP will host their own candidacy."
+USSA_elections_norman_candidate:0 "§TNorman Thomas will run for president."
+USSA_elections_petersen_candidate:0 "§TArnold Petersen will run for president."
+USSA_elections_parsons_candidate:0 "§TLucy Parsons will run for president, under the guidance of Alexander Berkman."
+USSA_elections_haywood_support:0 "§TBill Haywood will be supported by the WSF and will not need to look for new alliances."
+USSA_elections_black_SPA:0 "§TThe SPA will host Asa Philip Randolph as its vice-president and incorporate some of his policies."
+USSA_elections_black_CLP:0 "§TThe CLP will be supported by SAMAA and incorporate some of its policies."
+USSA_elections_black_PPA:0 "§TThe PPA will be supported by SAMAA and incorporate some of its policies."
+USSA_elections_black_WSF:0 "§TThe WSF will be supported by SAMAA and incorporate some of its policies."
+USSA_elections_black_SPA_seymour:0 "§TThe SPA-CLP coalition will be supported by SAMAA."
+USSA_elections_black_SPA_WSF:0 "§TThe SPA-WSF alliance will be supported by SAMAA."
+USSA_elections_dudley_long:0 "§THuey Long will form an alliance with William Dudley Pelley and incorporate some of his policies."
+USSA_elections_olson:0 "§TNorman Thomas and Huey Long will drop their candidacies and Floyd B. Olson will run for president under a PPA-CLP coalition."
+USSA_elections_CLP_motley:0 "§TNorman Thomas will work in appeasing interest groups at the cost of pushing his own agenda."
+USSA_elections_SPA_cannon:0 "§TThe SPA will host James P. Cannon as its vice-president and incorporate some of his policies."
+USSA_elections_WSF_motley:0 "§TThe WSF will work in appeasing interest groups at the cost of their own agenda."
+USSA_elections_anarcho_WSF:0 "§TThe WSF will incorporate anarchist policies into their agenda."
 
