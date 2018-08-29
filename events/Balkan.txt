@@ -1,0 +1,79 @@
+﻿################
+#
+# Balkan Wars Events
+#
+##################
+
+add_namespace = balkan
+
+#firstbalkanwarbreaksout#timetoremovekebab#
+news_event = {
+	id = balkan.1
+	title = balkan.1.t
+	desc = balkan.1.d
+	picture = GFX_news_event_first_balkan_war
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = balkan_war_1
+	}
+
+	option = {
+		name = balkan.1.a
+	}
+}
+
+#AlbanianRevoulution
+news_event = {
+	id = balkan.2
+	title = balkan.2.t
+	desc = balkan.2.d
+	picture = GFX_news_event_albanian_revolution
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = albanian_rev
+	}
+
+	option = {
+		name = balkan.2.a
+	}
+}
+
+#BalkanCountriesVictory
+news_event = {
+	id = balkan.3
+	title = balkan.3.t
+	desc = balkan.3.d
+	picture = GFX_news_event_ottoman_surrender
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = balkan_country_vic
+	}
+
+	option = {
+		name = balkan.3.a
+	}
+}
+
+#OttomansVictory
+news_event = {
+	id = balkan.4
+	title = balkan.4.t
+	desc = balkan.4.d
+	picture = GFX_news_event_ottoman_victory
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = ottoman_vic
+	}
+
+	option = {
+		name = balkan.4.a
+	}
+}

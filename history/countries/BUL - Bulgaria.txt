@@ -25,14 +25,18 @@ set_convoys = 30
 set_stability = 0.34
 set_war_support = 0.60
 
+create_faction = "Sofia Pact"
+add_to_faction = SER
+add_to_faction = MNT
+
 set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 19
+			popularity = 11
 		}
 		revolutionary_unionist = {
-			popularity = 17
+			popularity = 12
 		}
 		libertarian_socialist = {
 			popularity = 7
@@ -41,29 +45,26 @@ set_politics = {
 			popularity = 4
 		}
 		social_liberal = {
-			popularity = 5
+			popularity = 4
 		}
 		market_liberal = {
-			popularity = 8
+			popularity = 2
 		}
 		social_conservative = {
 			popularity = 12
 		}
 		authoritarian_democrat = {
-			popularity = 18
-		}
-		paternal_autocrat = {
-			popularity = 9
-		}
-		national_populist = {
 			popularity = 1
 		}
+		paternal_autocrat = {
+			popularity = 4
+		}
 		national_populist = {
-			popularity = 0
+			popularity = 43
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = national_populist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

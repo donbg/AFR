@@ -4,7 +4,7 @@ oob = "GRE_1936"
 
 set_research_slots = 3
 set_stability = 0.67
-set_war_support = 0.42
+set_war_support = 0.50
 
 add_ideas = {
 	limited_conscription
@@ -28,7 +28,7 @@ set_technology = {
 	transport = 1
 }
 
-set_convoys = 40
+set_convoys = 44
 
 set_politics = {
 
@@ -37,52 +37,70 @@ set_politics = {
 			popularity = 3
 		}
 		revolutionary_unionist = {
-			popularity = 8
+			popularity = 5
 		}
 		libertarian_socialist = {
 			popularity = 3
 		}
 		social_democrat = {
-			popularity = 0
-		}
-		social_liberal = {
 			popularity = 8
 		}
+		social_liberal = {
+			popularity = 11
+		}
 		market_liberal = {
-			popularity = 43
+			popularity = 7
 		}
 		social_conservative = {
-			popularity = 28
+			popularity = 17
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 31
 		}
 		paternal_autocrat = {
-			popularity = 5
+			popularity = 8
 		}
 		national_populist = {
-			popularity = 2
-		}
-		national_populist = {
-			popularity = 0
+			popularity = 7
 		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 
-set_stability = 0.9
+
+create_country_leader = {
+	name = "George II"
+	desc = "POLITICS_George_II_DESC"
+	picture = "Portrait_Greece_George_II.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George II"
+	desc = "POLITICS_George_II_DESC"
+	picture = "Portrait_Greece_George_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Ioannis Metaxas"
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
