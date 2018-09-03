@@ -3,19 +3,17 @@ state={
 	name="STATE_838"
 
 		history={
-		owner = USS
+		owner = LIT
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = USS
-		victory_points = {
-			11830 1 
-		}
+		add_core_of = LIT
+		
 
 	}
 
 	provinces={
-		11830 
+		233 9341 406 277 358
 	}
 	manpower=687497
 	buildings_max_level_factor=1.000

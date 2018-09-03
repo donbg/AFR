@@ -3,7 +3,7 @@ state={
 	name="STATE_914"
 
 	history={
-		owner = RUS
+		owner = LAT
 		victory_points = {
 			310 5 
 		}
@@ -14,12 +14,11 @@ state={
 			air_base = 6
 
 		}
-		add_core_of = RUS
 		add_core_of = LAT
 	}
 
 	provinces={
-		222 310 319 341 415 6459 7482 9275 
+		222 310 319 341 6459 7482 9275 
 	}
 	manpower=256150
 	buildings_max_level_factor=1.000

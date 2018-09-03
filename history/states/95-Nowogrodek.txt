@@ -4,18 +4,18 @@ state={
 	name="STATE_95"
 
 	history={
-		owner = RUS
+		owner = POL
 		buildings = {
 			infrastructure = 4
 			air_base = 3
 
 		}
-		add_core_of = RUS
+		add_core_of = POL
 
 	}
 
 	provinces={
-		3309 6359 9236 9304 9359 11341 
+		3309 6359 9236 9304 9359 11341 11285
 	}
 	manpower=1157200
 	buildings_max_level_factor=1.000

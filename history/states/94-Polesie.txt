@@ -4,23 +4,20 @@ state={
 	name="STATE_94"
 
 	history={
-		owner = RUS
+		owner = POL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		victory_points = {
-			3392 1 
-		}
-		add_core_of = RUS
+		add_core_of = POL
 
 	}
 
 	provinces={
-		535 560 3496 3556 6280 6579 11503 
+		 6280 3556
 	}
-	manpower=1232200
+	manpower=596200
 	buildings_max_level_factor=1.000
 	state_category=town
 }
