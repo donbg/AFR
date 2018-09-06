@@ -6,11 +6,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_USS_dust_bowl"
-		texturefile = "gfx/interface/ideas/ideas/idea_generic_agrarian_society.dds"
+		texturefile = "gfx/interface/ideas/USS/spirits/idea_dust_bowl.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_USS_dust_bowl_2"
-		texturefile = "gfx/interface/ideas/ideas/idea_generic_agrarian_society.dds"
+		texturefile = "gfx/interface/ideas/USS/spirits/idea_dust_bowl.dds"
 	}	
 }
