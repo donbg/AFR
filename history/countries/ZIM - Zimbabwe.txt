@@ -31,6 +31,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 100
 		}
+		fratellist = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = paternal_autocrat

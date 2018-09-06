@@ -29,6 +29,9 @@ set_politics = {
 		authoritarian_democrat = { 
 			popularity = 30
 		}
+		fratellist = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = market_liberal

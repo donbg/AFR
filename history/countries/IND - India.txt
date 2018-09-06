@@ -62,7 +62,7 @@ parties = {
 		national_populist = {
 			popularity = 70
 		}
-		national_populist = {
+		fratellist = {
 			popularity = 7
 		}
 	}

@@ -36,6 +36,9 @@ set_politics = {
 		authoritarian_democrat = { 
 			popularity = 100
 		}
+		fratellist = {
+			popularity = 0
+		}
 	}
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"

@@ -26,7 +26,6 @@ ideas = {
 		}
 		
 		USS_dust_bowl = {
-			picture = "gfx/interface/ideas/USS/spirits/idea_dust_bowl_2.dds"
 		
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -35,7 +34,6 @@ ideas = {
 			}
 		}
 		USS_dust_bowl_2 = {
-			picture = "gfx/interface/ideas/USS/spirits/idea_dust_bowl_2.dds"
 		
 			modifier = {
 				consumer_goods_factor = 0.1

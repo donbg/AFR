@@ -28,10 +28,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_listen_unions.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_sudeten_crisis"
-		texturefile = "gfx/interface/goals/goal_sudeten_crisis.tga"
-	}
-	SpriteType = {
 		name = "GFX_goal_air_red"
 		texturefile = "gfx/interface/goals/goal_air_red.tga"
 	}	
@@ -46,10 +42,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_pru_red"
 		texturefile= "gfx/interface/goals/goal_pru_red.tga"
-	}
-	SpriteType = {
-		name = "GFX_goal_czech_flag"
-		texturefile= "gfx/interface/goals/goal_czech_flag.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_pru_red_friend"

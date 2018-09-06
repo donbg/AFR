@@ -68,6 +68,9 @@ set_politics = {
 		authoritarian_democrat = {
 			popularity = 34
 		}
+		fratellist = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = social_conservative

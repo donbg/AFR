@@ -1,0 +1,23 @@
+spriteTypes = {
+
+################## USSA #############
+
+spriteType = {
+	name = "GFX_idea_USS_john_lewis_hog_run"
+	texturefile = "gfx/interface/ideas/USS/ministers/USS_john_lewis_hog_run.dds"
+}
+
+spriteType = {
+	name = "GFX_idea_USS_walter_lippmann_for_run"
+	texturefile = "gfx/interface/ideas/USS/ministers/USS_walter_lippmann_for_run.dds"
+}
+spriteType = {
+	name = "GFX_idea_USS_william_green_eco_run"
+	texturefile = "gfx/interface/ideas/USS/ministers/USS_william_green_eco_run.dds"
+}
+spriteType = {
+	name = "GFX_idea_USS_edward_james_sec_run"
+	texturefile = "gfx/interface/ideas/USS/ministers/USS_Edward_James.dds"
+}
+
+}

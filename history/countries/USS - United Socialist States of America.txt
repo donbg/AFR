@@ -74,6 +74,9 @@ set_politics = {
 		national_populist = {
 			popularity = 9
 		}
+		fratellist = {
+			popularity = 0
+		}
 	}
 
 	ruling_party = revolutionary_unionist
@@ -108,9 +111,9 @@ create_country_leader = {
 }
 	
 create_country_leader = {
-	name = "John L. Lewis"
-	desc = "POLITICS_JOHN_L_LEWIS_DESC"
-	picture = "gfx/leaders/USS/John_L_Lewis.tga"
+	name = "Emil Seidel"
+	desc = "POLITICS_EMIL_SEIDEL_DESC"
+	picture = "gfx/leaders/USS/Emil_Seidel.tga"
 	expire = "1965.1.1"
 	ideology = revolutionary_unionist_subtype
 	traits = {
@@ -118,9 +121,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Arnold Petersen"
-	desc = "POLITICS_ARNOLD_PETERSEN_DESC"
-	picture = "GFX_USS_arnold_petersen.tga"
+	name = "Bill Haywood"
+	desc = "POLITICS_BILL_HAYWOOD_DESC"
+	picture = "GFX_USS_bill_haywood.tga"
 	expire = "1965.1.1"
 	ideology = libertarian_socialist_subtype
 	traits = {
@@ -138,9 +141,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Burton K. Wheeler"
-	desc = "POLITICS_BURTON_K_WHEELER_DESC"
-	picture = "GFX_USS_herbert_hoover.tga"
+	name = "Robert M. La Follette Jr."
+	desc = "POLITICS_ROBERT_FOLLETTE_JR_DESC"
+	picture = "GFX_USS_robert_follette_jr.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -158,7 +161,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "John Nance Garner"
+	name = "John Nance Garner."
 	desc = "POLITICS_JOHN_NANCE_GARNER_DESC"
 	picture = "GFX_USS_john_nance_garner.tga"
 	expire = "1965.1.1"

@@ -36,6 +36,9 @@ set_politics = {
 			popularity = 15
 			#banned = no #default is no
 		}
+		fratellist = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = market_liberal

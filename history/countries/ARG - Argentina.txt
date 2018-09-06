@@ -38,51 +38,50 @@ set_politics = {
 
 	parties = {
 		social_democrat = { 
-			popularity = 11
+			popularity = 5
 		}
 
 		social_liberal = { 
-			popularity = 14
+			popularity = 0
 		}
 
 		libertarian_socialist = { 
-			popularity = 4
+			popularity = 64
 		}
 
 		vanguard_marxist = { 
-			popularity = 1
+			popularity = 5
 		}
 
 		market_liberal = { 
-			popularity = 16
+			popularity = 6
 		}
 
 		social_conservative = { 
-			popularity = 12
+			popularity = 4
 		}
 
 		national_populist = {
-			popularity = 17
-		}
-
-		national_populist = {
-			popularity = 1
+			popularity = 0
 		}
 		
 		paternal_autocrat = {
-			popularity = 2
+			popularity = 6
 		}
 
 		revolutionary_unionist = {
-			popularity = 15
+			popularity = 10
 		}
 		
 		authoritarian_democrat = { 
-			popularity = 6
+			popularity = 0
+		}
+		fratellist = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = libertarian_socialist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no

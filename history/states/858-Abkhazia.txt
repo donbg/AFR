@@ -9,11 +9,13 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = GEO
-
+		victory_points = {
+			9663 1 
+		}
 	}
 
 	provinces={
-	    11599 672 11617 11647
+	    11599 672 11617 11647 9663
 	}
 	manpower=231168
 	buildings_max_level_factor=1.000

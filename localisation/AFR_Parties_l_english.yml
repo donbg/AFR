@@ -9,6 +9,7 @@ social_conservative_noun:0 "Social Conservatism"
 authoritarian_democrat_noun:0 "Authoritarian Dem."
 paternal_autocrat_noun:0 "Paternal Autocracy"
 national_populist_noun:0 "National Populism"
+fratellist_noun:0 "Fratellism"
 
 vanguard_marxist_desc:0 "Vanguard Marxist"
 revolutionary_unionist_desc:0 "Revolutionary Unionist"
@@ -20,6 +21,7 @@ social_conservative_desc:0 "Social Conservative"
 authoritarian_democrat_desc:0 "Authoritarian Democrat"
 paternal_autocrat_desc:0 "Paternal Autocrat"
 national_populist_desc:0 "National Populist"
+fratellist_desc:0 "Fratellist"
 
 vanguard_marxist_subtype_desc:0 "Vanguard Marxism is often used as a term to describe the various authoritarian interpretations of Socialism, which propose a much stronger state than which is advocated by both Libertarian Socialists and Revolutionary Unionists. Vanguard Marxism, as a general term, advocates centralized economic planning, political consciousness of the populace, and a strong state in order to enable a revolutionary political vanguard to establish a dictatorship of the proletariat."
 
@@ -42,3 +44,5 @@ paternal_autocrat_subtype_desc:0 "Paternal Autocracy is not a political ideology
 national_populist_subtype_desc:0 "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
 
 internationalist_subtype_desc:0 "Developed from particularly interventionist branches of revolutionary_unionism and marxism overall, Internationalist Socialism, as it calls itself, or more commonly known as Internationalism,  is a socialist ideology that proposes the workers, once in power, must organize to enact a perpetual revolution, and to continue proactively in their struggle to bring socialism to the world. While most socialist strains are of international nature, the proactive spirit of Internationalism has given it a more militant nature, and Internationalist ideologues are known advocates of increased militarization of the workers in name of the revolution, as well as establishing a strong state that is able to defend the workers’ interests and protect the revolution from reactionary forces that may oppose it, as the revolution is never supposed to stop spreading."
+
+fratellist_subtype_desc:0 "Fratellism is an ultranationalist political ideology that promotes that the nation is an organic unity, brought together by culture and values, and therefore needs to be led by a strong recognizable leader whose regime is founded on strong militarist, religious and revanchist discourse and the idea of cultural superiority to support imperialist and colonialist programmes. Fratellist states do not repress based on ethnicity and race but rather on cultural, ideological and religious reasons, and have one-party governments, a state religion or, in the case of multireligious nations, an ambiguous stance on religion. Economically, Fratellism defends the need for social hierarchy but upholds the necessity of cooperation between socioeconomic classes, guided by trade unionism, corporatism and organic rather than ideological political representation."

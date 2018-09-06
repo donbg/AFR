@@ -65,7 +65,7 @@ SIK = {
 			national_populist = {
 				popularity = 8
 			}
-			national_populist = {
+			fratellist = {
 				popularity = 0
 			}
 		}

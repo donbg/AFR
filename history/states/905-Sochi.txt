@@ -4,24 +4,19 @@ state={
 	name="STATE_905"
 
 	history={
-		owner = GEO
-		victory_points = {
-			9663 1 
-		}
+		owner = TIB
+		
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
-			9663 = {
-				naval_base = 1
-			}
+
 		}
-		add_core_of = GEO
+		add_core_of = TIB
 	}
 
 	provinces={
-		9663
+		8037 4914 12899 4964
 	}
 	manpower=14950
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pastoral
 }

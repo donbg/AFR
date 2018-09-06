@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	
+	
+	
+	SpriteType = {
+		name = "GFX_goal_british_cooperation"
+		texturefile= "gfx/interface/goals/focus_chi_british_cooperation.dds"
+	}
+}

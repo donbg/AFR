@@ -72,9 +72,9 @@ set_politics = {
         national_populist = {
             popularity = 0
         }
-        national_populist = {
-            popularity = 4
-        }
+       fratellist = {
+			popularity = 4
+		}
     }
 	
 	ruling_party = market_liberal

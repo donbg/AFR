@@ -60,6 +60,9 @@ set_politics = {
 		national_populist = {
 			popularity = 38
 		}
+		fratellist = {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = national_populist

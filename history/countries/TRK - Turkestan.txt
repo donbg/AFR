@@ -52,7 +52,7 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 14
 		}
-		national_populist = {
+		fratellist = {
 			popularity = 4
 		}
 		national_populist = {

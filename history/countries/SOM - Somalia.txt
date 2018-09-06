@@ -49,7 +49,7 @@ set_politics = {
 		national_populist = {
 			popularity = 15
 		}
-		national_populist = {
+		fratellist = {
 			popularity = 0
 		}
 	}

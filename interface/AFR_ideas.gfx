@@ -1,0 +1,16 @@
+spriteTypes = {
+
+	############
+	# Generic Companies
+	############
+
+	spriteType = {
+		name = "GFX_idea_USS_dust_bowl"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_agrarian_society.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USS_dust_bowl_2"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_agrarian_society.dds"
+	}	
+}
