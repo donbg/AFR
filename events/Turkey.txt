@@ -1,1 +1,30 @@
-﻿
+﻿################
+#
+# Turkey Events
+#
+##################
+
+
+add_namespace = turkey
+
+
+#AlbanianRevoulution
+country_event  = {
+	id = turkey.1
+	title = turkey.1.t
+	desc = turkey.1.d
+
+	trigger = {
+	date > 1936.02.15
+    date < 1936.03.01
+    }
+ 
+	option = {
+		name = turkey.1.a
+		hidden_effect = { ALB = { transfer_state = 44 transfer_state = 765 } }
+        declare_war_on = {
+        target = ALB
+        type = annex_everything
+        }
+	}
+}

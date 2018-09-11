@@ -1,24 +1,22 @@
 ﻿capital = 48
 
-oob = "INF"
-
-country_event = { id = bulgaria.1 days = 1}
+oob = "BUL_1936"
 
 add_ideas = {
-	limited_conscription
-	GEN_Szymon_Kowalski_hog_ade
-	GEN_Jozef_Korczak_eco_ade
-	GEN_Gaj_Bosko_sec_ade
-	GEN_Ludwik_Czaplinski_for_ade
+    limited_conscription
+    GEN_Szymon_Kowalski_hog_ade
+    GEN_Jozef_Korczak_eco_ade
+    GEN_Gaj_Bosko_sec_ade
+    GEN_Ludwik_Czaplinski_for_ade
 }
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	motorised_infantry = 1
-	early_fighter = 1
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    tech_support = 1        
+    tech_engineers = 1
+    motorised_infantry = 1
+    early_fighter = 1
 }
 
 set_convoys = 30
@@ -31,46 +29,46 @@ add_to_faction = MNT
 
 set_politics = {
 
-	parties = {
-		vanguard_marxist = {
-			popularity = 11
-		}
-		democratic_socialist = {
-			popularity = 12
-		}
-		libertarian_socialist = {
-			popularity = 7
-		}
-		social_democrat = {
-			popularity = 4
-		}
-		social_liberal = {
-			popularity = 4
-		}
-		market_liberal = {
-			popularity = 2
-		}
-		social_conservative = {
-			popularity = 12
-		}
-		authoritarian_democrat = {
-			popularity = 1
-		}
-		paternal_autocrat = {
-			popularity = 4
-		}
-		national_populist = {
-			popularity = 43
-		}
-		fratellist = {
-			popularity = 0
-		}
-	}
-	
-	ruling_party = national_populist
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
+    parties = {
+        vanguard_marxist = {
+            popularity = 9
+        }
+        democratic_socialist = {
+            popularity = 8
+        }
+        libertarian_socialist = {
+            popularity = 6
+        }
+        social_democrat = {
+            popularity = 3
+        }
+        social_liberal = {
+            popularity = 4
+        }
+        market_liberal = {
+            popularity = 2
+        }
+        social_conservative = {
+            popularity = 11
+        }
+        authoritarian_democrat = {
+            popularity = 1
+        }
+        paternal_autocrat = {
+            popularity = 4
+        }
+        national_populist = {
+            popularity = 41
+        }
+        fratellist = {
+            popularity = 11
+        }
+    }
+    
+    ruling_party = national_populist
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
 
 }
 
@@ -197,56 +195,56 @@ create_country_leader = {
 
 
 create_field_marshal = {
-	name = "Boris III"
-	portrait_path = "gfx/leaders/BUL/Boris_III_Military.dds"
-	traits = { defensive_doctrine }
-	skill = 4
+    name = "Boris III"
+    portrait_path = "gfx/leaders/BUL/Boris_III_Military.dds"
+    traits = { defensive_doctrine }
+    skill = 4
 }
 
 create_corps_commander = {
-	name = "Racho Petrov"
-	portrait_path = "gfx/leaders/BUL/Racho_Petrov.dds"
-	traits = { old_guard trait_mountaineer }
-	skill = 3
+    name = "Racho Petrov"
+    portrait_path = "gfx/leaders/BUL/Racho_Petrov.dds"
+    traits = { old_guard trait_mountaineer }
+    skill = 3
 }
 
 create_corps_commander = {
-	name = "Kiril I"
-	picture = "Portrait_Kiril_I.dds"
-	traits = { hill_fighter }
-	skill = 3
+    name = "Kiril I"
+    picture = "Portrait_Kiril_I.dds"
+    traits = { hill_fighter }
+    skill = 3
 }
 
 create_corps_commander = {
-	name = "Stiliyan Kovachev"
-	picture = "Portrait_Stiliyan_Kovachev.dds"
-	skill = 2
+    name = "Stiliyan Kovachev"
+    picture = "Portrait_Stiliyan_Kovachev.dds"
+    skill = 2
 }
 
 create_corps_commander = {
-	name = "Hristo Lukov"
-	picture = "Portrait_Hristo_Lukov.dds"
-	traits = { trickster }
-	skill = 2
+    name = "Hristo Lukov"
+    picture = "Portrait_Hristo_Lukov.dds"
+    traits = { trickster }
+    skill = 2
 }
 
 create_field_marshal = {
-	name = "Nikola Zhekov"
-	picture = "Portrait_Nikola_Zhekov.dds"
-	traits = { old_guard organisational_leader }
-	skill = 4
+    name = "Nikola Zhekov"
+    picture = "Portrait_Nikola_Zhekov.dds"
+    traits = { old_guard organisational_leader }
+    skill = 4
 }
 
 create_corps_commander = {
-	name = "Ivan Valkov"
-	picture = "Portrait_Ivan_Valkov.dds"
-	traits = { old_guard }
-	skill = 3
+    name = "Ivan Valkov"
+    picture = "Portrait_Ivan_Valkov.dds"
+    traits = { old_guard }
+    skill = 3
 }
 
 create_field_marshal = {
-	name = "Nikola Mikhov"
-	picture = "Portrait_Nikola_Mikhov.dds"
-	traits = { old_guard }
-	skill = 3
+    name = "Nikola Mikhov"
+    picture = "Portrait_Nikola_Mikhov.dds"
+    traits = { old_guard }
+    skill = 3
 }
