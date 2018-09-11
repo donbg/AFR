@@ -59,7 +59,7 @@ ideas = {
 		}
 		
 		head_of_government = {
-			USS_emil_seidel_des = {
+			USS_emil_seidel_hog_des = {
 				allowed = { original_tag = USS }
 				available = {
 					has_government = democratic_socialist
