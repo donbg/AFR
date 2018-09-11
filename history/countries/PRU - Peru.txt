@@ -1,6 +1,6 @@
 ﻿capital = 303
 
-oob = "PRU_1936"
+oob = "INF"
 set_research_slots = 3
 add_ideas = {
 	civilian_economy
@@ -71,7 +71,7 @@ set_politics = {
 			popularity = 5
 		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 3
 			#banned = no #default is no
 		}

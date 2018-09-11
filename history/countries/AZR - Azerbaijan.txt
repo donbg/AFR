@@ -1,6 +1,6 @@
 ﻿capital = 229 #Baku
 
-oob = "AZR_1936"
+oob = "INF"
 
 set_research_slots = 3
 set_stability = 0.50
@@ -53,7 +53,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 4
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 7
 		}
 		libertarian_socialist = {

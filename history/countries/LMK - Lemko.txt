@@ -1,6 +1,6 @@
 ﻿capital = 800
 
-oob = "LMK"
+oob = "INF"
 
 set_research_slots = 3
 
@@ -24,7 +24,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 6
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 10
 		}
 		libertarian_socialist = {

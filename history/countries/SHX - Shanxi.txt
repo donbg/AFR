@@ -1,6 +1,6 @@
 ﻿capital = 615
 
-oob = "SHX_1936"
+oob = "INF"
 
 set_stability = 0.50
 set_war_support = 0.50
@@ -28,7 +28,7 @@ set_politics = {
 			popularity = 0
 		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 0
 			#banned = no #default is no
 		}

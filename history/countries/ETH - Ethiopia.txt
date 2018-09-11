@@ -1,6 +1,6 @@
 ﻿capital = 271
 
-oob = "ETH_1936"
+oob = "INF"
 
 # Starting tech
 set_technology = {
@@ -29,11 +29,9 @@ set_politics = {
 			popularity = 0
 		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 0
-			#banned = no #default is no
 		}
-		
 		authoritarian_democrat = { 
 			popularity = 100
 		}

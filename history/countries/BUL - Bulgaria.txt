@@ -1,6 +1,6 @@
 ﻿capital = 48
 
-oob = "BUL_1936"
+oob = "INF"
 
 country_event = { id = bulgaria.1 days = 1}
 
@@ -35,7 +35,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 11
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 12
 		}
 		libertarian_socialist = {

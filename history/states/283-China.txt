@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = KMT
+		owner = XSM
+		add_core_of = XSM
 		add_core_of = KMT
 		add_core_of = MAN
 		buildings = {

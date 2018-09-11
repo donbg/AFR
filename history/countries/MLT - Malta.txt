@@ -1,6 +1,6 @@
 ﻿capital = 116 # Malta
 
-oob = "Malta_1935"
+oob = "INF"
 
 set_research_slots = 2
 set_stability = 0.80
@@ -26,7 +26,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 0
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 0
 		}
 		libertarian_socialist = {

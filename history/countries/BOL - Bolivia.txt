@@ -1,6 +1,6 @@
 ﻿capital = 302
 
-oob = "BOL_1936"
+oob = "INF"
 
 add_ideas = {
 	civilian_economy
@@ -50,7 +50,7 @@ set_politics = {
 			popularity = 15
 		}
 
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 20
 		}
 

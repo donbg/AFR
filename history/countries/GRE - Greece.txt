@@ -1,6 +1,6 @@
 ﻿capital = 47
 
-oob = "GRE_1936"
+oob = "INF"
 
 set_research_slots = 3
 set_stability = 0.67
@@ -36,7 +36,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 3
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 5
 		}
 		libertarian_socialist = {

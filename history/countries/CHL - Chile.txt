@@ -1,6 +1,6 @@
 capital = 279
 
-oob = "CHL_1936"
+oob = "INF"
 
 set_research_slots = 3
 set_stability = 0.60
@@ -42,11 +42,11 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 5
 		}
-		revolutionary_unionist = {
-			popularity = 51
+		democratic_socialist = {
+			popularity = 10
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 51
 		}
 		social_democrat = {
 			popularity = 13
@@ -77,7 +77,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = revolutionary_unionist
+	ruling_party = libertarian_socialist
 	last_election = "1935.10.30"
 	election_frequency = 60
 	elections_allowed = no

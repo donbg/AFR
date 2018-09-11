@@ -40,7 +40,7 @@ set_politics = {
 		national_populist = {
 			popularity = 5
 		}		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 25
 		}
 		libertarian_socialist = {

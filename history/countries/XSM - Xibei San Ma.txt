@@ -1,6 +1,6 @@
 ﻿capital = 604
 
-oob = "XSM_1936"
+oob = "INF"
 
 set_stability = 0.50
 set_war_support = 0.50
@@ -38,7 +38,7 @@ SIK = {
 			vanguard_marxist = {
 				popularity = 0
 			}
-			revolutionary_unionist = {
+			democratic_socialist = {
 				popularity = 0
 			}
 			libertarian_socialist = {

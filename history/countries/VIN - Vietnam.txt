@@ -1,6 +1,6 @@
 ﻿capital = 671 #Hanoi
 
-oob = "VIN_1936"
+oob = "INF"
 
 set_research_slots = 3
 set_stability = 0.88
@@ -58,7 +58,7 @@ parties = {
 		vanguard_marxist = {
 			popularity = 0
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 2
 		}
 		libertarian_socialist = {

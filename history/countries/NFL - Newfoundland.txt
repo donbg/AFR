@@ -1,6 +1,6 @@
 ﻿capital = 331
 
-oob = "NFL"
+oob = "INF"
 
 set_research_slots = 3
 set_cosmetic_tag = NFL_DOM
@@ -43,7 +43,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 3
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 6
 		}
 		libertarian_socialist = {

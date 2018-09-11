@@ -36,9 +36,9 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	revolutionary_unionist = {
+	democratic_socialist = {
 		types = {
-			revolutionary_unionist_subtype = {}
+			democratic_socialist_subtype = {}
 			}
 		dynamic_faction_names = {
 			"FACTION_NAME_revolutionary_unionist_1"
@@ -304,7 +304,7 @@ ideologies = {
 			"FACTION_NAME_FRATELLIST_5"
 			"FACTION_NAME_FRATELLIST_6"
 		}
-		color = { 77 0 122 } 
+		color = { 153 115 79 } 
 		rules = {
 			can_force_government = no
 			can_puppet = no

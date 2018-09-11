@@ -45,57 +45,71 @@ ideas = {
 	
 		##Game start###
 		head_of_government = {
-			USS_john_lewis_hog_run = {
+			USS_john_lewis_hog_lis = {
 				allowed = { original_tag = USS }
 				available = {
-					has_government = revolutionary_unionist
+					has_government = libertarian_socialist
 					NOT = {has_country_flag = ministers_cannot_be_replaced}
 					has_country_flag = 
 				}
 			removal_cost = -1
-			traits = { head_of_government hog_ambitious_union_boss revolutionary_unionist }
+			traits = { head_of_government hog_ambitious_union_boss libertarian_socialist }
+			cancel_if_invalid = no
+			}
+		}
+		
+		head_of_government = {
+			USS_emil_seidel_des = {
+				allowed = { original_tag = USS }
+				available = {
+					has_government = democratic_socialist
+					NOT = {has_country_flag = ministers_cannot_be_replaced}
+					has_country_flag = 
+				}
+			removal_cost = -1
+			traits = { head_of_government hog_ambitious_union_boss democratic_socialist }
 			cancel_if_invalid = no
 			}
 		}
 		
 		foreign_minister  = {
-			USS_walter_lippmann_for_run = {
+			USS_walter_lippmann_for_des = {
 				allowed = { original_tag = USS }
 				available = {
-					has_government = revolutionary_unionist
+					has_government = democratic_socialist
 					NOT = {has_country_flag = ministers_cannot_be_replaced}
 					has_country_flag = 
 				}
 			removal_cost = -1
-			traits = { foreign_minister for_ideological_crusader revolutionary_unionist }
+			traits = { foreign_minister for_ideological_crusader democratic_socialist }
 			cancel_if_invalid = no
 			}
 		}
 		
 		economy_minister = {
-			USS_william_green_eco_run = {
+			USS_william_green_eco_des = {
 				allowed = { original_tag = USS }
 				available = {
-					has_government = revolutionary_unionist
+					has_government = democratic_socialist
 					NOT = {has_country_flag = ministers_cannot_be_replaced}
 					has_country_flag = 
 				}
 			removal_cost = -1
-			traits = { economy_minister eco_industrialiser revolutionary_unionist }
+			traits = { economy_minister eco_industrialiser democratic_socialist }
 			cancel_if_invalid = no
 			}
 		}
 
 		security_minister = {
-			USS_edward_james_sec_run = {
+			USS_edward_james_sec_des = {
 				allowed = { original_tag = USS }
 				available = {
-					has_government = revolutionary_unionist
+					has_government = democratic_socialist
 					NOT = {has_country_flag = ministers_cannot_be_replaced}
 					has_country_flag = 
 				}
 			removal_cost = -1
-			traits = { security_minister sec_compassionate_gentleman revolutionary_unionist }
+			traits = { security_minister sec_compassionate_gentleman democratic_socialist }
 			cancel_if_invalid = no
 			}
 		}

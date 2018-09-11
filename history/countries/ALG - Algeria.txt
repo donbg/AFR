@@ -1,6 +1,6 @@
 ﻿capital = 459
 
-OOB = "ALG_1936"
+OOB = "INF"
 
 set_research_slots = 2
 
@@ -19,7 +19,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 6
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 8
 		}
 		libertarian_socialist = {

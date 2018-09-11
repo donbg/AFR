@@ -1,6 +1,6 @@
 ﻿capital = 100 #Iceland
 
-oob = "ICE_1936"
+oob = "INF"
 
 set_research_slots = 3
 
@@ -36,10 +36,9 @@ set_politics = {
 			popularity = 2
 		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 2
 		}
-		
 		social_conservative = {
 			popularity = 0
 		}

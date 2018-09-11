@@ -1,6 +1,6 @@
 ﻿l_english:
 vanguard_marxist_noun:0 "Vanguard Marxism"
-revolutionary_unionist_noun:0 "Revolutionary Unionism"
+democratic_socialist_noun:0 "Democratic Socialism"
 libertarian_socialist_noun:0 "Libertarian Socialist"
 social_democrat_noun:0 "Social Democracy"
 social_liberal_noun:0 "Social Liberalism"
@@ -12,7 +12,7 @@ national_populist_noun:0 "National Populism"
 fratellist_noun:0 "Fratellism"
 
 vanguard_marxist_desc:0 "Vanguard Marxist"
-revolutionary_unionist_desc:0 "Revolutionary Unionist"
+democratic_socialist_desc:0 "Democratic Socialist"
 libertarian_socialist_desc:0 "Libertarian Socialist"
 social_democrat_desc:0 "Social Democrat"
 social_liberal_desc:0 "Social Liberal"
@@ -25,7 +25,7 @@ fratellist_desc:0 "Fratellist"
 
 vanguard_marxist_subtype_desc:0 "Vanguard Marxism is often used as a term to describe the various authoritarian interpretations of Socialism, which propose a much stronger state than which is advocated by both Libertarian Socialists and Revolutionary Unionists. Vanguard Marxism, as a general term, advocates centralized economic planning, political consciousness of the populace, and a strong state in order to enable a revolutionary political vanguard to establish a dictatorship of the proletariat."
 
-revolutionary_unionist_subtype_desc:0 "Although sometimes used as an umbrella term for ideologies which propose a trade-union dominated society of some sort, Orthodox Revolutionary Unionism combines the revolutionary nature of Orthodox Marxism and labour-organization tactics of Industrial Unionism. Orthodox Revolutionary Unionism calls for a central state to manage production, political affairs, and military matters in order to apply just enough state influence to keep society orderly and stable."
+democratic_socialist_subtype_desc:0 "Democratic Socialism is a socialist political ideology and revolutionary strategy that advocates overcoming the bourgeoisie elites of a country through democratic reformism as well as revolutionary action, using both strategies to strike support amongst the people and spread the party's ideological beliefs. In the place of a capitalist state, democratic socialism advocates the establishment of a democratically elected  government overseeing a horizontal economy run on the ideas of workplace democracy and industrial unionism."
 
 libertarian_socialist_subtype_desc:0 "Rather than a defined ideology, Libertarian Socialism is an umbrella term for the different socialist ideologies that put an emphasis in a liberal social and political order, possibly including direct or indirect democracy, or absence of a central government to democratically rule altogether, while possessing certain degree of socialist economic policy that may vary depending on the ideology. Many different sub-ideologies fall under the banner of libertarian socialism. Prominent ideologies under this term may include Participism, Communalism and Anarchism, amongst others."
 
@@ -41,7 +41,7 @@ authoritarian_democrat_subtype_desc:0 "Authoritarian Democracy is an ideology th
 
 paternal_autocrat_subtype_desc:0 "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
 
-national_populist_subtype_desc:0 "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
+national_populist_subtype_desc:0 "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and some form of ethnic or national superiority. Diplomatically, National Populists typically emphasize expansionist, hawkish, and revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
 
 internationalist_subtype_desc:0 "Developed from particularly interventionist branches of revolutionary_unionism and marxism overall, Internationalist Socialism, as it calls itself, or more commonly known as Internationalism,  is a socialist ideology that proposes the workers, once in power, must organize to enact a perpetual revolution, and to continue proactively in their struggle to bring socialism to the world. While most socialist strains are of international nature, the proactive spirit of Internationalism has given it a more militant nature, and Internationalist ideologues are known advocates of increased militarization of the workers in name of the revolution, as well as establishing a strong state that is able to defend the workers’ interests and protect the revolution from reactionary forces that may oppose it, as the revolution is never supposed to stop spreading."
 

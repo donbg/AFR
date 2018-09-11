@@ -1,6 +1,6 @@
 ﻿capital = 336 #Kuala Lumpur
 
-oob = "MAL_1936"
+oob = "INF"
 
 set_research_slots = 3
 
@@ -62,7 +62,7 @@ set_politics = {
 #		national_populist = {
 #		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 33
 		}
 		authoritarian_democrat = {

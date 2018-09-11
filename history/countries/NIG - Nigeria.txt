@@ -1,6 +1,6 @@
 ﻿capital = 559
 
-oob = "NIG_1936"
+oob = "INF"
 
 set_research_slots = 2
 set_stability = 0.20
@@ -22,7 +22,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 0
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 0
 		}
 		libertarian_socialist = {

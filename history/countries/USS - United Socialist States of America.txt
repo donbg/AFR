@@ -47,7 +47,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 10
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 43
 		}
 		libertarian_socialist = {
@@ -86,10 +86,10 @@ set_politics = {
 }
 
 add_ideas = {
-	USS_john_lewis_hog_run
-	USS_walter_lippmann_for_run
-	USS_william_green_eco_run
-	USS_edward_james_sec_run
+	USS_emil_seidel_hog_des
+	USS_walter_lippmann_for_des
+	USS_william_green_eco_des
+	USS_edward_james_sec_des
 	USS_the_federal_debate
 	USS_decentralized_military
 	USS_dust_bowl

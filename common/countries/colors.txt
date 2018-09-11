@@ -246,8 +246,8 @@ JAP = {
 	color_ui = rgb { 231 200 200 }
 }
 KMT = {
-	color = rgb { 93 157 161 }
-	color_ui = rgb { 93 187 191 }
+	color = rgb { 185 56 56 }
+	color_ui = rgb { 148 37 37 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -503,8 +503,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 125 99 90 } #Formerly 235 187 0
-	color_ui = rgb { 190 170 25 }
+	color = rgb { 117 107 60 } #Formerly 235 187 0
+	color_ui = rgb { 88 84 66 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
@@ -784,8 +784,8 @@ GRP = {
 }
 
 ZHI = {
-	color = rgb { 204  206  122 }
-	color_ui = rgb { 214  136  2 }
+	color = rgb { 56 96 166 }
+	color_ui = rgb { 60 81 117 }
 }
 
 CAP = {

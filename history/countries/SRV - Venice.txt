@@ -1,6 +1,6 @@
 ﻿capital = 771
 
-oob = "SRV"
+oob = "INF"
 
 set_research_slots = 3
 
@@ -42,7 +42,7 @@ set_politics = {
         vanguard_marxist = {
             popularity = 14
         }
-        revolutionary_unionist = {
+        democratic_socialist = {
             popularity = 0
         }
         libertarian_socialist = {

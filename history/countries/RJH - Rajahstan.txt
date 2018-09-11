@@ -24,7 +24,7 @@ parties = {
 		vanguard_marxist = {
 			popularity = 0
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 17
 		}
 		libertarian_socialist = {

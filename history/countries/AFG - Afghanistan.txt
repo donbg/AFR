@@ -1,6 +1,6 @@
 ﻿capital = 267
 
-oob = "AFG_1936"
+oob = "INF"
 
 set_stability = 0.55
 set_war_support = 0.65
@@ -24,7 +24,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 14
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 3
 		}
 		libertarian_socialist = {

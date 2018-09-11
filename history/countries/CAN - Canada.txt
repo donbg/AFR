@@ -1,6 +1,6 @@
 ﻿capital = 276
 
-oob = "CAN"
+oob = "INF"
 
 set_research_slots = 3
 set_country_flag = monroe_doctrine
@@ -54,7 +54,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 0
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 1
 		}
 		libertarian_socialist = {

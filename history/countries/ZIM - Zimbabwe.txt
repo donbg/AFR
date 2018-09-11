@@ -1,6 +1,6 @@
 ﻿capital = 545
 
-oob = "ZIM_1936"
+oob = "INF"
 
 set_stability = 0.35
 set_war_support = 0.45
@@ -23,7 +23,7 @@ set_politics = {
 			popularity = 0
 		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 0
 			#banned = no #default is no
 		}

@@ -1,7 +1,7 @@
 ﻿
 capital = 107
 
-oob = "SER_1936"
+oob = "INF"
 
 set_research_slots = 3
 
@@ -39,7 +39,7 @@ set_politics = {
         vanguard_marxist = {
             popularity = 0
         }
-        revolutionary_unionist = {
+        democratic_socialist = {
             popularity = 2
         }
         libertarian_socialist = {

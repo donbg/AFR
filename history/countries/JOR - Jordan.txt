@@ -21,9 +21,8 @@ set_politics = {
 			popularity = 20
 		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 5
-			#banned = no #default is no
 		}
 		
 		authoritarian_democrat = { 

@@ -1,6 +1,6 @@
 ﻿capital = 857 #Grozny
 
-oob = "SSR"
+oob = "INF"
 
 set_research_slots = 3
 set_stability = 0.50
@@ -45,7 +45,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 25
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 35
 		}
 		libertarian_socialist = {

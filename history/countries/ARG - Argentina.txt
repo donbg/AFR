@@ -1,6 +1,6 @@
 ﻿capital = 278
 
-oob = "ARG_1936"
+oob = "INF"
 set_research_slots = 3
 add_ideas = {
 	civilian_economy
@@ -69,8 +69,8 @@ set_politics = {
 			popularity = 6
 		}
 
-		revolutionary_unionist = {
-			popularity = 10
+		democratic_socialist = {
+			popularity = 0
 		}
 		
 		authoritarian_democrat = { 

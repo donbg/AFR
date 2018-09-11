@@ -1,6 +1,6 @@
 ﻿capital = 43
 
-oob = "HUN_1936"
+oob = "INF"
 country_event = { id = hungary.1 days = 1 }
 
 set_research_slots = 3
@@ -23,10 +23,10 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 13
-		}
-		revolutionary_unionist = {
 			popularity = 51
+		}
+		democratic_socialist = {
+			popularity = 13
 		}
 		libertarian_socialist = {
 			popularity = 10
@@ -57,7 +57,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = revolutionary_unionist
+	ruling_party = vanguard_marxist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

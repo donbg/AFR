@@ -187,12 +187,13 @@ social_conservative_promoter:0 "Staunch Traditionalist"
 authoritarian_democrat_promoter:0 "Authoritarian Constitutionalist"
 paternal_autocrat_promoter:0 "Autocratic Charmer"
 national_populist_promoter:0 "Nationalist Demagogue"
+democratic_socialist_promoter:0 "Revolutionary Democrat"
 fratellist_promoter:0 "Integral Nationalist"
 great_compromiser:0 "Great Compromiser"
 
 ### Ideologies ###
 vanguard_marxist:0 "Vanguard Marxists"
-revolutionary_unionist:0 "Revolutionary Unionists"
+democratic_socialist:0 "Democratic Socialists"
 libertarian_socialist:0 "Libertarian Socialists"
 social_democrat:0 "Social Democrats"
 social_liberal:0 "Social Liberals"
@@ -205,7 +206,7 @@ fratellist:0 "Fratellists"
 
 ### Drift ###
 vanguard_marxist_drift:0 "Daily Vanguard Marxist support"
-revolutionary_unionist_drift:0 "Daily Revolutionary Unionist support"
+democratic_socialist_drift:0 "Daily Democratic Socialist support"
 libertarian_socialist_drift:0 "Daily Libertarian Socialist support"
 social_democrat_drift:0 "Daily Social Democrat support"
 social_liberal_drift:0 "Daily Social Liberal support"
@@ -218,7 +219,7 @@ fratellist_drift:0 "Daily Fratellist support"
 
 ### Banned ###
 vanguard_marxist_banned:0 "Banned Vanguard Marxists"
-revolutionary_unionist_banned:0 "Banned Revolutionary Unionists"
+democratic_socialist_banned:0 "Banned Democratic Socialists"
 libertarian_socialist_banned:0 "Banned Libertarian Socialists"
 social_democrat_banned:0 "Banned Social Democrats"
 social_liberal_banned:0 "Banned Social Liberals"

@@ -1,6 +1,6 @@
 ﻿capital = 597 # Shangdong
 
-oob = "ANH"
+oob = "INF"
 
 # Starting tech
 set_technology = {
@@ -40,7 +40,7 @@ set_politics = {
 		revolutionary_unionist = {
 			popularity = 1
 		}
-		libertarian_socialist = {
+		democratic_socialist = {
 			popularity = 3
 		}
 		social_democrat = {

@@ -3,8 +3,9 @@ state={
 	name="STATE_890"
 
 	history={
-		owner = KMT
-		add_core_of = MAN
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = ZHI
 		buildings = {
 			infrastructure = 4
 			air_base = 2

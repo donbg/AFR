@@ -1,6 +1,6 @@
 ﻿capital = 880 #South Korea - Seoul or Busan
 
-oob = "KOR_1936"
+oob = "INF"
 
 # Starting tech
 set_technology = {
@@ -21,7 +21,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 8
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 12
 		}
 		libertarian_socialist = {

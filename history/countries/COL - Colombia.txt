@@ -1,6 +1,6 @@
 ﻿capital = 306
 
-oob = "COL_1936"
+oob = "INF"
 add_ideas = {
 COL_reparations_to_peru
 COL_patria_revancha
@@ -54,7 +54,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 3
 		}	
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 8
 		}
 		fratellist = {

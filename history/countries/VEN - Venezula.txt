@@ -1,6 +1,6 @@
 ﻿capital = 307
 
-oob = "VEN_1936"
+oob = "INF"
 
 # Starting tech
 set_technology = {
@@ -32,7 +32,7 @@ set_politics = {
 			popularity = 10
 		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 15
 			#banned = no #default is no
 		}

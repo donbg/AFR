@@ -1,6 +1,6 @@
 ﻿capital = 440
 
-oob = "PAK_1936"
+oob = "INF"
 
 # Starting tech
 set_technology = {
@@ -37,7 +37,7 @@ set_politics = {
 			popularity = 2
 		}
 		
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 1
 		}
 

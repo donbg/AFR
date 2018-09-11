@@ -17,6 +17,9 @@ state={
 				naval_base = 3
 
 			}
+			9772 = {
+				naval_base = 6
+			}
 			6891 = {
 				naval_base = 5
 
@@ -29,9 +32,9 @@ state={
 	}
 
 	provinces={
-		902 6891 9863 11755 11773 11824 11874 
+		902 6891 9863 11755 11773 11824 11874 9772
 	}
-	manpower=991921
+	manpower=1031921
 	buildings_max_level_factor=1.000
 	state_category=town
 }

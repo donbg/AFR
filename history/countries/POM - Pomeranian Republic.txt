@@ -1,6 +1,6 @@
 ﻿capital = 62
 
-oob = "POM"
+oob = "INF"
 
 # Starting tech
 set_technology = {
@@ -52,7 +52,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 2
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 5
 		}
 		libertarian_socialist = {

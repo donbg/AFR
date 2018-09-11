@@ -1,6 +1,6 @@
 ﻿capital = 613 # Nanjing
 
-oob = "CHI_1936"
+oob = "INF"
 
 # Starting tech
 set_technology = {
@@ -31,7 +31,7 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 14
 		}
-		revolutionary_unionist = {
+		democratic_socialist = {
 			popularity = 12
 		}
 		libertarian_socialist = {
