@@ -83,6 +83,7 @@ set_politics = {
 }
 
 add_ideas = {
+USA_red_scare
 }
 
 create_country_leader = {

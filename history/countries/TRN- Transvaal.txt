@@ -29,10 +29,15 @@ set_technology = {
 }
 
 add_ideas = {
-	TRN_Nicolaas_Jacobus_de_Wet_sec_sco
-	TRN_Wicus_du_Plessis_eco_sco
-	TRN_Willem_de_Klerk_for_sco
-	TRN_Eugene_Marais_hog_sco
+	TRN_louis_botha_hog_sco
+	TRN_willem_de_klerk_for_sco
+	TRN_jan_hofmeyr_eco_sco
+	TRN_nicolaas_de_wet_sec_sco
+	TRN_segregation
+	TRN_burgher_mobilization
+	TRN_witwatersrand_gold_rush
+	TRN_upheaval
+	TRN_grey_depression
 }
 
 diplomatic_relation = {
@@ -43,41 +48,41 @@ diplomatic_relation = {
 
 set_research_slots = 3
 set_convoys = 30
-set_stability = 0.42
+set_stability = 0.2
 set_war_support = 0.33
 
 set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 2
-		}
-		democratic_socialist = {
-			popularity = 4
-		}
-		libertarian_socialist = {
 			popularity = 3
 		}
+		democratic_socialist = {
+			popularity = 3
+		}
+		libertarian_socialist = {
+			popularity = 1
+		}
 		social_democrat = {
-			popularity = 11
+			popularity = 9
 		}
 		social_liberal = {
-			popularity = 21
+			popularity = 17
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 9
 		}
 		social_conservative = {
-			popularity = 28
+			popularity = 38
 		}
 		authoritarian_democrat = {
-			popularity = 10
-		}
-		paternal_autocrat = {
 			popularity = 0
 		}
+		paternal_autocrat = {
+			popularity = 9
+		}
 		national_populist = {
-			popularity = 12
+			popularity = 10
 		}
 		fratellist = {
 			popularity = 0
@@ -105,7 +110,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_ANDREWS_DESC"
 	picture = "GFX_TRN_william_andrews"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {
 		#
 	}
@@ -121,9 +126,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Alexander Hepple"
-	desc = "POLITICS_ALEXANDER_HEPPLE_DESC"
-	picture = "GFX_TRN_alexander_hepple.tga"
+	name = "Frederic Creswell"
+	desc = "POLITICS_FREDERIC_CRESWELL_DESC"
+	picture = "GFX_TRN_frederic_creswell.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -131,9 +136,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jan Smuts"
-	desc = "POLITICS_JAN_SMUTS_DESC"
-	picture = "GFX_TRN_jan_smuts.tga"
+	name = "Wicus du Plessis"
+	desc = "POLITICS_WICUS_DU_PLESSIS_DESC"
+	picture = "GFX_TRN_wicus_du_plessis.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -190,11 +195,55 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "William Nicol"
+	desc = "POLITICS_WILLIAM_NICOL_DESC"
+	picture = "GFX_TRN_william_nicol.tga"
+	expire = "1965.1.1"
+	ideology = fratellist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Manie Maritz"
+	gfx = "GFX_TRN_manie_maritz.tga"
+	traits = { commando infantry_officer adaptable offensive_doctrine }
+	skill = 2
+}
 
 create_corps_commander = {
-	name = "Manie Maritz"
-	gfx = "GFX_TRN_manie_maritz"
-	traits = { commando infantry_officer trickster guerilla_fighter adaptable }
+	name = "Fritz Joubert Duquesne"
+	gfx = "GFX_TRN_daniel_theron.tga"
+	traits = { reckless inflexible_strategist trickster guerilla_fighter }
 	skill = 4
 }
 
+create_corps_commander = {
+	name = "Gideon Scheepers"
+	gfx = "GFX_TRN_gideon_scheepers.tga"
+	traits = { reckless desert_fox engineer }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Jopie Fourie"
+	gfx = "GFX_TRN_jopie_fourie.tga"
+	traits = { infantry_leader hill_fighter }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Jack Hindon"
+	gfx = "GFX_TRN_jopie_fourie.tga"
+	traits = { war_hero }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Hendrik Frederik Prinsloo"
+	gfx = "GFX_TRN_jopie_fourie.tga"
+	traits = { }
+	skill = 2
+}

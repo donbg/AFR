@@ -26,6 +26,7 @@ ideas = {
 		}
 		
 		USS_dust_bowl = {
+		picture = 
 		
 			modifier = {
 				consumer_goods_factor = 0.05

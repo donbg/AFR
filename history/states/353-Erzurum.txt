@@ -15,6 +15,8 @@ state={
 			11853 5
 		}
 		add_core_of = TUR
+		
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

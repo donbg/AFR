@@ -17,7 +17,9 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = TUR
-	}
+		
+		set_demilitarized_zone = yes
+		}
 
 	provinces={
 	    7454 10403 13216

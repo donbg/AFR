@@ -1,0 +1,112 @@
+##USSA ideas##
+
+ideas = {
+	country = {
+		
+		
+		TRN_witwatersrand_gold_rush ={
+			picture = TRN_witwatersrand_gold_rush
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		
+		TRN_upheaval ={
+			picture = general_strike
+			
+			modifier = {
+				political_power_factor = -0.5
+				vanguard_marxist_drift = 0.01
+				democratic_socialist_drift = 0.01
+				libertarian_socialist_drift = 0.01
+			}
+		}
+		
+		TRN_grey_depression ={
+			picture = great_depression
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
+				industrial_capacity_factory = -0.6
+				production_speed_buildings_factor = -0.15
+		}
+	}
+	
+	TRN_segregation ={
+			picture = saf_history_of_segregation
+			
+			modifier = {
+				conscription_factor = -0.5
+			}
+		}
+	
+		TRN_burgher_mobilization ={
+			picture = TRN_burgher_mobilization
+			
+			modifier = {
+				conscription = 0.01
+			}
+		}
+}
+	
+		##Game start###
+		head_of_government = {
+			TRN_louis_botha_hog_sco = {
+				allowed = { original_tag = TRN }
+				available = {
+					has_government = social_conservative
+					NOT = {has_country_flag = ministers_cannot_be_replaced}
+					has_country_flag = 
+				}
+			removal_cost = -1
+			traits = { head_of_government hog_respected_war_hero social_conservative }
+			cancel_if_invalid = no
+			}
+		}
+			
+		
+		foreign_minister  = {
+			TRN_willem_de_klerk_for_sco = {
+				allowed = { original_tag = TRN }
+				available = {
+					has_government = social_conservative
+					NOT = {has_country_flag = ministers_cannot_be_replaced}
+					has_country_flag = 
+				}
+			removal_cost = -1
+			traits = { foreign_minister for_biased_intellectual social_conservative }
+			cancel_if_invalid = no
+			}
+		}
+		
+		economy_minister = {
+			TRN_jan_hofmeyr_eco_sco = {
+				allowed = { original_tag = TRN }
+				available = {
+					has_government = social_conservative
+					NOT = {has_country_flag = ministers_cannot_be_replaced}
+					has_country_flag = 
+				}
+			removal_cost = -1
+			traits = { economy_minister eco_administrative_genius social_conservative }
+			cancel_if_invalid = no
+			}
+		}
+
+		security_minister = {
+			TRN_nicolaas_de_wet_sec_sco = {
+				allowed = { original_tag = TRN }
+				available = {
+					has_government = social_conservative
+					NOT = {has_country_flag = ministers_cannot_be_replaced}
+					has_country_flag = 
+				}
+			removal_cost = -1
+			traits = { security_minister sec_silent_lawyer social_conservative }
+			cancel_if_invalid = no
+			}
+		}
+}

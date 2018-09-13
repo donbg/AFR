@@ -6,11 +6,31 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_USS_dust_bowl"
-		texturefile = "gfx/interface/ideas/USS/spirits/idea_dust_bowl.dds"
+		texturefile = "gfx/interface/ideas/USS/spirits/idea_dust_bowl_test.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_USS_dust_bowl_2"
-		texturefile = "gfx/interface/ideas/USS/spirits/idea_dust_bowl.dds"
-	}	
+		texturefile = "gfx/interface/ideas/USS/spirits/idea_dust_bowl_test.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TRN_burgher_mobilization"
+		texturefile = "gfx/interface/ideas/TRN/TRN_burgher_mobilization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_red_scare"
+		texturefile = "gfx/interface/ideas/USA/USA_red_scare.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TRN_witwatersrand_gold_rush"
+		texturefile = "gfx/interface/ideas/TRN/TRN_witwatersrand_gold_rush.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_general_strike"
+		texturefile = "gfx/interface/ideas/TRN/NOR_general_strike.dds"
+	}
 }
