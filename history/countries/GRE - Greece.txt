@@ -1,6 +1,6 @@
 ﻿capital = 47
 
-oob = "INF"
+oob = GRE_1936
 
 set_research_slots = 3
 set_stability = 0.67
@@ -61,10 +61,10 @@ set_politics = {
 			popularity = 8
 		}
 		national_populist = {
-			popularity = 7
+			popularity = 0
 		}
 		fratellist = {
-			popularity = 0
+			popularity = 7
 		}
 	}
 	
@@ -103,7 +103,7 @@ create_country_leader = {
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = fratellist_subtype
 	traits = {
 		#
 	}
