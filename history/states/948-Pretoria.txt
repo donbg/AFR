@@ -1,0 +1,26 @@
+
+state={
+	id=948
+	name="STATE_948"
+
+	history={
+		owner = TRN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			air_base = 1
+
+		}
+		add_core_of = TRN
+		victory_points = {
+			13257 10
+		}
+	}
+
+	provinces={
+	 13257 13260 10400 13263 
+	}
+	manpower=988363
+	buildings_max_level_factor=1.000
+	state_category=city
+}

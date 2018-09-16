@@ -1,0 +1,30 @@
+
+state={
+	id=952
+	name="STATE_952"
+	resources = {
+		steel = 2.00
+	}
+	
+	history={
+		owner = TRN
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = TRN
+		
+		victory_points = {
+			13254 5
+		}
+		victory_points = {
+			13249 1
+		}
+	}
+
+	provinces={
+		13249 13253 13250 2213 13254 13251
+	}
+	manpower=110488
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=951
+	name="STATE_951"
+
+	history={
+		owner = TRN
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = TRN
+	}
+
+	provinces={
+	 13267 10566
+	}
+	manpower=82450
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -67,9 +67,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mongolian Khural"
-	desc = "POLITICS_KHURAL_DESC"
-	picture = "Portrait_MON_Mongolian_Khural.tga"
+	name = "Tserendondovyn Navaanneren"
+	desc = "POLITICS_Tserendondovyn_Navaanneren_DESC"
+	picture = "Portrait_MON_Tserendondovyn_Navaanneren.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -78,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mongolian Khural"
-	desc = "POLITICS_KHURAL_DESC"
-	picture = "Portrait_MON_Mongolian_Khural.tga"
+	name = "Tserendondovyn Navaanneren"
+	desc = "POLITICS_Tserendondovyn_Navaanneren_DESC"
+	picture = "Portrait_MON_Tserendondovyn_Navaanneren.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -88,72 +88,5 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Ölziin Badrakh"
-	desc = "POLITICS_BADRAKH_DESC"
-	picture = "Portrait_MON_Ölziin_Badrakh.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ja Lama"
-	desc = "POLITICS_JA_LAMA_DESC"
-	picture = "Portrait_MON_Ja_Lama.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-
-create_field_marshal = {
-	name = "Khatanbaatar Magsarjav"
-	picture = "Portrait_MON_Khatanbaatar.tga"
-	traits = { offensive_doctrine cavalry_officer brilliant_strategist cavalry_leader }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Damdin Sükhbaatar"
-	picture = "Portrait_MON_Sukhbaatar.tga"
-	traits = { cavalry_officer trait_reckless cavalry_leader }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-	
-create_corps_commander = {
-	name = "Gonchigiin Bumtsend"
-	picture = "Portrait_MON_Bumtsend.tga"
-	traits = { cavalry_leader }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Dansranbilegiin Dogsom"
-	picture = "Portrait_MON_Dogsom.tga"
-	traits = { cavalry_leader }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-	
 	
 	

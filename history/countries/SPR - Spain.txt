@@ -77,9 +77,9 @@ set_stability = 0.65
 set_war_support = 0.80
 
 create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "Portrait_Alejandro_Lerroux.tga"
+	name = "Alfonso XIV"
+	desc = "POLITICS_ALFONSO_XIV_DESC"
+	picture = "Portrait_Alfonso_XIV.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -88,9 +88,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Niceto Alcalá-Zamora"
-	desc = "POLITICS_NICETO_ALCALA-ZAMORA_DESC"
-	picture = "Portrait_SPR_Niceto_Alcala-Zamora.tga"
+	name = "Alfonso XIV"
+	desc = "POLITICS_ALFONSO_XIV_DESC"
+	picture = "Portrait_Alfonso_XIV.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -98,19 +98,17 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Vicente Rojo Lluch"
-	picture = "Portrait_SPR_Vicente_Rojo_Lluch.tga"
-	traits = { 
-		unyielding_defender
-		organizer
+create_country_leader = {
+	name = "Alfonso XIV"
+	desc = "POLITICS_ALFONSO_XIV_DESC"
+	picture = "Portrait_Alfonso_XIV.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
 	}
-	skill = 3
-	attack_skill = 1
-    defense_skill = 4
-    planning_skill = 2
-    logistics_skill = 2
 }
+
 
 ### Generals ###
 

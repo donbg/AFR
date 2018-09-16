@@ -67,9 +67,9 @@ set_politics = {
 
 }
 create_country_leader = {
-	name = "Pierre Dupong"
-	desc = "POLITICS_PIERE_DUPONG_DESC"
-	picture = "portrait_luxembourg_piere_dupong.tga"
+	name = "Marie-Adélaïde"
+	desc = "POLITICS_MARIE_ADELAIDE_DESC"
+	picture = "Portrait_LUX_Marie_Adelaide.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -78,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Michel Rasquin"
-	desc = "POLITICS_MICHEL_RASQUIN_DESC"
-	picture = "portrait_luxembourg_michel_rasquin.tga"
+	name = "Marie-Adélaïde"
+	desc = "POLITICS_MARIE_ADELAIDE_DESC"
+	picture = "Portrait_LUX_Marie_Adelaide.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -89,9 +89,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Grand Duchess Charlotte"
-	desc = "POLITICS_CHARLOTTE_DESC"
-	picture = "portrait_luxembourg_charlotte.tga"
+	name = "Marie-Adélaïde"
+	desc = "POLITICS_MARIE_ADELAIDE_DESC"
+	picture = "Portrait_LUX_Marie_Adelaide.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

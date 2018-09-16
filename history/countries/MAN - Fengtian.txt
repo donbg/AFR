@@ -30,14 +30,6 @@ set_technology = {
 }
 
 add_ideas = {
-	MAN_political_reform
-	MAN_antijapanese_sentiment
-	MAN_warlord_ubiquity
-	MAN_middling_industry
-	GEN_Szymon_Kowalski_hog_ade
-	GEN_Jozef_Korczak_eco_ade
-	GEN_Gaj_Bosko_sec_ade
-	GEN_Ludwik_Czaplinski_for_ade
 }
 
 set_convoys = 130
@@ -90,9 +82,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Zhang Zuolin"
-	desc = "POLITICS_ZHANG_ZUOLIN_DESC"
-	picture = "Portrait_MAN_Zhang_Zuolin.tga"
+	name = "Guangxu Emperor"
+	desc = "POLITICS_GUANGXU_DESC"
+	picture = "Portrait_Guangxu.tga"
 	expire = "1960.1.1"
 	ideology = authoritarian_democrat_subtype
 	

@@ -14,6 +14,15 @@ ideas = {
 		}
 	}
 	
+	country = {
+		USA_calls_for_democracy ={
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+			}
+		}
+	}
+	
 		##Game start###
 		head_of_government = {
 			USA_hanford_macnider_hog_pau = {

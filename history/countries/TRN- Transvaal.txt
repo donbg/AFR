@@ -67,13 +67,13 @@ set_politics = {
 			popularity = 9
 		}
 		social_liberal = {
-			popularity = 17
+			popularity = 16
 		}
 		market_liberal = {
-			popularity = 9
+			popularity = 11
 		}
 		social_conservative = {
-			popularity = 38
+			popularity = 37
 		}
 		authoritarian_democrat = {
 			popularity = 0
@@ -136,9 +136,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Wicus du Plessis"
-	desc = "POLITICS_WICUS_DU_PLESSIS_DESC"
-	picture = "GFX_TRN_wicus_du_plessis.tga"
+	name = "Jan Smuts"
+	desc = "POLITICS_JAN_SMUTS_DESC"
+	picture = "GFX_TRN_jan_smuts.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -146,9 +146,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jan Smuts"
-	desc = "POLITICS_JAN_SMUTS_DESC"
-	picture = "GFX_TRN_jan_smuts.tga"
+	name = "Douglas Gilfillan"
+	desc = "POLITICS_DOUGLAS_GILFILLAN_DESC"
+	picture = "GFX_TRN_douglas_gilfillan.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {

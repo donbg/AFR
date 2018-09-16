@@ -44,10 +44,10 @@ set_politics = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 9
+			popularity = 31
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 30
 		}
 		market_liberal = {
 			popularity = 3
@@ -62,14 +62,14 @@ set_politics = {
 			popularity = 7
 		}
 		national_populist = {
-			popularity = 61
+			popularity = 9
 		}
 		fratellist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = national_populist
+	ruling_party = social_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -93,9 +93,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bernhard of the Netherlands"
-	desc = "POLITICS_PRINCE_BERNHARD_DESC"
-	picture = "bernhard.tga"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_HOL_Wilhelmina.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -104,9 +104,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bernhard of the Netherlands"
-	desc = "POLITICS_PRINCE_BERNHARD_DESC"
-	picture = "bernhard.tga"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_HOL_Wilhelmina.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -115,9 +115,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Willem Drees"
-	desc = "POLITICS_WILLEM_DREES_DESC"
-	picture = "Portrait_Netherlands_Willem_Drees.tga"
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_HOL_Wilhelmina.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {

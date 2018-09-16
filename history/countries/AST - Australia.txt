@@ -41,10 +41,6 @@ if = {
 }
 
 add_ideas = {
-	AST_Joseph_A_Lyons_hog_mli
-	AST_George_F_Pearce_for_mli
-	AST_Robert_G_Menzies_eco_mli
-	AST_Earle_Page_sec_sco
 }
 
 set_politics = {
@@ -93,84 +89,6 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Lord Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Lord Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "Portrait_AST_Eric_Campbell.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Richard Dixon"
-	desc = "POLITICS_RICHARD_DIXON_DESC"
-	picture = "GFX_AST_richard_dixon"
-	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Lord Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Thomas Blamey"
-	desc = "POLITICS_THOMAS_BLAMLEY_DESC"
-	picture = "Portrait_AST_Thomas_Blamey_Leader.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Lord Birdwood"
-	desc = "POLITICS_WILLIAM_BIRDWOOD_DESC"
-	picture = "Portrait_AST_William_Birdwood.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
 
 set_convoys = 100
 

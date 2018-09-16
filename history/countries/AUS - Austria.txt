@@ -43,13 +43,13 @@ set_politics = {
 			popularity = 10
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 34
 		}
 		market_liberal = {
 			popularity = 13
 		}
 		social_conservative = {
-			popularity = 21
+			popularity = 11
 		}
 		authoritarian_democrat = {
 			popularity = 5
@@ -58,10 +58,10 @@ set_politics = {
 			popularity = 7
 		}
 		national_populist = {
-			popularity = 38
+			popularity = 10
 		}
 		fratellist = {
-			popularity = 0
+			popularity = 4
 		}
 	}
 	
@@ -73,9 +73,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Wilhelm Miklas"
-	desc = "POLITICS_WILHELM_MIKLAS_DESC"
-	picture = "Portrait_Wilhelm_Miklas.tga"
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Portrait_Franz_Ferdinand.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -83,13 +83,42 @@ create_country_leader = {
 	}
 }
 
-
-
+create_country_leader = {
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Portrait_Franz_Ferdinand.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
-	name = "Karl Otto von Österreich"
-	desc = "POLITICS_KARL_DESC"
-	picture = "gfx/leaders/AUS/Karl_von_austria.dds"
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Portrait_Franz_Ferdinand.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Portrait_Franz_Ferdinand.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Portrait_Franz_Ferdinand.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -99,20 +128,9 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Karl Renner"
-	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ernst Kaltenbrunner"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/AUS/AUS_Portrait_Ernst_Kaltenbrunner.dds"
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Portrait_Franz_Ferdinand.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -121,33 +139,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Otto Bauer"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/AUS/AUS_Portrait_Otto_Bauer.dds"
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Portrait_Franz_Ferdinand.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Alfred Proksch"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/AUS/Alfred_Proksch.dds"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Richard Syeidle"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/AUS/Richard_Syeidle.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = fratellist_subtype
 	traits = {
 		#
 	}

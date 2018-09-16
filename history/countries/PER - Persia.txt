@@ -62,10 +62,6 @@ set_politics = {
 add_ideas = {
 	#limited_conscription
 	free_trade
-	
-	PER_british_influence_iran_idea
-	PER_underground_revolutionaries_idea
-	PER_primitive_military_idea
 }
 
 create_country_leader = {
@@ -91,9 +87,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Reza Khan"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "PER_AUTDEM.tga"
+	name = "Fereydoun Mirza Qajar"
+	desc = "POLITICS_FEREYDOUN_MIRZA_QAJAR_DESC"
+	picture = "Portrait_PER_Fereydoun_Qajar.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -102,9 +98,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ahmad Qavam"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "Portrait_Ahmad_Qavam.tga"
+	name = "Fereydoun Mirza Qajar"
+	desc = "POLITICS_FEREYDOUN_MIRZA_QAJAR_DESC"
+	picture = "Portrait_PER_Fereydoun_Qajar.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -113,9 +109,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ahmad Qavam"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "Portrait_Ahmad_Qavam.tga"
+	name = "Fereydoun Mirza Qajar"
+	desc = "POLITICS_FEREYDOUN_MIRZA_QAJAR_DESC"
+	picture = "Portrait_PER_Fereydoun_Qajar.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -124,9 +120,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mohammad Ali Foroughi"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "PER_AUTDEM.tga"
+	name = "Fereydoun Mirza Qajar"
+	desc = "POLITICS_FEREYDOUN_MIRZA_QAJAR_DESC"
+	picture = "Portrait_PER_Fereydoun_Qajar.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -135,9 +131,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ali Dashti"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "PER_AUTDEM.tga"
+	name = "Fereydoun Mirza Qajar"
+	desc = "POLITICS_FEREYDOUN_MIRZA_QAJAR_DESC"
+	picture = "Portrait_PER_Fereydoun_Qajar.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -146,57 +142,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mohammad Mosaddegh"
-	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
-	picture = "PER_AUTDEM.tga"
+	name = "Fereydoun Mirza Qajar"
+	desc = "POLITICS_FEREYDOUN_MIRZA_QAJAR_DESC"
+	picture = "Portrait_PER_Fereydoun_Qajar.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Mostafa Fateh"
-	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Iraj Eskandari"
-	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
-	picture = "Portrait_Iraj_Eskandari.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Iraj Eskandari"
-	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
-	picture = "Portrait_Iraj_Eskandari.tga"
-	expire = "1965.1.1"
-	ideology = vanguard_marxist_subtype
-	traits = {
-		#
-	}
-}
-
-#create_country_leader = {
-#	name = "Mohammad Hassan Mirza"
-#	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-#	picture = "PER_PATAUT.tga"
-#	expire = "1965.1.1"
-#	ideology = paternal_autocrat_subtype
-#	traits = {
-#		#
-#	}
-#}
 

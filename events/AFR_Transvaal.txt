@@ -1,0 +1,76 @@
+﻿########## Transvaal events######
+
+add_namespace = TRN
+
+
+country_event = { ####The Zuid-Afrikaansche Republiek####
+	id = TRN.1
+    title = TRN.1.t
+    desc = TRN.1.d
+	picture = 
+
+	trigger = {
+		tag = TRN
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = TRN.1.a
+	}
+}
+
+country_event = { #######Crisis in 1936######
+	id = TRN.2
+    title = TRN.2.t
+    desc = TRN.2.d
+	picture = 
+
+	trigger = {
+		tag = TRN
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = TRN.2.a
+	}
+}
+
+country_event = { #######Congress of the Industrial Workers of Africa######
+	id = TRN.3
+    title = TRN.3.t
+    desc = TRN.3.d
+	picture = 
+
+	trigger = {
+		tag = TRN
+		USS = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = TRN.3.a ###Not good###
+		hidden_effect = {
+			country_event = {
+				id = TRN.4
+				days = 7
+			}
+		}
+	}
+}
+
+

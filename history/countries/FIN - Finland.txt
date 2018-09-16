@@ -52,10 +52,10 @@ set_politics = {
 			popularity = 15
 		}
 		social_conservative = {
-			popularity = 22
+			popularity = 47
 		}
 		authoritarian_democrat = {
-			popularity = 47
+			popularity = 22
 		}
 		paternal_autocrat = {
 			popularity = 4
@@ -68,29 +68,18 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 create_country_leader = {
-	name = "Risto Heikki Ryti"
-	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
-	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
+	name = "Juho Kusti Paasikivi"
+	desc = "POLITICS_JUHO_KUSTI_PAASIKIVI_DESC"
+	picture = "Portrait_FIN_Juho_Kusti_Paasikivi.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Carl Gustav Mannerheim"
-	desc = "POLITICS_CARL_GUSTAV_MANNERHEIM_DESC"
-	picture = "Portrait_Carl_Gustav_Mannerheim.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

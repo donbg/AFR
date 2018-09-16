@@ -51,28 +51,28 @@ set_politics = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 17
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 15
+			popularity = 9
 		}
 		market_liberal = {
-			popularity = 13
+			popularity = 11
 		}
 		social_conservative = {
-			popularity = 12
+			popularity = 11
 		}
 		authoritarian_democrat = {
-			popularity = 14
+			popularity = 17
 		}
 		paternal_autocrat = {
-			popularity = 24
+			popularity = 34
 		}
 		national_populist = {
-			popularity = 13
+			popularity = 6
 		}
 		fratellist = {
-			popularity = 5
+			popularity = 1
 		}
 	}
 
@@ -84,6 +84,7 @@ set_politics = {
 
 add_ideas = {
 USA_red_scare
+USA_calls_for_democracy
 }
 
 create_country_leader = {
@@ -144,7 +145,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hanford MacNider"
 	desc = "POLITICS_HANFORD_MACNIDER_DESC"
-	picture = "Portrait_USA_Hanford_MacNider.tga"
+	picture = "Portrait_Hanford_MacNider.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

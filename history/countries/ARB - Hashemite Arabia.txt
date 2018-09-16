@@ -13,10 +13,6 @@ set_stability = 0.50
 set_war_support = 0.50
 
 add_ideas = {
-	GEN_Szymon_Kowalski_hog_ade
-	GEN_Jozef_Korczak_eco_ade
-	GEN_Gaj_Bosko_sec_ade
-	GEN_Ludwik_Czaplinski_for_ade
 }
 
 set_politics = {
@@ -65,9 +61,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "'Abd al-Ilah"
-	desc = "POLITICS_ABDALILAH_DESC"
-	picture = "Portrait_ARB_AbdAl-Ilah.dds"
+	name = "Abdulaziz bin Mithab"
+	desc = "POLITICS_ABDULAZIZ_BIN_MITHAB_DESC"
+	picture = "Portrait_ARB_Abdulaziz_bin_Mithab.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

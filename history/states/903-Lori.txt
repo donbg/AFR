@@ -5,14 +5,17 @@ state={
 	history={
 		owner = TRN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 		}
 		add_core_of = TRN
-
+	
+		victory_points = {
+			5106 1
+			}
 	}
 
 	provinces={
-		5106 1688 10566
+		5106 1688 13268 13261 13270
 	}
 	manpower=140500
 	buildings_max_level_factor=1.000

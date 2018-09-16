@@ -56,16 +56,16 @@ set_politics = {
 			popularity = 12
 		}
 		market_liberal = {
-			popularity = 49
+			popularity = 1
 		}
 		social_conservative = {
-			popularity = 30
+			popularity = 1
 		}
 		authoritarian_democrat = {
-			popularity = 1
+			popularity = 30
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 49
 		}
 		national_populist = {
 			popularity = 1
@@ -75,7 +75,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -83,11 +83,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Edgard de Larminat"
-	desc = "FUCKING_MOROCCO_desc"
-	picture = "Portrait_MOR_Edgard_de_Larminat.tga"
+	name = "Abdelhafid I"
+	desc = "POLITICS_ABDELHAFID_I_desc"
+	picture = "Portrait_Abdelhafid.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}

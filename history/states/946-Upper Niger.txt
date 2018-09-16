@@ -1,0 +1,21 @@
+
+state={
+	id=946
+	name="STATE_946"
+	manpower = 84060
+
+	state_category = pastoral
+	
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+		}
+	
+	}
+
+	provinces={
+		5101 12838 10788 2044
+	}
+}

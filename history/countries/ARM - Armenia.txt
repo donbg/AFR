@@ -41,10 +41,6 @@ set_technology = {
 }
 
 add_ideas = {
-	GEN_James_Smith_hog_sco
-	GEN_Charlie_Baker_for_sco
-	GEN_Sam_Morris_eco_sco
-	GEN_Oscar_Morgan_sec_sco
 }
 
 set_politics = {
@@ -95,37 +91,6 @@ set_politics = {
 
 }
 
-create_country_leader = {
-	name = "Drastamat Kanayan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = national_populist_subtype
-	traits = {
-		
-	}
-}
 
-create_country_leader = {
-	name = "Hovhannes Kajaznuni"
-	desc = ""
-	picture = "Portrait_ARM_Hovhannes_Kajaznuni.dds"
-	expire = "1953.3.1"
-	ideology = social_conservative_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Grigor Harutyunyan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = revolutionary_unionist_subtype
-	traits = {
-		
-	}
-}
 
 

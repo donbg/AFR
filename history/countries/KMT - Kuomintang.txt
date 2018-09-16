@@ -32,13 +32,13 @@ set_politics = {
 			popularity = 14
 		}
 		democratic_socialist = {
-			popularity = 12
+			popularity = 45
 		}
 		libertarian_socialist = {
 			popularity = 4
 		}
 		social_democrat = {
-			popularity = 33
+			popularity = 0
 		}
 		social_liberal = {
 			popularity = 6
@@ -63,7 +63,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = democratic_socialist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -82,11 +82,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Li Dazhao"
-	desc = "POLITICS_LI_DAOZHAO_DESC"
-	picture = "Portrait_KMT_Li_Daozhao.tga"
+	name = "Chiang Kai-Shek"
+	desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
+	picture = "Portrait_KMT_Chiang_Kai-shek.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {
 		#
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Chiang Kai-Shek"
 	desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
-	picture = "Portrait_KMT_Chiang_Kai_Shek.tga"
+	picture = "Portrait_KMT_Chiang_Kai-shek.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {

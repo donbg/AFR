@@ -35,13 +35,13 @@ set_politics = {
 			popularity = 4
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 18
 		}
 		social_liberal = {
 			popularity = 8
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 49
 		}
 		social_conservative = {
 			popularity = 5
@@ -50,37 +50,27 @@ set_politics = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 49
+			popularity = 0
 		}
 		national_populist = {
-			popularity = 18
+			popularity = 0
 		}
 		fratellist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = market_liberal
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 
-#create_country_leader = {
-#	name = "Antanas Smetona"
-#	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-#	picture = "GFX_Portrait_lithuania_antanas_smetona"
-#	expire = "1965.1.1"
-#	ideology = paternal_autocrat_subtype
-#	traits = {
-#		#
-#	}
-#}
 
 create_country_leader = {
-	name = "Stanisław Narutowicz"
-	desc = "POLITICS_PROTECTORATE_DESC"
-	picture = "Portrait_Lithuania_Stanislaw_Narutowicz.dds"
+	name = "Gediminas II"
+	desc = "POLITICS_GEDIMINAS_II"
+	picture = "Portrait_Lithuania_Gediminas_II.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -89,22 +79,44 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antanas Snieckus"
-	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	name = "Gediminas II"
+	desc = "POLITICS_GEDIMINAS_II"
+	picture = "Portrait_Lithuania_Gediminas_II.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Augustinas Voldemaras"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Gediminas II"
+	desc = "POLITICS_GEDIMINAS_II"
+	picture = "Portrait_Lithuania_Gediminas_II.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gediminas II"
+	desc = "POLITICS_GEDIMINAS_II"
+	picture = "Portrait_Lithuania_Gediminas_II.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gediminas II"
+	desc = "POLITICS_GEDIMINAS_II"
+	picture = "Portrait_Lithuania_Gediminas_II.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
 	traits = {
 		#
 	}

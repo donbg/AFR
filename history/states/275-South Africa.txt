@@ -3,30 +3,22 @@ state={
 	id=275
 	name="STATE_275"
 	resources={
-		steel=5.0
-		chromium=53.0
+		chromium=5.0
 	}
 
 	history={
 		owner = TRN
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 3
-			air_base = 3
-
-		}
-		victory_points = {
-			10400 10 
+			infrastructure = 3
 		}
 		add_core_of = TRN
 
 	}
 
 	provinces={
-	 2171 5217 10400 2213
+	 13256 13255 13258 5217 
 	}
-	manpower=3780363
+	manpower=40363
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }

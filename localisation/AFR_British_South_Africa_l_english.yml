@@ -1,0 +1,24 @@
+﻿l_english:
+
+#### Political Parties ####
+
+CAP_democratic_socialist_party:0 "Labor Party"
+CAP_democratic_socialist_party_long:0 "Labor Party" 
+CAP_libertarian_socialist_party:0 "IWA"
+CAP_libertarian_socialist_party_long:0 "Industrial Workers of Africa"
+CAP_social_democrat_party:0 "Labor Party"
+CAP_social_democrat_party_long:0 "Labor Party"
+CAP_social_liberal_party:0 "SAP"
+CAP_social_liberal_party_long:0 "South African Party"
+CAP_market_liberal_party:0 "Progressives"
+CAP_market_liberal_party_long:0 "Progressive Party"
+CAP_social_conservative_party:0 "Die Bond"
+CAP_social_conservative_party_long:0 "Afrikaner Bond"
+CAP_authoritarian_democrat_party:0 "Die Bond"
+CAP_authoritarian_democrat_party_long:0 "Afrikaner Bond"
+CAP_paternal_autocrat_party:0 "Commission"
+CAP_paternal_autocrat_party_long:0 "British Government Commission"
+CAP_national_populist_party:0 "Afrikanerfront"
+CAP_national_populist_party_long:0 "Afrikanerfront"
+CAP_fratellist_party:0 "BF-SA"
+CAP_fratellist_party_long:0 "British Fellowship of South Africa"

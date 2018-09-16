@@ -81,9 +81,9 @@ set_war_support = 0.24
 puppet = SHO
 
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = vanguard_marxist_subtype
 	traits = {
@@ -111,9 +111,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -121,9 +121,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -131,9 +131,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -141,9 +141,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -151,9 +151,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -161,9 +161,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -171,9 +171,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -181,11 +181,11 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Frederick IX"
-	desc = "POLITICS_FREDERICK_IX_DESC"
-	picture = "Portrait_Denmark_Frederick_IX.tga"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = fratellist_subtype
 	traits = {
 		#
 	}
