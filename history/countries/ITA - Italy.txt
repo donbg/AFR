@@ -98,7 +98,7 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Marco Brescil"
+	name = "Mario Broscil"
 	desc = "MARCO_BRESCIL_DESC"
 	picture = "Portrait_Marco_Bros.dds"
 	expire = "1965.1.1"

@@ -1,9 +1,0 @@
-ITA_foreign_intervention = {
-	icon = ger_mefo_bills
-
-	picture = GFX_decision_cat_generic_mefo_bills
-
-	allowed = {
-		original_tag = ITA
-	}
-}

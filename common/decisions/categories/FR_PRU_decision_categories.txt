@@ -1,6 +1,0 @@
-PRU_political_decisions = {
-	icon = generic_propaganda
-	allowed = {
-		original_tag = PRU
-	}
-}
