@@ -3,14 +3,14 @@ state={
 	name="STATE_805"
 
 	history={
-		owner = ENG
+		owner = BIN
 		buildings = {
 			infrastructure = 4
 			air_base = 1
 
 		}
 		add_core_of = SIA
-
+		add_core_of = BIN
 	}
 
 	provinces={

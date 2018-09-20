@@ -7,9 +7,9 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SIK
+		owner = KUM
 		add_core_of = MAN
-		add_core_of = SIK
+		add_core_of = KUM
 		add_core_of = KMT
 		buildings = {
 			infrastructure = 3

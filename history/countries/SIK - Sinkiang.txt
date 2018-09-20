@@ -53,9 +53,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Ma Zhongying"
-	desc = "POLITICS_MA_ZHONGYING_DESC"
-	picture = "Portrait_Xinjiang_Ma_Zhongying.dds"
+	name = "Ma Hushan"
+	desc = "POLITICS_MA_HUSHAN_DESC"
+	picture = "Portrait_Xinjiang_Ma_Hushan.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

@@ -1,0 +1,74 @@
+﻿capital = 1591 #Tashkent
+
+oob = "INF"
+
+set_research_slots = 2
+set_stability = 0.40
+set_war_support = 0.66
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	transport = 1
+}
+
+add_ideas = {
+}
+
+set_politics = {
+
+	parties = {
+		vanguard_marxist = {
+			popularity = 13
+		}
+		democratic_socialist = {
+			popularity = 51
+		}
+		libertarian_socialist = {
+			popularity = 10
+		}
+		social_democrat = {
+			popularity = 14
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		market_liberal = {
+			popularity = 2
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 0
+		}
+		fratellist = {
+			popularity = 0
+		}
+		national_populist = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = democratic_socialist
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alibi Dzhangildin"
+	desc = "Politics_Alibi_Dzhangildin"
+	picture = "Portrait_Alibi_Dzhangildin.tga"
+	expire = "1953.3.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		#
+	}
+}

@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = TIB
-		add_core_of = SCH
+		add_core_of = YUN
 		add_core_of = KMT
 		add_core_of = TIB
 		add_core_of = MAN

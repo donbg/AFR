@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = HOL
+		owner = DEI
 		victory_points = {
 			7381 5
 		}

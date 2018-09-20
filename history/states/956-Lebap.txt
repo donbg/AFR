@@ -1,0 +1,22 @@
+
+state={
+	id=956
+	name="STATE_956"
+
+	history={
+		owner = KHI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = KHI
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		7777 7501 10420 1532 7486 4578 7507 10366 4636 10353 4638 4581 7486
+	}
+	manpower=67036
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

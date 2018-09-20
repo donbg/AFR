@@ -68,9 +68,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Gediminas II"
-	desc = "POLITICS_GEDIMINAS_II"
-	picture = "Portrait_Lithuania_Gediminas_II.tga"
+	name = "Frederikas I Kristijonas"
+	desc = "POLITICS_FREDERIKAS_I"
+	picture = "Portrait_Lithuania_Frederikas_I.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -79,9 +79,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gediminas II"
-	desc = "POLITICS_GEDIMINAS_II"
-	picture = "Portrait_Lithuania_Gediminas_II.tga"
+	name = "Frederikas I Kristijonas"
+	desc = "POLITICS_FREDERIKAS_I"
+	picture = "Portrait_Lithuania_Frederikas_I.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -90,9 +90,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gediminas II"
-	desc = "POLITICS_GEDIMINAS_II"
-	picture = "Portrait_Lithuania_Gediminas_II.tga"
+	name = "Frederikas I Kristijonas"
+	desc = "POLITICS_FREDERIKAS_I"
+	picture = "Portrait_Lithuania_Frederikas_I.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -101,9 +101,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gediminas II"
-	desc = "POLITICS_GEDIMINAS_II"
-	picture = "Portrait_Lithuania_Gediminas_II.tga"
+	name = "Frederikas I Kristijonas"
+	desc = "POLITICS_FREDERIKAS_I"
+	picture = "Portrait_Lithuania_Frederikas_I.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -112,9 +112,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gediminas II"
-	desc = "POLITICS_GEDIMINAS_II"
-	picture = "Portrait_Lithuania_Gediminas_II.tga"
+	name = "Frederikas I Kristijonas"
+	desc = "POLITICS_FREDERIKAS_I"
+	picture = "Portrait_Lithuania_Frederikas_I.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {

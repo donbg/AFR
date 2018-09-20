@@ -5,7 +5,7 @@ state={
 
 
 	history={
-		owner = HOL
+		owner = DEI
 		buildings = {
 			infrastructure = 0
 		}

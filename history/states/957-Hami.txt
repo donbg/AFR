@@ -1,0 +1,20 @@
+
+state={
+	id=957
+	name="STATE_957"
+
+	history={
+		owner = KUM
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		12671 10839 7732 12524 1838 4704 12598 4843 12656
+	}
+	manpower=92510
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

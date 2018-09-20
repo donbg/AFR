@@ -3,7 +3,7 @@ state={
 	name="STATE_820"
 
 	history={
-		owner = ENG
+		owner = BIN
 		victory_points = {
 			7329 1 
 		}
@@ -16,6 +16,7 @@ state={
 			}
 
 		}
+		add_core_of = BIN
 
 	}
 

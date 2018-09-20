@@ -3,7 +3,7 @@ state={
 	name="STATE_822"
 
 	history={
-		owner = ENG
+		owner = BIN
 		victory_points = {
 			10297 1 
 		}
@@ -15,7 +15,7 @@ state={
 			}
 
 		}
-
+	add_core_of = BIN
 	}
 
 	provinces={

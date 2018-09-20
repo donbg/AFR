@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = HOL
+		owner = DEI
 		buildings = {
 			infrastructure = 3
 			10175 = {

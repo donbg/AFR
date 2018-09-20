@@ -10,7 +10,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = HOL
+		owner = DEI
 		buildings = {
 			infrastructure = 1
 			1355 = {

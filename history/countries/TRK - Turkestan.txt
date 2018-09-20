@@ -1,8 +1,8 @@
-﻿capital = 405 #Tashkent
+﻿capital = 8099 #Tashkent
 
 oob = "INF"
 
-set_research_slots = 3
+set_research_slots = 2
 set_stability = 0.40
 set_war_support = 0.66
 
@@ -10,16 +10,10 @@ set_war_support = 0.66
 set_technology = {
 	infantry_weapons = 1
 	motorised_infantry = 1
-	gw_artillery = 1
-	gwtank = 1
 	transport = 1
 }
 
 add_ideas = {
-	GEN_Szymon_Kowalski_hog_ade
-	GEN_Jozef_Korczak_eco_ade
-	GEN_Gaj_Bosko_sec_ade
-	GEN_Ludwik_Czaplinski_for_ade
 }
 
 set_politics = {
@@ -68,8 +62,8 @@ set_politics = {
 
 create_country_leader = {
 	name = "Oraz Sirdar"
-	desc = ""
-	picture = "Portrait_TRK_Generic.tga" #"idk his real name, he just was a soldier in the russian army in the 80's of the xixth century" - Elia. Couldn't find photo of him except this https://i.imgur.com/V1mMIwX.png
+	desc = "POLITICS_ORAZ_SIRDAR"
+	picture = "Portrait_TRK_Oraz_Sirdar.tga"
 	expire = "1953.3.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

@@ -9,8 +9,8 @@ ENG = {
 	color_ui = rgb { 160 15 15 }
 }
 ARB = {
-	color = rgb { 110 158 110 } #95 177 73
-	color_ui = rgb { 95 177 73 }
+	color = rgb { 127 93 41 } #95 177 73
+	color_ui = rgb { 57 38 11 }
 }
 ENP = {
 	color = rgb { 201 56 93 }
@@ -302,8 +302,8 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
-	color = rgb { 181 81 82 }
-	color_ui = rgb { 204 167 98 }
+	color = rgb { 99 126 172 }
+	color_ui = rgb { 76 98 135 }
 }
 TIB = {
 	color = rgb { 180  180  180 }
@@ -334,8 +334,8 @@ USS = {
 	color_ui = rgb { 156 48 41 }
 }
 MON = {
-	color = rgb { 113 164 85 }
-	color_ui = rgb { 113 164 85 }
+	color = rgb { 178 182 64 }
+	color_ui = rgb { 78 80 42 }
 }
 MEN = {
 	color = rgb { 185  255  152 }
@@ -404,8 +404,8 @@ SHX = {
 }
 
 XSM = {
-	color = rgb { 67 105 148 }
-	color_ui = rgb { 87 75 109 }
+	color = rgb { 67 104 108 }
+	color_ui = rgb { 48 67 70 }
 }
 
 LBA = {
@@ -810,4 +810,31 @@ ORA = {
 SOM = {
 	color = rgb { 122  111  179 }
 	color_ui = rgb { 80 74 108 }
+}
+
+BUK = {
+	color = rgb { 72  121  54 }
+	color_ui = rgb { 55 71 49 }
+}
+
+KHI = {
+	color = rgb { 125 120 139 }
+	color_ui = rgb { 56 51 76 }
+}
+
+STR = {
+	color = rgb { 189 114 102 }
+	color_ui = rgb { 98 68 64 }
+}
+KUM = {
+	color = rgb { 185 151 92 }
+	color_ui = rgb { 118 98 64 }
+}
+BIN = {
+	color = rgb { 115 29 22 }
+    color_ui = rgb { 92 9 3 }
+}
+SRW = {
+	color = rgb { 178 139 134 }
+	color_ui = rgb { 100 51 45 }
 }

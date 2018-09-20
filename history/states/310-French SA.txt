@@ -10,8 +10,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BRA
-		add_core_of = BRA
+		owner = FRA
 		buildings = {
 			infrastructure = 2
 			12885 = {
