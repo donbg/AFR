@@ -4,17 +4,17 @@ state={
 	name="STATE_675"
 
 	history={
-		owner = TUR
+		owner = ARB
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = TUR
+		add_core_of = ARB
 
 	}
 
 	provinces={
-		1631 4951 4974 8101 10744 10815 10901 12413 12879 
+		1544 1631 4440 4562 4603 4951 4974 7970 8101 10744 10815 10901 12455 12879 
 	}
 	manpower=122093
 	buildings_max_level_factor=1.000

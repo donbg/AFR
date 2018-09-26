@@ -831,8 +831,8 @@ KUM = {
 	color_ui = rgb { 118 98 64 }
 }
 BIN = {
-	color = rgb { 115 29 22 }
-    color_ui = rgb { 92 9 3 }
+	color = rgb { 195 109 95 }
+    color_ui = rgb { 114 55 46 }
 }
 SRW = {
 	color = rgb { 178 139 134 }

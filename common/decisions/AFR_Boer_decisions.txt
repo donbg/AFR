@@ -1,0 +1,22 @@
+unrest_groups = {
+	TRN_test_decision = {
+
+        icon = generic_industry
+
+		available = {
+			original_tag = TRN
+		}
+
+        cost = 50
+
+        ai_will_do = {
+            base = 100
+        }
+
+        fire_only_once = yes
+
+		complete_effect = {
+			add_political_power = 50
+		}
+	}
+}

@@ -45,11 +45,6 @@ set_technology = {
 }
 
 add_ideas = {
-	VIN_rural_nation
-	GEN_Hugo_Bernard_hog_sli
-	GEN_Felix_Menard_for_sli
-	GEN_Francis_Morel_eco_sli
-	GEN_Baptiste_Sartre_sec_sli
 }
 
 set_politics = {
@@ -103,7 +98,7 @@ parties = {
 create_country_leader = {
 	name = "Ho Chí Minh" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.tga"
 	expire = "1953.3.1"
 	ideology = revolutionary_unionist_subtype
 	traits = {
@@ -114,7 +109,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Thành Thái"
 	desc = "POLITICS_THANH_THAI_DESC"
-	picture = "Portrait_Thanh_Thai.dds"
+	picture = "Portrait_Thanh_Thai.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -124,7 +119,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Thành Thái"
 	desc = "POLITICS_THANH_THAI_DESC"
-	picture = "Portrait_Thanh_Thai.dds"
+	picture = "Portrait_Thanh_Thai.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -134,7 +129,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Thành Thái"
 	desc = "POLITICS_THANH_THAI_DESC"
-	picture = "Portrait_Thanh_Thai.dds"
+	picture = "Portrait_Thanh_Thai.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -144,7 +139,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Thành Thái"
 	desc = "POLITICS_THANH_THAI_DESC"
-	picture = "Portrait_Thanh_Thai.dds"
+	picture = "Portrait_Thanh_Thai.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -154,7 +149,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Thành Thái"
 	desc = "POLITICS_THANH_THAI_DESC"
-	picture = "Portrait_Thanh_Thai.dds"
+	picture = "Portrait_Thanh_Thai.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -164,7 +159,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Thành Thái"
 	desc = "POLITICS_THANH_THAI_DESC"
-	picture = "Portrait_Thanh_Thai.dds"
+	picture = "Portrait_Thanh_Thai.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -174,7 +169,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Thành Thái"
 	desc = "POLITICS_THANH_THAI_DESC"
-	picture = "Portrait_Thanh_Thai.dds"
+	picture = "Portrait_Thanh_Thai.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
