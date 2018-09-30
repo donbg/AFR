@@ -1,6 +1,9 @@
 state={
 	id=903
 	name="STATE_903"
+	resources={
+		chromium=5.0
+	}
 
 	history={
 		owner = TRN
@@ -17,7 +20,7 @@ state={
 	provinces={
 		5106 1688 13268 13261 13270
 	}
-	manpower=140500
+	manpower=180500
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

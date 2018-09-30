@@ -46,11 +46,7 @@ set_technology = {
 }
 
 add_ideas = {
-	ENG_Samuel_Hoare_hog
-	ENG_John_Anderson_for
-	ENG_Neville_Chamberlain_eco
-	ENG_John_Gilmour_sec
-	#ENG_Howard_Wood_int
+
 }
 
 set_convoys = 800
@@ -94,6 +90,26 @@ if = {
 		target = NZL
 		autonomous_state = autonomy_colony
 		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = BIN
+		autonomous_state = autonomy_colony
+		freedom_level = 0.3
+	}
+	set_autonomy = {
+		target = SRW
+		autonomous_state = autonomy_colony
+		freedom_level = 0.3
+	}
+	set_autonomy = {
+		target = AFG
+		autonomous_state = autonomy_colony
+		freedom_level = 0.8
+	}
+	set_autonomy = {
+		target = TRK
+		autonomous_state = autonomy_colony
+		freedom_level = 0.8
 	}
 	else = {
 		puppet = RAJ

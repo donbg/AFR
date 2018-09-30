@@ -47,7 +47,7 @@ set_country_flag = has_ministers
 
 create_faction = "Mächtebund"
 add_to_faction = GER
-add_to_faction = BEL
+add_to_faction = LAT
 
 set_research_slots = 4
 set_convoys = 200

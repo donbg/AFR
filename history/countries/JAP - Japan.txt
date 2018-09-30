@@ -7,11 +7,11 @@ set_war_support = 0.45
 
 set_research_slots = 4
 
+create_faction = "Dai Toa Domei"
+add_to_faction = MAN
+add_to_faction = VIN
+
 add_ideas = {
-	GEN_Francesco_Esposito_hog_mli
-	GEN_Antonello_D_Angelo_for_mli
-	GEN_Eros_Berna_eco_mli
-	GEN_Fleano_Carideo_sec_mli
 }
 
 set_technology = {
@@ -25,8 +25,6 @@ set_technology = {
 	gw_artillery = 1
 	gwtank = 1
 	basic_light_tank = 1
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
 	cv_early_fighter = 1
 	cv_CAS1 = 1
 	cv_naval_bomber1 = 1
@@ -52,11 +50,6 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
-#create_import = {
-#		resource = oil
-#		factories = 2
-#		exporter = USA
-#}
 
 set_convoys = 400
 

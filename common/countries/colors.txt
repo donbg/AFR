@@ -499,8 +499,8 @@ KUR = {
 }
 
 BLR = {
-	color = rgb { 190 210 220 } #Original is 180 220 190
-	color_ui = rgb { 180 220 190 }
+	color = rgb { 201 196 196 }
+	color_ui = rgb { 155 139 139 }
 }
 MAN = {
 	color = rgb { 117 107 60 } #Formerly 235 187 0
@@ -831,8 +831,8 @@ KUM = {
 	color_ui = rgb { 118 98 64 }
 }
 BIN = {
-	color = rgb { 195 109 95 }
-    color_ui = rgb { 114 55 46 }
+	color = rgb { 118 63 54 }
+    color_ui = rgb { 97 55 46 }
 }
 SRW = {
 	color = rgb { 178 139 134 }

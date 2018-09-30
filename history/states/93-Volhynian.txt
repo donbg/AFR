@@ -1,22 +1,21 @@
-
 state={
 	id=93
 	name="STATE_93"
 
 	history={
-		owner = UKR
+		owner = POL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
-		add_core_of = UKR
+		add_core_of = POL
 
 	}
 
 	provinces={
-		422 474 513 572 3392 3412 6415 6435 6520 6546 6557 6580 9452 9520 11399 11441 11466 11528 11543 
+		422 513 3392 3412 3496 6415 6546 6580 9452 9520 11399 11441 11466 11528
 	}
-	manpower=1985600
+	manpower=1040235
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
