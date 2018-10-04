@@ -54,37 +54,37 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 3
-		}
-		democratic_socialist = {
-			popularity = 3
-		}
-		libertarian_socialist = {
 			popularity = 1
 		}
+		democratic_socialist = {
+			popularity = 2
+		}
+		libertarian_socialist = {
+			popularity = 10
+		}
 		social_democrat = {
-			popularity = 9
+			popularity = 3
 		}
 		social_liberal = {
-			popularity = 16
+			popularity = 15
 		}
 		market_liberal = {
-			popularity = 11
+			popularity = 9
 		}
 		social_conservative = {
-			popularity = 37
+			popularity = 35
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 9
+			popularity = 11
 		}
 		national_populist = {
-			popularity = 10
+			popularity = 13
 		}
 		fratellist = {
-			popularity = 0
+			popularity = 1
 		}
 	}
 

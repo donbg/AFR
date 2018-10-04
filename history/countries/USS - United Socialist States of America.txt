@@ -131,21 +131,11 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Louis Waldman"
-	desc = "POLITICS_LOUIS_WALDMAN_DESC"
-	picture = "GFX_USS_louis_waldman.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
 	name = "Robert M. La Follette Jr."
 	desc = "POLITICS_ROBERT_FOLLETTE_JR_DESC"
 	picture = "GFX_USS_robert_follette_jr.tga"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		#
 	}
