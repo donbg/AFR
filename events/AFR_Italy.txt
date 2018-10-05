@@ -1,0 +1,30 @@
+﻿################
+#
+# Italian Events
+#
+##################
+
+
+add_namespace = italy
+
+
+#AskSupportGermany-Request
+country_event  = {
+    id = italy.1
+    title = italy.1.t
+    desc = italy.1.d
+    picture = chinese_machinegun_fighting
+
+    is_triggered_only = yes
+
+    fire_only_once = yes 
+ 
+    option = {
+        name = italy.1.a
+        add_political_power = 25
+        send_equipment = {
+        equipment = infantry_equipment
+        amount = 2000
+        target = ALB
+    }
+}

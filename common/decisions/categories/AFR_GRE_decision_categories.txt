@@ -1,0 +1,10 @@
+GRE_core_lands = {
+	icon = generic_propaganda
+
+	picture = GFX_decision_cat_generic_propaganda
+
+	allowed = {
+		original_tag = GRE
+	}
+}
+

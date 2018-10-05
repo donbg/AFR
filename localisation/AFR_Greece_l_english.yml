@@ -1,0 +1,31 @@
+﻿l_english:
+#Decisions
+GRE_core_lands:0 "Integration and Subjugation"
+GRE_core_lands_desc:0 "War brings Conquest. Conquest means victory. Victory means gaining new lands and resources. One of the most valueable resources are humans. In conquered territories almost no one will be willing to fight for you so you have to decide what to do with them."
+GRE_vlore:0 "§YNorthern Epirus§"
+GRE_vlore_desc:0 "The northern part of Epirus is finally under our control. But the Greek population in those lands is fairly low compared to the, in the last decades immigrated, Albanians. We must decide how we want to deal with them in our country."
+GRE_vlore_force_1:0 "§RBan Albanian Language§"
+GRE_vlore_force_2:0 "§RProhibit Muslim Belief§"
+GRE_vlore_force_3:0 "§RExpel Albanian Politicians§"
+GRE_vlore_force_4:0 "§RNo Albanians in Epirus§"
+GRE_vlore_peace_1:0 "§MEncourage Collabaration"
+GRE_vlore_peace_2:0 "§MEnsure no conspription for Albanians§"
+GRE_vlore_peace_3:0 "§MAlbano-Greeko Identity§"
+GRE_vlore_peace_4:0 "§MAutonomy for the Albanians§"
+
+
+
+
+
+
+
+
+
+
+#Events
+greece.100.t:0 "The Integration of Northern Epirus"
+greece.100.d:0 "With our victory of the Second Balkan War we have expanded our borders to our limit. While we have finally have reclaimed the whole of Epirus, the region itself is not fully greek. Around 70% of the population there has become Albanian and are now a minority in our country. Expelling them would ruin the region so have either the choice of accepting their autonomy or indoctrinate the Greek Culture opon them."
+greece.100.a:0 "It is time to expel Albanian Influence from our lands"
+greece.100.b:0 "Albanian culture must be respected"
+
+  

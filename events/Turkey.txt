@@ -13,7 +13,7 @@ country_event  = {
 	id = turkey.1
 	title = turkey.1.t
 	desc = turkey.1.d
-
+    picture = chinese_machinegun_fighting
 
     trigger = {
     date > 1936.02.15
@@ -29,9 +29,70 @@ country_event  = {
 	option = {
 		name = turkey.1.a
 		hidden_effect = { ALB = { transfer_state = 44 transfer_state = 765 } }
+		hidden_effect = { ITA = { country_event = { days = 3 id = italy.1 } } }
+        hidden_effect = { country_event = { id = balkan.2 }  }
         declare_war_on = {
         target = ALB
         type = annex_everything
         }
 	}
+}
+
+
+#AskSupportGermany-Request
+country_event  = {
+    id = turkey.2
+    title = turkey.2.t
+    desc = turkey.2.d
+    picture = chinese_machinegun_fighting
+
+    is_triggered_only = yes
+
+    fire_only_once = yes 
+ 
+    option = {
+        name = turkey.2.a
+        add_political_power = 25
+        send_equipment = {
+        equipment = infantry_equipment
+        amount = 2500
+        target = TUR
+        hidden_effect = { TUR = { country_event = { id = turkey.3 } } }
+        }
+    }
+    option = {
+        name = turkey.2.b
+        add_political_power = -25
+        hidden_effect = { TUR = { country_event = { id = turkey.3 } } }
+    }
+}
+
+#AskSupportGermany-Accepted
+country_event  = {
+    id = turkey.3
+    title = turkey.3.t
+    desc = turkey.3.d
+
+    is_triggered_only = yes
+
+    fire_only_once = yes 
+ 
+    option = {
+        name = turkey.3.a
+    }
+}
+
+#AskSupportGermany-Refused
+country_event  = {
+    id = turkey.4
+    title = turkey.4.t
+    desc = turkey.4.d
+
+    is_triggered_only = yes
+
+    fire_only_once = yes 
+ 
+    option = {
+        name = turkey.4.a
+    }
 }

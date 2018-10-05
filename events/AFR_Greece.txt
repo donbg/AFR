@@ -1,0 +1,31 @@
+﻿################
+#
+# Greece Events
+#
+##################
+
+add_namespace = greece
+
+
+#OttomansVictory
+country_event = {
+	id = greece.100
+	title = greece.100.t
+	desc = greece.100.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = ottoman_vic
+	}
+
+	option = {
+		name = greece.100.a
+		set_country_flag = vlore_force_flag
+	}
+	option = {
+		name = greece.100.b
+		set_country_flag = vlore_peace_flag
+	}
+}
