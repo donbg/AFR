@@ -2,26 +2,23 @@
 state={
 	id=359
 	name="STATE_359"
-	manpower = 4041332
+	manpower = 3041332
 	
 	state_category = town
 
 	history={
-		owner = USS
-		victory_points = {
-			6882 5 
-		}
+		owner = USA
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 3
-			air_base = 4
+			industrial_complex = 1
+			air_base = 2
 
 		}
-		add_core_of = USS
+		add_core_of = USA
 	}
 
 	provinces={
-		3693 3863 6882 9801 9864 11740 11782 11900 
+		3693 3863 9801 9864 11740 11782 11900 
 	}
 	
 }

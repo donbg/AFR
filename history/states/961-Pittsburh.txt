@@ -1,0 +1,28 @@
+
+state={
+	id=961
+	name="STATE_961"
+	manpower = 1331346
+	
+	state_category = city
+	
+
+
+	history={
+		owner = USS
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = USS
+		victory_points = {
+			11800 15
+		}
+
+	}
+
+	provinces={
+		3687 6705 11800
+	}
+}

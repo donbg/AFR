@@ -1,0 +1,39 @@
+state={
+	id=962
+	name="STATE_962"
+	resources={
+		steel=6.0
+	}
+	
+	state_category = megalopolis
+
+	history={
+		owner = USS
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 5
+			3878 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = USS
+		victory_points = {
+			3878 30.0 
+		}
+		victory_points = {
+			6882 5 
+		}
+
+	}
+
+	provinces={
+		859 3878 6882
+	}
+	manpower=10766245
+	buildings_max_level_factor=1.000
+}
