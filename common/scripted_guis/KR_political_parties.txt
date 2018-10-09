@@ -1,0 +1,63 @@
+scripted_gui = {
+
+	party_popularity_number = {
+		window_name = "party_popularity_number_container"
+	}
+
+	party_totalist = {
+		window_name = "vanguardist_container"
+		visible = { has_government = vanguardist }
+	}
+
+	party_syndicalist = {
+		window_name = "collectivist_container"
+		visible = { has_government = collectivist }
+	}
+
+	party_radical_socialist = {
+		window_name = "libertarian_socialist_container"
+		visible = { has_government = libertarian_socialist }
+	}
+
+	party_social_democrat = {
+		window_name = "social_democrat_container"
+		visible = { has_government = social_democrat }
+	}
+
+	party_social_liberal = {
+		window_name = "social_liberal_container"
+		visible = { has_government = social_liberal }
+	}
+
+	party_market_liberal = {
+		window_name = "market_liberal_container"
+		visible = { has_government = market_liberal }
+	}
+
+	party_social_conservative = {
+		window_name = "social_conservative_container"
+		visible = { has_government = social_conservative }
+	}
+
+	party_authoritarian_democrat = {
+		window_name = "authoritarian_democrat_container"
+		visible = { has_government = authoritarian_democrat }
+	}
+
+	party_paternal_autocrat = {
+		window_name = "paternal_autocrat_container"
+		visible = { has_government = paternal_autocrat }
+	}
+
+	party_national_populist = {
+		window_name = "national_populist_container"
+		visible = { has_government = national_populist }
+	}
+
+	party_national_populist = {
+		window_name = "valkist_container"
+		visible = { has_government = valkist }
+	}
+
+}
+

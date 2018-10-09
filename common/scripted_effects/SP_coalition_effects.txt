@@ -1,0 +1,120 @@
+### Ruling Party Popularity Effects
+### Credit to the Spartakus team, Written by Natspi
+### Modified to accept Fuhrerreich ideologies by fbruchmueller
+
+SP_NS_coalition_pop_eval = {
+    set_variable = { NS_ruling_party_pop = party_popularity@ruling_party }
+    if = {
+        limit = {
+            NOT = { has_government = vanguardist }
+            has_country_flag = coalition_vanguardist
+        }
+        set_temp_variable = { NS_vanguardist_pop = party_popularity@vanguardist }
+        multiply_temp_variable = { NS_vanguardist_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_vanguardist_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = collectivist }
+            has_country_flag = coalition_collectivist
+        }
+        set_temp_variable = { NS_collectivist_pop = party_popularity@collectivist }
+        multiply_temp_variable = { NS_collectivist_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_collectivist_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = libertarian_socialist }
+            has_country_flag = coalition_libertarian_socialist
+        }
+        set_temp_variable = { NS_libertarian_socialist_pop = party_popularity@libertarian_socialist }
+        multiply_temp_variable = { NS_libertarian_socialist_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_libertarian_socialist_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = social_democrat }
+            has_country_flag = coalition_social_democrat
+        }
+        set_temp_variable = { NS_social_democrat_pop = party_popularity@social_democrat }
+        multiply_temp_variable = { NS_social_democrat_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_social_democrat_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = social_liberal }
+            has_country_flag = coalition_social_liberal
+        }
+        set_temp_variable = { NS_social_liberal_pop = party_popularity@social_liberal }
+        multiply_temp_variable = { NS_social_liberal_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_social_liberal_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = market_liberal }
+            has_country_flag = coalition_market_liberal
+        }
+        set_temp_variable = { NS_market_liberal_pop = party_popularity@market_liberal }
+        multiply_temp_variable = { NS_market_liberal_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_market_liberal_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = social_conservative }
+            has_country_flag = coalition_social_conservative
+        }
+        set_temp_variable = { NS_social_conservative_pop = party_popularity@social_conservative }
+        multiply_temp_variable = { NS_social_conservative_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_social_conservative_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = authoritarian_democrat }
+            has_country_flag = coalition_authoritarian_democrat
+        }
+        set_temp_variable = { NS_authoritarian_democrat_pop = party_popularity@authoritarian_democrat }
+        multiply_temp_variable = { NS_authoritarian_democrat_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_authoritarian_democrat_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = paternal_autocrat }
+            has_country_flag = coalition_paternal_autocrat
+        }
+        set_temp_variable = { NS_paternal_autocrat_pop = party_popularity@paternal_autocrat }
+        multiply_temp_variable = { NS_paternal_autocrat_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_paternal_autocrat_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = national_populist }
+            has_country_flag = coalition_national_populist
+        }
+        set_temp_variable = { NS_national_populist_pop = party_popularity@national_populist }
+        multiply_temp_variable = { NS_national_populist_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_national_populist_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = valkist }
+            has_country_flag = coalition_valkist
+        }
+        set_temp_variable = { NS_valkist_pop = party_popularity@valkist }
+        multiply_temp_variable = { NS_valkist_pop = 100 }
+        add_to_variable = { NS_ruling_party_pop = NS_valkist_pop }
+    }
+}
+ 
+SP_NS_clear_coalition_effect = {
+    clr_country_flag = coalition_vanguardist
+    clr_country_flag = coalition_collectivist
+    clr_country_flag = coalition_libertarian_socialist
+    clr_country_flag = coalition_social_democrat
+    clr_country_flag = coalition_social_liberal
+    clr_country_flag = coalition_market_liberal
+    clr_country_flag = coalition_social_conservative
+    clr_country_flag = coalition_authoritarian_democrat
+    clr_country_flag = coalition_paternal_autocrat
+    clr_country_flag = coalition_national_populist
+    clr_country_flag = coalition_valkist
+}
