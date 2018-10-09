@@ -15,6 +15,14 @@ on_startup = {
 		}
     }
 }
+on_startup = {
+        effect = {
+            #Begin on_weekly event cycle
+            every_country = {
+                country_event = { id = fr.political.2 }
+            }
+        }
+    }
     on_daily = {
         effect = {
             if = {
