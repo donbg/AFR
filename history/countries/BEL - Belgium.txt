@@ -33,11 +33,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 0
 		}
-		democratic_socialist = {
-			popularity = 7
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 1
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 36
@@ -151,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_JULIEN_LAHAUT_DESC"
 	picture = "Portrait_Belgium_Julien_Lahaut.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		#
 	}

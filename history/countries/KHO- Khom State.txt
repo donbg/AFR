@@ -29,11 +29,14 @@ parties = {
 		vanguard_marxist = {
 			popularity = 0
 		}
-		democratic_socialist = {
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
 			popularity = 4
 		}
-		libertarian_socialist = {
-			popularity = 8
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 5
@@ -74,7 +77,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Pha_Ong_Keo.tga"
 	expire = "1953.3.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		
 	}

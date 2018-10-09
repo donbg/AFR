@@ -27,11 +27,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 10
 		}
-		democratic_socialist = {
-			popularity = 7
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
+		syndicalist = {
 			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 12
@@ -122,7 +125,7 @@ create_country_leader = {
 	desc = "POLITICS_DIONISIO_ENCINA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		#
 	}

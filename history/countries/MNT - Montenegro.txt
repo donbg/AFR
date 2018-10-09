@@ -35,11 +35,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 1
 		}
-		democratic_socialist = {
-			popularity = 3
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 1
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 3
@@ -67,7 +70,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -76,171 +79,12 @@ set_politics = {
 
 
 create_country_leader = {
-    name = "Đorđije Lašić"
-    desc = "POLITICS_DORSIJE_LASIC_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
-    expire = "1965.1.1"
-    ideology = revolutionary_unionist_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Blažo Jovanović"
-    desc = "POLITICS_BLAZO_JOVANOVIC_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
-    expire = "1965.1.1"
-    ideology = vanguard_marxist_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Filip Bajković"
-    desc = "POLITICS_FILIP_BAJKOVIC_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
-    expire = "1965.1.1"
-    ideology = libertarian_socialist_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Milovan Djilas"
-    desc = "POLITICS_MILOVAN_DJILAS_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
-    expire = "1965.1.1"
-    ideology = social_democrat_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Milovan Djilas"
-    desc = "POLITICS_MILOVAN_DJILAS_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
-    expire = "1965.1.1"
-    ideology = social_liberal_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Vojvoda Mitar Martinović"
-    desc = "POLITICS_VOJVODA_MITAR_MARTINOVIC_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
-    expire = "1965.1.1"
-    ideology = market_liberal_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Andrija Radović"
-    desc = "POLITICS_ANDRIJA_RADOVIC_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
+    name = "Danilo II"
+    desc = "POLITICS_DANILO_II_DESC"
+    picture = "Portrait_Montenegro_Danilo_II.dds"
     expire = "1965.1.1"
     ideology = social_conservative_subtype
     traits = {
         #
     }
-}
-
-create_country_leader = {
-    name = "Danilo I"
-    desc = "POLITICS_DANILO_I_DESC"
-    picture = "gfx/leaders/MNT/Danilo_I.dds"
-    expire = "1965.1.1"
-    ideology = authoritarian_democrat_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "George I"
-    desc = "POLITICS_GEORGE_I_DESC"
-    picture = "gfx/leaders/MNT/George_I.dds"
-    expire = "1965.1.1"
-    ideology = paternal_autocrat_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Jovan Plamenac"
-    desc = "POLITICS_JOVAN_PLAMENAC_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
-    expire = "1965.1.1"
-    ideology = national_populist_subtype
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Krsto Popović"
-    desc = "POLITICS_KRSTO_POPOVIC_DESC"
-    picture = "Portrait_Albania_King_Zog.dds"
-    expire = "1965.1.1"
-    ideology = national_populist_subtype
-    traits = {
-        #
-    }
-}
-
-############################################
-
-create_field_marshal = {
-	name = "George I"
-	portrait_path = "gfx/leaders/MNT/George_I.dds"
-	traits = { fast_planner }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Đorđije Lašić"
-	portrait_path = "gfx/leaders/MNT/Đorđije_Lašić.dds"
-	traits = { trickster }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Bajo Stanišić"
-	portrait_path = "gfx/leaders/MNT/Bajo_Stanišić.dds"
-	traits = { swamp_fox }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Radola Gajda"
-	portrait_path = "gfx/leaders/MNT/Radola_Gajda.dds"
-	traits = { ranger }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Radomir Vešović"
-	portrait_path = "gfx/leaders/MNT/Radomir_Vešović.dds"
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Luka Gojnić"
-	portrait_path = "gfx/leaders/MNT/Luka_Gojnić.dds"
-	traits = { hill_fighter ranger }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Krsto Popović"
-	portrait_path = "gfx/leaders/MNT/Krsto_Popović.dds"
-	skill = 2
 }

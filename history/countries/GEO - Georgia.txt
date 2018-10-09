@@ -47,11 +47,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 66
 		}
-		democratic_socialist = {
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
 			popularity = 4
 		}
-		libertarian_socialist = {
-			popularity = 1
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 1
@@ -79,7 +82,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = vanguard_marxist
+	ruling_party = paternal_autocrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no

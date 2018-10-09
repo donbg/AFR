@@ -18,11 +18,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 10
 		}
-		democratic_socialist = {
+		libertarian_marxist = {
 			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 8
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 15
@@ -54,4 +57,15 @@ set_politics = {
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ahmad II"
+	desc = "POLITICS_AHMAD_II_DESC"
+	picture = "Portrait_Tunisia_Ahmad_II.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype 
+	traits = {
+		#
+	}
 }

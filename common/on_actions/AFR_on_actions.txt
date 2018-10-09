@@ -10,13 +10,9 @@ on_startup = {
                 country_event = { hours = 1 id = intro.1 }
             }
         }
-        random_country = {
-                limit = {
-                    exists = yes
-                }
-                set_country_flag = statistics_1
-                country_event = statistics.1
-       }
+        TRN = {
+			country_event = { hours = 1 id = TRN.1 }
+		}
     }
 }
     on_daily = {

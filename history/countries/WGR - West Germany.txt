@@ -54,9 +54,14 @@ set_politics = {
 			popularity = 10
 		}
 		
-		democratic_socialist = {
-			popularity = 10
-			banned = no #default is no
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 0
@@ -102,7 +107,7 @@ create_country_leader = {
 #	desc = "POLITICS_WILHELM_PIECK_DESC"
 #	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
 #	expire = "1965.1.1"
-#	ideology = revolutionary_unionist_subtype
+#	ideology = syndicalist_subtype
 #	traits = {
 #	}
 #}
@@ -124,7 +129,7 @@ create_country_leader = {
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
-#	ideology = revolutionary_unionist_subtype
+#	ideology = syndicalist_subtype
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet

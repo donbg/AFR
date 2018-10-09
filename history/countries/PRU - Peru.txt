@@ -67,20 +67,19 @@ set_politics = {
 			popularity = 3
 		}
 
-		national_populist = {
-			popularity = 5
+		libertarian_marxist = {
+			popularity = 8
 		}
-		
-		democratic_socialist = {
-			popularity = 3
-			#banned = no #default is no
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		vanguard_marxist = {
 			popularity = 15
 		}
-		libertarian_socialist = {
-			popularity = 2
-		}
+		
 		fratellist = {
 			popularity = 0
 		}

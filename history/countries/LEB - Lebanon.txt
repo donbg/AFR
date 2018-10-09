@@ -21,8 +21,14 @@ set_politics = {
 			popularity = 10
 		}
 		
-		democratic_socialist = {
-			popularity = 10
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		authoritarian_democrat = { 
 			popularity = 30
@@ -72,7 +78,7 @@ create_country_leader = {
 	name = "Rami Sarraff"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		#
 	}

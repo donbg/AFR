@@ -47,11 +47,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 10
 		}
-		democratic_socialist = {
-			popularity = 43
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 23
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 12
@@ -79,7 +82,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = democratic_socialist
+	ruling_party = revisionist_socialist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -115,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_EMIL_SEIDEL_DESC"
 	picture = "gfx/leaders/USS/Emil_Seidel.tga"
 	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = revisionist_socialist_subtype
 	traits = {
 		#
 	}

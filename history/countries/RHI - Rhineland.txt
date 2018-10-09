@@ -41,11 +41,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 0
 		}
-		democratic_socialist = {
-			popularity = 0
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 10
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 16
@@ -176,7 +179,7 @@ create_country_leader = {
 	desc = "POLITICS_PAUL_TIRARD_DESC"
 	picture = "Portrait_RHI_Hans_Marchwitza.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 	}
 }
@@ -185,7 +188,7 @@ create_country_leader = {
 	desc = "POLITICS_PAUL_TIRARD_DESC"
 	picture = "Portrait_RHI_Rudolf_Breitscheid.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 	}
 }
@@ -194,7 +197,7 @@ create_country_leader = {
 	desc = "POLITICS_PAUL_TIRARD_DESC"
 	picture = "Portrait_RHI_Rudolf_Breitscheid.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 	}
 }

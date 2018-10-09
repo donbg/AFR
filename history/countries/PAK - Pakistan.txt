@@ -37,8 +37,14 @@ set_politics = {
 			popularity = 2
 		}
 		
-		democratic_socialist = {
-			popularity = 1
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 
 		social_conservative = {
@@ -83,7 +89,7 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 	expire = "1960.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		
 	}

@@ -27,11 +27,14 @@ set_politics = {
 		social_democrat = { 
 			popularity = 10
 		}
-		libertarian_socialist = {
-			popularity = 5
+		libertarian_marxist = {
+			popularity = 8
 		}
-		democratic_socialist = {
-			popularity = 15
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_conservative = {
 			popularity = 10

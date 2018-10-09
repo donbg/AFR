@@ -3,12 +3,13 @@ state={
 	name="STATE_665"
 
 	history={
-		owner = FRA
+		owner = TUN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
 	}
+		add_core_of = TUN
 	
 	state_category = town
 

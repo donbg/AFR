@@ -838,3 +838,7 @@ SRW = {
 	color = rgb { 178 139 134 }
 	color_ui = rgb { 100 51 45 }
 }
+TUN = {
+	color = rgb { 131 131 68 }
+	color_ui = rgb { 87 87 37 }
+}

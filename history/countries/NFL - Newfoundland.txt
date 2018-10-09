@@ -43,11 +43,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 3
 		}
-		democratic_socialist = {
-			popularity = 6
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 12
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 14
@@ -108,7 +111,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_ANDERSON_DESC"
 	picture = "Portrait_David_Murray_Anderson.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		#
 	}

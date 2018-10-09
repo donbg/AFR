@@ -10,11 +10,11 @@ state={
 	state_category = city
 
 	history={
-		owner = USS
+		owner = USA
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = USS
+		add_core_of = USA
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

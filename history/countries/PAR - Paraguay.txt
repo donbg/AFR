@@ -25,14 +25,17 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		revolutionary_unionist = { 
+		syndicalist = { 
 			popularity = 5
 		}
-		democratic_socialist = { 
-			popularity = 6
+		libertarian_marxist = {
+			popularity = 8
 		}
-		vanguard_marxist = { 
-			popularity = 0
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		market_liberal = { 
 			popularity = 11

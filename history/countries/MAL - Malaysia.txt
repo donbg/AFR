@@ -62,8 +62,14 @@ set_politics = {
 #		national_populist = {
 #		}
 		
-		democratic_socialist = {
-			popularity = 33
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		authoritarian_democrat = {
 			popularity = 34
@@ -107,7 +113,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		
 	}

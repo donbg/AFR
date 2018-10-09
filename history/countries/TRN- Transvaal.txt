@@ -56,11 +56,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 1
 		}
-		democratic_socialist = {
-			popularity = 2
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 10
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 3
@@ -109,7 +112,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_ANDREWS_DESC"
 	picture = "GFX_TRN_william_andrews"
 	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = revisionist_socialist_subtype
 	traits = {
 		#
 	}

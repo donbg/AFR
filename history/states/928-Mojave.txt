@@ -7,11 +7,11 @@ state={
 	state_category = pastoral
 	
 	history={
-		owner = USS
+		owner = USA
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = USS
+		add_core_of = USA
 		
 	}
 

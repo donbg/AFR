@@ -37,11 +37,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 2
 		}
-		revolutionary_unionist = {
-			popularity = 1
+		libertarian_marxist = {
+			popularity = 8
 		}
-		democratic_socialist = {
-			popularity = 3
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 0

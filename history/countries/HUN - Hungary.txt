@@ -25,11 +25,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 51
 		}
-		democratic_socialist = {
-			popularity = 13
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 10
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 0
@@ -66,86 +69,18 @@ set_politics = {
 give_guarantee = TRA
 
 add_ideas = {
-    hun_horthy_resistance
-    hun_kun_resistance
-    hun_annecy_treaty
-    hun_croat_unrest
-    disarmed_nation
-	GEN_Francesco_Esposito_hog_mli
-	GEN_Antonello_D_Angelo_for_mli
-	GEN_Eros_Berna_eco_mli
-	GEN_Fleano_Carideo_sec_mli
+
 }
 
-create_country_leader = {
-	name = "Mihály Károlyi"
-	desc = "POLITICS_MIHALY_KAROLYI_DESC"
-	picture = "Portrait_HUN_Marklib.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-	}
-}
 
 create_country_leader = {
-	name = "Mátyás Rákosi"
-	desc = "POLITICS_MATYAS_RAKOSI_DESC"
-	picture = "Portrait_HUN_Vang.dds"
+	name = "Béla Kun"
+	desc = "POLITICS_BELA_KUN_DESC"
+	picture = "Portrait_HUN_Bela_Kun.dds"
 	expire = "1965.1.1"
 	ideology = vanguard_marxist_subtype
 	traits = {
 	}
-}
-
-create_country_leader = {
-	name = "György Lukács"
-	desc = "POLITICS_BELA_KUN_DESC"
-	picture = "Portrait_HUN_BelaKun.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Imre Nagy"
-	desc = "POLITICS_IMRE_NAGY_DESC"
-	picture = "Portrait_HUN_LibSoc.dds"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Miklós Horthy"
-	desc = "POLITICS_MIKLOS_HORTHY_DESC"
-	picture = "Portrait_HUN_PatAut.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Ferenc Nagy"
-	desc = "POLITICS_FERENC_NAGY_DESC"
-	picture = "Portrait_HUN_soccon.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-	}
-}
-#######################
-### Field Marshalls ###
-#######################
-
-
-create_field_marshal = { 
-	name = "Ferenc Feketehalmy-Czeydner"
-	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
-	traits = { }
-	skill = 2
 }
 ################
 ### Generals ###

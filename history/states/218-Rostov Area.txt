@@ -4,7 +4,7 @@ state={
 	name="STATE_218"
 
 	history={
-		owner = RUS
+		owner = UKR
 		victory_points = {
 			9417 15 
 		}
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = RUS
+		add_core_of = UKR
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
@@ -30,7 +30,7 @@ state={
 	}
 
 	provinces={
-		6445 6493 9417 9430 9446 11418 11434 11450 
+		6445 6493 9417 9430 9446 11434 
 	}
 	manpower=1501076
 	buildings_max_level_factor=1.000

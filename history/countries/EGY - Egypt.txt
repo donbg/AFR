@@ -28,11 +28,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 2
 		}
-		democratic_socialist = {
-			popularity = 0
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 0
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 0
@@ -140,7 +143,7 @@ create_country_leader = {
 	name = "Hosni al-Arabi"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		#
 	}

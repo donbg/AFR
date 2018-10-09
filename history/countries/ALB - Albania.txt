@@ -24,11 +24,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 5
 		}
-		democratic_socialist = {
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
 			popularity = 4
 		}
-		libertarian_socialist = {
-			popularity = 4
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 6
@@ -74,7 +77,7 @@ create_country_leader = {
 	desc = "POLITICS_ENVER_HOXHA_DESC"
 	picture = "portrait_Albania_Enver_Hoxha.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		#
 	}

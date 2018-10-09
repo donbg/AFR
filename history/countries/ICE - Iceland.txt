@@ -36,7 +36,13 @@ set_politics = {
 			popularity = 2
 		}
 		
-		democratic_socialist = {
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
 			popularity = 2
 		}
 		social_conservative = {
@@ -91,7 +97,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		#
 	}

@@ -45,17 +45,20 @@ set_politics = {
 		social_democrat = { 
 			popularity = 6
 		}
-		libertarian_socialist = { 
-			popularity = 4
-		}
 		national_populist = {
 			popularity = 10
 		}
 		vanguard_marxist = {
 			popularity = 3
 		}	
-		democratic_socialist = {
+		libertarian_marxist = {
 			popularity = 8
+		}
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		fratellist = {
 			popularity = 0

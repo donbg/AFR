@@ -31,11 +31,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 14
 		}
-		democratic_socialist = {
-			popularity = 45
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
+		syndicalist = {
 			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 0
@@ -63,7 +66,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic_socialist
+	ruling_party = revisionist_socialist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -86,7 +89,7 @@ create_country_leader = {
 	desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 	picture = "Portrait_KMT_Chiang_Kai-shek.tga"
 	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = revisionist_socialist_subtype
 	traits = {
 		#
 	}

@@ -25,11 +25,14 @@ parties = {
 		vanguard_marxist = {
 			popularity = 6
 		}
-		democratic_socialist = {
+		libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
 			popularity = 4
 		}
-		libertarian_socialist = {
-			popularity = 0
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 10

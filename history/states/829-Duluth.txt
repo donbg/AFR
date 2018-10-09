@@ -6,12 +6,12 @@ state={
 	}
 
 		history={
-		owner = USS
+		owner = USA
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = USS
+		add_core_of = USA
 	}
 
 	provinces={

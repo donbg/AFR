@@ -1,7 +1,8 @@
 ﻿l_english:
 vanguard_marxist_noun:0 "Vanguard Marxism"
-democratic_socialist_noun:0 "Democratic Socialism"
-libertarian_socialist_noun:0 "Libertarian Socialist"
+syndicalist_noun:0 "Syndicalism"
+libertarian_marxist_noun:0 "Libertarian Marxism"
+revisionist_socialist_noun:0 "Revisionist Socialism"
 social_democrat_noun:0 "Social Democracy"
 social_liberal_noun:0 "Social Liberalism"
 market_liberal_noun:0 "Market Liberalism"
@@ -12,8 +13,9 @@ national_populist_noun:0 "National Populism"
 fratellist_noun:0 "Fratellism"
 
 vanguard_marxist_desc:0 "Vanguard Marxist"
-democratic_socialist_desc:0 "Democratic Socialist"
-libertarian_socialist_desc:0 "Libertarian Socialist"
+syndicalist_desc:0 "Syndicalist"
+libertarian_marxist_desc:0 "Libertarian Marxist"
+revisionist_socialist_desc:0 "Revisionist Socialist"
 social_democrat_desc:0 "Social Democrat"
 social_liberal_desc:0 "Social Liberal"
 market_liberal_desc:0 "Market Liberal"
@@ -25,9 +27,11 @@ fratellist_desc:0 "Fratellist"
 
 vanguard_marxist_subtype_desc:0 "Vanguard Marxism is often used as a term to describe the various authoritarian interpretations of Socialism, which propose a much stronger state than which is advocated by both Libertarian Socialists and Revolutionary Unionists. Vanguard Marxism, as a general term, advocates centralized economic planning, political consciousness of the populace, and a strong state in order to enable a revolutionary political vanguard to establish a dictatorship of the proletariat."
 
-democratic_socialist_subtype_desc:0 "Democratic Socialism is a socialist political ideology and revolutionary strategy that advocates overcoming the bourgeoisie elites of a country through democratic reformism as well as revolutionary action, using both strategies to strike support amongst the people and spread the party's ideological beliefs. In the place of a capitalist state, democratic socialism advocates the establishment of a democratically elected  government overseeing a horizontal economy run on the ideas of workplace democracy and industrial unionism."
+syndicalist_subtype_desc:0 "Revolutionary unionism, basing itself on the class struggle, aims to unite all workers in combative economic organizations, that fight to free themselves from the yoke of capital. "
 
-libertarian_socialist_subtype_desc:0 "Rather than a defined ideology, Libertarian Socialism is an umbrella term for the different socialist ideologies that put an emphasis in a liberal social and political order, possibly including direct or indirect democracy, or absence of a central government to democratically rule altogether, while possessing certain degree of socialist economic policy that may vary depending on the ideology. Many different sub-ideologies fall under the banner of libertarian socialism. Prominent ideologies under this term may include Participism, Communalism and Anarchism, amongst others."
+libertarian_marxist_subtype_desc:0 "Rather than a defined ideology, Libertarian Socialism is an umbrella term for the different socialist ideologies that put an emphasis in a liberal social and political order, possibly including direct or indirect democracy, or absence of a central government to democratically rule altogether, while possessing certain degree of socialist economic policy that may vary depending on the ideology. Many different sub-ideologies fall under the banner of libertarian socialism. Prominent ideologies under this term may include Participism, Communalism and Anarchism, amongst others."
+
+revisionist_socialism_subtype_desc:0 "Reform"
 
 social_democrat_subtype_desc:0 "Social Democracy is an ideology whose goal is to reform capitalism and humanize it by aligning it with the ethical ideals of social welfare while maintaining the capitalist mode of production, rather than creating an alternative socialist economic system. While usually promoting a plutocratic form of government and a heavily regulated market economy, some more radical streams exist."
 
@@ -42,7 +46,5 @@ authoritarian_democrat_subtype_desc:0 "Authoritarian Democracy is an ideology th
 paternal_autocrat_subtype_desc:0 "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
 
 national_populist_subtype_desc:0 "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and some form of ethnic or national superiority. Diplomatically, National Populists typically emphasize expansionist, hawkish, and revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
-
-internationalist_subtype_desc:0 "Developed from particularly interventionist branches of revolutionary_unionism and marxism overall, Internationalist Socialism, as it calls itself, or more commonly known as Internationalism,  is a socialist ideology that proposes the workers, once in power, must organize to enact a perpetual revolution, and to continue proactively in their struggle to bring socialism to the world. While most socialist strains are of international nature, the proactive spirit of Internationalism has given it a more militant nature, and Internationalist ideologues are known advocates of increased militarization of the workers in name of the revolution, as well as establishing a strong state that is able to defend the workers’ interests and protect the revolution from reactionary forces that may oppose it, as the revolution is never supposed to stop spreading."
 
 fratellist_subtype_desc:0 "Fratellism is an ultranationalist political ideology that affirms that the state is an organic entity brought together by peoples’ cultural and historical association with each other, and therefore can only survive if it exists as a source of national pride and national unity, under a recognizable leader that embodies national ideals and values, such as religion and traditions. It advocates the need for the establishment of a symbiotic relationship between government and people, where the people build the government through their labor and the government in return guides them economically and socially towards happiness, enlightenment and self-fulfilment. Fratellist states generally uphold their own cultural superiority and justify imperialist, colonialist and militarist ambitions on that basis, asserting the importance of expansionism and political-economical growth to instilling national pride and a sense of relevance in the labor and hardwork of their population. They also use heavy-handed religious, culturally xenophobic and militarist discourse to build a bond between the people, and usually do not discriminate based on ethnic and racial lines, and more on cultural, ideological and religious lines.\nEconomically, Fratellism defends the need for social hierarchy but upholds the necessity of cooperation between socioeconomic classes, as well as the need for the recognition of merit and loyalty as means of allowing for perpetuated national growth and self-improvement.\nAdministratively, Fratellism believes in organic rather than ideological political representation with political control centered around an authoritarian regime that distributes power on a communal level.."

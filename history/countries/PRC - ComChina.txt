@@ -17,11 +17,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 39
 		}
-		democratic_socialist = {
-			popularity = 38
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 21
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 0
@@ -49,7 +52,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = revolutionary_unionist
+	ruling_party = syndicalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -66,7 +69,7 @@ create_country_leader = {
 	desc = "POLITICS_LI_DAZHAO_DESC"
 	picture = "portrait_PRC_Li_Dazhao.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 
 }
 

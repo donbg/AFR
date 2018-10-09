@@ -8,11 +8,11 @@ state={
 	state_category = rural
 	
 	history={
-		owner = USS
+		owner = USA
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = USS
+		add_core_of = USA
 	}
 
 	provinces={

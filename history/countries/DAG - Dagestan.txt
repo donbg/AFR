@@ -40,10 +40,7 @@ set_technology = {
 }
 
 add_ideas = {
-	GEN_Mathias_Hansen_hog_lis
-	GEN_Edgar_Hovda_for_lis
-	GEN_Karl_Mork_eco_lis
-	GEN_Lars_Egner_sec_lis
+
 }
 
 set_politics = {
@@ -52,11 +49,14 @@ set_politics = {
 		vanguard_marxist = {
 			popularity = 15
 		}
-		democratic_socialist = {
-			popularity = 5
+		libertarian_marxist = {
+			popularity = 8
 		}
-		libertarian_socialist = {
-			popularity = 60
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 		social_democrat = {
 			popularity = 10
@@ -74,7 +74,7 @@ set_politics = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 0
+			popularity = 60
 		}
 		national_populist = {
 			popularity = 0
@@ -84,18 +84,18 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = libertarian_socialist
+	ruling_party = paternal_autocrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Jelal Kormaxov"
+	name = "Uzun Hajj"
 	desc = ""
-	picture = "portrait_DAG_Jelal_Kormaxov.tga"
+	picture = "portrait_DAG_Uzun_Haji.tga"
 	expire = "1953.3.1"
-	ideology = libertarian_socialist_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		
 	}

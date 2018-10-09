@@ -42,12 +42,15 @@ set_politics = {
         vanguard_marxist = {
             popularity = 14
         }
-        democratic_socialist = {
-            popularity = 0
-        }
-        libertarian_socialist = {
-            popularity = 2
-        }
+        libertarian_marxist = {
+			popularity = 8
+		}
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
+		}
         social_democrat = {
             popularity = 23
         }
@@ -149,7 +152,7 @@ create_country_leader = {
 	desc = "EZIO_BARALINI_DESC"
 	picture = "Portrait_Italy_Ezio_Bartalini.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {		
 	}
 }

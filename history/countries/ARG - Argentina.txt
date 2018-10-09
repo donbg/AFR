@@ -45,12 +45,14 @@ set_politics = {
 			popularity = 0
 		}
 
-		libertarian_socialist = { 
-			popularity = 64
+		libertarian_marxist = {
+			popularity = 8
 		}
-
-		vanguard_marxist = { 
-			popularity = 5
+		syndicalist = {
+			popularity = 4
+		}
+		revisionist_socialist = {
+			popularity = 2
 		}
 
 		market_liberal = { 
@@ -69,10 +71,6 @@ set_politics = {
 			popularity = 6
 		}
 
-		democratic_socialist = {
-			popularity = 0
-		}
-		
 		authoritarian_democrat = { 
 			popularity = 0
 		}
@@ -204,7 +202,7 @@ create_country_leader = {
 	desc = "POLITICS_RGhio_DESC"
 	picture = "RodolfoGhioldi.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_unionist_subtype
+	ideology = syndicalist_subtype
 	traits = {
 		#
 	}
