@@ -30,15 +30,6 @@ party_pop_0_70:0 "70-80% Party Popularity"
 party_pop_0_80:0 "80-90% Party Popularity"
 party_pop_0_90:0 "90-100% Party Popularity"
 
-### Economic Health ###
-boom_economy:0 "WIP" #Boom Economy WIP!!!
-good_economy:0 "WIP" #Good Economy WIP!!!
-medium_economy:0 "WIP" #Medium Economy WIP!!!
-bad_economy:0 "WIP" #Bad Economy WIP!!!
-bust_economy:0 "WIP" #Bust Economy WIP!!!
-crash_economy:0 "WIP" #Crash Economy WIP!!!
-economic_health:0 "Work in progress, don't worry about this" #Economic Health WIP!!!
-
 ### Stability Events ###
 fr.political.1.t:0 "Downfall in Stability!"
 fr.political.1.d:0 "With our recent lack of political power, our country's stability has been weakened, no longer are we very stable. Once again doubt starts to seep into the political discourse."
