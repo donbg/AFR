@@ -1,63 +1,485 @@
 defined_text = {
-	name = GetPopLevel
-	text = {
-		trigger = {
-			has_idea = party_pop_0_90
-		}
-		localization_key = party_pop_0_90_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_80
-		}
-		localization_key = party_pop_0_80_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_70
-		}
-		localization_key = party_pop_0_70_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_60
-		}
-		localization_key = party_pop_0_60_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_50
-		}
-		localization_key = party_pop_0_50_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_40
-		}
-		localization_key = party_pop_0_40_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_30
-		}
-		localization_key = party_pop_0_30_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_20
-		}
-		localization_key = party_pop_0_20_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_10
-		}
-		localization_key = party_pop_0_10_loc_key
-	}
-	text = {
-		trigger = {
-			has_idea = party_pop_0_00
-		}
-		localization_key = party_pop_0_00_loc_key
-	}
+    name = GetPopLevel
+    text = {
+        trigger = {
+            has_idea = party_pop_0_90
+        }
+        localization_key = party_pop_0_90_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_80
+        }
+        localization_key = party_pop_0_80_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_70
+        }
+        localization_key = party_pop_0_70_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_60
+        }
+        localization_key = party_pop_0_60_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_50
+        }
+        localization_key = party_pop_0_50_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_40
+        }
+        localization_key = party_pop_0_40_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_30
+        }
+        localization_key = party_pop_0_30_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_20
+        }
+        localization_key = party_pop_0_20_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_10
+        }
+        localization_key = party_pop_0_10_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_00
+        }
+        localization_key = party_pop_0_00_loc_key
+    }
+}
+ 
+defined_text = {
+    name = GetCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_country_flag = coalition_vanguardist
+                has_country_flag = coalition_collectivist
+                has_country_flag = coalition_libertarian_socialist
+                has_country_flag = coalition_democratic_socialist
+                has_country_flag = coalition_social_democrat
+                has_country_flag = coalition_social_liberal
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = coalition_vanguardist
+                has_country_flag = coalition_collectivist
+                has_country_flag = coalition_libertarian_socialist
+                has_country_flag = coalition_democratic_socialist
+                has_country_flag = coalition_social_democrat
+                has_country_flag = coalition_social_liberal
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = ""
+    }
+}
+ 
+defined_text = {
+    name = GetCoalitionWords
+    text = {
+        trigger = {
+            OR = {
+                has_country_flag = coalition_vanguardist
+                has_country_flag = coalition_collectivist
+                has_country_flag = coalition_libertarian_socialist
+                has_country_flag = coalition_democratic_socialist
+                has_country_flag = coalition_social_democrat
+                has_country_flag = coalition_social_liberal
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_display_words
+    }
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = coalition_vanguardist
+                has_country_flag = coalition_collectivist
+                has_country_flag = coalition_libertarian_socialist
+                has_country_flag = coalition_democratic_socialist
+                has_country_flag = coalition_social_democrat
+                has_country_flag = coalition_social_liberal
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = ""
+    }
+}
+ 
+defined_text = {
+    name = GetLeninistCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_vanguardist
+            OR = {
+                has_country_flag = coalition_collectivist
+                has_country_flag = coalition_libertarian_socialist
+                has_country_flag = coalition_democratic_socialist
+                has_country_flag = coalition_social_democrat
+                has_country_flag = coalition_social_liberal
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_vanguardist_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_vanguardist
+        }
+        localization_key = coalition_parties_vanguardist
+    }
+}
+ 
+defined_text = {
+    name = GetMarxistCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_collectivist
+            OR = {
+                has_country_flag = coalition_libertarian_socialist
+                has_country_flag = coalition_democratic_socialist
+                has_country_flag = coalition_social_democrat
+                has_country_flag = coalition_social_liberal
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_collectivist_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_collectivist
+        }
+        localization_key = coalition_parties_collectivist
+    }
+}
+ 
+defined_text = {
+    name = GetRevolutionarySocialistCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_libertarian_socialist
+            OR = {
+                has_country_flag = coalition_democratic_socialist
+                has_country_flag = coalition_social_democrat
+                has_country_flag = coalition_social_liberal
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_libertarian_socialist_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_libertarian_socialist
+        }
+        localization_key = coalition_parties_libertarian_socialist
+    }
+}
+ 
+ 
+defined_text = {
+    name = GetSocialDemocratCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_social_democrat
+            OR = {
+                has_country_flag = coalition_social_liberal
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_social_democrat_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_social_democrat
+        }
+        localization_key = coalition_parties_social_democrat
+    }
+}
+ 
+defined_text = {
+    name = GetSocialLiberalCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_social_liberal
+            OR = {
+                has_country_flag = coalition_market_liberal
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_social_liberal_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_social_liberal
+        }
+        localization_key = coalition_parties_social_liberal
+    }
+}
+ 
+defined_text = {
+    name = GetLiberalConservativeCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_market_liberal
+            OR = {
+                has_country_flag = coalition_social_conservative
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_market_liberal_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_market_liberal
+        }
+        localization_key = coalition_parties_market_liberal
+    }
+}
+ 
+defined_text = {
+    name = GetSocialConservativeCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_social_conservative
+            OR = {
+                has_country_flag = coalition_authoritarian_democrat
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_social_conservative_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_social_conservative
+        }
+        localization_key = coalition_parties_social_conservative
+    }
+}
+ 
+defined_text = {
+    name = GetAuthoritarianDemocratCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_authoritarian_democrat
+            OR = {
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_authoritarian_democrat_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_authoritarian_democrat
+        }
+        localization_key = coalition_parties_authoritarian_democrat
+    }
+}
+ 
+defined_text = {
+    name = GetRightWingPopulistCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_paternal_autocrat
+            OR = {
+                has_country_flag = coalition_national_populist
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_paternal_autocrat_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_paternal_autocrat
+        }
+        localization_key = coalition_parties_paternal_autocrat
+    }
+}
+ 
+defined_text = {
+    name = GetNationalPopulistCoalition
+    text = {
+        trigger = {
+            has_country_flag = coalition_national_populist
+            OR = {
+                has_country_flag = coalition_valkist
+            }
+        }
+        localization_key = coalition_parties_national_populist_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_national_populist
+        }
+        localization_key = coalition_parties_national_populist
+    }
+}
+ 
+defined_text = {
+    name = GetValkistCoalition
+     text = {
+        trigger = {
+            has_country_flag = coalition_national_populist
+            OR = {
+                has_country_flag = coalition_paternal_autocrat
+                has_country_flag = coalition_national_populist
+            }
+        }
+    localization_key = coalition_parties_valkist_comma
+    }
+    text = {
+        trigger = {
+            has_country_flag = coalition_valkist
+        }
+        localization_key = coalition_parties_valkist
+    }
+}
+ 
+defined_text = {
+    name = GetRulingCoalition
+    text = {
+        trigger = {
+            has_government = vanguardist
+        }
+        localization_key = vanguardist_desc
+    }
+    text = {
+        trigger = {
+            has_government = collectivist
+        }
+        localization_key = collectivist_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = libertarian_socialist
+        }
+        localization_key = libertarian_socialist_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = social_democrat
+        }
+        localization_key = social_democrat_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = social_liberal
+        }
+        localization_key = social_liberal_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = market_liberal
+        }
+        localization_key = market_liberal_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = social_conservative
+        }
+        localization_key = social_conservative_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = authoritarian_democrat
+        }
+        localization_key = authoritarian_democrat_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = paternal_autocrat
+        }
+        localization_key = paternal_autocrat_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = national_populist
+        }
+        localization_key = national_populist_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = valkist
+        }
+        localization_key = valkist_desc
+    }
 }

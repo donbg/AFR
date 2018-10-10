@@ -40,7 +40,7 @@ coalition_parties_collectivist_comma:0 "Socialist,"
 coalition_parties_revolutionary_socialist:0 "Libertarian Socialist"
 coalition_parties_libertarian_socialist_comma:0 "Libertarian Socialist,"
   
-coalition_parties_libertarian_socialist:0 "Social Democrat"
+coalition_parties_social_democrat:0 "Social Democrat"
 coalition_parties_social_democrat_comma:0 "Social Democrat,"
  
 coalition_parties_social_liberal:0 "Social Liberal"
