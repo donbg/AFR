@@ -50,41 +50,42 @@ set_convoys = 30
 set_stability = 0.2
 set_war_support = 0.33
 
+set_country_flag = coalition_social_liberal
 set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 1
+			popularity = 13
 		}
 		libertarian_marxist = {
-			popularity = 8
+			popularity = 11
 		}
 		syndicalist = {
-			popularity = 4
+			popularity = 17
 		}
 		revisionist_socialist = {
-			popularity = 2
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 3
+			popularity = 5
 		}
 		social_liberal = {
-			popularity = 15
+			popularity = 16
 		}
 		market_liberal = {
-			popularity = 9
+			popularity = 3
 		}
 		social_conservative = {
-			popularity = 35
+			popularity = 17
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 11
+			popularity = 7
 		}
 		national_populist = {
-			popularity = 13
+			popularity = 10
 		}
 		fratellist = {
 			popularity = 1
