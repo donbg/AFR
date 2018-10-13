@@ -132,10 +132,10 @@ set_politics = {
 			popularity = 8
 		}
 		syndicalist = {
-			popularity = 4
+			popularity = 0
 		}
 		revisionist_socialist = {
-			popularity = 2
+			popularity = 0
 		}
 		social_democrat = {
 			popularity = 37

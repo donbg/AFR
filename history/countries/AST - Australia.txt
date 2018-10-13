@@ -50,25 +50,25 @@ set_politics = {
 			popularity = 0
 		}
 		libertarian_marxist = {
-			popularity = 8
+			popularity = 5
 		}
 		syndicalist = {
-			popularity = 4
+			popularity = 0
 		}
 		revisionist_socialist = {
-			popularity = 2
+			popularity = 0
 		}
 		social_democrat = { 
-			popularity = 32
+			popularity = 25
 		}
 		social_liberal = {
-			popularity = 3
+			popularity = 9
 		}
 		market_liberal = {
-			popularity = 56
+			popularity = 36
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 21
 		}
 		authoritarian_democrat = {
 			popularity = 0
