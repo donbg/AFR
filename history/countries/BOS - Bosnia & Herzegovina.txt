@@ -46,13 +46,13 @@ set_politics = {
 			popularity = 17
 		}
 		social_conservative = {
-			popularity = 10
+			popularity = 30
 		}
 		authoritarian_democrat = {
 			popularity = 3
 		}
 		paternal_autocrat = {
-			popularity = 30
+			popularity = 10
 		}
 		national_populist = {
 			popularity = 15
@@ -62,7 +62,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -70,11 +70,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Rodoljub Čolaković"
-	desc = "POLITICS_RODOLJUB_COLAKOVIC_DESC"
-	picture = "Portrait_Bosnia_Rodoljub_Colakovic.dds"
+	name = "Mehmed Spaho"
+	desc = "POLITICS_MEHMED_SPAHO_DESC"
+	picture = "Portrait_Bosnia_Mehmed_Spaho.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

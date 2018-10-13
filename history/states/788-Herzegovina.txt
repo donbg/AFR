@@ -7,14 +7,14 @@ state={
 	}
 
 	history={
-		owner = ILL
+		owner = BOS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
 
 		}
-		add_core_of = ILL
+		add_core_of = BOS
 	}
 
 
