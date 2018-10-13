@@ -30,10 +30,7 @@ set_politics = {
 		}
 		libertarian_marxist = {
 			popularity = 8
-		}
-		syndicalist = {
-			popularity = 4
-		}
+		}	
 		revisionist_socialist = {
 			popularity = 2
 		}
@@ -70,119 +67,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = vanguard_marxist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pauls Kalnins"
-	desc = "POLITICS_LAT_PAULS_K_DESC"
-	picture = "Portriat_Pauls_Kalnin.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeima"
-	desc = "POLITICS_LAT_SAEIMA_DESC"
-	picture = "Portriat_Saeima.tga"
+	name = "Wessel Freytag von Loringhoven"
+	desc = "POLITICS_FREYTAG_VON_LORINGHOVEN_DESC"
+	picture = "Portrait_LAT_Freytag_von_Loringhoven.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

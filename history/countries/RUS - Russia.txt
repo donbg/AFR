@@ -1,4 +1,4 @@
-﻿capital = 217
+﻿capital = 6380
 
 oob = "INF"
 
@@ -36,10 +36,7 @@ set_politics = {
 		}
 		libertarian_marxist = {
 			popularity = 8
-		}
-		syndicalist = {
-			popularity = 4
-		}
+		}	
 		revisionist_socialist = {
 			popularity = 2
 		}
@@ -69,20 +66,19 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = libertarian_marxist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 add_ideas = {
-	RUS_civil_war
 }
 
 create_country_leader = {
-	name = "Mikhail Diterikhs"
-	desc = "POLITICS_MIKHAIL_DITERIKHS_DESC"
-	picture = "gfx/leaders/RUS/mikhail_diterikhs.dds"
+	name = "Gavril Myasnikov"
+	desc = "POLITICS_Gavril_Myasnikov_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Russia_Gavril_Myasnikov.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = { charismatic

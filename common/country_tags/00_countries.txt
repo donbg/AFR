@@ -189,3 +189,4 @@ STR = "countries/Socialist Turkestan.txt"
 KUM = "countries/Kumul.txt"
 BIN = "countries/British Indochina.txt"
 SRW = "countries/Sarawak.txt"
+ILL = "countries/Illyria.txt

@@ -41,10 +41,7 @@ set_politics = {
 		}
 		libertarian_marxist = {
 			popularity = 8
-		}
-		syndicalist = {
-			popularity = 4
-		}
+		}	
 		revisionist_socialist = {
 			popularity = 2
 		}
@@ -52,7 +49,7 @@ set_politics = {
 			popularity = 15
 		}
 		social_liberal = {
-			popularity = 34
+			popularity = 0
 		}
 		market_liberal = {
 			popularity = 0
@@ -70,11 +67,11 @@ set_politics = {
 			popularity = 12
 		}
 		fratellist = {
-			popularity = 0
+			popularity = 34
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = fratellist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -87,121 +84,11 @@ add_ideas = {
 ######### LEADERS
 
 create_country_leader = {
-	name = "Nicolae Ceauşescu"
-	desc = "POLITICS_NICOLAE_CEAUSESCU_DESC"
-	picture = "gfx/leaders/ROM/Nicolae_Ceausescu.dds"
+	name = "Corneliu Zelea Codreanu"
+	desc = "POLITICS_CORNELIU_CODREANU_DESC"
+	picture = "Portrait_Corneliu_Codreanu.dds"
 	expire = "1965.1.1"
-	ideology = vanguard_marxist_subtype
-	traits = { charismatic
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Petru Groza"
-	desc = "POLITICS_PETRU_GROZA_DESC"
-	picture = "gfx/leaders/ROM/Petru_Groza.dds"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mihai Dumitru Ralea"
-	desc = "POLITICS_MIHAI_DUMITRU_RALEA_DESC"
-	picture = "gfx/leaders/ROM/Mihai_Dumitru_Ralea.dds"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Armand Călinescu"
-	desc = "POLITICS_ARMAND_CALINESCU_DESC"
-	picture = "gfx/leaders/ROM/Armand_Calinescu.dds"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = { coalition_leader
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ion Buzdugan"
-	desc = "POLITICS_ION_BUZDUGAN_DESC"
-	picture = "gfx/leaders/ROM/Ion_Buzdugan.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dinu Brătianu"
-	desc = "POLITICS_DINU_BRATIANU_DESC"
-	picture = "gfx/leaders/ROM/Dinu_Bratianu.dds"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Iuliu Maniu"
-	desc = "POLITICS_IULIU_MANU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Iuliu_Maniu.tga"
-	expire = "1937.5.7"
-	ideology = social_conservative_subtype
-	traits = { coalition_leader
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ion Gigurtu"
-	desc = "POLITICS_ION_GIGURTU_DESC"
-	picture = "gfx/leaders/ROM/Ion_Gigurtu.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "A.S.R. Michael I"
-	desc = "POLITICS_MICHAEL_I_DESC"
-	picture = "gfx/leaders/ROM/Michael_I_YOUNG.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = { charismatic
-		#
-	}
-}
-
-create_country_leader = {
-	name = "A.S.R. Nicholas I"
-	desc = "POLITICS_NICHOLAS_I_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Nicholas_I.dds"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mircea Eliade"
-	desc = "POLITICS_MIRCEA_ELIADE_DESC"
-	picture = "gfx/leaders/ROM/Octavian_Goga.dds"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = fratellist_subtype
 	traits = {
 		#
 	}

@@ -56,9 +56,7 @@ parties = {
 		libertarian_marxist = {
 			popularity = 8
 		}
-		syndicalist = {
-			popularity = 4
-		}
+			
 		revisionist_socialist = {
 			popularity = 2
 		}

@@ -66,36 +66,6 @@ ideologies = {
 
 	}
 	
-	syndicalist = {
-		types = {
-			syndicalist_subtype = {}
-			}
-		dynamic_faction_names = {
-			"FACTION_NAME_syndicalist_1"
-			"FACTION_NAME_syndicalist_2"
-			"FACTION_NAME_syndicalist_3"
-			"FACTION_NAME_syndicalist_4"
-			"FACTION_NAME_syndicalist_5"
-			"FACTION_NAME_syndicalist_6"
-		}
-		color = { 255 0 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}		
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-			production_speed_buildings_factor = 0.05
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-
-	}
-	
 	revisionist_socialist = {
 		types = {
 			revisionist_socialist_subtype = {}
