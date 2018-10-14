@@ -229,9 +229,12 @@ country_event = {
 	
 	option = {        ####Don't allow the meeting to occur####
 		name = TRN.7.a
+		add_to_variable = { uitlander_unrest = 0.05 }
 	}
 	
 	option = {        ####Allow it####
 		name = TRN.7.b
+		custom_effect_tooltip = uitlander_strong
 	}
 }
+
