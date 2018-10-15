@@ -50,14 +50,6 @@ division_template = {
 units = {
 	######## Ellinikó Genikó Epiteleío ########
 	division = {
-		name = "V Merarchía Pezikoú"
-		location = 9940
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division = {
 		name = "VIII Merarchía Pezikoú"
 		location = 3914
 		division_template = "Tetrágono Pezikoú" 

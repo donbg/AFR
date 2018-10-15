@@ -1,0 +1,25 @@
+
+state={
+	id=964
+	name="STATE_964"
+	resources={
+	
+	}
+
+	history={
+		owner = TUR
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		3914 9805 9916
+	}
+	manpower=257070
+	buildings_max_level_factor=1.000
+	state_category=town
+}
