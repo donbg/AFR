@@ -51,9 +51,8 @@ set_politics = {
 			popularity = 0
 		}
 		libertarian_marxist = {
-			popularity = 8
+			popularity = 50
 		}
-			
 		revisionist_socialist = {
 			popularity = 2
 		}
@@ -73,7 +72,7 @@ set_politics = {
 			popularity = 8
 		}
 		paternal_autocrat = {
-			popularity = 50
+			popularity = 1
 		}
 		national_populist = {
 			popularity = 12
@@ -83,7 +82,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = libertarian_marxist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -94,7 +93,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_UKR_nestor_makhno.dds"
 	expire = "1953.3.1"
-	ideology = libertarian_socialist_subtype
+	ideology = revisionist_socialist_subtype
 	traits = {
 		
 	}
@@ -178,11 +177,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Volodymyr Shayan"
+	name = "Symon Petliura"
 	desc = ""
-	picture = "Portrait_UKR_volodymyr_shayan.dds"
+	picture = "Portrait_UKR_Symon_Petliura.tga"
 	expire = "1953.3.1"
-	ideology = national_populist_subtype
+	ideology = libertarian_marxist
 	traits = {
 		
 	}

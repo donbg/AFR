@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = POR
+		owner = GER
 		buildings = {
 			infrastructure = 2
 			1903 = {

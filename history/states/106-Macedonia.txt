@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = ALB
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		867 833 907 3865 3882 6940 9849 9874 11832 
+	867 907 3882 6940 9849 9874 11832 
 	}
 	manpower=1374200
 	buildings_max_level_factor=1.000

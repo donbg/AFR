@@ -1,0 +1,24 @@
+
+state={
+	id=966
+	name="STATE_966"
+	resources={
+	}
+
+	history={
+		owner = ALB
+		add_core_of = ALB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		841 966 3980 6900 9837
+	}
+	manpower=302020
+	buildings_max_level_factor=1.000
+	state_category=town
+}

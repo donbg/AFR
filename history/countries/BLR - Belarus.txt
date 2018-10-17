@@ -47,10 +47,10 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 0
+			popularity = 63
 		}
 		libertarian_marxist = {
-			popularity = 8
+			popularity = 0
 		}
 	
 		revisionist_socialist = {
@@ -75,14 +75,14 @@ set_politics = {
 			popularity = 20
 		}
 		national_populist = {
-			popularity = 63
+			popularity = 2
 		}
 		fratellist = {
 			popularity = 5
 		}
 	}
 	
-	ruling_party = national_populist
+	ruling_party = vanguard_marxist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -99,3 +99,15 @@ create_country_leader = {
         #
     }
 }
+
+create_country_leader = {
+    name = "Branislaw Tarashkyevich"
+    desc = ""
+    picture = "Portrait_BLR_Branislaw_Tarashkyevich.dds"
+    expire = "1965.1.1"
+    ideology = vanguard_marxist_subtype
+    traits = {
+        #
+    }
+}
+

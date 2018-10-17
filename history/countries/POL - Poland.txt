@@ -25,6 +25,11 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 }
 
+create_faction = "International Socialist Association"
+add_to_faction = HUN
+add_to_faction = BLR
+add_to_faction = UKR
+
 set_politics = {
 
 	parties = {
@@ -32,7 +37,7 @@ set_politics = {
 			popularity = 0
 		}
 		libertarian_marxist = {
-			popularity = 8
+			popularity = 50
 		}	
 		revisionist_socialist = {
 			popularity = 2
@@ -50,7 +55,7 @@ set_politics = {
 			popularity = 15
 		}
 		authoritarian_democrat = {
-			popularity = 50
+			popularity = 7
 		}
 		paternal_autocrat = {
 			popularity = 4

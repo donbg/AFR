@@ -38,6 +38,7 @@ set_convoys = 300
 set_stability = 0.56
 set_war_support = 0.34
 
+set_country_flag = coalition_social_liberal
 set_politics = {
 
 	parties = {
@@ -45,53 +46,50 @@ set_politics = {
 			popularity = 1
 		}
 		libertarian_marxist = {
-			popularity = 8
+			popularity = 1
 		}
-			
 		revisionist_socialist = {
-			popularity = 2
-		}
-		social_democrat = {
-			popularity = 10
-		}
-		social_liberal = {
-			popularity = 9
-		}
-		market_liberal = {
-			popularity = 11
-		}
-		social_conservative = {
-			popularity = 11
-		}
-		authoritarian_democrat = {
-			popularity = 17
-		}
-		paternal_autocrat = {
-			popularity = 34
-		}
-		national_populist = {
 			popularity = 6
 		}
+		social_democrat = {
+			popularity = 13
+		}
+		social_liberal = {
+			popularity = 19
+		}
+		market_liberal = {
+			popularity = 21
+		}
+		social_conservative = {
+			popularity = 22
+		}
+		authoritarian_democrat = {
+			popularity = 8
+		}
+		paternal_autocrat = {
+			popularity = 4
+		}
+		national_populist = {
+			popularity = 2
+		}
 		fratellist = {
-			popularity = 1
+			popularity = 3
 		}
 	}
 
-	ruling_party = paternal_autocrat
+	ruling_party = market_liberal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 add_ideas = {
-USA_red_scare
-USA_calls_for_democracy
 }
 
 create_country_leader = {
-	name = "George Marshall"
-	desc = "POLITICS_GEORGE_MARSHALL_DESC"
-	picture = "Portrait_USA_George_Marshall.tga"
+	name = "Floyd B. Olson"
+	desc = "POLITICS_FLOYD_B_OLSON_DESC"
+	picture = "Portrait_USA_Floyd_B_Olson.tga"
 	expire = "1947.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -100,9 +98,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hiram Johnson"
-	desc = "POLITICS_HIRAM_JOHNSON_DESC"
-	picture = "Portrait_USA_Hiram_Johnson.tga"
+	name = "William E. Borah"
+	desc = "POLITICS_WILLIAM_BORAH_DESC"
+	picture = "Portrait_USA_William_Edgar_Borah.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -111,9 +109,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Harry F. Byrd"
-	desc = "POLITICS_HENRY_BYRD_DESC"
-	picture = "Portrait_USA_Henry_Byrd.tga"
+	name = "Alf Landon"
+	desc = "POLITICS_Alf_Landon_DESC"
+	picture = "Portrait_USA_Alf_Landon.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -122,9 +120,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joseph P. Kennedy"
-	desc = "POLITICS_JOSEPH_KENNEDY_DESC"
-	picture = "Portrait_USA_joseph_kennedy.tga"
+	name = "Harry F. Byrd"
+	desc = "POLITICS_HARRY_F_BYRD_DESC"
+	picture = "Portrait_USA_Harry_F_Byrd.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -133,9 +131,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Douglas MacArthur"
-	desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-	picture = "Portrait_USA_Douglas_MacArthur.tga"
+	name = "Huey Long"
+	desc = "POLITICS_HUEY_LONG_DESC"
+	picture = "Portrait_USA_Huey_Long.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -155,9 +153,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George Van Horn Moseley"
-	desc = "POLITICS_GEORGE_MOSELEY_DESC"
-	picture = "Portrait_USA_George_Moseley.tga"
+	name = "Gerald L. K. Smith"
+	desc = "POLITICS_GERALD_SMITH_DESC"
+	picture = "Portrait_USA_Gerald_Smith.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -166,9 +164,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alvin M. Owsley"
-	desc = "POLITICS_ALVIN_OWSLEY_DESC"
-	picture = "Portrait_USA_Alvin_Owsley.tga"
+	name = "Charles Coughlin"
+	desc = "POLITICS_CHARLES_COUGHLIN_DESC"
+	picture = "Portrait_USA_Charles_Coughlin.tga"
 	expire = "1965.1.1"
 	ideology = fratellist_subtype
 	traits = {

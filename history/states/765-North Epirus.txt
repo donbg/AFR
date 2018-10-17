@@ -3,7 +3,7 @@ state={
 	name="STATE_765"
 
 	history={
-		owner = TUR
+		owner = ALB
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		914 3448 6900 11767 
+		914 3448 11767 
 	}
 	manpower=110200
 	buildings_max_level_factor=1.000
