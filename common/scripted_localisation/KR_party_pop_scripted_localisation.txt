@@ -372,7 +372,7 @@ defined_text = {
         trigger = {
             has_country_flag = coalition_national_populist
             OR = {
-                has_country_flag = coalition_valkist
+                has_country_flag = coalition_paternal_autocrat
             }
         }
         localization_key = coalition_parties_national_populist_comma
@@ -382,26 +382,6 @@ defined_text = {
             has_country_flag = coalition_national_populist
         }
         localization_key = coalition_parties_national_populist
-    }
-}
- 
-defined_text = {
-    name = GetValkistCoalition
-     text = {
-        trigger = {
-            has_country_flag = coalition_national_populist
-            OR = {
-                has_country_flag = coalition_paternal_autocrat
-                has_country_flag = coalition_national_populist
-            }
-        }
-    localization_key = coalition_parties_valkist_comma
-    }
-    text = {
-        trigger = {
-            has_country_flag = coalition_valkist
-        }
-        localization_key = coalition_parties_valkist
     }
 }
  

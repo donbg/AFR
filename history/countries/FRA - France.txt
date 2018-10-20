@@ -39,7 +39,10 @@ set_technology = {
 	transport = 1
 	electronic_mechanical_engineering = 1
 }
-
+add_ideas = FRA_civil_unrest
+add_ideas = FRA_military_republic
+set_country_flag = coalition_paternal_autocrat
+set_country_flag = coalition_national_populist
 set_convoys = 400
 set_stability = 0.66
 set_war_support = 0.54
@@ -95,16 +98,6 @@ add_ideas = {
 create_faction = "Entente d'Acier"
 add_to_faction = ITA
 
-create_country_leader = {
-	name = "Philippe Petain"
-	desc = "POLITICS_PHILIPPE_PETAIN_DESC"
-	picture = "Portrait_France_PhilippePetain1.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-	}
-	
-}
 create_country_leader = {
 	name = "Maurice Gamelin"
 	desc = "POLITICS_GAMELIN_DESC"

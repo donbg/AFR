@@ -23,3 +23,9 @@ FRA_paternal_autocrat_party:0 "Petain Board"
 FRA_paternal_autocrat_party_long:0 "Petain Board" 
 FRA_national_populist_party:0 "Leclerc Board"
 FRA_national_populist_party_long:0 "Leclerc Board"
+
+##Ideas
+FRA_civil_unrest:0 "Civil Unrest"
+FRA_civil_unrest_desc:0 "The future of our nation is uncertain. Our Government is uncertain. Even our people are uncertain. Unrest grows by the day, and we’ll need to come to a conclusion on the future of France in order to soothe the restlessness of our people."
+FRA_military_republic:0 "Military Republic"
+FRA_military_republic_desc:0 "This country bears a rare type of Government, commonly referred to as a ‘Military Republic’. In this system, only military personnel & veterans may vote, and rather than parties, there are military boards of directors which are elected and then govern both civil and military affairs for a term of 4 years."

@@ -1,0 +1,22 @@
+##France Ideas##
+
+ideas = {
+	country = {
+		FRA_civil_unrest ={
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_gain = -0.15
+				production_factory_max_efficiency_factor = -0.1
+				weekly_stability_factor = 0.25
+				consumer_goods_factor = 0.05
+			}
+		}
+		FRA_military_republic = {
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription_factor = 0.05
+				army_org_factor = 0.1 = 0.05
+				training_time_factor = -0.05 
+			}
+		}
+		
