@@ -55,7 +55,7 @@ set_politics = {
 			popularity = 0
 		}
 		social_conservative = {
-			popularity = 16
+			popularity = 34
 		}
 		authoritarian_democrat = {
 			popularity = 0
@@ -67,11 +67,11 @@ set_politics = {
 			popularity = 12
 		}
 		fratellist = {
-			popularity = 34
+			popularity = 16
 		}
 	}
 	
-	ruling_party = fratellist
+	ruling_party = social_conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -89,6 +89,17 @@ create_country_leader = {
 	picture = "Portrait_Corneliu_Codreanu.dds"
 	expire = "1965.1.1"
 	ideology = fratellist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Michael I"
+	desc = "POLITICS_MICHAEL_I_DESC"
+	picture = "Portrait_ROM_Michael_I.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

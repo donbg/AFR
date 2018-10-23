@@ -25,9 +25,8 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 }
 
-create_faction = "International Socialist Association"
+create_faction = "Third International"
 add_to_faction = HUN
-add_to_faction = BLR
 add_to_faction = UKR
 
 set_politics = {
