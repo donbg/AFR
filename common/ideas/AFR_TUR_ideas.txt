@@ -1,0 +1,39 @@
+##USSA ideas##
+
+ideas = {
+	country = {
+		USA_red_scare ={
+			picture = USA_red_scare
+			
+			modifier = {
+				political_power_factor = 0.1
+				research_time_factor = 0.05
+				stability_weekly = -0.1
+				enemy_partisan_effect = -0.25
+			}
+		}
+	}
+	
+	country = {
+		USA_calls_for_democracy ={
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+			}
+		}
+	}
+	
+		##Game start###
+		head_of_government = {
+			USA_hanford_macnider_hog_pau = {
+				allowed = { original_tag = USA }
+				available = {
+					has_government = paternal_autocrat
+					NOT = {has_country_flag = ministers_cannot_be_replaced}
+					has_country_flag = 
+				}
+			removal_cost = -1
+			traits = { head_of_government hog_ambitious_union_boss paternal_autocrat }
+			cancel_if_invalid = no
+			}
+		}
