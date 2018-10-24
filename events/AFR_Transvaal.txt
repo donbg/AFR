@@ -238,3 +238,390 @@ country_event = {
 	}
 }
 
+country_event = { 
+	id = TRN.8 ####Randtram Railway sabotaged####
+    title = TRN.8.t
+    desc = TRN.8.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 40
+	}
+	
+	fire_only_once = yes
+	
+	option = {        ####Deport####
+		name = TRN.8.a
+		}
+	}
+	
+	option = {        ####Arrest them####
+		name = TRN.8.b
+		}
+	}
+	option = {        ####Blame the coloured instead####
+		name = TRN.8.c
+	}
+}
+
+country_event = { 
+	id = TRN.9 ####First Volksraad Representation####
+    title = TRN.9.t
+    desc = TRN.9.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 40
+	}
+	
+	fire_only_once = yes
+	
+	option = {        ####Allow for some uitlander representatives####
+		name = TRN.9.a
+		hidden_effect = {
+	}
+	
+	option = {        ###No representation####
+		name = TRN.9.b
+	}
+}
+}
+
+country_event = { 
+	id = TRN.10 ####Randlords make demands####
+    title = TRN.10.t
+    desc = TRN.10.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 40
+	}
+	
+	fire_only_once = yes
+	
+	option = {        ####Absolutely no way####
+		name = TRN.10.a
+	}
+	
+	option = {        ###Ask for cooperation in repressing miners####
+		name = TRN.10.b
+	}
+	
+	option = {        ###Sure####
+		name = TRN.10.c
+	}
+}
+
+country_event = { 
+	id = TRN.11 ####Miners plotting####
+    title = TRN.11.t
+    desc = TRN.11.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 40
+	}
+	
+	fire_only_once = yes
+	
+	option = {        ####Storm that meeting####
+		name = TRN.11.a
+		hidden_effect = {
+			country_event = {
+				id = TRN.12
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = TRN.12 ####General Strike####
+    title = TRN.12.t
+    desc = TRN.12.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+
+	is_triggered_only = yes	
+		
+	fire_only_once = yes
+	
+	option = {        ####Strike first####
+		name = TRN.12.a
+		hidden_effect = {
+			country_event = {
+				id = TRN.13
+				days = 1
+			}
+		}
+	}
+	option = {        ####Open negotiations####
+		name = TRN.12.b
+		hidden_effect = {
+			country_event = {
+				id = TRN.17
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = TRN.13 ####General Strike- Strike First####
+    title = TRN.13.t
+    desc = TRN.13.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {        ####Open negotiations####
+		name = TRN.13.a
+		hidden_effect = {
+			country_event = {
+				id = TRN.14
+				days = 1
+			}
+		}
+	}
+	option = {        ####No time to talk, we act####
+		name = TRN.13.b
+		hidden_effect = {
+			country_event = {
+				id = TRN.15
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = TRN.14 ####General Strike Solved####
+    title = TRN.14.t
+    desc = TRN.14.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {   
+		name = TRN.14.a
+	}
+}
+
+country_event = { 
+	id = TRN.15 ####War in Johannesburg####
+    title = TRN.15.t
+    desc = TRN.15.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {        ####Disperse the crowds####
+		name = TRN.15.a
+		hidden_effect = {
+			country_event = {
+				id = TRN.16
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = TRN.16 ####Not really solved but oh well####
+    title = TRN.16.t
+    desc = TRN.16.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.16.a
+	}
+}
+
+country_event = { 
+	id = TRN.17 ####Workers present requests####
+    title = TRN.17.t
+    desc = TRN.17.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.17.a ###Agree to all of them####
+			hidden_effect = {
+			country_event = {
+				id = TRN.18
+				days = 1
+			}
+		}
+	}
+	
+	option = {       
+		name = TRN.17.a ###Outrageous, crush them####
+	}
+}
+
+country_event = { 
+	id = TRN.18 ####A costly end####
+    title = TRN.18.t
+    desc = TRN.18.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.18.a
+	}
+}
+
+country_event = { 
+	id = TRN.19 ####The crisis remains####
+    title = TRN.19.t
+    desc = TRN.19.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.19.a		###dam##
+		
+	}
+}
+
+country_event = { 
+	id = TRN.20 ####Randlord Assassinated####
+    title = TRN.20.t
+    desc = TRN.20.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 70
+	}
+	
+	fire_only_once = yes
+	
+	option = {        ####Arrest the culprits####
+		name = TRN.20.a
+		add_to_variable = { boer_unrest = 0.2 }
+		}
+		
+	option = {        ####Find a scapegoat####
+		name = TRN.20.b
+		add_to_variable = { uitlander_unrest = 0.3 }
+		add_to_variable = { randlord_unrest = 0.05 }
+		}
+		
+	option = {        ####Find a scapegoat####
+		name = TRN.20.c
+		add_to_variable = { randlord_unrest = 0.6 }
+		}
+}
+
+
+
+

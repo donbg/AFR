@@ -544,8 +544,8 @@ DDR = {
     color_ui = rgb { 150 180 120 }
 }
 KOR = {
-	color = rgb { 125 13 24 } #25 30 177 is the original Korean blue.
-	color_ui = rgb { 125 13 24 }	
+	color = rgb { 186 160 178 } #25 30 177 is the original Korean blue.
+	color_ui = rgb { 127 102 118 }	
 }
 ISR = {
 	color = rgb {164 184 229}
