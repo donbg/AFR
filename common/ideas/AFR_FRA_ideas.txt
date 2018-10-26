@@ -19,4 +19,10 @@ ideas = {
 				training_time_factor = -0.05 
 			}
 		}
-		
+		FRA_legacy_graue_depression = {
+			picture = economic_control_icon
+			modifier = {
+				industrial_capacity_factory = -0.10
+				consumer_goods_factor = 0.1
+			}
+		}

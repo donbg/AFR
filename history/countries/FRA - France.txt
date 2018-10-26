@@ -41,6 +41,7 @@ set_technology = {
 }
 add_ideas = FRA_civil_unrest
 add_ideas = FRA_military_republic
+add_ideas = FRA_legacy_graue_depression
 set_country_flag = coalition_paternal_autocrat
 set_country_flag = coalition_national_populist
 set_convoys = 400

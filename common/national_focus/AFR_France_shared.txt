@@ -1,0 +1,174 @@
+###########################
+# France tree by fbruchmueller
+################################
+
+	shared_focus = {
+		id = FRA_economy
+		icon = GFX_goal_economic_control
+		x = 10
+		y = 0
+		cost = 2
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+	shared_focus = {
+		id = FRA_help_local_industry
+		icon = GFX_goal_capitalist_system
+		prerequisite = {
+			focus = FRA_economy
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_economy
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	shared_focus = {
+		id = FRA_support_innovations
+		icon = GFX_goal_model_cities
+		prerequisite = {
+			focus = FRA_help_local_industry
+		}
+		x = 0
+		y = 1
+		relative_position_id = FRA_help_local_industry
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+	shared_focus = {
+		id = FRA_increase_exports
+		icon = GFX_goal_Arms_Export
+		prerequisite = {
+			focus = FRA_economy
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_economy
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	shared_focus = {
+		id = FRA_nationalize_companies
+		icon = GFX_NATFRA_flagalone
+		prerequisite = {
+			focus = FRA_increase_exports
+		}
+		x = 0
+		y = 1
+		relative_position_id = FRA_increase_exports
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	shared_focus = {
+		id = FRA_renewed_industry
+		icon = GFX_goal_gold_up
+		prerequisite = {
+			focus = FRA_nationalize_companies
+		}
+		prerequisite = {
+			focus = FRA_support_innovations
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_nationalize_companies
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	shared_focus = {
+		id = FRA_deomestic_armament_industry
+		icon = GFX_goal_civil_service
+		prerequisite = {
+			focus = FRA_nationalize_companies
+		}
+		prerequisite = {
+			focus = FRA_fuel_engine
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_nationalize_companies
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+	shared_focus = {
+		id = FRA_kickstart_engine_war
+		icon = GFX_focus_generic_tank_production
+		prerequisite = {
+			focus = FRA_economy
+		}
+		x = 4
+		y = 1
+		relative_position_id = FRA_economy
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	shared_focus = {
+		id = FRA_fuel_engine
+		icon = GFX_focus_generic_combined_arms
+		prerequisite = {
+			focus = FRA_kickstart_engine_war
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_kickstart_engine_war
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	shared_focus = {
+		id = FRA_expand_military_industrial_complex
+		icon = GFX_goal_army_guy_2
+		prerequisite = {
+			focus = FRA_kickstart_engine_war
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_kickstart_engine_war
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	shared_focus = {
+		id = FRA_engine_war
+		icon = GFX_goal_state_economy
+		prerequisite = {
+			focus = FRA_expand_military_industrial_complex
+		}
+		prerequisite = {
+			focus = FRA_fuel_engine
+		}
+		x = -1
+		y = 2
+		relative_position_id = FRA_expand_military_industrial_complex
+		cost = 8
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+
+
+

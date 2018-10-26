@@ -1,0 +1,16 @@
+###########################
+# France tree by fbruchmueller
+################################
+focus_tree = {
+	id = FR_france
+
+	country = {
+		factor = 0
+		modifier = { add = 10 tag = FRA }		
+	}
+
+    shared_focus = FRA_economy
+
+	default = no
+
+}
