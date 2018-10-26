@@ -1,0 +1,30 @@
+﻿l_english:
+#desc
+ITA_AFR_DESC:0 ""
+
+#PARTIES
+ITA_vanguard_marxist_party:0 "PCI"
+ITA_vanguard_marxist_party_long:0 "Partito Comunista Italiano "
+ITA_libertarian_marxist_party:0 "PCI"
+ITA_libertarian_marxist_party_long:0 "Partito Comunista Italiano"
+ITA_revisionist_socialist_party:0 "Unione Sindicale"
+ITA_revisionist_socialist_party_long:0 "Unione Sindicale Italiana"
+ITA_social_democrat_party:0 "PRS"
+ITA_social_democrat_party_long:0 "Parti Republicain-Socialiste"
+ITA_social_liberal_party:0 "PRI"
+ITA_social_liberal_party_long:0 "Partito Repubblicano Italiano"
+ITA_market_liberal_party:0 "Liberali"
+ITA_market_liberal_party_long:0 "Unione Liberali"
+ITA_social_conservative_party:0 "PPI"
+ITA_social_conservative_party_long:0 "Partito Popolare Italiano" 
+ITA_authoritarian_democrat_party:0 "Democrazia Militare"
+ITA_authoritarian_democrat_party_long:0 "Democrazia Militare"
+ITA_paternal_autocrat_party:0 "Giunta Militare"
+ITA_paternal_autocrat_party_long:0 "Giunta Militare" 
+ITA_national_populist_party:0 "Fasci di Combattimento"
+ITA_national_populist_party_long:0 "Fasci Italiani di Combattimento"
+ITA_fratellist_party:0 "La Fratellanza"
+ITA_fratellist_party_long:0 "Fratellanza di Nazionalisti Integrali"
+
+
+##Ideas

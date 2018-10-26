@@ -45,16 +45,16 @@ CHE = {
 	color_ui = rgb { 150 17 59 }
 }
 DAG = {
-	color = rgb { 155 17 65 }
-	color_ui = rgb { 150 17 59 }
+	color = rgb { 119 144 61 }
+	color_ui = rgb { 76 91 41 }
 }
 KAZ = {
 	color = rgb { 155 17 65 }
 	color_ui = rgb { 150 17 59 }
 }
 AZR = {
-	color = rgb { 40 170 137 }
-	color_ui = rgb { 40 170 137 }
+	color = rgb { 59 158 125 }
+	color_ui = rgb { 35 155 89 }
 }
 SWE = {
 	color = rgb { 56 127 162 }
@@ -73,13 +73,13 @@ LUX = {
 	color_ui = rgb { 85 228 233 }
 }
 BEL = { 
-	color = rgb { 167 150 82 } #193 171 8
-	color_ui = rgb { 251 222 10 }
+	color = rgb { 182 146 49 } #193 171 8
+	color_ui = rgb { 148 124 58 }
 	  }
-HOL = {	color = rgb { 153 84 52 }
-		color_ui = rgb { 255 179 96 }
+HOL = {	color = rgb { 135 98 56 }
+		color_ui = rgb { 97	66 31 }
 }
-DEI = {	color = rgb { 174 121 48 }
+DEI = {	color = rgb { 203  138  74 }
 		color_ui = rgb { 154 101 48 }
 }
 CZE = {	color = rgb { 104 147 116 }
@@ -94,8 +94,8 @@ AUS = {
 	color_ui = rgb { 194 198 215 }
 }
 LIT = {
-	color = rgb { 134 69 136 } #255 255 155
-	color_ui = rgb { 154 69 116 } #KR uses 154 69 116
+	color = rgb { 172 159 147 }
+	color_ui = rgb { 121 109 99 }
 }
 EST = {
 	color = rgb { 30 60 150 }
@@ -134,12 +134,12 @@ ALB = {
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
-	color = rgb { 85 122 82 } #239 112 112
-	color_ui = rgb { 111 71 71 }
+	color = rgb { 103 87 104 } #239 112 112
+	color_ui = rgb { 82 68 82 }
 }
 DEN = {
-	color = rgb { 153 87 111 }
-	color_ui = rgb { 153 77 111 }
+	color = rgb { 169 139 172 }
+	color_ui = rgb { 111 82 114 }
 }
 BUL = {
 	color = rgb { 43 127 47 } #Previous is 51, 155, 0
@@ -274,8 +274,8 @@ PAN = {
 	color_ui = rgb { 200 90 125 }
 }
 PER = {
-	color = rgb { 81 123 67 }
-	color_ui = rgb { 92 147 126 }
+	color = rgb { 67 125 87 }
+	color_ui = rgb { 44 82 58 }
 }
 PHI = {
 	color = rgb { 230 130 50 }
@@ -425,7 +425,7 @@ LEB = {
 
 JOR = {
 	color = rgb { 111  55  78 }
-	color_ui = rgb { 111  55  78 }
+	color_ui = rgb { 82  44  44 }
 }
 
 SYR = {
@@ -444,8 +444,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 112 88 52 }# 122  89  46 
-	color_ui = rgb { 22 95 186 }	
+	color = rgb { 132 52 52 }
+	color_ui = rgb { 115 56 56 }	
 }
 
 FRP = {
@@ -454,8 +454,8 @@ FRP = {
 }
 
 GEO = {
-	color = rgb { 149 21 21 }
-	color_ui = rgb { 134 18 18 }
+	color = rgb { 161 19 19 }
+	color_ui = rgb { 124 31 31 }
 }
 
 ARM = {
@@ -499,8 +499,8 @@ KUR = {
 }
 
 BLR = {
-	color = rgb { 201 196 196 }
-	color_ui = rgb { 155 139 139 }
+	color = rgb { 139 111 44 } #255 255 155
+	color_ui = rgb { 97 74 22 } # 154 69 116
 }
 MAN = {
 	color = rgb { 117 107 60 } #Formerly 235 187 0

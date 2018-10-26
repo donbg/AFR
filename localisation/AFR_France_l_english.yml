@@ -3,12 +3,12 @@
 FRA_AFR_DESC:0 ""
 
 #PARTIES
-FRA_vanguard_marxist_party:0 "PAGM"
-FRA_vanguard_marxist_party_long:0 "Parti Avant Garde-Marxiste Française "
-FRA_revolutionary_unionist_party:0 "SFIO"
-FRA_revolutionary_unionist_party_long:0 "Section Française de l'Internationale Ouvrière"
-FRA_libertarian_socialist_party:0 "SFIO"
-FRA_libertarian_socialist_party_long:0 "Section Française de l'Internationale Ouvrière"
+FRA_vanguard_marxist_party:0 "SFIO"
+FRA_vanguard_marxist_party_long:0 "Section Française de l'Internationale Ouvrière "
+FRA_libertarian_marxist_party:0 "SFIO"
+FRA_libertarian_marxist_party_long:0 "Section Française de l'Internationale Ouvrière"
+FRA_revisionist_socialist_party:0 "SFIO"
+FRA_revisionist_socialist_party_long:0 "Section Française de l'Internationale Ouvrière"
 FRA_social_democrat_party:0 "PRS"
 FRA_social_democrat_party_long:0 "Parti Republicain-Socialiste"
 FRA_social_liberal_party:0 "PR"
@@ -23,6 +23,9 @@ FRA_paternal_autocrat_party:0 "Petain Board"
 FRA_paternal_autocrat_party_long:0 "Petain Board" 
 FRA_national_populist_party:0 "Leclerc Board"
 FRA_national_populist_party_long:0 "Leclerc Board"
+FRA_fratellist_party:0 "Schwerer Board"
+FRA_fratellist_party_long:0 "Schwerer Board"
+
 
 ##Ideas
 FRA_civil_unrest:0 "Civil Unrest"

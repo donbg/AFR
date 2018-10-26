@@ -1,4 +1,4 @@
-﻿capital = 608 #Beijing
+﻿capital = 9843 #Beijing
 
 oob = "INF"
 

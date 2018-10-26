@@ -53,37 +53,37 @@ set_politics = {
 
     parties = {
         vanguard_marxist = {
-            popularity = 0
+            popularity = 2
         }
 		libertarian_marxist = {
-			popularity = 8
+			popularity = 6
 		}	
 		revisionist_socialist = {
-			popularity = 2
+			popularity = 1
 		}
         social_democrat = {
-            popularity = 23
+            popularity = 8
         }
         social_liberal = {
-            popularity = 5
+            popularity = 6
         }
         market_liberal = {
-            popularity = 0
+            popularity = 9
         }
         social_conservative = {
-            popularity = 0
+            popularity = 9
         }
         authoritarian_democrat = {
-            popularity = 4
+            popularity = 5
         }
         paternal_autocrat = {
             popularity = 2
         }
         national_populist = {
-            popularity = 0
+            popularity = 10
         }
         fratellist = {
-			popularity = 56
+			popularity = 42
 		}
     }
 	
@@ -94,18 +94,27 @@ set_politics = {
 
 }
 
-
-
-
 create_country_leader = {
-	name = "Mario Broscil"
-	desc = "MARCO_BRESCIL_DESC"
-	picture = "Portrait_Marco_Bros.dds"
+	name = "Marco Bresci"
+	desc = "MARCO_BRESCI_DESC"
+	picture = "Portrait_ITA_Marco_Bresci.tga"
 	expire = "1965.1.1"
 	ideology = fratellist_subtype
 	traits = {		
 	}
 }
+
+
+
+####create_country_leader = {####
+###	name = "Mario Broscil"####
+####	desc = "MARCO_BRESCIL_DESC"###
+###	picture = "Portrait_Mario_Broscil.dds"###
+##	expire = "1965.1.1"####
+#	ideology = fratellist_subtype####
+#	traits = {	#####	
+#	}###
+#}#
 
 create_field_marshal = { # fashy
 	name = "Pietro Badoglio"

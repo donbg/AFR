@@ -56,17 +56,17 @@ set_politics = {
 			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 42
+			popularity = 20
 		}
 		national_populist = {
-			popularity = 20
+			popularity = 42
 		}
 		fratellist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = libertarian_marxist
+	ruling_party = national_populist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -76,12 +76,12 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Gavril Myasnikov"
-	desc = "POLITICS_Gavril_Myasnikov_DESC"
-	picture = "gfx/leaders/RUS/Portrait_Russia_Gavril_Myasnikov.tga"
+	name = "Anton Tourkul"
+	desc = "POLITICS_ANTON_TOURKUL_DESC"
+	picture = "Portrait_RUS_Anton_Tourkul.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = { charismatic
+	ideology = national_populist_subtype
+	traits = { 
 		#
 	}
 }
