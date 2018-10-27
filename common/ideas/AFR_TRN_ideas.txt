@@ -8,7 +8,7 @@ ideas = {
 			picture = TRN_witwatersrand_gold_rush
 			
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.2
 				production_factory_max_efficiency_factor = 0.1
 			}
 		}
@@ -30,7 +30,7 @@ ideas = {
 			modifier = {
 				production_factory_max_efficiency_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.15
-				industrial_capacity_factory = -0.6
+				industrial_capacity_factory = -0.5
 				production_speed_buildings_factor = -0.15
 		}
 	}
@@ -39,7 +39,7 @@ ideas = {
 			picture = saf_history_of_segregation
 			
 			modifier = {
-				conscription_factor = -0.5
+				conscription_factor = -0.8
 			}
 		}
 	
@@ -47,7 +47,7 @@ ideas = {
 			picture = TRN_burgher_mobilization
 			
 			modifier = {
-				conscription = 0.01
+				conscription = 0.015
 			}
 		}
 }

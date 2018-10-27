@@ -3,14 +3,10 @@
 ### All old pre-standardised event pics are still stored in the /old folder.
 
 spriteTypes = {
-
-	spriteType = {
-		name = "GFX_TRN_johannesburg_mines"
-		texturefile = "gfx/event_pictures/AFR/transvaal/TRN_johannesburg_mines.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_TRN_miner_strike"
 		texturefile = "gfx/event_pictures/AFR/transvaal/TRN_miner_strike.dds"
 	}
+
 }

@@ -1,0 +1,26 @@
+﻿l_english:
+
+
+###parties###
+GER_vanguard_marxist_party:0 "APD"
+GER_vanguard_marxist_party_long:0 "Arbeiterpartei Deutschlands"
+GER_libertarian_marxist_party:0 "USDP"
+GER_libertarian_marxist_party_long:0 "Unabhängige Sozialdemokratische Partei Deutschlands"
+GER_revisionist_socialist_party:0 "USDP"
+GER_revisionist_socialist_party_long:0 "Unabhängige Sozialdemokratische Partei Deutschlands"
+GER_social_democrat_party:0 "SPD"
+GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands"
+GER_social_liberal_party:0 "DFP"
+GER_social_liberal_party_long:0 "Deutsche Freisinnige Partei"
+GER_market_liberal_party:0 "NLP"
+GER_market_liberal_party_long:0 "Nationalliberale Partei"
+GER_social_conservative_party:0 "Zentrum"
+GER_social_conservative_party_long:0 "Deutsche Zentrumspartei" 
+GER_authoritarian_democrat_party:0 "DKP"
+GER_authoritarian_democrat_party_long:0 "Deutschkonservative Partei"
+GER_paternal_autocrat_party:0 "OHL"
+GER_paternal_autocrat_party_long:0 "Oberste Heeresleitung" 
+GER_national_populist_party:0 "ADVP"
+GER_national_populist_party_long:0 "Alldeutscher Vaterlandspartei"
+GER_fratellist_party:0 "CVP"
+GER_fratellist_party_long:0 "Christlich Volkspartei"

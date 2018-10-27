@@ -622,6 +622,19 @@ country_event = {
 		}
 }
 
+news_event = {
+	id = TRN.21
+	title = "Civil War in Transvaal"
+	desc = TRN.21.d
+	picture = GFX_TRN_miner_strike
 
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { 
+			name = "An unfortunate turn of events."
+	}
+}
 
 
