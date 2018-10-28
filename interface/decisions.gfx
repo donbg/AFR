@@ -255,6 +255,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_generic_hre.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_generic_fra_politics"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_fra_politics.dds"
+	}
 	### decision icons
 
 	spriteType = {

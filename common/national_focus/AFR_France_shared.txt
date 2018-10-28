@@ -9,7 +9,7 @@
 		y = 0
 		cost = 2
 		completion_reward = {
-			army_experience = 25
+			add_political_power = 25
 		}
 	}
 	shared_focus = {
@@ -23,7 +23,10 @@
 		relative_position_id = FRA_economy
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			swap_ideas = {
+				remove_idea = FRA_legacy_graue_depression
+		 		add_idea = FRA_legacy_graue_depression2
+		    }
 		}
 	}
 
@@ -38,9 +41,13 @@
 		relative_position_id = FRA_help_local_industry
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			swap_ideas = {
+				remove_idea = FRA_legacy_graue_depression2
+		 		add_idea = FRA_legacy_graue_depression3
+		    }
 		}
 	}
+
 	shared_focus = {
 		id = FRA_increase_exports
 		icon = GFX_goal_Arms_Export
@@ -52,7 +59,21 @@
 		relative_position_id = FRA_economy
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -67,7 +88,20 @@
 		relative_position_id = FRA_increase_exports
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			random_owned_state = {		
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -85,7 +119,10 @@
 		relative_position_id = FRA_nationalize_companies
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			swap_ideas = {
+				remove_idea = FRA_legacy_graue_depression3
+		 		add_idea = FRA_revitalized_economy
+		    }
 		}
 	}
 
@@ -103,8 +140,22 @@
 		relative_position_id = FRA_nationalize_companies
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
+	#add companies later
 	}
 	shared_focus = {
 		id = FRA_kickstart_engine_war
@@ -117,7 +168,7 @@
 		relative_position_id = FRA_economy
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			add_ideas = FRA_war_engine
 		}
 	}
 
@@ -132,7 +183,10 @@
 		relative_position_id = FRA_kickstart_engine_war
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			swap_ideas = {
+				remove_idea = FRA_war_engine
+		 		add_idea = FRA_war_engine2
+		    }
 		}
 	}
 
@@ -147,7 +201,20 @@
 		relative_position_id = FRA_kickstart_engine_war
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -165,7 +232,10 @@
 		relative_position_id = FRA_expand_military_industrial_complex
 		cost = 8
 		completion_reward = {
-			army_experience = 25
+			swap_ideas = {
+				remove_idea = FRA_war_engine2
+		 		add_idea = FRA_war_engine3
+		    }
 		}
 	}
 

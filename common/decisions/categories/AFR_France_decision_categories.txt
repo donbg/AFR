@@ -1,0 +1,10 @@
+political_groups = {
+    icon = generic_political_actions
+	picture = GFX_decision_cat_generic_fra_politics
+    allowed = { 
+    		original_tag = FRA
+    }
+	visible = {
+		has_ideas = FRA_military_republic
+	}
+}

@@ -1933,7 +1933,12 @@ spriteTypes = {
 		name = "GFX_news_event_ottoman_victory"
 		texturefile = "gfx/event_pictures/news_event_ottoman_victory.dds"
 	}
-	
+
+	###France##
+		spriteType = {
+		name = "GFX_report_event_french_army"
+		texturefile = "gfx/event_pictures/Europe/France/report_event_french_army.dds"
+	}
 }
 	
 	
