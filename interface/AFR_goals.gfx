@@ -1,10 +1,16 @@
 spriteTypes = {
 
-	
-	
-	
 	SpriteType = {
 		name = "GFX_goal_british_cooperation"
 		texturefile= "gfx/interface/goals/focus_chi_british_cooperation.dds"
 	}
+	SpriteType = {
+		name = "GFX_TRN_smuts_plan"
+		texturefile= "gfx/interface/goals/AFR/TRN/TRN_smuts_plan.tga"
+	}
+	SpriteType = {
+		name = "GFX_TRN_Volkskas"
+		texturefile= "gfx/interface/goals/AFR/TRN/TRN_volkskas.tga"
+	}
+	
 }

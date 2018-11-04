@@ -1,0 +1,138 @@
+###########################
+# BOERER BOERERY
+###########################
+
+focus_tree = {
+	id = transvaal_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TRN
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+####Economic Tree####
+	focus = {
+		id = TRN_economic_adjustments
+		icon = GFX_DAH_Topke
+		desc = TRN_economic_adjustments_desc
+		x = 7
+		y = 0
+		cost = 2
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = TRN_smuts_plan
+		icon = GFX_TRN_smuts_plan
+		desc = TRN_smuts_plan_desc
+		x = 3
+		y = 1
+		prerequisite = {
+        focus = TRN_economic_adjustments
+		}
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TRN_grey_depression
+				add_idea = TRN_grey_depression_2
+			}
+		}
+	}
+	focus = {
+		id = TRN_establish_the_volkskas
+		icon = GFX_TRN_Volkskas
+		desc = TRN_establish_the_volkskas_desc
+		x = 1
+		y = 2
+		prerequisite = {
+        focus = TRN_smuts_plan
+		}
+		cost = 6
+		completion_reward = {
+			add_idea = TRN_volkskas
+			add_to_variable = { boer_unrest = -0.05 }
+		}
+	}
+	
+	focus = {
+		id = TRN_abandon_the_gold_standard
+		icon = GFX_goal_gold_reserve
+		desc = TRN_abandon_the_gold_standard_desc
+		x = 3
+		y = 2
+		prerequisite = {
+        focus = TRN_smuts_plan
+		}
+		cost = 6
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TRN_grey_depression_2
+				add_idea = TRN_grey_depression_3
+			}
+		}
+	}
+	focus = {
+		id = TRN_bureaucratic_reform
+		icon = GFX_goal_Centralised_Government
+		desc = TRN_bureaucratic_reform_desc
+		x = 5
+		y = 2
+		prerequisite = {
+        focus = TRN_smuts_plan
+		}
+		cost = 6
+		completion_reward = {
+				add_stability = 0.1
+		}
+	}
+	focus = {
+		id = TRN_bailout_boer_farmers
+		icon = GFX_goal_unknown
+		desc = TRN_bailout_boer_farmers_desc
+		x = 2
+		y = 3
+		mutually_exclusive = {
+        focus = TRN_austerity_measures
+		}
+		prerequisite = {
+        focus = TRN_establish_the_volkskas
+		}
+		prerequisite = {
+		focus = TRN_abandon_the_gold_standard
+		}
+		cost = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = TRN_austerity_measures
+		icon = GFX_goal_unknown
+		desc = TRN_austerity_measures_desc
+		x = 4
+		y = 3
+		mutually_exclusive = {
+        focus = TRN_austerity_measures
+		}
+		prerequisite = {
+        focus = TRN_bureaucratic_reform
+		}
+		prerequisite = {
+		focus = TRN_abandon_the_gold_standard
+		}
+		cost = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		
+	}
+	
+}

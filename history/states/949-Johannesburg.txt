@@ -15,12 +15,12 @@ state={
 		}
 		add_core_of = TRN
 		victory_points = {
-			13269 10
+			13270 15
 		}
 	}
 
 	provinces={
-	 13269 13262 13265 13264
+	 13262 13265 13264 13270
 	}
 	manpower=2051040
 	buildings_max_level_factor=1.000

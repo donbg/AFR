@@ -552,16 +552,6 @@ ISR = {
 	color_ui = rgb {164 184 229}
 }
 
-COR = {
-	color = rgb { 220 220 220 }
-	color_ui = rgb { 220 220 220 }
-}
-
-SAR = {
-	color = rgb{ 216  25  33 }
-	color_ui = rgb{ 216  25  33 }
-}
-
 D01 = {
 	color = rgb { 96 141 146 }
 	color_ui = rgb { 96 141 146 }
@@ -623,44 +613,9 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 
-LMK = {
-	color = rgb { 77 183 153 }
-	color_ui = rgb { 77 183 153 }
-}
-
-SAX = {
-	color = rgb { 163 126 17 }
-	color_ui = rgb { 163 126 17 }
-}
-
-POM = {
-	color = rgb { 7 112 5 }
-	color_ui = rgb { 7 112 5 }
-}
-
-BRW = {
-	color = rgb { 135 125 121 }
-	color_ui = rgb { 135 125 121 }
-}
-
-HAN = {
-	color = rgb { 242 255 73 }
-	color_ui = rgb { 242 255 73 }
-}
-
 HES = {
 	color = rgb { 18 92 153 }
 	color_ui = rgb { 18 92 153 }
-}
-
-BAW = {
-	color = rgb { 188 66 66 }
-	color_ui = rgb { 188 66 66 }
-}
-
-BAY = {
-	color = rgb { 66 171 188 } #99 160 255
-	color_ui = rgb { 66 171 188 }
 }
 
 SIL = {
@@ -683,89 +638,9 @@ OCC = {
 	color_ui = rgb { 216 45 45 }
 }
 
-ORL = {
-	color = rgb { 0 18 127 }
-	color_ui = rgb { 0 18 127 }
-}
-
-SIC = {
-	color = rgb { 25 50 127 }
-	color_ui = rgb { 25 50 127 }
-}
-
-NAP = {
-	color = rgb { 117 50 118 }
-	color_ui = rgb { 117 50 111 }
-}
-
-TOS = {
-	color = rgb { 225 219 89 }
-	color_ui = rgb { 226 219 83 }
-}
-
-LOM = {
-	color = rgb { 93 140 92 } #Old one was 101 209 69.
-	color_ui = rgb { 93 140 92 }
-}
-
-PIE = {
-	color = rgb { 96 149 196 }
-	color_ui = rgb { 96 149 196 }
-}
-
-SRV = {
-	color = rgb { 30 128 142 }
-	color_ui = rgb { 50  148  172 }
-}
-
 BOH = {
 	color = rgb { 76 79 104 }
 	color_ui = rgb { 76 79 104 }
-}
-
-MRV = {
-	color = rgb { 70 150 70 }
-	color_ui = rgb { 68 170 60 }
-}
-
-TRV = {
-	color = rgb { 136 76 56 }
-	color_ui = rgb { 136 76 56 }
-}
-
-MAD = {
-	color = rgb { 178 66 60 }
-	color_ui = rgb { 216 45 45 }
-}
-
-ORI = {
-	color = rgb { 25 50 177 }
-	color_ui = rgb { 25 50 177 }
-}
-
-RJH = {
-	color = rgb { 157 75 158 }
-	color_ui = rgb { 117 50 111 }
-}
-
-BAL = {
-	color = rgb { 195 199 69 }
-	color_ui = rgb { 226 219 83 }
-}
-
-PUN = {
-	color = rgb { 103 150 122 }
-	color_ui = rgb { 93 140 92 }
-}
-
-KAS = {
-	color = rgb { 96 149 196 }
-	color_ui = rgb { 96 149 196 }
-}
-
-MYS = {
-	color = rgb { 30 138 162 }
-	color_ui = rgb { 50  148  172 }
 }
 
 SCH = {
