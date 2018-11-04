@@ -613,11 +613,6 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 
-HES = {
-	color = rgb { 18 92 153 }
-	color_ui = rgb { 18 92 153 }
-}
-
 SIL = {
 	color = rgb { 66 188 94 }
 	color_ui = rgb { 66 188 94 }
