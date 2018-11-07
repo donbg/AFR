@@ -4,8 +4,8 @@ state={
 	name="STATE_604"
 
 	history={
-		owner = ZHI
-		add_core_of = XSM
+		owner = QNH
+		add_core_of = QNH
 		add_core_of = KMT
 		add_core_of = ZHI
 		add_core_of = MAN
@@ -19,10 +19,6 @@ state={
 			infrastructure = 1
 			industrial_complex = 3
 			arms_factory = 1
-
-		}
-		1938.10.25 = {
-			owner = KMT
 
 		}
 

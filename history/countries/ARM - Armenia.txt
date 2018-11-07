@@ -59,13 +59,13 @@ set_politics = {
 			popularity = 4
 		}
 		social_liberal = {
-			popularity = 32
-		}
-		market_liberal = {
 			popularity = 4
 		}
-		social_conservative = {
+		market_liberal = {
 			popularity = 41
+		}
+		social_conservative = {
+			popularity = 32
 		}
 		authoritarian_democrat = {
 			popularity = 1
@@ -84,13 +84,22 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 
 }
 
-
+create_country_leader = {
+	name = "Nikol Poghosi Aghbalian"
+	desc = "POLITICS_NIKOL_AGHBALIAN_DESC"
+	picture = "Portrait_Nikol_Aghbalian.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
 
 

@@ -91,115 +91,13 @@ set_politics = {
 }
 
 set_convoys = 100
-
-### Field Marshals
-create_field_marshal = {
-	name = "Thomas Blamey"
-	picture = "Portrait_AST_Thomas_Blamey.tga"
-	traits = { trait_reckless offensive_doctrine }
-	skill = 4
-	attack_skill = 3
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 2
-}
-
-#### Commanders
-create_corps_commander = {
-	name = "Leslie Morshead"
-	picture = "Portrait_AST_Leslie_Morshead.tga"
-	traits = { brilliant_strategist trait_reckless }
-	skill = 3
-	attack_skill = 2
-    defense_skill = 3
-    planning_skill = 4
-    logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Alan Vasey"
-	picture = "Portrait_AST_Alan_Vasey.tga"
-	traits = { trait_reckless hill_fighter }
-	skill = 3
-	attack_skill = 1
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Horace Robertson"
-	picture = "Portrait_AST_Horace_Robertson.tga"
-	traits = { desert_fox }
-	skill = 3
-	attack_skill = 1
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
-}
-create_corps_commander = {
-	name = "John Northcott"
-	picture = "Portrait_AST_John_Northcott.tga"
-	traits = { panzer_leader}
-	skill = 1
-	attack_skill = 1
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Brudenell White"
-	picture = "Portrait_AST_Brudenell_White.tga"
-	traits = { }
-	skill = 3
-	attack_skill = 1
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
-}
-
-### Admirals
-create_navy_leader = {
-	name = "Harold Farncomb"
-	gfx = "GFX_AST_harold_farncomb"
-	traits = { air_controller }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Victor Crutchley"
-	gfx = "GFX_AST_victor_crutchley"
-	traits = { }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "John Collins"
-	picture = "Portrait_AST_John_Collins.tga"
-	traits = { }
-	skill = 2
-}
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Sydney Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
-}
-
-create_equipment_variant = {
-	name = "Canberra Class"
-	type = heavy_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_armor_upgrade = 2
-		ship_gun_upgrade = 2
+create_country_leader = {
+	name = "Albert George"
+	desc = "POLITICS_ALBERT_GEORGE_DESC"
+	picture = "Portrait_Albert_George.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
 	}
 }

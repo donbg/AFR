@@ -50,14 +50,14 @@ set_politics = {
 			popularity = 5
 		}
 		libertarian_marxist = {
-			popularity = 0
+			popularity = 45
 		}
 	
 		revisionist_socialist = {
 			popularity = 2
 		}
 		social_democrat = {
-			popularity = 45
+			popularity = 0
 		}
 		social_liberal = {
 			popularity = 0
@@ -82,7 +82,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = libertarian_marxist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -90,11 +90,11 @@ set_politics = {
 
 
 create_country_leader = {
-    name = "Vatslaw Lastowski"
-    desc = ""
+    name = "Vaclau Lastowskі"
+    desc = "POLITICS_DESC_VACLAU_LASTOWSKI"
     picture = "Portrait_BLR_Vaclau_Lastouki.dds"
     expire = "1965.1.1"
-    ideology = national_populist_subtype
+    ideology = libertarian_marxist_subtype
     traits = {
         #
     }

@@ -48,10 +48,10 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 0
+			popularity = 40
 		}
 		libertarian_marxist = {
-			popularity = 50
+			popularity = 10
 		}
 		revisionist_socialist = {
 			popularity = 2
@@ -82,10 +82,21 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = libertarian_marxist
+	ruling_party = vanguard_marxist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Stanislav Kosior"
+	desc = ""
+	picture = "Portrait_UKR_Stanislav_Kosior.tga"
+	expire = "1953.3.1"
+	ideology = vanguard_marxist_subtype
+	traits = {
+		
+	}
 }
 
 create_country_leader = {
@@ -110,49 +121,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Serhij Jefremov"
-	desc = ""
-	picture = "Portrait_UKR_serhij_kefremov.dds"
-	expire = "1953.3.1"
-	ideology = social_liberal_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Serhiy Ostapenko"
-	desc = ""
-	picture = "Portrait_UKR_serhiy_ostapenko.dds"
-	expire = "1953.3.1"
-	ideology = market_liberal_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Oleksander Shulhyn"
-	desc = ""
-	picture = "Portrait_UKR_oleksander_shulhyn.dds"
-	expire = "1953.3.1"
-	ideology = social_conservative_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Pavlo Skoropadskyi"
-	desc = ""
-	picture = "Portrait_UKR_pavlo_skoropadskyi.dds"
-	expire = "1953.3.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		
-	}
-}
 
 create_country_leader = {
 	name = "Ivan Chernyakhovsky"

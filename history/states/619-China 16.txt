@@ -13,9 +13,9 @@ state={
 	}
 
 	history={
-		owner = SIK
+		owner = ETR
 		add_core_of = MAN
-		add_core_of = SIK
+		add_core_of = ETR
 		add_core_of = KMT
 		buildings = {
 			infrastructure = 3

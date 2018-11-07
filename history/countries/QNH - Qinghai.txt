@@ -1,0 +1,63 @@
+﻿capital = 7940
+
+oob = "INF"
+
+set_stability = 0.50
+set_war_support = 0.50
+
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+set_politics = {
+	parties = {
+		vanguard_marxist = {
+			popularity = 0
+		}
+		libertarian_marxist = {
+			popularity = 8
+		}	
+		revisionist_socialist = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 4
+		}
+		social_liberal = {
+			popularity = 6
+		}
+		market_liberal = {
+			popularity = 10
+		}
+		social_conservative = {
+			popularity = 8
+		}
+		authoritarian_democrat = {
+			popularity = 4
+		}
+		paternal_autocrat = {
+			popularity = 60
+		}
+		national_populist = {
+			popularity = 8
+		}
+		fratellist = {
+			popularity = 0
+		}
+	}
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".tga"
+	expire = "1953.3.1"
+	ideology = libertarian_socialist_subtype
+	traits = {
+		
+	}
+}

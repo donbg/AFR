@@ -455,8 +455,8 @@ GEO = {
 }
 
 ARM = {
-	color = rgb { 176  102  180 }
-	color_ui = rgb { 176  102  180 }
+	color = rgb { 137  119  62 }
+	color_ui = rgb { 97  86  49 }
 }
 
 LAO = {
@@ -697,8 +697,8 @@ KUM = {
 	color_ui = rgb { 118 98 64 }
 }
 BIN = {
-	color = rgb { 118 63 54 }
-    color_ui = rgb { 97 55 46 }
+	color = rgb { 162 56 52 }
+    color_ui = rgb { 137 38 35 }
 }
 SRW = {
 	color = rgb { 178 139 134 }
@@ -715,4 +715,12 @@ ILL = {
 AGA = {
 	color = rgb { 0 95 140 }
 	color_ui = rgb { 0 95 140 }
+}
+ETR = {
+	color = rgb { 152 152 147 }
+	color_ui = rgb { 123 124 116 }
+}
+QNH = {
+	color = rgb { 158 117 70 }
+	color_ui = rgb { 111 86 57 }
 }

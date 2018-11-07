@@ -22,10 +22,6 @@ set_technology = {
 }
 
 add_ideas = {
-	GEN_Louis_Martin_hog_sde
-	GEN_Charles_Granet_for_sde
-	GEN_Adam_Duret_eco_sde
-	GEN_Robin_Trudeau_sec_sde
 }
 
 set_stability = 0.50
@@ -51,19 +47,19 @@ set_politics = {
 			popularity = 2
 		}
 		social_democrat = {
-			popularity = 54
+			popularity = 44
 		}
 		social_liberal = {
 			popularity = 2
 		}
 		market_liberal = {
-			popularity = 34
+			popularity = 2
 		}
 		social_conservative = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 2
+			popularity = 44
 		}
 		paternal_autocrat = {
 			popularity = 2
@@ -77,16 +73,16 @@ set_politics = {
 	}
 
 
-	ruling_party = social_democrat
+	ruling_party = authoritarian_democrat
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Lord Monckton-Arundell"
+	name = "George Vere Arundel Monckton-Arundell"
 	desc = "POLITICS_MONCKTON_ARUNDELL_DESC"
-	picture = "Lord_Monckton_Arundell.tga"
+	picture = "Lord_NZL_Monckton_Arundell.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -95,84 +91,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Lord Monckton-Arundell"
+	name = "George Vere Arundel Monckton-Arundell"
 	desc = "POLITICS_MONCKTON_ARUNDELL_DESC"
-	picture = "Lord_Monckton_Arundell.tga"
+	picture = "Lord_NZL_Monckton_Arundell.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
 }
-
 create_country_leader = {
-	name = "John Ormond"
-	desc = "POLITICS_JOHN_ORMOND_DESC"
-	picture = "GFX_NZL_john_ormond"
+	name = "William Birwood"
+	desc = "POLITICS_MONCKTON_ARUNDELL_DESC"
+	picture = "William_Birdwood.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
-	}
-}
-
-create_country_leader = {
-	name = "Elsie Farrelly"
-	desc = "POLITICS_JOHN_ORMOND_DESC"
-	picture = "GFX_NZL_elsie_farrelly"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#
-	}
-}
-
-set_convoys = 70
-
-create_corps_commander = {
-	name = "Bernard Freyberg"
-	gfx = "GFX_NZL_bernard_freyberg"
-	traits = {  }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Robert Row"
-	gfx = "GFX_NZL_robert_row"
-	traits = { naval_invader }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "William Stevens"
-	gfx = "GFX_NZL_william_stevens"
-	traits = {  }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Edmund Rupert Drummond"
-	gfx = "GFX_NZL_edmund_drummond"
-	traits = { }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Peter Phipps"
-	gfx = "GFX_NZL_peter_phipps"
-	traits = { }
-	skill = 3
-}
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Leander Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 2
 	}
 }

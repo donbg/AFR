@@ -44,16 +44,16 @@ set_politics = {
 			popularity = 2
 		}
 		social_democrat = {
-			popularity = 5
+			popularity = 47
 		}
 		social_liberal = {
 			popularity = 3
 		}
 		market_liberal = {
-			popularity = 15
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 47
+			popularity = 15
 		}
 		authoritarian_democrat = {
 			popularity = 22
@@ -69,7 +69,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = social_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -78,7 +78,7 @@ set_politics = {
 create_country_leader = {
 	name = "Juho Kusti Paasikivi"
 	desc = "POLITICS_JUHO_KUSTI_PAASIKIVI_DESC"
-	picture = "Portrait_FIN_Juho_Kusti_Paasikivi.dds"
+	picture = "Portrait_FIN_Juho_Kusti_Paasikivi.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -98,11 +98,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kyösti Kallio"
-	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
-	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	name = "Väinö Tanner"
+	desc = "POLITICS_VAINO_TANNER_DESC"
+	picture = "Portrait_Vaino_Tanner.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		#
 	}

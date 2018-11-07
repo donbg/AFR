@@ -79,7 +79,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Bonifacius Cornelis de Jonge"
+	name = "Johan Paul van Limburg Stirum"
 	desc = "POLITICS_BONIJONGE_DESC"
 	picture = "BonifaciusDeJonge.dds"
 	expire = "1965.1.1"

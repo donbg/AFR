@@ -45,14 +45,14 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 66
+			popularity = 11
 		}
 		libertarian_marxist = {
-			popularity = 8
+			popularity = 44
 		}
 			
 		revisionist_socialist = {
-			popularity = 2
+			popularity = 11
 		}
 		social_democrat = {
 			popularity = 1
@@ -80,7 +80,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = libertarian_marxist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -97,70 +97,13 @@ create_country_leader = {
 	}
 }
 
-### FIELD MARSHALS ###
-create_field_marshal = {
-	name = "Lavrentiy Beria"
-	picture = "Portrait_GEO_Lavrentiy_Beria.dds"
-	id = 63714
-	traits = { old_guard harsh_leader expert_delegator JAP_communist_sympathizer substance_addict }
-	skill = 1 
-	attack_skill = 1
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Giorgi Mazniashvili"
-	picture = "Portrait_GEO_Giorgi_Mazniashvili.tga"
-	id = 63001
-	traits = {  }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 4
-    planning_skill = 2
-    logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Giorgi Kvinitadze"
-	picture = "Portrait_GEO_Giorgi_Kvinitadze.tga"
-	id = 63002
-	traits = { brilliant_strategist infantry_officer unyielding_defender }
-	skill = 5
-	attack_skill = 5
-    defense_skill = 5
-    planning_skill = 4
-    logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Kakutsa Cholokashvili"
-	picture = "Portrait_GEO_Kakutsa_Cholokashvili.tga"
-	id = 63003
-	traits = { trait_mountaineer ranger trickster commando cavalry_expert }
-	skill = 3
-	attack_skill = 3
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 4
-}
-
-create_field_marshal = {
-	name = "Valiko Jugheli"
-	picture = "Portrait_GEO_Valiko_Jugheli.tga"
-	id = 63004
-	traits = { commando }
-	skill = 2
-	attack_skill = 3
-    defense_skill = 2
-    planning_skill = 1
-    logistics_skill = 4
-}
-
-create_navy_leader = {
-	name = "Giorgi Abashvili"
-	picture = "Portrait_GEO_Giorgi_Abashvili.tga"
-	traits = { seawolf blockade_runner }
-	skill = 3
+create_country_leader = {
+	name = "Noe Zhordania"
+	desc = "POLITICS_NOE_ZHORDANIA"
+	picture = "Portrait_GEO_Noe_Zhordania.tga"
+	expire = "1953.3.1"
+	ideology = libertarian_marxist_subtype
+	traits = {
+		
+	}
 }

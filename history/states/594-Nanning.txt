@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = KMT
-		add_core_of = KMT
+		owner = ZHI
+		add_core_of = ZHI
 		add_core_of = MAN
 		buildings = {
 			infrastructure = 3
@@ -22,15 +22,6 @@ state={
 			7137 10 
 		}
 
-		1938.10.25 = {		
-			remove_core_of = GXC
-			owner = KMT
-			JAP = {
-				set_province_controller = 1018
-				set_province_controller = 4023
-				set_province_controller = 10004
-			} 			
-		}
 	}
 
 	provinces={

@@ -10,8 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = KMT
-		add_core_of = KMT
+		owner = ZHI
+		add_core_of = ZHI
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -22,9 +22,6 @@ state= {
 			10404 3 
 		}
 
-		1938.10.25 = {
-			owner = KMT
-		}
 
 	}
 	provinces={

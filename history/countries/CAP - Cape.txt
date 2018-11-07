@@ -29,10 +29,6 @@ set_technology = {
 }
 
 add_ideas = {
-	GEN_Francesco_Esposito_hog_mli
-	GEN_Antonello_D_Angelo_for_mli
-	GEN_Eros_Berna_eco_mli
-	GEN_Fleano_Carideo_sec_mli
 }
 
 set_research_slots = 3
@@ -87,39 +83,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
-	expire = "1965.1.1"
-	ideology = vanguard_marxist_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
+	name = "John Buchan"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_CAP_John_Buchan.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -127,9 +93,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
+	name = "John Buchan"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_CAP_John_Buchan.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -137,9 +103,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
+	name = "John Buchan"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_CAP_John_Buchan.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -147,110 +113,24 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
+	name = "John Buchan"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_CAP_John_Buchan.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
 }
+
 create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
+	name = "John Buchan"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_CAP_John_Buchan.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
 }
-create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Lord Hyde"
-	desc = "POLITICS_LORD_HYDE_DESC"
-	picture = "Portrait_Lord_Hyde.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
 
-#create_country_leader = {
-#	name = "J. B. M. Hertzog"
-#	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-#	picture = "GFX_SAF_james_hertzog"
-#	expire = "1965.1.1"
-#	ideology = social_conservative_subtype
-#	traits = {
-#		#
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "D. F. Malan"
-#	desc = "POLITICS_DF_MALAN_DESC"
-#	picture = "GFX_SAF_daniel_malan"
-#	expire = "1965.1.1"
-#	ideology = national_populist_subtype
-#	traits = {
-#		#
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Moses Kotane"
-#	desc = "POLITICS_MOSES_KOTANE_DESC"
-#	picture = "GFX_SAF_moses_kotane"
-#	expire = "1965.1.1"
-#	ideology = syndicalist_subtype
-#	traits = {
-#		#
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Pixley Ka Isaka Seme"
-#	desc = "POLITICS_PIXLEY_SEME_DESC"
-#	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
-#	expire = "1965.1.1"
-#	ideology = market_liberal_subtype
-#	traits = {
-#		#
-#	}
-#}
-
-create_corps_commander = {
-	name = "George Edwin Brink"
-	gfx = "GFX_SAF_george_edwin_brink"
-	traits = { desert_fox  }
-	skill = 4
-}
-
-create_navy_leader = {
-	name = "Guy Hallifax"
-	gfx = "GFX_SAF_guy_halifax"
-	traits = { }
-	skill = 3
-}

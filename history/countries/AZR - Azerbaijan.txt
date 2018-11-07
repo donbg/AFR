@@ -41,10 +41,6 @@ set_technology = {
 }
 
 add_ideas = {
-	GEN_Hugo_Bernard_hog_sli
-	GEN_Felix_Menard_for_sli
-	GEN_Francis_Morel_eco_sli
-	GEN_Baptiste_Sartre_sec_sli
 }
 
 set_politics = {
@@ -63,10 +59,10 @@ set_politics = {
 			popularity = 16
 		}
 		social_liberal = {
-			popularity = 30
+			popularity = 2
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 33
 		}
 		social_conservative = {
 			popularity = 16
@@ -107,19 +103,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mammad Amin Rasulzade"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = social_conservative_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Javad Malik-Yeganov"
-	desc = ""
-	picture = "Portrait_AZR_Javad_Malik_Yeganov.tga"
+	desc = "POLITICS_MAMMAD_DESC"
+	picture = "Portrait_AZR_Mammad_Amin_Rasulzade.tga"
 	expire = "1953.3.1"
 	ideology = social_liberal_subtype
 	traits = {

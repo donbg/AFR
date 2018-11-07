@@ -35,7 +35,7 @@ set_politics = {
 			popularity = 2
 		}
 		social_democrat = {
-			popularity = 34
+			popularity = 16
 		}
 		social_liberal = {
 			popularity = 8
@@ -44,7 +44,7 @@ set_politics = {
 			popularity = 22
 		}
 		social_conservative = {
-			popularity = 16
+			popularity = 34
 		}
 		authoritarian_democrat = {
 			popularity = 6
@@ -60,18 +60,18 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = social_conservative
 	last_election = "1931.10.3"
 	election_frequency = 108
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Wessel Freytag von Loringhoven"
-	desc = "POLITICS_FREYTAG_VON_LORINGHOVEN_DESC"
-	picture = "Portrait_LAT_Freytag_von_Loringhoven.tga"
+	name = "Alexander Riesenkampff"
+	desc = "POLITICS_ALEXANDER_RIESENKAMPFF_DESC"
+	picture = "Portrait_LAT_Alexander_Riesenkampff.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

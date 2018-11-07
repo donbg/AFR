@@ -8,9 +8,9 @@ state=
 	
 	history=
 	{
-		owner = KMT
+		owner = YUN
 		add_core_of = YUN
-		add_core_of = KMT
+		add_core_of = ZHI
 		add_core_of = MAN
 		buildings = {
 			infrastructure = 2
