@@ -63,18 +63,18 @@ set_politics = {
 	}
 
 
-	ruling_party = social_conservative
+	ruling_party = vanguard_marxist
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Andrej Hlinka"
-	desc = "POLITICS_ANDREJ_HLINKA_DESC"
-	picture = "AndrejHlinka.dds"
+	name = "Emanuel Lehocký"
+	desc = "POLITICS_EMANUEL_LEHOCKY_DESC"
+	picture = "Portrait_Emanuel_Lehocky.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = vanguard_marxist_subtype
 	traits = {
 		#
 	}

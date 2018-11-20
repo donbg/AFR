@@ -51,7 +51,9 @@ add_ideas = {
 
 set_convoys = 800
 
-# DIPLOMACY
+
+
+
 if = {
 	limit = {
 		has_dlc = "Together for Victory"

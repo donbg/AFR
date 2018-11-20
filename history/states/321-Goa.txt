@@ -7,7 +7,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = PRR
+		owner = POR
 		victory_points = {
 			1273 1 
 		}
@@ -17,7 +17,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = PRR
+		add_core_of = POR
 	}
 
 	provinces={

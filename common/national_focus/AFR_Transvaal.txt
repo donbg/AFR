@@ -29,6 +29,7 @@ focus_tree = {
 			add_political_power = 50
 		}
 	}
+	####Recovery part#####
 	focus = {
 		id = TRN_smuts_plan
 		icon = GFX_TRN_smuts_plan
@@ -132,7 +133,136 @@ focus_tree = {
 		}
 	}
 	focus = {
-		
+		id = TRN_relief_for_armblankes
+		icon = GFX_goal_unknown
+		desc = TRN_relief_for_armblankes_desc
+		x = 2
+		y = 4
+		mutually_exclusive = {
+        focus = TRN_rely_on_bantu_labor
+		}
+		prerequisite = {
+        focus = TRN_austerity_measures
+		focus = TRN_bailout_boer_farmers
+		}
+		cost = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = TRN_rely_on_bantu_labor
+		icon = GFX_goal_unknown
+		desc = TRN_rely_on_bantu_labor_desc
+		x = 4
+		y = 4
+		mutually_exclusive = {
+        focus = TRN_relief_for_armblankes
+		}
+		prerequisite = {
+        focus = TRN_austerity_measures
+		focus = TRN_bailout_boer_farmers
+		}
+		cost = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = TRN_mothball_railways
+		icon = GFX_goal_unknown
+		desc = TRN_mothball_railways_desc
+		x = 2
+		y = 5
+		mutually_exclusive = {
+        focus = TRN_renegotiate_the_customs
+		}
+		prerequisite = {
+        focus = TRN_relief_for_armblankes
+		focus = TRN_rely_on_bantu_labor
+		}
+		cost = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = TRN_renegotiate_the_customs
+		icon = GFX_goal_unknown
+		desc = TRN_renegotiate_the_customs_desc
+		x = 4
+		y = 5
+		mutually_exclusive = {
+        focus = TRN_mothball_railways
+		}
+		prerequisite = {
+        focus = TRN_relief_for_armblankes
+		focus = TRN_rely_on_bantu_labor
+		}
+		cost = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = TRN_n_genesingsperiode
+		icon = GFX_goal_unknown
+		desc = TRN_n_genesingsperiode_desc
+		x = 3
+		y = 6
+		prerequisite = {
+        focus = TRN_mothball_railways
+		focus = TRN_renegotiate_the_customs
+		}
+		cost = 6
+		completion_reward = {
+		}
+	}
+	###Main Economic Branch####
+	focus = {
+		id = TRN_state_enterprise_plans
+		icon = GFX_goal_unknown
+		desc = TRN_state_enterprise_plans_desc
+		x = 13
+		y = 1
+		prerequisite = {
+        focus = TRN_economic_adjustments
+		}
+		cost = 6
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = TRN
+					is_in_home_area = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = TRN
+					is_in_home_area = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = TRN_procure_foreign_investment
+		icon = GFX_goal_unknown
+		desc = TRN_state_enterprise_plans_desc
+		x = 11
+		y = 2
+		prerequisite = {
+        focus = TRN_state_enterprise_plans
+		}
+		cost = 6
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = industry
+			}
+			country_event = {
+				id = TRN.XXX
+				days = 10
+			}
+		}
 	}
 	
 }

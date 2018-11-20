@@ -5,8 +5,24 @@
 spriteTypes = {
 	
 	spriteType = {
-		name = "GFX_TRN_miner_strike"
-		texturefile = "gfx/event_pictures/AFR/transvaal/TRN_miner_strike.dds"
+		name = "GFX_TRN_mine_strike"
+		texturefile = "gfx/event_pictures/AFR/TRN/TRN_mine_strike.tga"
 	}
-
+	
+	spriteType = {
+		name = "GFX_TRN_jaers"
+		texturefile = "gfx/event_pictures/AFR/TRN/TRN_jaers.tga"
+	}
+	spriteType = {
+		name = "GFX_TRN_johannesburg_riots"
+		texturefile = "gfx/event_pictures/AFR/TRN/TRN_johannesburg_riots.tga"
+	}
+	spriteType = {
+		name = "GFX_TRN_lionel_randlord"
+		texturefile = "gfx/event_pictures/AFR/TRN/TRN_lionel_randlord.tga"
+	}
+	spriteType = {
+		name = "GFX_TRN_train"
+		texturefile = "gfx/event_pictures/AFR/TRN/TRN_randtram.tga"
+	}
 }

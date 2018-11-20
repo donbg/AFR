@@ -724,3 +724,7 @@ QNH = {
 	color = rgb { 158 117 70 }
 	color_ui = rgb { 111 86 57 }
 }
+GEA = {
+	color = rgb { 94 113 106 }
+	color_ui = rgb { 78 90 85 }
+}

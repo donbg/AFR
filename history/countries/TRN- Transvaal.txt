@@ -55,38 +55,38 @@ set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 13
+			popularity = 4
 		}
 		libertarian_marxist = {
-			popularity = 4
+			popularity = 6
 		}
 			
 		revisionist_socialist = {
-			popularity = 7
+			popularity = 11
 		}
 		social_democrat = {
-			popularity = 5
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 16
+			popularity = 25
 		}
 		market_liberal = {
-			popularity = 3
+			popularity = 1
 		}
 		social_conservative = {
-			popularity = 17
+			popularity = 21
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 7
+			popularity = 6
 		}
 		national_populist = {
-			popularity = 10
+			popularity = 16
 		}
 		fratellist = {
-			popularity = 1
+			popularity = 0
 		}
 	}
 
@@ -127,9 +127,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Wicus du Plessi"
-	desc = "POLITICS_WICUS_DU_PLESSIS_DESC"
-	picture = "GFX_TRN_wicus_du_plessis.tga"
+	name = "Frederic Creswell"
+	desc = "POLITICS_FREDERIC_CRESWELL_DESC"
+	picture = "GFX_TRN_Frederic_Creswell.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -197,9 +197,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "William Nicol"
-	desc = "POLITICS_WILLIAM_NICOL_DESC"
-	picture = "GFX_TRN_william_nicol.tga"
+	name = "D.F. Malan"
+	desc = "POLITICS_DF_MALAN_DESC"
+	picture = "GFX_TRN_df_malan.tga"
 	expire = "1965.1.1"
 	ideology = fratellist_subtype
 	traits = {

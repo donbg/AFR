@@ -50,6 +50,21 @@ add_to_faction = GER
 add_to_faction = LAT
 add_to_faction = LIT
 add_to_faction = AUS
+add_to_faction = GEA
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = GEA
+		autonomous_state = autonomy_colony
+		freedom_level = 0.25
+	}
+	else = {
+		puppet = GEA
+	}
+}
 
 set_research_slots = 4
 set_convoys = 200

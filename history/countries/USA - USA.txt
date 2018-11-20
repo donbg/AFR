@@ -46,34 +46,34 @@ set_politics = {
 			popularity = 1
 		}
 		libertarian_marxist = {
-			popularity = 1
+			popularity = 0
 		}
 		revisionist_socialist = {
 			popularity = 6
 		}
 		social_democrat = {
-			popularity = 13
+			popularity = 15
 		}
 		social_liberal = {
-			popularity = 19
+			popularity = 26
 		}
 		market_liberal = {
-			popularity = 21
+			popularity = 20
 		}
 		social_conservative = {
-			popularity = 22
+			popularity = 27
 		}
 		authoritarian_democrat = {
-			popularity = 8
-		}
-		paternal_autocrat = {
 			popularity = 4
 		}
+		paternal_autocrat = {
+			popularity = 1
+		}
 		national_populist = {
-			popularity = 2
+			popularity = 0
 		}
 		fratellist = {
-			popularity = 3
+			popularity = 0
 		}
 	}
 
@@ -120,9 +120,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Harry F. Byrd"
-	desc = "POLITICS_HARRY_F_BYRD_DESC"
-	picture = "Portrait_USA_Harry_F_Byrd.tga"
+	name = "John Nance Garner"
+	desc = "POLITICS_JOHN_GARNER_DESC"
+	picture = "Portrait_USA_John_Nance_Garner.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -164,9 +164,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Charles Coughlin"
-	desc = "POLITICS_CHARLES_COUGHLIN_DESC"
-	picture = "Portrait_USA_Charles_Coughlin.tga"
+	name = "William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_PELLEY_DESC"
+	picture = "Portrait_USA_Pelley.tga"
 	expire = "1965.1.1"
 	ideology = fratellist_subtype
 	traits = {

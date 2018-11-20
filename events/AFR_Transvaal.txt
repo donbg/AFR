@@ -26,7 +26,7 @@ country_event = {
 	
 	immediate = {
 		set_variable = { boer_unrest = 0.2 }
-			set_variable = { uitlander_unrest = 0.55 }
+			set_variable = { uitlander_unrest = 0.5 }
 			set_variable = { randlord_unrest = 0.4 }
 			set_variable = { natives_unrest = 0.3 }
 			clamp_variable = {
@@ -110,7 +110,7 @@ country_event = {
 	id = TRN.4 ####Mine Strikes in Johannesburg####
     title = TRN.4.t
     desc = TRN.4.d
-	picture = GFX_TRN_miner_strike
+	picture = GFX_TRN_mine_strike
 
 	trigger = {
 		tag = TRN
@@ -237,10 +237,10 @@ country_event = {
 }
 
 country_event = { 
-	id = TRN.8 ####Randtram Railway sabotaged####
+	id = TRN.8 ####Randtram Railway trial####
     title = TRN.8.t
     desc = TRN.8.d
-	picture = gfx_USSA_dust_bowl
+	picture = GFX_TRN_train
 
 	trigger = {
 		tag = TRN
@@ -264,7 +264,7 @@ country_event = {
 		name = TRN.8.b
 		}
 	}
-	option = {        ####Blame the coloured instead####
+	option = {        ####EXECUTION####
 		name = TRN.8.c
 	}
 }
@@ -350,7 +350,7 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	option = {        ####Storm that meeting####
+	option = {        ####Ok####
 		name = TRN.11.a
 		hidden_effect = {
 			country_event = {
@@ -399,7 +399,7 @@ country_event = {
 }
 
 country_event = { 
-	id = TRN.13 ####General Strike- Strike First####
+	id = TRN.13 ####General Strike- Hit First####
     title = TRN.13.t
     desc = TRN.13.d
 	picture = gfx_USSA_dust_bowl
@@ -585,7 +585,7 @@ country_event = {
 }
 
 country_event = { 
-	id = TRN.20 ####Randlord Assassinated####
+	id = TRN.20 ####South African Native African Congress declares support for ARK####
     title = TRN.20.t
     desc = TRN.20.d
 	picture = gfx_USSA_dust_bowl
@@ -606,17 +606,6 @@ country_event = {
 	option = {        ####Arrest the culprits####
 		name = TRN.20.a
 		add_to_variable = { boer_unrest = 0.2 }
-		}
-		
-	option = {        ####Find a scapegoat####
-		name = TRN.20.b
-		add_to_variable = { uitlander_unrest = 0.3 }
-		add_to_variable = { randlord_unrest = 0.05 }
-		}
-		
-	option = {        ####Find a scapegoat####
-		name = TRN.20.c
-		add_to_variable = { randlord_unrest = 0.6 }
 		}
 }
 
@@ -670,13 +659,13 @@ country_event = {
 	}
 	
 	option = {       
-		name = TRN.22.a		###Who cares about some tribesmen?##
+		name = TRN.22.b		###Who cares about some tribesmen?##
 		add_to_variable = { natives_unrest = 0.2 }
 	}
 }
 
 country_event = { 
-	id = TRN.23 ####Consolidation Plan for Johannesburg####
+	id = TRN.23 ####Restructuring Plan for Johannesburg####
     title = TRN.23.t
     desc = TRN.23.d
 	picture = gfx_USSA_dust_bowl
@@ -695,15 +684,315 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {       
-		name = TRN.22.a		###Go ahead with the plan##
-		add_to_variable = { randlord_unrest = 0.15 }
+		name = TRN.23.a		###Go ahead with the plan##
+		add_to_variable = { natives_unrest = 0.15 }
+		add_to_variable = { }
 	}
 	
 	option = {       
-		name = TRN.22.a		###Go back##
+		name = TRN.23.b		###Go back##
 	}
 }
 
 
 
+country_event = { 
+	id = TRN.24  ####Randlord Assassinated Lionel Phillips####
+    title = TRN.24.t
+    desc = TRN.24.d
+	picture = GFX_TRN_lionel_randlord
 
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 70
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.24.a		###Investigate this##
+		
+	}
+	
+	option = {       
+		name = TRN.24.b		###Find a scapegoat##
+	}
+	
+	option = {       
+		name = TRN.24.c		###Eh##
+	}
+}
+
+country_event = { 
+	id = TRN.25  ####Jaersbund Rally####
+    title = TRN.25.t
+    desc = TRN.25.d
+	picture = GFX_TRN_jaers
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 70
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.26.a		###Pro-beoers##
+		
+	}
+	
+	option = {       
+		name = TRN.25.b		###Prioritize the safety of the foreigners##
+	}
+}
+
+country_event = { 
+	id = TRN.26  ####Reinauguration of the Rand Club####
+    title = TRN.26.t
+    desc = TRN.26.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		tag = TRN
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 70
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.26.a		###Damn randlords##
+		
+	}   
+}
+
+
+##### Uitlander-unrest based events####
+country_event = { 
+	id = TRN.27  ####Riots in Johannesburg####
+    title = TRN.27.t
+    desc = TRN.27.d
+	picture = GFX_TRN_johannesburg_riots
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = uitlander_unrest
+				value = 0.60
+				compare = greater_than_or_equals
+			}
+		}
+		
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.27.a		###Charge##
+		
+	}
+	
+	option = {       
+		name = TRN.27.b		###Brace##
+	}
+}
+
+country_event = { 
+	id = TRN.28  ####Defections to the ISL####
+    title = TRN.28.t
+    desc = TRN.28.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = uitlander_unrest
+				value = 0.65
+				compare = greater_than_or_equals
+			}
+		}
+		
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.28.a		###An unfortunate turn of events##
+	}
+	option = {       
+		name = TRN.28.b		###We'll do something about it##
+	}
+}
+
+country_event = { 
+	id = TRN.29  ####NZASM Frozen by Strikes####
+    title = TRN.29.t
+    desc = TRN.29.d
+	picture = GFX_TRN_train
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = uitlander_unrest
+				value = 0.70
+				compare = greater_than_or_equals
+			}
+		}
+		
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.29.a		###Open the rails##
+	}
+	option = {       
+		name = TRN.29.b		###We'll listen##
+	}
+}
+
+country_event = { 
+	id = TRN.30  ####Johannesburg Vandalism####
+    title = TRN.30.t
+    desc = TRN.30.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = uitlander_unrest
+				value = 0.75
+				compare = greater_than_or_equals
+			}
+		}
+		
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.30.a		###Punish someone##
+	}
+	option = {       
+		name = TRN.30.b		###Nay, we refrain##
+	}
+}
+
+country_event = { 
+	id = TRN.31  ####Ou Raadsaal Fire####
+    title = TRN.31.t
+    desc = TRN.31.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = uitlander_unrest
+				value = 0.80
+				compare = greater_than_or_equals
+			}
+		}
+		
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.31.a		###Kill em all##
+	}
+	option = {       
+		name = TRN.31.b		###Nay, we refrain##
+	}
+}
+
+country_event = { 
+	id = TRN.31  ########
+    title = TRN.31.t
+    desc = TRN.31.d
+	picture = gfx_USSA_dust_bowl
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = uitlander_unrest
+				value = 0.90
+				compare = greater_than_or_equals
+			}
+		}
+		
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.31.a		###Kill em all##
+	}
+	option = {       
+		name = TRN.31.b		###Nay, we refrain##
+	}
+}
