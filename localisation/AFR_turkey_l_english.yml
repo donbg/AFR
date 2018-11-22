@@ -1,4 +1,31 @@
 ﻿l_english:
+
+
+  #### Political Parties ####
+ TUR_vanguardist_party:0 "İÇSF"
+ TUR_vanguardist_party_long:0 "İşçi Çiftçi Sosyalist Fırkası"
+ TUR_collectivist_party:0 "AF"
+ TUR_collectivist_party_long:0 "Ahali Fırkası"
+ TUR_libertarian_socialist_party:0 "KF"
+ TUR_libertarian_socialist_party_long:0 "Komünist Fırkası"
+ TUR_social_democrat_party:0 "Sosyal Demokratlar"
+ TUR_social_democrat_party_long:0 "Sosyal Demokrat Fırkası"
+ TUR_social_liberal_party:0 "Hürriyet ve İtilaf"
+ TUR_social_liberal_party_long:0 "Hürriyet ve İtilaf Fırkası"
+ TUR_market_liberal_party:0 "Ahrar Fırkası"
+ TUR_market_liberal_party_long:0 "Ahrar Fırkası"
+ TUR_social_conservative_party:0 "Teceddüd"
+ TUR_social_conservative_party_long:0 "Teceddüd Fırkası"
+ TUR_authoritarian_democrat_party:0 "Kemalistler"
+ TUR_authoritarian_democrat_party_long:0 "Kemalist Fırkası"
+ TUR_paternal_autocrat_party:0 "Selamet-i Osmaniye"
+ TUR_paternal_autocrat_party_long:0 "Selamet-i Osmaniye Fırkası"
+ TUR_national_populist_party:0 "Turancılar"
+ TUR_national_populist_party_long:0 "Turancı Fırkası"
+ TUR_valkist_party:0 "VF"
+ TUR_valkist_party_long:0 "Valkist Fırkası"
+
+   #### Events ####
   turkey.1.t:0 "Albania Revolts!"
   turkey.1.d:0 "Sultan! Disastrous news have reached us. The Albanians are rebelling! The rebel forces have taken various key strategic points and have secured their mainland. Various soldiers switched sides and the garrison in Tirana had no chance of holding the Albanian Capital. We must retake those lands now! It will be a international disaster if such a minor nation manages to break free!"
   turkey.1.a:0 "BY ALLAH!"
@@ -12,3 +39,4 @@
   turkey.3.t:0 "Germany won't support us"
   turkey.3.d:0 ""
   turkey.3.a:0 "KAHRETSIN"
+
