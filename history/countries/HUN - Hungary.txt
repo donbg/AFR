@@ -19,6 +19,13 @@ set_technology = {
 	early_bomber = 1
 }
 
+create_faction = "Warsaw Pact"
+add_to_faction = POL
+add_to_faction = UKR
+add_to_faction = BLR
+add_to_faction = SCR
+add_to_faction = SLO
+
 set_politics = {
 
 	parties = {

@@ -1,6 +1,6 @@
 ﻿capital = 10400
 
-oob = "TRN_1936"
+oob = "INF"
 
 # Starting tech
 set_technology = {
@@ -8,82 +8,77 @@ set_technology = {
 	infantry_weapons1 = 1
 	tech_support = 1		
 	tech_engineers = 1
+	tech_recon = 1
+	tech_signal_company = 1
 	gw_artillery = 1
 
 	motorised_infantry = 1
 	gwtank = 1
+	basic_light_tank = 1
 	
 	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
 	early_bomber = 1
-
+	CAS1 = 1
+	
 	early_destroyer = 1
 	transport = 1
 	fleet_in_being = 1
 }
 
 add_ideas = {
-	TRN_louis_botha_hog_sco
-	TRN_willem_de_klerk_for_sco
-	TRN_jan_hofmeyr_eco_sco
-	TRN_nicolaas_de_wet_sec_sco
-	TRN_segregation
-	TRN_burgher_mobilization
-	TRN_witwatersrand_gold_rush
-	TRN_grey_depression
-}
 
-diplomatic_relation = {
-	country = ORA
-	relation = guarantee
-	active = yes
 }
 
 set_research_slots = 2
 set_convoys = 0
-set_stability = 0.25
-set_war_support = 0.4
+set_stability = 0.5
+set_war_support = 0.6
 
-set_country_flag = coalition_social_liberal
+set_country_flag = coalition_vanguard_marxist
+set_country_flag = coalition_libertarian_marxist
 set_politics = {
 
 	parties = {
 		vanguard_marxist = {
-			popularity = 4
+			popularity = 21
 		}
 		libertarian_marxist = {
-			popularity = 6
+			popularity = 17
 		}
 			
 		revisionist_socialist = {
-			popularity = 11
+			popularity = 39
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 14
 		}
 		social_liberal = {
-			popularity = 25
+			popularity = 7
 		}
 		market_liberal = {
-			popularity = 1
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 21
+			popularity = 2
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 6
+			popularity = 0
 		}
 		national_populist = {
-			popularity = 16
+			popularity = 0
 		}
 		fratellist = {
 			popularity = 0
 		}
 	}
 
-	ruling_party = social_conservative
+	ruling_party = revisionist_socialist
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = no
@@ -198,4 +193,53 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_field_marshal = {
+	name = "Manie Maritz"
+	gfx = "Portrait_TRN_Manie_Maritz.tga"
+	traits = { commando infantry_officer adaptable offensive_doctrine }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Jan Christoffel Kemp"
+	gfx = "Portrait_TRN_Jan_Kemp.tga"
+	traits = { reckless inflexible_strategist infantry_officer }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Fritz Joubert Duquesne"
+	gfx = "Portrait_TRN_Fritz_Duquesne.tga"
+	traits = { media_personality brilliant_strategist trickster guerilla_fighter  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Gideon Scheepers"
+	gfx = "Portrait_TRN_Gideon_Scheepers.tga"
+	traits = { reckless desert_fox engineer }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Jopie Fourie"
+	gfx = "Portrait_TRN_Jopie_Fourie.tga"
+	traits = { infantry_leader hill_fighter }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Jack Hindon"
+	gfx = "Portrait_TRN_Jack_Hindon.tga"
+	traits = { war_hero }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Hendrik Frederik Prinsloo"
+	gfx = "Portrait_TRN_Hendrik_Prinsloo.tga"
+	traits = { }
+	skill = 1
 }

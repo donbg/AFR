@@ -1,0 +1,111 @@
+﻿
+
+division_template = {
+	name = "Ongeorganiseerd Kommando" 			# Militia Division
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infanterie Kommando"			# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Transvaalse Staatsartillerie"			# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Ruitery Afdeling"			# horse
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+	}
+}
+
+
+
+units = {
+	#####  #####
+	division = {
+		name = "Potchefstroom Kommando"
+		location = 13254 
+		division_template = "Ongeorganiseerd Kommando"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Heidelberg Kommando"
+		location = 13264 
+		division_template = "Ongeorganiseerd Kommando"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Waterberg Kommando"
+		location = 5217 
+		division_template = "Infanterie Kommando"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Pretoria Kommando"
+		location = 13257 
+		division_template = "Infanterie Kommando"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Middelburg Kommando"
+		location = 13261 
+		division_template = "Ongeorganiseerd Kommando"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.22
+		efficiency = 100
+	}
+}

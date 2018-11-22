@@ -963,7 +963,7 @@ country_event = {
 }
 
 country_event = { 
-	id = TRN.31  ########
+	id = TRN.31  ####Mobilization####
     title = TRN.31.t
     desc = TRN.31.d
 	picture = gfx_USSA_dust_bowl
@@ -991,8 +991,388 @@ country_event = {
 	
 	option = {       
 		name = TRN.31.a		###Kill em all##
-	}
-	option = {       
-		name = TRN.31.b		###Nay, we refrain##
+			hidden_effect = {
+			country_event = {
+				id = TRN.32
+				days = 3
+			}
+		}
 	}
 }
+
+country_event = { 
+	id = TRN.32  ####CIVIL WAR SOCIALISTS RISE UP####
+    title = TRN.32.t
+    desc = TRN.32.d
+	picture = gfx_USSA_dust_bowl
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.32.a		###Eh##
+		SSA = {
+			add_state_core = 949
+			transfer_state = 949
+			add_state_core = 950
+			transfer_state = 950
+			hidden_effect = {
+				load_oob = "INF"
+				add_equipment_to_stockpile = { 
+					type = infantry_equipment_1 
+					amount = 1000 
+					producer = TRN 
+				}
+			}
+		}
+		add_war_support = 0.25
+		add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 100 
+				producer = TRN 
+		}
+		declare_war_on = {
+			target = SSA
+			type = annex_everything
+		}
+		add_popularity = {
+			ideology = revisionist_socialist
+			popularity = -0.5
+		}
+		add_popularity = {
+			ideology = vanguard_marxist
+			popularity = -0.5
+		}
+		add_popularity = {
+			ideology = libertarian_marxist
+			popularity = -0.5
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+		if = {
+			limit = { 
+				NOT = { has_country_flag = national_populist_coup }	
+				}
+			hidden_effect = {
+				country_event = {
+					id = TRN.40
+					days = 1
+				}
+			}
+		}
+	}
+	option = {       
+		name = TRN.32.b		###Play as socialists##
+		SSA = {
+			add_state_core = 949
+			transfer_state = 949
+			add_state_core = 950
+			transfer_state = 950
+			hidden_effect = {
+				load_oob = "INF"
+				add_equipment_to_stockpile = { 
+					type = infantry_equipment_1 
+					amount = 1000 
+					producer = TRN 
+				}
+			}
+			change_tag_from = TRN
+		}
+		add_war_support = 0.25
+		add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 100 
+				producer = TRN 
+		}
+		declare_war_on = {
+			target = SSA
+			type = annex_everything
+		}
+		add_popularity = {
+			ideology = revisionist_socialist
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = vanguard_marxist
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = libertarian_marxist
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+		if = {
+			limit = { 
+				NOT = { has_country_flag = national_populist_coup }	
+				}
+			hidden_effect = {
+				country_event = {
+					id = TRN.40
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+#####Boer-based unrest events#####
+country_event = { 
+	id = TRN.33  ####Political Protests####
+    title = TRN.33.t
+    desc = TRN.33.d
+	picture = fff
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = boer_unrest
+				value = 0.40
+				compare = greater_than_or_equals
+			}
+		}
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.27.a		###Hear to them##
+		
+	}
+	
+	option = {       
+		name = TRN.27.b		###Pay no heed##
+	}
+}
+
+country_event = { 
+	id = TRN.34  ####Afrikaner Broederbond elects radical####
+    title = TRN.34.t
+    desc = TRN.34.d
+	picture = fff
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = boer_unrest
+				value = 0.50
+				compare = greater_than_or_equals
+			}
+		}
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.34.a		###understood##
+		
+	}
+}
+
+country_event = { 
+	id = TRN.35  ####Lynching of uitlanders####
+    title = TRN.35.t
+    desc = TRN.35.d
+	picture = fff
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = boer_unrest
+				value = 0.60
+				compare = greater_than_or_equals
+			}
+		}
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.35.a		###a firm hand##
+	}
+	
+	option = {       
+		name = TRN.35.b		###overlook##
+	}
+}
+
+country_event = { 
+	id = TRN.36  ####Boycott on uitlander industries####
+    title = TRN.36.t
+    desc = TRN.36.d
+	picture = fff
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = boer_unrest
+				value = 0.70
+				compare = greater_than_or_equals
+			}
+		}
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.36.a		###help them out##
+	}
+	
+	option = {       
+		name = TRN.36.b		###do nothing##
+	}
+}
+
+
+country_event = { 
+	id = TRN.37  ####Whistleblower exposes Jaersbund in treason####
+    title = TRN.37.t
+    desc = TRN.37.d
+	picture = fff
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = boer_unrest
+				value = 0.80
+				compare = greater_than_or_equals
+			}
+		}
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.37.a		###make  a move##
+	}
+	
+	option = {       
+		name = TRN.37.b		###do nothing##
+	}
+}
+
+country_event = { 
+	id = TRN.38  ####Mass defections to the Afrikanerfront####
+    title = TRN.38.t
+    desc = TRN.38.d
+	picture = fff
+
+	trigger = {
+		AND = {
+			tag = TRN
+			check_variable = {
+				var = boer_unrest
+				value = 0.90
+				compare = greater_than_or_equals
+			}
+		}
+		TRN = { 
+		exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.38.a		#####
+		hidden_effect = {
+			country_event = {
+				id = TRN.39
+				days = 6
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = TRN.39  ####Coup!####
+    title = TRN.39.t
+    desc = TRN.39.d
+	picture = fff
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.39.a		###uh-oh##
+		set_politics = {
+			ruling_party = national_populist
+		}
+		set_country_flag = national_populist_coup
+		add_to_variable = { uitlander_unrest = 0.3 }
+	}
+}
+
+country_event = { 
+	id = TRN.40  ####civil war swaziland independence####
+    title = TRN.40.t
+    desc = TRN.40.d
+	picture = fff
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {       
+		name = TRN.40.a		###guess no choice huh##
+		SWA = {
+			add_state_core = 953
+			transfer_state = 953
+			hidden_effect = {
+				load_oob = "INF"
+			}
+		}
+	}
+}
+
+#####Randlord-based unrest events###

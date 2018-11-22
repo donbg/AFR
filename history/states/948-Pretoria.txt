@@ -7,7 +7,8 @@ state={
 		owner = TRN
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 3
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 1
 
 		}
@@ -20,7 +21,7 @@ state={
 	provinces={
 	 13257 13260 10400 5217 13256 13255 13258 
 	}
-	manpower=988363
+	manpower=1001363
 	buildings_max_level_factor=1.000
 	state_category=city
 }

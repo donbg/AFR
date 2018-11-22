@@ -48,16 +48,16 @@ set_politics = {
 			popularity = 6
 		}
 		market_liberal = {
-			popularity = 17
+			popularity = 7
 		}
 		social_conservative = {
-			popularity = 19
+			popularity = 37
 		}
 		authoritarian_democrat = {
 			popularity = 11
 		}
 		paternal_autocrat = {
-			popularity = 27
+			popularity = 19
 		}
 		national_populist = {
 			popularity = 8
@@ -76,9 +76,9 @@ set_politics = {
 
 
 create_country_leader = {
-    name = "Danilo II"
-    desc = "POLITICS_DANILO_II_DESC"
-    picture = "Portrait_Montenegro_Danilo_II.dds"
+    name = "Krsto Popović"
+    desc = "POLITICS_KRSTO_POPOVIC_DESC"
+    picture = "Portrait_Montenegro_Krsto_Popovic.tga"
     expire = "1965.1.1"
     ideology = social_conservative_subtype
     traits = {

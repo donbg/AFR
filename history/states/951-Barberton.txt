@@ -7,7 +7,7 @@ state={
 		owner = TRN
 		buildings = {
 			infrastructure = 4
-
+			industrial_complex = 1
 		}
 		add_core_of = TRN
 	}
@@ -15,7 +15,7 @@ state={
 	provinces={
 	 13267 10566 13263
 	}
-	manpower=82450
+	manpower=120488
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

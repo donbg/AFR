@@ -61,17 +61,17 @@ set_politics = {
             popularity = 13
         }
         paternal_autocrat = {
-            popularity = 51
+            popularity = 1
         }
         national_populist = {
-            popularity = 1
+            popularity = 51
         }
         fratellist = {
 			popularity = 1
 		}
     }
 
-    ruling_party = paternal_autocrat
+    ruling_party = national_populist
     last_election = "1935.9.8"
     election_frequency = 36
     elections_allowed = no
@@ -181,9 +181,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Prince Paul"
+	name = "Draža Mihailović"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "gfx/leaders/SER/Portrait_Yugoslavia_Prince_Paul.dds"
+	picture = "Portrait_SER_Draža_Mihailovic.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
@@ -191,16 +191,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/SER/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
 
 ##################################
 

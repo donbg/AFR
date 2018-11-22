@@ -77,10 +77,10 @@ TRN.4.c:0 "Give in to their demands"
 
 
 
-TRN.24.t:0 "Riot in Johannesburg"
-TRN.24.d:0 "Reports have been arriving from Johannesburg that the unrest of the uitlanders, both miners and middle class, has reached a breaking point. It appears that a quarrel which began between a Boer shopkeeper and some uitlanders has culminated into open riot by a disorganized yet overwhelmingly large and furious crowd. Extensive parts of the city appear to have been completely ransacked and ruined by not only frustrated uitlanders but also infiltrated criminals and even black extremist movements like the Umkhosi Wezintaba. Infrastructure and small businesses are being hit the most, and it has become obvious that to avoid further damage, immediate action must be taken. However, more progressive politicians fear that doing so will only further anger the population and make any attempts at remedying relations with uitlanders more unfeasible."
-TRN.24.a:0 "Charge!"
-TRN.24.b:0 "We have no choice but to wait"
+TRN.XX.t:0 "Riot in Johannesburg"
+TRN.XX.d:0 "Reports have been arriving from Johannesburg that the unrest of the uitlanders, both miners and middle class, has reached a breaking point. It appears that a quarrel which began between a Boer shopkeeper and some uitlanders has culminated into open riot by a disorganized yet overwhelmingly large and furious crowd. Extensive parts of the city appear to have been completely ransacked and ruined by not only frustrated uitlanders but also infiltrated criminals and even black extremist movements like the Umkhosi Wezintaba. Infrastructure and small businesses are being hit the most, and it has become obvious that to avoid further damage, immediate action must be taken. However, more progressive politicians fear that doing so will only further anger the population and make any attempts at remedying relations with uitlanders more unfeasible."
+TRN.XX.a:0 "Charge!"
+TRN.XX.b:0 "We have no choice but to wait"
 
 
 
@@ -91,9 +91,9 @@ TRN.26.b:0 "We must assure the safety of all"
 
 
 
-TRN.XX.t:0 "Randlord Assassinated!"
-TRN.XX.d:0 "It appears that our nation has drawn one step closer towards its grave with the cold-blooded assassination of Lionel Phillips late in the evening yesterday. Possibly the most esteemed and infamous mining magnate of Transvaal, witness accounts indicate that Phillips was leaving the Witwatersrand Agricultural Society when a hooded individual came up to him and shot him twice, before quickly dashing off. As Phillips was alone, medical help came too late and he died a hour later, marking the end for one of the most powerful man in all of Africa. Although conclusive evidence has yet to be found on the perpetrator's identity, a preliminary first round of investigations has pointed to an impoverished Afrikaner as the prime suspect. Although we could allow this investigation regarding the incident to deepen, many officials in the government and police have still a lingering despise for Phillips due to his involvement in the Jameson Raid and resent having to punish an Afrikaner brother over the death of a traitorous British. Therefore, a secretive movement amongst influential Boers has begun calling for the investigation to be either completely dropped or for a suitable scapegoat to be found. However, some worry that doing so might anger some of Transvaal's most powerful mine owners."
-TRN.XX.a:0 "Let the man be avenged"
-TRN.XX.b:0 "Frame some trade unionist"
-TRN.XX.c:0 "He deserved this"
+TRN.24.t:0 "Randlord Assassinated!"
+TRN.24.d:0 "It appears that our nation has drawn one step closer towards its grave with the assassination of Lionel Phillips late in the evening yesterday. Possibly the most esteemed and infamous mining magnate of Transvaal, witness accounts indicate that Phillips was leaving the Witwatersrand Agricultural Society when a hooded individual came up to him and shot him twice, before quickly dashing off. As Phillips was alone, medical help came too late and he died a hour later, marking the end for one of the most powerful man in all of Africa. Although conclusive evidence has yet to be found on the perpetrator's identity, a preliminary first round of investigations has pointed to an impoverished Afrikaner as the prime suspect. Although we could allow this investigation regarding the incident to deepen, many officials in the government and police have still a lingering despise for Phillips due to his involvement in the Jameson Raid and resent having to punish an Afrikaner brother over the death of a traitorous British. Therefore, a secretive movement amongst influential Boers has begun calling for the investigation to be either completely dropped or for a suitable scapegoat to be found. However, some worry that doing so might anger some of Transvaal's most powerful mine owners."
+TRN.24.a:0 "Let the man be avenged"
+TRN.24.b:0 "Frame some trade unionist"
+TRN.24.c:0 "He deserved this"
 

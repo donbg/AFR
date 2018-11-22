@@ -10,8 +10,8 @@ state={
 		owner = TRN
 		buildings = {
 			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 2
+			arms_factory = 1
+			industrial_complex = 4
 		}
 		add_core_of = TRN
 		victory_points = {
@@ -22,7 +22,7 @@ state={
 	provinces={
 	 13262 13265 13264 13270
 	}
-	manpower=2051040
+	manpower=1551040
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_109"
 
 	history={
-		owner = HUN
+		owner = SCR
 		buildings = {
 			infrastructure = 6
 
@@ -12,8 +12,8 @@ state={
 		victory_points = {
 			11581 3 
 		}
-		add_core_of = HUN
-
+		add_core_of = SCR
+		add_core_of = CRO
 	}
 
 	provinces={
